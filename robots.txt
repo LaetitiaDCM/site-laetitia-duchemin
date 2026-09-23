@@ -1,0 +1,5 @@
+# Tous les robots sont les bienvenus : moteurs de recherche et assistants IA.
+User-agent: *
+Allow: /
+
+Sitemap: https://laetitia-duchemin-psy.fr/sitemap.xml
