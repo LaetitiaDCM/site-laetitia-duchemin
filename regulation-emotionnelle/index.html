@@ -355,6 +355,19 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
 .refs-list{list-style:none;padding:0;margin:.6rem 0 0;font-size:.9rem}
 .refs-list li{padding-left:1.3rem;text-indent:-1.3rem;margin-bottom:.5rem;color:var(--muted)}
 .refs-list li::before{content:"–";display:inline-block;width:1.3rem;text-indent:0;color:var(--gold-deep)}
+.wave{margin:1.6rem auto;max-width:680px}
+.wave svg{width:100%;height:auto;display:block}
+.wave .w-axis{stroke:var(--muted);stroke-opacity:.5;stroke-width:1.5}
+.wave .w-line{stroke:#0d2c8c;stroke-width:3;stroke-linecap:round}
+.wave .w-foam,.wave .w-sea{stroke:#0d2c8c;stroke-opacity:.35;stroke-width:1.6;stroke-linecap:round}
+.wave .w-num{fill:#d9a648}
+.wave .w-n{font-family:var(--serif);font-size:19px;font-weight:600;fill:#fff}
+.wave .w-t{font-family:var(--serif);font-size:22px;font-weight:500;fill:var(--heading)}
+.wave .w-s{font-family:var(--sans);font-size:14px;fill:var(--muted)}
+.wave .w-small{font-family:var(--sans);font-size:12px;fill:var(--muted);letter-spacing:.06em}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .wave .w-line,:root:not([data-theme="light"]) .wave .w-foam,:root:not([data-theme="light"]) .wave .w-sea{stroke:#9fb4f5}}
+:root[data-theme="dark"] .wave .w-line,:root[data-theme="dark"] .wave .w-foam,:root[data-theme="dark"] .wave .w-sea{stroke:#9fb4f5}
+@media (max-width:560px){.wave .w-s{font-size:18px}.wave .w-t{font-size:26px}.wave .w-small{font-size:15px}.venn .v-s{font-size:17px}.venn .v-t{font-size:26px}}
 </style>
 </head>
 <body>
@@ -436,6 +449,45 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
         <a class="btn solid" href="/documents/affiche-fenetre-de-tolerance.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche (PDF)</a>
       </div>
     </div>
+    <h2 id="la-tolerance-emotionnelle">La tolérance émotionnelle</h2>
+    <p>La tolérance émotionnelle, que la psychologue Marsha Linehan appelle tolérance à la détresse, désigne la capacité à ressentir une émotion difficile sans chercher à la fuir tout de suite et sans être submergé par elle. Elle complète la régulation : réguler, c'est agir sur l'intensité d'une émotion ; tolérer, c'est pouvoir la traverser quand on ne peut pas, sur le moment, changer la situation.</p>
+    <p>Plus la tolérance émotionnelle se développe, plus la fenêtre de tolérance s'élargit : on peut ressentir davantage, sans basculer dans l'agitation ni dans la coupure.</p>
+    <h3>Surfer sur la vague</h3>
+    <p>Une émotion ressemble à une vague : elle monte, atteint un sommet, puis redescend. Plutôt que de lutter contre elle ou de la fuir, on peut l'observer : remarquer où elle se loge dans le corps, comment elle évolue, et se rappeler qu'elle va passer. Respirer lentement ou s'<a href="/dissociation/#un-outil-d-ancrage">ancrer par les sens</a> aide à rester sur la vague sans être emporté.</p>
+    <figure class="wave" role="img" aria-label="Schéma : surfer sur la vague. L'intensité de l'émotion monte, atteint un sommet puis redescend avec le temps ; à chaque étape, on observe, on respire, on s'ancre.">
+<svg viewBox="0 -14 720 389" aria-hidden="true">
+<defs><linearGradient id="wv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d2c8c" stop-opacity=".30"/><stop offset="1" stop-color="#0d2c8c" stop-opacity=".04"/></linearGradient></defs>
+
+<line x1="60" y1="300" x2="60" y2="40" class="w-axis"/>
+<path d="M684 295 l8 5 -8 5 M55 48 l5 -8 5 8" class="w-axis" fill="none"/>
+<text x="690" y="336" text-anchor="end" class="w-small">le temps</text>
+<text x="48" y="44" text-anchor="end" class="w-small" transform="rotate(-90 48 44)" dx="-4">intensité</text>
+<path d="M60 286 C150 284 200 252 245 180 C278 124 305 88 345 76 C390 64 432 86 438 122 C443 150 418 162 402 150 C390 140 396 124 410 126 C392 150 420 200 455 232 C500 270 560 284 690 287 L690 300 L60 300 Z" fill="url(#wv)"/>
+<path d="M60 286 C150 284 200 252 245 180 C278 124 305 88 345 76 C390 64 432 86 438 122 C443 150 418 162 402 150 C390 140 396 124 410 126" fill="none" class="w-line"/>
+<path d="M404 142 C398 185 425 210 455 232 C500 270 560 284 690 287" fill="none" class="w-line"/>
+<path d="M300 110 C325 92 350 86 372 88 M318 124 C338 110 356 104 374 104" fill="none" class="w-foam"/>
+<path d="M70 312 q15 -6 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0" fill="none" class="w-sea"/>
+<circle cx="212" cy="228" r="15" class="w-num"/><text x="212" y="234" text-anchor="middle" class="w-n">1</text>
+<circle cx="345" cy="76" r="15" class="w-num"/><text x="345" y="82" text-anchor="middle" class="w-n">2</text>
+<circle cx="480" cy="250" r="15" class="w-num"/><text x="480" y="256" text-anchor="middle" class="w-n">3</text>
+<text x="150" y="130" text-anchor="middle" class="w-t">La vague monte</text>
+<text x="150" y="152" text-anchor="middle" class="w-s">Je remarque où l'émotion</text>
+<text x="150" y="170" text-anchor="middle" class="w-s">se loge dans mon corps.</text>
+<text x="345" y="26" text-anchor="middle" class="w-t">Le sommet</text>
+<text x="345" y="48" text-anchor="middle" class="w-s">Je respire, je m'ancre : elle va passer.</text>
+<text x="585" y="130" text-anchor="middle" class="w-t">Elle redescend</text>
+<text x="585" y="152" text-anchor="middle" class="w-s">Je remarque ce qui</text>
+<text x="585" y="170" text-anchor="middle" class="w-s">a changé en moi.</text>
+<text x="375" y="362" text-anchor="middle" class="w-s">Plutôt que lutter ou fuir, je reste sur la vague et je l'observe.</text>
+</svg></figure>
+
+    <h3>D'autres appuis</h3>
+    <ul class="dash">
+      <li>S'apaiser par les sens : une boisson chaude, une musique douce, une odeur agréable, une couverture.</li>
+      <li>Détourner son attention de façon choisie et temporaire, le temps que l'intensité baisse, pour revenir ensuite à ce qui se passe.</li>
+      <li>Accepter ce qui est là, pour l'instant, sans pour autant l'approuver : l'acceptation diminue souvent la lutte, et avec elle une partie de la souffrance.</li>
+    </ul>
+    <p class="refs">Source : Linehan, M. M. (2015). <em>DBT Skills Training Manual</em> (2e éd.). New York : Guilford Press.</p>
     <h2 id="mon-accompagnement">Mon accompagnement</h2>
     <p>Je possède différents outils qui permettent de mieux réguler ses émotions, en fonction de chacun. La pleine conscience est un bon outil pour commencer à comprendre ce que nous ressentons, sans jugement et avec curiosité.</p>
     <h2 id="ce-que-dit-la-recherche">Ce que dit la recherche</h2>
