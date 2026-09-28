@@ -429,7 +429,7 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
 .tarifs .dur{color:var(--muted);font-size:.95rem;min-width:4.5rem;text-align:right}
 .tarifs .prix{font-family:var(--serif);font-size:1.7rem;color:var(--heading);min-width:4rem;text-align:right}
 .tarifs .note{margin:.9rem 0 0;font-size:.875rem;color:var(--muted)}
-@media (max-width:560px){.tarifs .row{grid-template-columns:1fr auto}.tarifs .dur{grid-column:1;text-align:left;margin-top:-.8rem}.tarifs .prix{grid-column:2;grid-row:1}}
+@media (max-width:560px){.exo-grid{grid-template-columns:1fr}.tarifs .row{grid-template-columns:1fr auto}.tarifs .dur{grid-column:1;text-align:left;margin-top:-.8rem}.tarifs .prix{grid-column:2;grid-row:1}}
 .contact a{color:#fff}
 .contact .btn.solid{color:var(--night);margin-top:.4rem}
 
@@ -445,6 +445,13 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
   html{scroll-behavior:auto}
   .hero .mark{animation:none}
 }
+.exo-title{margin-top:3.2rem}
+.exo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:1.2rem;margin-top:1.6rem}
+.exo{display:grid;grid-template-columns:84px 1fr;gap:1rem;align-items:start;padding:1rem;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.exo-img img{width:84px;height:auto;display:block;border-radius:4px;box-shadow:0 2px 8px rgba(27,17,64,.12)}
+.exo h3{font-size:1.2rem;color:var(--heading);margin-bottom:.3rem}
+.exo p{margin:0;color:var(--muted);font-size:.95rem}
+.exo .exo-links{margin-top:.55rem;font-size:.9rem}
 </style>
 </head>
 <body>
@@ -617,14 +624,14 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
         <li><time>2023</time><span>Initiation au TCTSY (Trauma Center Trauma-Sensitive Yoga), à terminer<small>Maria Karimov-Zwienenberg</small></span></li>
         <li><time>2025-2026</time><span>Pleine Conscience Sensible au Trauma, niveaux 1 et 2<small>David Treleaven</small></span></li>
         <li><time>En cours</time><span>Doctorat en psychologie<small>Université de Picardie Jules Verne, laboratoire CRP-CPO — <a href="/recherche/">en savoir plus</a></small></span></li>
-        <li><time>2026</time><span>Initiation à l'EFT (Emotional Freedom Techniques)<small>Jean-Michel Gurret</small></span></li>
+        <li><time>2026</time><span>Initiation à l'EFT clinique (Emotional Freedom Techniques)<small>Jean-Michel Gurret</small></span></li>
       </ol>
     </div>
     <div class="pcol">
       <h3>Approches et outils</h3>
       <p class="lead">Une psychothérapie intégrative et psychocorporelle, construite avec vous à partir de ce qui vous convient.</p>
       <ul class="tags">
-        <li><a href="/li-icv/">LI-ICV</a></li><li>Pleine conscience</li><li><a href="/pleine-conscience-sensible-au-trauma/">Pleine Conscience Sensible au Trauma</a></li><li>ACT</li><li><a href="/theorie-polyvagale/">Théorie polyvagale</a></li><li><a href="/tctsy/">TCTSY (initiée)</a></li>
+        <li><a href="/li-icv/">LI-ICV</a></li><li>Pleine conscience</li><li><a href="/pleine-conscience-sensible-au-trauma/">Pleine Conscience Sensible au Trauma</a></li><li>ACT</li><li><a href="/theorie-polyvagale/">Théorie polyvagale</a></li><li><a href="/tctsy/">TCTSY (initiée)</a></li><li><a href="/ifs/">IFS</a></li><li><a href="/eft/">EFT clinique</a></li>
       </ul>
       <p class="lead" style="margin-top:1.1rem">Entretiens individuels, de couple et de famille. Bilans psychologiques et rédaction de comptes rendus.</p>
     </div>
@@ -663,6 +670,18 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
     <div class="info-grid">
       <div class="info"><h3>Le guide du sommeil</h3><p>Comprendre le sommeil et ses troubles, avec des conseils concrets pour mieux dormir. Coécrit avec Clément Busin (SSE UPJV, édition 2024).</p><p><a href="https://mescoursjv.u-picardie.fr/moodle/pluginfile.php/96435/mod_resource/content/2/GUIDE-SOMMEILVF.pdf" target="_blank" rel="noopener">Télécharger le PDF</a></p></div>
       <div class="info"><h3>Le guide de gestion du stress et de l'anxiété</h3><p>Comprendre le stress et l'anxiété, avec une boîte à outils pratique (respiration, relaxation, pleine conscience...). SSE UPJV, édition 2024.</p><p><a href="https://mescoursjv.u-picardie.fr/moodle/pluginfile.php/239817/mod_resource/content/3/GUIDE_STRESS-ANXIETE-VF.pdf" target="_blank" rel="noopener">Télécharger le PDF</a></p></div>
+    </div>
+    <h2 class="title exo-title" id="exercices">Mes exercices</h2>
+    <p style="color:var(--muted);max-width:60ch">Les exercices que je propose sur le site, chacun avec sa page d'explication et une affiche à imprimer ou à garder sous la main.</p>
+    <div class="exo-grid">
+      <article class="exo"><a class="exo-img" href="/documents/affiche-respiration.pdf" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><img src="/documents/affiche-respiration.webp" width="620" height="877" alt="" loading="lazy"></a><div><h3>Respirer pour se réguler</h3><p>Ralentir sa respiration, 5 secondes à l'inspiration et 5 à l'expiration, pour revenir au calme.</p><p class="exo-links"><a href="/regulation-emotionnelle/#un-outil-de-respiration-de-base" aria-label="Lire la page Régulation émotionnelle">Lire la page</a> · <a href="/documents/affiche-respiration.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche</a></p></div></article>
+      <article class="exo"><a class="exo-img" href="/documents/affiche-fenetre-de-tolerance.pdf" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><img src="/documents/affiche-fenetre-de-tolerance.webp" width="620" height="876" alt="" loading="lazy"></a><div><h3>La fenêtre de tolérance</h3><p>Repérer ses trois états, de l'hyperactivation à l'hypoactivation, et ce qui aide à revenir dans sa zone.</p><p class="exo-links"><a href="/regulation-emotionnelle/#la-fenetre-de-tolerance" aria-label="Lire la page Régulation émotionnelle">Lire la page</a> · <a href="/documents/affiche-fenetre-de-tolerance.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche</a></p></div></article>
+      <article class="exo"><a class="exo-img" href="/documents/affiche-echelle-des-etats.pdf" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><img src="/documents/affiche-echelle-des-etats.webp" width="620" height="876" alt="" loading="lazy"></a><div><h3>L'échelle de mes états</h3><p>L'exercice de Deb Dana : « Je me sens… et le monde est… », du bas vers le haut de l'échelle.</p><p class="exo-links"><a href="/theorie-polyvagale/#l-echelle-de-ses-etats" aria-label="Lire la page Théorie polyvagale">Lire la page</a> · <a href="/documents/affiche-echelle-des-etats.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche</a></p></div></article>
+      <article class="exo"><a class="exo-img" href="/documents/affiche-ancrage-5-4-3-2-1.pdf" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><img src="/documents/affiche-ancrage-5-4-3-2-1.webp" width="620" height="877" alt="" loading="lazy"></a><div><h3>L'ancrage 5-4-3-2-1</h3><p>Revenir au présent par les cinq sens quand on se sent « partir ».</p><p class="exo-links"><a href="/dissociation/#un-outil-d-ancrage" aria-label="Lire la page Dissociation">Lire la page</a> · <a href="/documents/affiche-ancrage-5-4-3-2-1.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche</a></p></div></article>
+      <article class="exo"><a class="exo-img" href="/documents/affiche-calinotherapie.pdf" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><img src="/documents/affiche-calinotherapie.webp" width="540" height="960" alt="" loading="lazy"></a><div><h3>La câlinothérapie</h3><p>Des moments de câlins réguliers entre parent et enfant, pour ressentir le lien.</p><p class="exo-links"><a href="/li-icv-enfants-adolescents/#la-calinotherapie" aria-label="Lire la page LI-ICV enfants-adolescents">Lire la page</a> · <a href="/documents/affiche-calinotherapie.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche</a></p></div></article>
+      <article class="exo"><a class="exo-img" href="/documents/affiche-mes-5-moments-positifs.pdf" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><img src="/documents/affiche-mes-5-moments-positifs.webp" width="620" height="877" alt="" loading="lazy"></a><div><h3>Mes 5 moments positifs du jour</h3><p>Noter chaque jour cinq choses positives, agréables ou satisfaisantes : les petits moments qui ont fait du bien.</p><p class="exo-links"><a href="/confiance-en-soi/#un-outil-simple" aria-label="Lire la page Confiance en soi">Lire la page</a> · <a href="/documents/affiche-mes-5-moments-positifs.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche</a></p></div></article>
+      <article class="exo"><a class="exo-img" href="/documents/affiche-me-parler-comme-a-un-ami.pdf" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><img src="/documents/affiche-me-parler-comme-a-un-ami.webp" width="620" height="877" alt="" loading="lazy"></a><div><h3>Me parler comme à un·e ami·e</h3><p>Un détour vers l'auto-compassion : se dire ce qu'on dirait à un·e ami·e.</p><p class="exo-links"><a href="/resilience/#un-detour-utile-s-adresser-a-soi-comme-a-un-e-ami-e" aria-label="Lire la page Résilience">Lire la page</a> · <a href="/documents/affiche-me-parler-comme-a-un-ami.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche</a></p></div></article>
+      <article class="exo"><a class="exo-img" href="/documents/affiche-eft-clinique.pdf" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><img src="/documents/affiche-eft-clinique.webp" width="620" height="877" alt="" loading="lazy"></a><div><h3>L'EFT clinique</h3><p>Des tapotements sur 15 points pour apaiser une émotion qui déborde.</p><p class="exo-links"><a href="/eft/#comment-ca-se-passe" aria-label="Lire la page EFT clinique">Lire la page</a> · <a href="/documents/affiche-eft-clinique.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche</a></p></div></article>
     </div>
   </div>
 </section>

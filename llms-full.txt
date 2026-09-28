@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 14 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour en septembre 2026.
+> Version complète de llms.txt : texte principal des 16 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour en septembre 2026.
 
 ---
 
@@ -160,7 +160,7 @@ Voir mon identité professionnelle complète
 
 - En coursDoctorat en psychologieUniversité de Picardie Jules Verne, laboratoire CRP-CPO — en savoir plus
 
-- 2026Initiation à l'EFT (Emotional Freedom Techniques)Jean-Michel Gurret
+- 2026Initiation à l'EFT clinique (Emotional Freedom Techniques)Jean-Michel Gurret
 
 ### Approches et outils
 
@@ -177,6 +177,10 @@ Une psychothérapie intégrative et psychocorporelle, construite avec vous à pa
 - Théorie polyvagale
 
 - TCTSY (initiée)
+
+- IFS
+
+- EFT clinique
 
 Entretiens individuels, de couple et de famille. Bilans psychologiques et rédaction de comptes rendus.
 
@@ -236,6 +240,50 @@ Télécharger le PDF
 
 Comprendre le stress et l'anxiété, avec une boîte à outils pratique (respiration, relaxation, pleine conscience...). SSE UPJV, édition 2024.
 Télécharger le PDF
+
+## Mes exercices
+
+Les exercices que je propose sur le site, chacun avec sa page d'explication et une affiche à imprimer ou à garder sous la main.
+
+### Respirer pour se réguler
+
+Ralentir sa respiration, 5 secondes à l'inspiration et 5 à l'expiration, pour revenir au calme.
+Lire la page · Télécharger l'affiche
+
+### La fenêtre de tolérance
+
+Repérer ses trois états, de l'hyperactivation à l'hypoactivation, et ce qui aide à revenir dans sa zone.
+Lire la page · Télécharger l'affiche
+
+### L'échelle de mes états
+
+L'exercice de Deb Dana : « Je me sens… et le monde est… », du bas vers le haut de l'échelle.
+Lire la page · Télécharger l'affiche
+
+### L'ancrage 5-4-3-2-1
+
+Revenir au présent par les cinq sens quand on se sent « partir ».
+Lire la page · Télécharger l'affiche
+
+### La câlinothérapie
+
+Des moments de câlins réguliers entre parent et enfant, pour ressentir le lien.
+Lire la page · Télécharger l'affiche
+
+### Mes 5 moments positifs du jour
+
+Noter chaque jour cinq choses positives, agréables ou satisfaisantes : les petits moments qui ont fait du bien.
+Lire la page · Télécharger l'affiche
+
+### Me parler comme à un·e ami·e
+
+Un détour vers l'auto-compassion : se dire ce qu'on dirait à un·e ami·e.
+Lire la page · Télécharger l'affiche
+
+### L'EFT clinique
+
+Des tapotements sur 15 points pour apaiser une émotion qui déborde.
+Lire la page · Télécharger l'affiche
 
 Questions fréquentes
 
@@ -363,7 +411,7 @@ N° ADELI 809305931 · N° RPPS 10009112649 · SIREN 821 507 720
 
 - Pleine Conscience Sensible au Trauma, niveau 2 — David Treleaven, 2026
 
-- Initiation à l'EFT (Emotional Freedom Techniques) — Jean-Michel Gurret, 2026
+- Initiation à l'EFT clinique (Emotional Freedom Techniques) — Jean-Michel Gurret, 2026
 
 - Doctorat en psychologie, en cours — Université de Picardie Jules Verne, laboratoire CRP-CPO
 
@@ -509,7 +557,7 @@ Sources : Rajan et al. (2020), Journal of Interpersonal Violence, doi.org/10.117
 
 ## Pour un enfant ou un adolescent
 
-La LI-ICV se pratique aussi avec les enfants et les adolescents, en présentiel. Découvrir la LI-ICV enfants-adolescents.
+La LI-ICV se pratique aussi avec les enfants et les adolescents : au cabinet pour les enfants, et en visioconférence possible dès l'adolescence. Découvrir la LI-ICV enfants-adolescents.
 
 ## Questions fréquentes
 
@@ -538,7 +586,7 @@ Réserver en ligne
 ---
 
 URL : https://laetitia-duchemin-psychologue.fr/li-icv-enfants-adolescents/
-Titre : LI-ICV enfants-adolescents — Laetitia Duchemin, psychologue
+Titre : LI-ICV enfants et adolescents — Laetitia Duchemin, psychologue
 
 # LI-ICV enfants-adolescents
 
@@ -550,11 +598,33 @@ Prendre rendez-vous
 
 ## Pour quelles situations ?
 
-Elle est utilisée pour des événements difficiles, un trauma, une dérégulation émotionnelle ou de l'anxiété.
+Elle est utilisée pour des événements difficiles, un trauma, une dérégulation émotionnelle ou de l'anxiété. Par exemple :
+
+- après un événement marquant : un accident, une hospitalisation, un deuil, une séparation des parents, un déménagement ;
+
+- lorsque l'enfant a connu des ruptures dans ses premiers liens, par exemple dans son parcours d'adoption ou de placement ;
+
+- devant des peurs, des colères, des troubles du sommeil ou des réactions qui semblent disproportionnées par rapport à la situation ;
+
+- lorsque l'enfant a du mal à se sentir en sécurité ou à se séparer de ses parents.
 
 ## Un parcours systémique, avec les parents
 
 La LI-ICV enfants-adolescents est envisagée comme un parcours systémique, plus qu'une prise en charge de l'enfant seul : l'implication des parents fait partie intégrante de l'accompagnement. Conformément au cadre légal, l'accord des deux parents (ou titulaires de l'autorité parentale) est nécessaire pour recevoir l'enfant.
+
+## Comment se déroule l'accompagnement
+
+### Un premier temps avec les parents
+
+Je reçois d'abord les parents, pour comprendre la demande et retracer l'histoire de l'enfant. Ensemble, nous construisons la ligne du temps : une liste de souvenirs, un ou deux par année de vie, qui servira de fil conducteur aux séances.
+
+### Les séances avec l'enfant
+
+Les séances s'appuient sur des médiateurs adaptés à l'âge : dessins, jeux, jouets, supports visuels. Le parcours de la ligne du temps est proposé sous une forme ludique, au rythme de l'enfant. Selon l'âge et la situation, un parent peut être présent pendant la séance.
+
+### Et entre les séances
+
+Les parents restent des acteurs essentiels : des repères réguliers, des moments de lien et de câlins (voir la câlinothérapie) aident l'enfant à intégrer ce qui se travaille en séance.
 
 ## Modalités
 
@@ -573,6 +643,40 @@ Télécharger l'affiche (PDF)
 ## Ma formation
 
 Je suis formée à l'ICV enfants-ados (2023, avec Laure Mann).
+
+## Questions fréquentes
+
+-
+
+### À partir de quel âge ?
+
+À tout âge : la LI-ICV s'adapte à chaque étape du développement. Pour les plus jeunes, les séances s'appuient sur le jeu, les dessins et les supports visuels.
+
+-
+
+### Les parents assistent-ils aux séances ?
+
+Les parents sont reçus au début de l'accompagnement et régulièrement ensuite. Leur présence pendant les séances dépend de l'âge de l'enfant et de ce qui l'aide à se sentir en sécurité.
+
+-
+
+### Combien de séances prévoir ?
+
+Cela dépend de la demande : quelques séances pour un événement précis, un accompagnement plus long lorsque les difficultés sont anciennes. Nous en parlons ensemble dès le premier rendez-vous.
+
+-
+
+### Faut-il l'accord des deux parents ?
+
+Oui : conformément au cadre légal, l'accord des deux parents (ou titulaires de l'autorité parentale) est nécessaire pour recevoir l'enfant.
+
+## Sources
+
+- Pace, P. (2012). Lifespan Integration: Connecting Ego States Through Time. Eirene Imprints.
+
+- Smith, J. (2024). Applications cliniques en ICV (Intégration du Cycle de la Vie). Trauma, dissociation, troubles anxieux, traumatismes précoces, attachement et affirmation de soi. Paris : Dunod.
+
+- LI-France, plaquette de présentation de la LI-ICV.
 
 Au cabinet, à Amiens, le samedi, et en visioconférence dès l'adolescence.
 
@@ -853,6 +957,12 @@ Pour aller plus loin, le psychiatre Igor Thiriez propose une fiche « Ancrage »
 
 Cet outil aide à revenir dans le présent dans des moments légers du quotidien. Si les épisodes sont fréquents ou intenses, parlez-en à un professionnel : la dissociation se travaille pas à pas, accompagné.
 
+### L'ancrage en affiche
+
+Les cinq sens, étape par étape, pour revenir au présent.
+
+Télécharger l'affiche (PDF)
+
 ## Mon accompagnement
 
 L'accompagnement consiste à comprendre ce qui se passe, à repérer les signes qui annoncent la dissociation, à construire des ressources pour rester présent et à redonner de la connexion entre les différentes parts de soi. Je m'appuie pour cela sur la théorie polyvagale, la Pleine Conscience Sensible au Trauma, la TCTSY, une approche corporelle qui aide à retrouver le contact avec son corps, à son rythme et en gardant le choix, et la LI-ICV, une thérapie de connexion des différents états du soi. Le rythme est ajusté à chacun, pour avancer en restant dans votre fenêtre de tolérance.
@@ -903,6 +1013,154 @@ Réserver en ligne
 
 ---
 
+URL : https://laetitia-duchemin-psychologue.fr/ifs/
+Titre : IFS (Internal Family Systems) : les parts de soi — L. Duchemin
+
+# IFS : les parts de soi
+
+Internal Family Systems
+
+L'IFS (Internal Family Systems, ou système familial intérieur) est un modèle développé dans les années 1980 par le thérapeute américain Richard Schwartz. Il part d'une idée simple : nous sommes tous faits de différentes parts, qui ont chacune leur intention, et d'un Soi, un centre calme et bienveillant capable de les écouter et de les relier.
+
+Prendre rendez-vous
+
+## Qu'est-ce qu'une part ?
+
+On peut définir une part comme une séquence de comportements, de pensées et d'émotions liée à son vécu passé, qui peut se réactiver dans le présent. Une remarque, un ton de voix, une situation qui rappelle quelque chose, et une part s'active : on réagit alors avec l'intensité d'une expérience ancienne.
+
+Avoir différentes parts est normal : chacune s'adapte à l'environnement dans lequel nous nous trouvons. Selon ce modèle, aucune part n'est mauvaise : chacune essaie, à sa façon, de nous protéger.
+
+## Les managers
+
+Les managers (ou gestionnaires) agissent en prévention. Ils anticipent, contrôlent, organisent, pour éviter que des émotions douloureuses ne refassent surface : la part exigeante ou perfectionniste, la part qui s'inquiète, la part qui critique pour éviter l'erreur, la part qui veut faire plaisir à tout le monde.
+
+## Les pompiers
+
+Les pompiers interviennent en urgence, quand une émotion douloureuse déborde malgré tout. Leur but est d'éteindre l'incendie au plus vite, quel qu'en soit le coût : se couper de ce que l'on ressent, se distraire à l'excès, manger, boire, se mettre en colère, fuir. Leurs réactions peuvent sembler excessives, mais elles cherchent à soulager.
+
+## Les exilés
+
+Les exilés sont des parts plus jeunes et plus vulnérables, qui portent des émotions ou des souvenirs douloureux : la honte, la peur, le sentiment d'abandon ou de ne pas compter. Les managers et les pompiers les tiennent à l'écart pour nous protéger de cette souffrance.
+
+On peut faire le rapprochement avec ce que l'on appelle souvent les enfants intérieurs : des parts de soi présentes depuis longtemps, restées figées à l'âge où elles ont été blessées, et qui attendent d'être reconnues et apaisées.
+
+## Le Soi
+
+Le Soi n'est pas une part : c'est le centre de la personne, présent en chacun, même lorsqu'il est recouvert par les parts. Richard Schwartz le décrit par huit qualités : le calme, la curiosité, la compassion, la clarté, la confiance, le courage, la créativité et la connexion. Quand le Soi est présent, il peut entrer en relation avec les parts, comprendre ce qu'elles protègent et leur permettre de se détendre.
+
+## Parts de soi et dissociation
+
+La dissociation apparaît lorsqu'une part, ou plusieurs, fonctionnent seules, sans cohésion avec l'ensemble du Soi, pour se défendre.
+
+## Dans ma pratique
+
+Comme la théorie polyvagale, l'IFS me donne un axe de compréhension du fonctionnement de la personne. Il me permet de travailler en cohésion avec chaque part et d'aider la personne à comprendre ce qui se joue en elle.
+
+## Questions fréquentes
+
+-
+
+### Avoir des parts, est-ce avoir plusieurs personnalités ?
+
+Non. Parler de parts est une façon de décrire la richesse de notre vie intérieure : une part qui veut avancer, une autre qui hésite. C'est l'expérience de chacun.
+
+-
+
+### Faut-il se débarrasser de certaines parts ?
+
+Non. L'idée est de comprendre ce que chaque part cherche à protéger, pour qu'elle puisse relâcher son rôle et retrouver sa place dans l'ensemble.
+
+## Sources
+
+- Schwartz, R. C. (2021). No Bad Parts. Healing Trauma and Restoring Wholeness with the Internal Family Systems Model. Boulder : Sounds True.
+
+- Schwartz, R. C., & Sweezy, M. (2019). Internal Family Systems Therapy (2e éd.). New York : Guilford Press.
+
+- Hodgdon, H. B., Anderson, F. G., Southwell, E., et al. (2022). Internal Family Systems (IFS) therapy for posttraumatic stress disorder (PTSD) among survivors of multiple childhood trauma: A pilot effectiveness study. Journal of Aggression, Maltreatment & Trauma, 31(1), 22-43.
+
+Consultation : 1 h, 70 €, en visioconférence.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/eft/
+Titre : EFT clinique : les 15 points et le déroulé — Laetitia Duchemin
+
+# EFT clinique
+
+Emotional Freedom Techniques
+
+L'EFT (Emotional Freedom Techniques, ou techniques de libération émotionnelle) associe une attention portée à une émotion ou à une sensation désagréable et de légers tapotements sur des points d'acupression du visage, du haut du corps et des mains. Développée dans les années 1990 par l'Américain Gary Craig, elle a ensuite été standardisée et évaluée sous le nom d'EFT clinique. En France, le psychologue Jean-Michel Gurret participe à son développement.
+
+Prendre rendez-vous
+
+## Un outil d'auto-soin
+
+L'EFT clinique est d'abord un outil d'auto-soin : une fois appris, il s'utilise seul pour réguler ses émotions au quotidien, face au stress, à l'anxiété ou à une émotion qui déborde. En thérapie, il peut aussi servir à travailler des éléments plus difficiles, accompagné.
+
+## Comment ça se passe
+
+En cas de débordement émotionnel :
+
+- Quand vous vous sentez mal, stimulez chaque point une dizaine de fois, sans parler, puis passez au suivant.
+
+- Décrivez ensuite vos sensations physiques : en stimulant le point karaté, sur la tranche de la main, répétez une ou deux fois une phrase comme « Même si j'ai le cœur qui palpite, je m'accepte tel(le) que je suis », en l'adaptant à ce que vous ressentez.
+
+- Stimulez ensuite chaque point une dizaine de fois, en commençant par le sommet de la tête, en disant une courte phrase de rappel : « J'ai le cœur qui palpite. »
+
+- À la fin des 15 points, respirez profondément, buvez un petit verre d'eau si besoin, et évaluez ce que vous ressentez.
+
+- Recommencez jusqu'au soulagement de votre ressenti.
+
+Pour voir les gestes, Jean-Michel Gurret présente la ronde des points dans une courte vidéo (Facebook).
+
+### Les 15 points en affiche
+
+Le déroulé et les points de stimulation, sur une page à imprimer ou à garder sous la main.
+
+Télécharger l'affiche (PDF)
+
+## Comment ça agit
+
+Les tapotements stimulent des cellules mécano-sensorielles de la peau, sensibles à la pression et au toucher. Selon les hypothèses actuelles, ces signaux envoyés au cerveau contribueraient à apaiser la réponse de stress, notamment l'activation de l'amygdale, pendant que l'on garde l'émotion à l'esprit.
+
+## Ce que dit la recherche
+
+Plusieurs méta-analyses rapportent une diminution de l'anxiété et des symptômes de stress post-traumatique après des séances d'EFT. Les mécanismes en jeu font encore l'objet de recherches.
+
+## Dans ma pratique
+
+Je me suis initiée à l'EFT clinique en 2026 auprès de Jean-Michel Gurret. Je la propose comme un outil d'auto-soin, que la personne peut s'approprier pour réguler ses émotions entre les séances, et, en séance, pour travailler des éléments plus difficiles.
+
+## Questions fréquentes
+
+-
+
+### Peut-on pratiquer l'EFT seul ?
+
+Oui, c'est même sa vocation première : une fois la technique apprise, elle s'utilise au quotidien. Pour des souvenirs ou des émotions plus difficiles, mieux vaut être accompagné.
+
+-
+
+### Faut-il croire à l'EFT pour que ça marche ?
+
+Non. Il suffit de suivre le déroulé et d'observer ce qui change dans l'intensité de l'émotion.
+
+## Sources
+
+- Church, D., Stapleton, P., Vasudevan, A., & O'Keefe, T. (2022). Clinical EFT as an evidence-based practice for the treatment of psychological and physiological conditions: A systematic review. Frontiers in Psychology, 13, 951451.
+
+- Clond, M. (2016). Emotional Freedom Techniques for anxiety: A systematic review with meta-analysis. The Journal of Nervous and Mental Disease, 204(5), 388-395.
+
+- Sebastian, B., & Nelms, J. (2017). The effectiveness of Emotional Freedom Techniques in the treatment of posttraumatic stress disorder: A meta-analysis. Explore, 13(1), 16-25.
+
+Consultation : 1 h, 70 €, en visioconférence.
+
+Réserver en ligne
+
+---
+
 URL : https://laetitia-duchemin-psychologue.fr/regulation-emotionnelle/
 Titre : Régulation émotionnelle en visio — Laetitia Duchemin, psychologue
 
@@ -918,7 +1176,13 @@ Prendre rendez-vous
 
 Quand une émotion monte, le rythme respiratoire s'accélère et alimente l'état d'alerte. Ralentir volontairement sa respiration agit dans l'autre sens : cela active le nerf vague et favorise un retour au calme.
 
-L'exercice : installez-vous confortablement. Inspirez par le nez pendant 5 secondes, en laissant le ventre se gonfler. Expirez par la bouche pendant 5 secondes, lentement. Répétez pendant 3 à 5 minutes, à votre rythme.
+L'exercice : installez-vous confortablement. Inspirez par le nez pendant 5 secondes, en laissant le ventre se gonfler. Expirez par le nez pendant 5 secondes, lentement. Si vous préférez, vous pouvez expirer par la bouche, les lèvres légèrement pincées, comme dans une paille. Répétez pendant 3 à 5 minutes, à votre rythme.
+
+### L'exercice en affiche
+
+Les trois étapes de la respiration, à imprimer ou à garder sous la main.
+
+Télécharger l'affiche (PDF)
 
 ## Qu'est-ce que la régulation émotionnelle ?
 
@@ -969,9 +1233,29 @@ La Pleine Conscience Sensible au Trauma (PCST), en anglais Trauma-Sensitive Mind
 
 Prendre rendez-vous
 
+## Pourquoi adapter la pleine conscience ?
+
+La pleine conscience invite à porter son attention sur le moment présent, ses sensations, ses pensées, ses émotions. Pour beaucoup, c'est apaisant. Après un trauma, tourner son attention vers l'intérieur peut au contraire faire remonter des souvenirs, des sensations difficiles ou une impression de se couper de soi. Ce n'est pas un échec de la personne : c'est le signe que la pratique doit être ajustée à son système nerveux.
+
+## Les cinq principes de David Treleaven
+
+- Rester dans la fenêtre de tolérance : pratiquer dans une zone où l'on peut ressentir sans être submergé (voir la régulation émotionnelle).
+
+- Déplacer l'attention pour soutenir la stabilité : choisir un point d'appui extérieur, ouvrir les yeux, bouger, quand l'attention intérieure devient trop intense.
+
+- Garder le corps en tête : repérer les signes corporels d'activation ou de déconnexion, et en tenir compte.
+
+- Pratiquer en relation : la sécurité se construit aussi dans le lien avec la personne qui accompagne.
+
+- Tenir compte du contexte : l'histoire de chacun et son environnement social influencent ce qui est sécurisant.
+
 ## Ce que cela change dans une séance
 
 Dans une séance, plusieurs adaptations sont possibles : garder les yeux ouverts, fixer un point d'ancrage, s'arrêter à tout moment. Le travail peut aussi procéder par pendulation, c'est-à-dire par un mouvement d'aller-retour entre une sensation inconfortable et une sensation de sécurité ou de ressource, pour rester dans une zone tolérable. Le langage utilisé est également adapté, pour éviter les mots susceptibles de déclencher une réaction difficile.
+
+## Une courte pratique : s'orienter dans la pièce
+
+Laissez votre regard se promener lentement dans la pièce, sans chercher quoi que ce soit. Arrêtez-le sur quelque chose d'agréable ou de neutre : une couleur, une forme, la lumière. Remarquez ce qui se passe dans votre corps. Vous pouvez à tout moment arrêter, bouger ou changer de point d'attention : c'est vous qui choisissez. Pour aller plus loin, voir l'ancrage 5-4-3-2-1.
 
 ## Mon accompagnement
 
@@ -986,6 +1270,26 @@ Mon accompagnement s'adapte au fonctionnement de chaque personne : je choisis, a
 ### Quelle différence avec la pleine conscience classique ?
 
 La pleine conscience classique invite à se tourner vers l'intérieur. La PCST ajoute une vigilance : elle adapte les instructions et le rythme à la fenêtre de tolérance de la personne, pour éviter de raviver un vécu traumatique.
+
+-
+
+### Faut-il déjà pratiquer la méditation ?
+
+Non. Les pratiques sont courtes, adaptées et toujours proposées : vous restez libre de les suivre, de les modifier ou de les arrêter.
+
+-
+
+### Et si la pratique me met mal à l'aise ?
+
+C'est une information précieuse, pas un échec. On ajuste ensemble : garder les yeux ouverts, raccourcir la pratique, s'appuyer sur un point d'ancrage extérieur ou passer par le mouvement.
+
+## Sources
+
+- Treleaven, D. A. (2018). Trauma-Sensitive Mindfulness: Practices for Safe and Transformative Healing. New York : W. W. Norton.
+
+- Siegel, D. J. (1999). The Developing Mind. New York : Guilford Press (fenêtre de tolérance).
+
+- Levine, P. A. (1997). Waking the Tiger: Healing Trauma. Berkeley : North Atlantic Books (pendulation).
 
 Consultation : 1 h, 70 €, en visioconférence.
 
@@ -1039,7 +1343,7 @@ Réserver en ligne
 ---
 
 URL : https://laetitia-duchemin-psychologue.fr/confiance-en-soi/
-Titre : Confiance en soi en visio — Laetitia Duchemin, psychologue
+Titre : Confiance en soi, estime et affirmation de soi — L. Duchemin
 
 # Confiance en soi
 
@@ -1049,13 +1353,57 @@ La confiance en soi désigne la conviction de pouvoir agir et faire face aux sit
 
 Prendre rendez-vous
 
+## Confiance, estime et affirmation de soi
+
+Ces trois notions sont proches et se nourrissent les unes les autres :
+
+- La confiance en soi porte sur l'action : « je suis capable de le faire ».
+
+- L'estime de soi porte sur la valeur : « je compte, j'ai de la valeur, même quand j'échoue ».
+
+- L'affirmation de soi porte sur la relation : « je peux exprimer ce que je pense, ce dont j'ai besoin, et poser mes limites, en respectant l'autre ».
+
+On peut avoir confiance en ses compétences professionnelles et une estime de soi fragile, ou s'estimer sans parvenir à dire non. C'est pourquoi je travaille les trois ensemble.
+
 ## D'où vient la confiance en soi
 
 Le psychologue Albert Bandura a identifié quatre sources principales de la confiance en soi : les expériences de réussite, l'observation d'autres personnes qui réussissent, les encouragements reçus d'une personne crédible, et la manière dont on interprète ses propres sensations corporelles.
 
+## Ce qui peut la fragiliser
+
+- Des expériences répétées de critique, de comparaison ou d'échec, surtout dans l'enfance.
+
+- Des pensées limitantes, souvent plusieurs à la fois : « je n'y arriverai pas », « les autres sont plus compétents », « si j'échoue, c'est que je ne vaux rien ».
+
+- Un style d'attachement insécure, qui colore la façon de se percevoir et de percevoir le regard des autres.
+
+- Des événements de vie difficiles, qui peuvent ébranler une confiance jusque-là solide.
+
+Comprendre d'où vient le manque de confiance permet de ne plus le vivre comme un défaut personnel, et d'agir sur ce qui l'entretient.
+
 ## Un outil simple
 
-Un outil simple pour la nourrir au quotidien : notez chaque jour cinq choses qui montrent vos propres actions, agréables et satisfaisantes pour vous. Se concentrer sur ce qui dépend de soi, plutôt que sur les circonstances extérieures, nourrit progressivement le sentiment de confiance.
+Un outil simple pour la nourrir au quotidien : notez chaque jour cinq choses positives, agréables ou satisfaisantes. Cherchez dans les petits moments, les détails qui vous ont fait du bien dans la journée. Porter son attention sur ce qui s'est bien passé nourrit progressivement le sentiment de confiance.
+
+### La grille de la semaine
+
+Une page à remplir chaque jour, du lundi au dimanche.
+
+Télécharger l'affiche (PDF)
+
+## Affirmer ses limites : la méthode DESC
+
+Pour exprimer une demande ou poser une limite sans agresser ni s'effacer, la méthode DESC propose quatre étapes :
+
+- Décrire les faits, sans jugement : « Quand tu arrives en retard à nos rendez-vous… »
+
+- Exprimer ce que vous ressentez : « … je me sens peu considérée… »
+
+- Spécifier ce que vous souhaitez : « … j'aimerais que tu me préviennes si tu as du retard… »
+
+- Conclure sur les conséquences positives : « … comme ça, je pourrai m'organiser et profiter de nos moments ensemble. »
+
+Commencez par des situations simples : l'affirmation de soi se construit, comme un muscle, par la pratique.
 
 ## Mon accompagnement
 
@@ -1067,7 +1415,29 @@ Mon approche repose sur le triptyque confiance en soi, estime de soi et affirmat
 
 ### Les affirmations positives suffisent-elles à se sentir plus confiant ?
 
-Une étude (Wood, Perunovic & Lee, 2009) montre qu'une affirmation générique et peu crédible peut au contraire aggraver l'humeur des personnes ayant une faible confiance en elles. Une affirmation spécifique et crédible, ancrée dans du concret, est plus efficace.
+Une étude (Wood, Perunovic & Lee, 2009) montre qu'une affirmation générique et peu crédible peut au contraire aggraver l'humeur des personnes ayant une faible confiance en elles. Une affirmation spécifique et crédible, ancrée dans du concret, est plus efficace. On adhère mieux à une phrase neutre et bienveillante, par exemple « Je fais de mon mieux avec ce que j'ai aujourd'hui », qu'à une phrase trop positive.
+
+-
+
+### Quelle différence entre confiance en soi et estime de soi ?
+
+La confiance en soi concerne ce que l'on se sent capable de faire ; l'estime de soi, la valeur que l'on s'accorde en tant que personne. Les deux se renforcent mutuellement.
+
+-
+
+### Peut-on développer sa confiance à tout âge ?
+
+Oui. La confiance se construit par l'expérience : chaque action réussie, même petite, la nourrit, à tout moment de la vie.
+
+## Sources
+
+- Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. Psychological Review, 84(2), 191-215.
+
+- André, C., & Lelord, F. (1999). L'estime de soi. S'aimer pour mieux vivre avec les autres. Paris : Odile Jacob.
+
+- Wood, J. V., Perunovic, W. Q. E., & Lee, J. W. (2009). Positive self-statements: Power for some, peril for others. Psychological Science, 20(7), 860-866.
+
+- Bower, S. A., & Bower, G. H. (1976). Asserting Yourself. Reading : Addison-Wesley (méthode DESC).
 
 Consultation : 1 h, 70 €, en visioconférence.
 
@@ -1097,6 +1467,12 @@ Avant de chercher à résoudre ou à avancer, il est souvent nécessaire de pren
 ## Un détour utile : s'adresser à soi comme à un·e ami·e
 
 Quand la bienveillance directe envers soi-même ne prend pas, un détour aide souvent : se demander ce qu'on dirait à un·e ami·e qui vivrait la même chose, puis se l'adresser à soi.
+
+### L'exercice en affiche
+
+Les trois étapes à compléter, avec les trois piliers de l'auto-compassion.
+
+Télécharger l'affiche (PDF)
 
 ## Mon accompagnement
 
