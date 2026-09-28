@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>LI-ICV en visio — Laetitia Duchemin, psychologue</title>
-<meta name="description" content="La LI-ICV (Intégration du Cycle de la Vie) : définition, situations concernées, formation et questions fréquentes. Séances en visio avec Laetitia Duchemin, psychologue clinicienne.">
+<meta name="description" content="La LI-ICV (Intégration du Cycle de la Vie) : définition, indications, formation et questions fréquentes. Séances en visio avec Laetitia Duchemin, psychologue.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#22135e">
 <link rel="icon" href="/favicon.png" type="image/png">
@@ -13,7 +13,7 @@
 <meta property="og:locale" content="fr_FR">
 <meta property="og:site_name" content="Laetitia Duchemin — Psychologue clinicienne intégrative">
 <meta property="og:title" content="LI-ICV en visio — Laetitia Duchemin, psychologue">
-<meta property="og:description" content="La LI-ICV (Intégration du Cycle de la Vie) : définition, situations concernées, formation et questions fréquentes. Séances en visio avec Laetitia Duchemin, psychologue clinicienne.">
+<meta property="og:description" content="La LI-ICV (Intégration du Cycle de la Vie) : définition, indications, formation et questions fréquentes. Séances en visio avec Laetitia Duchemin, psychologue.">
 <link rel="canonical" href="https://laetitia-duchemin-psychologue.fr/li-icv/">
 <meta property="og:url" content="https://laetitia-duchemin-psychologue.fr/li-icv/">
 <meta property="og:image" content="https://laetitia-duchemin-psychologue.fr/og-image.jpg">
@@ -29,7 +29,7 @@
    "@id": "https://laetitia-duchemin-psychologue.fr/li-icv/#webpage",
    "url": "https://laetitia-duchemin-psychologue.fr/li-icv/",
    "name": "LI-ICV en visio — Laetitia Duchemin, psychologue",
-   "description": "La LI-ICV (Intégration du Cycle de la Vie) : définition, situations concernées, formation et questions fréquentes. Séances en visio avec Laetitia Duchemin, psychologue clinicienne.",
+   "description": "La LI-ICV (Intégration du Cycle de la Vie) : définition, indications, formation et questions fréquentes. Séances en visio avec Laetitia Duchemin, psychologue.",
    "inLanguage": "fr",
    "dateModified": "2026-09-21",
    "about": {
@@ -103,8 +103,8 @@
 @font-face{font-family:'Jost';font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/jost-latin-500-normal.woff2) format('woff2')}
 @font-face{font-family:'Pinyon Script';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/pinyon-script-latin-400-normal.woff2) format('woff2')}
 :root{
-  --logo:url(/logo.webp);
-  --gold:#d9a648; --gold-soft:#ecd096; --gold-deep:#a97a1f;
+  --logo:url(/logo-96.webp);
+  --gold:#d9a648; --gold-soft:#ecd096; --gold-deep:#7d5a16;
   --night:#1b1140; --violet:#3a1163; --indigo:#22135e; --royal:#0d2c8c;
   --bg:#f7f3ec; --surface:#fffdf9; --ink:#1d1b3b; --muted:#4a476a;
   --c-lav:#ece6f5; --c-sky:#e1eaf6; --c-sand:#f3ecd8;
@@ -120,13 +120,13 @@
   :root:not([data-theme="light"]){
     --bg:#120c26; --surface:#1a1236; --ink:#ece8f7; --muted:#b5aed0;
     --c-lav:#241a4a; --c-sky:#15234f; --c-sand:#2c2438;
-    --line:rgba(236,208,150,.22); --link:#a9bdff; --heading:#ecd096;
+    --line:rgba(236,208,150,.22); --link:#a9bdff; --heading:#ecd096; --gold-deep:#ecd096;
   }
 }
 :root[data-theme="dark"]{
   --bg:#120c26; --surface:#1a1236; --ink:#ece8f7; --muted:#b5aed0;
   --c-lav:#241a4a; --c-sky:#15234f; --c-sand:#2c2438;
-  --line:rgba(236,208,150,.22); --link:#a9bdff; --heading:#ecd096;
+  --line:rgba(236,208,150,.22); --link:#a9bdff; --heading:#ecd096; --gold-deep:#ecd096;
 }
 *,*::before,*::after{box-sizing:inherit}
 html{background:var(--night);scroll-padding-top:calc(env(safe-area-inset-top,0px) + 84px);scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -151,7 +151,7 @@ p{margin:0 0 1em}
 .nav a:hover{border-color:var(--gold)}
 .nav a.cta{color:var(--gold-soft);border:1px solid rgba(236,208,150,.55);padding:.45rem 1.1rem;border-radius:999px}
 .nav a.cta:hover{background:rgba(217,166,72,.15)}
-.menu-btn{display:none;background:none;border:1px solid rgba(236,208,150,.5);color:var(--gold-soft);border-radius:999px;padding:.45rem 1rem;font:400 .85rem var(--sans);cursor:pointer}
+.menu-btn{display:none;background:none;border:1px solid rgba(236,208,150,.5);color:var(--gold-soft);border-radius:999px;padding:.45rem 1rem;min-height:44px;font:400 .875rem var(--sans);cursor:pointer}
 @media (max-width:1100px){
   .menu-btn{display:block}
   .nav{position:absolute;left:0;right:0;top:100%;background:rgba(27,17,64,.97);border-bottom:1px solid rgba(236,208,150,.2);display:none;padding:1rem 1.25rem 1.5rem}
@@ -184,7 +184,7 @@ p{margin:0 0 1em}
 @media (max-width:760px){
   .hero .wrap{grid-template-columns:1fr;text-align:left}
   .hero .mark{width:min(58vw,240px)}
-  .kint.a{width:56vw;opacity:.7}
+  .kint.a{display:none}
   .kint.b{width:60vw;opacity:.7}
 }
 
@@ -196,9 +196,9 @@ p{margin:0 0 1em}
 .offer:nth-child(2){background:var(--c-sky)}
 .offer:nth-child(3){background:var(--c-sand)}
 .offer svg{width:44px;height:44px;stroke:var(--gold-deep);fill:none;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
-.offer h3{font-size:1.25rem;letter-spacing:.14em;text-transform:uppercase;color:var(--heading);font-weight:500}
+.offer h2,.offer h3{font-size:1.25rem;letter-spacing:.14em;text-transform:uppercase;color:var(--heading);font-weight:500}
 .offer p{font-size:.98rem;color:var(--muted);margin:0}
-.offer a{margin-top:auto;padding-top:.8rem;font-size:.82rem;font-weight:500;letter-spacing:.05em;text-decoration:none;color:var(--link)}
+.offer a{margin-top:auto;display:inline-flex;align-items:center;min-height:44px;padding-top:.8rem;font-size:.875rem;font-weight:500;letter-spacing:.05em;text-decoration:none;color:var(--link)}
 .offer a:hover{text-decoration:underline}
 @media (max-width:820px){.offers .grid{grid-template-columns:1fr}}
 
@@ -209,7 +209,7 @@ p{margin:0 0 1em}
 .scene blockquote{position:absolute;left:clamp(1.5rem,4vw,3rem);top:clamp(1.8rem,4vw,3rem);right:1.5rem;margin:0;color:#fff;font-family:var(--serif);font-style:italic;font-size:clamp(1.4rem,2.4vw,1.9rem);line-height:1.35;max-width:19ch;text-shadow:0 1px 14px rgba(30,15,80,.55)}
 .scene blockquote::after{content:"";display:block;width:56px;height:2px;background:var(--gold);margin-top:1rem}
 .approach-text{padding:clamp(2.2rem,5vw,4rem) clamp(1.5rem,5vw,4rem)}
-.eyebrow{font-size:.74rem;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-deep);margin:0 0 .9rem}
+.eyebrow{font-size:.875rem;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-deep);margin:0 0 .9rem}
 h2.title{font-size:clamp(1.9rem,3.6vw,2.7rem);color:var(--heading);margin-bottom:1.1rem;max-width:18ch}
 .approach-text p{color:var(--muted);max-width:56ch}
 .steps{list-style:none;margin:2.2rem 0 0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:.4rem;counter-reset:s}
@@ -218,8 +218,8 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.7rem);color:var(--heading);margin-bottom
 .ico{width:68px;height:68px;margin:0 auto .7rem;border-radius:50%;border:1px solid var(--gold);background:var(--surface);display:grid;place-items:center;box-shadow:0 0 0 4px var(--bg)}
 .ico svg{width:34px;height:34px;stroke:var(--heading);fill:none;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
 .ico svg .g{stroke:var(--gold-deep)}
-.steps b{display:block;font-size:.78rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--heading)}
-.steps span{display:block;font-size:.82rem;line-height:1.35;color:var(--muted);margin-top:.15rem}
+.steps b{display:block;font-size:.875rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--heading)}
+.steps span{display:block;font-size:.875rem;line-height:1.35;color:var(--muted);margin-top:.15rem}
 @media (max-width:900px){
   .approach{grid-template-columns:1fr}
   .scene{min-height:340px}
@@ -238,6 +238,7 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.7rem);color:var(--heading);margin-bottom
 .theme-list li{padding:1.4rem 0 1.4rem 1.3rem;border-left:2px solid var(--gold);margin-bottom:.4rem}
 .theme-list h3{font-size:1.4rem;color:var(--heading);margin-bottom:.3rem}
 .theme-list p{margin:0;color:var(--muted);font-size:1rem}
+.theme-list p a{padding:.65rem 0}
 @media (max-width:760px){.theme-list{grid-template-columns:1fr}}
 
 /* ---------- À propos ---------- */
@@ -268,7 +269,7 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.7rem);color:var(--heading);margin-bottom
 .contact h2{font-size:clamp(1.9rem,3.6vw,2.7rem);color:var(--gold-soft);margin-bottom:1rem}
 .contact p{color:#dcd5f0;max-width:46ch}
 .contact dl{margin:0;display:grid;gap:1.1rem}
-.contact dt{font-size:.74rem;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.contact dt{font-size:.875rem;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
 .contact dd{margin:.15rem 0 0;font-size:1.08rem}
 .contact .ph{color:#fff;background:rgba(217,166,72,.22)}
 @media (max-width:820px){.contact .wrap{grid-template-columns:1fr}}
@@ -296,9 +297,9 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
 .tl{list-style:none;margin:0;padding:0 0 0 1.1rem;border-left:1px solid var(--gold)}
 .tl li{position:relative;padding:0 0 1.15rem .4rem}
 .tl li::before{content:"";position:absolute;left:calc(-1.1rem - 4px);top:.55rem;width:7px;height:7px;border-radius:50%;background:var(--gold)}
-.tl time{display:block;font:500 .8rem var(--sans);letter-spacing:.12em;color:var(--gold-deep)}
+.tl time{display:block;font:500 .875rem var(--sans);letter-spacing:.12em;color:var(--gold-deep)}
 .tl span{display:block;color:var(--ink);font-size:1rem;line-height:1.4}
-.tl small{display:block;color:var(--muted);font-size:.86rem;margin-top:.1rem}
+.tl small{display:block;color:var(--muted);font-size:.875rem;margin-top:.1rem}
 .tags{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
 .tags li{border:1px solid var(--gold);border-radius:999px;padding:.3rem .9rem;font-size:.9rem;color:var(--heading)}
 @media (max-width:900px){.about .wrap.profile{grid-template-columns:1fr}}
@@ -310,7 +311,7 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
 .tarifs .row p{margin:.1rem 0 0;color:var(--muted);font-size:.95rem}
 .tarifs .dur{color:var(--muted);font-size:.95rem;min-width:4.5rem;text-align:right}
 .tarifs .prix{font-family:var(--serif);font-size:1.7rem;color:var(--heading);min-width:4rem;text-align:right}
-.tarifs .note{margin:.9rem 0 0;font-size:.85rem;color:var(--muted)}
+.tarifs .note{margin:.9rem 0 0;font-size:.875rem;color:var(--muted)}
 @media (max-width:560px){.tarifs .row{grid-template-columns:1fr auto}.tarifs .dur{grid-column:1;text-align:left;margin-top:-.8rem}.tarifs .prix{grid-column:2;grid-row:1}}
 .contact a{color:#fff}
 .contact .btn.solid{color:var(--night);margin-top:.4rem}
@@ -354,7 +355,7 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
 <body>
 <header class="site-header">
   <div class="wrap bar">
-    <a class="brand" href="/" aria-label="Laetitia Duchemin, accueil">
+    <a class="brand" href="/">
       <span class="mark" aria-hidden="true"></span>
       <span><b>LAETITIA DUCHEMIN</b><small>Psychologue clinicienne intégrative</small></span>
     </a>
@@ -387,7 +388,7 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
 <section class="prose">
   <div class="wrap">
     <h2 id="pour-quelles-situations">Pour quelles situations ?</h2>
-    <p>Elle est utilisée pour le <a href="/stress-post-traumatique-trauma-complexe/">stress post-traumatique (TSPT), simple ou complexe</a>, la réparation de l'<a href="/attachement/">attachement</a> et la <a href="/regulation-emotionnelle/">régulation émotionnelle</a>.</p>
+    <p>Elle est utilisée pour le <a href="/stress-post-traumatique-trauma-complexe/">stress post-traumatique (TSPT), simple ou complexe</a>, la réparation de l'<a href="/styles-d-attachement/">attachement</a> et la <a href="/regulation-emotionnelle/">régulation émotionnelle</a>.</p>
     <h2 id="ma-formation-a-la-li-icv">Ma formation à la LI-ICV</h2>
     <p>Je suis formée à la LI-ICV depuis 2022 : niveau 1 (2022, avec Joanna Smith), niveau 2 (2023, avec Laure Mann), ICV enfants-ados (2023, avec Laure Mann), niveau 3 (2024, avec Joanna Smith) et niveau 4 (2025, avec Laure Mann).</p>
     <p>Je suis membre de <a href="https://www.li-france.com/" target="_blank" rel="noopener">LI-France</a>, association de thérapeutes formés à la LI-ICV, qui soutient la recherche sur cette approche et la fait connaître.</p>
@@ -417,7 +418,7 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
     <p class="urgence">En cas de détresse ou d'urgence, appelez le <strong style="letter-spacing:0;font-family:inherit;color:#fff">3114</strong> (numéro national de prévention du suicide, 24 h/24) ou le <strong style="letter-spacing:0;font-family:inherit;color:#fff">15</strong>. Ce site présente mon activité et ne remplace pas une consultation.</p>
     <details>
       <summary>Mentions légales</summary>
-      <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus. J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
+      <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
     <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : septembre 2026</div>
   </div>
