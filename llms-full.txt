@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 16 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour en septembre 2026.
+> Version complète de llms.txt : texte principal des 18 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour en septembre 2026.
 
 ---
 
@@ -84,6 +84,18 @@ Explorer comment vos premiers liens influencent aujourd'hui vos relations et vot
 ### Dissociation
 
 Comprendre ces moments où l'on se sent loin de soi ou du monde, et redonner de la connexion entre les différentes parts de soi. En savoir plus
+
+-
+
+### Addictions
+
+Comprendre ce que la consommation ou le comportement vient apaiser, et changer à son rythme, sans jugement. En savoir plus
+
+-
+
+### Crise d'angoisse et attaque de panique
+
+Apprendre à faire baisser l'intensité d'une crise, pour ne plus en avoir peur. En savoir plus
 
 -
 
@@ -283,6 +295,16 @@ Lire la page · Télécharger l'affiche
 ### L'EFT clinique
 
 Des tapotements sur 15 points pour apaiser une émotion qui déborde.
+Lire la page · Télécharger l'affiche
+
+### Ma balance décisionnelle
+
+Quatre cases pour voir plus clair dans ce qui retient et ce qui motive à changer.
+Lire la page · Télécharger l'affiche
+
+### Que faire en cas de crise
+
+Les étapes pour faire baisser l'intensité d'une crise d'angoisse.
 Lire la page · Télécharger l'affiche
 
 Questions fréquentes
@@ -1044,7 +1066,7 @@ Les managers (ou gestionnaires) agissent en prévention. Ils anticipent, contrô
 
 ## Les pompiers
 
-Les pompiers interviennent en urgence, quand une émotion douloureuse déborde malgré tout. Leur but est d'éteindre l'incendie au plus vite, quel qu'en soit le coût : se couper de ce que l'on ressent, se distraire à l'excès, manger, boire, se mettre en colère, fuir. Leurs réactions peuvent sembler excessives, mais elles cherchent à soulager.
+Les pompiers interviennent en urgence, quand une émotion douloureuse déborde malgré tout. Leur but est d'éteindre l'incendie au plus vite, quel qu'en soit le coût : se couper de ce que l'on ressent, se distraire à l'excès, manger, boire, se mettre en colère, fuir. Leurs réactions peuvent sembler excessives, mais elles cherchent à soulager (voir les addictions).
 
 ## Les exilés
 
@@ -1169,6 +1191,284 @@ Réserver en ligne
 
 ---
 
+URL : https://laetitia-duchemin-psychologue.fr/addictions/
+Titre : Addictions : comprendre et changer à son rythme — L. Duchemin
+
+# Addictions
+
+Comprendre ce que la consommation apaise, pour changer à son rythme
+
+On parle d'addiction lorsqu'une consommation ou un comportement échappe à son contrôle et se poursuit malgré ses effets négatifs sur la santé, les relations ou le quotidien. Une addiction n'est pas un manque de volonté : c'est une stratégie que notre cerveau a trouvée, à un moment donné, pour se réguler émotionnellement.
+
+Prendre rendez-vous
+
+## Avec ou sans substance
+
+- Les addictions aux substances : alcool, tabac, cannabis, médicaments, autres drogues.
+
+- Les addictions comportementales : jeux d'argent, jeux vidéo, écrans, achats, travail, sport…
+
+- Les troubles du comportement alimentaire, qui relèvent à la fois du comportement et de l'alimentation.
+
+- La pornographie, une addiction particulière (voir plus bas).
+
+## Les critères de l'addiction selon Aviel Goodman
+
+En 1990, le psychiatre américain Aviel Goodman a proposé une définition de l'addiction qui s'applique aussi bien aux substances qu'aux comportements :
+
+AL'impossibilité de résister à l'impulsion de s'engager dans le comportement.
+
+BUne sensation croissante de tension juste avant de commencer.
+
+CDu plaisir ou un soulagement pendant le comportement.
+
+DUne sensation de perte de contrôle pendant le comportement.
+
+EAu moins cinq des neuf critères suivants :
+
+- être fréquemment préoccupé par le comportement ou par sa préparation ;
+
+- des épisodes plus intenses ou plus longs que prévu ;
+
+- des efforts répétés pour réduire, contrôler ou arrêter ;
+
+- beaucoup de temps passé à préparer les épisodes, à s'y livrer ou à s'en remettre ;
+
+- des épisodes fréquents au moment d'obligations professionnelles, scolaires, familiales ou sociales ;
+
+- des activités importantes abandonnées ou réduites à cause du comportement ;
+
+- la poursuite du comportement malgré la conscience des problèmes qu'il cause ou aggrave ;
+
+- le besoin d'augmenter l'intensité ou la fréquence pour obtenir le même effet ;
+
+- de l'agitation ou de l'irritabilité lorsqu'il est impossible de s'y livrer.
+
+FCertains de ces éléments durent depuis plus d'un mois ou se répètent sur une longue période.
+
+Ces critères aident à repérer une addiction ; le diagnostic se fait en consultation.
+
+## Une stratégie de régulation
+
+Beaucoup de personnes consomment d'abord pour se soulager : calmer une angoisse, éteindre des émotions trop fortes, dormir, oublier, se sentir moins seul. Le psychiatre Edward Khantzian a décrit cette fonction d'apaisement sous le nom d'« automédication ». Avec la répétition, le cerveau associe la consommation au soulagement, et l'envie revient dès que la tension monte.
+
+Les addictions sont fréquemment liées à des expériences difficiles ou traumatiques, en particulier dans l'enfance (voir le trauma complexe). La consommation peut alors aider à réguler un système nerveux resté en alerte ou, au contraire, à se couper de ce que l'on ressent (voir la régulation émotionnelle et la dissociation). Dans le modèle IFS, on peut y reconnaître l'action d'une part « pompier », qui cherche à éteindre une douleur au plus vite.
+
+## La honte et la culpabilité
+
+Quelle que soit l'addiction, la honte et la culpabilité y occupent une place importante. Elles poussent à cacher la consommation, à s'isoler et à repousser le moment d'en parler, alors que ce sont souvent elles qui entretiennent le besoin de se soulager. Les accueillir sans jugement est une étape essentielle de l'accompagnement.
+
+## La pornographie, une addiction particulière
+
+L'addiction à la pornographie a la particularité d'être accessible à tous, gratuitement et partout, en quelques secondes. Elle commence souvent tôt, la première exposition ayant parfois lieu avant 10 ans. C'est ce qui en fait l'une des addictions les plus difficiles à défaire, d'autant que la honte et la culpabilité empêchent souvent d'oser en parler. En consultation, elle peut être abordée simplement, sans jugement.
+
+## Les étapes du changement
+
+Les psychologues James Prochaska et Carlo DiClemente ont décrit le changement comme un cycle en plusieurs étapes : ne pas encore y penser, hésiter, se préparer, agir, puis maintenir le changement. Les retours en arrière ne sont pas des échecs : ils font partie du processus normal du changement. Mieux vaut les voir comme des sources d'apprentissage, pour comprendre ce qui nous a fragilisé à ce moment-là.
+
+Notre cerveau aime les routines : il utilise de manière automatique des stratégies mises en place depuis longtemps. L'idée n'est donc pas seulement de supprimer un comportement, mais de lui proposer d'autres stratégies, qu'il pourra peu à peu adopter à leur tour.
+
+## Le circuit de la récompense
+
+Le cerveau dispose d'un circuit de la récompense, qui libère notamment de la dopamine lorsque nous vivons quelque chose d'agréable. Les substances et certains comportements addictifs le stimulent fortement et rapidement : le cerveau apprend alors à les rechercher. Avec le temps, les plaisirs du quotidien peuvent sembler plus fades en comparaison.
+
+Le changement passe aussi par le fait de nourrir ce circuit autrement : le mouvement et le sport, le lien avec les autres, la musique, la nature, la créativité, le sentiment d'avoir accompli quelque chose, les petits moments positifs remarqués au fil de la journée (voir l'exercice « Mes 5 moments positifs du jour »). Ces sources de satisfaction sont plus lentes, mais elles s'installent durablement.
+
+## L'entretien motivationnel
+
+Développé par les psychologues William Miller et Stephen Rollnick, l'entretien motivationnel est une façon d'accompagner le changement sans le forcer. Il part d'un constat : il est normal d'être partagé, d'avoir à la fois des raisons de changer et des raisons de ne pas changer. Plutôt que de convaincre, il s'agit d'explorer cette ambivalence avec bienveillance, pour que la personne trouve ses propres raisons et son propre chemin. Elle reste experte de sa vie : c'est elle qui fixe l'objectif, qu'il s'agisse d'arrêter ou de réduire.
+
+## Deux outils
+
+### La balance décisionnelle
+
+Sur une feuille, notez dans quatre cases : ce que la consommation vous apporte, ce qu'elle vous coûte, ce que le changement pourrait vous apporter, ce qu'il vous coûterait. Il n'y a pas de bonne réponse : cet exercice aide simplement à voir plus clair dans ce qui vous retient et ce qui vous motive.
+
+### L'affiche à remplir
+
+Les quatre cases et deux questions pour aller plus loin, issues de l'entretien motivationnel.
+
+Télécharger l'affiche (PDF)
+
+### Surfer sur l'envie
+
+Une envie de consommer fonctionne comme une vague : elle monte, atteint un sommet, puis redescend. Plutôt que d'y céder ou de lutter, on peut l'observer, la sentir dans le corps et se rappeler qu'elle va passer (voir surfer sur la vague). Retarder le comportement, même de quelques minutes, compte : plus on le retarde, moins il se produit.
+
+Pour certaines substances, comme l'alcool ou certains médicaments, un arrêt brutal peut être dangereux : il se prépare avec un médecin.
+
+## Mon accompagnement
+
+Je m'appuie sur l'entretien motivationnel pour avancer à votre rythme, sans jugement, vers l'objectif que vous choisissez. Nous travaillons aussi sur ce que la consommation vient apaiser : les émotions difficiles, le vécu traumatique, avec la LI-ICV, la Pleine Conscience Sensible au Trauma, la TCTSY et la théorie polyvagale. Lorsque c'est utile, l'accompagnement se fait en lien avec votre médecin ou une structure spécialisée en addictologie.
+
+Depuis plus de dix ans, j'accompagne différentes addictions : alcool, tabac, médicaments, drogues, troubles du comportement alimentaire, pornographie… Mes formations et expériences en addictologie :
+
+- Stage en unité mobile d'alcoologie, CHU Amiens-Picardie (2011) ;
+
+- MOOC « Comprendre les addictions », Université Paris-Sud, FUN MOOC (2017) ;
+
+- « Connaissances au service de la pratique en alcoologie-addictologie », AREAT (2024) ;
+
+- « Outils de la communication et de la relation en alcoologie-addictologie », AREAT (2025) ;
+
+- Participation, depuis 2023, au projet DOSAJ : un projet de prévention primaire de l'addiction à l'alcool auprès des jeunes de 15 à 25 ans, subventionné par l'ARS, en partenariat avec le CHU Amiens-Picardie.
+
+## Quand consulter
+
+Lorsque la consommation ou le comportement prend une place qui vous inquiète, vous ou vos proches, ou lorsque vous avez essayé de réduire sans y parvenir. Des lignes d'écoute anonymes et gratuites existent : Alcool Info Service (0 980 980 930), Drogues Info Service (0 800 23 13 13), Joueurs Info Service (09 74 75 13 13), Tabac Info Service (39 89). En cas de détresse, appelez le 3114 (24 h/24) ou le 15.
+
+## Questions fréquentes
+
+-
+
+### Faut-il forcément arrêter complètement ?
+
+Pas toujours. L'objectif se choisit ensemble : arrêter, réduire, ou consommer de façon moins risquée. Pour certaines substances, l'arrêt doit être accompagné médicalement.
+
+-
+
+### Puis-je consulter si je ne suis pas sûr de vouloir changer ?
+
+Oui. L'hésitation est normale et fait partie du processus. L'entretien motivationnel est justement conçu pour l'explorer, sans pression.
+
+-
+
+### J'ai honte d'en parler. Comment faire ?
+
+La honte est très fréquente, quelle que soit l'addiction. Vous pouvez avancer à votre rythme et dire seulement ce qui vous semble possible : la consultation est un espace sans jugement.
+
+## Sources
+
+- Goodman, A. (1990). Addiction: definition and implications. British Journal of Addiction, 85(11), 1403-1408.
+
+- Miller, W. R., & Rollnick, S. (2013). L'entretien motivationnel. Aider la personne à engager le changement (2e éd.). Paris : InterÉditions.
+
+- Prochaska, J. O., & DiClemente, C. C. (1983). Stages and processes of self-change of smoking: Toward an integrative model of change. Journal of Consulting and Clinical Psychology, 51(3), 390-395.
+
+- Khantzian, E. J. (1997). The self-medication hypothesis of substance use disorders: A reconsideration and recent applications. Harvard Review of Psychiatry, 4(5), 231-244.
+
+- Felitti, V. J., Anda, R. F., Nordenberg, D., et al. (1998). The Adverse Childhood Experiences (ACE) Study. American Journal of Preventive Medicine, 14(4), 245-258.
+
+- Bowen, S., Chawla, N., & Marlatt, G. A. (2011). Mindfulness-Based Relapse Prevention for Addictive Behaviors. New York : Guilford Press.
+
+Consultation : 1 h, 70 €, en visioconférence.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/crise-d-angoisse/
+Titre : Crise d'angoisse, attaque de panique : l'apaiser — L. Duchemin
+
+# Crise d'angoisse et attaque de panique
+
+Apprendre à baisser l'intensité, pour ne plus avoir peur de la crise
+
+Crise d'angoisse et attaque de panique désignent la même chose : une montée brutale et intense de peur, accompagnée de sensations physiques fortes. Elle atteint son maximum en quelques minutes, puis redescend. Même si elle est très impressionnante, une crise d'angoisse n'est pas dangereuse : c'est le système d'alarme du corps qui se déclenche, sans danger réel.
+
+Prendre rendez-vous
+
+## Comment elle se manifeste
+
+- Le cœur qui s'emballe, des palpitations.
+
+- L'impression de manquer d'air, d'étouffer.
+
+- Des tremblements, des sueurs, des bouffées de chaleur ou des frissons.
+
+- Des vertiges, une sensation de tête vide.
+
+- Une douleur ou une oppression dans la poitrine, des nausées.
+
+- Une impression d'irréalité ou d'être détaché de soi (voir la dissociation).
+
+- La peur de perdre le contrôle, de devenir fou ou de mourir.
+
+Lors d'une première crise, ou si les sensations sont inhabituelles, consultez un médecin pour écarter une autre cause, notamment cardiaque.
+
+## Le cercle de la peur
+
+Le psychologue David Clark a décrit comment une crise s'auto-entretient : une sensation (le cœur qui accélère) est interprétée comme un danger (« je fais un malaise »), cette interprétation augmente la peur, et la peur augmente à son tour les sensations. Avec le temps, la peur de la prochaine crise peut s'installer et conduire à éviter certains lieux ou certaines situations. Lorsque les crises se répètent et que cette peur s'installe, on parle de trouble panique.
+
+## Crise d'angoisse ou crise émotionnelle ?
+
+La crise d'angoisse est à distinguer de la crise émotionnelle, parfois appelée débordement émotionnel ou crise de larmes : on se met à pleurer beaucoup, parfois sans raison apparente, avec une impression de trop-plein. Elle est moins dominée par la peur et par les sensations d'alarme du corps, mais elle provient, elle aussi, d'une dérégulation émotionnelle : c'est le signe que notre système nerveux déborde, souvent après une accumulation de fatigue, de stress ou d'émotions retenues.
+
+Elle s'apaise avec les mêmes stratégies de régulation : s'isoler dans un endroit calme, s'ancrer par les sens, laisser passer la vague. On peut aussi laisser couler les larmes sans lutter contre elles, puis s'accorder un temps de repos.
+
+## Première étape : apprendre à baisser l'intensité
+
+L'objectif n'est pas d'empêcher la crise à tout prix, mais d'apprendre à la faire redescendre. Quand on sait qu'on peut la réguler, elle fait moins peur, et c'est souvent ce qui la rend moins fréquente.
+
+- Nommer ce qui se passe : « C'est une crise d'angoisse. C'est très désagréable, mais ce n'est pas dangereux. Elle va passer. »
+
+- S'isoler si besoin : s'il y a trop de monde autour de soi, s'éloigner vers un endroit plus calme.
+
+- Scanner son environnement : laisser son regard parcourir la pièce et nommer ce que l'on voit, les couleurs, les formes, les objets.
+
+- S'ancrer par les sens, avec le 5-4-3-2-1, et sentir ses appuis : les pieds au sol, le dos contre le dossier. D'autres techniques d'ancrage sont rassemblées dans la fiche « Ancrage » du psychiatre Igor Thiriez.
+
+- Laisser passer la vague plutôt que lutter contre elle (voir surfer sur la vague).
+
+- Appeler quelqu'un : une personne de confiance peut aider à se réguler, par sa voix et sa présence.
+
+- L'EFT clinique : tapoter les points, notamment le point sous la clavicule, qui aide à calmer la peur (voir l'EFT clinique).
+
+La respiration aide aussi, à une condition : être utilisée régulièrement en dehors des crises, ou dès le tout début de la crise. L'exercice que je conseille est celui de la paille : on inspire par le nez, puis on expire lentement par la bouche, comme si l'on soufflait dans une paille. Sinon, elle peut produire l'effet inverse : on a l'impression d'avoir du mal à respirer, et plus on se concentre sur sa respiration, plus on a l'impression d'étouffer. Dans ce cas, mieux vaut revenir à ses sens et à son environnement (voir l'exercice de respiration).
+
+Ces outils fonctionnent d'autant mieux qu'ils ont été pratiqués en dehors des crises, quand tout va bien.
+
+### Que faire en cas de crise
+
+Les étapes à garder sous la main, à imprimer ou à enregistrer sur son téléphone.
+
+Télécharger l'affiche (PDF)
+
+## Et ensuite
+
+Une fois que la crise ne fait plus peur, parce que vous savez la réguler, une deuxième étape devient possible : elle se travaille en accompagnement, à votre rythme, pour que les crises perdent leur emprise sur votre quotidien.
+
+## Mon accompagnement
+
+Je vous aide d'abord à comprendre ce qui se passe dans votre corps et à construire vos propres outils pour baisser l'intensité. Nous pouvons ensuite travailler ce qui entretient les crises, et, lorsqu'elles sont liées à des expériences difficiles, ce qui s'est inscrit dans votre histoire, avec la LI-ICV, la théorie polyvagale ou la Pleine Conscience Sensible au Trauma.
+
+## Questions fréquentes
+
+-
+
+### Peut-on mourir d'une crise d'angoisse ?
+
+Non. Les sensations sont très impressionnantes, mais une crise d'angoisse n'est pas dangereuse pour le corps. Un avis médical reste utile lors d'une première crise, pour écarter une autre cause.
+
+-
+
+### Combien de temps dure une crise ?
+
+Elle atteint son maximum en quelques minutes, puis redescend, le plus souvent en moins d'une demi-heure.
+
+-
+
+### Crise d'angoisse et attaque de panique, est-ce la même chose ?
+
+Oui : les deux expressions désignent le même phénomène. « Attaque de panique » est le terme utilisé dans les classifications médicales.
+
+## Sources
+
+- Clark, D. M. (1986). A cognitive approach to panic. Behaviour Research and Therapy, 24(4), 461-470.
+
+- American Psychiatric Association (2022). DSM-5-TR : attaque de panique et trouble panique.
+
+- Organisation mondiale de la santé. CIM-11, 6B01 Trouble panique.
+
+- Barlow, D. H. (2002). Anxiety and Its Disorders (2e éd.). New York : Guilford Press.
+
+- Thiriez, I. Fiche « Ancrage ». igorthiriez.com
+
+Consultation : 1 h, 70 €, en visioconférence.
+
+Réserver en ligne
+
+---
+
 URL : https://laetitia-duchemin-psychologue.fr/regulation-emotionnelle/
 Titre : Régulation émotionnelle en visio — Laetitia Duchemin, psychologue
 
@@ -1214,7 +1514,7 @@ Plus la tolérance émotionnelle se développe, plus la fenêtre de tolérance s
 
 ### Surfer sur la vague
 
-Une émotion ressemble à une vague : elle monte, atteint un sommet, puis redescend. Plutôt que de lutter contre elle ou de la fuir, on peut l'observer : remarquer où elle se loge dans le corps, comment elle évolue, et se rappeler qu'elle va passer. Respirer lentement ou s'ancrer par les sens aide à rester sur la vague sans être emporté.
+Une émotion ressemble à une vague : elle monte, atteint un sommet, puis redescend. Plutôt que de lutter contre elle ou de la fuir, on peut l'observer : remarquer où elle se loge dans le corps, comment elle évolue, et se rappeler qu'elle va passer. Respirer lentement ou s'ancrer par les sens aide à rester sur la vague sans être emporté. La même démarche aide à traverser une crise d'angoisse ou une envie liée à une addiction.
 
 ### D'autres appuis
 
