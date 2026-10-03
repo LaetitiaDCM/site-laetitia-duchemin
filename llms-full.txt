@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 18 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour en septembre 2026.
+> Version complète de llms.txt : texte principal des 19 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour en septembre 2026.
 
 ---
 
@@ -117,9 +117,9 @@ L'Intégration du Cycle de la Vie relie les étapes de votre parcours pour soute
 
 -
 
-### Éclairage neuropsychologique
+### Neuropsychologie
 
-Mieux comprendre le fonctionnement de votre cerveau (attention, mémoire, émotions) pour donner du sens à ce que vous vivez.
+Mieux comprendre le fonctionnement de votre cerveau (attention, mémoire, émotions) pour donner du sens à ce que vous vivez. En savoir plus
 
 ### Et de nombreuses autres demandes
 
@@ -1462,6 +1462,101 @@ Oui : les deux expressions désignent le même phénomène. « Attaque de paniqu
 - Barlow, D. H. (2002). Anxiety and Its Disorders (2e éd.). New York : Guilford Press.
 
 - Thiriez, I. Fiche « Ancrage ». igorthiriez.com
+
+Consultation : 1 h, 70 €, en visioconférence.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/neuropsychologie/
+Titre : Neuropsychologie : comprendre ses difficultés — L. Duchemin
+
+# Neuropsychologie
+
+Comprendre le lien entre le cerveau, les émotions et les difficultés du quotidien
+
+La neuropsychologie étudie les liens entre le fonctionnement du cerveau et nos fonctions cognitives (l'attention, la mémoire, le langage, la capacité à s'organiser), nos émotions et nos comportements. Dans ma pratique, elle me sert de grille de lecture : elle aide à comprendre ce qui se joue derrière certaines difficultés, et à leur donner du sens.
+
+Prendre rendez-vous
+
+## Les fonctions cognitives, en quelques mots
+
+- L'attention : se concentrer, rester attentif dans la durée, ne pas se laisser distraire.
+
+- La mémoire : retenir une information le temps de s'en servir (la mémoire de travail), se souvenir des événements vécus, apprendre.
+
+- Les fonctions exécutives : planifier, s'organiser, démarrer une tâche, s'adapter aux imprévus, freiner une réaction automatique.
+
+- La vitesse de traitement : le temps nécessaire pour comprendre et répondre.
+
+- La cognition sociale : comprendre les émotions et les intentions des autres.
+
+## Quand les émotions pèsent sur la pensée
+
+« Je n'arrive plus à me concentrer », « j'oublie tout », « j'ai la tête dans le brouillard » : ces plaintes sont très fréquentes, et elles ne signifient pas que l'on « perd la tête ». Le stress, l'anxiété, la fatigue, une période de déprime ou un vécu traumatique mobilisent une grande partie de nos ressources. Il en reste alors moins pour se concentrer, retenir ou s'organiser.
+
+- L'anxiété occupe une partie de l'attention, qui reste tournée vers ce qui inquiète.
+
+- Après un trauma, l'état d'alerte permanent rend la concentration difficile, et certains souvenirs peuvent être enregistrés en fragments.
+
+- Lors d'une dissociation, des trous de mémoire peuvent apparaître.
+
+- Une période de déprime peut ralentir la pensée et rendre chaque tâche plus coûteuse.
+
+## Le cerveau qui réfléchit et le cerveau qui protège
+
+Face au stress, le cerveau donne la priorité à la protection. Les régions situées à l'avant du cerveau, qui nous aident à réfléchir, à prendre du recul et à nous organiser (le cortex préfrontal), fonctionnent alors moins bien. C'est pourquoi il est difficile de « raisonner » quand on est submergé : il faut d'abord revenir dans sa fenêtre de tolérance. Le cerveau reste plastique : il continue de se transformer tout au long de la vie, au fil des expériences et des apprentissages.
+
+## Comment je l'utilise
+
+- Comprendre : je vous aide à repérer ce qui relève de l'attention, de la mémoire, de la fatigue ou de la charge émotionnelle, pour mettre des mots justes sur ce que vous vivez.
+
+- Déculpabiliser : comprendre qu'une difficulté a une origine permet de ne plus la vivre comme un manque de volonté.
+
+- Adapter : j'ajuste le rythme des séances et les supports (écrits, schémas, résumés) à votre fonctionnement.
+
+- Agir : nous construisons des stratégies concrètes, comme découper une tâche, s'appuyer sur des listes et des routines, prévoir des pauses, réguler ses émotions avant de se mettre au travail.
+
+- Évaluer : lorsque c'est utile, j'évalue certaines fonctions cognitives pour affiner la compréhension de vos difficultés.
+
+## Les bilans neuropsychologiques
+
+Je ne propose pas de bilans neuropsychologiques de façon systématique. Lorsque la situation le justifie, je peux évaluer certaines fonctions cognitives dans le cadre de l'accompagnement : nous en parlons ensemble, selon votre demande et ce qui vous sera utile. Une réorientation vers un autre professionnel reste possible selon la demande.
+
+## Ma formation
+
+Je suis titulaire d'un diplôme universitaire de neuropsychologie intégrative (Université de Picardie Jules Verne, 2021).
+
+## Questions fréquentes
+
+-
+
+### Qu'est-ce que la neuropsychologie ?
+
+C'est une discipline de la psychologie qui étudie les liens entre le cerveau, les fonctions cognitives, les émotions et les comportements.
+
+-
+
+### Mes oublis et mes difficultés de concentration sont-ils inquiétants ?
+
+Ils sont le plus souvent liés au stress, à l'anxiété, à la fatigue ou au manque de sommeil, et s'améliorent quand ces facteurs s'apaisent. S'ils persistent, s'aggravent ou s'accompagnent d'autres signes, parlez-en à votre médecin.
+
+-
+
+### Proposez-vous des bilans neuropsychologiques ?
+
+Pas de façon systématique. Lorsque la situation le justifie, je peux évaluer certaines fonctions cognitives dans le cadre de l'accompagnement ; nous en parlons ensemble.
+
+## Sources
+
+- Eysenck, M. W., Derakshan, N., Santos, R., & Calvo, M. G. (2007). Anxiety and cognitive performance: Attentional control theory. Emotion, 7(2), 336-353.
+
+- Arnsten, A. F. T. (2009). Stress signalling pathways that impair prefrontal cortex structure and function. Nature Reviews Neuroscience, 10(6), 410-422.
+
+- Lezak, M. D., Howieson, D. B., Bigler, E. D., & Tranel, D. (2012). Neuropsychological Assessment (5e éd.). New York : Oxford University Press.
+
+- Siegel, D. J. (1999). The Developing Mind. New York : Guilford Press (fenêtre de tolérance).
 
 Consultation : 1 h, 70 €, en visioconférence.
 
