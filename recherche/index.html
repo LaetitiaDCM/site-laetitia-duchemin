@@ -43,16 +43,51 @@
   {
    "@type": "BreadcrumbList",
    "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://laetitia-duchemin-psychologue.fr/"},
-    {"@type": "ListItem", "position": 2, "name": "À propos", "item": "https://laetitia-duchemin-psychologue.fr/a-propos/"},
-    {"@type": "ListItem", "position": 3, "name": "Ma recherche doctorale", "item": "https://laetitia-duchemin-psychologue.fr/recherche/"}
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Accueil",
+     "item": "https://laetitia-duchemin-psychologue.fr/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Mes approches",
+     "item": "https://laetitia-duchemin-psychologue.fr/#approche"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "LI-ICV",
+     "item": "https://laetitia-duchemin-psychologue.fr/li-icv/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
+     "name": "Ma recherche doctorale",
+     "item": "https://laetitia-duchemin-psychologue.fr/recherche/"
+    }
    ]
   },
   {
    "@type": "FAQPage",
    "mainEntity": [
-    {"@type": "Question", "name": "Cette recherche a-t-elle un lien avec les consultations ?", "acceptedAnswer": {"@type": "Answer", "text": "Cette recherche universitaire est distincte de mon activité clinique en libéral. Elle est menée dans un cadre académique, encadré par l'Université de Picardie Jules Verne, dans le respect de la déontologie de la recherche."}},
-    {"@type": "Question", "name": "Peut-on participer à cette recherche ?", "acceptedAnswer": {"@type": "Answer", "text": "Ce site n'est pas un espace de recrutement pour cette recherche. Pour toute question à ce sujet, vous pouvez me contacter directement."}}
+    {
+     "@type": "Question",
+     "name": "Cette recherche a-t-elle un lien avec les consultations ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Cette recherche universitaire est distincte de mon activité clinique en libéral. Elle est menée dans un cadre académique, encadré par l'Université de Picardie Jules Verne, dans le respect de la déontologie de la recherche."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Peut-on participer à cette recherche ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ce site n'est pas un espace de recrutement pour cette recherche. Pour toute question à ce sujet, vous pouvez me contacter directement."
+     }
+    }
    ]
   }
  ]
@@ -313,6 +348,19 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
 .window-svg svg{width:100%;height:auto;display:block}
 .video-embed{position:relative;width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;margin:1.4rem 0;background:#000;border:1px solid var(--line)}
 .video-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+/* Zones de toucher d'au moins 44 px sur téléphone (corrections du 04/10/2026) */
+.brand{min-height:44px}
+.tags li{display:flex;align-items:center;min-height:44px;padding:0 .9rem}
+.tags li a{display:flex;align-items:center;min-height:44px;margin:0 -.9rem;padding:0 .9rem}
+.contact dd a{display:inline-flex;align-items:center;min-height:44px}
+footer .wrap > div > a{display:inline-flex;align-items:center;min-height:44px}
+footer summary{padding-block:.65rem}
+.tl small a,.crumbs a,.exo-links a,.info a,.about p a{padding-block:.8rem}
+/* Textes secondaires lisibles sur téléphone (finition facultative) */
+.eyebrow,.steps b,.steps span,.offer a,.tl time,.tl small,.contact dt,.tarifs .note{font-size:.9375rem}
+.tags li,footer,.exo .exo-links,.offer p,.tarifs .row p,.tarifs .dur,.exo p{font-size:1rem}
+.btns + .lede{margin-top:1.5rem}
+.lede a{color:var(--gold-soft)}
 </style>
 </head>
 <body>
@@ -340,7 +388,7 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
 <section class="subhero">
   <svg class="kint a" viewBox="0 0 360 260" fill="none" aria-hidden="true"><path d="M0 200 C90 190 150 120 190 60 S 250 10 290 0" stroke="#d9a648" stroke-width="2.2"/><path d="M0 232 C110 220 180 150 226 80 S 290 20 340 0" stroke="#d9a648" stroke-opacity=".35" stroke-width="1"/></svg>
   <div class="wrap">
-    <nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> / Ma recherche doctorale</nav>
+    <nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> / <a href="/#approche">Mes approches</a> / <a href="/li-icv/">LI-ICV</a> / Ma recherche doctorale</nav>
     <h1>Ma recherche doctorale</h1>
     <p class="sub">Doctorat en psychologie — laboratoire CRP-CPO, axe 2, Université de Picardie Jules Verne</p>
     <hr class="rule">
@@ -380,7 +428,7 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : septembre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : octobre 2026</div>
   </div>
 </footer>
 <script>

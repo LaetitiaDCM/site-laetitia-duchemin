@@ -1,13 +1,13 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative
 
-> Psychologue clinicienne intégrative, doctorante à l'Université de Picardie Jules Verne (laboratoire CRP-CPO, axe 2). Accompagnement du stress post-traumatique, du trauma complexe, de l'attachement et de la régulation émotionnelle (LI-ICV, neuropsychologie). Basée à Amiens (Somme), consultations en visioconférence.
+> Psychologue clinicienne intégrative, doctorante à l'Université de Picardie Jules Verne (laboratoire CRP-CPO, axe 2). Accompagnement du stress post-traumatique, du trauma complexe, de l'attachement et de la régulation émotionnelle (LI-ICV, neuropsychologie). Psychologue en ligne : consultations en visioconférence pour toute la France, basée à Amiens (Somme).
 
 ## Essentiel
 - [Site](https://laetitia-duchemin-psychologue.fr/): présentation, approche, demandes accompagnées, formation, tarifs, questions fréquentes
 - [À propos](https://laetitia-duchemin-psychologue.fr/a-propos/): identité professionnelle complète (formation, numéros ADELI/RPPS/SIREN, pratique, recherche)
 - [Ma recherche doctorale](https://laetitia-duchemin-psychologue.fr/recherche/): doctorat en cours sur la LI-ICV, le trauma complexe et l'attachement chez les jeunes adultes (Université de Picardie Jules Verne, laboratoire CRP-CPO, axe 2)
 - [LI-ICV (Intégration du Cycle de la Vie)](https://laetitia-duchemin-psychologue.fr/li-icv/): définition, situations concernées, formation, recherche, questions fréquentes
-- [LI-ICV enfants-adolescents](https://laetitia-duchemin-psychologue.fr/li-icv-enfants-adolescents/): parcours systémique avec les parents, au cabinet à Amiens le samedi (à partir de mi-octobre 2026)
+- [LI-ICV enfants-adolescents](https://laetitia-duchemin-psychologue.fr/li-icv-enfants-adolescents/): parcours systémique avec les parents, en visioconférence
 - [Stress post-traumatique et trauma complexe](https://laetitia-duchemin-psychologue.fr/stress-post-traumatique-trauma-complexe/): définitions CIM-11, repères pour les distinguer, accompagnement
 - [Styles d'attachement](https://laetitia-duchemin-psychologue.fr/styles-d-attachement/): styles d'attachement (sécure, anxieux, évitant, désorganisé), effets à l'âge adulte, accompagnement par la LI-ICV
 - [Dissociation](https://laetitia-duchemin-psychologue.fr/dissociation/): dissociation (dépersonnalisation, déréalisation), parts de soi, lien avec le trauma, ancrage et accompagnement
@@ -24,6 +24,6 @@
 - [Théorie polyvagale](https://laetitia-duchemin-psychologue.fr/theorie-polyvagale/): trois états du système nerveux autonome (Stephen Porges), vidéo, lien avec la fenêtre de tolérance
 - [Tarifs et modalités](https://laetitia-duchemin-psychologue.fr/#infos): première consultation 1 h (70 €), consultation 1 h (70 €), séance ICV 1 h 30 (90 €), honoraires exonérés de TVA
 - [Réserver en ligne](https://rdv.deiz.fr/laetitia-duchemin-psychologue)
-- [Texte intégral du site](https://laetitia-duchemin-psychologue.fr/llms-full.txt): contenu complet des 13 pages, pour les assistants IA
+- [Texte intégral du site](https://laetitia-duchemin-psychologue.fr/llms-full.txt): contenu complet des 19 pages, pour les assistants IA
 
-Mis à jour en septembre 2026.
+Mis à jour en octobre 2026.
