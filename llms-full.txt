@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 19 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour en septembre 2026.
+> Version complète de llms.txt : texte principal des 36 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour en septembre 2026.
 
 ---
 
@@ -71,31 +71,31 @@ Chaque parcours est singulier. Voici les grands axes autour desquels nous pouvon
 
 ### Stress post-traumatique et trauma complexe
 
-Comprendre l'impact d'un événement marquant ou d'expériences anciennes ou répétées, et reconstruire, pas à pas, un sentiment de sécurité. Comprendre aussi ces moments où l'on se sent loin de soi ou du monde, la dissociation, et redonner de la connexion entre les différentes parts de soi. En savoir plus sur le stress post-traumatique
+Comprendre l'impact d'un événement marquant ou d'expériences anciennes ou répétées, et reconstruire, pas à pas, un sentiment de sécurité. Comprendre aussi ces moments où l'on se sent loin de soi ou du monde, la dissociation, et redonner de la connexion entre les différentes parts de soi. Apaiser l'hypervigilance et la mémoire traumatique. En savoir plus sur le stress post-traumatique
 
 -
 
 ### Régulation émotionnelle
 
-Développer des repères et des outils pour accueillir les émotions intenses et retrouver de la stabilité, en m'appuyant notamment sur la Pleine Conscience Sensible au Trauma et la théorie polyvagale. Apprendre à faire baisser l'intensité d'une crise d'angoisse ou d'une attaque de panique, pour ne plus en avoir peur. Comprendre ce que la consommation ou le comportement vient apaiser dans les addictions, et changer à son rythme, sans jugement. En savoir plus sur la régulation émotionnelle
+Développer des repères et des outils pour accueillir les émotions intenses et retrouver de la stabilité, en m'appuyant notamment sur la Pleine Conscience Sensible au Trauma et la théorie polyvagale. Comprendre sa fenêtre de tolérance et sa haute sensibilité. Apaiser l'anxiété, apprendre à faire baisser l'intensité d'une crise d'angoisse ou d'une attaque de panique, pour ne plus en avoir peur. Comprendre ce que la consommation ou le comportement vient apaiser dans les addictions, et changer à son rythme, sans jugement. En savoir plus sur la régulation émotionnelle
 
 -
 
 ### Styles d'attachement
 
-Explorer comment vos premiers liens influencent aujourd'hui vos relations et votre rapport à vous-même. En savoir plus sur les styles d'attachement
+Explorer comment vos premiers liens influencent aujourd'hui vos relations et votre rapport à vous-même : attachement sécure, anxieux, évitant ou désorganisé, dépendance affective, peur de l'abandon. En savoir plus sur les styles d'attachement
 
 -
 
 ### Confiance en soi et reconstruction
 
-Renforcer votre place, votre pouvoir d'agir, votre résilience et la relation que vous entretenez avec vous-même. En savoir plus sur la confiance en soi
+Renforcer votre place, votre pouvoir d'agir, votre résilience et la relation que vous entretenez avec vous-même. Restaurer son estime de soi, apprendre à s'affirmer, apaiser le syndrome de l'imposteur. En savoir plus sur la confiance en soi
 
 -
 
 ### Mes approches : LI-ICV et neuropsychologie
 
-La LI-ICV (Intégration du Cycle de la Vie) relie les étapes de votre parcours pour soutenir un sentiment de continuité et de sécurité intérieure. La neuropsychologie aide à mieux comprendre le fonctionnement de votre cerveau (attention, mémoire, émotions) pour donner du sens à ce que vous vivez.
+La LI-ICV (Intégration du Cycle de la Vie) relie les étapes de votre parcours pour soutenir un sentiment de continuité et de sécurité intérieure. La neuropsychologie aide à mieux comprendre le fonctionnement de votre cerveau (attention, mémoire, émotions) pour donner du sens à ce que vous vivez. En savoir plus sur mes approches
 
 ### Et de nombreuses autres demandes
 
@@ -138,11 +138,7 @@ Voir mon identité professionnelle complète
 
 - 2021Diplôme universitaire de neuropsychologie intégrativeUniversité de Picardie Jules Verne, Amiens
 
-- 2022Formation à la thérapie ACT (Acceptance and Commitment Therapy)Jean-Louis Monestès
-
 - 2022-2025Thérapie Intégration du Cycle de Vie (ICV), niveaux 1 à 4, et ICV enfants-adosJoanna Smith et Laure Mann
-
-- 2023Initiation au TCTSY (Trauma Center Trauma-Sensitive Yoga), à terminerMaria Karimov-Zwienenberg
 
 - 2025-2026Pleine Conscience Sensible au Trauma, niveaux 1 et 2David Treleaven
 
@@ -413,10 +409,6 @@ N° ADELI 809305931 · N° RPPS 10009112649 · SIREN 821 507 720
 
 - Thérapie Intégration du Cycle de Vie (ICV), niveau 4 — Laure Mann, 2025
 
-- Initiation au TCTSY (Trauma Center Trauma-Sensitive Yoga) — Maria Karimov-Zwienenberg, 2023 (à terminer)
-
-- Formation à la thérapie ACT (Acceptance and Commitment Therapy) — Jean-Louis Monestès, 2022
-
 - Pleine Conscience Sensible au Trauma, niveau 1 — David Treleaven, 2025
 
 - Pleine Conscience Sensible au Trauma, niveau 2 — David Treleaven, 2026
@@ -481,7 +473,7 @@ N° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720.
 
 ### Est-elle en formation continue ?
 
-Oui : au-delà de son doctorat en cours, elle complète actuellement sa formation à la TCTSY (initiée en 2023 avec Maria Karimov-Zwienenberg), poursuit une formation à l'IFS (Internal Family Systems, dont elle est partiellement formée) et a suivi en 2026 une initiation à l'EFT (Emotional Freedom Techniques) avec Jean-Michel Gurret.
+Oui : au-delà de son doctorat en cours, elle poursuit une formation à l'IFS (Internal Family Systems) et a suivi en 2026 une initiation à l'EFT clinique avec Jean-Michel Gurret.
 
 Prendre rendez-vous en ligne.
 
@@ -538,6 +530,95 @@ Réserver en ligne
 
 ---
 
+URL : https://laetitia-duchemin-psychologue.fr/mes-approches/
+Titre : Psychothérapie intégrative et psychocorporelle — L. Duchemin
+
+# Mes approches
+
+Une psychothérapie intégrative et psychocorporelle, construite avec vous
+
+Je suis psychologue clinicienne intégrative et trauma-informée. Au cœur de ma pratique, il y a la LI-ICV, une thérapie qui relie les différents moments de votre vie pour retrouver un sentiment de continuité et de sécurité intérieure. C'est la flèche principale de mon arc. Je m'appuie aussi sur différentes approches, découvertes au fil de mon parcours clinique.
+
+Prendre rendez-vous
+
+## Ce que je vous propose
+
+Chaque accompagnement est co-construit avec vous, à votre rythme. Il suit souvent le même fil conducteur :
+
+- Comprendre votre vécu : mettre des mots sur ce qui se passe, et sur ce qui a pu l'installer.
+
+- Éclairer ce qui se joue : repérer les réactions de votre corps et de votre système nerveux, pour ne plus les vivre comme un défaut personnel.
+
+- Sécuriser et réguler : retrouver des appuis pour accueillir les émotions intenses, avant d'aborder ce qui est plus difficile.
+
+- Intégrer : relier les souvenirs, les émotions et les sensations, pour que le passé reste à sa place.
+
+- Avancer vers plus de liberté intérieure.
+
+Vous restez libre à chaque étape : de dire oui, de dire non, de ralentir, de faire une pause. C'est le cœur d'une approche trauma-informée.
+
+## La LI-ICV, au cœur de ma pratique
+
+La LI-ICV (Intégration du Cycle de la Vie) est une thérapie de connexion des différents états du soi. Elle s'appuie sur une ligne du temps de souvenirs, parcourue de façon répétée, pour aider le système nerveux à intégrer que le passé est passé. Elle repose notamment sur la théorie polyvagale, et partage des principes avec d'autres approches : l'IFS, l'EMDR (voir LI-ICV ou EMDR), les TCC, ou encore l'ancrage de la pleine conscience.
+
+Elle a l'avantage d'être une thérapie douce et complète : elle permet de travailler sur l'origine même des symptômes, et d'aller très loin dans l'exploration de son vécu, même le plus implicite. Je la pratique à tout âge, avec les adultes comme avec les enfants et les adolescents, et elle est le sujet de ma recherche doctorale.
+
+## La place du corps
+
+Selon la théorie polyvagale de Stephen Porges, notre système nerveux évalue en permanence, sans que nous en ayons conscience, si notre environnement est sûr ou menaçant : c'est la neuroception. Lorsqu'il perçoit un danger, il déclenche des réactions de protection (lutter, fuir, se figer), avant même que nous ayons eu le temps d'y réfléchir. Le psychiatre Bessel van der Kolk a montré, de son côté, que le corps garde la mémoire de ce que nous avons vécu.
+
+C'est dans le corps que s'engramment beaucoup de tensions, de sensations et d'émotions. Quand elles ne sont pas libérées ni exprimées, elles restent là, dans l'indicible. D'où l'importance d'agir avec le corps pour s'en libérer. Le mouvement est un élément important, qui participe pleinement à la thérapie.
+
+Les séances ont lieu en ligne. Le travail corporel s'y adapte bien : il repose sur l'attention portée à vos sensations, sur la respiration et sur des mouvements simples, toujours proposés et jamais imposés.
+
+## Un accompagnement adapté à chacun
+
+Tout au long de mon parcours de psychologue, je me suis intéressée à différentes approches thérapeutiques et cadres théoriques : la relaxation, la pleine conscience et la Pleine Conscience Sensible au Trauma, l'autocompassion, le TCTSY (thérapie par le yoga sensible au trauma), la théorie polyvagale, l'IFS, l'ACT, la thérapie des schémas, l'hypnose thérapeutique, l'EMDR, l'EFT clinique ou encore la neuropsychologie. C'est la LI-ICV qui est, à mon sens, la plus complète.
+
+Cette culture thérapeutique riche et variée, et les différents outils auxquels j'ai été formée, me permettent d'adapter mon accompagnement à chaque patient, selon sa situation et ce qu'il vit.
+
+## Questions fréquentes
+
+-
+
+### Qu'est-ce qu'une psychothérapie intégrative ?
+
+C'est une psychothérapie qui réunit les apports de plusieurs courants dans un cadre cohérent, plutôt que d'appliquer une seule méthode. Les outils sont choisis selon la personne et sa demande.
+
+-
+
+### Que veut dire « psychocorporelle » ?
+
+Une approche psychocorporelle prend en compte le corps autant que la pensée : les sensations, la respiration, les tensions et le mouvement font partie du travail thérapeutique.
+
+-
+
+### Le travail corporel est-il possible en ligne ?
+
+Oui. Il repose sur l'attention à vos sensations, sur la respiration et sur des mouvements simples, que vous pouvez faire depuis chez vous. Il n'y a jamais de contact physique.
+
+-
+
+### Faut-il connaître ces approches avant de venir ?
+
+Non. Je vous explique au fil des séances ce que nous faisons et pourquoi.
+
+## Sources
+
+- Pace, P. (2012). Lifespan Integration: Connecting Ego States through Time (5e éd.). Eirene Imprint.
+
+- Porges, S. W. (2011). The Polyvagal Theory: Neurophysiological Foundations of Emotions, Attachment, Communication, and Self-regulation. New York : W. W. Norton.
+
+- van der Kolk, B. (2014). The Body Keeps the Score. New York : Viking. Traduction française : Le corps n'oublie rien (2018). Paris : Albin Michel.
+
+- Wampold, B. E., & Imel, Z. E. (2015). The Great Psychotherapy Debate: The Evidence for What Makes Psychotherapy Work (2e éd.). New York : Routledge.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
 URL : https://laetitia-duchemin-psychologue.fr/li-icv/
 Titre : LI-ICV en ligne — Laetitia Duchemin, psychologue
 
@@ -552,6 +633,8 @@ Prendre rendez-vous
 ## Pour quelles situations ?
 
 Elle est utilisée pour le stress post-traumatique (TSPT), simple ou complexe, la réparation de l'attachement et la régulation émotionnelle.
+
+Vous vous demandez ce qui la distingue de l'EMDR ? Voir la page LI-ICV ou EMDR.
 
 ## Ma formation à la LI-ICV
 
@@ -696,6 +779,85 @@ Réserver en ligne
 
 ---
 
+URL : https://laetitia-duchemin-psychologue.fr/li-icv-ou-emdr/
+Titre : LI-ICV ou EMDR : quelles différences ? — L. Duchemin
+
+# LI-ICV ou EMDR
+
+Deux thérapies du trauma, deux façons de faire
+
+La LI-ICV et l'EMDR sont deux thérapies utilisées pour le stress post-traumatique et le trauma complexe. Elles partagent un même objectif : aider le cerveau à intégrer ce qui a été vécu, pour que le passé cesse de revenir comme au présent. Elles le font de façon différente.
+
+Prendre rendez-vous
+
+## L'EMDR
+
+L'EMDR (Eye Movement Desensitization and Reprocessing, ou désensibilisation et retraitement par les mouvements oculaires) a été développée à la fin des années 1980 par la psychologue américaine Francine Shapiro. Elle s'appuie sur des stimulations bilatérales alternées (mouvements des yeux, sons ou tapotements) pendant que la personne se concentre sur un souvenir difficile, selon un protocole structuré en huit phases.
+
+## La LI-ICV
+
+La LI-ICV (Intégration du Cycle de la Vie) a été créée dans les années 2000 par la psychothérapeute américaine Peggy Pace. Formée à l'EMDR, elle observait ses limites lorsqu'il s'agissait de trauma complexe : c'est pour cela qu'elle a créé la LI-ICV. Aujourd'hui, ce constat est à nuancer, car de nouveaux protocoles EMDR émergent pour mieux travailler sur le trauma complexe.
+
+La LI-ICV est une thérapie de connexion des différents états du soi. Elle s'appuie sur une ligne du temps de souvenirs, de l'enfance à aujourd'hui, parcourue de façon répétée. La recherche sur la LI-ICV est plus récente, mais ses premiers résultats sont encourageants.
+
+## Ce qui les rapproche
+
+- Elles visent toutes deux l'intégration de ce qui a été vécu.
+
+- Toutes deux peuvent travailler à partir de souvenirs cibles.
+
+- Les mouvements bilatéraux ne sont pas propres à l'EMDR : en LI-ICV aussi, marcher ou passer une balle d'une main à l'autre relèvent de la stimulation bilatérale.
+
+## Ce qui les distingue
+
+- Avec la LI-ICV, on peut remonter très loin dans les expériences précoces de la vie d'une personne, y compris des périodes dont on n'a pas de souvenir précis.
+
+- La LI-ICV est plus douce : elle expose progressivement, alors qu'en EMDR le focus sur un souvenir est plus long.
+
+- La ligne du temps relie la personne au présent : à chaque passage, le système nerveux intègre que le passé est passé.
+
+- La recherche : un grand nombre d'études pour l'EMDR, recommandée par l'Organisation mondiale de la santé et la Haute Autorité de santé ; des études plus récentes et moins nombreuses pour la LI-ICV.
+
+## Comment choisir ?
+
+Les deux thérapies se valent : le choix dépend surtout de la personne, de son histoire et de ce qu'elle préfère. Je pratique la LI-ICV, et je peux vous orienter vers un thérapeute EMDR si cette approche vous correspond davantage.
+
+## Questions fréquentes
+
+-
+
+### Peut-on faire les deux ?
+
+Oui, à des moments différents de son parcours. Il est préférable de ne pas les mener en même temps, avec deux thérapeutes différents.
+
+-
+
+### Laquelle est la plus rapide ?
+
+Pour un événement unique, les deux peuvent agir en peu de séances. Pour un trauma complexe, le travail est plus long, quelle que soit l'approche.
+
+-
+
+### Pratiquez-vous l'EMDR ?
+
+Non. Je pratique la LI-ICV, et je peux vous orienter si vous souhaitez une thérapie EMDR.
+
+## Sources
+
+- Shapiro, F. (2018). Eye Movement Desensitization and Reprocessing (EMDR) Therapy: Basic Principles, Protocols, and Procedures (3e éd.). New York : Guilford Press.
+
+- World Health Organization (2013). Guidelines for the Management of Conditions Specifically Related to Stress. Genève : OMS.
+
+- Pace, P. (2012). Lifespan Integration: Connecting Ego States through Time (5e éd.). Eirene Imprint.
+
+- Smith, J. (2024). Applications cliniques en ICV (Intégration du Cycle de la Vie). Paris : Dunod.
+
+Séance ICV : 1 h 30, 90 €, en ligne.
+
+Réserver en ligne
+
+---
+
 URL : https://laetitia-duchemin-psychologue.fr/stress-post-traumatique-trauma-complexe/
 Titre : Trauma complexe et TSPT en ligne — Laetitia Duchemin, psychologue
 
@@ -743,13 +905,19 @@ Ces manifestations ne suffisent pas à poser un diagnostic : ce qui compte, c'es
 
 Face à un danger, votre cerveau déclenche une alarme très rapide. L'amygdale, une petite structure qui repère les menaces, active le système nerveux et la libération d'hormones de stress, comme l'adrénaline et le cortisol : le cœur accélère, la respiration change, le corps se prépare à lutter, à fuir ou à se figer.
 
-Lors d'un événement traumatique, cette alarme est si forte que l'hippocampe, qui range habituellement les souvenirs dans le temps et dans l'espace, ne peut pas faire son travail. Le souvenir est alors enregistré en fragments (des images, des sons, des odeurs, des sensations) sans le fil du récit ni le repère du « c'était avant ». C'est pourquoi il peut revenir comme s'il se produisait maintenant.
+Lors d'un événement traumatique, cette alarme est si forte que l'hippocampe, qui range habituellement les souvenirs dans le temps et dans l'espace, ne peut pas faire son travail. Le souvenir est alors enregistré en fragments (voir la mémoire traumatique) : des images, des sons, des odeurs, des sensations, sans le fil du récit ni le repère du « c'était avant ». C'est pourquoi il peut revenir comme s'il se produisait maintenant.
 
 Quand le trauma s'installe, l'alarme reste plus sensible et se déclenche plus facilement, tandis que les régions qui aident à prendre du recul et à réguler les émotions, notamment le cortex préfrontal, ont plus de mal à la calmer. Ces changements ne sont pas figés : le cerveau reste plastique. La thérapie permet de déconstruire des connexions neuronales liées au trauma, pour construire de nouveaux chemins vers le rétablissement. Ces réactions rejoignent les états de mobilisation et d'immobilisation décrits par la théorie polyvagale.
 
 ## D'où vient la notion de trauma complexe
 
 La notion a été proposée en 1992 par la psychiatre américaine Judith Herman, à partir de son travail auprès de personnes ayant subi des violences répétées et prolongées, dans l'enfance, le couple ou la captivité. Elle constatait que le diagnostic de stress post-traumatique ne rendait pas compte de l'ensemble de leurs difficultés : la régulation des émotions, l'image de soi et les relations étaient elles aussi profondément touchées. L'Organisation mondiale de la santé a reconnu le TSPT complexe comme un diagnostic distinct dans sa classification internationale des maladies (la CIM-11), entrée en vigueur en 2022.
+
+## Les traumas silencieux : quand « rien » n'est pas rien
+
+« Je n'ai rien vécu de grave. » Beaucoup de personnes le disent, et pourtant elles se reconnaissent dans les manifestations du trauma. Certaines blessures ne viennent pas de ce qui s'est passé, mais de ce qui a manqué : une attention, un réconfort, une présence qui rassure, quelqu'un à qui confier ses émotions. C'est la négligence, notamment émotionnelle. Parce qu'il n'y a pas d'événement précis à raconter, ces traumas restent souvent silencieux, et l'on peine à leur donner de l'importance.
+
+La psychothérapeute américaine Ruth Cohn, qui a consacré un ouvrage au trauma de négligence, le résume ainsi : « Rien n'est pas rien. Rien, c'est quelque chose. Et ce rien compte. » Ce manque répété peut laisser des traces comparables à celles d'un trauma, en particulier sur la régulation des émotions, l'image de soi et les relations, comme dans le trauma complexe.
 
 ## Comment le trauma se travaille
 
@@ -799,6 +967,8 @@ Non, pas nécessairement. Certaines approches, comme la LI-ICV, permettent de tr
 
 - Canini, F., El-Hage, W., & Garcia, R. (2024). L'ABC des psychotraumas. Approches biologiques et cliniques des psychotraumas. Paris : Ellipses.
 
+- Cohn, R. (2026). Le trauma de négligence. Reconnaître, accompagner et guérir, parce que rien n'est pas rien. Quantum Way.
+
 - Smith, J. (2021). Psychothérapie de la dissociation et du trauma (2e éd.). Paris : Dunod.
 
 Consultation : 1 h, 70 €, en ligne.
@@ -826,19 +996,33 @@ L'attachement est un besoin fondamental : dès la naissance, le bébé cherche l
 
 ### L'attachement sécure
 
-Vous vous sentez à l'aise dans la proximité comme dans l'autonomie. Vous pouvez demander de l'aide, faire confiance et supporter la séparation sans vous sentir menacé.
+Vous vous sentez à l'aise dans la proximité comme dans l'autonomie. Vous pouvez demander de l'aide, faire confiance et supporter la séparation sans vous sentir menacé. Voir la page attachement sécure, qui parle aussi du sécure acquis.
 
 ### L'attachement anxieux (ou ambivalent)
 
-Lorsque la présence des figures d'attachement a été imprévisible, l'enfant apprend à intensifier ses signaux pour être entendu. À l'âge adulte, cela peut se traduire par la peur d'être abandonné, un besoin fréquent de réassurance et une grande sensibilité aux signes de rejet.
+Lorsque la présence des figures d'attachement a été imprévisible, l'enfant apprend à intensifier ses signaux pour être entendu. À l'âge adulte, cela peut se traduire par la peur d'être abandonné, un besoin fréquent de réassurance et une grande sensibilité aux signes de rejet. Voir la page attachement anxieux.
 
 ### L'attachement évitant
 
-Lorsque les besoins de réconfort ont souvent été repoussés, l'enfant apprend à ne plus les montrer. À l'âge adulte, cela peut se traduire par une grande autonomie, une difficulté à exprimer ses émotions ou à demander de l'aide, et un malaise face à la proximité.
+Lorsque les besoins de réconfort ont souvent été repoussés, l'enfant apprend à ne plus les montrer. À l'âge adulte, cela peut se traduire par une grande autonomie, une difficulté à exprimer ses émotions ou à demander de l'aide, et un malaise face à la proximité. Voir la page attachement évitant.
 
 ### L'attachement désorganisé
 
-Décrit plus tard par Mary Main et Judith Solomon, il apparaît lorsque la figure censée protéger est aussi source de peur. L'enfant se trouve face à un dilemme sans solution : se rapprocher de ce qui l'effraie. À l'âge adulte, cela peut se traduire par des relations vécues comme chaotiques, une alternance entre besoin de l'autre et fuite, et des difficultés à réguler ses émotions. Ce style est souvent associé au trauma complexe.
+Décrit plus tard par Mary Main et Judith Solomon, il apparaît lorsque la figure censée protéger est aussi source de peur. L'enfant se trouve face à un dilemme sans solution : se rapprocher de ce qui l'effraie. À l'âge adulte, cela peut se traduire par des relations vécues comme chaotiques, une alternance entre besoin de l'autre et fuite, et des difficultés à réguler ses émotions. Ce style est souvent associé au trauma complexe. Voir la page attachement désorganisé.
+
+## Les styles d'attachement à l'âge adulte
+
+À la fin des années 1980, les chercheurs Cindy Hazan et Phillip Shaver ont montré que ces styles se retrouvent dans les relations amoureuses adultes. Kim Bartholomew et Leonard Horowitz les ont ensuite décrits selon deux axes : l'image que l'on a de soi (« je mérite d'être aimé ») et l'image que l'on a des autres (« on peut compter sur eux »). Ils distinguent quatre styles :
+
+- Sécure : une image positive de soi et des autres. On est à l'aise dans l'intimité comme dans l'autonomie.
+
+- Préoccupé : une image de soi fragile, et une image positive des autres. On recherche beaucoup la proximité et la réassurance, avec la peur d'être abandonné. Il correspond à l'attachement anxieux de l'enfant.
+
+- Détaché : une image de soi positive, mais une méfiance envers les autres. On privilégie l'indépendance et l'on se tient à distance des émotions. Il correspond à l'attachement évitant.
+
+- Craintif : une image fragile de soi comme des autres. On désire la proximité tout en la redoutant, ce qui conduit à des mouvements d'approche et de fuite. Il se rapproche de l'attachement désorganisé.
+
+Aujourd'hui, les chercheurs décrivent plutôt l'attachement adulte selon deux dimensions continues, l'anxiété d'abandon et l'évitement de la proximité : chacun se situe quelque part sur ces deux axes, plutôt que dans une case.
 
 ## Un style préférentiel, mais pas une étiquette
 
@@ -850,7 +1034,7 @@ Avoir un style d'attachement insécure n'est pas une maladie : c'est une façon 
 
 ## Comment ça se manifeste à l'âge adulte
 
-- La peur d'être abandonné ou rejeté, et le besoin d'être rassuré souvent.
+- La peur d'être abandonné ou rejeté, et le besoin d'être rassuré souvent, parfois jusqu'à la dépendance affective.
 
 - À l'inverse, une grande difficulté à dépendre des autres, à demander de l'aide ou à laisser quelqu'un s'approcher.
 
@@ -900,9 +1084,507 @@ Il existe des questionnaires, mais ils donnent surtout une indication. Une éval
 
 - Hazan, C., & Shaver, P. (1987). Romantic love conceptualized as an attachment process. Journal of Personality and Social Psychology, 52(3), 511-524.
 
+- Bartholomew, K., & Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. Journal of Personality and Social Psychology, 61(2), 226-244.
+
+- Brennan, K. A., Clark, C. L., & Shaver, P. R. (1998). Self-report measurement of adult attachment: An integrative overview. In J. A. Simpson & W. S. Rholes (dir.), Attachment Theory and Close Relationships (p. 46-76). New York : Guilford Press.
+
 - Guédeney, N., & Guédeney, A. (dir.) (2021). L'attachement : approche théorique. Du bébé à la personne âgée (5e éd.). Paris : Elsevier Masson.
 
 - Smith, J. (2024). Applications cliniques en ICV (Intégration du Cycle de la Vie). Trauma, dissociation, troubles anxieux, traumatismes précoces, attachement et affirmation de soi. Paris : Dunod.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/attachement-secure/
+Titre : Attachement sécure et sécure acquis — Laetitia Duchemin, psy
+
+# Attachement sécure
+
+Se sentir en sécurité dans le lien, et libre d'explorer
+
+L'attachement sécure est le style d'attachement qui permet de se sentir à la fois en sécurité dans le lien et libre de s'en éloigner (voir les styles d'attachement). Il n'est pas réservé à ceux qui ont eu une enfance facile : il peut aussi se construire plus tard, à l'âge adulte. On parle alors d'attachement sécure acquis.
+
+Prendre rendez-vous
+
+## Comment il se construit
+
+Il se construit lorsque les figures d'attachement répondent de façon suffisamment fiable aux besoins de l'enfant : pas parfaitement, mais assez souvent pour qu'il sache qu'il peut compter sur elles. Elles deviennent alors une base de sécurité, à partir de laquelle il ose explorer le monde, et un refuge, vers lequel il revient quand il a peur. Les erreurs ne sont pas un problème, à condition qu'elles soient réparées.
+
+## Comment il se manifeste à l'âge adulte
+
+- Se sentir à l'aise dans la proximité comme dans l'autonomie.
+
+- Pouvoir demander de l'aide, et en apporter.
+
+- Supporter la séparation sans se sentir menacé.
+
+- Traverser un conflit sans craindre de perdre le lien.
+
+- Avoir une image de soi et des autres plutôt positive, et réguler ses émotions dans la relation.
+
+## Ce que ce n'est pas
+
+Être sécure ne veut pas dire ne jamais avoir peur, ni ne jamais se disputer. Les personnes sécures vivent aussi des émotions difficiles et des moments d'insécurité : elles ont simplement plus de moyens de les traverser et de revenir vers le lien.
+
+## L'attachement sécure acquis
+
+Des chercheurs ont décrit des adultes qui, malgré une enfance marquée par l'insécurité, ont développé un attachement sécure. Ce qui les distingue n'est pas l'absence de difficultés passées, mais la capacité à raconter leur histoire de façon cohérente, en y donnant du sens. Des relations réparatrices, un partenaire, un ami, un thérapeute, contribuent à cette évolution. On retrouve ici la notion de résilience : la capacité à se reconstruire après des expériences difficiles, en s'appuyant sur des liens qui soutiennent.
+
+La LI-ICV permet justement ce travail d'évolution vers un attachement sécure acquis : en reliant les différents moments de la vie, elle aide à construire une histoire cohérente et un sentiment de sécurité intérieure. C'est l'objet de ma recherche doctorale.
+
+## Nourrir sa sécurité au quotidien
+
+- S'entourer de relations fiables, où l'on peut être soi.
+
+- Apprendre à se rassurer soi-même, en revenant à son corps et au présent.
+
+- Oser exprimer ses besoins, et accueillir ceux des autres (voir l'affirmation de soi).
+
+- Réparer après un conflit : revenir vers l'autre, nommer ce qui s'est passé.
+
+## Mon accompagnement
+
+J'accompagne les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions de soi et des autres, vers plus de sécurité.
+
+## Questions fréquentes
+
+-
+
+### Peut-on devenir sécure à l'âge adulte ?
+
+Oui. C'est ce que l'on appelle l'attachement sécure acquis : il se construit à travers des relations fiables et un travail thérapeutique.
+
+-
+
+### Une personne sécure peut-elle se sentir insécure ?
+
+Oui, dans certaines relations ou certaines périodes de vie. On parle de style principal : il peut varier selon les personnes et les contextes.
+
+-
+
+### Faut-il avoir eu des parents parfaits ?
+
+Non. Des parents « suffisamment bons », selon l'expression du pédiatre Donald Winnicott, qui se trompent parfois mais réparent, suffisent à construire un attachement sécure.
+
+## Sources
+
+- Bowlby, J. (1988). A Secure Base: Parent-Child Attachment and Healthy Human Development. New York : Basic Books.
+
+- Roisman, G. I., Padrón, E., Sroufe, L. A., & Egeland, B. (2002). Earned-secure attachment status in retrospect and prospect. Child Development, 73(4), 1204-1219.
+
+- Mikulincer, M., & Shaver, P. R. (2016). Attachment in Adulthood: Structure, Dynamics, and Change (2e éd.). New York : Guilford Press.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/attachement-anxieux/
+Titre : Attachement anxieux : comprendre et s'apaiser — L. Duchemin
+
+# Attachement anxieux
+
+Quand la relation ne semble jamais tout à fait sûre
+
+L'attachement anxieux, ou ambivalent, est l'un des styles d'attachement insécures. Il se construit lorsque la présence des figures d'attachement a été imprévisible : parfois disponibles, parfois non. L'enfant apprend alors à intensifier ses signaux pour être entendu. À l'âge adulte, on parle d'attachement préoccupé. On parle de style principal : selon les personnes et les contextes, on peut avoir des styles relationnels différents.
+
+Prendre rendez-vous
+
+## Comment il se manifeste à l'âge adulte
+
+- La peur d'être abandonné ou rejeté.
+
+- Un besoin fréquent d'être rassuré, de preuves d'amour ou d'intérêt.
+
+- Une grande sensibilité aux signes de distance : un message sans réponse, un ton plus froid.
+
+- Des pensées envahissantes sur la relation, et la difficulté à se calmer seul.
+
+- La tendance à s'oublier pour préserver le lien (voir la dépendance affective).
+
+## Ce que ce style protège
+
+Rester très attentif à l'autre a été, pour l'enfant, la meilleure façon de maintenir le lien quand celui-ci était incertain. Cette vigilance relationnelle a eu sa raison d'être. À l'âge adulte, elle peut s'épuiser elle-même et peser sur la relation.
+
+## Anxieux et évitant : un duo fréquent
+
+Les personnes au style anxieux se retrouvent souvent avec des personnes au style évitant : la quête de proximité de l'une active le besoin de distance de l'autre, et la distance de l'autre ravive la peur de l'une.
+
+## Des pistes pour s'apaiser
+
+- Repérer ce qui déclenche l'inquiétude, et laisser passer un temps avant de réagir.
+
+- Apprendre à se rassurer soi-même : respirer, revenir au présent, se dire une phrase neutre et bienveillante (« Je suis inquiète, et cela va passer »).
+
+- Exprimer un besoin clairement plutôt que chercher des preuves (voir l'affirmation de soi).
+
+- Nourrir d'autres liens et d'autres sources de bien-être, en dehors du couple.
+
+## Un exercice : rester présent à l'inconfort
+
+La tolérance à la détresse est une bonne piste de travail : apprendre à rester en présence de ses sensations et de ses émotions, même inconfortables, pour supporter petit à petit la distance.
+
+- Quand l'envie de chercher une réassurance apparaît (envoyer un message, demander une preuve), arrêtez-vous un instant.
+
+- Repérez où l'inconfort se loge dans votre corps, et posez-y une main.
+
+- Nommez-le simplement : « Je remarque de l'inquiétude, une boule dans le ventre. »
+
+- Respirez lentement par le nez, et restez avec cette sensation une minute, sans agir.
+
+- Observez qu'elle monte, atteint un sommet puis redescend, comme une vague (voir la tolérance émotionnelle). Allongez la durée au fil des jours.
+
+## Mon accompagnement
+
+J'accompagne les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions de soi et des autres.
+
+## Questions fréquentes
+
+-
+
+### Est-ce que je suis « trop » dans mes relations ?
+
+Ce n'est pas un excès de votre part, mais une façon apprise de vous protéger. Elle peut évoluer, et laisser place à plus de sécurité.
+
+-
+
+### Peut-on devenir sécure ?
+
+Oui. On parle de sécurité « acquise » : des relations fiables et un travail thérapeutique permettent de la construire à l'âge adulte (voir l'attachement sécure). La LI-ICV permet justement ce travail d'évolution vers un attachement sécure acquis : c'est l'objet de ma recherche doctorale.
+
+-
+
+### L'attachement anxieux, est-ce de la jalousie ?
+
+Pas nécessairement. La jalousie peut en faire partie, mais le cœur de l'attachement anxieux est la peur de perdre le lien.
+
+## Sources
+
+- Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. (1978). Patterns of Attachment. Hillsdale : Erlbaum.
+
+- Bartholomew, K., & Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. Journal of Personality and Social Psychology, 61(2), 226-244.
+
+- Mikulincer, M., & Shaver, P. R. (2016). Attachment in Adulthood: Structure, Dynamics, and Change (2e éd.). New York : Guilford Press.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/attachement-evitant/
+Titre : Attachement évitant : comprendre et évoluer — L. Duchemin
+
+# Attachement évitant
+
+Quand compter sur les autres semble risqué
+
+L'attachement évitant est l'un des styles d'attachement insécures. Il se construit lorsque les besoins de réconfort de l'enfant ont souvent été repoussés : il apprend alors à ne plus les montrer, et à compter avant tout sur lui-même. Plus rarement, un excès d'attention, de câlins ou de protection, vécu comme envahissant, peut lui aussi conduire l'enfant à mettre de la distance, pour se protéger d'un lien trop intense. À l'âge adulte, on parle d'attachement détaché. On parle de style principal : selon les personnes et les contextes, on peut avoir des styles relationnels différents.
+
+Prendre rendez-vous
+
+## Comment il se manifeste à l'âge adulte
+
+- Une grande autonomie, et une difficulté à demander de l'aide.
+
+- Un malaise face à la proximité ou à l'intimité, le besoin de garder de la distance.
+
+- Une difficulté à exprimer ses émotions, ou à accueillir celles des autres.
+
+- Une tendance à prendre du recul quand la relation devient plus engagée.
+
+- L'impression de « ne pas avoir besoin des autres », qui protège d'une déception possible.
+
+## Ce que ce style protège
+
+L'évitement n'est pas de l'indifférence. C'est une stratégie apprise tôt pour se protéger de la douleur de ne pas être entendu : si je n'attends rien, je ne peux pas être déçu. Les recherches montrent d'ailleurs que, sous un calme apparent, le corps réagit fortement à la séparation : les émotions sont là, mais mises à distance.
+
+## Évitant et anxieux : un duo fréquent
+
+Les personnes au style évitant se retrouvent souvent en couple avec des personnes au style anxieux. Plus l'une cherche la proximité, plus l'autre prend de la distance, et inversement : chacun renforce, sans le vouloir, la peur de l'autre.
+
+## Des pistes pour avancer
+
+- Repérer les moments où l'on prend de la distance, et ce qui les déclenche.
+
+- S'autoriser à nommer un besoin, même petit, à une personne de confiance.
+
+- Rester un peu plus longtemps dans un moment de proximité, à son rythme.
+
+## Un exercice : rester présent à l'inconfort
+
+La tolérance à la détresse est une bonne piste de travail : apprendre à rester en présence de ses sensations et de ses émotions, même inconfortables, pour supporter petit à petit la proximité.
+
+- Quand l'envie de prendre de la distance apparaît, arrêtez-vous un instant.
+
+- Repérez où l'inconfort se loge dans votre corps, et posez-y une main.
+
+- Nommez-le simplement : « Je remarque de la tension, de l'envie de partir. »
+
+- Respirez lentement par le nez, et restez avec cette sensation une minute, sans agir.
+
+- Observez qu'elle monte, atteint un sommet puis redescend, comme une vague (voir la tolérance émotionnelle). Allongez la durée au fil des jours.
+
+## Mon accompagnement
+
+J'accompagne les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions de soi et des autres.
+
+## Questions fréquentes
+
+-
+
+### Une personne évitante peut-elle aimer ?
+
+Oui. L'évitement ne dit rien de la capacité à aimer, mais de la difficulté à se sentir en sécurité dans la proximité.
+
+-
+
+### Peut-on changer de style d'attachement ?
+
+Oui. Le style d'attachement est une tendance, pas une fatalité : des relations sécurisantes et un travail thérapeutique permettent de le faire évoluer. La LI-ICV permet justement ce travail d'évolution vers un attachement sécure acquis : c'est l'objet de ma recherche doctorale.
+
+-
+
+### Suis-je évitant avec tout le monde ?
+
+Pas forcément. On parle de style principal : on peut être plus évitant dans le couple et plus à l'aise en amitié, par exemple.
+
+## Sources
+
+- Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. (1978). Patterns of Attachment. Hillsdale : Erlbaum.
+
+- Belsky, J., Rovine, M., & Taylor, D. G. (1984). The Pennsylvania Infant and Family Development Project, III: The origins of individual differences in infant-mother attachment. Child Development, 55(3), 718-728.
+
+- Bartholomew, K., & Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. Journal of Personality and Social Psychology, 61(2), 226-244.
+
+- Mikulincer, M., & Shaver, P. R. (2016). Attachment in Adulthood: Structure, Dynamics, and Change (2e éd.). New York : Guilford Press.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/attachement-desorganise/
+Titre : Attachement désorganisé : comprendre ce style — L. Duchemin
+
+# Attachement désorganisé
+
+Quand la figure qui protège est aussi source de peur
+
+L'attachement désorganisé a été décrit par Mary Main et Judith Solomon. Il apparaît lorsque la figure censée protéger l'enfant est aussi source de peur, ou elle-même effrayée. Comme pour les autres styles, on parle de style principal. L'enfant se trouve face à un dilemme sans solution : se rapprocher de ce qui l'effraie. C'est l'un des styles d'attachement insécures ; à l'âge adulte, il se rapproche du style craintif.
+
+Prendre rendez-vous
+
+## Comment il se manifeste à l'âge adulte
+
+- Une alternance entre le besoin de l'autre et le besoin de le fuir.
+
+- Des relations vécues comme chaotiques ou imprévisibles.
+
+- Des émotions intenses et difficiles à réguler dans le lien (voir la régulation émotionnelle).
+
+- Des moments où l'on se coupe de soi, pour supporter ce qui se passe (voir la dissociation).
+
+- Une méfiance profonde, même envers les personnes bienveillantes.
+
+## Un lien étroit avec le trauma
+
+L'attachement désorganisé est souvent associé au trauma complexe, lorsque les expériences difficiles ont eu lieu tôt, dans la relation même avec les figures d'attachement. Le psychiatre Giovanni Liotti a montré ses liens avec la dissociation. Il ne s'agit pas d'une faiblesse, mais d'une adaptation à une situation impossible.
+
+## Retrouver de la sécurité
+
+La sécurité se reconstruit pas à pas : d'abord dans le corps, avec des appuis pour réguler les émotions, puis dans des relations fiables et prévisibles, dont la relation thérapeutique peut faire partie (voir l'attachement sécure).
+
+## Mon accompagnement
+
+J'accompagne les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions de soi et des autres. Le rythme est ajusté pour rester dans votre fenêtre de tolérance.
+
+## Questions fréquentes
+
+-
+
+### Attachement désorganisé et trouble de l'attachement, est-ce pareil ?
+
+Les termes se recoupent selon les auteurs. Dans le langage clinique, on parle parfois de troubles de l'attachement au sens large pour désigner les styles insécures, en particulier désorganisé. Dans les classifications médicales (DSM-5, CIM-11), les « troubles de l'attachement » désignent des diagnostics posés chez l'enfant ayant vécu des carences graves de soins. L'attachement désorganisé est surtout considéré comme un facteur de vulnérabilité, notamment au trauma complexe et à la dissociation.
+
+-
+
+### Peut-on en guérir ?
+
+Ce style peut évoluer. Le travail est souvent plus long, mais des relations sécurisantes et un accompagnement adapté permettent de construire plus de stabilité.
+
+-
+
+### Est-ce forcément lié à des violences ?
+
+Non. Il peut aussi apparaître lorsque le parent est lui-même submergé par la peur ou par un deuil non résolu, sans qu'il y ait de violence.
+
+## Sources
+
+- Main, M., & Solomon, J. (1990). Procedures for identifying infants as disorganized/disoriented during the Ainsworth Strange Situation. In M. T. Greenberg, D. Cicchetti & E. M. Cummings (dir.), Attachment in the Preschool Years. Chicago : University of Chicago Press.
+
+- Liotti, G. (2004). Trauma, dissociation, and disorganized attachment: Three strands of a single braid. Psychotherapy: Theory, Research, Practice, Training, 41(4), 472-486.
+
+- Mikulincer, M., & Shaver, P. R. (2016). Attachment in Adulthood: Structure, Dynamics, and Change (2e éd.). New York : Guilford Press.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/dependance-affective/
+Titre : Dépendance affective : comprendre et s'en libérer — L. Duchemin
+
+# Dépendance affective
+
+Quand on a besoin de l'autre pour se sentir exister
+
+La dépendance affective désigne un besoin intense de l'autre pour se sentir en sécurité, aimé ou digne de valeur. Ce n'est pas un diagnostic, mais une souffrance réelle, souvent liée à un style d'attachement anxieux et à une estime de soi fragile. Elle peut concerner le couple, mais aussi l'amitié ou la famille.
+
+Prendre rendez-vous
+
+## Les signes qui peuvent alerter
+
+- Une grande peur de la solitude, ou de la séparation.
+
+- S'oublier pour satisfaire l'autre, faire passer ses besoins après les siens.
+
+- Avoir besoin de preuves constantes d'amour ou d'attention.
+
+- Rester dans une relation qui fait souffrir, par peur de se retrouver seul.
+
+- Avoir du mal à dire non, de peur de perdre l'autre (voir l'affirmation de soi).
+
+## Comment elle s'installe
+
+La dépendance affective prend souvent racine dans l'enfance, lorsque l'amour ou l'attention ont semblé fragiles ou conditionnels. On apprend alors que le lien doit être préservé à tout prix, quitte à s'oublier soi-même. La présence de l'autre apaise sur le moment, comme un soulagement, ce qui renforce le besoin, un peu à la manière d'une addiction.
+
+## Des pistes pour s'en libérer
+
+- Reconnaître ses propres besoins, et apprendre à y répondre soi-même en partie.
+
+- Multiplier les sources de lien et de plaisir : amis, activités, projets à soi.
+
+- S'entraîner à rester seul avec soi, par petits moments, sans le vivre comme un abandon.
+
+- Poser des limites, même petites, dans la relation.
+
+## Mon accompagnement
+
+Nous travaillons sur l'estime de soi, l'affirmation de soi et les besoins, pour que votre sécurité ne repose plus uniquement sur l'autre. La LI-ICV permet d'aller plus loin, en travaillant sur les expériences d'attachement qui ont installé ce besoin.
+
+## Questions fréquentes
+
+-
+
+### Est-ce mal d'avoir besoin des autres ?
+
+Non. Le besoin de lien est fondamental. La dépendance affective commence lorsque ce besoin prend toute la place, au point de s'oublier.
+
+-
+
+### Dépendance affective et amour, comment faire la différence ?
+
+Dans une relation équilibrée, chacun garde sa place et sa liberté. Dans la dépendance affective, la peur de perdre l'autre domine, et l'on s'efface pour le garder.
+
+-
+
+### Peut-on s'en sortir ?
+
+Oui. En renforçant l'estime de soi et la sécurité intérieure, on peut construire des liens où l'on se sent libre et à sa place.
+
+## Sources
+
+- Bornstein, R. F. (1992). The dependent personality: Developmental, social, and clinical perspectives. Psychological Bulletin, 112(1), 3-23.
+
+- Mikulincer, M., & Shaver, P. R. (2016). Attachment in Adulthood: Structure, Dynamics, and Change (2e éd.). New York : Guilford Press.
+
+- André, C., & Lelord, F. (1999). L'estime de soi. S'aimer pour mieux vivre avec les autres. Paris : Odile Jacob.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/peur-de-l-abandon/
+Titre : Peur de l'abandon : comprendre et s'apaiser — L. Duchemin
+
+# Peur de l'abandon
+
+Quand chaque distance ravive la crainte d'être quitté
+
+La peur de l'abandon est la crainte, souvent envahissante, d'être quitté, rejeté ou laissé seul par les personnes auxquelles on tient. Elle est fréquente dans les styles d'attachement anxieux et désorganisé, et prend souvent racine dans des expériences anciennes de séparation, d'imprévisibilité ou de négligence.
+
+Prendre rendez-vous
+
+## Comment elle se manifeste
+
+- Guetter les moindres signes de distance ou de désintérêt.
+
+- Avoir besoin d'être rassuré souvent, et peiner à croire les paroles rassurantes.
+
+- Anticiper la rupture, imaginer le pire au moindre silence.
+
+- Ou, à l'inverse, partir le premier, ou ne pas s'engager, pour ne pas risquer d'être quitté.
+
+- Ressentir une détresse intense lors des séparations, même courtes.
+
+## D'où elle vient
+
+La peur de l'abandon peut naître de séparations précoces, d'une présence parentale imprévisible, d'un deuil, ou d'un manque d'attention qui n'a pas forcément laissé de souvenir précis (voir les traumas silencieux). Le système nerveux a appris que le lien pouvait disparaître, et il reste en alerte.
+
+## Le cercle de la peur
+
+Pour se protéger, on peut adopter des comportements qui, sans le vouloir, fragilisent la relation : demander sans cesse des preuves, tester l'autre, ou se retirer. La distance qui en résulte semble alors confirmer la peur de départ.
+
+## Des repères pour s'apaiser
+
+- Repérer le déclencheur : un message sans réponse, un changement de ton.
+
+- Revenir au présent : « Ici et maintenant, cette personne n'est pas celle d'avant. » (voir la mémoire traumatique)
+
+- Calmer le corps avant d'agir : respirer par le nez en allongeant l'expiration, sentir ses appuis.
+
+- Exprimer un besoin plutôt que chercher une preuve : « J'ai besoin d'avoir de tes nouvelles ce soir. »
+
+## Mon accompagnement
+
+J'accompagne la peur de l'abandon avec la LI-ICV, qui aide le système nerveux à intégrer que ces séparations appartiennent au passé, et à construire une sécurité intérieure plus stable.
+
+## Questions fréquentes
+
+-
+
+### La peur de l'abandon peut-elle disparaître ?
+
+Elle peut s'apaiser nettement. Le travail consiste à construire une sécurité intérieure qui ne dépend plus entièrement de la présence de l'autre.
+
+-
+
+### Pourquoi est-ce que je pars avant d'être quitté ?
+
+C'est une façon de se protéger : partir le premier évite de revivre la douleur d'être abandonné. Cette stratégie peut se comprendre et évoluer.
+
+-
+
+### Est-ce lié à mon enfance ?
+
+Souvent, mais pas toujours. Des expériences plus récentes, comme une rupture brutale ou un deuil, peuvent aussi la raviver.
+
+## Sources
+
+- Bowlby, J. (1973). Attachment and Loss. Vol. 2 : Separation: Anxiety and Anger. New York : Basic Books.
+
+- Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press (schéma d'abandon).
+
+- Mikulincer, M., & Shaver, P. R. (2016). Attachment in Adulthood: Structure, Dynamics, and Change (2e éd.). New York : Guilford Press.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -929,9 +1611,9 @@ Tout le monde connaît des moments de dissociation légère : être « dans la l
 
 - Vous sentir détaché de vous-même, de vos pensées ou de votre corps, comme si vous vous regardiez de l'extérieur (dépersonnalisation).
 
-- Percevoir votre environnement comme irréel, lointain, flou ou « derrière une vitre » (déréalisation).
+- Percevoir votre environnement comme irréel, lointain, flou ou « derrière une vitre » (voir déréalisation et dépersonnalisation).
 
-- Des trous de mémoire : ne plus vous souvenir d'une conversation, d'un moment de la journée ou de périodes de votre vie.
+- Des trous de mémoire : ne plus vous souvenir d'une conversation, d'un moment de la journée ou de périodes de votre vie (voir l'amnésie traumatique, sur la page mémoire traumatique).
 
 - Une sensation d'engourdissement, émotionnel ou physique : ne plus rien ressentir, ou peu, même dans des situations qui vous touchent.
 
@@ -1018,6 +1700,253 @@ Oui, à condition d'avancer par étapes : d'abord la sécurité et les ressource
 - Schwartz, R. C. (2021). No Bad Parts. Healing Trauma and Restoring Wholeness with the Internal Family Systems Model. Boulder : Sounds True.
 
 - Smith, J. (2021). Psychothérapie de la dissociation et du trauma (2e éd.). Paris : Dunod.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/derealisation-depersonnalisation/
+Titre : Déréalisation et dépersonnalisation — Laetitia Duchemin, psy
+
+# Déréalisation et dépersonnalisation
+
+Quand on se sent détaché de soi ou du monde
+
+La dépersonnalisation, c'est se sentir détaché de soi-même, de son corps ou de ses pensées, comme si l'on s'observait de l'extérieur. La déréalisation, c'est percevoir son environnement comme irréel, lointain ou flou. Les deux vont souvent ensemble. Ce sont des formes de dissociation, une réponse de protection du système nerveux.
+
+Prendre rendez-vous
+
+## Ce que l'on peut ressentir
+
+- « Je me vois agir comme dans un film. »
+
+- « Mon corps ne me semble plus tout à fait à moi. »
+
+- « Le monde est derrière une vitre, comme dans un rêve. »
+
+- « Je ne ressens plus rien, ni joie ni tristesse. »
+
+- « Les sons me paraissent lointains, les couleurs ternes. »
+
+Ces impressions sont souvent difficiles à décrire, et elles font peur. Elles ne signifient pas que l'on perd la raison : on garde conscience que ce n'est qu'une impression.
+
+## Une expérience fréquente
+
+Près d'une personne sur deux connaît au moins un épisode passager de dépersonnalisation ou de déréalisation au cours de sa vie, par exemple après une nuit blanche, un choc ou une crise d'angoisse. Elles deviennent une difficulté lorsqu'elles reviennent souvent, durent, ou perturbent la vie quotidienne.
+
+## Pourquoi cela arrive
+
+Quand une situation est vécue comme trop intense, et que ni la lutte ni la fuite ne semblent possibles, le système nerveux peut prendre de la distance : les sensations s'atténuent, le monde semble s'éloigner. Sur le moment, cette réponse protège. Elle ne se déclenche jamais sans raison, même lorsque l'on n'en a pas conscience. Elle peut ensuite se déclencher face au stress, à l'anxiété, à la fatigue, ou à ce qui rappelle des expériences traumatiques. La consommation de certaines substances, comme le cannabis, peut aussi en déclencher.
+
+Un cercle peut s'installer : on a peur de ces sensations, on les surveille, et cette vigilance entretient l'anxiété qui les nourrit.
+
+## Revenir au présent
+
+- Nommer ce qui se passe : « C'est de la déréalisation, c'est désagréable, mais ce n'est pas dangereux, et cela va passer. »
+
+- Revenir aux sens avec l'ancrage 5-4-3-2-1 : 5 choses que vous voyez, 4 que vous touchez, 3 sons, 2 odeurs, 1 goût.
+
+- Sentir ses appuis : les pieds au sol, le dos contre le dossier, les mains l'une contre l'autre.
+
+- Respirer lentement par le nez, en allongeant l'expiration.
+
+### L'ancrage en affiche
+
+Les cinq sens, étape par étape, pour revenir au présent.
+
+Télécharger l'affiche (PDF)
+
+## Mon accompagnement
+
+Nous commençons par comprendre ces sensations, pour qu'elles fassent moins peur, et par renforcer vos appuis pour revenir au présent. La LI-ICV permet ensuite de travailler sur ce qui, dans votre histoire, a installé cette réponse de protection.
+
+## Questions fréquentes
+
+-
+
+### Est-ce que je deviens fou ?
+
+Non. Dans la déréalisation et la dépersonnalisation, on garde conscience que ce que l'on ressent est une impression. C'est une réaction de protection du système nerveux, pas une perte de contact avec la réalité.
+
+-
+
+### Est-ce dangereux ?
+
+Ces sensations sont désagréables et inquiétantes, mais elles ne sont pas dangereuses en elles-mêmes. Si elles sont fréquentes, durables ou très envahissantes, parlez-en à un professionnel.
+
+-
+
+### Cela peut-il durer ?
+
+Le plus souvent, les épisodes sont passagers. Lorsqu'ils persistent, un accompagnement aide à en comprendre l'origine et à retrouver un contact plus stable avec soi et avec le monde.
+
+## Sources
+
+- Hunter, E. C. M., Sierra, M., & David, A. S. (2004). The epidemiology of depersonalisation and derealisation: A systematic review. Social Psychiatry and Psychiatric Epidemiology, 39(1), 9-18.
+
+- Simeon, D., & Abugel, J. (2006). Feeling Unreal: Depersonalization Disorder and the Loss of the Self. New York : Oxford University Press.
+
+- American Psychiatric Association (2013). DSM-5 : Manuel diagnostique et statistique des troubles mentaux (5e éd.).
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/hypervigilance/
+Titre : Hypervigilance : quand le corps reste en alerte — L. Duchemin
+
+# Hypervigilance
+
+Quand le corps reste en alerte, même en sécurité
+
+L'hypervigilance est un état d'alerte permanent : le système nerveux surveille l'environnement en continu, à la recherche du moindre danger, même lorsque la situation est sûre. C'est l'une des manifestations fréquentes du stress post-traumatique et du trauma complexe. Elle n'est pas un trait de caractère : c'est une protection qui ne parvient plus à se relâcher.
+
+Prendre rendez-vous
+
+## Comment elle se manifeste
+
+- Sursauter au moindre bruit, à une porte qui claque, à quelqu'un qui arrive par derrière.
+
+- Scanner les lieux en arrivant : repérer les sorties, se placer dos au mur.
+
+- Guetter les expressions et le ton des autres, pour anticiper leur humeur.
+
+- Avoir du mal à se détendre, même en vacances ou en sécurité.
+
+- Mal dormir, se réveiller au moindre bruit.
+
+- Être irritable, à fleur de peau, et très fatigué à la fin de la journée.
+
+## Ce qui se passe dans le système nerveux
+
+Selon la théorie polyvagale, notre système nerveux évalue en permanence, sans que nous en ayons conscience, si notre environnement est sûr ou menaçant : c'est la neuroception. Après des expériences traumatiques, ce détecteur devient plus sensible : il repère des dangers là où il n'y en a pas, et peine à percevoir les signes de sécurité. Le corps reste mobilisé, prêt à lutter ou à fuir. Cette vigilance a été utile à un moment de la vie ; elle continue simplement de fonctionner alors que le danger est passé.
+
+Rester ainsi en alerte coûte beaucoup d'énergie : l'hypervigilance s'accompagne souvent d'épuisement, de tensions musculaires et de difficultés de concentration (voir la neuropsychologie).
+
+## Des pistes pour s'apaiser
+
+- Orienter son regard : tournez lentement la tête et laissez vos yeux se poser sur ce qui vous entoure, sans chercher le danger. Remarquez un objet, une couleur, une lumière agréable.
+
+- Repérer les signes de sécurité : « La porte est fermée, je suis chez moi, personne ne me menace en ce moment. »
+
+- Allonger l'expiration : inspirez par le nez, puis expirez plus lentement, par le nez ou les lèvres pincées, comme dans une paille.
+
+- Bouger : marcher, s'étirer, secouer les mains, pour aider le corps à relâcher l'énergie mobilisée.
+
+Ces pistes ne demandent pas de « se forcer à se détendre » : elles invitent le système nerveux, progressivement, à percevoir qu'il peut baisser la garde (voir la régulation émotionnelle).
+
+## Mon accompagnement
+
+Nous travaillons d'abord sur la régulation du système nerveux et la tolérance à la détresse, pour retrouver des moments de sécurité dans le corps. Lorsque l'hypervigilance est liée à des expériences traumatiques, la LI-ICV peut aider le système nerveux à intégrer que le danger appartient au passé.
+
+## Questions fréquentes
+
+-
+
+### L'hypervigilance, est-ce de l'anxiété ?
+
+Les deux se ressemblent et se mêlent souvent. L'hypervigilance désigne plus précisément cet état d'alerte du corps, tourné vers l'environnement, que l'on retrouve fréquemment après un trauma.
+
+-
+
+### Peut-on être hypervigilant sans avoir vécu de trauma ?
+
+Oui : une période de stress intense ou un environnement imprévisible peuvent aussi maintenir le système nerveux en alerte. Lorsqu'elle dure, elle mérite d'être explorée.
+
+-
+
+### Est-ce que cela peut disparaître ?
+
+Oui. Le système nerveux peut réapprendre la sécurité, pas à pas, à mesure que le corps fait de nouvelles expériences de calme et de lien.
+
+## Sources
+
+- Porges, S. W. (2011). The Polyvagal Theory. New York : W. W. Norton.
+
+- van der Kolk, B. (2014). The Body Keeps the Score. New York : Viking. Traduction française : Le corps n'oublie rien (2018). Paris : Albin Michel.
+
+- Organisation mondiale de la santé (2022). CIM-11, 6B40 Trouble de stress post-traumatique.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/memoire-traumatique/
+Titre : Mémoire traumatique et amnésie traumatique — L. Duchemin
+
+# Mémoire traumatique
+
+Quand le passé revient comme s'il était présent
+
+Un souvenir ordinaire est fait, lui aussi, de sensations, d'émotions et d'une scène. Mais il est intégré : il est daté, et rangé dans notre mémoire autobiographique, celle de notre histoire. On sait qu'il appartient au passé. Le souvenir traumatique, lui, n'est pas intégré. Il se manifeste dans le corps et surgit dans le présent avec la même intensité que dans le passé : la personne revit la scène. C'est l'une des marques du stress post-traumatique.
+
+Prendre rendez-vous
+
+## Comment un souvenir traumatique s'enregistre
+
+Lors d'un événement traumatique, l'alarme du cerveau est si forte que l'hippocampe, qui range habituellement les souvenirs dans le temps et dans l'espace, ne peut pas faire son travail. Le souvenir reste alors morcelé, sensoriel, sans le repère du « c'était avant ». S'il continue à se manifester, c'est parce que notre cerveau cherche justement à le résoudre, à l'intégrer, et reste en échec. Il peut être réactivé par un déclencheur : une odeur, un bruit, un lieu, une date, un ton de voix, parfois sans que l'on fasse le lien.
+
+## Ce que l'on peut vivre
+
+- Des images ou des sensations qui s'imposent, de jour comme de nuit (cauchemars).
+
+- Des émotions ou des réactions du corps intenses, sans souvenir précis associé.
+
+- L'impression de revivre la scène (flash-back).
+
+- À l'inverse, des trous de mémoire sur une période ou un événement.
+
+## L'amnésie traumatique
+
+Il arrive qu'une partie ou la totalité d'un événement traumatique devienne inaccessible à la mémoire, parfois pendant des années. Cette amnésie est liée à la dissociation : le système nerveux met à distance ce qui était trop difficile à vivre. Elle est reconnue dans les classifications internationales, sous le nom d'amnésie dissociative. Des souvenirs peuvent revenir plus tard, souvent déclenchés par un événement de vie ou un rappel sensoriel.
+
+Toute mémoire se reconstruit à chaque rappel. C'est pourquoi, en thérapie, je ne suggère jamais de souvenirs : nous travaillons avec ce qui se présente, à votre rythme, sans chercher à combler les vides à tout prix.
+
+## Un repère au quotidien : c'était avant
+
+- Repérer ses déclencheurs, par exemple dans un carnet : ce qui s'est passé juste avant que l'émotion monte.
+
+- Se dire une phrase d'ancrage neutre : « C'était avant. Aujourd'hui, je suis ici, et je suis en sécurité. »
+
+- Revenir aux sens et à ses appuis, avec l'ancrage 5-4-3-2-1.
+
+## Mon accompagnement
+
+La LI-ICV s'appuie sur une ligne du temps de souvenirs, parcourue de façon répétée : elle aide le système nerveux à replacer chaque moment à sa place dans l'histoire, et à intégrer que le passé est passé. Le travail se fait pas à pas, après avoir construit des appuis suffisants pour ne pas être submergé.
+
+## Questions fréquentes
+
+-
+
+### Peut-on oublier un trauma ?
+
+Oui, en partie ou en totalité, parfois pendant longtemps. C'est un mécanisme de protection lié à la dissociation, reconnu sous le nom d'amnésie dissociative.
+
+-
+
+### Faut-il se souvenir de tout pour aller mieux ?
+
+Non. Ce qui compte, ce n'est pas de retrouver chaque détail, mais que ce qui a été vécu cesse de revenir comme au présent.
+
+-
+
+### Pourquoi mon corps réagit-il sans que je me souvienne ?
+
+Le corps peut garder la trace d'une expérience sous forme de sensations ou d'émotions, même lorsque le récit n'est pas accessible. Ces réactions ont un sens, et elles peuvent s'apaiser.
+
+## Sources
+
+- van der Kolk, B. A., & Fisler, R. (1995). Dissociation and the fragmentary nature of traumatic memories: Overview and exploratory study. Journal of Traumatic Stress, 8(4), 505-525.
+
+- Brewin, C. R. (2014). Episodic memory, perceptual memory, and their interaction: Foundations for a theory of posttraumatic stress disorder. Psychological Bulletin, 140(1), 69-97.
+
+- American Psychiatric Association (2013). DSM-5 : Manuel diagnostique et statistique des troubles mentaux (5e éd.), amnésie dissociative.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -1340,6 +2269,295 @@ Réserver en ligne
 
 ---
 
+URL : https://laetitia-duchemin-psychologue.fr/anxiete/
+Titre : Anxiété et angoisse : les comprendre — Laetitia Duchemin, psy
+
+# Anxiété
+
+Du stress à l'angoisse, quand l'inquiétude déborde
+
+L'anxiété est une émotion utile : elle nous prépare à faire face à ce qui pourrait arriver. Elle devient une difficulté lorsqu'elle s'installe, se diffuse à tous les domaines de la vie et finit par déborder. Pour la comprendre, on peut la situer sur un continuum, du stress à l'angoisse, selon l'intensité de l'émotion.
+
+Prendre rendez-vous
+
+## Du stress à l'angoisse : un continuum
+
+- Le stress : il a une raison identifiée. « J'ai un examen », « j'ai un entretien demain ». Il mobilise nos ressources, puis retombe quand la situation est passée.
+
+- L'anxiété : l'inquiétude se diffuse. Tout préoccupe : ce que je fais, ce que je dis, comment va se passer l'avenir. Elle n'a plus besoin d'une cause précise pour se manifester.
+
+- L'angoisse : le système nerveux est envahi d'alarmes, et cela déborde dans le corps. Gorge serrée, poitrine oppressée, cœur qui s'emballe : l'émotion devient physique, jusqu'à parfois la crise d'angoisse.
+
+## Anxiété et angoisse : quelle différence ?
+
+Les deux mots sont souvent employés l'un pour l'autre. L'anxiété se vit surtout dans la pensée : on anticipe, on s'inquiète, on imagine des scénarios. L'angoisse se vit surtout dans le corps : c'est le moment où l'émotion déborde et envahit les sensations. L'une peut mener à l'autre lorsque l'intensité monte.
+
+## Comment l'anxiété se manifeste
+
+- Dans la pensée : des ruminations, des « et si… », des scénarios catastrophes, une difficulté à se concentrer.
+
+- Dans le corps : des tensions musculaires, des troubles du sommeil, de la fatigue, des troubles digestifs.
+
+- Dans les comportements : éviter ce qui inquiète, tout vérifier, chercher à tout contrôler, demander souvent à être rassuré.
+
+## Ce qui l'entretient
+
+Éviter ce qui inquiète soulage sur le moment, mais confirme au cerveau que la situation était dangereuse : la fois suivante, l'anxiété revient plus fort. De même, chercher la certitude à tout prix entretient l'inquiétude, car l'avenir comporte toujours une part d'inconnu. Apprendre à tolérer l'incertitude fait partie du chemin.
+
+L'anxiété est aussi une réaction du système nerveux, qui perçoit une menace et se prépare à y répondre (voir la théorie polyvagale). Après des expériences difficiles, ce système peut rester en alerte (voir l'hypervigilance).
+
+## Quand consulter
+
+Lorsque l'anxiété est présente la plupart du temps, depuis plusieurs mois, qu'elle épuise ou qu'elle conduit à renoncer à des choses importantes, il est utile d'en parler à un professionnel. Elle peut prendre différentes formes (anxiété généralisée, anxiété sociale, phobies, crises d'angoisse répétées), qui s'évaluent en consultation.
+
+## Des repères pour l'apaiser
+
+- Respirer : ralentir sa respiration, toujours par le nez, en allongeant l'expiration, aide le système nerveux à revenir au calme (voir l'exercice de respiration).
+
+- Se donner un temps d'inquiétude : réservez chaque jour un moment court, par exemple quinze minutes, pour noter vos inquiétudes. En dehors de ce moment, quand une inquiétude surgit, notez-la et remettez-la à plus tard.
+
+- Prendre du recul sur ses pensées : « C'est mon anxiété qui parle », plutôt que « il va arriver quelque chose ».
+
+- Revenir au présent : l'anxiété se tourne vers l'avenir, les sens ramènent à l'instant (voir l'ancrage 5-4-3-2-1).
+
+### L'exercice en affiche
+
+Les trois étapes de la respiration, à imprimer ou à garder sous la main.
+
+Télécharger l'affiche (PDF)
+
+Pour aller plus loin, vous pouvez télécharger le guide de gestion du stress et de l'anxiété que j'ai rédigé pour le Service de Santé Étudiante de l'UPJV.
+
+## Mon accompagnement
+
+Nous travaillons d'abord à comprendre votre anxiété et à réguler votre système nerveux, avec des outils concrets pour le quotidien. Lorsque l'anxiété prend racine dans votre histoire, la LI-ICV permet de travailler plus en profondeur.
+
+## Questions fréquentes
+
+-
+
+### L'anxiété est-elle normale ?
+
+Oui. C'est une émotion utile, qui nous prépare à faire face. Elle devient une difficulté lorsqu'elle est trop fréquente, trop intense ou qu'elle limite votre vie.
+
+-
+
+### L'anxiété peut-elle disparaître ?
+
+L'objectif n'est pas de ne plus jamais être anxieux, mais que l'anxiété retrouve une place juste : un signal que l'on écoute, sans qu'il décide à votre place.
+
+-
+
+### Faut-il un traitement médicamenteux ?
+
+C'est une décision qui relève de votre médecin. La psychothérapie est efficace pour apaiser l'anxiété, seule ou en complément d'un traitement.
+
+## Sources
+
+- American Psychiatric Association (2013). DSM-5 : Manuel diagnostique et statistique des troubles mentaux (5e éd.).
+
+- Borkovec, T. D., Wilkinson, L., Folensbee, R., & Lerman, C. (1983). Stimulus control applications to the treatment of worry. Behaviour Research and Therapy, 21(3), 247-251.
+
+- Dugas, M. J., & Robichaud, M. (2007). Cognitive-Behavioral Treatment for Generalized Anxiety Disorder. New York : Routledge.
+
+- Duchemin, L., Service de Santé Étudiante de l'UPJV (2024). Guide de gestion du stress et de l'anxiété.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/fenetre-de-tolerance/
+Titre : Fenêtre de tolérance : comprendre ses émotions — L. Duchemin
+
+# Fenêtre de tolérance
+
+La zone où l'on peut ressentir sans être submergé
+
+La fenêtre de tolérance, un concept développé par le psychiatre Dan Siegel, désigne la zone dans laquelle nous pouvons ressentir nos émotions, réfléchir et agir, sans être débordés ni coupés de nous-mêmes. C'est l'un des repères au cœur de la régulation émotionnelle. Elle n'est pas la même pour tous : nous ne démarrons pas tous avec les mêmes capacités. Et elle fluctue, dans le temps comme au cours d'une journée.
+
+Prendre rendez-vous
+
+## Trois états à reconnaître
+
+- La fenêtre de tolérance : on se sent présent, capable de penser et de ressentir en même temps, d'être en lien avec les autres. Les émotions peuvent être fortes, mais elles restent traversables.
+
+- L'hyperactivation : quand le système nerveux est envahi par une alarme, il se mobilise. Agitation, cœur qui s'accélère, colère, panique, pensées qui s'emballent : le corps se prépare à lutter ou à fuir.
+
+- L'hypoactivation : engourdissement, vide, fatigue soudaine, difficulté à penser, impression d'être coupé de soi.
+
+Même lorsqu'il est très rapide, le passage en hypoactivation demande une désactivation, qui se produit lorsque le système nerveux est envahi par une alarme. On n'en a pas toujours conscience : ce peut être une légère tension, très brève, avant de se déconnecter. C'est ce mécanisme que l'on retrouve dans la dissociation, décrite notamment par la théorie de la dissociation structurelle.
+
+Ces états rejoignent ceux que décrit la théorie polyvagale : la sécurité, la mobilisation et l'immobilisation.
+
+### L'affiche à télécharger
+
+Les trois états du système nerveux et des exemples de ressentis pour chacun, sur une page à imprimer ou à garder sous la main.
+
+Télécharger l'affiche (PDF)
+
+## Une fenêtre qui varie
+
+La fatigue, la faim, la douleur, le stress ou une mauvaise nuit rétrécissent la fenêtre : on en sort plus vite. Après des expériences traumatiques, elle peut être étroite, et le système nerveux bascule facilement dans l'alerte (voir l'hypervigilance) ou dans la coupure. À l'inverse, le sommeil, le lien avec des personnes sécurisantes et les ressources que l'on construit l'élargissent.
+
+## La fenêtre de tolérance et l'apprentissage
+
+La fenêtre de tolérance se rapproche de ce que l'on appelle la zone optimale d'apprentissage. Nous apprenons mieux avec les émotions : un peu d'intérêt, de curiosité ou de défi aide à retenir. Mais au-delà d'un certain seuil, en hyper comme en hypoactivation, le cerveau n'est plus disponible pour apprendre. C'est aussi pour cela que la thérapie se fait dans la fenêtre de tolérance.
+
+## Comprendre ses états et revenir dans sa fenêtre
+
+La base, pour comprendre sa fenêtre de tolérance et apprendre à réguler ses états, est l'échelle polyvagale proposée par Deb Dana : repérer où l'on se trouve, ce qui nous y amène, et ce qui aide à remonter (voir l'exercice de l’échelle de ses états).
+
+### L'échelle de mes états
+
+Les trois barreaux à compléter, de la déconnexion à l'état régulé.
+
+Télécharger l'affiche (PDF)
+
+- En hyperactivation, il s'agit de ralentir : respirer par le nez en allongeant l'expiration, sentir ses appuis au sol, poser une main sur la poitrine, s'éloigner un moment de ce qui stimule.
+
+- En hypoactivation, il s'agit de se remettre doucement en mouvement : bouger les doigts et les pieds, se lever, orienter son regard dans la pièce, stimuler les sens, revenir au présent avec l'ancrage 5-4-3-2-1.
+
+## Élargir sa fenêtre
+
+En thérapie, on travaille à élargir la fenêtre de tolérance, pour ne plus basculer rapidement en hypo ou en hyperactivation émotionnelle. Cela se fait progressivement, en s'approchant des bords sans les franchir brutalement : on apprend à rester un peu plus longtemps avec une émotion inconfortable, en gardant un pied dans le présent. C'est aussi ce que l'on appelle la tolérance émotionnelle.
+
+### Un exercice : la pendulation
+
+Issue de la Somatic Experiencing du thérapeute Peter Levine, et reprise notamment dans la Pleine Conscience Sensible au Trauma, la pendulation consiste à osciller doucement entre un état inconfortable et un point d'appui extérieur. Laissez venir une sensation ou une émotion inconfortable, mais supportable, et restez quelques instants avec elle. Puis tournez votre attention vers l'extérieur : fixez un objet dans la pièce, ouvrez les yeux s'ils étaient fermés, remarquez ses couleurs et sa forme. Revenez ensuite à la sensation, puis à nouveau à l'objet. Ce va-et-vient apprend au système nerveux qu'il peut traverser un ressenti difficile et en revenir, pour mieux le supporter.
+
+## Mon accompagnement
+
+En séance, je veille à ce que le travail reste dans votre fenêtre de tolérance : c'est ce qui permet d'avancer sans être submergé. Nous construisons d'abord des ressources pour revenir dans votre zone et développer la tolérance à la détresse, puis la LI-ICV aide le système nerveux à intégrer ce qui l'en faisait sortir, ce qui élargit progressivement la fenêtre.
+
+## Questions fréquentes
+
+-
+
+### Est-ce grave de sortir de sa fenêtre ?
+
+Non, cela arrive à tout le monde. Ce qui compte, c'est de pouvoir le repérer et d'avoir des moyens d'y revenir.
+
+-
+
+### Pourquoi ma fenêtre est-elle si étroite ?
+
+Elle peut l'être après des périodes de stress prolongé ou des expériences traumatiques, quand le système nerveux a appris à rester sur ses gardes. Elle peut s'élargir.
+
+-
+
+### Combien de temps pour l'élargir ?
+
+Cela dépend de chacun. C'est un travail progressif, qui se fait par petites expériences répétées.
+
+## Sources
+
+- Siegel, D. J. (1999). The Developing Mind. New York : Guilford Press.
+
+- Ogden, P., Minton, K., & Pain, C. (2006). Trauma and the Body: A Sensorimotor Approach to Psychotherapy. New York : W. W. Norton.
+
+- Levine, P. A. (2010). In an Unspoken Voice: How the Body Releases Trauma and Restores Goodness. Berkeley : North Atlantic Books.
+
+- Dana, D. (2018). The Polyvagal Theory in Therapy: Engaging the Rhythm of Regulation. New York : W. W. Norton.
+
+- Corrigan, F. M., Fisher, J. J., & Nutt, D. J. (2011). Autonomic dysregulation and the window of tolerance model of the effects of complex emotional trauma. Journal of Psychopharmacology, 25(1), 17-25.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/hypersensibilite/
+Titre : Hypersensibilité et haute sensibilité — Laetitia Duchemin, psy
+
+# Hypersensibilité et haute sensibilité
+
+Ressentir plus finement, et plus intensément
+
+On parle souvent d'hypersensibilité, le terme rendu célèbre par la psychologue Elaine Aron. Je préfère parler de haute sensibilité, un terme plus récent proposé par Nathalie Clobert et Nicolas Gauvrit. Ce n'est ni un défaut ni un diagnostic : c'est la capacité à vivre un éventail d'émotions plus large que la majorité, une forme d'intelligence émotionnelle développée. Elle permet de ressentir les événements de façon plus fine, et effectivement plus intensément que d'autres.
+
+Prendre rendez-vous
+
+## Quatre facettes de la haute sensibilité
+
+Nathalie Clobert et Nicolas Gauvrit décrivent la haute sensibilité selon quatre dimensions :
+
+- L'émotionnalité : ressentir ses émotions, et celles des autres, avec intensité.
+
+- La surcharge : se sentir vite saturé par les stimulations, le bruit, l'agitation, les sollicitations.
+
+- La sensibilité esthétique : être particulièrement touché par la beauté, l'art, la nature, la musique.
+
+- La perception des subtilités : remarquer les détails, les nuances, les changements discrets dans l'environnement ou chez les autres.
+
+## Se sentir « hypersensible »
+
+On peut aussi se sentir « hypersensible » lorsque son entourage nous renvoie cette image, en invalidant nos ressentis émotionnels : « tu en fais trop », « tu es trop sensible ». Or les émotions mal accueillies ne peuvent pas se décharger correctement : leur intensité peut croître, jusqu'à ce que nous les entendions, et surtout que nous comprenions pourquoi elles sont là.
+
+Toute émotion est, par essence, éphémère. Elle témoigne d'un besoin encore non satisfait, ou au contraire satisfait. L'accueillir et l'écouter lui permet de passer.
+
+## Ce qui peut lui ressembler
+
+- Après des expériences traumatiques, le système nerveux peut rester en alerte et réagir fortement (voir l'hypervigilance). Ce n'est alors pas un trait, mais une protection.
+
+- Une difficulté à réguler des émotions intenses (voir la régulation émotionnelle) ou une anxiété installée.
+
+- Certaines particularités sensorielles se retrouvent aussi dans des troubles du neurodéveloppement, comme le trouble du spectre de l'autisme ou le TDAH, qui s'évaluent avec un professionnel.
+
+## Un exercice : le STOP
+
+Quand une émotion monte fort, le STOP aide à faire une pause avant de réagir :
+
+- S comme « Stop » : je m'arrête, je suspends ce que je fais.
+
+- T comme « Temps de respirer » : je prends une ou deux respirations lentes, par le nez.
+
+- O comme « Observer » : je remarque ce qui se passe en moi (mes sensations, mon émotion, mes pensées) et autour de moi, sans juger.
+
+- P comme « Poursuivre » : je choisis comment continuer, en tenant compte de ce que j'ai observé.
+
+## Mon accompagnement
+
+Je vous aide à comprendre ce qui se joue dans votre sensibilité, à accueillir vos émotions et à entendre les besoins qu'elles expriment, et à trouver des appuis pour les réguler. Nous pouvons nous appuyer sur la pleine conscience, et travailler ici aussi la tolérance à la détresse et l'élargissement de la fenêtre de tolérance. Lorsque des expériences passées amplifient cette sensibilité, la LI-ICV permet de travailler plus en profondeur.
+
+## Questions fréquentes
+
+-
+
+### La haute sensibilité est-elle un trouble ?
+
+Non. C'est une façon de ressentir, présente chez de nombreuses personnes. Elle mérite d'être prise en compte lorsqu'elle génère de la souffrance.
+
+-
+
+### Hypersensibilité ou haute sensibilité, quelle différence ?
+
+Les deux termes désignent une sensibilité plus forte que la moyenne. « Haute sensibilité », plus récent, insiste sur une richesse émotionnelle plutôt que sur un excès.
+
+-
+
+### Haute sensibilité ou marque de son histoire ?
+
+Les deux peuvent se mêler. C'est justement ce que l'on peut explorer ensemble.
+
+## Sources
+
+- Aron, E. N. (1996). The Highly Sensitive Person. New York : Broadway Books.
+
+- Aron, E. N., & Aron, A. (1997). Sensory-processing sensitivity and its relation to introversion and emotionality. Journal of Personality and Social Psychology, 73(2), 345-368.
+
+- Clobert, N., & Gauvrit, N. (2022). CASS: A practical balanced scale of environmental sensitivity.
+
+- Duriez, N. (dir.) (2023). Haut potentiel et haute sensibilité. Approches plurielles en psychologie. Paris : Dunod.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
 URL : https://laetitia-duchemin-psychologue.fr/crise-d-angoisse/
 Titre : Crise d'angoisse, attaque de panique : l'apaiser — L. Duchemin
 
@@ -1347,7 +2565,7 @@ Titre : Crise d'angoisse, attaque de panique : l'apaiser — L. Duchemin
 
 Apprendre à baisser l'intensité, pour ne plus avoir peur de la crise
 
-Crise d'angoisse et attaque de panique désignent la même chose : une montée brutale et intense de peur, accompagnée de sensations physiques fortes. Elle atteint son maximum en quelques minutes, puis redescend. Même si elle est très impressionnante, une crise d'angoisse n'est pas dangereuse : c'est le système d'alarme du corps qui se déclenche, sans danger réel.
+Crise d'angoisse et attaque de panique désignent la même chose : une montée brutale et intense de peur, accompagnée de sensations physiques fortes. Elle atteint son maximum en quelques minutes, puis redescend. Même si elle est très impressionnante, une crise d'angoisse n'est pas dangereuse : c'est le système d'alarme du corps qui se déclenche, sans danger réel. Elle se situe au sommet d'un continuum qui va du stress à l'angoisse (voir l'anxiété).
 
 Prendre rendez-vous
 
@@ -1577,7 +2795,7 @@ La régulation émotionnelle désigne la capacité à influencer quelles émotio
 
 ## La fenêtre de tolérance
 
-La fenêtre de tolérance, un concept développé par le psychiatre Dan Siegel, désigne la zone dans laquelle une personne peut ressentir et vivre ses émotions sans être submergée par une hyperactivation (agitation, panique) ni s'en couper par une hypoactivation (engourdissement, vide). Rester dans cette zone, ou y revenir progressivement lorsqu'on en sort, est un des objectifs de la régulation émotionnelle, dont le rôle est aussi d'accroître cette fenêtre de tolérance dans la durée.
+La fenêtre de tolérance, un concept développé par le psychiatre Dan Siegel, désigne la zone dans laquelle une personne peut ressentir et vivre ses émotions sans être submergée par une hyperactivation (agitation, panique) ni s'en couper par une hypoactivation (engourdissement, vide). Rester dans cette zone, ou y revenir progressivement lorsqu'on en sort, est un des objectifs de la régulation émotionnelle, dont le rôle est aussi d'accroître cette fenêtre de tolérance dans la durée. Pour aller plus loin, voir la page fenêtre de tolérance.
 
 ### L'affiche à télécharger
 
@@ -1593,7 +2811,7 @@ Plus la tolérance émotionnelle se développe, plus la fenêtre de tolérance s
 
 ### Surfer sur la vague
 
-Une émotion ressemble à une vague : elle monte, atteint un sommet, puis redescend. Plutôt que de lutter contre elle ou de la fuir, on peut l'observer : remarquer où elle se loge dans le corps, comment elle évolue, et se rappeler qu'elle va passer. Respirer lentement ou s'ancrer par les sens aide à rester sur la vague sans être emporté. La même démarche aide à traverser une crise d'angoisse ou une envie liée à une addiction.
+Une émotion ressemble à une vague : elle monte, atteint un sommet, puis redescend. Plutôt que de lutter contre elle ou de la fuir, on peut l'observer : remarquer où elle se loge dans le corps, comment elle évolue, et se rappeler qu'elle va passer. Respirer lentement ou s'ancrer par les sens aide à rester sur la vague sans être emporté. La même démarche aide à apaiser l'anxiété, à traverser une crise d'angoisse ou une envie liée à une addiction.
 
 ### D'autres appuis
 
@@ -1607,7 +2825,7 @@ Source : Linehan, M. M. (2015). DBT Skills Training Manual (2e éd.). New York :
 
 ## Mon accompagnement
 
-Je possède différents outils qui permettent de mieux réguler ses émotions, en fonction de chacun. La pleine conscience est un bon outil pour commencer à comprendre ce que nous ressentons, sans jugement et avec curiosité.
+Je possède différents outils qui permettent de mieux réguler ses émotions, en fonction de chacun. La pleine conscience est un bon outil pour commencer à comprendre ce que nous ressentons, sans jugement et avec curiosité. J'accompagne aussi les personnes qui se reconnaissent dans l'hypersensibilité ou la haute sensibilité.
 
 ## Ce que dit la recherche
 
@@ -1842,19 +3060,9 @@ Une page à remplir chaque jour, du lundi au dimanche.
 
 Télécharger l'affiche (PDF)
 
-## Affirmer ses limites : la méthode DESC
+## Affirmer ses limites
 
-Pour exprimer une demande ou poser une limite sans agresser ni s'effacer, la méthode DESC propose quatre étapes :
-
-- Décrire les faits, sans jugement : « Quand tu arrives en retard à nos rendez-vous… »
-
-- Exprimer ce que vous ressentez : « … je me sens peu considérée… »
-
-- Spécifier ce que vous souhaitez : « … j'aimerais que tu me préviennes si tu as du retard… »
-
-- Conclure sur les conséquences positives : « … comme ça, je pourrai m'organiser et profiter de nos moments ensemble. »
-
-Commencez par des situations simples : l'affirmation de soi se construit, comme un muscle, par la pratique.
+Pour exprimer une demande ou poser une limite sans agresser ni s'effacer, la méthode DESC propose quatre étapes : décrire les faits, exprimer ce que l'on ressent, spécifier ce que l'on souhaite, conclure sur les conséquences positives. Vous la trouverez détaillée, avec d'autres repères pour oser dire non, sur la page affirmation de soi.
 
 ## Mon accompagnement
 
@@ -1889,6 +3097,323 @@ Oui. La confiance se construit par l'expérience : chaque action réussie, même
 - Wood, J. V., Perunovic, W. Q. E., & Lee, J. W. (2009). Positive self-statements: Power for some, peril for others. Psychological Science, 20(7), 860-866.
 
 - Bower, S. A., & Bower, G. H. (1976). Asserting Yourself. Reading : Addison-Wesley (méthode DESC).
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/estime-de-soi/
+Titre : Estime de soi : la comprendre et la restaurer — L. Duchemin
+
+# Estime de soi
+
+La valeur que l'on s'accorde, au-delà de ce que l'on réussit
+
+Prendre rendez-vous
+
+L'estime de soi désigne le regard que l'on porte sur soi et la valeur que l'on s'accorde en tant que personne. Elle se distingue de la confiance en soi, qui porte sur ce que l'on se sent capable de faire. Comme la confiance en soi ou l'affirmation de soi, l'estime de soi n'est pas fixe dans le temps : elle fluctue, même au cours d'une journée, en fonction de l'environnement, du contexte ou de la situation. Elle peut aussi se restaurer.
+
+## Les trois piliers de l'estime de soi
+
+Les psychiatres Christophe André et François Lelord décrivent trois piliers, qui se soutiennent mutuellement :
+
+- L'amour de soi : se sentir digne d'être aimé, malgré ses défauts et ses limites. C'est le socle le plus profond.
+
+- La vision de soi : le regard que l'on porte sur ses qualités, ses défauts et ses possibilités.
+
+- La confiance en soi : se sentir capable d'agir et de faire face.
+
+## Quand l'estime de soi est fragile
+
+Une estime de soi fragile peut se repérer à travers certains signes du quotidien :
+
+- Une voix intérieure très critique, qui relève surtout ce qui ne va pas.
+
+- La difficulté à recevoir un compliment, ou le sentiment de ne pas le mériter.
+
+- La comparaison fréquente aux autres, souvent à son désavantage.
+
+- Un besoin important d'approbation, et la peur de décevoir.
+
+- Le perfectionnisme : l'impression de devoir tout réussir pour avoir de la valeur.
+
+- Le sentiment de ne pas être à sa place malgré ses réussites (voir le syndrome de l'imposteur), ou la difficulté à dire non (voir l'affirmation de soi).
+
+## D'où vient-elle ?
+
+L'estime de soi se construit d'abord dans la relation : le regard des personnes qui ont pris soin de nous, la façon dont nos besoins ont été accueillis, les encouragements ou les critiques reçus (voir les styles d'attachement). Elle peut ensuite être fragilisée par des moqueries répétées, des échecs vécus comme des preuves de son manque de valeur, ou des expériences difficiles, voire traumatiques.
+
+Comprendre d'où vient ce regard sur soi permet de ne plus le prendre pour une vérité, mais pour une trace de son histoire.
+
+## Deux exercices pour la nourrir
+
+### L'autocompassion : se parler comme à un ami
+
+Quand votre voix intérieure devient sévère, demandez-vous : « Que dirais-je à un ami qui vivrait la même situation ? » Puis adressez-vous ces mots, avec le même ton. On adhère mieux à une phrase neutre et bienveillante qu'à une phrase trop positive : « Je fais de mon mieux avec ce que j'ai aujourd'hui. »
+
+La psychologue Kristin Neff décrit l'autocompassion comme la capacité à se traiter avec la même bienveillance que l'on offrirait à une personne chère, en particulier dans les moments difficiles.
+
+### L'exercice en affiche
+
+Les trois étapes à compléter, avec les trois piliers de l'auto-compassion.
+
+Télécharger l'affiche (PDF)
+
+### Cinq moments agréables, centrés sur soi
+
+Le soir, notez cinq moments agréables de la journée qui vous concernent directement : une chose accomplie, même petite, une qualité dont vous avez fait preuve, ou un moment où vous avez agi en accord avec vos valeurs.
+
+### La grille de la semaine
+
+Une page à remplir chaque jour, du lundi au dimanche.
+
+Télécharger l'affiche (PDF)
+
+## Mon accompagnement
+
+L'objectif principal est de vous aider à modifier le regard que vous portez sur vous-même, votre perception subjective. Nous pouvons travailler sur les pensées et les besoins, avec des outils issus des TCC, de l'ACT ou de la thérapie des schémas. Lorsque c'est utile, la LI-ICV permet d'aller plus loin, en travaillant sur les représentations précoces de soi que vous avez pu vous créer.
+
+## Questions fréquentes
+
+-
+
+### Peut-on avoir trop d'estime de soi ?
+
+Une bonne estime de soi est stable : elle ne dépend pas de chaque réussite ou de chaque critique. Une image de soi très haute mais fragile, qui a besoin d'être sans cesse confirmée, traduit souvent au contraire une estime de soi vulnérable.
+
+-
+
+### Peut-on restaurer son estime de soi à l'âge adulte ?
+
+Oui. L'estime de soi continue d'évoluer tout au long de la vie, au fil des expériences, des relations et du travail sur soi.
+
+-
+
+### Comment savoir si mon estime de soi est fragile ?
+
+Quelques signes peuvent alerter : une autocritique très présente, la peur constante de décevoir, ou le sentiment de devoir tout réussir pour avoir de la valeur. Si ces signes pèsent sur votre quotidien, en parler peut aider.
+
+## Sources
+
+- André, C., & Lelord, F. (1999). L'estime de soi. S'aimer pour mieux vivre avec les autres. Paris : Odile Jacob.
+
+- Rosenberg, M. (1965). Society and the Adolescent Self-Image. Princeton : Princeton University Press.
+
+- Kernis, M. H. (2003). Toward a conceptualization of optimal self-esteem. Psychological Inquiry, 14(1), 1-26.
+
+- Neff, K. D. (2003). Self-compassion: An alternative conceptualization of a healthy attitude toward oneself. Self and Identity, 2(2), 85-101.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/affirmation-de-soi/
+Titre : Affirmation de soi : oser dire non — Laetitia Duchemin, psy
+
+# Affirmation de soi
+
+Exprimer ses besoins et poser ses limites, en se respectant et en respectant l'autre
+
+Prendre rendez-vous
+
+S'affirmer, c'est pouvoir dire ce que l'on pense, ce que l'on ressent et ce dont on a besoin, sans écraser l'autre ni s'effacer. Avec la confiance en soi et l'estime de soi, l'affirmation de soi fait partie du triptyque sur lequel je travaille. Elle s'apprend, à tout âge.
+
+## Quatre façons de réagir
+
+- La passivité : se taire, céder, faire passer les besoins des autres avant les siens, pour éviter le conflit.
+
+- L'agressivité : imposer son point de vue, au détriment de l'autre.
+
+- La manipulation : obtenir ce que l'on veut de façon indirecte, par la culpabilité ou les sous-entendus.
+
+- L'affirmation : s'exprimer clairement, en respectant à la fois ses besoins et ceux de l'autre.
+
+Nous passons tous de l'une à l'autre selon les situations et les personnes. L'objectif n'est pas d'être affirmé en permanence, mais de pouvoir l'être quand c'est important pour soi.
+
+## Pourquoi est-ce parfois si difficile ?
+
+- La peur du conflit, du rejet ou de l'abandon, souvent liée à son histoire relationnelle (voir les styles d'attachement).
+
+- Des messages appris tôt : « sois sage », « ne fais pas d'histoires », « pense d'abord aux autres », « arrête de ne penser qu'à toi », « ne sois pas égoïste ».
+
+- Une estime de soi fragile, qui fait douter de la légitimité de ses propres besoins.
+
+- Des expériences où s'adapter aux autres était la façon la plus sûre de se protéger. Ce réflexe, utile autrefois, peut rester actif longtemps après (voir le trauma complexe).
+
+## Poser une limite : la méthode DESC
+
+Pour exprimer une demande ou poser une limite sans agresser ni s'effacer, la méthode DESC propose quatre étapes :
+
+- Décrire les faits, sans jugement : « Quand tu arrives en retard à nos rendez-vous… »
+
+- Exprimer ce que vous ressentez : « … je me sens peu considérée… »
+
+- Spécifier ce que vous souhaitez : « … j'aimerais que tu me préviennes si tu as du retard… »
+
+- Conclure sur les conséquences positives : « … comme ça, je pourrai m'organiser et profiter de nos moments ensemble. »
+
+Commencez par des situations simples : l'affirmation de soi se construit, comme un muscle, par la pratique régulière. C'est la régularité qui est la clé du changement.
+
+## Oser dire non
+
+Dire non, c'est aussi montrer sa valeur : votre temps et votre disponibilité ne sont pas des acquis pour les autres. Ils ont d'ailleurs plus de valeur lorsque vous les donnez avec envie plutôt que par contrainte.
+
+- Vous avez le droit de prendre le temps : « Je te réponds demain. »
+
+- Appliquez la règle des trois « ne pas » : ne pas se justifier (il n'est pas nécessaire d'expliquer ses pensées ou ses décisions), ne pas dériver (éviter d'entrer dans les détails et de perdre le fil), ne pas trop expliquer (cela peut basculer dans la justification).
+
+- Si l'autre insiste, vous pouvez répéter calmement la même phrase, sans vous laisser entraîner dans un débat (la technique du « disque rayé »).
+
+- Refuser une demande n'est pas rejeter la personne.
+
+## Le corps s'affirme aussi
+
+S'affirmer se joue aussi dans le corps : sentir ses appuis au sol, garder le dos droit, respirer lentement par le nez avant de parler. Quand le système nerveux est en alerte, la voix se serre et les mots se bousculent ; revenir au corps aide à retrouver une voix plus posée (voir la régulation émotionnelle).
+
+## Mon accompagnement
+
+J'accompagne à apprendre à affirmer ses limites, pour se respecter. Nous travaillons sur les situations concrètes du quotidien, par la pratique. Lorsque la difficulté à s'affirmer prend racine dans votre histoire, la LI-ICV peut aider à travailler plus en profondeur.
+
+## Questions fréquentes
+
+-
+
+### S'affirmer, est-ce être égoïste ?
+
+Non. S'affirmer, c'est tenir compte de ses besoins autant que de ceux des autres. Des limites claires rendent souvent les relations plus sereines.
+
+-
+
+### Et si l'autre réagit mal ?
+
+C'est possible, surtout au début, quand l'entourage n'a pas l'habitude. Sa réaction lui appartient : vous restez responsable de la façon dont vous vous exprimez, pas de ce que l'autre en fait.
+
+-
+
+### Peut-on apprendre à s'affirmer à tout âge ?
+
+Oui. L'affirmation de soi se travaille par la pratique régulière, en commençant par des situations peu chargées émotionnellement.
+
+## Sources
+
+- Alberti, R. E., & Emmons, M. L. (1970). Your Perfect Right. San Luis Obispo : Impact Publishers.
+
+- Bower, S. A., & Bower, G. H. (1976). Asserting Yourself. Reading : Addison-Wesley (méthode DESC).
+
+- Fensterheim, H., & Baer, J. (1975). Don't Say Yes When You Want to Say No. New York : David McKay.
+
+- Cungi, C. (1996). Savoir s'affirmer. Paris : Retz.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/syndrome-de-l-imposteur/
+Titre : Syndrome de l'imposteur : comprendre et apaiser — L. Duchemin
+
+# Syndrome de l'imposteur
+
+Se sentir illégitime malgré ses réussites
+
+Prendre rendez-vous
+
+Le syndrome de l'imposteur désigne le sentiment persistant de ne pas mériter sa place, malgré des compétences et des réussites bien réelles. Il a été décrit en 1978 par les psychologues Pauline Clance et Suzanne Imes. Ce n'est ni une maladie ni un diagnostic, mais une expérience très répandue, qui peut toucher chacun à un moment de sa vie.
+
+## Ce que l'on peut ressentir
+
+- Attribuer ses réussites à la chance, au hasard ou à un travail excessif, jamais à ses compétences.
+
+- Craindre d'être « démasqué », que les autres découvrent que l'on n'est pas à la hauteur.
+
+- Minimiser les compliments, ou penser que l'autre se trompe.
+
+- Se préparer bien plus que nécessaire, ou au contraire repousser le moment de s'y mettre.
+
+- Vivre chaque nouvelle étape comme une épreuve, malgré les succès passés.
+
+## Le cycle de l'imposteur
+
+Pauline Clance a décrit un cycle qui entretient ce sentiment. Face à une nouvelle tâche, l'anxiété monte. On réagit en se surpréparant, ou en repoussant puis en travaillant dans l'urgence. La tâche est réussie, et le soulagement arrive. Mais la réussite est attribuée à l'effort démesuré ou à la chance, pas à ses compétences : le doute se renforce, et le cycle recommence à la tâche suivante.
+
+## Les cinq profils de Valerie Young
+
+La chercheuse Valerie Young décrit cinq façons de vivre ce sentiment, selon l'idée que l'on se fait de la compétence. On peut se reconnaître dans plusieurs :
+
+- Le perfectionniste : seul un résultat parfait compte, et la moindre erreur devient la preuve de son incompétence.
+
+- L'expert : il faudrait tout savoir avant d'agir, et chaque question sans réponse fait craindre d'être démasqué.
+
+- Le génie naturel : être compétent signifierait réussir vite et sans effort ; devoir travailler dur devient le signe que l'on n'est pas à la hauteur.
+
+- Le soliste : demander de l'aide serait un aveu de faiblesse, et une réussite partagée ne compte pas vraiment.
+
+- Le super-héros : il faudrait exceller dans tous les rôles à la fois, au travail, en famille, dans ses relations.
+
+## Ce n'est pas un manque de confiance
+
+On peut se savoir compétent et se sentir pourtant illégitime. Le syndrome de l'imposteur touche d'ailleurs souvent des personnes qui réussissent. Il se rapproche davantage d'une estime de soi fragile que d'un manque de confiance en ses capacités.
+
+## D'où cela peut venir
+
+- Des messages reçus dans l'enfance : être « l'enfant brillant » dont on attend beaucoup, ou au contraire être comparé à un frère ou une sœur.
+
+- Un style d'attachement insécure : lorsque l'attention ou l'affection ont semblé dépendre des performances, on peut apprendre que sa valeur se mérite, et qu'elle peut être retirée à tout moment (voir les styles d'attachement).
+
+- Un environnement très compétitif, où l'erreur est peu tolérée.
+
+- Le fait d'évoluer dans un milieu différent de celui dont on vient, par exemple être le premier de sa famille à faire des études.
+
+- Le perfectionnisme, qui place la barre si haut qu'aucune réussite ne semble suffisante.
+
+## Des repères pour l'apaiser
+
+- En parler : mettre des mots sur ce sentiment, et découvrir que d'autres le partagent, en réduit souvent le poids.
+
+- Noter les faits : gardez une trace de vos réussites et des retours positifs reçus, avec ce qui les explique concrètement.
+
+- Accueillir un compliment par un simple « merci », sans le corriger.
+
+- Se dire une phrase neutre et bienveillante plutôt que trop positive : « J'ai ma place ici, même quand je doute. »
+
+## Mon accompagnement
+
+Nous travaillons sur ce qui entretient ce sentiment au quotidien : les pensées, le perfectionnisme, le rapport aux réussites. Lorsque ce sentiment prend racine dans des expériences plus anciennes, la LI-ICV peut aider à travailler plus en profondeur, pour que votre place ne dépende plus de chaque nouvelle réussite.
+
+## Questions fréquentes
+
+-
+
+### Le syndrome de l'imposteur est-il une maladie ?
+
+Non. Ce n'est pas un diagnostic, mais un ensemble de pensées et d'émotions très répandu. Il mérite d'être pris en compte lorsqu'il génère de l'anxiété ou freine vos projets.
+
+-
+
+### Touche-t-il surtout les femmes ?
+
+Il a d'abord été décrit chez des femmes, mais les études montrent qu'il touche aussi les hommes, dans des proportions variables selon les milieux.
+
+-
+
+### Peut-on s'en libérer ?
+
+Le doute peut revenir à chaque nouvelle étape, mais il peut perdre de sa force : on apprend à le reconnaître, sans plus le laisser décider à sa place.
+
+## Sources
+
+- Clance, P. R., & Imes, S. A. (1978). The imposter phenomenon in high achieving women: Dynamics and therapeutic intervention. Psychotherapy: Theory, Research & Practice, 15(3), 241-247.
+
+- Clance, P. R. (1985). The Impostor Phenomenon: Overcoming the Fear That Haunts Your Success. Atlanta : Peachtree.
+
+- Young, V. (2011). The Secret Thoughts of Successful Women: Why Capable People Suffer from the Impostor Syndrome and How to Thrive in Spite of It. New York : Crown Business.
+
+- Bravata, D. M., Watts, S. A., Keefer, A. L., et al. (2020). Prevalence, predictors, and treatment of impostor syndrome: A systematic review. Journal of General Internal Medicine, 35(4), 1252-1275.
 
 Consultation : 1 h, 70 €, en ligne.
 

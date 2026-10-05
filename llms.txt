@@ -6,24 +6,41 @@
 - [Site](https://laetitia-duchemin-psychologue.fr/): présentation, approche, demandes accompagnées, formation, tarifs, questions fréquentes
 - [À propos](https://laetitia-duchemin-psychologue.fr/a-propos/): identité professionnelle complète (formation, numéros ADELI/RPPS/SIREN, pratique, recherche)
 - [Ma recherche doctorale](https://laetitia-duchemin-psychologue.fr/recherche/): doctorat en cours sur la LI-ICV, le trauma complexe et l'attachement chez les jeunes adultes (Université de Picardie Jules Verne, laboratoire CRP-CPO, axe 2)
+- [Mes approches](https://laetitia-duchemin-psychologue.fr/mes-approches/): psychothérapie intégrative et psychocorporelle centrée sur la LI-ICV, place du corps, accompagnement adapté à chacun
 - [LI-ICV (Intégration du Cycle de la Vie)](https://laetitia-duchemin-psychologue.fr/li-icv/): définition, situations concernées, formation, recherche, questions fréquentes
+- [LI-ICV ou EMDR](https://laetitia-duchemin-psychologue.fr/li-icv-ou-emdr/): origines, points communs, différences, comment choisir
 - [LI-ICV enfants-adolescents](https://laetitia-duchemin-psychologue.fr/li-icv-enfants-adolescents/): parcours systémique avec les parents, en ligne
-- [Stress post-traumatique et trauma complexe](https://laetitia-duchemin-psychologue.fr/stress-post-traumatique-trauma-complexe/): définitions CIM-11, repères pour les distinguer, accompagnement
-- [Styles d'attachement](https://laetitia-duchemin-psychologue.fr/styles-d-attachement/): styles d'attachement (sécure, anxieux, évitant, désorganisé), effets à l'âge adulte, accompagnement par la LI-ICV
+- [Stress post-traumatique et trauma complexe](https://laetitia-duchemin-psychologue.fr/stress-post-traumatique-trauma-complexe/): définitions CIM-11, repères pour les distinguer, traumas silencieux (négligence), accompagnement
+- [Styles d'attachement](https://laetitia-duchemin-psychologue.fr/styles-d-attachement/): styles d'attachement (sécure, anxieux, évitant, désorganisé), styles adultes (Bartholomew et Horowitz), effets à l'âge adulte, accompagnement par la LI-ICV
+- [Attachement sécure](https://laetitia-duchemin-psychologue.fr/attachement-secure/): construction, manifestations adultes, sécure acquis, résilience
+- [Attachement évitant](https://laetitia-duchemin-psychologue.fr/attachement-evitant/): origines, manifestations, tolérance à la détresse
+- [Attachement anxieux](https://laetitia-duchemin-psychologue.fr/attachement-anxieux/): origines, peur de l'abandon, tolérance à la détresse
+- [Attachement désorganisé](https://laetitia-duchemin-psychologue.fr/attachement-desorganise/): origines, lien avec le trauma complexe et la dissociation
+- [Dépendance affective](https://laetitia-duchemin-psychologue.fr/dependance-affective/): signes, origines, pistes
+- [Peur de l'abandon](https://laetitia-duchemin-psychologue.fr/peur-de-l-abandon/): manifestations, cercle de la peur, repères
 - [Dissociation](https://laetitia-duchemin-psychologue.fr/dissociation/): dissociation (dépersonnalisation, déréalisation), parts de soi, lien avec le trauma, ancrage et accompagnement
+- [Déréalisation et dépersonnalisation](https://laetitia-duchemin-psychologue.fr/derealisation-depersonnalisation/): se sentir détaché de soi ou du monde, pourquoi cela arrive, revenir au présent
+- [Hypervigilance](https://laetitia-duchemin-psychologue.fr/hypervigilance/): état d'alerte permanent, neuroception, pistes pour s'apaiser
+- [Mémoire traumatique](https://laetitia-duchemin-psychologue.fr/memoire-traumatique/): souvenir non intégré, amnésie traumatique (dissociative), repère « c'était avant »
 - [IFS, les parts de soi](https://laetitia-duchemin-psychologue.fr/ifs/): modèle IFS de Richard Schwartz, managers, pompiers, exilés et Soi
 - [EFT clinique](https://laetitia-duchemin-psychologue.fr/eft/): EFT clinique, outil d'auto-soin, déroulé et 15 points de stimulation
 - [Addictions](https://laetitia-duchemin-psychologue.fr/addictions/): addictions avec ou sans substance (dont TCA et pornographie), critères de Goodman, lien avec le trauma, étapes du changement, entretien motivationnel
+- [Fenêtre de tolérance](https://laetitia-duchemin-psychologue.fr/fenetre-de-tolerance/): trois états (fenêtre, hyper, hypoactivation), zone optimale d'apprentissage, échelle polyvagale, pendulation
+- [Hypersensibilité et haute sensibilité](https://laetitia-duchemin-psychologue.fr/hypersensibilite/): haute sensibilité (Clobert et Gauvrit), quatre dimensions, exercice du STOP
+- [Anxiété](https://laetitia-duchemin-psychologue.fr/anxiete/): continuum stress, anxiété, angoisse, différence anxiété/angoisse, ce qui l'entretient, repères pour l'apaiser
 - [Crise d'angoisse et attaque de panique](https://laetitia-duchemin-psychologue.fr/crise-d-angoisse/): comprendre la crise, le cercle de la peur, apprendre à baisser l'intensité
 - [Neuropsychologie](https://laetitia-duchemin-psychologue.fr/neuropsychologie/): la neuropsychologie comme grille de lecture des difficultés (attention, mémoire, émotions), évaluations au cas par cas
 - [Régulation émotionnelle](https://laetitia-duchemin-psychologue.fr/regulation-emotionnelle/): exercice de respiration de base, définition, accompagnement
 - [Pleine Conscience Sensible au Trauma](https://laetitia-duchemin-psychologue.fr/pleine-conscience-sensible-au-trauma/): principes de David Treleaven, adaptations en séance, accompagnement
 - [TCTSY](https://laetitia-duchemin-psychologue.fr/tctsy/): Trauma Center Trauma-Sensitive Yoga, principes, recherche, accompagnement
 - [Confiance en soi](https://laetitia-duchemin-psychologue.fr/confiance-en-soi/): définition, sources selon Bandura, outil simple, accompagnement
+- [Estime de soi](https://laetitia-duchemin-psychologue.fr/estime-de-soi/): les trois piliers, signes d'une estime de soi fragile, origines, autocompassion, accompagnement
+- [Affirmation de soi](https://laetitia-duchemin-psychologue.fr/affirmation-de-soi/): quatre attitudes, méthode DESC, oser dire non (règle des trois « ne pas »), accompagnement
+- [Syndrome de l'imposteur](https://laetitia-duchemin-psychologue.fr/syndrome-de-l-imposteur/): cycle de l'imposteur (Clance), cinq profils de Valerie Young, origines, repères pour l'apaiser
 - [Résilience](https://laetitia-duchemin-psychologue.fr/resilience/): auto-compassion, faire surface avant de faire face, accompagnement intégratif
 - [Théorie polyvagale](https://laetitia-duchemin-psychologue.fr/theorie-polyvagale/): trois états du système nerveux autonome (Stephen Porges), vidéo, lien avec la fenêtre de tolérance
 - [Tarifs et modalités](https://laetitia-duchemin-psychologue.fr/#infos): première consultation 1 h (70 €), consultation 1 h (70 €), séance ICV 1 h 30 (90 €), honoraires exonérés de TVA
 - [Réserver en ligne](https://rdv.deiz.fr/laetitia-duchemin-psychologue)
-- [Texte intégral du site](https://laetitia-duchemin-psychologue.fr/llms-full.txt): contenu complet des 19 pages, pour les assistants IA
+- [Texte intégral du site](https://laetitia-duchemin-psychologue.fr/llms-full.txt): contenu complet des 36 pages, pour les assistants IA
 
 Mis à jour en octobre 2026.
