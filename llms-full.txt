@@ -916,13 +916,13 @@ Réserver en ligne
 ---
 
 URL : https://laetitia-duchemin-psychologue.fr/li-icv/
-Titre : LI-ICV en ligne — Laetitia Duchemin, psychologue
+Titre : ICV, LI-ICV en ligne — Laetitia Duchemin, psychologue
 
 # LI-ICV
 
 Intégration du Cycle de la Vie · Lifespan Integration
 
-La LI-ICV (Lifespan Integration, ou Intégration du Cycle de la Vie) est une psychothérapie psychocorporelle créée au début des années 2000 par la psychothérapeute américaine Peggy Pace. Elle s'appuie sur une « ligne du temps », une liste chronologique de souvenirs de la petite enfance à aujourd'hui, que la personne parcourt visuellement de façon répétée. Cette répétition soutient un sentiment de continuité et de sécurité intérieure. Elle permet la libération des émotions désagréables et des tensions retenues dans l'expérience douloureuse du passé.
+La LI-ICV (Lifespan Integration, ou Intégration du Cycle de la Vie, souvent appelée ICV) est une psychothérapie psychocorporelle créée au début des années 2000 par la psychothérapeute américaine Peggy Pace. Elle s'appuie sur une « ligne du temps », une liste chronologique de souvenirs de la petite enfance à aujourd'hui, que la personne parcourt visuellement de façon répétée. Cette répétition soutient un sentiment de continuité et de sécurité intérieure. Elle permet la libération des émotions désagréables et des tensions retenues dans l'expérience douloureuse du passé.
 
 Prendre rendez-vous
 
@@ -1017,13 +1017,13 @@ Réserver en ligne
 ---
 
 URL : https://laetitia-duchemin-psychologue.fr/li-icv-enfants-adolescents/
-Titre : LI-ICV enfants et adolescents — Laetitia Duchemin, psychologue
+Titre : ICV enfants et adolescents (LI-ICV) — L. Duchemin, psychologue
 
 # LI-ICV enfants-adolescents
 
 Intégration du Cycle de la Vie, adaptée à l'enfant
 
-La LI-ICV chez l'enfant et l'adolescent reprend les mêmes principes que chez l'adulte : une ligne du temps de souvenirs, parcourue visuellement de façon répétée, pour soutenir un sentiment de continuité et de sécurité intérieure. Elle est adaptée à l'âge et au fonctionnement de l'enfant.
+La LI-ICV (ou ICV) chez l'enfant et l'adolescent reprend les mêmes principes que chez l'adulte : une ligne du temps de souvenirs, parcourue visuellement de façon répétée, pour soutenir un sentiment de continuité et de sécurité intérieure. Elle est adaptée à l'âge et au fonctionnement de l'enfant.
 
 Prendre rendez-vous
 
@@ -1257,6 +1257,53 @@ On ne se reconnaît pas toujours dans le mot « trauma », surtout quand rien de
 
 Des questionnaires existent, comme la PCL-5, utilisée pour repérer les symptômes de stress post-traumatique. Ce sont des outils de repérage, pas de diagnostic : seule une évaluation en consultation permet de faire le point avec vous.
 
+### Passer la PCL-5 en ligne
+
+Vous pouvez répondre ici aux 20 questions de la PCL-5, en français, et obtenir votre score immédiatement.
+
+Questionnaire de repérage · environ 5 minutes
+
+Avant de commencer
+
+- Ce questionnaire est un outil de repérage, pas un diagnostic.
+
+- Pensez à l'expérience la plus stressante que vous avez vécue. Vous n'avez pas besoin de la décrire, ni de l'écrire.
+
+- Certaines questions peuvent réveiller des souvenirs ou des émotions. Vous pouvez faire une pause ou vous arrêter à tout moment.
+
+- Vos réponses restent sur votre appareil : rien n'est enregistré ni envoyé.
+
+Voici une liste de problèmes que les gens éprouvent parfois suite à une expérience vraiment stressante. Veuillez lire chaque énoncé attentivement et indiquer dans quelle mesure ce problème vous a affecté dans le dernier mois.
+
+Commencer le questionnaire
+
+Dans le dernier mois, dans quelle mesure avez-vous été affecté par :
+
+← Précédent
+Faire une pause
+Suivant →
+
+Une pause
+Prenez le temps dont vous avez besoin. Vous pouvez sentir vos pieds au sol, regarder autour de vous et nommer quelques objets, ou respirer lentement avec le guide de cohérence cardiaque.
+
+Vos réponses sont gardées tant que cette page reste ouverte.
+
+ReprendreArrêter et effacer mes réponses
+
+Votre résultat
+
+/ 80
+
+Le seuil de 32 est celui retenu lors de la validation française du questionnaire (Ashbaugh et al., 2016), proche du seuil de 31 à 33 proposé pour la version originale. Un score ne dit pas tout : il ne tient compte ni de votre histoire, ni de ce qui vous aide déjà. Seule une évaluation en consultation permet de faire le point avec vous.
+
+Ces questions ont pu remuer des choses. Prenez un instant pour revenir au présent, par exemple avec le guide de cohérence cardiaque ou l'exercice 5-4-3-2-1.
+
+Si vous êtes en détresse ou si des idées suicidaires vous traversent, le 3114 répond gratuitement, 24 h/24 et 7 j/7. En cas d'urgence, appelez le 15 ou le 112.
+
+Prendre rendez-vousEffacer et recommencer
+
+PCL-5 : Weathers, Litz, Keane, Palmieri, Marx et Schnurr (2013), National Center for PTSD. Traduction française : N. Desbiendras. Seuil : Ashbaugh et al. (2016).
+
 ## Ce qui se passe dans le cerveau et le corps
 
 Face à un danger, votre cerveau déclenche une alarme très rapide. L'amygdale, une petite structure qui repère les menaces, active le système nerveux et la libération d'hormones de stress, comme l'adrénaline et le cortisol : le cœur accélère, la respiration change, le corps se prépare à lutter, à fuir ou à se figer.
@@ -1350,6 +1397,10 @@ Non, pas nécessairement. Certaines approches, comme la LI-ICV, permettent de tr
 - Cohn, R. (2026). Le trauma de négligence. Reconnaître, accompagner et guérir, parce que rien n'est pas rien. Quantum Way.
 
 - Smith, J. (2021). Psychothérapie de la dissociation et du trauma (2e éd.). Paris : Dunod.
+
+- Weathers, F. W., Litz, B. T., Keane, T. M., Palmieri, P. A., Marx, B. P., & Schnurr, P. P. (2013). The PTSD Checklist for DSM-5 (PCL-5). National Center for PTSD.
+
+- Ashbaugh, A. R., Houle-Johnson, S., Herbert, C., El-Hage, W., & Brunet, A. (2016). Psychometric validation of the English and French versions of the Posttraumatic Stress Disorder Checklist for DSM-5 (PCL-5). PLoS ONE, 11(10), e0161645.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -3835,6 +3886,41 @@ On peut avoir confiance en ses compétences professionnelles et une estime de so
 
 Le psychologue Albert Bandura a identifié quatre sources principales de la confiance en soi : les expériences de réussite, l'observation d'autres personnes qui réussissent, les encouragements reçus d'une personne crédible, et la manière dont on interprète ses propres sensations corporelles.
 
+## Un questionnaire : le sentiment d'efficacité personnelle
+
+Il n'existe pas de questionnaire validé de la confiance en soi à proprement parler. Le plus proche est l'échelle du sentiment d'efficacité personnelle générale, développée par Ralf Schwarzer et Matthias Jerusalem à partir des travaux d'Albert Bandura. Elle mesure le sentiment de pouvoir faire face aux difficultés et aux imprévus, l'une des composantes centrales de la confiance en soi. C'est donc un rapprochement, et non une mesure complète de la confiance en soi.
+
+Questionnaire · 10 affirmations · environ 2 minutes
+
+Avant de commencer
+
+- Il n'y a pas de bonne ou de mauvaise réponse : répondez selon ce qui vous correspond en général.
+
+- Un score reflète un moment, pas ce que vous êtes.
+
+- Vos réponses restent sur votre appareil : rien n'est enregistré ni envoyé.
+
+Pour chacune des affirmations suivantes, indiquez à quel point elle est vraie pour vous.
+
+Commencer le questionnaire
+
+← Précédent
+Suivant →
+
+Votre résultat
+
+/ 40
+
+Plutôt fragilePlutôt solide
+
+Il n'existe pas de seuil officiel. À titre de repère, dans une étude menée dans 25 pays, le score moyen se situait autour de 29 (Scholz et al., 2002).
+
+Ce questionnaire mesure le sentiment d'efficacité personnelle, une composante centrale de la confiance en soi, mais pas la confiance en soi dans son ensemble.
+
+Prendre rendez-vousEffacer et recommencer
+
+Échelle du sentiment d'efficacité personnelle générale : Schwarzer et Jerusalem (1995). Version française : Dumont, Schwarzer et Jerusalem (2000).
+
 ## Ce qui peut la fragiliser
 
 - Des expériences répétées de critique, de comparaison ou d'échec, surtout dans l'enfance.
@@ -3895,6 +3981,12 @@ Oui. La confiance se construit par l'expérience : chaque action réussie, même
 
 - Bower, S. A., & Bower, G. H. (1976). Asserting Yourself. Reading : Addison-Wesley (méthode DESC).
 
+- Schwarzer, R., & Jerusalem, M. (1995). Generalized Self-Efficacy Scale. In J. Weinman, S. Wright, & M. Johnston (Eds.), Measures in Health Psychology: A User's Portfolio (pp. 35-37). Windsor : NFER-Nelson.
+
+- Dumont, M., Schwarzer, R., & Jerusalem, M. (2000). French Adaptation of the General Self-Efficacy Scale. Berlin : Freie Universität Berlin.
+
+- Scholz, U., Gutiérrez Doña, B., Sud, S., & Schwarzer, R. (2002). Is general self-efficacy a universal construct? Psychometric findings from 25 countries. European Journal of Psychological Assessment, 18(3), 242-251.
+
 Consultation : 1 h, 70 €, en ligne.
 
 Réserver en ligne
@@ -3943,6 +4035,39 @@ Une estime de soi fragile peut se repérer à travers certains signes du quotidi
 L'estime de soi se construit d'abord dans la relation : le regard des personnes qui ont pris soin de nous, la façon dont nos besoins ont été accueillis, les encouragements ou les critiques reçus (voir les styles d'attachement). Elle peut ensuite être fragilisée par des moqueries répétées, des échecs vécus comme des preuves de son manque de valeur, ou des expériences difficiles, voire traumatiques.
 
 Comprendre d'où vient ce regard sur soi permet de ne plus le prendre pour une vérité, mais pour une trace de son histoire.
+
+## Un questionnaire : l'échelle de Rosenberg
+
+L'échelle de Morris Rosenberg est le questionnaire le plus utilisé au monde pour évaluer l'estime de soi globale, c'est-à-dire la manière dont on se considère et dont on s'apprécie dans l'ensemble. Elle comporte 10 affirmations.
+
+Questionnaire · 10 affirmations · environ 2 minutes
+
+Avant de commencer
+
+- Il n'y a pas de bonne ou de mauvaise réponse : répondez selon ce que vous ressentez en général.
+
+- Un score reflète un moment, pas ce que vous êtes.
+
+- Vos réponses restent sur votre appareil : rien n'est enregistré ni envoyé.
+
+Pour chacune des caractéristiques ou descriptions suivantes, indiquez à quel point chacune est vraie pour vous.
+
+Commencer le questionnaire
+
+← Précédent
+Suivant →
+
+Votre résultat
+
+/ 40
+
+Plutôt fragilePlutôt solide
+
+Il n'existe pas de seuil officiel pour cette échelle : ces repères sont indicatifs. Seul un échange en consultation permet de comprendre ce que ce score veut dire pour vous.
+
+Prendre rendez-vousEffacer et recommencer
+
+Échelle d'estime de soi de Rosenberg (1965). Version française : Vallières et Vallerand (1990).
 
 ## Deux exercices pour la nourrir
 
@@ -4001,6 +4126,8 @@ Quelques signes peuvent alerter : une autocritique très présente, la peur cons
 - Kernis, M. H. (2003). Toward a conceptualization of optimal self-esteem. Psychological Inquiry, 14(1), 1-26.
 
 - Neff, K. D. (2003). Self-compassion: An alternative conceptualization of a healthy attitude toward oneself. Self and Identity, 2(2), 85-101.
+
+- Vallières, É. F., & Vallerand, R. J. (1990). Traduction et validation canadienne-française de l'Échelle de l'estime de soi de Rosenberg. International Journal of Psychology, 25(2), 305-316.
 
 Consultation : 1 h, 70 €, en ligne.
 

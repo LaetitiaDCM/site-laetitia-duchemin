@@ -31,7 +31,7 @@
    "name": "Estime de soi : la comprendre et la restaurer — L. Duchemin",
    "description": "L'estime de soi : la valeur que l'on s'accorde, d'où elle vient, ce qui la fragilise et comment la restaurer pas à pas. Repères, exercice et accompagnement.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-04",
+   "dateModified": "2026-10-06",
    "about": {
     "@type": "Thing",
     "name": "Estime de soi"
@@ -441,6 +441,111 @@ footer summary{padding-block:.65rem}
     <h2 id="d-ou-vient-elle">D'où vient-elle ?</h2>
     <p>L'estime de soi se construit d'abord dans la relation : le regard des personnes qui ont pris soin de nous, la façon dont nos besoins ont été accueillis, les encouragements ou les critiques reçus (voir les <a href="/styles-d-attachement/">styles d'attachement</a>). Elle peut ensuite être fragilisée par des moqueries répétées, des échecs vécus comme des preuves de son manque de valeur, ou des expériences difficiles, voire <a href="/stress-post-traumatique-trauma-complexe/">traumatiques</a>.</p>
     <p>Comprendre d'où vient ce regard sur soi permet de ne plus le prendre pour une vérité, mais pour une trace de son histoire.</p>
+    <h2 id="echelle-de-rosenberg">Un questionnaire : l'échelle de Rosenberg</h2>
+    <p>L'échelle de Morris Rosenberg est le questionnaire le plus utilisé au monde pour évaluer l'estime de soi globale, c'est-à-dire la manière dont on se considère et dont on s'apprécie dans l'ensemble. Elle comporte 10 affirmations.</p>
+    <div class="qz" id="qz-rosenberg">
+  <script type="application/json">{"items": [["Je pense que je suis une personne de valeur, au moins égale à n'importe qui d'autre.", 0], ["Je pense que je possède un certain nombre de belles qualités.", 0], ["Tout bien considéré, je suis porté à me considérer comme un raté.", 1], ["Je suis capable de faire les choses aussi bien que la majorité des gens.", 0], ["Je sens peu de raisons d'être fier de moi.", 1], ["J'ai une attitude positive vis-à-vis moi-même.", 0], ["Dans l'ensemble, je suis satisfait de moi.", 0], ["J'aimerais avoir plus de respect pour moi-même.", 1], ["Parfois je me sens vraiment inutile.", 1], ["Il m'arrive de penser que je suis un bon à rien.", 1]], "labels": ["Tout à fait en désaccord", "Plutôt en désaccord", "Plutôt en accord", "Tout à fait en accord"], "bands": [[24, "Votre score suggère une estime de soi plutôt fragile en ce moment. Ce n'est pas un jugement sur votre valeur : l'estime de soi évolue au fil de la vie et des expériences, et elle peut se renforcer. Les exercices de cette page et un accompagnement peuvent y aider."], [34, "Votre score se situe dans une zone intermédiaire. Certains aspects de votre estime de soi peuvent être plus fragiles que d'autres : les exercices de cette page peuvent vous aider à la nourrir."], [40, "Votre score suggère une estime de soi plutôt solide en ce moment. Elle peut tout de même varier selon les périodes et les situations."]], "min": 10, "max": 40}</script>
+  <div class="qz-screen" data-s="intro">
+    <p class="qz-kicker">Questionnaire · 10 affirmations · environ 2 minutes</p>
+    <h4 class="qz-h">Avant de commencer</h4>
+    <ul class="dash">
+      <li>Il n'y a pas de bonne ou de mauvaise réponse : répondez selon ce que vous ressentez en général.</li>
+      <li>Un score reflète un moment, pas ce que vous êtes.</li>
+      <li>Vos réponses restent sur votre appareil : rien n'est enregistré ni envoyé.</li>
+    </ul>
+    <p class="qz-consigne">Pour chacune des caractéristiques ou descriptions suivantes, indiquez à quel point chacune est vraie pour vous.</p>
+    <div class="qz-nav"><button type="button" class="btn solid qz-go">Commencer le questionnaire</button></div>
+  </div>
+  <div class="qz-screen" data-s="q" hidden>
+    <div class="qz-prog" aria-hidden="true"><span></span></div>
+    <p class="qz-count" aria-live="polite"></p>
+    <fieldset class="qz-field">
+      <legend><span class="qz-item"></span></legend>
+      <div class="qz-opts"></div>
+    </fieldset>
+    <div class="qz-nav">
+      <button type="button" class="qz-link qz-prev">← Précédent</button>
+      <button type="button" class="btn solid qz-next" disabled>Suivant →</button>
+    </div>
+  </div>
+  <div class="qz-screen" data-s="res" hidden>
+    <p class="qz-kicker">Votre résultat</p>
+    <p class="qz-score"><span class="qz-total"></span><span class="qz-max"> / 40</span></p>
+    <div class="qz-gauge" aria-hidden="true"><i></i></div>
+    <div class="qz-ends" aria-hidden="true"><span>Plutôt fragile</span><span>Plutôt solide</span></div>
+    <p class="qz-msg" tabindex="-1"></p>
+    <p class="qz-note">Il n'existe pas de seuil officiel pour cette échelle : ces repères sont indicatifs. Seul un échange en consultation permet de comprendre ce que ce score veut dire pour vous.</p>
+    <div class="qz-nav"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a><button type="button" class="qz-link qz-reset">Effacer et recommencer</button></div>
+  </div>
+  <p class="qz-src">Échelle d'estime de soi de Rosenberg (1965). Version française : Vallières et Vallerand (1990).</p>
+</div>
+<style>
+.qz{margin:1.6rem 0;padding:1.4rem 1.3rem 1rem;border:1px solid var(--line);border-radius:18px;background:var(--surface)}
+.qz [hidden]{display:none!important}
+.qz-kicker{font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-deep,#7d5a16);margin:0 0 .4rem}
+.qz-h{font-family:var(--serif);font-weight:500;font-size:1.45rem;color:var(--heading);margin:0 0 .6rem}
+.qz-consigne{font-style:italic;color:var(--muted)}
+.qz-nav{display:flex;flex-wrap:wrap;gap:.8rem 1.2rem;align-items:center;justify-content:space-between;margin-top:1rem}
+.qz-nav .btn{cursor:pointer;font:inherit}
+.qz-next:disabled{opacity:.45;cursor:default}
+.qz-link{background:none;border:0;padding:.5rem 0;font:inherit;font-size:.95rem;color:var(--link);text-decoration:underline;cursor:pointer;min-height:44px}
+.qz-link:disabled{visibility:hidden}
+.qz-prog{height:6px;border-radius:99px;background:var(--line);overflow:hidden;margin-bottom:.6rem}
+.qz-prog span{display:block;height:100%;width:0;background:var(--gold);transition:width .3s}
+.qz-count{font-size:.85rem;color:var(--muted);margin:0 0 .4rem}
+.qz-field{border:0;padding:0;margin:0;min-width:0}
+.qz-field legend{padding:0;margin-bottom:1rem}
+.qz-item{display:block;font-family:var(--serif);font-size:1.3rem;line-height:1.35;color:var(--heading)}
+.qz-opts{display:grid;gap:.5rem}
+.qz-opts label{display:flex;align-items:center;gap:.7rem;padding:.7rem .9rem;border:1px solid var(--line);border-radius:12px;background:var(--bg);cursor:pointer;min-height:44px}
+.qz-opts label:hover{border-color:var(--gold)}
+.qz-opts input{accent-color:var(--gold-deep,#7d5a16);width:1.1rem;height:1.1rem;margin:0}
+.qz-opts input:focus-visible+span{outline:3px solid var(--gold-soft,#ecd096);outline-offset:3px}
+.qz-opts label:has(input:checked){border-color:var(--gold);background:var(--gold-soft,#ecd096);color:#1b1140}
+.qz-score{font-family:var(--serif);color:var(--heading);margin:.2rem 0 .6rem}
+.qz-total{font-size:3rem;line-height:1}
+.qz-max{font-size:1.3rem;color:var(--muted)}
+.qz-gauge{position:relative;height:10px;border-radius:99px;background:linear-gradient(90deg,var(--line),var(--gold));margin:.4rem 0 .3rem}
+.qz-gauge i{position:absolute;top:50%;width:18px;height:18px;margin:-9px 0 0 -9px;border-radius:50%;background:var(--surface);border:3px solid var(--gold-deep,#7d5a16)}
+.qz-ends{display:flex;justify-content:space-between;font-size:.8rem;color:var(--muted);margin-bottom:1rem}
+.qz-msg{font-size:1.05rem;color:var(--ink);outline:none}
+.qz-note{font-size:.92rem;color:var(--muted)}
+.qz-src{font-size:.78rem;color:var(--muted);margin:1rem 0 0;border-top:1px solid var(--line);padding-top:.7rem}
+</style>
+<script>
+(function(){
+  var root=document.getElementById('qz-rosenberg'); if(!root) return;
+  var C=JSON.parse(root.querySelector('script[type="application/json"]').textContent);
+  var n=C.items.length, a=new Array(n), i=0, timer=null, scr={};
+  root.querySelectorAll('.qz-screen').forEach(function(s){scr[s.dataset.s]=s;});
+  var item=root.querySelector('.qz-item'), opts=root.querySelector('.qz-opts'), count=root.querySelector('.qz-count'), prog=root.querySelector('.qz-prog span'), prev=root.querySelector('.qz-prev'), nxt=root.querySelector('.qz-next');
+  function show(k,focus){ for(var s in scr) scr[s].hidden=(s!==k); if(focus){ var f=scr[k].querySelector(focus); if(f) f.focus({preventScroll:true}); } }
+  function render(){
+    item.textContent=C.items[i][0]; count.textContent='Question '+(i+1)+' sur '+n; prog.style.width=(i/n*100)+'%';
+    prev.disabled=(i===0); nxt.disabled=(a[i]===undefined); nxt.textContent=(i===n-1?'Voir mon résultat':'Suivant →');
+    opts.innerHTML='';
+    C.labels.forEach(function(lab,v){
+      var l=document.createElement('label'), r=document.createElement('input'), s=document.createElement('span');
+      r.type='radio'; r.name='qz-rosenberg-q'; r.value=v; if(a[i]===v) r.checked=true;
+      s.textContent=lab; l.appendChild(r); l.appendChild(s); opts.appendChild(l);
+      r.addEventListener('change',function(){ a[i]=v; nxt.disabled=false; });
+      l.addEventListener('click',function(e){ if(e.detail>0){ a[i]=v; r.checked=true; nxt.disabled=false; clearTimeout(timer); timer=setTimeout(next,350); } });
+    });
+  }
+  function next(){ if(i<n-1){ i++; render(); var c=opts.querySelector('input:checked')||opts.querySelector('input'); c.focus({preventScroll:true}); } else result(); }
+  function result(){
+    var tot=0; for(var k=0;k<n;k++){ var v=a[k]+1; tot+= C.items[k][1] ? (C.labels.length+1-v) : v; }
+    root.querySelector('.qz-total').textContent=tot;
+    root.querySelector('.qz-gauge i').style.left=((tot-C.min)/(C.max-C.min)*100)+'%';
+    var msg=C.bands[C.bands.length-1][1]; for(var b=0;b<C.bands.length;b++){ if(tot<=C.bands[b][0]){ msg=C.bands[b][1]; break; } }
+    var m=root.querySelector('.qz-msg'); m.textContent=msg; show('res','.qz-msg');
+  }
+  root.querySelector('.qz-go').addEventListener('click',function(){ i=0; render(); show('q'); opts.querySelector('input').focus({preventScroll:true}); });
+  nxt.addEventListener('click',function(){ clearTimeout(timer); if(a[i]!==undefined) next(); });
+  prev.addEventListener('click',function(){ clearTimeout(timer); if(i>0){ i--; render(); } });
+  root.querySelector('.qz-reset').addEventListener('click',function(){ a=new Array(n); i=0; show('intro','.qz-go'); });
+})();
+</script>
     <h2 id="deux-exercices">Deux exercices pour la nourrir</h2>
     <h3>L'autocompassion : se parler comme à un ami</h3>
     <p>Quand votre voix intérieure devient sévère, demandez-vous : « Que dirais-je à un ami qui vivrait la même situation ? » Puis adressez-vous ces mots, avec le même ton. On adhère mieux à une phrase neutre et bienveillante qu'à une phrase trop positive : « Je fais de mon mieux avec ce que j'ai aujourd'hui. »</p>
@@ -477,6 +582,7 @@ footer summary{padding-block:.65rem}
       <li>Rosenberg, M. (1965). <em>Society and the Adolescent Self-Image</em>. Princeton : Princeton University Press.</li>
       <li>Kernis, M. H. (2003). Toward a conceptualization of optimal self-esteem. <em>Psychological Inquiry</em>, 14(1), 1-26.</li>
       <li>Neff, K. D. (2003). Self-compassion: An alternative conceptualization of a healthy attitude toward oneself. <em>Self and Identity</em>, 2(2), 85-101.</li>
+      <li>Vallières, É. F., &amp; Vallerand, R. J. (1990). Traduction et validation canadienne-française de l'Échelle de l'estime de soi de Rosenberg. <em>International Journal of Psychology</em>, 25(2), 305-316.</li>
     </ul>
   </div>
 </section>

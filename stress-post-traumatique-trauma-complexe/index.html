@@ -441,6 +441,157 @@ footer summary{padding-block:.65rem}
       <li>des difficultés relationnelles qui se répètent.</li>
     </ul>
     <p>Des questionnaires existent, comme la PCL-5, utilisée pour repérer les symptômes de stress post-traumatique. Ce sont des outils de repérage, pas de diagnostic : seule une évaluation en consultation permet de faire le point avec vous.</p>
+    <h3 id="pcl-5">Passer la PCL-5 en ligne</h3>
+    <p>Vous pouvez répondre ici aux 20 questions de la PCL-5, en français, et obtenir votre score immédiatement.</p>
+    <div class="pcl" id="pcl">
+  <div class="pcl-screen" data-s="intro">
+    <p class="pcl-kicker">Questionnaire de repérage · environ 5 minutes</p>
+    <h4 class="pcl-h">Avant de commencer</h4>
+    <ul class="dash">
+      <li>Ce questionnaire est un outil de repérage, pas un diagnostic.</li>
+      <li>Pensez à l'expérience la plus stressante que vous avez vécue. Vous n'avez pas besoin de la décrire, ni de l'écrire.</li>
+      <li>Certaines questions peuvent réveiller des souvenirs ou des émotions. Vous pouvez faire une pause ou vous arrêter à tout moment.</li>
+      <li>Vos réponses restent sur votre appareil : rien n'est enregistré ni envoyé.</li>
+    </ul>
+    <p class="pcl-consigne">Voici une liste de problèmes que les gens éprouvent parfois suite à une expérience vraiment stressante. Veuillez lire chaque énoncé attentivement et indiquer dans quelle mesure ce problème vous a affecté dans le dernier mois.</p>
+    <div class="pcl-nav"><button type="button" class="btn solid pcl-go">Commencer le questionnaire</button></div>
+  </div>
+  <div class="pcl-screen" data-s="q" hidden>
+    <div class="pcl-prog" aria-hidden="true"><span></span></div>
+    <p class="pcl-count" aria-live="polite"></p>
+    <fieldset class="pcl-field">
+      <legend><span class="pcl-lead">Dans le dernier mois, dans quelle mesure avez-vous été affecté par :</span><span class="pcl-item"></span></legend>
+      <div class="pcl-opts"></div>
+    </fieldset>
+    <div class="pcl-nav">
+      <button type="button" class="pcl-link pcl-prev">← Précédent</button>
+      <button type="button" class="pcl-link pcl-stop">Faire une pause</button>
+      <button type="button" class="btn solid pcl-next" disabled>Suivant →</button>
+    </div>
+  </div>
+  <div class="pcl-screen" data-s="pause" hidden>
+    <h4 class="pcl-h">Une pause</h4>
+    <p>Prenez le temps dont vous avez besoin. Vous pouvez sentir vos pieds au sol, regarder autour de vous et nommer quelques objets, ou respirer lentement avec <a href="/le-corps-en-psychotherapie/#la-coherence-cardiaque">le guide de cohérence cardiaque</a>.</p>
+    <p>Vos réponses sont gardées tant que cette page reste ouverte.</p>
+    <div class="pcl-nav"><button type="button" class="btn solid pcl-resume">Reprendre</button><button type="button" class="pcl-link pcl-reset">Arrêter et effacer mes réponses</button></div>
+  </div>
+  <div class="pcl-screen" data-s="res" hidden>
+    <p class="pcl-kicker">Votre résultat</p>
+    <p class="pcl-score"><span class="pcl-total"></span><span class="pcl-max"> / 80</span></p>
+    <p class="pcl-msg" tabindex="-1"></p>
+    <div class="pcl-bars"></div>
+    <p class="pcl-note">Le seuil de 32 est celui retenu lors de la validation française du questionnaire (Ashbaugh et al., 2016), proche du seuil de 31 à 33 proposé pour la version originale. Un score ne dit pas tout : il ne tient compte ni de votre histoire, ni de ce qui vous aide déjà. Seule une évaluation en consultation permet de faire le point avec vous.</p>
+    <p class="pcl-note">Ces questions ont pu remuer des choses. Prenez un instant pour revenir au présent, par exemple avec <a href="/le-corps-en-psychotherapie/#la-coherence-cardiaque">le guide de cohérence cardiaque</a> ou <a href="/documents/affiche-ancrage-5-4-3-2-1.pdf" target="_blank" rel="noopener">l'exercice 5-4-3-2-1</a>.</p>
+    <p class="pcl-note">Si vous êtes en détresse ou si des idées suicidaires vous traversent, le <strong>3114</strong> répond gratuitement, 24 h/24 et 7 j/7. En cas d'urgence, appelez le <strong>15</strong> ou le <strong>112</strong>.</p>
+    <div class="pcl-nav"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a><button type="button" class="pcl-link pcl-reset">Effacer et recommencer</button></div>
+  </div>
+  <p class="pcl-src">PCL-5 : Weathers, Litz, Keane, Palmieri, Marx et Schnurr (2013), National Center for PTSD. Traduction française : N. Desbiendras. Seuil : Ashbaugh et al. (2016).</p>
+</div>
+<style>
+.pcl{margin:1.6rem 0;padding:1.4rem 1.3rem 1rem;border:1px solid var(--line);border-radius:18px;background:var(--surface)}
+.pcl [hidden]{display:none!important}
+.pcl-kicker{font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-deep,#7d5a16);margin:0 0 .4rem}
+.pcl-h{font-family:var(--serif);font-weight:500;font-size:1.45rem;color:var(--heading);margin:0 0 .6rem}
+.pcl-consigne{font-style:italic;color:var(--muted)}
+.pcl-nav{display:flex;flex-wrap:wrap;gap:.8rem 1.2rem;align-items:center;justify-content:space-between;margin-top:1rem}
+.pcl-nav .btn{cursor:pointer;font:inherit}
+.pcl-link{background:none;border:0;padding:.5rem 0;font:inherit;font-size:.95rem;color:var(--link);text-decoration:underline;cursor:pointer;min-height:44px}
+.pcl-link:disabled{visibility:hidden}
+.pcl-next:disabled{opacity:.45;cursor:default}
+.pcl-prog{height:6px;border-radius:99px;background:var(--line);overflow:hidden;margin-bottom:.6rem}
+.pcl-prog span{display:block;height:100%;width:0;background:var(--gold);transition:width .3s}
+.pcl-count{font-size:.85rem;color:var(--muted);margin:0 0 .4rem}
+.pcl-field{border:0;padding:0;margin:0;min-width:0}
+.pcl-field legend{padding:0;margin-bottom:1rem}
+.pcl-lead{display:block;font-size:.9rem;color:var(--muted);margin-bottom:.35rem}
+.pcl-item{display:block;font-family:var(--serif);font-size:1.3rem;line-height:1.35;color:var(--heading)}
+.pcl-opts{display:grid;gap:.5rem}
+.pcl-opts label{display:flex;align-items:center;gap:.7rem;padding:.7rem .9rem;border:1px solid var(--line);border-radius:12px;background:var(--bg);cursor:pointer;min-height:44px}
+.pcl-opts label:hover{border-color:var(--gold)}
+.pcl-opts input{accent-color:var(--gold-deep,#7d5a16);width:1.1rem;height:1.1rem;margin:0}
+.pcl-opts input:focus-visible+span{outline:3px solid var(--gold-soft,#ecd096);outline-offset:3px}
+.pcl-opts label:has(input:checked){border-color:var(--gold);background:var(--gold-soft,#ecd096);color:#1b1140}
+.pcl-score{font-family:var(--serif);color:var(--heading);margin:.2rem 0 .6rem}
+.pcl-total{font-size:3rem;line-height:1}
+.pcl-max{font-size:1.3rem;color:var(--muted)}
+.pcl-msg{font-size:1.05rem;color:var(--ink);outline:none}
+.pcl-bars{display:grid;gap:.7rem;margin:1.1rem 0}
+.pcl-bar p{margin:0 0 .25rem;font-size:.92rem;display:flex;justify-content:space-between;gap:1rem}
+.pcl-bar p span:last-child{color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.pcl-track{height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.pcl-track span{display:block;height:100%;background:var(--gold,#d9a648)}
+.pcl-note{font-size:.92rem;color:var(--muted)}
+.pcl-src{font-size:.78rem;color:var(--muted);margin:1rem 0 0;border-top:1px solid var(--line);padding-top:.7rem}
+</style>
+<script>
+(function(){
+  var root=document.getElementById('pcl'); if(!root) return;
+  var Q=["Des souvenirs répétés, pénibles et involontaires de l'expérience stressante ?",
+  "Des rêves répétés et pénibles de l'expérience stressante ?",
+  "Se sentir ou agir soudainement comme si vous viviez à nouveau l'expérience stressante ?",
+  "Se sentir mal quand quelque chose vous rappelle l'événement ?",
+  "Avoir de fortes réactions physiques lorsque quelque chose vous rappelle l'événement (accélération cardiaque, difficulté respiratoire, sudation) ?",
+  "Essayer d'éviter les souvenirs, pensées, et sentiments liés à l'événement ?",
+  "Essayer d'éviter les personnes et les choses qui vous rappellent l'expérience stressante (lieux, personnes, activités, objets) ?",
+  "Des difficultés à vous rappeler des parties importantes de l'événement ?",
+  "Des croyances négatives sur vous-même, les autres, le monde (des croyances comme : je suis mauvais, j'ai quelque chose qui cloche, je ne peux avoir confiance en personne, le monde est dangereux) ?",
+  "Vous blâmer ou blâmer quelqu'un d'autre pour l'événement ou ce qui s'est produit ensuite ?",
+  "Avoir des sentiments négatifs intenses tels que peur, horreur, colère, culpabilité, ou honte ?",
+  "Perdre de l'intérêt pour des activités que vous aimiez auparavant ?",
+  "Vous sentir distant ou coupé des autres ?",
+  "Avoir du mal à éprouver des sentiments positifs (par exemple être incapable de ressentir de la joie ou de l'amour envers vos proches) ?",
+  "Comportement irritable, explosions de colère, ou agir agressivement ?",
+  "Prendre des risques inconsidérés ou encore avoir des conduites qui pourraient vous mettre en danger ?",
+  "Être en état de « super-alerte », hyper vigilant ou sur vos gardes ?",
+  "Sursauter facilement ?",
+  "Avoir du mal à vous concentrer ?",
+  "Avoir du mal à trouver le sommeil ou à rester endormi ?"];
+  var L=["Pas du tout","Un peu","Modérément","Beaucoup","Extrêmement"];
+  var G=[["Souvenirs qui s'imposent",0,5],["Évitement",5,7],["Pensées et humeur",7,14],["Alerte et réactivité",14,20]];
+  var a=new Array(20), i=0, timer=null;
+  var scr={}; root.querySelectorAll('.pcl-screen').forEach(function(s){scr[s.dataset.s]=s;});
+  var item=root.querySelector('.pcl-item'), opts=root.querySelector('.pcl-opts'), count=root.querySelector('.pcl-count'), prog=root.querySelector('.pcl-prog span'), prev=root.querySelector('.pcl-prev'), nxt=root.querySelector('.pcl-next');
+  function show(k,focus){ for(var s in scr) scr[s].hidden=(s!==k); if(focus){ var f=scr[k].querySelector(focus); if(f) f.focus({preventScroll:true}); } }
+  function render(){
+    item.textContent=Q[i]; count.textContent='Question '+(i+1)+' sur 20'; prog.style.width=(i/20*100)+'%'; prev.disabled=(i===0); nxt.disabled=(a[i]===undefined); nxt.textContent=(i===19?'Voir mon résultat':'Suivant →');
+    opts.innerHTML='';
+    L.forEach(function(lab,v){
+      var l=document.createElement('label'), r=document.createElement('input'), s=document.createElement('span');
+      r.type='radio'; r.name='pcl-q'; r.value=v; if(a[i]===v) r.checked=true;
+      s.textContent=lab; l.appendChild(r); l.appendChild(s); opts.appendChild(l);
+      r.addEventListener('change',function(){ a[i]=v; nxt.disabled=false; });
+      l.addEventListener('click',function(e){ if(e.detail>0){ a[i]=v; r.checked=true; nxt.disabled=false; clearTimeout(timer); timer=setTimeout(next,350); } });
+    });
+  }
+  function next(){ if(i<19){ i++; render(); var c=opts.querySelector('input:checked')||opts.querySelector('input'); c.focus({preventScroll:true}); } else result(); }
+  function result(){
+    var tot=a.reduce(function(s,v){return s+v;},0);
+    root.querySelector('.pcl-total').textContent=tot;
+    var m=root.querySelector('.pcl-msg');
+    m.textContent = tot>=32
+      ? "Votre score se situe au-dessus du seuil de repérage. Il suggère que des symptômes de stress post-traumatique peuvent être présents et peser sur votre quotidien. Ce n'est pas un diagnostic, et ce que vous ressentez a du sens : un échange avec un professionnel permettrait de faire le point, à votre rythme."
+      : (tot>=15
+        ? "Votre score se situe en dessous du seuil de repérage. Certaines difficultés semblent toutefois présentes : si elles vous gênent, il peut être utile d'en parler avec un professionnel."
+        : "Votre score se situe en dessous du seuil de repérage. Si quelque chose vous préoccupe malgré tout, vous pouvez en parler avec un professionnel.");
+    var b=root.querySelector('.pcl-bars'); b.innerHTML='';
+    G.forEach(function(g){
+      var s=0; for(var k=g[1];k<g[2];k++) s+=a[k]; var mx=(g[2]-g[1])*4;
+      var d=document.createElement('div'); d.className='pcl-bar';
+      d.innerHTML='<p><span></span><span>'+s+' / '+mx+'</span></p><div class="pcl-track"><span style="width:'+(s/mx*100)+'%"></span></div>';
+      d.querySelector('p span').textContent=g[0]; b.appendChild(d);
+    });
+    show('res','.pcl-msg');
+  }
+  function reset(){ a=new Array(20); i=0; show('intro','.pcl-go'); }
+  root.querySelector('.pcl-go').addEventListener('click',function(){ i=0; render(); show('q'); opts.querySelector('input').focus({preventScroll:true}); });
+  nxt.addEventListener('click',function(){ clearTimeout(timer); if(a[i]!==undefined) next(); });
+  prev.addEventListener('click',function(){ clearTimeout(timer); if(i>0){ i--; render(); } });
+  root.querySelector('.pcl-stop').addEventListener('click',function(){ clearTimeout(timer); show('pause','.pcl-resume'); });
+  root.querySelector('.pcl-resume').addEventListener('click',function(){ render(); show('q'); });
+  root.querySelectorAll('.pcl-reset').forEach(function(x){ x.addEventListener('click',reset); });
+})();
+</script>
+
     <h2 id="cerveau-et-corps">Ce qui se passe dans le cerveau et le corps</h2>
     <p>Face à un danger, votre cerveau déclenche une alarme très rapide. L'amygdale, une petite structure qui repère les menaces, active le système nerveux et la libération d'hormones de stress, comme l'adrénaline et le cortisol : le cœur accélère, la respiration change, le corps se prépare à lutter, à fuir ou à se figer.</p>
     <p>Lors d'un événement traumatique, cette alarme est si forte que l'hippocampe, qui range habituellement les souvenirs dans le temps et dans l'espace, ne peut pas faire son travail. Le souvenir est alors enregistré en fragments (voir la <a href="/memoire-traumatique/">mémoire traumatique</a>) : des images, des sons, des odeurs, des sensations, sans le fil du récit ni le repère du « c'était avant ». C'est pourquoi il peut revenir comme s'il se produisait maintenant.</p>
@@ -487,6 +638,8 @@ footer summary{padding-block:.65rem}
       <li>Canini, F., El-Hage, W., &amp; Garcia, R. (2024). <em>L'ABC des psychotraumas. Approches biologiques et cliniques des psychotraumas</em>. Paris : Ellipses.</li>
       <li>Cohn, R. (2026). <em>Le trauma de négligence. Reconnaître, accompagner et guérir, parce que rien n'est pas rien</em>. Quantum Way.</li>
       <li>Smith, J. (2021). <em>Psychothérapie de la dissociation et du trauma</em> (2e éd.). Paris : Dunod.</li>
+      <li>Weathers, F. W., Litz, B. T., Keane, T. M., Palmieri, P. A., Marx, B. P., &amp; Schnurr, P. P. (2013). <em>The PTSD Checklist for DSM-5 (PCL-5)</em>. National Center for PTSD.</li>
+      <li>Ashbaugh, A. R., Houle-Johnson, S., Herbert, C., El-Hage, W., &amp; Brunet, A. (2016). Psychometric validation of the English and French versions of the Posttraumatic Stress Disorder Checklist for DSM-5 (PCL-5). <em>PLoS ONE</em>, 11(10), e0161645.</li>
     </ul>
   </div>
 </section>
