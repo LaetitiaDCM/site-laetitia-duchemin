@@ -285,6 +285,11 @@ Lire la page Addictions · Télécharger l'affiche
 Les étapes pour faire baisser l'intensité d'une crise d'angoisse.
 Lire la page Crise d'angoisse · Télécharger l'affiche
 
+### La pendulation
+
+Osciller entre une sensation inconfortable et un appui extérieur, pour apprendre à mieux la supporter.
+Lire la page Fenêtre de tolérance · Télécharger l'affiche
+
 Questions fréquentes
 
 ## Vos questions
@@ -502,6 +507,24 @@ Cette thèse a débuté en septembre 2025. Sa fiche officielle, avec l'intitulé
 
 Ce sujet est né de ma pratique clinique et de mes interventions auprès du Service de Santé Étudiante de l'UPJV, où j'accompagne de nombreux jeunes adultes confrontés à des vécus traumatiques anciens ou répétés. J'y observe combien le trauma complexe peut fragiliser à la fois la sécurité relationnelle, la régulation des émotions et la construction identitaire, à un moment clé du passage à l'âge adulte.
 
+## Pourquoi les 18-25 ans ?
+
+Entre 18 et 25 ans, le cerveau poursuit sa maturation. C'est notamment une période d'élagage synaptique : le cerveau fait le tri dans ses connexions, en éliminant celles qui sont peu utilisées et en renforçant celles qui servent le plus, un peu comme un jardinier qui taille un arbre pour qu'il pousse mieux. Ce processus, très actif à l'adolescence, se poursuit au début de l'âge adulte, en particulier dans le cortex préfrontal, qui soutient la régulation des émotions et la prise de recul.
+
+À cet âge, la plasticité neuronale, c'est-à-dire la capacité du cerveau à se transformer au fil des expériences, est en plein processus. C'est donc une période particulièrement favorable pour accompagner les effets du trauma complexe, avant que certains fonctionnements ne se figent davantage.
+
+## Le trauma complexe et le cerveau
+
+Lorsque des expériences difficiles se répètent tôt dans la vie, le cerveau s'adapte pour survivre : l'alarme interne (l'amygdale) devient plus réactive, les régions qui aident à prendre du recul et à réguler les émotions (le cortex préfrontal) ont plus de mal à la calmer, et la mémoire (l'hippocampe) peine à ranger les souvenirs dans le temps. Ces adaptations, utiles pour se protéger, pèsent ensuite sur la régulation émotionnelle, les relations et le sentiment d'identité (voir le trauma complexe).
+
+## Ce que l'on entend par intégration
+
+Intégrer, c'est relier. Selon le psychiatre Dan Siegel, un système intégré est un système dont les différentes parties, différenciées, sont reliées entre elles en un ensemble cohérent. On peut l'imaginer comme les pièces d'un puzzle : chaque pièce garde sa forme, mais c'est en s'assemblant qu'elles dessinent une image d'ensemble. Dans le trauma, certains souvenirs, émotions ou états du soi restent isolés, et continuent de se manifester comme au présent. L'intégration permet de les relier au reste de son histoire, de les dater, et de les ranger dans le passé.
+
+## L'attachement sécure acquis
+
+On parle d'attachement sécure acquis lorsqu'une personne ayant grandi dans un contexte d'insécurité développe, à l'âge adulte, un attachement sécure. Ce qui la caractérise n'est pas l'absence de difficultés passées, mais la capacité à raconter son histoire de façon cohérente, en lui donnant du sens. Ma recherche étudie si la LI-ICV favorise cette évolution (voir l'attachement sécure).
+
 ## Comment j'étudie cette question
 
 Ma recherche combine des outils d'évaluation quantitatifs (ITQ, IES-R, DERS-F, ECR-R, SCC) et l'analyse qualitative de situations cliniques, autour de quatre axes : l'accompagnement du trauma complexe, la transformation du style d'attachement, le renforcement de l'identité et le développement de la résilience.
@@ -509,6 +532,18 @@ Ma recherche combine des outils d'évaluation quantitatifs (ITQ, IES-R, DERS-F, 
 ## Où en est cette recherche ?
 
 Ce doctorat est en cours. Les résultats ne sont pas encore disponibles et cette recherche universitaire, encadrée par l'Université de Picardie Jules Verne, est distincte de mon activité clinique en libéral. Elle nourrit en revanche ma pratique au quotidien, notamment autour de la LI-ICV, du trauma complexe et de l'attachement. Voir mon identité professionnelle complète.
+
+## Sources
+
+- Arnett, J. J. (2000). Emerging adulthood: A theory of development from the late teens through the twenties. American Psychologist, 55(5), 469-480.
+
+- Petanjek, Z., Judaš, M., Šimić, G., et al. (2011). Extraordinary neoteny of synaptic spines in the human prefrontal cortex. PNAS, 108(32), 13281-13286.
+
+- Teicher, M. H., & Samson, J. A. (2016). Annual research review: Enduring neurobiological effects of childhood abuse and neglect. Journal of Child Psychology and Psychiatry, 57(3), 241-266.
+
+- Siegel, D. J. (1999). The Developing Mind. New York : Guilford Press.
+
+- Roisman, G. I., Padrón, E., Sroufe, L. A., & Egeland, B. (2002). Earned-secure attachment status in retrospect and prospect. Child Development, 73(4), 1204-1219.
 
 ## Questions fréquentes
 
@@ -632,9 +667,33 @@ Prendre rendez-vous
 
 ## Pour quelles situations ?
 
-Elle est utilisée pour le stress post-traumatique (TSPT), simple ou complexe, la réparation de l'attachement et la régulation émotionnelle.
+Elle est utilisée pour le stress post-traumatique (TSPT), simple ou complexe, la réparation de l'attachement et la régulation émotionnelle. Au-delà, elle peut être utilisée pour toutes les demandes : elle travaille sur le noyau central du symptôme, son origine.
 
 Vous vous demandez ce qui la distingue de l'EMDR ? Voir la page LI-ICV ou EMDR.
+
+## Comment elle agit : l'image du sablier
+
+Dans un sablier, le sable ne passe pas d'un seul coup : il s'écoule grain par grain, par un passage étroit. La LI-ICV agit de la même façon : elle permet d'intégrer l'information traumatique petit à petit, et non massivement, en restant en sécurité dans le présent. À chaque passage de la ligne du temps, le système nerveux intègre une part de ce qui a été vécu, puis retrouve le présent, avant de continuer.
+
+Ce travail se fait en co-régulation avec le thérapeute : un système nerveux calme et présent aide l'autre à rester dans sa fenêtre de tolérance. C'est l'accordage, l'un des piliers de la LI-ICV, avec la ligne du temps et la répétition. La LI-ICV permet ainsi de travailler la stabilisation et l'intégration en même temps, grâce à son processus doux, progressif et orienté dans le temps.
+
+## Comment se déroule l'accompagnement
+
+- Les premières séances : nous prenons le temps de comprendre votre demande, votre histoire et vos ressources, et de construire un sentiment de sécurité.
+
+- La ligne du temps : nous la construisons ensemble, à partir de quelques mots clés pour chaque année de vie, sans récit détaillé.
+
+- Les séances ICV (1 h 30) : la ligne du temps est parcourue de façon répétée, en lien avec ce qui est travaillé, jusqu'au moment présent.
+
+- Le retour au présent : chaque séance se termine dans l'ici et maintenant, avec des appuis pour la suite.
+
+Le nombre de séances dépend de chacun. Pour un stress post-traumatique simple ou un événement de vie difficile, une seule séance suffit généralement : je m'appuie pour le dire sur les observations des cliniciens qui la pratiquent, sur les études et sur ma propre expérience clinique. Un trauma complexe ou un travail sur l'attachement demandent davantage de séances.
+
+## Ce que l'on peut ressentir après une séance
+
+L'intégration se poursuit souvent dans les jours qui suivent : comme pour n'importe quelle nouvelle information, elle se fait en grande partie pendant le sommeil. Il est normal de se sentir fatigué après les premières séances d'ICV. On peut aussi se sentir plus sensible, faire des rêves, puis ressentir un apaisement, un sentiment de continuité, l'impression que le passé est « plus loin ».
+
+Une thérapie peut aussi déclencher des moments de souffrance entre les séances : nous ouvrons parfois des sujets douloureux, qui demandent une séance de plus. Il arrive enfin que des souvenirs oubliés refassent surface ; nous les ajoutons alors au plan de thérapie, qui est co-construit avec vous. Nous reparlons de tout cela à la séance suivante. En cas de souffrance importante entre deux séances, il est possible de me contacter : il ne faut pas rester seul. En cas d'urgence, appelez le 15 ou le 3114.
 
 ## Ma formation à la LI-ICV
 
@@ -674,6 +733,18 @@ Pour une expérience difficile précise, une à deux séances sont généralemen
 
 Oui, la séance ICV (1 h 30, 90 €) est possible en ligne.
 
+-
+
+### Faut-il se souvenir de tout ?
+
+Non. La LI-ICV permet aussi de travailler sur des périodes dont on n'a pas de souvenir précis, y compris la petite enfance.
+
+-
+
+### Est-ce adapté au trauma complexe ?
+
+Oui. Peggy Pace l'a justement créée pour mieux accompagner le trauma complexe. Le travail est alors plus long et se fait pas à pas.
+
 Séance ICV : 1 h 30, 90 €, en ligne.
 
 Réserver en ligne
@@ -706,6 +777,10 @@ Elle est utilisée pour des événements difficiles, un trauma, une dérégulati
 ## Un parcours systémique, avec les parents
 
 La LI-ICV enfants-adolescents est envisagée comme un parcours systémique, plus qu'une prise en charge de l'enfant seul : l'implication des parents fait partie intégrante de l'accompagnement. Conformément au cadre légal, l'accord des deux parents (ou titulaires de l'autorité parentale) est nécessaire pour recevoir l'enfant.
+
+## La co-régulation, au cœur du travail avec l'enfant
+
+Un enfant apprend à réguler ses émotions grâce aux adultes qui l'entourent : c'est la co-régulation, la base de l'autorégulation émotionnelle (voir la régulation émotionnelle). Elle passe par la validation émotionnelle : accueillir l'émotion de l'enfant, la reconnaître, l'identifier, la comprendre, pour répondre au besoin qui se cache derrière. C'est pourquoi les parents sont des acteurs essentiels de l'accompagnement : plus ils se sentent eux-mêmes apaisés, plus ils peuvent offrir à leur enfant un appui sécurisant. En séance, la présence calme du thérapeute participe aussi à ce travail, et la câlinothérapie le prolonge au quotidien.
 
 ## Comment se déroule l'accompagnement
 
@@ -2427,6 +2502,12 @@ En thérapie, on travaille à élargir la fenêtre de tolérance, pour ne plus b
 
 Issue de la Somatic Experiencing du thérapeute Peter Levine, et reprise notamment dans la Pleine Conscience Sensible au Trauma, la pendulation consiste à osciller doucement entre un état inconfortable et un point d'appui extérieur. Laissez venir une sensation ou une émotion inconfortable, mais supportable, et restez quelques instants avec elle. Puis tournez votre attention vers l'extérieur : fixez un objet dans la pièce, ouvrez les yeux s'ils étaient fermés, remarquez ses couleurs et sa forme. Revenez ensuite à la sensation, puis à nouveau à l'objet. Ce va-et-vient apprend au système nerveux qu'il peut traverser un ressenti difficile et en revenir, pour mieux le supporter.
 
+### L'exercice en affiche
+
+Les quatre étapes de la pendulation, à imprimer ou à garder sous la main.
+
+Télécharger l'affiche (PDF)
+
 ## Mon accompagnement
 
 En séance, je veille à ce que le travail reste dans votre fenêtre de tolérance : c'est ce qui permet d'avancer sans être submergé. Nous construisons d'abord des ressources pour revenir dans votre zone et développer la tolérance à la détresse, puis la LI-ICV aide le système nerveux à intégrer ce qui l'en faisait sortir, ce qui élargit progressivement la fenêtre.
@@ -2802,6 +2883,10 @@ La fenêtre de tolérance, un concept développé par le psychiatre Dan Siegel, 
 Les trois états du système nerveux et des exemples de ressentis pour chacun, sur une page à imprimer ou à garder sous la main.
 
 Télécharger l'affiche (PDF)
+
+## Se réguler avec l'autre : la co-régulation
+
+Avant de savoir se réguler seul, on apprend à se réguler avec l'autre. Le bébé s'apaise dans les bras d'un adulte calme : son système nerveux s'accorde à celui de la personne qui prend soin de lui. C'est la co-régulation, la base de l'autorégulation émotionnelle. Elle passe notamment par la validation émotionnelle : savoir accueillir l'émotion de l'autre, en particulier celle de l'enfant, la reconnaître, l'identifier et la comprendre, pour répondre au besoin qui se cache derrière. Elle reste importante toute la vie : une voix posée, une présence bienveillante, un regard qui rassure aident le système nerveux à revenir dans sa fenêtre de tolérance. En thérapie, la présence calme du thérapeute soutient elle aussi ce travail, jusqu'à ce que l'autorégulation devienne plus facile.
 
 ## La tolérance émotionnelle
 
