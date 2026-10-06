@@ -3121,6 +3121,43 @@ Les deux mots sont souvent employés l'un pour l'autre. L'anxiété se vit surto
 
 L'anxiété est aussi une réaction du système nerveux, qui perçoit une menace et se prépare à y répondre (voir la théorie polyvagale). Après des expériences difficiles, ce système peut rester en alerte (voir l'hypervigilance).
 
+## Un questionnaire : le GAD-7
+
+Le GAD-7 est l'un des questionnaires les plus utilisés au monde pour repérer l'anxiété. En 7 questions, il évalue la fréquence des signes d'anxiété au cours des deux dernières semaines.
+
+Questionnaire · 7 questions · environ 1 minute
+
+Avant de commencer
+
+- Ce questionnaire est un outil de repérage, pas un diagnostic.
+
+- Il porte sur les deux dernières semaines : un score reflète une période, pas ce que vous êtes.
+
+- Vos réponses restent sur votre appareil : rien n'est enregistré ni envoyé.
+
+Au cours des 14 derniers jours, à quelle fréquence les problèmes suivants vous ont-ils perturbé(e) ?
+
+Commencer le questionnaire
+
+← Précédent
+Suivant →
+
+Votre résultat
+
+/ 21
+
+MinimeSévère
+
+Repères habituels : 5 pour une anxiété légère, 10 pour une anxiété modérée, 15 pour une anxiété sévère (Spitzer et al., 2006). À partir de 10, une évaluation en consultation est recommandée. Le GAD-7 a été conçu pour l'anxiété généralisée, et il réagit aussi à d'autres formes d'anxiété (crises d'angoisse, anxiété sociale, stress post-traumatique).
+
+Pour vous apaiser maintenant, vous pouvez essayer le guide de cohérence cardiaque.
+
+Si vous êtes en détresse ou si des idées suicidaires vous traversent, le 3114 répond gratuitement, 24 h/24 et 7 j/7. En cas d'urgence, appelez le 15 ou le 112.
+
+Prendre rendez-vousEffacer et recommencer
+
+GAD-7 : Spitzer, Kroenke, Williams et Löwe (2006), développé avec une bourse de Pfizer Inc. ; aucune autorisation requise pour le reproduire. Version française.
+
 ## Quand consulter
 
 Lorsque l'anxiété est présente la plupart du temps, depuis plusieurs mois, qu'elle épuise ou qu'elle conduit à renoncer à des choses importantes, il est utile d'en parler à un professionnel. Elle peut prendre différentes formes (anxiété généralisée, anxiété sociale, phobies, crises d'angoisse répétées), qui s'évaluent en consultation.
@@ -3176,6 +3213,10 @@ C'est une décision qui relève de votre médecin. La psychothérapie est effica
 - Dugas, M. J., & Robichaud, M. (2007). Cognitive-Behavioral Treatment for Generalized Anxiety Disorder. New York : Routledge.
 
 - Duchemin, L., Service de Santé Étudiante de l'UPJV (2024). Guide de gestion du stress et de l'anxiété.
+
+- Spitzer, R. L., Kroenke, K., Williams, J. B. W., & Löwe, B. (2006). A brief measure for assessing generalized anxiety disorder: The GAD-7. Archives of Internal Medicine, 166(10), 1092-1097.
+
+- Micoulaud-Franchi, J.-A., Lagarde, S., Barkate, G., et al. (2016). Rapid detection of generalized anxiety disorder and major depression in epilepsy: Validation of the GAD-7 as a complementary tool to the NDDI-E in a French sample. Epilepsy & Behavior, 57, 211-216.
 
 Consultation : 1 h, 70 €, en ligne.
 
