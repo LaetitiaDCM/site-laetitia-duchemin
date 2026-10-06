@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 36 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour en septembre 2026.
+> Version complète de llms.txt : texte principal des 41 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour en septembre 2026.
 
 ---
 
@@ -71,7 +71,7 @@ Chaque parcours est singulier. Voici les grands axes autour desquels nous pouvon
 
 ### Stress post-traumatique et trauma complexe
 
-Comprendre l'impact d'un événement marquant ou d'expériences anciennes ou répétées, et reconstruire, pas à pas, un sentiment de sécurité. Comprendre aussi ces moments où l'on se sent loin de soi ou du monde, la dissociation, et redonner de la connexion entre les différentes parts de soi. Apaiser l'hypervigilance et la mémoire traumatique. En savoir plus sur le stress post-traumatique
+Comprendre l'impact d'un événement marquant ou d'expériences anciennes ou répétées, et reconstruire, pas à pas, un sentiment de sécurité. Comprendre aussi ces moments où l'on se sent loin de soi ou du monde, la dissociation, et redonner de la connexion entre les différentes parts de soi. Apaiser l'hypervigilance et la mémoire traumatique. Comprendre ses déclencheurs émotionnels, les traces du trauma de l'enfance, la honte et la culpabilité, ou une relation d'emprise. En savoir plus sur le stress post-traumatique
 
 -
 
@@ -93,9 +93,9 @@ Renforcer votre place, votre pouvoir d'agir, votre résilience et la relation qu
 
 -
 
-### Mes approches : LI-ICV et neuropsychologie
+### Mes approches : LI-ICV (adultes, enfants, adolescents) et neuropsychologie
 
-La LI-ICV (Intégration du Cycle de la Vie) relie les étapes de votre parcours pour soutenir un sentiment de continuité et de sécurité intérieure. La neuropsychologie aide à mieux comprendre le fonctionnement de votre cerveau (attention, mémoire, émotions) pour donner du sens à ce que vous vivez. En savoir plus sur mes approches
+La LI-ICV (Intégration du Cycle de la Vie) relie les étapes de votre parcours pour soutenir un sentiment de continuité et de sécurité intérieure. Elle s'adapte aussi aux enfants et aux adolescents, en ligne, avec la participation des parents. La neuropsychologie aide à mieux comprendre le fonctionnement de votre cerveau (attention, mémoire, émotions) pour donner du sens à ce que vous vivez. Le corps a aussi toute sa place en thérapie : respiration, mouvement, attention aux sensations. En savoir plus sur mes approches
 
 ### Et de nombreuses autres demandes
 
@@ -289,6 +289,41 @@ Lire la page Crise d'angoisse · Télécharger l'affiche
 
 Osciller entre une sensation inconfortable et un appui extérieur, pour apprendre à mieux la supporter.
 Lire la page Fenêtre de tolérance · Télécharger l'affiche
+
+### Mes besoins fondamentaux
+
+Les cinq besoins affectifs décrits par Jeffrey Young, et des idées concrètes pour en prendre soin au quotidien.
+Lire la page Régulation émotionnelle · Télécharger l'affiche
+
+### Les messagers du bien-être
+
+Dopamine, sérotonine, ocytocine, endorphines : les gestes du quotidien qui les soutiennent.
+Lire la page Neuropsychologie · Télécharger l'affiche
+
+### La fenêtre de tolérance pendant la LI-ICV
+
+Comment l'activation émotionnelle peut fluctuer au fil des répétitions, puis se stabiliser dans la fenêtre.
+Lire la page LI-ICV · Télécharger l'affiche
+
+### La fenêtre de tolérance, version murale
+
+Une version grand format (A3), avec les trois zones et l'échelle qui remonte vers la sécurité, pour un cabinet ou une salle d'attente.
+Lire la page Fenêtre de tolérance · Télécharger l'affiche
+
+### Mon carnet des déclencheurs
+
+Noter la situation, les sensations, l'émotion et ce qui a aidé, pour repérer ses déclencheurs et ses appuis.
+Lire la page Déclencheurs émotionnels · Télécharger l'affiche
+
+### La cohérence cardiaque
+
+Inspirer cinq secondes, expirer cinq secondes : le rythme 365, avec un guide animé à suivre en ligne.
+Essayer le guide animé · Télécharger l'affiche
+
+### Guide « Stress et anxiété »
+
+Comprendre le stress et l'anxiété, et des exercices de respiration, de relaxation et de sophrologie à pratiquer chez soi.
+Lire la page Le corps en psychothérapie · Télécharger le guide
 
 Questions fréquentes
 
@@ -602,7 +637,7 @@ Elle a l'avantage d'être une thérapie douce et complète : elle permet de trav
 
 Selon la théorie polyvagale de Stephen Porges, notre système nerveux évalue en permanence, sans que nous en ayons conscience, si notre environnement est sûr ou menaçant : c'est la neuroception. Lorsqu'il perçoit un danger, il déclenche des réactions de protection (lutter, fuir, se figer), avant même que nous ayons eu le temps d'y réfléchir. Le psychiatre Bessel van der Kolk a montré, de son côté, que le corps garde la mémoire de ce que nous avons vécu.
 
-C'est dans le corps que s'engramment beaucoup de tensions, de sensations et d'émotions. Quand elles ne sont pas libérées ni exprimées, elles restent là, dans l'indicible. D'où l'importance d'agir avec le corps pour s'en libérer. Le mouvement est un élément important, qui participe pleinement à la thérapie.
+C'est dans le corps que s'engramment beaucoup de tensions, de sensations et d'émotions. Quand elles ne sont pas libérées ni exprimées, elles restent là, dans l'indicible. D'où l'importance d'agir avec le corps pour s'en libérer. Le mouvement est un élément important, qui participe pleinement à la thérapie (voir le corps en psychothérapie).
 
 Les séances ont lieu en ligne. Le travail corporel s'y adapte bien : il repose sur l'attention portée à vos sensations, sur la respiration et sur des mouvements simples, toujours proposés et jamais imposés.
 
@@ -654,6 +689,237 @@ Réserver en ligne
 
 ---
 
+URL : https://laetitia-duchemin-psychologue.fr/le-corps-en-psychotherapie/
+Titre : Le corps en psychothérapie : mémoire, trauma et mouvement
+
+# Le corps en psychothérapie
+
+Ce que le corps garde, le corps peut aussi aider à le libérer
+
+Prendre rendez-vous
+
+Pendant longtemps, la psychothérapie s'est surtout appuyée sur la parole, alors même que lors d'un trauma, les aires du langage sont mises en retrait, et que les capacités du cerveau à assimiler et à traiter l'information sont dépassées. Il ne reste alors que les sensations et les émotions, qui restent figées dans le corps, qui en est la source, tant qu'elles ne sont pas déchargées et intégrées. C'est pourquoi le corps a toute sa place en thérapie, comme une porte d'entrée vers ce que la parole n'atteint pas toujours.
+
+## Pourquoi la parole seule ne suffit pas
+
+En 1996, une équipe de chercheurs (Rauch, van der Kolk et leurs collègues) a observé par imagerie cérébrale des personnes souffrant de stress post-traumatique pendant qu'elles écoutaient le récit de leur souvenir. L'activité de l'aire de Broca, une zone essentielle à la production du langage, diminuait. Le psychiatre Bessel van der Kolk parle de « terreur sans mots » : au moment où le souvenir s'active, les mots manquent.
+
+On distingue ainsi deux voies complémentaires. Les approches « par le haut » partent de la pensée et de la parole, pour comprendre et donner du sens. Les approches « par le bas » partent du corps et des sensations, pour apaiser le système nerveux là où l'alarme s'est installée. La thérapie gagne à s'appuyer sur les deux.
+
+## Comment le corps garde la trace
+
+Une grande partie de notre mémoire ne passe pas par les mots. La mémoire implicite, et notamment la mémoire procédurale, garde les apprentissages du corps : comment marcher, comment se protéger, comment réagir à un danger. Après un trauma, ces réflexes de protection peuvent rester actifs, et se déclencher sans passer par la pensée (voir les déclencheurs émotionnels et la mémoire traumatique).
+
+Le psychiatre Bessel van der Kolk a popularisé cette idée avec son livre « Le corps n'oublie rien ». C'est une image : le corps ne stocke pas des souvenirs comme un disque dur, mais le système nerveux garde la trace de ce qu'il a appris pour survivre.
+
+### La neuroception
+
+Notre système nerveux évalue en permanence, sans que nous en ayons conscience, si notre environnement est sûr ou menaçant : c'est la neuroception, décrite par Stephen Porges dans la théorie polyvagale. Elle passe par le corps : un visage, une voix, une posture, un bruit sont « lus » en une fraction de seconde. Après un trauma, cette évaluation peut rester réglée sur le danger, et le corps réagit comme si la menace était encore là. Le travail corporel aide à envoyer au système nerveux des signaux de sécurité, pour qu'il puisse peu à peu se réajuster.
+
+### L'intéroception
+
+L'intéroception est la capacité à percevoir ce qui se passe à l'intérieur de son corps : les battements du cœur, la respiration, la faim, la tension, la fatigue. Après un trauma, elle est souvent perturbée : on peut se sentir submergé par ses sensations, ou au contraire ne plus rien percevoir. Elle peut se rééduquer, progressivement, en apprenant à porter une attention douce à son corps.
+
+### La dissociation corporelle
+
+Pour se protéger, le système nerveux peut aussi couper le contact avec le corps : c'est la dissociation corporelle. On ne sent plus certaines parties de son corps, on le vit comme étranger, engourdi ou lointain (voir la dissociation et la dépersonnalisation). L'image du corps, c'est-à-dire la représentation que l'on se fait de son propre corps, peut elle aussi en être marquée : sentiment d'étrangeté, de honte ou de rejet. Prendre soin de la relation à son corps fait alors partie du rétablissement. Le retour vers le corps se fait alors par petites étapes, à son rythme, dans la fenêtre de tolérance.
+
+## Quand les symptômes racontent une histoire
+
+Les liens entre trauma et santé physique sont bien établis : douleurs persistantes, tensions musculaires, troubles digestifs, maux de tête, fatigue sont plus fréquents après des expériences traumatiques (voir l'étude ACE, sur la page Trauma de l'enfance). En clinique, on observe parfois qu'une douleur persistante se situe dans une zone du corps liée à ce qui a été vécu. Ce n'est pas une règle, et chaque symptôme physique mérite d'abord un avis médical. Lorsque le corps continue à exprimer ce que les mots n'ont pas pu dire, le prendre en compte en thérapie peut aider à l'apaiser.
+
+## Bouger pour ne plus subir
+
+Un événement adverse, du latin adversus, « tourné contre », est un événement défavorable, qui va contre nous, et que l'on a dû subir. Face à un danger, le corps prépare une réponse de défense : fuir, se protéger, repousser. Quand cette réponse n'a pas pu aller jusqu'au bout, le corps peut en garder une trace, comme une action restée inachevée.
+
+Dès la fin du XIXe siècle, Pierre Janet remarquait que les personnes traumatisées restaient comme figées dans l'événement, incapables de « passer à l'acte suivant ». Peter Levine et Pat Ogden ont repris cette idée : permettre au corps de compléter, en sécurité, le mouvement de protection qui n'a pas pu se faire. Bouger en thérapie permet ainsi de passer d'une position où l'on a subi à une position où l'on agit. C'est ce que l'on appelle retrouver un sentiment d'agentivité, le sentiment d'être acteur de ce que l'on vit.
+
+## Le mouvement pour réguler les émotions
+
+Le mouvement aide à réguler les émotions : il permet de décharger une activation trop forte, ou au contraire de se remettre en mouvement quand on se sent figé ou vide (voir la fenêtre de tolérance). Les études montrent que l'activité physique réduit les symptômes de stress post-traumatique et de dépression (Rosenbaum et al., 2015).
+
+### Les bienfaits de l'activité physique sur la santé mentale
+
+Plus largement, l'activité physique régulière est l'un des leviers les mieux étudiés pour la santé mentale. Une large synthèse de près de cent méta-analyses (Singh et al., 2023) montre qu'elle réduit nettement les symptômes de dépression, d'anxiété et de détresse psychologique, avec des effets comparables, voire supérieurs, à ceux des traitements habituels. Elle améliore aussi le sommeil, l'estime de soi et les capacités d'attention et de mémoire, notamment en stimulant la plasticité du cerveau. Pas besoin de performance : la marche, la danse, le vélo ou le jardinage comptent. L'Organisation mondiale de la santé recommande au moins 150 minutes d'activité modérée par semaine, et chaque minute compte.
+
+En LI-ICV, le mouvement fait partie de la séance : marcher, se lever, passer une balle d'une main à l'autre, pour aider le système nerveux à intégrer ce qui est travaillé, tout en restant ancré dans le présent.
+
+## La respiration et le système nerveux
+
+La respiration est l'une des seules fonctions du système nerveux autonome sur lesquelles nous pouvons agir volontairement. Elle est donc une porte d'entrée directe vers sa régulation. À l'inspiration, le cœur accélère légèrement ; à l'expiration, il ralentit, sous l'effet du nerf vague, qui agit comme un frein. Allonger l'expiration renforce ce frein, et aide le corps à passer de l'alerte au calme.
+
+### La cohérence cardiaque
+
+La cohérence cardiaque consiste à respirer à un rythme d'environ six respirations par minute (cinq secondes d'inspiration, cinq secondes d'expiration), par le nez, pendant quelques minutes. À ce rythme, la respiration et le rythme cardiaque se synchronisent, et la variabilité de la fréquence cardiaque, un indicateur de la capacité d'adaptation du système nerveux, augmente. En France, elle a été popularisée sous la forme « 365 » : trois fois par jour, six respirations par minute, pendant cinq minutes.
+
+Pour vous exercer : le guide animé de cohérence cardiaque ci-dessous (une balle qui monte et descend sur la vague), la fiche « La cohérence cardiaque », la fiche respiration, et l'outil de respiration de la page Régulation émotionnelle.
+
+Inspirez par le nez quand la balle monte, expirez quand elle descend, par le nez ou lèvres pincées, comme dans une paille. Si l'inconfort monte, revenez simplement à une respiration naturelle.
+
+### La cohérence cardiaque
+
+Le rythme 365 et les repères pour pratiquer, à garder sous les yeux.
+
+Télécharger l'affiche (PDF)
+
+## Relaxation et sophrologie
+
+La relaxation regroupe des techniques qui aident le corps à relâcher les tensions et à passer en mode de récupération. Parmi les plus connues : la relaxation musculaire progressive d'Edmund Jacobson, qui consiste à contracter puis relâcher successivement différents groupes de muscles, et le training autogène de Johannes Schultz, fondé sur des suggestions de lourdeur et de chaleur. Une méta-analyse montre l'intérêt de la relaxation pour réduire l'anxiété (Manzoni et al., 2008).
+
+La sophrologie, créée par le neuropsychiatre Alfonso Caycedo dans les années 1960, associe respiration, détente musculaire et visualisation. Elle est très pratiquée en France ; les études scientifiques à son sujet restent encore peu nombreuses.
+
+Après un trauma, la détente peut parfois, paradoxalement, faire monter l'anxiété : relâcher sa vigilance peut être vécu comme un danger (Heide et Borkovec, 1983). C'est pourquoi, en séance, ces exercices sont adaptés : yeux ouverts si vous le souhaitez, temps courts, possibilité de bouger ou de s'arrêter à tout moment.
+
+### Quelques exercices de relaxation
+
+- Le serré-desserré (méthode Jacobson) : contracter un groupe de muscles sur une inspiration, entre 5 et 10 secondes, puis relâcher sur l'expiration pendant 15 secondes au moins, en prenant le temps de ressentir la détente. On peut le faire pour le haut du corps (bras croisés contre le torse), le bas du corps, les mains (serrer puis ouvrir les poings) ou le visage (la grimace).
+
+- La relaxation autogène de Schultz : un enregistrement audio guidé, à écouter installé·e confortablement.
+
+- La relaxation rapide : après un exercice de respiration, se concentrer sur une respiration lente, « qui endort », les yeux fermés ou fixés sur un objet, pendant une dizaine de respirations. Il ne s'agit pas de s'endormir, mais de retrouver les sensations de cet état entre la veille et le sommeil.
+
+### Quelques exercices de sophrologie
+
+- Le pompage des épaules : debout, inspirer par le nez, retenir l'air en fermant les poings, et hausser puis abaisser souplement les épaules, comme pour gonfler une roue de vélo. Puis souffler par la bouche, lèvres pincées, en libérant les tensions. À répéter trois fois au moins.
+
+- Se sentir comme un arbre : après quelques respirations ventrales, porter l'attention sur le sol, et imaginer à chaque expiration des racines qui se déploient sous les pieds ; à chaque inspiration, faire monter en soi la force et la stabilité de la terre.
+
+- Le polichinelle : le corps relâché, faire de légers sautillements sur place, en imaginant faire tomber au sol les appréhensions, les doutes et les tensions.
+
+- La douche du samouraï : du crâne jusqu'aux pieds, s'étirer, tapoter du bout des doigts chaque partie du corps, la frotter avec la paume des mains, puis l'épousseter avec des mouvements rapides, pour réveiller le corps.
+
+- Respirer la détente : assis·e, se concentrer sur sa respiration en visualisant une image apaisante (un paysage, un souvenir, une couleur, ou simplement le mot « détente »), et à chaque expiration, souffler en imagination vers la zone du corps que l'on souhaite relâcher.
+
+### Avec le principe de la pendulation
+
+Ces exercices de relaxation et de sophrologie peuvent aussi se pratiquer selon le principe de la pendulation : plutôt que de chercher à tout détendre d'un coup, on alterne doucement entre une zone du corps tendue ou inconfortable et une zone neutre ou agréable, ou un appui extérieur (le contact des pieds au sol, un objet dans la pièce). Par exemple, dans le serré-desserré, on peut s'attarder sur la détente d'une partie du corps, revenir un instant vers une zone plus tendue, puis retourner à la détente. Ce va-et-vient apprend au système nerveux qu'il peut traverser un inconfort et en revenir (voir la fiche « La pendulation »).
+
+Ces exercices, et bien d'autres, sont détaillés dans mon guide « Stress et anxiété », à télécharger gratuitement.
+
+### Mon guide « Stress et anxiété »
+
+Comprendre le stress et l'anxiété, et de nombreux exercices de respiration, de relaxation et de sophrologie à pratiquer chez soi.
+
+Télécharger le guide (PDF)
+
+## Les stimulations bilatérales
+
+En EMDR, la personne pense à un souvenir difficile tout en suivant des yeux les doigts du praticien, qui se déplacent de gauche à droite, ou en ressentant des tapotements bilatéraux alternés, sur les genoux par exemple. Une méta-analyse (Lee et Cuijpers, 2013) montre que ces mouvements oculaires contribuent à diminuer l'intensité émotionnelle des souvenirs. L'hypothèse la plus étudiée est celle de la mémoire de travail : bouger les yeux en pensant au souvenir occupe une partie de l'attention, ce qui rend le souvenir moins vif et plus facile à intégrer (van den Hout et Engelhard, 2012).
+
+Les stimulations bilatérales ne sont pas propres à l'EMDR : en LI-ICV, marcher ou passer une balle d'une main à l'autre relève aussi de ce procédé bilatéral alterné (voir LI-ICV ou EMDR).
+
+## Le tapotement en EFT
+
+L'EFT associe l'évocation d'une difficulté à des tapotements sur certains points du visage et du corps. Des méta-analyses montrent un effet sur l'anxiété (Clond, 2016) et sur les symptômes de stress post-traumatique (Sebastian et Nelms, 2017). Son mécanisme reste discuté : une hypothèse est que la stimulation des récepteurs de la peau, sensibles au toucher et à la pression, enverrait au cerveau des signaux qui atténueraient la réponse d'alarme (Feinstein, 2010). Je propose l'EFT comme un auto-exercice, à pratiquer chez soi (voir l'EFT).
+
+## Les approches corporelles du trauma
+
+- La Somatic Experiencing, développée par Peter Levine, aide à percevoir les sensations et à laisser le système nerveux décharger l'activation, par petites étapes, en alternant entre l'inconfort et des appuis (la pendulation). Un essai randomisé a montré son intérêt dans le stress post-traumatique (Brom et al., 2017).
+
+- La thérapie sensori-motrice, développée par Pat Ogden, s'appuie sur les sensations, les postures et les mouvements pour travailler les traces du trauma, en restant dans la fenêtre de tolérance.
+
+- La Pleine Conscience Sensible au Trauma, développée par David Treleaven, adapte la pleine conscience aux personnes ayant vécu un trauma : ouvrir les yeux, bouger, choisir son point d'attention, pour que l'attention au corps reste un appui et non une source de débordement. Je suis formée à cette approche.
+
+- Le TCTSY (Trauma Center Trauma Sensitive Yoga), développé au Trauma Center de Boston par David Emerson, propose des mouvements simples, toujours au choix de la personne, pour retrouver un sentiment de sécurité et de pouvoir d'agir dans son corps. Un essai randomisé a montré son intérêt dans le stress post-traumatique chronique (van der Kolk et al., 2014). J'y suis initiée (voir la page TCTSY).
+
+## Une brève histoire de la catharsis
+
+Le mot catharsis vient du grec et signifie « purification ». Aristote l'utilisait pour décrire l'effet du théâtre tragique sur les spectateurs. À la fin du XIXe siècle, Josef Breuer et Sigmund Freud décrivent une « méthode cathartique » : exprimer les émotions liées à un souvenir permettrait de soulager les symptômes. À la même époque, Pierre Janet insiste sur la nécessité d'intégrer les souvenirs traumatiques, et pas seulement de les décharger.
+
+Les recherches actuelles lui donnent raison : décharger une émotion ne suffit pas à l'apaiser, et peut même l'entretenir (Bushman, 2002). Ce qui aide, c'est l'intégration : ressentir, dans un cadre sécurisant, puis relier l'émotion au souvenir et au présent.
+
+## Marcher en thérapie
+
+La walking therapy, ou thérapie en marchant, consiste à mener la séance en se promenant, côte à côte, à l'extérieur. Le mouvement, la nature et le fait de ne pas être face à face peuvent faciliter la parole et l'apaisement. Les études sont encore peu nombreuses, surtout qualitatives, mais elles décrivent un cadre vécu comme plus libre et moins intimidant (Revell et McLeod, 2016). C'est une approche qui m'intéresse et que j'aimerais intégrer plus largement.
+
+## Mon accompagnement
+
+Les séances ont lieu en ligne. Le travail corporel s'y adapte bien : il repose sur l'attention portée à vos sensations, sur la respiration et sur des mouvements simples, sans aucun toucher. Chaque proposition reste une invitation : vous pouvez la refuser, l'adapter ou vous arrêter à tout moment. C'est le cœur d'une approche sensible au trauma.
+
+## Questions fréquentes
+
+-
+
+### Faut-il être à l'aise avec son corps pour ce type de travail ?
+
+Non. Le travail commence là où vous en êtes, par de toutes petites étapes, et rien n'est imposé. Pour beaucoup de personnes, se sentir mal à l'aise avec son corps est justement ce qui amène à ce travail.
+
+-
+
+### Le travail corporel est-il possible en ligne ?
+
+Oui. Il passe par l'attention aux sensations, la respiration, la posture et des mouvements simples, que l'on peut faire chez soi. Il ne nécessite aucun contact physique.
+
+-
+
+### Faut-il quand même parler ?
+
+Oui, la parole garde toute sa place. Le travail corporel la complète : il aide à apaiser le système nerveux, pour que la parole puisse venir plus facilement, et que ce qui est compris puisse aussi être ressenti.
+
+## Sources
+
+- Porges, S. W. (2011). The Polyvagal Theory. New York : Norton.
+
+- Rauch, S. L., van der Kolk, B. A., Fisler, R. E., et al. (1996). A symptom provocation study of posttraumatic stress disorder using positron emission tomography and script-driven imagery. Archives of General Psychiatry, 53(5), 380-387.
+
+- van der Kolk, B. (2018). Le corps n'oublie rien. Paris : Albin Michel.
+
+- Ogden, P., Minton, K., & Pain, C. (2006). Trauma and the Body: A Sensorimotor Approach to Psychotherapy. New York : Norton.
+
+- Levine, P. A. (1997). Waking the Tiger: Healing Trauma. Berkeley : North Atlantic Books.
+
+- Brom, D., Stokar, Y., Lawi, C., et al. (2017). Somatic Experiencing for posttraumatic stress disorder: A randomized controlled outcome study. Journal of Traumatic Stress, 30(3), 304-312.
+
+- Price, C. J., & Hooven, C. (2018). Interoceptive awareness skills for emotion regulation: Theory and approach of Mindful Awareness in Body-Oriented Therapy (MABT). Frontiers in Psychology, 9, 798.
+
+- Rosenbaum, S., Vancampfort, D., Steel, Z., et al. (2015). Physical activity in the treatment of post-traumatic stress disorder: A systematic review and meta-analysis. Psychiatry Research, 230(2), 130-136.
+
+- Singh, B., Olds, T., Curtis, R., et al. (2023). Effectiveness of physical activity interventions for improving depression, anxiety and distress: An overview of systematic reviews. British Journal of Sports Medicine, 57(18), 1203-1209.
+
+- Organisation mondiale de la santé (2020). Lignes directrices de l'OMS sur l'activité physique et la sédentarité. Genève : OMS.
+
+- Lehrer, P. M., & Gevirtz, R. (2014). Heart rate variability biofeedback: How and why does it work? Frontiers in Psychology, 5, 756.
+
+- Zaccaro, A., Piarulli, A., Laurino, M., et al. (2018). How breath-control can change your life: A systematic review on psycho-physiological correlates of slow breathing. Frontiers in Human Neuroscience, 12, 353.
+
+- Manzoni, G. M., Pagnini, F., Castelnuovo, G., & Molinari, E. (2008). Relaxation training for anxiety: A ten-years systematic review with meta-analysis. BMC Psychiatry, 8, 41.
+
+- Heide, F. J., & Borkovec, T. D. (1983). Relaxation-induced anxiety: Paradoxical anxiety enhancement due to relaxation training. Journal of Consulting and Clinical Psychology, 51(2), 171-182.
+
+- Jacobson, E. (1938). Progressive Relaxation. Chicago : University of Chicago Press.
+
+- Lee, C. W., & Cuijpers, P. (2013). A meta-analysis of the contribution of eye movements in processing emotional memories. Journal of Behavior Therapy and Experimental Psychiatry, 44(2), 231-239.
+
+- van den Hout, M. A., & Engelhard, I. M. (2012). How does EMDR work? Journal of Experimental Psychopathology, 3(5), 724-738.
+
+- Clond, M. (2016). Emotional Freedom Techniques for anxiety: A systematic review with meta-analysis. Journal of Nervous and Mental Disease, 204(5), 388-395.
+
+- Sebastian, B., & Nelms, J. (2017). The effectiveness of Emotional Freedom Techniques in the treatment of posttraumatic stress disorder: A meta-analysis. Explore, 13(1), 16-25.
+
+- Feinstein, D. (2010). Rapid treatment of PTSD: Why psychological exposure with acupoint tapping may be effective. Psychotherapy: Theory, Research, Practice, Training, 47(3), 385-402.
+
+- Treleaven, D. A. (2018). Trauma-Sensitive Mindfulness. New York : Norton.
+
+- Emerson, D., & Hopper, E. (2011). Overcoming Trauma through Yoga. Berkeley : North Atlantic Books.
+
+- van der Kolk, B. A., Stone, L., West, J., et al. (2014). Yoga as an adjunctive treatment for posttraumatic stress disorder: A randomized controlled trial. Journal of Clinical Psychiatry, 75(6), e559-e565.
+
+- Breuer, J., & Freud, S. (1895). Études sur l'hystérie. Trad. fr. Paris : PUF, 1956.
+
+- Janet, P. (1889). L'automatisme psychologique. Paris : Alcan.
+
+- Bushman, B. J. (2002). Does venting anger feed or extinguish the flame? Personality and Social Psychology Bulletin, 28(6), 724-731.
+
+- Bruchon-Schweitzer, M. (1990). Une psychologie du corps. Paris : PUF.
+
+- Revell, S., & McLeod, J. (2016). Experiences of therapists who integrate walk and talk into their professional practice. Counselling and Psychotherapy Research, 16(1), 35-43.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
 URL : https://laetitia-duchemin-psychologue.fr/li-icv/
 Titre : LI-ICV en ligne — Laetitia Duchemin, psychologue
 
@@ -683,9 +949,13 @@ Ce travail se fait en co-régulation avec le thérapeute : un système nerveux c
 
 - La ligne du temps : nous la construisons ensemble, à partir de quelques mots clés pour chaque année de vie, sans récit détaillé.
 
-- Les séances ICV (1 h 30) : la ligne du temps est parcourue de façon répétée, en lien avec ce qui est travaillé, jusqu'au moment présent.
+- Les séances ICV (1 h 30) : la ligne du temps est parcourue de façon répétée, en lien avec ce qui est travaillé, jusqu'au moment présent. Les événements de vie sont retraités en chronologie inversée, du plus récent au plus ancien.
 
 - Le retour au présent : chaque séance se termine dans l'ici et maintenant, avec des appuis pour la suite.
+
+Au fil des répétitions, l'activation émotionnelle peut fluctuer : elle peut monter, ou au contraire baisser, puis elle revient dans la fenêtre de tolérance pendant le protocole.
+
+Télécharger l'affiche (PDF)
 
 Le nombre de séances dépend de chacun. Pour un stress post-traumatique simple ou un événement de vie difficile, une seule séance suffit généralement : je m'appuie pour le dire sur les observations des cliniciens qui la pratiquent, sur les études et sur ma propre expérience clinique. Un trauma complexe ou un travail sur l'attachement demandent davantage de séances.
 
@@ -958,9 +1228,9 @@ Des manifestations centrées sur le souvenir, avec reviviscences, évitement et 
 
 Les mêmes manifestations, avec en plus des difficultés durables de régulation des émotions, d'image de soi et de relations.
 
-## Dans le mois qui suit un événement : une réaction normale
+## Dans le mois qui suit un événement : choc émotionnel et stress aigu
 
-Après un événement soudain et violent (un accident, une agression, une annonce brutale), il est normal de vous sentir agité, en alerte, de mal dormir ou de repenser sans cesse à ce qui s'est passé. C'est un état de stress aigu : votre système nerveux réagit à un danger. Le plus souvent, ces manifestations s'apaisent dans les semaines qui suivent : un événement difficile ne devient pas toujours un trauma. On parle de stress post-traumatique lorsque les manifestations persistent au-delà d'un mois.
+Après un événement soudain et violent (un accident, une agression, une annonce brutale), il est normal de vous sentir agité, en alerte, de mal dormir ou de repenser sans cesse à ce qui s'est passé. C'est un état de stress aigu : votre système nerveux réagit à un danger. Le plus souvent, ces manifestations s'apaisent dans les semaines qui suivent : un événement difficile ne devient pas toujours un trauma. On parle de stress post-traumatique lorsque les manifestations persistent au-delà d'un mois. Dans le langage courant, on parle souvent de « choc émotionnel » pour désigner cette réaction des premiers jours.
 
 ## Comment ça se manifeste au quotidien
 
@@ -975,6 +1245,22 @@ Après un événement soudain et violent (un accident, une agression, une annonc
 - Dans le trauma complexe : une honte ou une culpabilité persistantes, le sentiment d'être différent des autres, une difficulté à faire confiance et à vous sentir proche des autres.
 
 Ces manifestations ne suffisent pas à poser un diagnostic : ce qui compte, c'est leur durée, leur intensité et leur retentissement sur votre vie quotidienne. Elles s'évaluent en consultation.
+
+## Comment savoir si l'on a vécu un traumatisme ?
+
+On ne se reconnaît pas toujours dans le mot « trauma », surtout quand rien de spectaculaire ne s'est passé. Quelques repères peuvent aider à se poser la question :
+
+- des réactions qui semblent disproportionnées par rapport à la situation présente ;
+
+- des émotions, des images ou des sensations qui reviennent sans qu'on les appelle ;
+
+- l'évitement de certains lieux, de certaines personnes ou de certains sujets ;
+
+- un sentiment d'alerte permanent, ou au contraire de coupure et de vide ;
+
+- des difficultés relationnelles qui se répètent.
+
+Des questionnaires existent, comme la PCL-5, utilisée pour repérer les symptômes de stress post-traumatique. Ce sont des outils de repérage, pas de diagnostic : seule une évaluation en consultation permet de faire le point avec vous.
 
 ## Ce qui se passe dans le cerveau et le corps
 
@@ -994,9 +1280,33 @@ La notion a été proposée en 1992 par la psychiatre américaine Judith Herman,
 
 La psychothérapeute américaine Ruth Cohn, qui a consacré un ouvrage au trauma de négligence, le résume ainsi : « Rien n'est pas rien. Rien, c'est quelque chose. Et ce rien compte. » Ce manque répété peut laisser des traces comparables à celles d'un trauma, en particulier sur la régulation des émotions, l'image de soi et les relations, comme dans le trauma complexe.
 
+### Le trauma vicariant
+
+On peut aussi être touché par le trauma des autres : c'est le trauma vicariant. Il concerne les personnes exposées de façon répétée à la souffrance d'autrui, comme les soignants, les secouristes, les travailleurs sociaux, ou les proches d'une personne traumatisée. Il peut se manifester par de la fatigue, de l'hypervigilance, une perte de sens ou un détachement émotionnel.
+
 ## Comment le trauma se travaille
 
 Les recommandations internationales décrivent souvent un travail par étapes : construire d'abord un sentiment de sécurité et des ressources pour réguler vos émotions, puis travailler les souvenirs traumatiques, enfin intégrer ce travail dans votre vie présente et vos relations. Le rythme est ajusté à chacun : il ne s'agit pas de revenir sur les souvenirs avant d'avoir les moyens de le faire sans être submergé.
+
+## Pour aller plus loin
+
+- Les déclencheurs émotionnels : quand le présent réveille le passé.
+
+- La mémoire traumatique : flashbacks, reviviscences et amnésie.
+
+- Le trauma de l'enfance : ses traces à l'âge adulte.
+
+- La dissociation, la déréalisation et la dépersonnalisation.
+
+- L'hypervigilance : quand le corps reste en alerte.
+
+- Honte et culpabilité : deux émotions qui suivent souvent un trauma.
+
+- L'emprise : comprendre ce qui retient.
+
+- La résilience : se rétablir et se reconstruire après un traumatisme.
+
+- Le corps en psychothérapie : ce que le corps garde, et comment il aide à le libérer.
 
 ## Mon accompagnement
 
@@ -1489,7 +1799,7 @@ Les termes se recoupent selon les auteurs. Dans le langage clinique, on parle pa
 
 -
 
-### Peut-on en guérir ?
+### Peut-on s'en rétablir ?
 
 Ce style peut évoluer. Le travail est souvent plus long, mais des relations sécurisantes et un accompagnement adapté permettent de construire plus de stabilité.
 
@@ -1538,7 +1848,7 @@ Prendre rendez-vous
 
 ## Comment elle s'installe
 
-La dépendance affective prend souvent racine dans l'enfance, lorsque l'amour ou l'attention ont semblé fragiles ou conditionnels. On apprend alors que le lien doit être préservé à tout prix, quitte à s'oublier soi-même. La présence de l'autre apaise sur le moment, comme un soulagement, ce qui renforce le besoin, un peu à la manière d'une addiction.
+La dépendance affective prend souvent racine dans l'enfance, lorsque l'amour ou l'attention ont semblé fragiles ou conditionnels. On apprend alors que le lien doit être préservé à tout prix, quitte à s'oublier soi-même. La présence de l'autre apaise sur le moment, comme un soulagement, ce qui renforce le besoin, un peu à la manière d'une addiction. Dans certaines relations, elle peut aussi être entretenue par une emprise (voir l'emprise).
 
 ## Des pistes pour s'en libérer
 
@@ -1613,7 +1923,7 @@ Prendre rendez-vous
 
 ## D'où elle vient
 
-La peur de l'abandon peut naître de séparations précoces, d'une présence parentale imprévisible, d'un deuil, ou d'un manque d'attention qui n'a pas forcément laissé de souvenir précis (voir les traumas silencieux). Le système nerveux a appris que le lien pouvait disparaître, et il reste en alerte.
+La peur de l'abandon peut naître de séparations précoces, d'une présence parentale imprévisible, d'un deuil, ou d'un manque d'attention qui n'a pas forcément laissé de souvenir précis (voir les traumas silencieux, et aussi le trauma de l'enfance). Le système nerveux a appris que le lien pouvait disparaître, et il reste en alerte.
 
 ## Le cercle de la peur
 
@@ -1706,7 +2016,7 @@ Sur le moment, cette réponse protège. Avec le temps, elle peut s'installer com
 
 ## Dissociation et trauma
 
-La dissociation est fréquente dans le trauma complexe, en particulier lorsque les expériences difficiles ont eu lieu tôt dans la vie et dans la relation avec les figures d'attachement (voir les styles d'attachement).
+La dissociation est fréquente dans le trauma complexe, en particulier lorsque les expériences difficiles ont eu lieu tôt dans la vie et dans la relation avec les figures d'attachement (voir les styles d'attachement). Elle peut être réactivée par un déclencheur, un élément du présent qui rappelle une expérience passée (voir les déclencheurs émotionnels).
 
 ## Les parts de soi
 
@@ -1902,6 +2212,8 @@ Selon la théorie polyvagale, notre système nerveux évalue en permanence, sans
 
 Rester ainsi en alerte coûte beaucoup d'énergie : l'hypervigilance s'accompagne souvent d'épuisement, de tensions musculaires et de difficultés de concentration (voir la neuropsychologie).
 
+Le réflexe de sursaut, plus fort et plus rapide que la moyenne, en est un signe fréquent. Le système nerveux réagit aussi plus vite aux déclencheurs, ces éléments du présent qui rappellent un danger passé (voir les déclencheurs émotionnels).
+
 ## Des pistes pour s'apaiser
 
 - Orienter son regard : tournez lentement la tête et laissez vos yeux se poser sur ce qui vous entoure, sans chercher le danger. Remarquez un objet, une couleur, une lumière agréable.
@@ -1967,7 +2279,9 @@ Prendre rendez-vous
 
 Lors d'un événement traumatique, l'alarme du cerveau est si forte que l'hippocampe, qui range habituellement les souvenirs dans le temps et dans l'espace, ne peut pas faire son travail. Le souvenir reste alors morcelé, sensoriel, sans le repère du « c'était avant ». S'il continue à se manifester, c'est parce que notre cerveau cherche justement à le résoudre, à l'intégrer, et reste en échec. Il peut être réactivé par un déclencheur : une odeur, un bruit, un lieu, une date, un ton de voix, parfois sans que l'on fasse le lien.
 
-## Ce que l'on peut vivre
+## Flashbacks, reviviscences et cauchemars : ce que l'on peut vivre
+
+On appelle reviviscences ces moments où un souvenir revient avec force, comme s'il se reproduisait maintenant : par des images, des sensations, des émotions ou des cauchemars. Elles sont souvent réveillées par un déclencheur (voir les déclencheurs émotionnels).
 
 - Des images ou des sensations qui s'imposent, de jour comme de nuit (cauchemars).
 
@@ -2022,6 +2336,386 @@ Le corps peut garder la trace d'une expérience sous forme de sensations ou d'é
 - Brewin, C. R. (2014). Episodic memory, perceptual memory, and their interaction: Foundations for a theory of posttraumatic stress disorder. Psychological Bulletin, 140(1), 69-97.
 
 - American Psychiatric Association (2013). DSM-5 : Manuel diagnostique et statistique des troubles mentaux (5e éd.), amnésie dissociative.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/declencheurs-emotionnels/
+Titre : Déclencheurs émotionnels (triggers) : comprendre et apaiser
+
+# Les déclencheurs émotionnels
+
+Quand le présent réveille le passé
+
+Un bruit, une odeur, un ton de voix, une date, un regard, une sensation physique… et soudain une émotion intense surgit, parfois sans que l'on comprenne pourquoi. Ces déclencheurs sont parfois subtils, et on ne les perçoit pas toujours. C'est ce qu'on appelle un déclencheur émotionnel, ou « trigger » en anglais. Ce n'est ni un caprice ni une faiblesse : c'est le système nerveux qui reconnaît, dans le présent, quelque chose qui ressemble à une expérience passée difficile, et qui réagit pour nous protéger.
+
+Prendre rendez-vous
+
+## Qu'est-ce qu'un déclencheur ?
+
+Un déclencheur est un élément du présent qui réactive une émotion, une sensation ou un souvenir lié au passé. Il peut être extérieur (un lieu, une musique, une parole, une situation) ou intérieur (une sensation dans le corps, une fatigue, une pensée).
+
+La réaction qu'il entraîne semble souvent disproportionnée par rapport à la situation actuelle. Elle est en réalité proportionnée à ce qu'elle rappelle. Notre cerveau va pourtant essayer de relier cette activation émotionnelle à un élément du contexte présent, sans comprendre qu'il réagit en réalité au passé : on attribue alors l'émotion à ce qui se passe maintenant. Dans le langage de l'IFS, on dirait qu'une part de soi, liée au vécu passé, se réactive dans le présent.
+
+## Pourquoi le corps réagit avant la pensée
+
+Notre système nerveux évalue en permanence, sans que nous en ayons conscience, si notre environnement est sûr ou menaçant : c'est la neuroception, décrite par Stephen Porges dans la théorie polyvagale. Quand un élément ressemble à un danger passé, l'alarme se déclenche en une fraction de seconde, bien avant que la pensée ait eu le temps d'analyser la situation.
+
+Après un événement difficile, certains souvenirs restent enregistrés surtout sous forme de sensations, d'images et d'émotions, sans être bien rangés dans le temps (voir la mémoire traumatique). C'est pourquoi un détail sensoriel peut les réveiller, avec l'impression que « ça se passe maintenant ».
+
+## Reconnaître ses déclencheurs
+
+Les repérer est déjà une façon de reprendre la main. On peut les reconnaître à plusieurs niveaux :
+
+- Dans le corps : cœur qui s'accélère, gorge serrée, chaleur, tensions, ou au contraire sensation de vide, de lourdeur, d'engourdissement.
+
+- Dans les émotions : peur, colère, honte, tristesse qui montent très vite.
+
+- Dans les pensées : « je suis en danger », « je ne vais pas y arriver », « c'est de ma faute ».
+
+- Dans les comportements : envie de fuir, de se couper, de tout contrôler, de se replier.
+
+Avec le temps, on peut remarquer ce qui revient : certains lieux, certaines périodes de l'année, certains types de relations.
+
+## Déclencheurs et fenêtre de tolérance
+
+Un déclencheur peut faire sortir de sa fenêtre de tolérance : vers l'hyperactivation (agitation, panique, colère) ou vers l'hypoactivation (coupure, engourdissement, sensation d'être ailleurs, voir la dissociation). Plus la fenêtre est étroite, plus on en sort facilement. L'objectif n'est pas de ne plus jamais être touché, mais de revenir plus vite dans sa fenêtre.
+
+## Que faire sur le moment ?
+
+- Nommer : « je suis en train d'être déclenché·e », « c'était avant, aujourd'hui je suis en sécurité ».
+
+- S'ancrer par les sens : l'exercice 5-4-3-2-1.
+
+- Respirer lentement, par le nez, en allongeant l'expiration.
+
+- La pendulation : aller doucement d'une sensation inconfortable vers un appui agréable ou neutre, puis revenir (voir la fenêtre de tolérance).
+
+- Se rapprocher d'une personne sécurisante, si c'est possible (voir la co-régulation).
+
+## Un outil : mon carnet des déclencheurs
+
+Pendant quelques semaines, notez simplement : la situation, ce que vous avez ressenti dans le corps, l'émotion, et ce qui vous a aidé à revenir. Ce carnet n'a pas pour but d'analyser, mais de mieux vous connaître et de repérer vos appuis.
+
+### Mon carnet des déclencheurs
+
+Quatre colonnes à remplir au fil des semaines, pour repérer vos déclencheurs et vos appuis.
+
+Télécharger l'affiche (PDF)
+
+## Mon accompagnement
+
+En séance, nous travaillons d'abord à réguler le curseur de l'intensité ressentie, pour que vous puissiez traverser un déclencheur sans être submergé·e. Dans un deuxième temps, nous travaillons à l'acceptation des ressentis, tant que l'événement à l'origine n'est pas retraité. Ce retraitement se fait avec la LI-ICV, qui aide le système nerveux à intégrer que le passé est passé : les événements de vie y sont travaillés en chronologie inversée, du plus récent au plus ancien.
+
+## Questions fréquentes
+
+-
+
+### Faut-il éviter ses déclencheurs ?
+
+Sur le moment, s'en éloigner peut aider. Mais l'évitement, à long terme, a tendance à rétrécir la vie et à entretenir la peur. L'idée est plutôt de s'en approcher progressivement, en sécurité, pour qu'ils perdent leur force.
+
+-
+
+### Pourquoi suis-je déclenché·e alors que je ne me souviens de rien ?
+
+Le corps peut garder la trace d'une expérience que la mémoire consciente n'a pas enregistrée en mots, notamment quand elle date de la petite enfance. La réaction est réelle, même sans souvenir précis.
+
+-
+
+### Les déclencheurs peuvent-ils disparaître ?
+
+Oui, lorsque l'événement ou les événements à l'origine sont retraités. Le souvenir redevient alors un souvenir du passé, et ne réveille plus la même alarme.
+
+## Sources
+
+- Porges, S. W. (2011). The Polyvagal Theory. New York : Norton.
+
+- Ehlers, A., & Clark, D. M. (2000). A cognitive model of posttraumatic stress disorder. Behaviour Research and Therapy, 38(4), 319-345.
+
+- Brewin, C. R., Dalgleish, T., & Joseph, S. (1996). A dual representation theory of posttraumatic stress disorder. Psychological Review, 103(4), 670-686.
+
+- Siegel, D. J. (1999). The Developing Mind. New York : Guilford Press.
+
+- van der Kolk, B. (2018). Le corps n'oublie rien. Paris : Albin Michel.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/trauma-de-l-enfance/
+Titre : Trauma de l'enfance : comprendre ses traces à l'âge adulte
+
+# Le trauma de l'enfance
+
+Ce que l'enfant a vécu, l'adulte peut le comprendre et l'apaiser
+
+Ce que nous vivons enfant façonne notre manière de nous sentir en sécurité, d'aimer, de réguler nos émotions et de nous voir nous-mêmes. Quand l'enfance a été marquée par des expériences difficiles, ou par un manque de sécurité et de réconfort, il en reste souvent des traces à l'âge adulte. Le comprendre permet de cesser de se juger et d'ouvrir un chemin pour s'en libérer.
+
+Prendre rendez-vous
+
+## Ce que recouvre le trauma de l'enfance
+
+On pense souvent à un événement marquant. Mais le trauma de l'enfance prend aussi des formes plus discrètes, et souvent répétées :
+
+- des événements difficiles, uniques ou répétés ;
+
+- un climat d'insécurité : tensions, imprévisibilité, peur au quotidien ;
+
+- la négligence émotionnelle : des besoins de réconfort, d'attention ou de reconnaissance restés sans réponse, même dans une famille où « rien de grave » ne s'est passé ;
+
+- des séparations, des pertes, un parent indisponible (maladie, épuisement, deuil).
+
+Ce qui compte n'est pas seulement ce qui s'est passé, mais aussi ce qui a manqué : un adulte sécurisant pour aider l'enfant à comprendre et à apaiser ce qu'il vivait (voir les traumas silencieux).
+
+## Ce que montre la recherche : l'étude ACE
+
+Dans les années 1990, l'étude ACE (Adverse Childhood Experiences), menée par Vincent Felitti auprès de plus de 17 000 adultes, a montré que les expériences difficiles de l'enfance sont fréquentes, et qu'elles sont associées, à l'âge adulte, à davantage de difficultés de santé physique et psychique. Plus elles sont nombreuses, plus ce lien est marqué. Ce n'est pas une fatalité : c'est une raison de prendre ces vécus au sérieux.
+
+## Les traces à l'âge adulte
+
+- Dans les relations : peur de l'abandon, dépendance affective, difficulté à faire confiance (voir les styles d'attachement).
+
+- Dans les émotions : des émotions intenses et difficiles à apaiser, ou au contraire une difficulté à ressentir (voir la régulation émotionnelle).
+
+- Dans le rapport à soi : estime de soi fragile, sentiment d'être « de trop » ou « pas assez », autocritique sévère.
+
+- Dans le corps : hypervigilance, tensions, fatigue, sensation d'être souvent en alerte.
+
+Quand ces expériences ont été répétées et ont duré, on parle parfois de trauma complexe.
+
+## « Blessures de l'enfance » : un terme à nuancer
+
+L'expression « blessures de l'enfance » est très utilisée, notamment à travers des livres grand public qui décrivent un nombre précis de blessures associées à des types de personnalité. Ces modèles parlent à beaucoup de personnes, mais ils ne reposent pas sur des données scientifiques. La recherche s'appuie plutôt sur la théorie de l'attachement et sur les besoins affectifs fondamentaux décrits par Jeffrey Young.
+
+### Mes besoins fondamentaux
+
+Les cinq besoins décrits par Jeffrey Young et des idées concrètes pour en prendre soin au quotidien.
+
+Télécharger l'affiche (PDF)
+
+## Ce qui se transmet entre les générations
+
+Un parent qui porte lui-même un trauma non apaisé peut, sans le vouloir, avoir plus de difficultés à offrir de la sécurité à son enfant. C'est l'une des façons dont un trauma peut se transmettre d'une génération à l'autre : par les relations, les silences, le climat familial. Des recherches explorent aussi des mécanismes biologiques (l'épigénétique), mais elles sont encore en cours et doivent être lues avec prudence.
+
+Ce qui se transmet peut aussi s'arrêter : prendre soin de son propre vécu est souvent un cadeau pour les générations suivantes.
+
+## Se reconstruire
+
+On ne peut pas changer ce qui s'est passé, mais on peut changer la manière dont le passé vit en nous. Le cerveau reste plastique tout au long de la vie : on peut développer, à l'âge adulte, un attachement plus sécure (on parle de « sécure acquis »), apprendre à se réguler et à prendre soin de ses besoins (voir la résilience).
+
+## Mon accompagnement
+
+Je vous accompagne à votre rythme, en commençant par construire un sentiment de sécurité. La LI-ICV est particulièrement adaptée : en parcourant une ligne du temps de votre vie, elle aide à relier les différents moments de votre histoire et à intégrer que le passé est passé, sans avoir à tout raconter en détail.
+
+## Questions fréquentes
+
+-
+
+### Je ne me souviens pas bien de mon enfance. Est-ce un problème ?
+
+Non. Beaucoup de personnes ont peu de souvenirs de leur enfance. Le travail ne demande pas de tout se rappeler : il part de ce qui est présent aujourd'hui, dans les émotions, le corps et les relations.
+
+-
+
+### Mes parents ont fait de leur mieux. Puis-je quand même parler de trauma ?
+
+Oui. Reconnaître ce qui vous a manqué ne revient pas à accuser vos parents. On peut à la fois comprendre leurs limites et prendre soin de ce que vous avez vécu.
+
+-
+
+### Est-il trop tard pour se rétablir ?
+
+Non. Le cerveau continue de se transformer tout au long de la vie, et il est possible de s'apaiser à tout âge.
+
+## Sources
+
+- Felitti, V. J., Anda, R. F., Nordenberg, D., et al. (1998). Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: The Adverse Childhood Experiences (ACE) Study. American Journal of Preventive Medicine, 14(4), 245-258.
+
+- Herman, J. L. (1992). Trauma and Recovery. New York : Basic Books.
+
+- Teicher, M. H., & Samson, J. A. (2016). Annual research review: Enduring neurobiological effects of childhood abuse and neglect. Journal of Child Psychology and Psychiatry, 57(3), 241-266.
+
+- Yehuda, R., & Lehrner, A. (2018). Intergenerational transmission of trauma effects: Putative role of epigenetic mechanisms. World Psychiatry, 17(3), 243-257.
+
+- Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/honte-et-culpabilite/
+Titre : Honte et culpabilité : les comprendre et les apaiser
+
+# Honte et culpabilité
+
+Deux émotions qui pèsent, et qui peuvent s'apaiser
+
+La honte et la culpabilité sont des émotions humaines. Elles ont une utilité : nous aider à vivre avec les autres et à réparer nos erreurs. Mais elles peuvent aussi devenir envahissantes, notamment après des expériences difficiles, au point de peser sur l'estime de soi, les relations et l'envie de demander de l'aide.
+
+Prendre rendez-vous
+
+## Deux émotions différentes
+
+La psychologue June Tangney propose une distinction simple :
+
+- La culpabilité porte sur un acte : « j'ai fait quelque chose de mal ». Elle pousse plutôt à réparer, à s'excuser, à changer de comportement.
+
+- La honte porte sur soi : « je suis mauvais·e », « je ne vaux rien ». Elle pousse plutôt à se cacher, à se taire, à se replier.
+
+Les deux ont une utilité. La honte, elle aussi, n'est pas que négative : elle aide à repérer ce qui va à l'encontre de nos valeurs, de nos principes et de notre éducation. L'identifier et la nommer permet de corriger ce vécu. Elle devient pesante lorsqu'elle s'installe durablement et finit par porter sur toute la personne.
+
+## Pourquoi elles suivent souvent un trauma
+
+Après un événement difficile, il est très fréquent de se sentir coupable ou honteux, même lorsqu'on n'est pas responsable du comportement des autres. Plusieurs raisons à cela :
+
+- Se sentir coupable donne une illusion de contrôle : « si c'est de ma faute, j'aurais pu l'empêcher », ce qui est parfois moins effrayant que l'impuissance.
+
+- On juge le passé avec ce que l'on sait aujourd'hui, en oubliant ce que l'on savait, ressentait et pouvait faire sur le moment.
+
+- Les réactions automatiques du corps (se figer, se soumettre, ne pas réagir) sont souvent vécues comme une faute, alors qu'elles sont des réponses de protection du système nerveux, qui ne se choisissent pas (voir la théorie polyvagale).
+
+- Des messages reçus dans l'enfance peuvent avoir appris à se sentir responsable de tout (voir le trauma de l'enfance).
+
+## La culpabilité du survivant
+
+Après un événement où d'autres ont souffert davantage, on peut se sentir coupable d'avoir été épargné, ou d'avoir « moins » souffert. Cette culpabilité est fréquente et compréhensible. Elle mérite d'être accueillie, sans être prise pour une vérité.
+
+## La honte qui fait taire
+
+La honte pousse au silence. Elle retarde souvent le moment de parler, de consulter, de demander de l'aide, et c'est précisément ce silence qui l'entretient. Elle est aussi très présente dans les addictions, où elle alimente le besoin de se soulager. Mettre des mots sur la honte, dans un espace sans jugement, est souvent la première étape pour qu'elle perde de sa force.
+
+## L'autocompassion, un appui
+
+L'autocompassion, décrite par Kristin Neff, consiste à se traiter avec la même bienveillance que l'on offrirait à un ami en difficulté. Elle repose sur trois éléments : la bienveillance envers soi, le sentiment de partager une expérience humaine commune, et la pleine conscience de ce que l'on ressent. Elle ne revient pas à tout excuser : elle permet de regarder ses erreurs sans s'écraser.
+
+### Me parler comme à un ami
+
+Une fiche pour s'exercer à s'adresser à soi avec bienveillance.
+
+Télécharger l'affiche (PDF)
+
+## Mon accompagnement
+
+En séance, nous accueillons la honte et la culpabilité sans les juger, pour comprendre d'où elles viennent et ce qu'elles protègent. Avec la LI-ICV et l'éclairage de l'IFS, il devient possible de regarder le passé avec un regard d'adulte, plus juste et plus doux.
+
+## Questions fréquentes
+
+-
+
+### Je sais que ce n'est pas de ma faute, mais je me sens quand même coupable. Pourquoi ?
+
+Parce que la culpabilité ne se situe pas seulement dans la pensée : elle est aussi émotionnelle et corporelle. Le savoir est une première étape ; le ressentir demande souvent plus de temps, et un travail qui passe aussi par le corps.
+
+-
+
+### La honte peut-elle disparaître ?
+
+Elle peut beaucoup s'apaiser, surtout quand elle est partagée dans une relation sécurisante. Ce qui est dit sans être jugé perd souvent de son poids.
+
+## Sources
+
+- Tangney, J. P., & Dearing, R. L. (2002). Shame and Guilt. New York : Guilford Press.
+
+- Lee, D. A., Scragg, P., & Turner, S. (2001). The role of shame and guilt in traumatic events: A clinical model of shame-based and guilt-based PTSD. British Journal of Medical Psychology, 74(4), 451-466.
+
+- Kubany, E. S., & Watson, S. B. (2003). Guilt: Elaboration of a multidimensional model. The Psychological Record, 53(1), 51-90.
+
+- Neff, K. D. (2003). Self-compassion: An alternative conceptualization of a healthy attitude toward oneself. Self and Identity, 2(2), 85-101.
+
+- Gilbert, P. (2009). The Compassionate Mind. Londres : Constable.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/emprise/
+Titre : Emprise et relation toxique : comprendre et s'en libérer
+
+# L'emprise
+
+Comprendre ce qui retient, pour retrouver sa liberté
+
+L'emprise est une relation dans laquelle une personne prend peu à peu le contrôle sur une autre : sur ses pensées, ses émotions, ses choix, ses liens. Elle peut exister dans un couple, mais aussi dans une famille, une amitié ou au travail. Elle s'installe le plus souvent progressivement, ce qui la rend difficile à repérer de l'intérieur.
+
+Prendre rendez-vous
+
+## Comment l'emprise s'installe
+
+- Une alternance de chaleur et de froideur : des moments de grande proximité, puis de distance, de critiques ou de silence, qui rendent la relation imprévisible.
+
+- L'isolement : les liens avec les proches se distendent peu à peu.
+
+- Le doute de soi : on finit par douter de sa perception, de sa mémoire, de sa valeur.
+
+- La responsabilité inversée : on se sent responsable des humeurs et des réactions de l'autre.
+
+Ces mécanismes peuvent aussi s'exercer sans aucune violence visible. On parle alors de contrôle coercitif : « coercitif » signifie qui contraint, qui oblige. Le contrôle coercitif désigne un ensemble de comportements qui, mis bout à bout, restreignent peu à peu la liberté de l'autre (ses relations, ses déplacements, son argent, ses choix), jusqu'à le priver de son autonomie.
+
+## Le lien traumatique
+
+Les chercheurs Donald Dutton et Susan Painter ont décrit le « lien traumatique » : dans une relation où alternent de façon imprévisible les moments positifs et les moments douloureux, l'attachement peut paradoxalement se renforcer. Le système nerveux recherche le soulagement auprès de la personne même qui crée l'insécurité. C'est l'une des raisons pour lesquelles il est si difficile de partir, et pourquoi on ne doit jamais s'en juger.
+
+## « Pervers narcissique » : un terme à nuancer
+
+L'expression « pervers narcissique » est très utilisée pour décrire une personne qui exerce une emprise. Elle vient des travaux du psychanalyste Paul-Claude Racamier, et a été popularisée par Marie-France Hirigoyen. Ce n'est pas un diagnostic : elle ne figure dans aucune classification médicale (ni la CIM-11, ni le DSM). Elle peut aider à mettre des mots sur ce que l'on vit, mais il est souvent plus utile de s'intéresser aux comportements et à leurs effets sur soi qu'à une étiquette.
+
+## Pourquoi l'emprise touche à notre histoire
+
+Tout le monde peut se retrouver sous emprise. Notre histoire peut parfois rendre certains mécanismes plus familiers, notamment quand l'insécurité ou l'imprévisibilité faisaient partie de l'enfance (voir le trauma de l'enfance et les styles d'attachement). Ce n'est jamais une faute de la personne qui la subit.
+
+## S'en libérer
+
+- Reprendre contact avec des proches de confiance, même brièvement.
+
+- Noter les faits et ce que l'on ressent, pour retrouver confiance en sa propre perception.
+
+- Se renseigner auprès de professionnels et d'associations spécialisées.
+
+- Se donner du temps : quitter une relation d'emprise est un processus, souvent fait d'allers-retours.
+
+Après la séparation, il est fréquent de ressentir un manque, de la confusion ou de la culpabilité : ce sont des effets connus de l'emprise, qui s'apaisent avec un accompagnement (voir aussi la dépendance affective).
+
+## Mon accompagnement
+
+Je vous accompagne pour comprendre les mécanismes de la relation, retrouver confiance en votre perception et reconstruire votre sécurité intérieure. Le travail porte aussi sur ce que la relation a réactivé de votre histoire, avec la LI-ICV.
+
+## Quand demander de l'aide
+
+Si vous vous sentez en danger, appelez le 17 (police) ou le 112. Le 3919 (Violences Femmes Info) est gratuit, anonyme et accessible 24 h/24. Pour un enfant ou un adolescent, ou si vous êtes inquiet·e pour un mineur, le 119 (Allô Enfance en Danger) est gratuit et accessible 24 h/24. En cas de détresse, le 3114 répond aussi 24 h/24.
+
+## Questions fréquentes
+
+-
+
+### Comment savoir si je suis sous emprise ?
+
+Quelques repères peuvent alerter : vous vous sentez souvent coupable, vous marchez « sur des œufs », vous doutez de vous comme jamais auparavant, vous vous êtes éloigné·e de vos proches. En parler à un professionnel aide à y voir plus clair.
+
+-
+
+### Pourquoi est-ce que je n'arrive pas à partir ?
+
+Parce que l'emprise crée un lien fort, entretenu par l'alternance des moments positifs et douloureux (le lien traumatique), par l'isolement et par le doute. Ce n'est pas un manque de volonté.
+
+## Sources
+
+- Dutton, D. G., & Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. Victimology, 6(1-4), 139-155.
+
+- Stark, E. (2007). Coercive Control: How Men Entrap Women in Personal Life. New York : Oxford University Press.
+
+- Hirigoyen, M.-F. (1998). Le harcèlement moral : la violence perverse au quotidien. Paris : Syros.
+
+- Racamier, P.-C. (1992). Le génie des origines. Paris : Payot.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -2242,7 +2936,7 @@ Les addictions sont fréquemment liées à des expériences difficiles ou trauma
 
 ## La honte et la culpabilité
 
-Quelle que soit l'addiction, la honte et la culpabilité y occupent une place importante. Elles poussent à cacher la consommation, à s'isoler et à repousser le moment d'en parler, alors que ce sont souvent elles qui entretiennent le besoin de se soulager. Les accueillir sans jugement est une étape essentielle de l'accompagnement.
+Quelle que soit l'addiction, la honte et la culpabilité y occupent une place importante. Elles poussent à cacher la consommation, à s'isoler et à repousser le moment d'en parler, alors que ce sont souvent elles qui entretiennent le besoin de se soulager. Les accueillir sans jugement est une étape essentielle de l'accompagnement (voir honte et culpabilité).
 
 ## La pornographie, une addiction particulière
 
@@ -2471,10 +3165,13 @@ Ces états rejoignent ceux que décrit la théorie polyvagale : la sécurité, l
 Les trois états du système nerveux et des exemples de ressentis pour chacun, sur une page à imprimer ou à garder sous la main.
 
 Télécharger l'affiche (PDF)
+Pour un affichage mural, en cabinet ou salle d'attente : voici une version grand format (A3), plus épurée, avec les trois zones et l'échelle qui remonte vers la sécurité, comme elle est expliquée par Deb Dana.
+
+Télécharger l'affiche murale A3 (PDF)
 
 ## Une fenêtre qui varie
 
-La fatigue, la faim, la douleur, le stress ou une mauvaise nuit rétrécissent la fenêtre : on en sort plus vite. Après des expériences traumatiques, elle peut être étroite, et le système nerveux bascule facilement dans l'alerte (voir l'hypervigilance) ou dans la coupure. À l'inverse, le sommeil, le lien avec des personnes sécurisantes et les ressources que l'on construit l'élargissent.
+La fatigue, la faim, la douleur, le stress ou une mauvaise nuit rétrécissent la fenêtre : on en sort plus vite. Après des expériences traumatiques, elle peut être étroite, et le système nerveux bascule facilement dans l'alerte (voir l'hypervigilance) ou dans la coupure. À l'inverse, le sommeil, le lien avec des personnes sécurisantes et les ressources que l'on construit l'élargissent. Un déclencheur peut aussi nous en faire sortir brusquement (voir les déclencheurs émotionnels).
 
 ## La fenêtre de tolérance et l'apprentissage
 
@@ -2791,6 +3488,12 @@ Prendre rendez-vous
 
 Face au stress, le cerveau donne la priorité à la protection. Les régions situées à l'avant du cerveau, qui nous aident à réfléchir, à prendre du recul et à nous organiser (le cortex préfrontal), fonctionnent alors moins bien. C'est pourquoi il est difficile de « raisonner » quand on est submergé : il faut d'abord revenir dans sa fenêtre de tolérance. Le cerveau reste plastique : il continue de se transformer tout au long de la vie, au fil des expériences et des apprentissages.
 
+## Les messagers du bien-être
+
+Dans le cerveau, des messagers chimiques participent à notre élan, à notre humeur, au lien avec les autres et à l'apaisement de la douleur : la dopamine, la sérotonine, l'ocytocine et les endorphines. Certains gestes simples du quotidien les soutiennent.
+
+Télécharger l'affiche (PDF)
+
 ## Comment je l'utilise
 
 - Comprendre : je vous aide à repérer ce qui relève de l'attention, de la mémoire, de la fatigue ou de la charge émotionnelle, pour mettre des mots justes sur ce que vous vivez.
@@ -2874,9 +3577,21 @@ Télécharger l'affiche (PDF)
 
 La régulation émotionnelle désigne la capacité à influencer quelles émotions on ressent, à quel moment, et comment on les vit et les exprime. Elle ne consiste pas à supprimer les émotions, mais à en moduler l'intensité et la durée. Il est surtout question d'apprendre à identifier, comprendre, communiquer et réguler ses émotions.
 
+Derrière une émotion, il y a souvent un besoin qui se manifeste : le besoin de sécurité derrière la peur, de lien derrière la tristesse, de respect derrière la colère. Jeffrey Young, fondateur de la thérapie des schémas, a décrit cinq besoins affectifs fondamentaux. Les reconnaître aide à comprendre ce que l'émotion vient signaler, et à y répondre.
+
+### Mes besoins fondamentaux
+
+Les cinq besoins décrits par Jeffrey Young et des idées concrètes pour en prendre soin au quotidien.
+
+Télécharger l'affiche (PDF)
+
+Certains gestes simples du quotidien soutiennent aussi les messagers chimiques qui participent à notre élan, à notre humeur et au lien avec les autres.
+
+Télécharger l'affiche (PDF)
+
 ## La fenêtre de tolérance
 
-La fenêtre de tolérance, un concept développé par le psychiatre Dan Siegel, désigne la zone dans laquelle une personne peut ressentir et vivre ses émotions sans être submergée par une hyperactivation (agitation, panique) ni s'en couper par une hypoactivation (engourdissement, vide). Rester dans cette zone, ou y revenir progressivement lorsqu'on en sort, est un des objectifs de la régulation émotionnelle, dont le rôle est aussi d'accroître cette fenêtre de tolérance dans la durée. Pour aller plus loin, voir la page fenêtre de tolérance.
+La fenêtre de tolérance, un concept développé par le psychiatre Dan Siegel, désigne la zone dans laquelle une personne peut ressentir et vivre ses émotions sans être submergée par une hyperactivation (agitation, panique) ni s'en couper par une hypoactivation (engourdissement, vide). Rester dans cette zone, ou y revenir progressivement lorsqu'on en sort, est un des objectifs de la régulation émotionnelle, dont le rôle est aussi d'accroître cette fenêtre de tolérance dans la durée. Pour aller plus loin, voir la page fenêtre de tolérance. Un déclencheur peut aussi nous en faire sortir brusquement (voir les déclencheurs émotionnels).
 
 ### L'affiche à télécharger
 
@@ -2915,6 +3630,8 @@ Je possède différents outils qui permettent de mieux réguler ses émotions, e
 ## Ce que dit la recherche
 
 Une respiration lente, autour de 6 cycles par minute, a fait l'objet de nombreuses études. Une synthèse portant sur 223 recherches montre une augmentation de la variabilité cardiaque liée à l'activité vagale, pendant et après la pratique. Une autre méta-analyse, portant sur 31 études et plus de 1 100 participants, confirme ces effets physiologiques, avec un effet global faible à modéré sur le stress ressenti.
+
+Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press.
 
 Sources : synthèse de 223 études sur la respiration lente et la variabilité cardiaque, et méta-analyse de 31 études (1 133 participants) sur ses effets physiologiques — synthèse en français.
 
@@ -3329,6 +4046,14 @@ Nous passons tous de l'une à l'autre selon les situations et les personnes. L'o
 
 - Des expériences où s'adapter aux autres était la façon la plus sûre de se protéger. Ce réflexe, utile autrefois, peut rester actif longtemps après (voir le trauma complexe).
 
+S'affirmer commence par reconnaître ses propres besoins. Jeffrey Young en a décrit cinq, dont celui de pouvoir exprimer ses besoins et ses émotions.
+
+### Mes besoins fondamentaux
+
+Les cinq besoins décrits par Jeffrey Young et des idées concrètes pour en prendre soin, dont exprimer ce que l'on ressent et dire non.
+
+Télécharger l'affiche (PDF)
+
 ## Poser une limite : la méthode DESC
 
 Pour exprimer une demande ou poser une limite sans agresser ni s'effacer, la méthode DESC propose quatre étapes :
@@ -3390,6 +4115,8 @@ Oui. L'affirmation de soi se travaille par la pratique régulière, en commença
 - Bower, S. A., & Bower, G. H. (1976). Asserting Yourself. Reading : Addison-Wesley (méthode DESC).
 
 - Fensterheim, H., & Baer, J. (1975). Don't Say Yes When You Want to Say No. New York : David McKay.
+
+- Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press.
 
 - Cungi, C. (1996). Savoir s'affirmer. Paris : Retz.
 
@@ -3521,6 +4248,8 @@ La résilience désigne la capacité à traverser une épreuve et à s'en releve
 
 La résilience n'est pas une qualité que l'on aurait ou non, ni une forme d'invulnérabilité. C'est un processus, qui se construit dans le temps et dans les relations. On peut se montrer résilient dans une situation et plus fragile dans une autre : cela dépend du contexte et des ressources dont on dispose à un moment donné. La résilience peut se développer à tout âge. La psychologue Ann Masten parle d'une « magie ordinaire » : elle repose sur des ressources humaines très communes, plutôt que sur des capacités exceptionnelles.
 
+Se reconstruire après un traumatisme ne veut pas dire oublier, ni revenir à « avant ». C'est retrouver de la sécurité, du lien et de l'élan, en intégrant ce qui a été vécu à son histoire.
+
 ## Les facteurs de protection
 
 En suivant pendant plus de trente ans les enfants de l'île de Kauai, Emmy Werner a mis en évidence ce qui aidait certains d'entre eux à s'épanouir malgré des conditions difficiles :
@@ -3599,6 +4328,12 @@ Oui. Elle s'appuie sur des ressources qui se développent : la capacité à dema
 
 Oui, même si le chemin est souvent plus long. La résilience se construit alors pas à pas, en commençant par la sécurité et les liens (voir la page trauma complexe).
 
+-
+
+### Peut-on se rétablir après un traumatisme ?
+
+Oui. On parle souvent de « guérir d'un traumatisme », mais dans le cadre du traumatisme psychique, on parle plutôt de rétablissement. Lorsque les événements à l'origine sont retraités, les souvenirs redeviennent des souvenirs du passé, et les réactions qui y étaient liées s'apaisent. Le chemin dépend de chacun, de son histoire et du type de trauma.
+
 ## Sources
 
 - Werner, E. E., & Smith, R. S. (1992). Overcoming the Odds: High Risk Children from Birth to Adulthood. Ithaca : Cornell University Press.
@@ -3649,6 +4384,10 @@ Quand le danger semble sans issue, le corps peut se figer ou « s'éteindre » :
 ## La neuroception : une évaluation automatique du danger
 
 Stephen Porges appelle neuroception la façon dont le système nerveux évalue en permanence, sans que nous en ayons conscience, si l'environnement est sûr ou dangereux. Après des expériences traumatiques, cette évaluation peut rester réglée sur le danger : le corps réagit comme si la menace était encore là, même lorsque la personne sait qu'elle est en sécurité.
+
+### « Le corps n'oublie rien »
+
+Le psychiatre Bessel van der Kolk a popularisé l'idée que le corps garde la mémoire de ce que nous avons vécu, dans son livre « Le corps n'oublie rien ». C'est une image : le corps ne stocke pas des souvenirs comme un disque dur, mais le système nerveux garde la trace d'apprentissages de protection, qui peuvent se réactiver sans passer par la pensée. C'est ce que l'on appelle la mémoire implicite (voir le corps en psychothérapie).
 
 ## Une vidéo pour aller plus loin
 
