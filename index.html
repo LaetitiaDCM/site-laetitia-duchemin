@@ -486,6 +486,42 @@ footer summary{padding-block:.65rem}
 .btns + .lede{margin-top:1.5rem}
 .lede a{color:var(--gold-soft)}
 </style>
+<style id="nav-dd">
+.nav .nav-top{display:flex;gap:1.15rem;align-items:center;list-style:none;margin:0;padding:0}
+.nav .dd{position:relative}
+.nav .dd-btn{background:none;border:0;border-bottom:1px solid transparent;color:#e9e3f7;font:400 .86rem var(--sans);letter-spacing:.03em;padding:.4rem 0;cursor:pointer;display:inline-flex;align-items:center;gap:.35rem;white-space:nowrap}
+.nav .dd-btn:hover,.nav .dd.here>.dd-btn{border-color:var(--gold)}
+.nav .dd.here>.dd-btn{color:var(--gold-soft)}
+.nav .dd-caret{width:.42rem;height:.42rem;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .2s;opacity:.8}
+.nav .dd-btn[aria-expanded="true"] .dd-caret{transform:translateY(1px) rotate(-135deg)}
+.nav .dd-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
+.nav .dd-panel{display:block;list-style:none;margin:0;padding:.55rem 0;position:absolute;top:calc(100% + .7rem);left:-1rem;min-width:16rem;background:rgba(27,17,64,.98);border:1px solid rgba(236,208,150,.22);border-radius:14px;box-shadow:0 18px 40px rgba(10,5,30,.45);opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .18s,transform .18s,visibility .18s;z-index:60}
+.nav .dd-panel::before{content:"";position:absolute;left:0;right:0;top:-.8rem;height:.8rem}
+.nav .dd:nth-last-child(2) .dd-panel,.nav .dd:nth-last-child(3) .dd-panel{left:auto;right:-1rem}
+.nav .dd-panel a{display:block;padding:.48rem 1.1rem;font-size:.88rem;color:#e9e3f7;border:0;white-space:normal;line-height:1.35}
+.nav .dd-panel a:hover,.nav .dd-panel a:focus-visible{background:rgba(217,166,72,.13);color:#fff}
+.nav .dd-panel a.dd-main{font-family:var(--serif);font-size:1.05rem;color:var(--gold-soft)}
+.nav .dd-panel li:has(+ li>a:not(.dd-main))>a.dd-main{border-bottom:1px solid rgba(236,208,150,.16);margin-bottom:.3rem;padding-bottom:.6rem}
+.nav .dd-panel a[aria-current="page"]{color:var(--gold-soft);box-shadow:inset 3px 0 0 var(--gold)}
+@media (min-width:1101px){
+  .nav .dd:hover>.dd-panel,.nav .dd:focus-within>.dd-panel,.nav .dd-btn[aria-expanded="true"]+.dd-panel{opacity:1;visibility:visible;transform:none}
+}
+@media (max-width:1100px){
+  .nav{background:#1b1140;max-height:calc(100vh - 72px);max-height:calc(100dvh - 72px);overflow-y:auto}
+  .nav .nav-top{flex-direction:column;align-items:stretch;gap:0}
+  .nav .dd{border-bottom:1px solid rgba(236,208,150,.12)}
+  .nav .dd-btn{width:100%;justify-content:space-between;font-size:1.02rem;padding:.85rem 0;min-height:48px;border:0}
+  .nav .dd-panel{position:static;opacity:1;visibility:visible;transform:none;display:none;background:none;border:0;box-shadow:none;padding:0 0 .6rem .4rem;min-width:0}
+  .nav .dd-panel::before{display:none}
+  .nav .dd-btn[aria-expanded="true"]+.dd-panel{display:block}
+  .nav .dd-panel a{padding:.6rem .8rem;font-size:.97rem;min-height:44px;display:flex;align-items:center}
+  .nav .nav-cta{padding-top:1rem}
+  .nav .nav-cta a{display:inline-block}
+}
+@media (min-width:1180px){.site-header .wrap{width:min(1340px,100% - 3rem)}.nav .nav-top{gap:1.55rem}}
+@media (min-width:1440px){.nav .nav-top{gap:2rem}.nav .dd-btn{font-size:.9rem}}
+@media (prefers-reduced-motion:reduce){.nav .dd-panel,.nav .dd-caret{transition:none}}
+</style>
 </head>
 <body>
 
@@ -497,14 +533,82 @@ footer summary{padding-block:.65rem}
     </a>
     <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav class="nav" id="nav" aria-label="Navigation principale">
-      <ul>
-        <li><a href="#accueil">Accueil</a></li>
-        <li><a href="#approche">Mon approche</a></li>
-        <li><a href="#themes">Accompagnements</a></li>
-        <li><a href="#apropos">À propos</a></li>
-        <li><a href="#infos">Infos pratiques</a></li>
-        <li><a href="#ressources">Ressources</a></li>
-        <li><a class="cta" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
+      <ul class="nav-top">
+        <li class="dd">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-approches">Mes approches<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-approches">
+            <li><a href="/mes-approches/" class="dd-main">Mes approches</a></li>
+            <li><a href="/li-icv/">LI-ICV</a></li>
+            <li><a href="/li-icv-enfants-adolescents/">LI-ICV enfants et adolescents</a></li>
+            <li><a href="/li-icv-ou-emdr/">LI-ICV ou EMDR ?</a></li>
+            <li><a href="/pleine-conscience-sensible-au-trauma/">Pleine Conscience Sensible au Trauma</a></li>
+            <li><a href="/tctsy/">TCTSY</a></li>
+            <li><a href="/theorie-polyvagale/">Théorie polyvagale</a></li>
+            <li><a href="/ifs/">IFS : les parts de soi</a></li>
+            <li><a href="/eft/">EFT clinique</a></li>
+            <li><a href="/le-corps-en-psychotherapie/">Le corps en psychothérapie</a></li>
+            <li><a href="/neuropsychologie/">Neuropsychologie</a></li>
+          </ul>
+        </li>
+        <li class="dd">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-trauma">Trauma<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-trauma">
+            <li><a href="/stress-post-traumatique-trauma-complexe/" class="dd-main">Stress post-traumatique et trauma complexe</a></li>
+            <li><a href="/trauma-de-l-enfance/">Le trauma de l'enfance</a></li>
+            <li><a href="/memoire-traumatique/">Mémoire traumatique</a></li>
+            <li><a href="/declencheurs-emotionnels/">Les déclencheurs émotionnels</a></li>
+            <li><a href="/hypervigilance/">Hypervigilance</a></li>
+            <li><a href="/dissociation/">Dissociation</a></li>
+            <li><a href="/derealisation-depersonnalisation/">Déréalisation et dépersonnalisation</a></li>
+            <li><a href="/honte-et-culpabilite/">Honte et culpabilité</a></li>
+          </ul>
+        </li>
+        <li class="dd">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-emotions">Émotions<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-emotions">
+            <li><a href="/les-emotions/" class="dd-main">Les émotions</a></li>
+            <li><a href="/regulation-emotionnelle/" class="dd-main">Régulation émotionnelle</a></li>
+            <li><a href="/fenetre-de-tolerance/">Fenêtre de tolérance</a></li>
+            <li><a href="/anxiete/">Anxiété</a></li>
+            <li><a href="/crise-d-angoisse/">Crise d'angoisse</a></li>
+            <li><a href="/hypersensibilite/">Hypersensibilité</a></li>
+            <li><a href="/addictions/">Addictions</a></li>
+          </ul>
+        </li>
+        <li class="dd">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-attachement">Attachement<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-attachement">
+            <li><a href="/styles-d-attachement/" class="dd-main">Styles d'attachement</a></li>
+            <li><a href="/attachement-secure/">Attachement sécure</a></li>
+            <li><a href="/attachement-anxieux/">Attachement anxieux</a></li>
+            <li><a href="/attachement-evitant/">Attachement évitant</a></li>
+            <li><a href="/attachement-desorganise/">Attachement désorganisé</a></li>
+            <li><a href="/peur-de-l-abandon/">Peur de l'abandon</a></li>
+            <li><a href="/dependance-affective/">Dépendance affective</a></li>
+            <li><a href="/emprise/">L'emprise</a></li>
+            <li><a href="/relation-saine/">Une relation saine</a></li>
+          </ul>
+        </li>
+        <li class="dd">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-confiance">Confiance en soi<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-confiance">
+            <li><a href="/confiance-en-soi/" class="dd-main">Confiance en soi</a></li>
+            <li><a href="/estime-de-soi/">Estime de soi</a></li>
+            <li><a href="/affirmation-de-soi/">Affirmation de soi</a></li>
+            <li><a href="/syndrome-de-l-imposteur/">Syndrome de l'imposteur</a></li>
+            <li><a href="/resilience/">Résilience</a></li>
+          </ul>
+        </li>
+        <li class="dd">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-apropos">À propos<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-apropos">
+            <li><a href="/a-propos/" class="dd-main">À propos</a></li>
+            <li><a href="/recherche/">Ma recherche doctorale</a></li>
+            <li><a href="/#infos">Infos pratiques et tarifs</a></li>
+            <li><a href="/#ressources">Mes exercices et ressources</a></li>
+          </ul>
+        </li>
+        <li class="nav-cta"><a class="cta" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
       </ul>
     </nav>
   </div>
@@ -609,7 +713,7 @@ footer summary{padding-block:.65rem}
     <ul class="theme-list">
       <li><h3>Stress post-traumatique et trauma complexe</h3><p>Comprendre l'impact d'un événement marquant ou d'expériences anciennes ou répétées, et reconstruire, pas à pas, un sentiment de sécurité. Comprendre aussi ces moments où l'on se sent loin de soi ou du monde, la <a href="/dissociation/">dissociation</a>, et redonner de la connexion entre les différentes parts de soi. Apaiser l'<a href="/hypervigilance/">hypervigilance</a> et la <a href="/memoire-traumatique/">mémoire traumatique</a>. Comprendre ses <a href="/declencheurs-emotionnels/">déclencheurs émotionnels</a>, les traces du <a href="/trauma-de-l-enfance/">trauma de l'enfance</a>, la <a href="/honte-et-culpabilite/">honte et la culpabilité</a>, ou une relation d'<a href="/emprise/">emprise</a>. <a href="/stress-post-traumatique-trauma-complexe/">En savoir plus sur le stress post-traumatique</a></p></li>
       <li><h3>Régulation émotionnelle</h3><p>Comprendre ce que sont <a href="/les-emotions/">les émotions</a> et à quoi elles servent. Développer des repères et des outils pour accueillir les émotions intenses et retrouver de la stabilité, en m'appuyant notamment sur la Pleine Conscience Sensible au Trauma et la <a href="/theorie-polyvagale/">théorie polyvagale</a>. Comprendre sa <a href="/fenetre-de-tolerance/">fenêtre de tolérance</a> et sa <a href="/hypersensibilite/">haute sensibilité</a>. Apaiser l'<a href="/anxiete/">anxiété</a>, apprendre à faire baisser l'intensité d'une <a href="/crise-d-angoisse/">crise d'angoisse ou d'une attaque de panique</a>, pour ne plus en avoir peur. Comprendre ce que la consommation ou le comportement vient apaiser dans les <a href="/addictions/">addictions</a>, et changer à son rythme, sans jugement. <a href="/regulation-emotionnelle/">En savoir plus sur la régulation émotionnelle</a></p></li>
-      <li><h3>Styles d'attachement</h3><p>Explorer comment vos premiers liens influencent aujourd'hui vos relations et votre rapport à vous-même : attachement <a href="/attachement-secure/">sécure</a>, <a href="/attachement-anxieux/">anxieux</a>, <a href="/attachement-evitant/">évitant</a> ou <a href="/attachement-desorganise/">désorganisé</a>, <a href="/dependance-affective/">dépendance affective</a>, <a href="/peur-de-l-abandon/">peur de l'abandon</a>. <a href="/styles-d-attachement/">En savoir plus sur les styles d'attachement</a></p></li>
+      <li><h3>Styles d'attachement</h3><p>Explorer comment vos premiers liens influencent aujourd'hui vos relations et votre rapport à vous-même : attachement <a href="/attachement-secure/">sécure</a>, <a href="/attachement-anxieux/">anxieux</a>, <a href="/attachement-evitant/">évitant</a> ou <a href="/attachement-desorganise/">désorganisé</a>, <a href="/dependance-affective/">dépendance affective</a>, <a href="/peur-de-l-abandon/">peur de l'abandon</a>, et les repères d'<a href="/relation-saine/">une relation saine</a>. <a href="/styles-d-attachement/">En savoir plus sur les styles d'attachement</a></p></li>
       <li><h3>Confiance en soi et reconstruction</h3><p>Renforcer votre place, votre pouvoir d'agir, votre <a href="/resilience/">résilience</a> et la relation que vous entretenez avec vous-même. Restaurer son <a href="/estime-de-soi/">estime de soi</a>, apprendre à <a href="/affirmation-de-soi/">s'affirmer</a>, apaiser le <a href="/syndrome-de-l-imposteur/">syndrome de l'imposteur</a>. <a href="/confiance-en-soi/">En savoir plus sur la confiance en soi</a></p></li>
       <li><h3>Mes approches : LI-ICV (adultes, enfants, adolescents) et neuropsychologie</h3><p>La <a href="/li-icv/">LI-ICV</a> (Intégration du Cycle de la Vie) relie les étapes de votre parcours pour soutenir un sentiment de continuité et de sécurité intérieure. Elle s'adapte aussi aux <a href="/li-icv-enfants-adolescents/">enfants et aux adolescents</a>, en ligne, avec la participation des parents. La <a href="/neuropsychologie/">neuropsychologie</a> aide à mieux comprendre le fonctionnement de votre cerveau (attention, mémoire, émotions) pour donner du sens à ce que vous vivez. Le <a href="/le-corps-en-psychotherapie/">corps</a> a aussi toute sa place en thérapie : respiration, mouvement, attention aux sensations. <a href="/mes-approches/">En savoir plus sur mes approches</a></p></li>
     </ul>
@@ -725,6 +829,7 @@ footer summary{padding-block:.65rem}
       <article class="exo"><a class="exo-img" href="/documents/affiche-la-coherence-cardiaque.pdf" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><img src="/documents/affiche-la-coherence-cardiaque.webp" width="620" height="877" alt="" loading="lazy"></a><div><h3>La cohérence cardiaque</h3><p>Inspirer cinq secondes, expirer cinq secondes : le rythme 365, avec un guide animé à suivre en ligne.</p><p class="exo-links"><a href="/le-corps-en-psychotherapie/#la-coherence-cardiaque">Essayer le guide animé</a> · <a href="/documents/affiche-la-coherence-cardiaque.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche</a></p></div></article>
       <article class="exo"><a class="exo-img" href="/documents/affiche-la-roue-des-emotions.pdf" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><img src="/documents/affiche-la-roue-des-emotions.webp" width="620" height="877" alt="" loading="lazy"></a><div><h3>La roue des émotions</h3><p>Six émotions universelles et les besoins qu'elles peuvent signaler, avec trois questions pour écouter une émotion.</p><p class="exo-links"><a href="/les-emotions/#les-emotions-universelles">Lire la page Les émotions</a> · <a href="/documents/affiche-la-roue-des-emotions.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche</a></p></div></article>
       <article class="exo"><a class="exo-img" href="/documents/affiche-le-cerveau-dans-la-main.pdf" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><img src="/documents/affiche-le-cerveau-dans-la-main.webp" width="1400" height="990" alt="" loading="lazy"></a><div><h3>Le cerveau dans la main</h3><p>Comprendre les débordements émotionnels avec le modèle de Daniel Siegel, et apprendre à refermer la main.</p><p class="exo-links"><a href="/les-emotions/#un-outil-le-cerveau-dans-la-main">Lire la page Les émotions</a> · <a href="/documents/affiche-le-cerveau-dans-la-main.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche</a></p></div></article>
+      <article class="exo"><a class="exo-img" href="/documents/affiche-parler-en-je.pdf" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><img src="/documents/affiche-parler-en-je.webp" width="620" height="877" alt="" loading="lazy"></a><div><h3>Parler en « je »</h3><p>Les quatre étapes de la Communication NonViolente, en commençant par le ressenti, pour ouvrir le dialogue.</p><p class="exo-links"><a href="/relation-saine/#la-communication-nonviolente">Lire la page Une relation saine</a> · <a href="/documents/affiche-parler-en-je.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche</a></p></div></article>
     </div>
   </div>
 </section>
@@ -791,6 +896,18 @@ footer summary{padding-block:.65rem}
   b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});
   n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.remove('open');b.setAttribute('aria-expanded','false');}});
   document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+<script id="nav-dd-js">
+(function(){
+  var n=document.getElementById('nav'); if(!n) return;
+  var btns=n.querySelectorAll('.dd-btn');
+  function closeAll(except){btns.forEach(function(b){if(b!==except)b.setAttribute('aria-expanded','false');});}
+  btns.forEach(function(b){
+    b.addEventListener('click',function(e){e.stopPropagation();var o=b.getAttribute('aria-expanded')==='true';closeAll(b);b.setAttribute('aria-expanded',o?'false':'true');});
+  });
+  document.addEventListener('click',function(e){if(!n.contains(e.target))closeAll();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){var open=n.querySelector('.dd-btn[aria-expanded="true"]');closeAll();if(open)open.focus();}});
 })();
 </script>
 </body>
