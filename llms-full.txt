@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 41 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour en septembre 2026.
+> Version complète de llms.txt : texte principal des 42 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour en septembre 2026.
 
 ---
 
@@ -77,7 +77,7 @@ Comprendre l'impact d'un événement marquant ou d'expériences anciennes ou ré
 
 ### Régulation émotionnelle
 
-Développer des repères et des outils pour accueillir les émotions intenses et retrouver de la stabilité, en m'appuyant notamment sur la Pleine Conscience Sensible au Trauma et la théorie polyvagale. Comprendre sa fenêtre de tolérance et sa haute sensibilité. Apaiser l'anxiété, apprendre à faire baisser l'intensité d'une crise d'angoisse ou d'une attaque de panique, pour ne plus en avoir peur. Comprendre ce que la consommation ou le comportement vient apaiser dans les addictions, et changer à son rythme, sans jugement. En savoir plus sur la régulation émotionnelle
+Comprendre ce que sont les émotions et à quoi elles servent. Développer des repères et des outils pour accueillir les émotions intenses et retrouver de la stabilité, en m'appuyant notamment sur la Pleine Conscience Sensible au Trauma et la théorie polyvagale. Comprendre sa fenêtre de tolérance et sa haute sensibilité. Apaiser l'anxiété, apprendre à faire baisser l'intensité d'une crise d'angoisse ou d'une attaque de panique, pour ne plus en avoir peur. Comprendre ce que la consommation ou le comportement vient apaiser dans les addictions, et changer à son rythme, sans jugement. En savoir plus sur la régulation émotionnelle
 
 -
 
@@ -319,6 +319,16 @@ Lire la page Déclencheurs émotionnels · Télécharger l'affiche
 
 Inspirer cinq secondes, expirer cinq secondes : le rythme 365, avec un guide animé à suivre en ligne.
 Essayer le guide animé · Télécharger l'affiche
+
+### La roue des émotions
+
+Six émotions universelles et les besoins qu'elles peuvent signaler, avec trois questions pour écouter une émotion.
+Lire la page Les émotions · Télécharger l'affiche
+
+### Le cerveau dans la main
+
+Comprendre les débordements émotionnels avec le modèle de Daniel Siegel, et apprendre à refermer la main.
+Lire la page Les émotions · Télécharger l'affiche
 
 Questions fréquentes
 
@@ -1275,20 +1285,12 @@ Avant de commencer
 
 Voici une liste de problèmes que les gens éprouvent parfois suite à une expérience vraiment stressante. Veuillez lire chaque énoncé attentivement et indiquer dans quelle mesure ce problème vous a affecté dans le dernier mois.
 
-Commencer le questionnaire
-
 Dans le dernier mois, dans quelle mesure avez-vous été affecté par :
-
-← Précédent
-Faire une pause
-Suivant →
 
 Une pause
 Prenez le temps dont vous avez besoin. Vous pouvez sentir vos pieds au sol, regarder autour de vous et nommer quelques objets, ou respirer lentement avec le guide de cohérence cardiaque.
 
 Vos réponses sont gardées tant que cette page reste ouverte.
-
-ReprendreArrêter et effacer mes réponses
 
 Votre résultat
 
@@ -1300,7 +1302,7 @@ Ces questions ont pu remuer des choses. Prenez un instant pour revenir au prése
 
 Si vous êtes en détresse ou si des idées suicidaires vous traversent, le 3114 répond gratuitement, 24 h/24 et 7 j/7. En cas d'urgence, appelez le 15 ou le 112.
 
-Prendre rendez-vousEffacer et recommencer
+Prendre rendez-vous
 
 PCL-5 : Weathers, Litz, Keane, Palmieri, Marx et Schnurr (2013), National Center for PTSD. Traduction française : N. Desbiendras. Seuil : Ashbaugh et al. (2016).
 
@@ -2610,7 +2612,7 @@ Prendre rendez-vous
 
 ## Deux émotions différentes
 
-La psychologue June Tangney propose une distinction simple :
+La honte et la culpabilité sont des émotions dites « sociales » : elles concernent notre place parmi les autres (voir les émotions). La psychologue June Tangney propose une distinction simple :
 
 - La culpabilité porte sur un acte : « j'ai fait quelque chose de mal ». Elle pousse plutôt à réparer, à s'excuser, à changer de comportement.
 
@@ -3137,11 +3139,6 @@ Avant de commencer
 
 Au cours des 14 derniers jours, à quelle fréquence les problèmes suivants vous ont-ils perturbé(e) ?
 
-Commencer le questionnaire
-
-← Précédent
-Suivant →
-
 Votre résultat
 
 / 21
@@ -3154,7 +3151,7 @@ Pour vous apaiser maintenant, vous pouvez essayer le guide de cohérence cardiaq
 
 Si vous êtes en détresse ou si des idées suicidaires vous traversent, le 3114 répond gratuitement, 24 h/24 et 7 j/7. En cas d'urgence, appelez le 15 ou le 112.
 
-Prendre rendez-vousEffacer et recommencer
+Prendre rendez-vous
 
 GAD-7 : Spitzer, Kroenke, Williams et Löwe (2006), développé avec une bourse de Pfizer Inc. ; aucune autorisation requise pour le reproduire. Version française.
 
@@ -3347,7 +3344,7 @@ Prendre rendez-vous
 
 ## Quatre facettes de la haute sensibilité
 
-Nathalie Clobert et Nicolas Gauvrit décrivent la haute sensibilité selon quatre dimensions :
+Nathalie Clobert et Nicolas Gauvrit décrivent la haute sensibilité selon quatre dimensions (voir aussi les émotions, leurs nuances et les besoins qu'elles signalent) :
 
 - L'émotionnalité : ressentir ses émotions, et celles des autres, avec intensité.
 
@@ -3637,6 +3634,221 @@ Réserver en ligne
 
 ---
 
+URL : https://laetitia-duchemin-psychologue.fr/les-emotions/
+Titre : Les émotions : définition, rôles, corps et cerveau
+
+# Les émotions
+
+Des messagères à écouter, plutôt qu'à faire taire
+
+Joie, peur, colère, tristesse… Les émotions nous traversent tout au long de la journée, souvent sans que nous y prêtions attention. Elles colorent nos pensées, orientent nos choix et nous relient aux autres. Comprendre ce qu'elles sont et à quoi elles servent est une première étape pour apprendre à les accueillir, plutôt qu'à les subir ou à les faire taire (voir la régulation émotionnelle).
+
+Prendre rendez-vous
+
+## Qu'est-ce qu'une émotion ?
+
+Le mot vient du latin movere, « mettre en mouvement » : une émotion est d'abord ce qui nous met en mouvement. C'est une réaction brève de tout l'organisme face à une situation qui compte pour nous, qu'elle soit extérieure (une rencontre, une parole, un événement) ou intérieure (un souvenir, une pensée, une sensation).
+
+Le psychologue Klaus Scherer décrit l'émotion comme un ensemble de réactions qui se produisent presque en même temps :
+
+- une évaluation rapide de la situation, le plus souvent automatique : est-ce important pour moi, est-ce bon ou menaçant ?
+
+- des réactions du corps : le cœur, la respiration, les muscles, la chaleur ;
+
+- une expression : le visage, la voix, la posture ;
+
+- une tendance à agir : s'approcher, fuir, se défendre, se replier ;
+
+- un ressenti, c'est-à-dire ce que l'on éprouve consciemment.
+
+Une émotion dure en général de quelques secondes à quelques minutes. Elle monte, atteint un pic, puis redescend, comme une vague, surtout lorsqu'on ne l'alimente pas par des pensées qui la relancent.
+
+Les émotions sont un peu comme la musique de notre vie. Chacune a sa propre partition, et elle peut se jouer tout en douceur ou avec force, lentement ou dans un élan, comme une même mélodie varie selon le tempo et l'intensité. Une même émotion ne sonne jamais tout à fait pareil d'un moment à l'autre.
+
+### Émotion, sentiment, humeur
+
+Ces trois mots sont souvent utilisés l'un pour l'autre. On peut les distinguer ainsi :
+
+- l'émotion est brève, intense et déclenchée par quelque chose de précis : la peur en entendant un bruit dans la nuit ;
+
+- le sentiment est la façon dont on perçoit et dont on vit consciemment une émotion ; il se construit avec la pensée et peut durer : l'inquiétude pour un proche, l'attachement, la rancune ;
+
+- l'humeur est un état de fond, plus diffus et plus durable, souvent sans cause précise : se lever « du mauvais pied », se sentir morose ou de bonne humeur pendant plusieurs heures ou plusieurs jours.
+
+Pour le neurologue Antonio Damasio, l'émotion se joue d'abord dans le corps, et le sentiment correspond à la perception de ces changements corporels par le cerveau.
+
+## À quoi servent les émotions ?
+
+Il n'existe pas d'émotion inutile. Certaines sont agréables, d'autres désagréables, et toutes ont une fonction.
+
+- Protéger et préparer à l'action. Dès 1872, Charles Darwin montrait que les émotions ont aidé notre espèce à survivre : la peur prépare le corps à fuir, la colère à se défendre.
+
+- Informer sur ce qui compte pour nous. Derrière chaque émotion, il y a souvent un ou plusieurs besoins : de sécurité, de réassurance ou de soutien derrière la peur ; de réconfort, de lien ou de repos derrière la tristesse ; de respect, de justice ou de reconnaissance derrière la colère (voir mes besoins fondamentaux).
+
+- Communiquer avec les autres. Nos expressions renseignent l'entourage sur ce que nous vivons, souvent avant les mots, et nous aident à ajuster nos relations.
+
+- Aider à décider. Antonio Damasio a observé que des personnes dont les régions du cerveau liées aux émotions étaient lésées avaient de grandes difficultés à prendre des décisions, même simples. Les émotions donnent une « couleur » aux options et nous aident à choisir.
+
+- Mémoriser. Nous retenons mieux ce qui nous a touchés : l'émotion signale au cerveau que l'expérience mérite d'être gardée.
+
+Une émotion devient difficile lorsqu'elle est trop intense, trop fréquente, trop longue, ou lorsqu'elle ne correspond plus à la situation présente, par exemple quand elle est réveillée par un souvenir (voir les déclencheurs émotionnels). Elle reste un signal, qui mérite d'être écouté.
+
+## Les émotions universelles
+
+Le psychologue Paul Ekman a montré que certaines émotions s'expriment sur le visage et sont reconnues de la même façon dans toutes les cultures étudiées. Il parle d'émotions universelles, que l'on appelle aussi souvent « émotions de base ». Il en a décrit six :
+
+- La peur : face à un danger. Elle signale des besoins de sécurité, de protection, de réassurance ou de soutien, et pousse à fuir, à se figer ou à chercher refuge.
+
+- La colère : face à une injustice, un obstacle ou une limite franchie. Elle signale des besoins de respect, de justice, de reconnaissance ou d'autonomie, et pousse à s'affirmer, à poser une limite.
+
+- La tristesse : face à une perte. Elle signale des besoins de réconfort, de lien, d'écoute ou de repos, et pousse à ralentir, à se replier, et à appeler le soutien des autres.
+
+- La joie : face à ce qui nous fait du bien. Elle signale des besoins comblés ou à nourrir, de partage, de lien, de célébration ou de sens, et pousse à s'approcher, à recommencer.
+
+- Le dégoût : face à ce qui pourrait nous nuire ou nous « contaminer », un aliment comme un comportement. Il signale des besoins d'intégrité, de respect de ses valeurs ou de distance, et pousse à rejeter, à s'éloigner.
+
+- La surprise : face à l'inattendu. Elle signale des besoins de compréhension, de clarté ou de temps pour s'ajuster, et pousse à s'arrêter, à orienter son attention.
+
+D'autres émotions, comme la honte, la culpabilité, la fierté ou la jalousie, sont dites « sociales » : elles concernent notre place parmi les autres (voir honte et culpabilité).
+
+D'autres chercheurs, comme Lisa Feldman Barrett, proposent une autre lecture : le cerveau construirait les émotions à partir des sensations du corps, du contexte et de nos expériences passées. Ces deux modèles se rejoignent sur un point utile au quotidien : plus on apprend à percevoir et à nommer finement ce que l'on ressent, mieux on peut y répondre.
+
+Comme sur la palette d'un artiste, chaque émotion universelle est une couleur primaire, qui se décline en une multitude de nuances, plus claires ou plus profondes. Ce sont ces nuances qui teintent notre vie au quotidien : on n'est pas seulement « triste », on peut être nostalgique, déçu·e, découragé·e. Les reconnaître, c'est enrichir sa palette.
+
+Touchez une émotion pour découvrir ses nuances, de la plus légère à la plus intense.
+
+### La roue des émotions
+
+Les six émotions universelles et les besoins qu'elles peuvent signaler, avec trois questions pour écouter une émotion.
+
+Télécharger l'affiche (PDF)
+
+## Ce qui se passe dans le corps
+
+Une émotion se vit d'abord dans le corps. Le système nerveux autonome, qui régule sans que nous y pensions le cœur, la respiration, la digestion ou la température, se met en route : le cœur accélère dans la peur, la chaleur monte dans la colère, le corps s'alourdit dans la tristesse, la poitrine s'ouvre dans la joie.
+
+En 2014, une équipe finlandaise (Nummenmaa et ses collègues) a demandé à plus de 700 personnes de colorier, sur une silhouette, les zones de leur corps qu'elles sentaient s'activer ou se désactiver avec chaque émotion. Les cartes obtenues se ressemblent d'une personne et d'une culture à l'autre : la colère active surtout le haut du corps et les bras, la tristesse diminue l'activité des membres, la joie active le corps tout entier.
+
+Percevoir ces signaux intérieurs, c'est l'intéroception (voir le corps en psychothérapie). C'est souvent par le corps que l'on peut repérer une émotion avant même de pouvoir la nommer. L'état de notre système nerveux colore aussi nos émotions : lorsqu'on est en sécurité, dans sa fenêtre de tolérance, on peut les ressentir sans être submergé (voir la théorie polyvagale et la fenêtre de tolérance).
+
+## Ce qui se passe dans le cerveau
+
+Il n'existe pas un « centre » unique des émotions : elles naissent du dialogue entre plusieurs régions du cerveau et le corps.
+
+- L'amygdale repère très vite ce qui est important ou menaçant. Le neuroscientifique Joseph LeDoux a décrit une « voie courte », qui déclenche l'alarme en une fraction de seconde, avant même que l'on ait pris conscience de ce qui se passe, et une « voie longue », qui passe par le cortex et permet d'analyser la situation.
+
+- L'hypothalamus déclenche les réactions du corps : le système nerveux autonome et les hormones du stress, comme l'adrénaline et le cortisol.
+
+- Le thalamus, le relais des sens, transmet les informations à l'amygdale par la voie courte, et au cortex par la voie longue.
+
+- L'insula reçoit les informations venues du corps et participe à la perception de nos sensations intérieures.
+
+- L'hippocampe relie l'émotion au contexte et à la mémoire : où, quand, avec qui.
+
+- Le cortex préfrontal, à l'avant du cerveau, aide à prendre du recul, à donner du sens et à moduler l'émotion. Il poursuit sa maturation jusqu'au début de l'âge adulte.
+
+L'insula, enfouie sur le côté du cerveau, n'est pas visible sur cette coupe : elle perçoit les sensations venues de l'intérieur du corps, comme les battements du cœur ou la respiration (l'intéroception).
+
+Des messagers chimiques, comme la dopamine, la sérotonine, l'ocytocine ou l'endorphine, participent aussi à notre élan, à notre humeur et au lien avec les autres (voir l'affiche « Les messagers du bien-être »).
+
+Le film d'animation Vice-Versa (Pixar, 2015) offre une belle image de ce fonctionnement : à l'intérieur de la tête, les émotions se relaient aux commandes d'une console. Tour à tour, l'une ou l'autre prend la main, et toutes ont un rôle, y compris Tristesse, qui permet à l'héroïne de recevoir du réconfort. Pour concevoir le film, ses créateurs se sont d'ailleurs appuyés sur les conseils des psychologues Paul Ekman et Dacher Keltner. Le second volet, Vice-Versa 2 (2024), ajoute l'anxiété, l'envie, l'ennui et l'embarras, qui arrivent avec l'adolescence.
+
+Sur ce principe, voici une console à explorer : choisissez l'émotion qui est aux commandes, et découvrez les besoins qu'elle peut signaler, ainsi que quelques gestes pour y répondre.
+
+Ma console intérieure
+
+Appuyez sur une émotion pour découvrir les besoins qu'elle peut signaler.
+
+Intensité modérée
+
+### Un outil : le cerveau dans la main
+
+Le psychiatre Daniel Siegel propose une image simple. Repliez le pouce dans la paume de votre main, puis refermez les doigts par-dessus. Le poignet représente le tronc cérébral, qui régule les fonctions vitales ; le pouce, les régions des émotions, comme l'amygdale ; les doigts repliés, le cortex, et le bout des doigts, le cortex préfrontal, qui aide à réfléchir et à apaiser.
+
+Lorsqu'une émotion devient trop forte, c'est comme si les doigts se relevaient : le cortex préfrontal « décroche », et l'émotion prend toute la place. On réagit alors plus qu'on ne réfléchit. Respirer, s'ancrer dans le présent ou être accompagné par une personne rassurante permet peu à peu de « refermer la main ».
+
+### Le cerveau dans la main
+
+Le modèle de Daniel Siegel pour comprendre les débordements émotionnels, et comment refermer la main.
+
+Télécharger l'affiche (PDF)
+
+## Quand les émotions deviennent difficiles à vivre
+
+Après des expériences difficiles, le rapport aux émotions peut changer. Certaines personnes ressentent des émotions très intenses, qui montent vite et redescendent lentement (voir l'hypervigilance). D'autres, au contraire, ont l'impression de ne plus rien ressentir, de vivre « à distance » d'elles-mêmes (voir la dissociation).
+
+On parle d'alexithymie pour décrire la difficulté à identifier, à distinguer et à exprimer ses émotions. Ce n'est pas un manque de sensibilité : c'est souvent une façon dont le système nerveux s'est adapté, lorsque ressentir ou montrer ses émotions n'était pas possible ou pas accueilli. Cette capacité peut se développer à tout âge.
+
+La sensibilité varie aussi d'une personne à l'autre, selon le tempérament, l'histoire de vie, la fatigue ou le stress du moment. Dans la haute sensibilité, ou hypersensibilité, la personne est capable de vivre un éventail d'émotions plus large et plus nuancé que la majorité, une forme d'intelligence émotionnelle développée : elle ressent les événements de façon plus fine, et plus intensément (voir la haute sensibilité).
+
+## Apprendre à reconnaître ses émotions
+
+Mettre des mots sur ce que l'on ressent aide déjà à l'apaiser. Une étude en imagerie cérébrale (Lieberman et ses collègues, 2007) a montré que nommer une émotion diminue l'activité de l'amygdale. Plus le vocabulaire est précis (« déçu·e », « inquiet·ète », « blessé·e » plutôt que « mal »), plus il devient facile de comprendre ce dont on a besoin.
+
+Trois questions simples peuvent guider :
+
+- Qu'est-ce que je ressens dans mon corps, en ce moment ?
+
+- Quel nom pourrais-je donner à cette émotion ?
+
+- De quoi aurais-je besoin ?
+
+Il ne s'agit pas de juger l'émotion, ni de la chasser, mais de la laisser passer en l'accompagnant (voir la régulation émotionnelle et la tolérance émotionnelle).
+
+## Mon accompagnement
+
+En séance, en ligne, nous apprenons ensemble à repérer les signaux du corps, à nommer les émotions et à comprendre les besoins qu'elles expriment, à votre rythme. Je m'appuie sur un éclairage neuropsychologique, dont la théorie polyvagale, pour comprendre avec vous ce qui se joue dans votre cerveau et votre corps, ainsi que sur la LI-ICV et la Pleine Conscience Sensible au Trauma, pour que les émotions puissent être ressenties sans submerger, et retrouver leur rôle de messagères.
+
+## Questions fréquentes
+
+-
+
+### Existe-t-il des émotions négatives ?
+
+Il existe des émotions désagréables, comme la peur, la colère ou la tristesse, mais aucune n'est inutile. Chacune signale quelque chose d'important. C'est plutôt leur intensité, leur durée ou leur décalage avec la situation qui peut rendre une émotion difficile à vivre.
+
+-
+
+### Peut-on contrôler ses émotions ?
+
+On ne choisit pas ce que l'on ressent. On peut en revanche apprendre à agir sur la manière de vivre une émotion et d'y répondre : la reconnaître, la nommer, respirer, s'appuyer sur les autres. C'est tout l'enjeu de la régulation émotionnelle.
+
+-
+
+### Pourquoi certaines personnes ressentent-elles plus intensément que d'autres ?
+
+Le tempérament, l'histoire de vie, l'attachement, la fatigue ou le stress influencent l'intensité des émotions. Une sensibilité plus forte n'est pas un défaut : dans la haute sensibilité, elle témoigne d'une forme d'intelligence émotionnelle développée, qui permet de ressentir des émotions plus vastes et plus nuancées (voir la haute sensibilité).
+
+## Sources
+
+- Barrett, L. F. (2017). How Emotions Are Made: The Secret Life of the Brain. Boston : Houghton Mifflin Harcourt.
+
+- Damasio, A. R. (1995). L'erreur de Descartes : la raison des émotions. Paris : Odile Jacob.
+
+- Darwin, C. (1872). The Expression of the Emotions in Man and Animals. Londres : John Murray.
+
+- Keltner, D., & Ekman, P. (2015, 3 juillet). The science of « Inside Out ». The New York Times.
+
+- Ekman, P. (1992). An argument for basic emotions. Cognition and Emotion, 6(3-4), 169-200.
+
+- LeDoux, J. (1996). The Emotional Brain. New York : Simon & Schuster.
+
+- Lieberman, M. D., Eisenberger, N. I., Crockett, M. J., Tom, S. M., Pfeifer, J. H., & Way, B. M. (2007). Putting feelings into words: Affect labeling disrupts amygdala activity in response to affective stimuli. Psychological Science, 18(5), 421-428.
+
+- Nummenmaa, L., Glerean, E., Hari, R., & Hietanen, J. K. (2014). Bodily maps of emotions. Proceedings of the National Academy of Sciences, 111(2), 646-651.
+
+- Scherer, K. R. (2005). What are emotions? And how can they be measured? Social Science Information, 44(4), 695-729.
+
+- Siegel, D. J. (2010). Mindsight: The New Science of Personal Transformation. New York : Bantam.
+
+- Sifneos, P. E. (1973). The prevalence of 'alexithymic' characteristics in psychosomatic patients. Psychotherapy and Psychosomatics, 22(2-6), 255-262.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
 URL : https://laetitia-duchemin-psychologue.fr/regulation-emotionnelle/
 Titre : Régulation émotionnelle en ligne — Laetitia Duchemin, psychologue
 
@@ -3662,7 +3874,7 @@ Télécharger l'affiche (PDF)
 
 ## Qu'est-ce que la régulation émotionnelle ?
 
-La régulation émotionnelle désigne la capacité à influencer quelles émotions on ressent, à quel moment, et comment on les vit et les exprime. Elle ne consiste pas à supprimer les émotions, mais à en moduler l'intensité et la durée. Il est surtout question d'apprendre à identifier, comprendre, communiquer et réguler ses émotions.
+La régulation émotionnelle désigne la capacité à influencer quelles émotions on ressent, à quel moment, et comment on les vit et les exprime. Elle ne consiste pas à supprimer les émotions, mais à en moduler l'intensité et la durée. Il est surtout question d'apprendre à identifier, comprendre, communiquer et réguler ses émotions. Pour comprendre ce qu'est une émotion, à quoi elle sert et comment elle se manifeste dans le corps et le cerveau, voir les émotions.
 
 Derrière une émotion, il y a souvent un besoin qui se manifeste : le besoin de sécurité derrière la peur, de lien derrière la tristesse, de respect derrière la colère. Jeffrey Young, fondateur de la thérapie des schémas, a décrit cinq besoins affectifs fondamentaux. Les reconnaître aide à comprendre ce que l'émotion vient signaler, et à y répondre.
 
@@ -3943,11 +4155,6 @@ Avant de commencer
 
 Pour chacune des affirmations suivantes, indiquez à quel point elle est vraie pour vous.
 
-Commencer le questionnaire
-
-← Précédent
-Suivant →
-
 Votre résultat
 
 / 40
@@ -3958,7 +4165,7 @@ Il n'existe pas de seuil officiel. À titre de repère, dans une étude menée d
 
 Ce questionnaire mesure le sentiment d'efficacité personnelle, une composante centrale de la confiance en soi, mais pas la confiance en soi dans son ensemble.
 
-Prendre rendez-vousEffacer et recommencer
+Prendre rendez-vous
 
 Échelle du sentiment d'efficacité personnelle générale : Schwarzer et Jerusalem (1995). Version française : Dumont, Schwarzer et Jerusalem (2000).
 
@@ -4093,11 +4300,6 @@ Avant de commencer
 
 Pour chacune des caractéristiques ou descriptions suivantes, indiquez à quel point chacune est vraie pour vous.
 
-Commencer le questionnaire
-
-← Précédent
-Suivant →
-
 Votre résultat
 
 / 40
@@ -4106,7 +4308,7 @@ Plutôt fragilePlutôt solide
 
 Il n'existe pas de seuil officiel pour cette échelle : ces repères sont indicatifs. Seul un échange en consultation permet de comprendre ce que ce score veut dire pour vous.
 
-Prendre rendez-vousEffacer et recommencer
+Prendre rendez-vous
 
 Échelle d'estime de soi de Rosenberg (1965). Version française : Vallières et Vallerand (1990).
 

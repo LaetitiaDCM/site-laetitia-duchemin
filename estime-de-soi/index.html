@@ -137,7 +137,7 @@ a{color:var(--link)}
 .wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
 h1,h2,h3{font-family:var(--serif);font-weight:500;margin:0;line-height:1.15}
 p{margin:0 0 1em}
-.mark{background:var(--logo) center/contain no-repeat;aspect-ratio:440/450}
+.mark{background:var(--logo) center/contain no-repeat;aspect-ratio:1/1}
 
 /* ---------- Header ---------- */
 .site-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(27,17,64,.9);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid rgba(236,208,150,.18)}
@@ -469,13 +469,14 @@ footer summary{padding-block:.65rem}
     </div>
   </div>
   <div class="qz-screen" data-s="res" hidden>
+    <div class="qz-printhead"><strong>Échelle d'estime de soi de Rosenberg</strong>Laetitia Duchemin, psychologue · laetitia-duchemin-psychologue.fr · <span class="qz-printdate"></span></div>
     <p class="qz-kicker">Votre résultat</p>
     <p class="qz-score"><span class="qz-total"></span><span class="qz-max"> / 40</span></p>
     <div class="qz-gauge" aria-hidden="true"><i></i></div>
     <div class="qz-ends" aria-hidden="true"><span>Plutôt fragile</span><span>Plutôt solide</span></div>
     <p class="qz-msg" tabindex="-1"></p>
     <p class="qz-note">Il n'existe pas de seuil officiel pour cette échelle : ces repères sont indicatifs. Seul un échange en consultation permet de comprendre ce que ce score veut dire pour vous.</p>
-    <div class="qz-nav"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a><button type="button" class="qz-link qz-reset">Effacer et recommencer</button></div>
+    <div class="qz-nav"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a><button type="button" class="qz-link qz-print">Imprimer ou enregistrer en PDF</button><button type="button" class="qz-link qz-reset">Effacer et recommencer</button></div>
   </div>
   <p class="qz-src">Échelle d'estime de soi de Rosenberg (1965). Version française : Vallières et Vallerand (1990).</p>
 </div>
@@ -610,6 +611,30 @@ footer summary{padding-block:.65rem}
   n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.remove('open');b.setAttribute('aria-expanded','false');}});
   document.getElementById('yr').textContent=new Date().getFullYear();
 })();
+</script>
+<style>
+.qz-printhead{display:none}
+@media print{
+ .qz-hide{display:none!important}
+ html:has(body.qz-printing),body.qz-printing{background:#fff!important}
+ .qz-printme{--bg:#fff;--surface:#fff;--ink:#1b1140;--heading:#1b1140;--muted:#4a4560;--line:#d9d4e3;--link:#1b1140;border:0!important;margin:0!important;padding:0!important;background:#fff!important;color:#1b1140;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ .qz-printme .qz-nav,.qz-printme .pcl-nav{display:none!important}
+ .qz-printme .qz-printhead{display:block;border-bottom:1px solid #d9d4e3;margin:0 0 14px;padding-bottom:8px;font:12px/1.5 sans-serif;color:#4a4560}
+ .qz-printme .qz-printhead strong{display:block;font-size:17px;color:#1b1140}
+ .qz-printme .cass-f,.qz-printme .pcl-bar{break-inside:avoid}
+}
+</style>
+<script>
+if(!window.__qzPrint){window.__qzPrint=1;
+document.addEventListener('click',function(e){
+  var b=e.target.closest&&e.target.closest('.qz-print'); if(!b) return;
+  var w=b.closest('.qz,.pcl'); if(!w) return;
+  var d=w.querySelector('.qz-printdate'); if(d) d.textContent='Résultat du '+new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'});
+  document.querySelectorAll('.qz-hide').forEach(function(c){c.classList.remove('qz-hide');});
+  var n=w; while(n&&n!==document.body){ var p=n.parentElement; if(!p) break; Array.prototype.forEach.call(p.children,function(c){ if(c!==n) c.classList.add('qz-hide'); }); n=p; }
+  document.body.classList.add('qz-printing'); w.classList.add('qz-printme');
+  window.print();
+});}
 </script>
 </body>
 </html>
