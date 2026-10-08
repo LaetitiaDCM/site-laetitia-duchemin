@@ -335,6 +335,16 @@ Lire la page Les émotions · Télécharger l'affiche
 Les quatre étapes de la Communication NonViolente, en commençant par le ressenti, pour ouvrir le dialogue.
 Lire la page Une relation saine · Télécharger l'affiche
 
+### Hier ou aujourd'hui ?
+
+Cinq questions pour distinguer l'alarme ancienne de la situation présente, quand la peur d'être quitté·e monte.
+Lire la page Peur de l'abandon · Télécharger l'affiche
+
+### Approche et fuite
+
+Un carnet d'une semaine pour observer ses mouvements d'approche et de fuite dans la relation.
+Lire la page Attachement désorganisé · Télécharger l'affiche
+
 Questions fréquentes
 
 ## Vos questions
@@ -1323,6 +1333,36 @@ Quand le trauma s'installe, l'alarme reste plus sensible et se déclenche plus f
 
 La notion a été proposée en 1992 par la psychiatre américaine Judith Herman, à partir de son travail auprès de personnes ayant subi des violences répétées et prolongées, dans l'enfance, le couple ou la captivité. Elle constatait que le diagnostic de stress post-traumatique ne rendait pas compte de l'ensemble de leurs difficultés : la régulation des émotions, l'image de soi et les relations étaient elles aussi profondément touchées. L'Organisation mondiale de la santé a reconnu le TSPT complexe comme un diagnostic distinct dans sa classification internationale des maladies (la CIM-11), entrée en vigueur en 2022.
 
+## Un trauma relationnel
+
+Le trauma complexe est avant tout un trauma relationnel. Il naît le plus souvent au sein de relations, de façon répétée, et parfois avec les personnes mêmes qui étaient censées protéger : un parent, un proche, un partenaire.
+
+Cela change profondément la façon dont le trauma s'inscrit. Lorsque le danger vient de l'extérieur, comme un accident ou une catastrophe, on peut se tourner vers ses proches pour être rassuré. Lorsqu'il vient de la relation elle-même, le lien et la peur se mêlent : le besoin d'attachement, qui pousse à se rapprocher quand on a peur, se retrouve face à une impasse (voir l'attachement désorganisé). Le psychiatre Bessel van der Kolk parle de trauma développemental pour souligner que ces expériences surviennent pendant que l'enfant se construit.
+
+### Quand la blessure vient de quelqu'un dont on dépend
+
+La psychologue Jennifer Freyd a décrit le « trauma de trahison » : lorsque la blessure vient d'une personne dont on dépend, l'enfant a besoin de préserver ce lien pour grandir. Il peut alors, sans le décider, ne pas voir, minimiser ou oublier en partie ce qui se passe. Freyd parle de « cécité à la trahison ». Ce mécanisme de protection aide à comprendre certaines amnésies (voir la mémoire traumatique), et pourquoi il est parfois si difficile de reconnaître ce que l'on a vécu.
+
+### Les traces dans les relations d'aujourd'hui
+
+À l'âge adulte, ce trauma laisse souvent des traces dans les liens :
+
+- une difficulté à faire confiance, ou au contraire une confiance donnée très vite ;
+
+- la peur d'être abandonné·e ou rejeté·e (voir la peur de l’abandon) ;
+
+- des mouvements d'approche et de fuite, comme un élastique qui se tend puis ramène ;
+
+- une tendance à s'oublier pour l'autre, ou à tout contrôler pour ne plus être pris·e au dépourvu ;
+
+- une plus grande vulnérabilité à l'emprise et à la dépendance affective (voir l'emprise et la dépendance affective).
+
+Ces réactions ont été, un jour, des façons de se protéger. Elles se comprennent, et elles peuvent évoluer.
+
+### Se rétablir dans la relation
+
+Pour Judith Herman, le rétablissement ne peut se faire que dans le contexte de relations, et non dans l'isolement. Ce qui a été blessé dans la relation peut aussi se réparer dans la relation : d'abord dans une relation thérapeutique fiable et prévisible, où l'on peut retrouver peu à peu de la sécurité, puis dans des liens plus sereins (voir une relation saine et les styles d’attachement).
+
 ## Les traumas silencieux : quand « rien » n'est pas rien
 
 « Je n'ai rien vécu de grave. » Beaucoup de personnes le disent, et pourtant elles se reconnaissent dans les manifestations du trauma. Certaines blessures ne viennent pas de ce qui s'est passé, mais de ce qui a manqué : une attention, un réconfort, une présence qui rassure, quelqu'un à qui confier ses émotions. C'est la négligence, notamment émotionnelle. Parce qu'il n'y a pas d'événement précis à raconter, ces traumas restent souvent silencieux, et l'on peine à leur donner de l'importance.
@@ -1391,6 +1431,12 @@ Non, pas nécessairement. Certaines approches, comme la LI-ICV, permettent de tr
 
 - Herman, J. L. (1992). Complex PTSD: A syndrome in survivors of prolonged and repeated trauma. Journal of Traumatic Stress, 5(3), 377-391.
 
+- Herman, J. L. (1992). Trauma and Recovery. New York : Basic Books.
+
+- Freyd, J. J. (1996). Betrayal Trauma: The Logic of Forgetting Childhood Abuse. Cambridge (MA) : Harvard University Press.
+
+- van der Kolk, B. A. (2005). Developmental trauma disorder: Toward a rational diagnosis for children with complex trauma histories. Psychiatric Annals, 35(5), 401-408.
+
 - Organisation mondiale de la santé. CIM-11, 6B41 Trouble de stress post-traumatique complexe.
 
 - Maercker, A., Cloitre, M., Bachem, R., et al. (2022). Complex post-traumatic stress disorder. The Lancet, 400(10345), 60-72.
@@ -1438,7 +1484,7 @@ Vous vous sentez à l'aise dans la proximité comme dans l'autonomie. Vous pouve
 
 ### L'attachement anxieux (ou ambivalent)
 
-Lorsque la présence des figures d'attachement a été imprévisible, l'enfant apprend à intensifier ses signaux pour être entendu. À l'âge adulte, cela peut se traduire par la peur d'être abandonné, un besoin fréquent de réassurance et une grande sensibilité aux signes de rejet. Voir la page attachement anxieux.
+Lorsque la présence des figures d'attachement a été imprévisible, ou surprotectrice au point de laisser peu l'enfant faire par lui-même, l'enfant apprend à intensifier ses signaux pour être entendu, et faire seul peut devenir source d'anxiété. À l'âge adulte, cela peut se traduire par la peur d'être abandonné, un besoin fréquent de réassurance et une grande sensibilité aux signes de rejet. Voir la page attachement anxieux.
 
 ### L'attachement évitant
 
@@ -1515,6 +1561,8 @@ Non. D'autres figures comptent (grands-parents, fratrie, professionnels qui ont 
 Il existe des questionnaires, mais ils donnent surtout une indication. Une évaluation en consultation permet de mieux comprendre votre façon d'être en relation, en tenant compte de votre histoire et des différents liens de votre vie.
 
 ## Sources
+
+- Cassidy, J., & Berlin, L. J. (1994). The insecure/ambivalent pattern of attachment: Theory and research. Child Development, 65(4), 971-991.
 
 - Bowlby, J. (1969). Attachment and Loss. Vol. 1 : Attachment. New York : Basic Books.
 
@@ -1630,7 +1678,7 @@ Titre : Attachement anxieux : comprendre et s'apaiser — L. Duchemin
 
 Quand la relation ne semble jamais tout à fait sûre
 
-L'attachement anxieux, ou ambivalent, est l'un des styles d'attachement insécures. Il se construit lorsque la présence des figures d'attachement a été imprévisible : parfois disponibles, parfois non. L'enfant apprend alors à intensifier ses signaux pour être entendu. À l'âge adulte, on parle d'attachement préoccupé. On parle de style principal : selon les personnes et les contextes, on peut avoir des styles relationnels différents.
+L'attachement anxieux, ou ambivalent, est l'un des styles d'attachement insécures. Il se construit lorsque la présence des figures d'attachement a été imprévisible : parfois disponibles, parfois non. Il peut aussi naître d'une présence surprotectrice, qui laisse peu l'enfant faire par lui-même : agir seul devient alors source d'anxiété. L'enfant apprend à intensifier ses signaux pour être entendu, et à rester proche. À l'âge adulte, on parle d'attachement préoccupé. On parle de style principal : selon les personnes et les contextes, on peut avoir des styles relationnels différents.
 
 Prendre rendez-vous
 
@@ -1703,6 +1751,8 @@ Oui. On parle de sécurité « acquise » : des relations fiables et un travail 
 Pas nécessairement. La jalousie peut en faire partie, mais le cœur de l'attachement anxieux est la peur de perdre le lien.
 
 ## Sources
+
+- Cassidy, J., & Berlin, L. J. (1994). The insecure/ambivalent pattern of attachment: Theory and research. Child Development, 65(4), 971-991.
 
 - Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. (1978). Patterns of Attachment. Hillsdale : Erlbaum.
 
@@ -1810,7 +1860,7 @@ Réserver en ligne
 ---
 
 URL : https://laetitia-duchemin-psychologue.fr/attachement-desorganise/
-Titre : Attachement désorganisé : comprendre ce style — L. Duchemin
+Titre : Attachement désorganisé : comprendre et retrouver de la sécurité
 
 # Attachement désorganisé
 
@@ -1819,6 +1869,30 @@ Quand la figure qui protège est aussi source de peur
 L'attachement désorganisé a été décrit par Mary Main et Judith Solomon. Il apparaît lorsque la figure censée protéger l'enfant est aussi source de peur, ou elle-même effrayée. Comme pour les autres styles, on parle de style principal. L'enfant se trouve face à un dilemme sans solution : se rapprocher de ce qui l'effraie. C'est l'un des styles d'attachement insécures ; à l'âge adulte, il se rapproche du style craintif.
 
 Prendre rendez-vous
+
+## Effrayant ou effrayé : une peur sans solution
+
+Face à un danger, un enfant cherche naturellement la proximité de la personne qui prend soin de lui. Mary Main et Erik Hesse ont décrit ce qui se passe lorsque cette personne est elle-même à l'origine de la peur. Ils ont parlé d'une « peur sans solution » : l'enfant ne peut ni fuir la source de la peur, ni s'en approcher pour être rassuré, puisque c'est la même personne.
+
+- Un parent effrayant : des accès de colère, des cris, des gestes brusques ou menaçants, même sans violence physique.
+
+- Un parent effrayé : un parent lui-même submergé par la peur, qui peut paniquer, se figer, sembler absent ou « ailleurs » quelques instants, souvent parce qu'il porte un trauma ou un deuil qui ne s'est pas apaisé.
+
+Dans les deux cas, la figure qui devrait rassurer devient source d'inquiétude. L'enfant peut alors montrer des comportements contradictoires : s'approcher en détournant le regard, se figer, aller vers le parent puis s'en éloigner.
+
+### Une histoire qui se transmet, sans faute
+
+La plupart de ces parents ne veulent pas faire peur. Ils ont souvent été eux-mêmes des enfants effrayés, et portent une histoire qui n'a pas trouvé d'apaisement. Ce qui se transmet n'est pas une intention, mais une peur qui circule d'une génération à l'autre. Comprendre ce mécanisme aide à sortir de la culpabilité, et c'est aussi ce qui permet d'interrompre la transmission.
+
+## Ce que l'enfant met en place pour s'adapter
+
+Mary Main et Jude Cassidy ont observé que, vers l'âge de six ans, certains de ces enfants « prennent les commandes » de la relation pour la rendre plus prévisible :
+
+- En prenant soin du parent : rassurer, consoler, faire attention à ne pas le contrarier. L'enfant devient le parent de son parent : on parle de parentification.
+
+- En contrôlant la relation : imposer, diriger, parfois avec dureté, pour ne plus être pris au dépourvu.
+
+Ces stratégies ont permis de traverser une situation impossible. À l'âge adulte, on les retrouve parfois dans un grand besoin de tout maîtriser, ou de prendre soin de tout le monde en s'oubliant soi-même.
 
 ## Comment il se manifeste à l'âge adulte
 
@@ -1832,17 +1906,49 @@ Prendre rendez-vous
 
 - Une méfiance profonde, même envers les personnes bienveillantes.
 
+## Viens… va-t'en : la dynamique relationnelle
+
+Dans les relations proches, le besoin de lien et la peur du lien peuvent s'activer en même temps : on se rapproche, puis la proximité elle-même réveille l'alarme, et l'on s'éloigne, avant de revenir. Comme un élastique qui se tend et ramène, avec un effet de rebond.
+
+Le psychiatre Giovanni Liotti a décrit comment l'enfant intériorise des images de soi et de l'autre qui changent selon les moments : tantôt l'autre fait peur et l'on se sent victime, tantôt l'on se sent responsable de sauver l'autre, tantôt l'on se sent soi-même dangereux. Ces rôles, persécuteur, victime et sauveur, peuvent se rejouer dans les relations adultes, sans que personne ne l'ait choisi. Les reconnaître aide à en sortir.
+
+Cette histoire rend aussi plus vulnérable au lien traumatique : on peut chercher l'apaisement auprès de la personne même qui fait souffrir (voir la dépendance affective).
+
 ## Un lien étroit avec le trauma
 
 L'attachement désorganisé est souvent associé au trauma complexe, lorsque les expériences difficiles ont eu lieu tôt, dans la relation même avec les figures d'attachement. Le psychiatre Giovanni Liotti a montré ses liens avec la dissociation. Il ne s'agit pas d'une faiblesse, mais d'une adaptation à une situation impossible.
+
+Lorsque ni la fuite ni le rapprochement ne sont possibles, le système nerveux n'a plus qu'une issue : se figer, ou se couper de ce qui se passe. La théorie polyvagale décrit cette réponse d'immobilisation. Elle explique pourquoi, à l'âge adulte, certaines situations relationnelles peuvent provoquer un vide, un engourdissement ou une impression d'être « à côté » de soi (voir la théorie polyvagale et la dissociation).
 
 ## Retrouver de la sécurité
 
 La sécurité se reconstruit pas à pas : d'abord dans le corps, avec des appuis pour réguler les émotions, puis dans des relations fiables et prévisibles, dont la relation thérapeutique peut faire partie (voir l'attachement sécure).
 
+Ce style peut évoluer : on parle de sécurité acquise. Le chemin passe par des expériences répétées de liens où la personne en face reste stable, même quand l'on s'approche puis s'éloigne. Le rythme compte : avancer doucement, en restant dans sa fenêtre de tolérance, permet au système nerveux d'apprendre que la proximité peut être sûre (voir la fenêtre de tolérance).
+
+## Un outil : repérer ses mouvements d'approche et de fuite
+
+Pendant une semaine, notez simplement, sans jugement, les moments où vous vous êtes rapproché·e de quelqu'un, et ceux où vous avez eu envie de fuir :
+
+- Que s'est-il passé juste avant ?
+
+- Qu'ai-je ressenti dans mon corps ?
+
+- Quelle pensée m'a traversé l'esprit ?
+
+- Qu'est-ce qui m'aurait aidé·e, à ce moment-là ?
+
+Au fil des jours, des liens apparaissent entre certaines situations et ces mouvements. Les observer avec curiosité, c'est déjà commencer à choisir, plutôt que subir.
+
+### Approche et fuite
+
+Un carnet d'une semaine pour observer ses mouvements d'approche et de fuite, avec curiosité et sans jugement.
+
+Télécharger l'affiche (PDF)
+
 ## Mon accompagnement
 
-J'accompagne les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions de soi et des autres. Le rythme est ajusté pour rester dans votre fenêtre de tolérance.
+J'accompagne les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions de soi et des autres. Le rythme est ajusté pour rester dans votre fenêtre de tolérance. La théorie polyvagale, la Pleine Conscience Sensible au Trauma et la TCTSY offrent des appuis corporels pour retrouver de la sécurité au fil du travail.
 
 ## Questions fréquentes
 
@@ -1864,6 +1970,12 @@ Ce style peut évoluer. Le travail est souvent plus long, mais des relations sé
 
 Non. Il peut aussi apparaître lorsque le parent est lui-même submergé par la peur ou par un deuil non résolu, sans qu'il y ait de violence.
 
+-
+
+### Mes parents ont-ils été de mauvais parents ?
+
+Souvent, ils étaient eux-mêmes effrayés, et portaient une histoire qui ne s'était pas apaisée. Reconnaître l'impact de ce que l'on a vécu peut aller de pair avec la compréhension de leur propre histoire, sans que l'un efface l'autre.
+
 ## Sources
 
 - Main, M., & Solomon, J. (1990). Procedures for identifying infants as disorganized/disoriented during the Ainsworth Strange Situation. In M. T. Greenberg, D. Cicchetti & E. M. Cummings (dir.), Attachment in the Preschool Years. Chicago : University of Chicago Press.
@@ -1871,6 +1983,14 @@ Non. Il peut aussi apparaître lorsque le parent est lui-même submergé par la 
 - Liotti, G. (2004). Trauma, dissociation, and disorganized attachment: Three strands of a single braid. Psychotherapy: Theory, Research, Practice, Training, 41(4), 472-486.
 
 - Mikulincer, M., & Shaver, P. R. (2016). Attachment in Adulthood: Structure, Dynamics, and Change (2e éd.). New York : Guilford Press.
+
+-
+
+-
+
+-
+
+-
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -1885,7 +2005,7 @@ Titre : Dépendance affective : comprendre et s'en libérer — L. Duchemin
 
 Quand on a besoin de l'autre pour se sentir exister
 
-La dépendance affective désigne un besoin intense de l'autre pour se sentir en sécurité, aimé ou digne de valeur. Ce n'est pas un diagnostic, mais une souffrance réelle, souvent liée à un style d'attachement anxieux et à une estime de soi fragile. Elle peut concerner le couple, mais aussi l'amitié ou la famille.
+La dépendance affective désigne un besoin intense de l'autre pour se sentir en sécurité, aimé ou digne de valeur. Ce n'est pas un diagnostic, mais une souffrance réelle, souvent liée à un style d’attachement anxieux et à une estime de soi fragile. Elle peut concerner le couple, mais aussi l'amitié ou la famille.
 
 Prendre rendez-vous
 
@@ -1901,9 +2021,91 @@ Prendre rendez-vous
 
 - Avoir du mal à dire non, de peur de perdre l'autre (voir l'affirmation de soi).
 
+## Le cercle qui l'entretient
+
+La dépendance affective fonctionne comme un cercle, qui se resserre un peu plus à chaque tour :
+
+- Le manque. Un silence, une distance, une absence réveillent une alarme intérieure : la peur d'être abandonné·e, de ne plus compter (voir la peur de l’abandon).
+
+- La recherche de l'autre. Pour apaiser cette alarme, on cherche le contact, une preuve, un signe ; on s'adapte, on s'efface, on dit oui.
+
+- Le soulagement. La présence ou la réponse de l'autre apaise, très vite. Le corps en retient une leçon : « seul l'autre peut me calmer ».
+
+- L'oubli de soi. À force de s'ajuster, ses propres besoins, ses envies et ses limites passent au second plan, et l'estime de soi s'abîme.
+
+- Une alarme plus forte. Moins on se sent capable de se rassurer seul·e, plus la prochaine absence paraît difficile à vivre, et le cercle recommence.
+
+Les psychologues Stanton Peele et Archie Brodsky ont été parmi les premiers, en 1975, à rapprocher certaines formes d'amour d'une addiction. Ce qui entretient la dépendance, c'est la place que l'autre a prise : celle d'être la seule source d'apaisement.
+
 ## Comment elle s'installe
 
-La dépendance affective prend souvent racine dans l'enfance, lorsque l'amour ou l'attention ont semblé fragiles ou conditionnels. On apprend alors que le lien doit être préservé à tout prix, quitte à s'oublier soi-même. La présence de l'autre apaise sur le moment, comme un soulagement, ce qui renforce le besoin, un peu à la manière d'une addiction. Dans certaines relations, elle peut aussi être entretenue par une emprise (voir l'emprise). À l'inverse, une relation saine laisse à chacun sa place et sa liberté.
+La dépendance affective prend souvent racine dans l'enfance, lorsque l'amour ou l'attention ont semblé fragiles ou conditionnels. On apprend alors que le lien doit être préservé à tout prix, quitte à s'oublier soi-même. La présence de l'autre apaise sur le moment, comme un soulagement, ce qui renforce le besoin, un peu à la manière d'une addiction.
+
+Plusieurs fils peuvent se croiser :
+
+- Un style d'attachement anxieux (ou ambivalent). Lorsque le parent a été surprotecteur et a peu laissé l'enfant faire par lui-même, ou lorsque sa disponibilité a été inconstante, l'enfant a pu apprendre qu'il est plus sûr de rester proche et de ne pas agir seul. Faire seul devient alors source d'anxiété, et la présence de l'autre, une condition pour se sentir en sécurité. À l'âge adulte, on parle de style préoccupé (voir l'attachement anxieux).
+
+- Des schémas précoces. Le psychologue Jeffrey Young a décrit des croyances profondes, apprises tôt, qui se réactivent dans les relations adultes : l'abandon (« les gens finissent par partir »), la dépendance (« je n'y arriverai pas sans l'autre »), l'assujettissement (« pour garder le lien, je dois faire passer l'autre avant moi »).
+
+- Un style d'attachement désorganisé. Lorsque la figure censée protéger a aussi été source de peur, l'enfant a appris à se rapprocher de ce qui l'inquiète. À l'âge adulte, le besoin de l'autre et l'envie de le fuir peuvent coexister, avec des allers-retours dans la relation. Cette histoire rend aussi plus vulnérable au lien traumatique : on cherche l'apaisement auprès de la personne même qui fait souffrir (voir l'attachement désorganisé).
+
+- Une estime de soi fragile. Quand on doute de sa valeur, l'amour de l'autre devient la preuve que l'on en a (voir l'estime de soi).
+
+- Une présence intérieure encore fragile. Petit à petit, l'enfant apprend à garder en lui l'image de la personne qui prend soin de lui, même lorsqu'elle est absente : c'est ce que la psychanalyste Margaret Mahler appelait la constance de l'objet. Lorsque cette présence intérieure est restée fragile, chaque absence peut être vécue comme une disparition, et chaque silence comme une rupture.
+
+## Quand le lien fait du mal : le lien invisible
+
+Parfois, on reste attaché·e à une personne même lorsqu'elle fait souffrir. Comme un élastique : plus on s'éloigne, plus il se tend, et plus il ramène vers l'autre, avec un effet de rebond. Lorsque les moments de tendresse et les moments douloureux alternent de façon imprévisible, l'attachement peut paradoxalement se renforcer. Les chercheurs Donald Dutton et Susan Painter l'ont appelé le lien traumatique, et on le retrouve souvent dans l'emprise et les violences conjugales. La question devient alors moins « pourquoi rester ? » que « qu'est-ce qui retient ? ».
+
+Dans certaines relations, elle peut aussi être entretenue par une emprise (voir l'emprise). À l'inverse, une relation saine laisse à chacun sa place et sa liberté.
+
+## Apprendre à tolérer l'absence
+
+Le besoin de lien est fondamental, et il le reste. Sortir de la dépendance affective, c'est apprendre à traverser l'absence sans qu'elle devienne une menace, en y ajoutant peu à peu une sécurité qui vient aussi de l'intérieur.
+
+### La capacité d'être seul
+
+Le pédiatre et psychanalyste Donald Winnicott observait que l'on apprend à être seul d'abord en présence de quelqu'un de fiable. Être seul·e devient alors une façon d'être avec soi, tranquillement, en sachant que le lien existe ailleurs. La relation thérapeutique peut être l'un de ces lieux d'apprentissage.
+
+### Le lien continue, même dans l'absence
+
+Une absence n'efface pas le lien. Quelques appuis peuvent aider à le garder vivant à l'intérieur : relire un message bienveillant, garder près de soi un objet qui rappelle la personne, se redire une phrase repère : « Cette personne est occupée, et notre lien est toujours là. »
+
+### Repérer les signaux de sécurité
+
+Notre système nerveux évalue en permanence, sans que nous en ayons conscience, si nous sommes en sécurité : c'est ce que Stephen Porges appelle la neuroception. Quand la peur de l'abandon est forte, il repère surtout les signes de danger : un silence, un ton différent, un message plus court. On peut l'entraîner à remarquer aussi les signaux de sécurité : une voix familière, un lieu où l'on se sent bien, une routine, la chaleur d'une tasse entre les mains. Deb Dana appelle ces petites lueurs des « glimmers ». Les remarquer plusieurs fois par jour aide le corps à s'apaiser (voir la théorie polyvagale).
+
+### Se réguler avant d'agir
+
+Quand l'absence fait sortir de sa fenêtre de tolérance, l'envie d'écrire, d'appeler ou de vérifier devient très forte. On peut d'abord se réguler, puis choisir : respirer par le nez en allongeant l'expiration, sentir ses appuis, poser une main sur sa poitrine (voir la fenêtre de tolérance et la régulation émotionnelle).
+
+### Avancer pas à pas
+
+On peut s'entraîner progressivement : attendre quelques minutes avant d'envoyer un message, puis un peu plus ; rester avec la sensation, la nommer, se réguler ; puis choisir, en conscience, d'écrire ou non. Chaque absence traversée apprend au système nerveux que le lien tient, et que l'on tient aussi.
+
+## Un outil : traverser l'absence
+
+- Repérer l'alarme. « Je remarque que la peur monte : mon cœur s'accélère, j'ai envie d'écrire tout de suite. »
+
+- Réguler le corps. Respirer par le nez, allonger l'expiration, sentir ses pieds au sol.
+
+- Chercher les signaux de sécurité. Regarder autour de soi : qu'est-ce qui, ici et maintenant, est rassurant ?
+
+- Se rappeler que le lien continue. « Cette personne est absente pour le moment. Je peux attendre, et prendre soin de moi en attendant. »
+
+## Un deuxième outil : mes petites lueurs
+
+Deb Dana propose un exercice simple : apprendre à remarquer les « glimmers », ces petites lueurs de sécurité qui traversent la journée. Ce sont des micro-instants où le corps se pose un peu : un rayon de soleil, l'odeur du café, le sourire d'un passant, le message d'un ami, le ronronnement d'un chat.
+
+- Remarquer. Plusieurs fois par jour, s'arrêter un instant : y a-t-il, ici et maintenant, quelque chose d'agréable ou d'apaisant ?
+
+- Nommer. « Voilà une petite lueur. » La nommer aide le système nerveux à l'enregistrer.
+
+- Savourer. Rester quelques secondes avec la sensation : où se loge-t-elle dans le corps ? Comment la respiration change-t-elle ?
+
+- Noter. Le soir, en écrire deux ou trois dans un carnet. Peu à peu, le regard s'entraîne à voir aussi la sécurité.
+
+Ces lueurs sont précieuses pendant l'absence de l'autre : elles rappellent au corps que la sécurité peut venir de plusieurs sources à la fois, autour de soi comme en soi.
 
 ## Des pistes pour s'en libérer
 
@@ -1917,7 +2119,7 @@ La dépendance affective prend souvent racine dans l'enfance, lorsque l'amour ou
 
 ## Mon accompagnement
 
-Nous travaillons sur l'estime de soi, l'affirmation de soi et les besoins, pour que votre sécurité ne repose plus uniquement sur l'autre. La LI-ICV permet d'aller plus loin, en travaillant sur les expériences d'attachement qui ont installé ce besoin.
+Nous travaillons sur l'estime de soi, l'affirmation de soi, le respect de soi et de ses propres limites, et les besoins, pour que votre sécurité ne repose plus uniquement sur l'autre. La LI-ICV permet d'aller plus loin, en travaillant sur les expériences d'attachement qui ont installé ce besoin. La théorie polyvagale et la Pleine Conscience Sensible au Trauma aident, au quotidien, à reconnaître les signaux de sécurité et à se réguler pendant l'absence.
 
 ## Questions fréquentes
 
@@ -1939,6 +2141,12 @@ Dans une relation équilibrée, chacun garde sa place et sa liberté. Dans la d�
 
 Oui. En renforçant l'estime de soi et la sécurité intérieure, on peut construire des liens où l'on se sent libre et à sa place.
 
+-
+
+### Pourquoi est-ce si dur quand l'autre ne répond pas ?
+
+Parce que le silence réveille une alarme ancienne : le système nerveux le lit comme un signe de danger, bien avant que la pensée ne puisse le relativiser. Se réguler d'abord, puis chercher les signaux de sécurité, aide à traverser ce moment.
+
 ## Sources
 
 - Bornstein, R. F. (1992). The dependent personality: Developmental, social, and clinical perspectives. Psychological Bulletin, 112(1), 3-23.
@@ -1947,6 +2155,28 @@ Oui. En renforçant l'estime de soi et la sécurité intérieure, on peut constr
 
 - André, C., & Lelord, F. (1999). L'estime de soi. S'aimer pour mieux vivre avec les autres. Paris : Odile Jacob.
 
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
 Consultation : 1 h, 70 €, en ligne.
 
 Réserver en ligne
@@ -1954,7 +2184,7 @@ Réserver en ligne
 ---
 
 URL : https://laetitia-duchemin-psychologue.fr/peur-de-l-abandon/
-Titre : Peur de l'abandon : comprendre et s'apaiser — L. Duchemin
+Titre : Peur de l'abandon et du rejet : comprendre et s'apaiser
 
 # Peur de l'abandon
 
@@ -1963,6 +2193,12 @@ Quand chaque distance ravive la crainte d'être quitté
 La peur de l'abandon est la crainte, souvent envahissante, d'être quitté, rejeté ou laissé seul par les personnes auxquelles on tient. Elle est fréquente dans les styles d'attachement anxieux et désorganisé, et prend souvent racine dans des expériences anciennes de séparation, d'imprévisibilité ou de négligence.
 
 Prendre rendez-vous
+
+## Abandon et rejet : deux faces d'une même peur
+
+La peur de l'abandon et la peur du rejet avancent souvent ensemble. La première redoute que l'autre parte ; la seconde, de ne pas être accepté·e tel·le que l'on est. Toutes deux touchent au même besoin fondamental : compter pour quelqu'un, avoir sa place.
+
+La psychologue Geraldine Downey a décrit la « sensibilité au rejet » : une tendance à attendre le rejet avec inquiétude, à le percevoir très vite, parfois là où il n'y en a pas, et à y réagir avec intensité. Un regard, un silence, une remarque peuvent alors suffire à réveiller la blessure.
 
 ## Comment elle se manifeste
 
@@ -1976,13 +2212,43 @@ Prendre rendez-vous
 
 - Ressentir une détresse intense lors des séparations, même courtes.
 
+- Se suradapter pour ne pas déplaire : dire oui, s'effacer, chercher à être parfait·e.
+
+## Ce que vit le corps
+
+Être mis·e à l'écart fait mal, au sens propre. La chercheuse Naomi Eisenberger et ses collègues ont montré que l'exclusion sociale active des régions du cerveau qui participent aussi à la douleur physique. Pour notre espèce, être rejeté du groupe a longtemps été une question de survie : le système nerveux réagit donc à la distance comme à un danger.
+
+Le cœur s'accélère, la gorge se serre, le ventre se noue, les pensées s'emballent. C'est une réaction de protection, qui s'est installée pour de bonnes raisons, et qui peut se déclencher aujourd'hui même lorsque le danger n'est plus là (voir l'hypervigilance).
+
 ## D'où elle vient
 
-La peur de l'abandon peut naître de séparations précoces, d'une présence parentale imprévisible, d'un deuil, ou d'un manque d'attention qui n'a pas forcément laissé de souvenir précis (voir les traumas silencieux, et aussi le trauma de l'enfance). Le système nerveux a appris que le lien pouvait disparaître, et il reste en alerte.
+La peur de l'abandon peut naître de séparations précoces, d'une présence parentale imprévisible, d'un deuil, ou d'un manque d'attention qui n'a pas forcément laissé de souvenir précis (voir les traumas silencieux, et aussi le trauma de l’enfance). Le système nerveux a appris que le lien pouvait disparaître, et il reste en alerte.
+
+Le psychologue Jeffrey Young parle d'un schéma d'abandon : une croyance profonde, apprise tôt, selon laquelle les personnes importantes finiront par partir ou ne seront pas disponibles. Quand la blessure touche plutôt au rejet, elle s'accompagne souvent d'un sentiment de ne pas être digne d'amour.
+
+### Une part de soi qui a peur
+
+Lorsque la peur surgit, c'est souvent une part de soi plus jeune qui s'exprime : une séquence de pensées, d'émotions et de réactions liée au vécu passé, qui se réactive dans le présent. L'adulte d'aujourd'hui sait que l'autre est simplement occupé ; la part plus jeune, elle, revit l'ancienne séparation. Reconnaître cette part, plutôt que la combattre, est déjà une façon de l'apaiser.
+
+## Les déclencheurs du quotidien
+
+- Un message sans réponse, ou une réponse plus courte que d'habitude.
+
+- Un retard, un changement de programme.
+
+- Un ton différent, un regard ailleurs, une remarque.
+
+- Une soirée où l'on n'a pas été invité·e, une conversation dont on se sent exclu·e.
+
+- Une séparation annoncée, même courte et prévue : un voyage, une soirée sans l'autre.
+
+Repérer ses propres déclencheurs aide à anticiper et à se préparer (voir les déclencheurs émotionnels).
 
 ## Le cercle de la peur
 
 Pour se protéger, on peut adopter des comportements qui, sans le vouloir, fragilisent la relation : demander sans cesse des preuves, tester l'autre, ou se retirer. La distance qui en résulte semble alors confirmer la peur de départ. Cette peur peut aussi rendre plus difficile de quitter une relation qui fait du mal (voir l'emprise).
+
+Quand cette peur organise toute la relation, elle peut conduire à la dépendance affective, qui a son propre cercle (voir la dépendance affective).
 
 ## Des repères pour s'apaiser
 
@@ -1994,9 +2260,35 @@ Pour se protéger, on peut adopter des comportements qui, sans le vouloir, fragi
 
 - Exprimer un besoin plutôt que chercher une preuve : « J'ai besoin d'avoir de tes nouvelles ce soir. »
 
+- S'adresser à soi avec douceur, comme on le ferait avec un·e ami·e qui aurait peur (voir l'affiche « Me parler comme à un·e ami·e »).
+
+- Apprendre à traverser l'absence, pas à pas : les outils « Traverser l'absence » et « Mes petites lueurs » sont présentés sur la page dépendance affective.
+
+## Un outil : hier ou aujourd'hui ?
+
+Quand la peur monte, quelques questions aident à distinguer l'alarme ancienne de la situation présente :
+
+- Qu'est-ce qui vient de se passer, concrètement ? (les faits, comme une caméra)
+
+- Qu'est-ce que je ressens, et où dans mon corps ?
+
+- Quel âge ai-je l'impression d'avoir, en ce moment ?
+
+- Est-ce que cette sensation m'est familière ? À quoi me fait-elle penser ?
+
+- Aujourd'hui, de quoi ai-je besoin, et qu'est-ce que je peux faire pour moi ?
+
+Ces questions laissent la peur exister, tout en redonnant une place à l'adulte d'aujourd'hui, qui peut prendre soin de la part qui a peur.
+
+### Hier ou aujourd'hui ?
+
+Cinq questions pour distinguer l'alarme ancienne de la situation présente, à garder sous la main.
+
+Télécharger l'affiche (PDF)
+
 ## Mon accompagnement
 
-J'accompagne la peur de l'abandon avec la LI-ICV, qui aide le système nerveux à intégrer que ces séparations appartiennent au passé, et à construire une sécurité intérieure plus stable.
+J'accompagne la peur de l'abandon avec la LI-ICV, qui aide le système nerveux à intégrer que ces séparations appartiennent au passé, et à construire une sécurité intérieure plus stable. La théorie polyvagale et la Pleine Conscience Sensible au Trauma aident, au quotidien, à reconnaître l'alarme dans le corps et à revenir vers la sécurité.
 
 ## Questions fréquentes
 
@@ -2018,6 +2310,18 @@ C'est une façon de se protéger : partir le premier évite de revivre la douleu
 
 Souvent, mais pas toujours. Des expériences plus récentes, comme une rupture brutale ou un deuil, peuvent aussi la raviver.
 
+-
+
+### La peur du rejet, est-ce de l'hypersensibilité ?
+
+Les deux peuvent se rencontrer : une personne très sensible perçoit plus finement les signaux des autres, et peut ressentir plus fort une distance ou une critique. Mais la sensibilité au rejet vient surtout de l'histoire relationnelle (voir la haute sensibilité).
+
+-
+
+### Est-ce que cela concerne seulement le couple ?
+
+Elle peut aussi se manifester en amitié, en famille ou au travail : la peur d'être mis·e à l'écart d'un groupe, de décevoir un responsable, de ne plus être invité·e.
+
 ## Sources
 
 - Bowlby, J. (1973). Attachment and Loss. Vol. 2 : Separation: Anxiety and Anger. New York : Basic Books.
@@ -2025,6 +2329,10 @@ Souvent, mais pas toujours. Des expériences plus récentes, comme une rupture b
 - Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press (schéma d'abandon).
 
 - Mikulincer, M., & Shaver, P. R. (2016). Attachment in Adulthood: Structure, Dynamics, and Change (2e éd.). New York : Guilford Press.
+
+-
+
+-
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -2720,6 +3028,34 @@ Ces mécanismes peuvent aussi s'exercer sans aucune violence visible. On parle a
 
 Les chercheurs Donald Dutton et Susan Painter ont décrit le « lien traumatique » : dans une relation où alternent de façon imprévisible les moments positifs et les moments douloureux, l'attachement peut paradoxalement se renforcer. Le système nerveux recherche le soulagement auprès de la personne même qui crée l'insécurité. C'est l'une des raisons pour lesquelles il est si difficile de partir, et pourquoi on ne doit jamais s'en juger.
 
+## Pourquoi est-il si difficile de partir ?
+
+« Pourquoi reste-t-elle ? », « pourquoi reste-t-il ? » : la question revient souvent, chez les proches comme chez la personne elle-même, et elle porte en elle un jugement. Une autre question aide davantage à comprendre : qu'est-ce qui retient ?
+
+Le lien d'emprise fonctionne comme un élastique : plus on s'éloigne, plus il se tend, et plus il ramène vers l'autre, avec un effet de rebond. Plusieurs fils, souvent entremêlés, le composent :
+
+- Le lien traumatique. L'alternance imprévisible de tendresse et de souffrance renforce l'attachement : des moments doux, rares et inattendus attachent plus fort qu'une tendresse constante.
+
+- Le cycle de la violence. La psychologue Lenore Walker a décrit un cycle qui se répète : la tension monte, une crise éclate, viennent ensuite les justifications, puis une phase de réconciliation, parfois appelée « lune de miel ». Cette dernière phase fait renaître l'espoir.
+
+- L'espoir. On garde en mémoire la personne du début de la relation, et l'on espère la retrouver.
+
+- L'isolement. Moins de proches à qui parler, moins de regards extérieurs pour confirmer ce que l'on vit.
+
+- Le doute de soi. Quand on ne se fie plus à sa propre perception, prendre une décision devient très difficile.
+
+- La honte et la peur d'être jugé·e. Elles rendent difficile d'en parler, et donc d'être aidé·e.
+
+- Les liens concrets. Le logement, l'argent, le travail, les enfants, les animaux : partir demande souvent de tout réorganiser.
+
+- La peur. Peur de la réaction de l'autre, peur de ne pas y arriver seul·e, peur de l'inconnu.
+
+Chacun de ces fils a sa logique. Comprendre ce qui retient aide à se libérer de la culpabilité, et à avancer à son rythme. Les allers-retours font souvent partie du chemin : chacun peut être vu comme une étape (voir aussi la dépendance affective).
+
+### Le moment de la séparation
+
+La période de la séparation peut être un moment où les tensions augmentent. Elle se prépare, avec de l'aide : en parler à des personnes de confiance, se renseigner auprès d'associations spécialisées, garder à portée de main ses papiers importants et des numéros utiles. Le 3919 peut aider à construire un plan de mise en sécurité, et le 116 006 oriente vers une association d'aide aux victimes proche de chez soi.
+
 ## « Pervers narcissique » : un terme à nuancer
 
 L'expression « pervers narcissique » est très utilisée pour décrire une personne qui exerce une emprise. Elle vient des travaux du psychanalyste Paul-Claude Racamier, et a été popularisée par Marie-France Hirigoyen. Ce n'est pas un diagnostic : elle ne figure dans aucune classification médicale (ni la CIM-11, ni le DSM). Elle peut aider à mettre des mots sur ce que l'on vit, mais il est souvent plus utile de s'intéresser aux comportements et à leurs effets sur soi qu'à une étiquette.
@@ -2746,7 +3082,7 @@ Je vous accompagne pour comprendre les mécanismes de la relation, retrouver con
 
 ## Quand demander de l'aide
 
-Si vous vous sentez en danger, appelez le 17 (police) ou le 112. Le 3919 (Violences Femmes Info) est gratuit, anonyme et accessible 24 h/24. Pour un enfant ou un adolescent, ou si vous êtes inquiet·e pour un mineur, le 119 (Allô Enfance en Danger) est gratuit et accessible 24 h/24. En cas de détresse, le 3114 répond aussi 24 h/24.
+Si vous vous sentez en danger, appelez le 17 (police) ou le 112. Le 3919 (Violences Femmes Info) est gratuit, anonyme et accessible 24 h/24. Le 116 006, numéro d'aide aux victimes, est gratuit et ouvert à toutes et tous, 7 j/7, de 9 h à 20 h. Pour un enfant ou un adolescent, ou si vous êtes inquiet·e pour un mineur, le 119 (Allô Enfance en Danger) est gratuit et accessible 24 h/24. En cas de détresse, le 3114 répond aussi 24 h/24.
 
 ## Questions fréquentes
 
@@ -2760,7 +3096,7 @@ Quelques repères peuvent alerter : vous vous sentez souvent coupable, vous marc
 
 ### Pourquoi est-ce que je n'arrive pas à partir ?
 
-Parce que l'emprise crée un lien fort, entretenu par l'alternance des moments positifs et douloureux (le lien traumatique), par l'isolement et par le doute. Ce n'est pas un manque de volonté.
+Parce que l'emprise crée un lien fort, entretenu par l'alternance des moments positifs et douloureux (le lien traumatique), par l'isolement et par le doute. Ce n'est pas un manque de volonté : plusieurs fils retiennent à la fois, comme un élastique qui ramène vers l'autre.
 
 ## Sources
 
@@ -2771,6 +3107,8 @@ Parce que l'emprise crée un lien fort, entretenu par l'alternance des moments p
 - Hirigoyen, M.-F. (1998). Le harcèlement moral : la violence perverse au quotidien. Paris : Syros.
 
 - Racamier, P.-C. (1992). Le génie des origines. Paris : Payot.
+
+- Walker, L. E. (1979). The Battered Woman. New York : Harper & Row.
 
 Consultation : 1 h, 70 €, en ligne.
 

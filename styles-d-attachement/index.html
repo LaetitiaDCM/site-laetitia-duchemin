@@ -31,7 +31,7 @@
    "name": "Styles d'attachement et théorie de l'attachement — L. Duchemin",
    "description": "Styles d'attachement (sécure, anxieux, évitant, désorganisé) : d'où ils viennent, leurs effets à l'âge adulte et l'accompagnement en ligne.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-07",
+   "dateModified": "2026-10-08",
    "about": {
     "@type": "Thing",
     "name": "Styles d'attachement"
@@ -146,7 +146,7 @@ p{margin:0 0 1em}
 .nav a.cta{color:var(--gold-soft);border:1px solid rgba(236,208,150,.55);padding:.45rem 1.1rem;border-radius:999px}
 .nav a.cta:hover{background:rgba(217,166,72,.15)}
 .menu-btn{display:none;background:none;border:1px solid rgba(236,208,150,.5);color:var(--gold-soft);border-radius:999px;padding:.45rem 1rem;min-height:44px;font:400 .875rem var(--sans);cursor:pointer}
-@media (max-width:1100px){
+@media (max-width:1279px){
   .menu-btn{display:block}
   .nav{position:absolute;left:0;right:0;top:100%;background:rgba(27,17,64,.97);border-bottom:1px solid rgba(236,208,150,.2);display:none;padding:1rem 1.25rem 1.5rem}
   .nav.open{display:block}
@@ -392,7 +392,7 @@ footer summary{padding-block:.65rem}
 :root[data-theme="dark"] .quad .q-s{fill:#3a2d5c;stroke:#d9a648}
 </style>
 <style id="nav-dd">
-.nav .nav-top{display:flex;gap:1.15rem;align-items:center;list-style:none;margin:0;padding:0}
+.nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
 .nav .dd{position:relative}
 .nav .dd-btn{background:none;border:0;border-bottom:1px solid transparent;color:#e9e3f7;font:400 .86rem var(--sans);letter-spacing:.03em;padding:.4rem 0;cursor:pointer;display:inline-flex;align-items:center;gap:.35rem;white-space:nowrap}
 .nav .dd-btn:hover,.nav .dd.here>.dd-btn{border-color:var(--gold)}
@@ -402,16 +402,16 @@ footer summary{padding-block:.65rem}
 .nav .dd-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
 .nav .dd-panel{display:block;list-style:none;margin:0;padding:.55rem 0;position:absolute;top:calc(100% + .7rem);left:-1rem;min-width:16rem;background:rgba(27,17,64,.98);border:1px solid rgba(236,208,150,.22);border-radius:14px;box-shadow:0 18px 40px rgba(10,5,30,.45);opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .18s,transform .18s,visibility .18s;z-index:60}
 .nav .dd-panel::before{content:"";position:absolute;left:0;right:0;top:-.8rem;height:.8rem}
-.nav .dd:nth-last-child(2) .dd-panel,.nav .dd:nth-last-child(3) .dd-panel{left:auto;right:-1rem}
+.nav .dd:nth-last-child(3) .dd-panel,.nav .dd:nth-last-child(4) .dd-panel{left:auto;right:-1rem}
 .nav .dd-panel a{display:block;padding:.48rem 1.1rem;font-size:.88rem;color:#e9e3f7;border:0;white-space:normal;line-height:1.35}
 .nav .dd-panel a:hover,.nav .dd-panel a:focus-visible{background:rgba(217,166,72,.13);color:#fff}
 .nav .dd-panel a.dd-main{font-family:var(--serif);font-size:1.05rem;color:var(--gold-soft)}
 .nav .dd-panel li:has(+ li>a:not(.dd-main))>a.dd-main{border-bottom:1px solid rgba(236,208,150,.16);margin-bottom:.3rem;padding-bottom:.6rem}
 .nav .dd-panel a[aria-current="page"]{color:var(--gold-soft);box-shadow:inset 3px 0 0 var(--gold)}
-@media (min-width:1101px){
+@media (min-width:1280px){
   .nav .dd:hover>.dd-panel,.nav .dd:focus-within>.dd-panel,.nav .dd-btn[aria-expanded="true"]+.dd-panel{opacity:1;visibility:visible;transform:none}
 }
-@media (max-width:1100px){
+@media (max-width:1279px){
   .nav{background:#1b1140;max-height:calc(100vh - 72px);max-height:calc(100dvh - 72px);overflow-y:auto}
   .nav .nav-top{flex-direction:column;align-items:stretch;gap:0}
   .nav .dd{border-bottom:1px solid rgba(236,208,150,.12)}
@@ -420,11 +420,13 @@ footer summary{padding-block:.65rem}
   .nav .dd-panel::before{display:none}
   .nav .dd-btn[aria-expanded="true"]+.dd-panel{display:block}
   .nav .dd-panel a{padding:.6rem .8rem;font-size:.97rem;min-height:44px;display:flex;align-items:center}
+  .nav .nav-plain{border-bottom:1px solid rgba(236,208,150,.12)}
+  .nav .nav-plain a{display:flex;align-items:center;width:100%;font-size:1.02rem;padding:.85rem 0;min-height:48px;border:0}
   .nav .nav-cta{padding-top:1rem}
   .nav .nav-cta a{display:inline-block}
 }
 @media (min-width:1180px){.site-header .wrap{width:min(1340px,100% - 3rem)}.nav .nav-top{gap:1.55rem}}
-@media (min-width:1440px){.nav .nav-top{gap:2rem}.nav .dd-btn{font-size:.9rem}}
+@media (min-width:1440px){.nav .nav-top{gap:2rem}.nav .dd-btn,.nav .nav-plain a{font-size:.9rem}}
 @media (prefers-reduced-motion:reduce){.nav .dd-panel,.nav .dd-caret{transition:none}}
 </style>
 </head>
@@ -509,9 +511,9 @@ footer summary{padding-block:.65rem}
             <li><a href="/a-propos/" class="dd-main">À propos</a></li>
             <li><a href="/recherche/">Ma recherche doctorale</a></li>
             <li><a href="/#infos">Infos pratiques et tarifs</a></li>
-            <li><a href="/#ressources">Mes exercices et ressources</a></li>
           </ul>
         </li>
+        <li class="nav-plain"><a href="/#ressources">Ressources</a></li>
         <li class="nav-cta"><a class="cta" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
       </ul>
     </nav>
@@ -537,7 +539,7 @@ footer summary{padding-block:.65rem}
     <h3>L'attachement sécure</h3>
     <p>Vous vous sentez à l'aise dans la proximité comme dans l'autonomie. Vous pouvez demander de l'aide, faire confiance et supporter la séparation sans vous sentir menacé. Voir la page <a href="/attachement-secure/">attachement sécure</a>, qui parle aussi du sécure acquis.</p>
     <h3>L'attachement anxieux (ou ambivalent)</h3>
-    <p>Lorsque la présence des figures d'attachement a été imprévisible, l'enfant apprend à intensifier ses signaux pour être entendu. À l'âge adulte, cela peut se traduire par la peur d'être abandonné, un besoin fréquent de réassurance et une grande sensibilité aux signes de rejet. Voir la page <a href="/attachement-anxieux/">attachement anxieux</a>.</p>
+    <p>Lorsque la présence des figures d'attachement a été imprévisible, ou surprotectrice au point de laisser peu l'enfant faire par lui-même, l'enfant apprend à intensifier ses signaux pour être entendu, et faire seul peut devenir source d'anxiété. À l'âge adulte, cela peut se traduire par la peur d'être abandonné, un besoin fréquent de réassurance et une grande sensibilité aux signes de rejet. Voir la page <a href="/attachement-anxieux/">attachement anxieux</a>.</p>
     <h3>L'attachement évitant</h3>
     <p>Lorsque les besoins de réconfort ont souvent été repoussés, l'enfant apprend à ne plus les montrer. À l'âge adulte, cela peut se traduire par une grande autonomie, une difficulté à exprimer ses émotions ou à demander de l'aide, et un malaise face à la proximité. Voir la page <a href="/attachement-evitant/">attachement évitant</a>.</p>
     <h3>L'attachement désorganisé</h3>
@@ -600,6 +602,7 @@ footer summary{padding-block:.65rem}
     </ul>
     <h2 id="sources">Sources</h2>
     <ul class="refs-list">
+      <li>Cassidy, J., &amp; Berlin, L. J. (1994). The insecure/ambivalent pattern of attachment: Theory and research. Child Development, 65(4), 971-991.</li>
       <li>Bowlby, J. (1969). <em>Attachment and Loss. Vol. 1 : Attachment</em>. New York : Basic Books.</li>
       <li>Ainsworth, M. D. S., Blehar, M. C., Waters, E., &amp; Wall, S. (1978). <em>Patterns of Attachment</em>. Hillsdale : Erlbaum.</li>
       <li>Main, M., &amp; Solomon, J. (1990). Procedures for identifying infants as disorganized/disoriented during the Ainsworth Strange Situation. In M. T. Greenberg, D. Cicchetti &amp; E. M. Cummings (dir.), <em>Attachment in the Preschool Years</em>. Chicago : University of Chicago Press.</li>

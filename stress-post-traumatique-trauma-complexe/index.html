@@ -31,7 +31,7 @@
    "name": "Trauma complexe et TSPT en ligne — Laetitia Duchemin, psychologue",
    "description": "TSPT et TSPT complexe : comprendre ce qui vous arrive, les manifestations au quotidien, l'état de stress aigu et l'accompagnement en ligne.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-06",
+   "dateModified": "2026-10-08",
    "about": {
     "@type": "Thing",
     "name": "Trouble de stress post-traumatique et trouble de stress post-traumatique complexe (CIM-11)"
@@ -146,7 +146,7 @@ p{margin:0 0 1em}
 .nav a.cta{color:var(--gold-soft);border:1px solid rgba(236,208,150,.55);padding:.45rem 1.1rem;border-radius:999px}
 .nav a.cta:hover{background:rgba(217,166,72,.15)}
 .menu-btn{display:none;background:none;border:1px solid rgba(236,208,150,.5);color:var(--gold-soft);border-radius:999px;padding:.45rem 1rem;min-height:44px;font:400 .875rem var(--sans);cursor:pointer}
-@media (max-width:1100px){
+@media (max-width:1279px){
   .menu-btn{display:block}
   .nav{position:absolute;left:0;right:0;top:100%;background:rgba(27,17,64,.97);border-bottom:1px solid rgba(236,208,150,.2);display:none;padding:1rem 1.25rem 1.5rem}
   .nav.open{display:block}
@@ -380,7 +380,7 @@ footer summary{padding-block:.65rem}
 .lede a{color:var(--gold-soft)}
 </style>
 <style id="nav-dd">
-.nav .nav-top{display:flex;gap:1.15rem;align-items:center;list-style:none;margin:0;padding:0}
+.nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
 .nav .dd{position:relative}
 .nav .dd-btn{background:none;border:0;border-bottom:1px solid transparent;color:#e9e3f7;font:400 .86rem var(--sans);letter-spacing:.03em;padding:.4rem 0;cursor:pointer;display:inline-flex;align-items:center;gap:.35rem;white-space:nowrap}
 .nav .dd-btn:hover,.nav .dd.here>.dd-btn{border-color:var(--gold)}
@@ -390,16 +390,16 @@ footer summary{padding-block:.65rem}
 .nav .dd-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
 .nav .dd-panel{display:block;list-style:none;margin:0;padding:.55rem 0;position:absolute;top:calc(100% + .7rem);left:-1rem;min-width:16rem;background:rgba(27,17,64,.98);border:1px solid rgba(236,208,150,.22);border-radius:14px;box-shadow:0 18px 40px rgba(10,5,30,.45);opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .18s,transform .18s,visibility .18s;z-index:60}
 .nav .dd-panel::before{content:"";position:absolute;left:0;right:0;top:-.8rem;height:.8rem}
-.nav .dd:nth-last-child(2) .dd-panel,.nav .dd:nth-last-child(3) .dd-panel{left:auto;right:-1rem}
+.nav .dd:nth-last-child(3) .dd-panel,.nav .dd:nth-last-child(4) .dd-panel{left:auto;right:-1rem}
 .nav .dd-panel a{display:block;padding:.48rem 1.1rem;font-size:.88rem;color:#e9e3f7;border:0;white-space:normal;line-height:1.35}
 .nav .dd-panel a:hover,.nav .dd-panel a:focus-visible{background:rgba(217,166,72,.13);color:#fff}
 .nav .dd-panel a.dd-main{font-family:var(--serif);font-size:1.05rem;color:var(--gold-soft)}
 .nav .dd-panel li:has(+ li>a:not(.dd-main))>a.dd-main{border-bottom:1px solid rgba(236,208,150,.16);margin-bottom:.3rem;padding-bottom:.6rem}
 .nav .dd-panel a[aria-current="page"]{color:var(--gold-soft);box-shadow:inset 3px 0 0 var(--gold)}
-@media (min-width:1101px){
+@media (min-width:1280px){
   .nav .dd:hover>.dd-panel,.nav .dd:focus-within>.dd-panel,.nav .dd-btn[aria-expanded="true"]+.dd-panel{opacity:1;visibility:visible;transform:none}
 }
-@media (max-width:1100px){
+@media (max-width:1279px){
   .nav{background:#1b1140;max-height:calc(100vh - 72px);max-height:calc(100dvh - 72px);overflow-y:auto}
   .nav .nav-top{flex-direction:column;align-items:stretch;gap:0}
   .nav .dd{border-bottom:1px solid rgba(236,208,150,.12)}
@@ -408,11 +408,13 @@ footer summary{padding-block:.65rem}
   .nav .dd-panel::before{display:none}
   .nav .dd-btn[aria-expanded="true"]+.dd-panel{display:block}
   .nav .dd-panel a{padding:.6rem .8rem;font-size:.97rem;min-height:44px;display:flex;align-items:center}
+  .nav .nav-plain{border-bottom:1px solid rgba(236,208,150,.12)}
+  .nav .nav-plain a{display:flex;align-items:center;width:100%;font-size:1.02rem;padding:.85rem 0;min-height:48px;border:0}
   .nav .nav-cta{padding-top:1rem}
   .nav .nav-cta a{display:inline-block}
 }
 @media (min-width:1180px){.site-header .wrap{width:min(1340px,100% - 3rem)}.nav .nav-top{gap:1.55rem}}
-@media (min-width:1440px){.nav .nav-top{gap:2rem}.nav .dd-btn{font-size:.9rem}}
+@media (min-width:1440px){.nav .nav-top{gap:2rem}.nav .dd-btn,.nav .nav-plain a{font-size:.9rem}}
 @media (prefers-reduced-motion:reduce){.nav .dd-panel,.nav .dd-caret{transition:none}}
 </style>
 </head>
@@ -497,9 +499,9 @@ footer summary{padding-block:.65rem}
             <li><a href="/a-propos/" class="dd-main">À propos</a></li>
             <li><a href="/recherche/">Ma recherche doctorale</a></li>
             <li><a href="/#infos">Infos pratiques et tarifs</a></li>
-            <li><a href="/#ressources">Mes exercices et ressources</a></li>
           </ul>
         </li>
+        <li class="nav-plain"><a href="/#ressources">Ressources</a></li>
         <li class="nav-cta"><a class="cta" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
       </ul>
     </nav>
@@ -703,6 +705,23 @@ footer summary{padding-block:.65rem}
     <p>Quand le trauma s'installe, l'alarme reste plus sensible et se déclenche plus facilement, tandis que les régions qui aident à prendre du recul et à réguler les émotions, notamment le cortex préfrontal, ont plus de mal à la calmer. Ces changements ne sont pas figés : le cerveau reste plastique. La thérapie permet de déconstruire des connexions neuronales liées au trauma, pour construire de nouveaux chemins vers le rétablissement. Ces réactions rejoignent les états de mobilisation et d'immobilisation décrits par la <a href="/theorie-polyvagale/">théorie polyvagale</a>.</p>
     <h2 id="origine-de-la-notion">D'où vient la notion de trauma complexe</h2>
     <p>La notion a été proposée en 1992 par la psychiatre américaine Judith Herman, à partir de son travail auprès de personnes ayant subi des violences répétées et prolongées, dans l'enfance, le couple ou la captivité. Elle constatait que le diagnostic de stress post-traumatique ne rendait pas compte de l'ensemble de leurs difficultés : la régulation des émotions, l'image de soi et les relations étaient elles aussi profondément touchées. L'Organisation mondiale de la santé a reconnu le TSPT complexe comme un diagnostic distinct dans sa classification internationale des maladies (la CIM-11), entrée en vigueur en 2022.</p>
+    <h2 id="trauma-relationnel">Un trauma relationnel</h2>
+    <p>Le trauma complexe est avant tout un trauma relationnel. Il naît le plus souvent au sein de relations, de façon répétée, et parfois avec les personnes mêmes qui étaient censées protéger : un parent, un proche, un partenaire.</p>
+    <p>Cela change profondément la façon dont le trauma s'inscrit. Lorsque le danger vient de l'extérieur, comme un accident ou une catastrophe, on peut se tourner vers ses proches pour être rassuré. Lorsqu'il vient de la relation elle-même, le lien et la peur se mêlent : le besoin d'attachement, qui pousse à se rapprocher quand on a peur, se retrouve face à une impasse (voir l'<a href="/attachement-desorganise/">attachement désorganisé</a>). Le psychiatre Bessel van der Kolk parle de trauma développemental pour souligner que ces expériences surviennent pendant que l'enfant se construit.</p>
+    <h3 id="trauma-de-trahison">Quand la blessure vient de quelqu'un dont on dépend</h3>
+    <p>La psychologue Jennifer Freyd a décrit le « trauma de trahison » : lorsque la blessure vient d'une personne dont on dépend, l'enfant a besoin de préserver ce lien pour grandir. Il peut alors, sans le décider, ne pas voir, minimiser ou oublier en partie ce qui se passe. Freyd parle de « cécité à la trahison ». Ce mécanisme de protection aide à comprendre certaines amnésies (voir la <a href="/memoire-traumatique/">mémoire traumatique</a>), et pourquoi il est parfois si difficile de reconnaître ce que l'on a vécu.</p>
+    <h3 id="traces-dans-les-relations">Les traces dans les relations d'aujourd'hui</h3>
+    <p>À l'âge adulte, ce trauma laisse souvent des traces dans les liens :</p>
+    <ul class="dash">
+      <li>une difficulté à faire confiance, ou au contraire une confiance donnée très vite ;</li>
+      <li>la peur d'être abandonné·e ou rejeté·e (voir la <a href="/peur-de-l-abandon/">peur de l’abandon</a>) ;</li>
+      <li>des mouvements d'approche et de fuite, comme un élastique qui se tend puis ramène ;</li>
+      <li>une tendance à s'oublier pour l'autre, ou à tout contrôler pour ne plus être pris·e au dépourvu ;</li>
+      <li>une plus grande vulnérabilité à l'emprise et à la dépendance affective (voir l'<a href="/emprise/">emprise</a> et la <a href="/dependance-affective/">dépendance affective</a>).</li>
+    </ul>
+    <p>Ces réactions ont été, un jour, des façons de se protéger. Elles se comprennent, et elles peuvent évoluer.</p>
+    <h3 id="se-retablir-dans-la-relation">Se rétablir dans la relation</h3>
+    <p>Pour Judith Herman, le rétablissement ne peut se faire que dans le contexte de relations, et non dans l'isolement. Ce qui a été blessé dans la relation peut aussi se réparer dans la relation : d'abord dans une relation thérapeutique fiable et prévisible, où l'on peut retrouver peu à peu de la sécurité, puis dans des liens plus sereins (voir <a href="/relation-saine/">une relation saine</a> et les <a href="/styles-d-attachement/">styles d’attachement</a>).</p>
     <h2 id="traumas-silencieux">Les traumas silencieux : quand « rien » n'est pas rien</h2>
     <p>« Je n'ai rien vécu de grave. » Beaucoup de personnes le disent, et pourtant elles se reconnaissent dans les manifestations du trauma. Certaines blessures ne viennent pas de ce qui s'est passé, mais de ce qui a manqué : une attention, un réconfort, une présence qui rassure, quelqu'un à qui confier ses émotions. C'est la négligence, notamment émotionnelle. Parce qu'il n'y a pas d'événement précis à raconter, ces traumas restent souvent silencieux, et l'on peine à leur donner de l'importance.</p>
     <p>La psychothérapeute américaine Ruth Cohn, qui a consacré un ouvrage au trauma de négligence, le résume ainsi : « Rien n'est pas rien. Rien, c'est quelque chose. Et ce rien compte. » Ce manque répété peut laisser des traces comparables à celles d'un trauma, en particulier sur la régulation des émotions, l'image de soi et les relations, comme dans le trauma complexe.</p>
@@ -736,6 +755,9 @@ footer summary{padding-block:.65rem}
     <h2 id="sources">Sources</h2>
     <ul class="refs-list">
       <li>Herman, J. L. (1992). Complex PTSD: A syndrome in survivors of prolonged and repeated trauma. <em>Journal of Traumatic Stress</em>, 5(3), 377-391.</li>
+      <li>Herman, J. L. (1992). Trauma and Recovery. New York : Basic Books.</li>
+      <li>Freyd, J. J. (1996). Betrayal Trauma: The Logic of Forgetting Childhood Abuse. Cambridge (MA) : Harvard University Press.</li>
+      <li>van der Kolk, B. A. (2005). Developmental trauma disorder: Toward a rational diagnosis for children with complex trauma histories. <i>Psychiatric Annals</i>, 35(5), 401-408.</li>
       <li>Organisation mondiale de la santé. CIM-11, 6B41 Trouble de stress post-traumatique complexe.</li>
       <li>Maercker, A., Cloitre, M., Bachem, R., et al. (2022). Complex post-traumatic stress disorder. <em>The Lancet</em>, 400(10345), 60-72.</li>
       <li>Tarquinio, C. (dir.) (2022). <em>Manuel des troubles psychotraumatiques. Théories et pratiques cliniques</em>. Paris : Dunod.</li>
