@@ -973,6 +973,20 @@ Dans un sablier, le sable ne passe pas d'un seul coup : il s'écoule grain par g
 
 Ce travail se fait en co-régulation avec le thérapeute : un système nerveux calme et présent aide l'autre à rester dans sa fenêtre de tolérance. C'est l'accordage, l'un des piliers de la LI-ICV, avec la ligne du temps et la répétition. La LI-ICV permet ainsi de travailler la stabilisation et l'intégration en même temps, grâce à son processus doux, progressif et orienté dans le temps.
 
+La LI-ICV permet aussi de travailler la mémoire implicite, celle qui n'est pas directement accessible à la conscience : les émotions, les sensations et les réactions du corps liées au passé, même sans souvenir précis (voir mémoire explicite et mémoire implicite).
+
+## Pourquoi la répétition compte : le principe de Hebb
+
+En 1949, le psychologue canadien Donald Hebb a proposé une idée devenue centrale en neurosciences : lorsque deux neurones s'activent en même temps, de façon répétée, la connexion entre eux se renforce. On la résume souvent ainsi : « les neurones qui s'activent ensemble se connectent ensemble ». C'est l'un des mécanismes de la plasticité du cerveau, qui lui permet d'apprendre tout au long de la vie.
+
+La LI-ICV s'appuie sur ce principe. À chaque passage de la ligne du temps, le souvenir est activé en même temps que les repères du présent : l'adulte d'aujourd'hui, en sécurité, présent dans son corps, accompagné par le thérapeute. En répétant ces passages, le cerveau renforce le lien entre les deux : le souvenir n'appelle plus seulement l'alarme, il appelle aussi le sentiment que c'est passé. C'est pourquoi la répétition est l'un des piliers de la LI-ICV.
+
+Le schéma ci-dessous l'illustre : à chaque passage, la connexion s'illumine et se renforce.
+
+Le souvenir et la sécurité d'aujourd'hui sont encore peu reliés.
+
+Sources : Hebb, D. O. (1949). The Organization of Behavior: A Neuropsychological Theory. New York : Wiley. Shatz, C. J. (1992). The developing brain. Scientific American, 267(3), 60-67.
+
 ## Comment se déroule l'accompagnement
 
 - Les premières séances : nous prenons le temps de comprendre votre demande, votre histoire et vos ressources, et de construire un sentiment de sécurité.
@@ -1169,6 +1183,28 @@ Prendre rendez-vous
 
 L'EMDR (Eye Movement Desensitization and Reprocessing, ou désensibilisation et retraitement par les mouvements oculaires) a été développée à la fin des années 1980 par la psychologue américaine Francine Shapiro. Elle s'appuie sur des stimulations bilatérales alternées (mouvements des yeux, sons ou tapotements) pendant que la personne se concentre sur un souvenir difficile, selon un protocole structuré en huit phases.
 
+Elle repose sur un modèle appelé traitement adaptatif de l'information. Selon ce modèle, le cerveau digère naturellement la plupart des expériences difficiles, mais certains souvenirs, trop intenses, restent stockés tels quels, avec les images, les émotions et les sensations du moment. Ils peuvent alors se réactiver dans le présent. Les stimulations bilatérales aideraient à relancer ce travail d'intégration, pendant que la personne garde un pied dans le présent et l'autre dans le souvenir : on parle de double attention.
+
+Les huit phases du protocole :
+
+- L'histoire de la personne et le plan de traitement.
+
+- La préparation : la relation de confiance, et des outils pour se stabiliser, comme le lieu sûr.
+
+- L'évaluation du souvenir cible : l'image, la pensée négative sur soi, la pensée positive souhaitée, l'émotion et la sensation dans le corps.
+
+- La désensibilisation, par séries de stimulations bilatérales.
+
+- L'installation de la pensée positive.
+
+- Le scanner corporel, pour vérifier qu'il ne reste pas de tension dans le corps.
+
+- La clôture de la séance, en revenant à un état de calme.
+
+- La réévaluation, à la séance suivante.
+
+Pour le trauma complexe, les thérapeutes EMDR allongent souvent la phase de préparation et adaptent le rythme, pour travailler dans la fenêtre de tolérance de la personne.
+
 ## La LI-ICV
 
 La LI-ICV (Intégration du Cycle de la Vie) a été créée dans les années 2000 par la psychothérapeute américaine Peggy Pace. Formée à l'EMDR, elle observait ses limites lorsqu'il s'agissait de trauma complexe : c'est pour cela qu'elle a créé la LI-ICV. Aujourd'hui, ce constat est à nuancer, car de nouveaux protocoles EMDR émergent pour mieux travailler sur le trauma complexe.
@@ -1187,11 +1223,29 @@ La LI-ICV est une thérapie de connexion des différents états du soi. Elle s'a
 
 - Avec la LI-ICV, on peut remonter très loin dans les expériences précoces de la vie d'une personne, y compris des périodes dont on n'a pas de souvenir précis.
 
+- La LI-ICV permet de travailler la mémoire implicite, celle qui n'est pas directement accessible à la conscience : ce que le corps et les émotions ont gardé, au-delà des mots (voir mémoire explicite et mémoire implicite).
+
 - La LI-ICV est plus douce : elle expose progressivement, alors qu'en EMDR le focus sur un souvenir est plus long.
 
 - La ligne du temps relie la personne au présent : à chaque passage, le système nerveux intègre que le passé est passé.
 
 - La recherche : un grand nombre d'études pour l'EMDR, recommandée par l'Organisation mondiale de la santé et la Haute Autorité de santé ; des études plus récentes et moins nombreuses pour la LI-ICV.
+
+## D'autres thérapies du trauma
+
+La LI-ICV et l'EMDR ne sont pas les seules approches. D'autres thérapies ont été pensées pour le trauma, chacune avec sa porte d'entrée :
+
+- Le Somatic Experiencing, créé par le psychologue américain Peter Levine. Il part du corps : il aide à terminer, en douceur et par petites étapes, les réactions de survie restées inachevées (fuir, se défendre, se figer). Il avance par petites doses, en alternant entre une sensation difficile et une sensation de ressource.
+
+- La thérapie sensori-motrice, développée par la psychologue américaine Pat Ogden. Elle associe la parole et l'attention aux sensations, aux postures et aux mouvements, pour que le corps participe au travail thérapeutique.
+
+- Les thérapies cognitives et comportementales centrées sur le trauma, comme l'exposition prolongée ou la thérapie des processus cognitifs. Elles sont, avec l'EMDR, parmi les plus étudiées et les plus recommandées.
+
+- Les approches qui travaillent avec les parts de soi, comme l'IFS, et les approches corporelles qui aident à retrouver de la sécurité, comme la TCTSY ou la Pleine Conscience Sensible au Trauma.
+
+## L'essentiel : trouver ce qui vous convient
+
+Il n'existe pas une seule bonne thérapie du trauma. Ce qui compte le plus, quelle que soit l'approche, c'est la qualité de la relation avec le thérapeute : les recherches montrent qu'elle fait partie des éléments qui pèsent le plus dans le rétablissement. Une approche peut vous convenir à un moment de votre vie, une autre plus tard. Le mieux est de rester curieux·se, de vous écouter, et de ne pas vous fermer de portes.
 
 ## Comment choisir ?
 
@@ -1226,6 +1280,12 @@ Non. Je pratique la LI-ICV, et je peux vous orienter si vous souhaitez une thér
 - Pace, P. (2012). Lifespan Integration: Connecting Ego States through Time (5e éd.). Eirene Imprint.
 
 - Smith, J. (2024). Applications cliniques en ICV (Intégration du Cycle de la Vie). Paris : Dunod.
+
+- Levine, P. A. (1997). Waking the Tiger: Healing Trauma. Berkeley : North Atlantic Books.
+
+- Ogden, P., Minton, K., & Pain, C. (2006). Trauma and the Body: A Sensorimotor Approach to Psychotherapy. New York : Norton.
+
+- Flückiger, C., Del Re, A. C., Wampold, B. E., & Horvath, A. O. (2018). The alliance in adult psychotherapy: A meta-analytic synthesis. Psychotherapy, 55(4), 316-340.
 
 Séance ICV : 1 h 30, 90 €, en ligne.
 
@@ -1275,6 +1335,24 @@ Après un événement soudain et violent (un accident, une agression, une annonc
 - Dans le trauma complexe : une honte ou une culpabilité persistantes, le sentiment d'être différent des autres, une difficulté à faire confiance et à vous sentir proche des autres.
 
 Ces manifestations ne suffisent pas à poser un diagnostic : ce qui compte, c'est leur durée, leur intensité et leur retentissement sur votre vie quotidienne. Elles s'évaluent en consultation.
+
+## Les répercussions sur la vie quotidienne
+
+Le trauma complexe ne se limite pas aux souvenirs. Il touche souvent plusieurs domaines de la vie à la fois, parfois sans que l'on fasse le lien avec ce qui a été vécu :
+
+- Les relations et le couple : la peur d'être abandonné·e ou, au contraire, d'être trop proche ; la difficulté à faire confiance, à dire non, à se sentir en sécurité avec l'autre (voir les styles d’attachement).
+
+- Le travail ou les études : une fatigue qui ne passe pas, des difficultés de concentration, l'impression de devoir toujours en faire plus pour mériter sa place, ou de ne jamais la trouver.
+
+- Le corps et la santé : un sommeil fragile, des tensions, des douleurs, un corps toujours en alerte (voir l'hypervigilance).
+
+- Les émotions : des réactions qui paraissent disproportionnées, des moments de vide, une sensibilité aux déclencheurs (voir les déclencheurs émotionnels).
+
+- L'image de soi : la honte, l'autocritique, le sentiment de ne pas être à la hauteur (voir honte et culpabilité).
+
+- La parentalité : la peur de reproduire ce que l'on a vécu, ou des réactions qui surprennent face à son propre enfant.
+
+Ces répercussions ne disent rien d'un manque de force ou de volonté. Elles montrent comment le système nerveux s'est adapté à un environnement qui n'était pas sûr. Ces adaptations ont eu leur raison d'être ; elles peuvent aujourd'hui s'assouplir.
 
 ## Comment savoir si l'on a vécu un traumatisme ?
 
@@ -1343,6 +1421,50 @@ Quand le trauma s'installe, l'alarme reste plus sensible et se déclenche plus f
 
 La notion a été proposée en 1992 par la psychiatre américaine Judith Herman, à partir de son travail auprès de personnes ayant subi des violences répétées et prolongées, dans l'enfance, le couple ou la captivité. Elle constatait que le diagnostic de stress post-traumatique ne rendait pas compte de l'ensemble de leurs difficultés : la régulation des émotions, l'image de soi et les relations étaient elles aussi profondément touchées. L'Organisation mondiale de la santé a reconnu le TSPT complexe comme un diagnostic distinct dans sa classification internationale des maladies (la CIM-11), entrée en vigueur en 2022.
 
+## TSPT complexe et trauma complexe : une nuance importante
+
+Les deux expressions sont souvent employées l'une pour l'autre, mais elles ne recouvrent pas tout à fait la même chose. Le TSPT complexe est un diagnostic : celui que l'Organisation mondiale de la santé a défini dans la CIM-11, avec des critères précis. Le trauma complexe est une notion clinique plus large : elle décrit l'ensemble des répercussions de traumatismes répétés, prolongés et souvent relationnels, en particulier lorsqu'ils surviennent dans l'enfance.
+
+### Ce que retient la CIM-11
+
+Le TSPT complexe associe les trois manifestations du stress post-traumatique :
+
+- revivre ce qui s'est passé (souvenirs envahissants, cauchemars, flashbacks) ;
+
+- éviter ce qui le rappelle ;
+
+- se sentir sans cesse menacé·e (alerte, sursauts, sommeil difficile) ;
+
+et trois difficultés durables, que la CIM-11 appelle des perturbations de l'organisation du soi :
+
+- des émotions difficiles à réguler, trop fortes ou, au contraire, comme éteintes ;
+
+- une image de soi marquée par la honte, la culpabilité ou le sentiment d'échec ;
+
+- des difficultés à se sentir proche des autres et à maintenir des relations.
+
+### Ce que décrit la clinique du trauma complexe
+
+La clinique décrit un tableau plus complet. Judith Herman en avait dégagé plusieurs domaines, que l'on retrouve dans les travaux plus récents :
+
+- La régulation des émotions et des impulsions : des émotions qui débordent ou qui s'éteignent, des comportements qui servent à se soulager sur le moment, des prises de risque.
+
+- L'attention et la conscience : la dissociation, l'impression d'être coupé·e de soi ou du monde, des trous de mémoire.
+
+- La perception de soi : un sentiment profond d'être différent·e, abîmé·e ou responsable de ce qui est arrivé.
+
+- La perception de la personne qui a fait du mal : loyauté, difficulté à reconnaître sa responsabilité, ou place qu'elle continue d'occuper dans les pensées.
+
+- Les relations : la méfiance, la difficulté à se protéger, la répétition de relations qui font souffrir (voir l'emprise).
+
+- Le corps : des douleurs, une fatigue ou des troubles physiques qui persistent, sans explication médicale complète.
+
+- Le sens : la perte de confiance dans le monde, dans l'avenir, ou dans ce qui donnait du sens à la vie.
+
+### Un avertissement : attention à l'autodiagnostic
+
+Ces repères aident à comprendre, mais ils ne permettent pas de se diagnostiquer soi-même. Plusieurs tableaux cliniques en santé mentale peuvent se rejoindre et partager des symptômes similaires. Seul un professionnel de santé peut réellement déterminer la présence ou non d'un trauma complexe, à partir des éléments que vous apportez et de ce qui est observé au fil des rencontres.
+
 ## Un trauma relationnel
 
 Le trauma complexe est avant tout un trauma relationnel. Il naît le plus souvent au sein de relations, de façon répétée, et parfois avec les personnes mêmes qui étaient censées protéger : un parent, un proche, un partenaire.
@@ -1387,6 +1509,10 @@ On peut aussi être touché par le trauma des autres : c'est le trauma vicariant
 
 Les recommandations internationales décrivent souvent un travail par étapes : construire d'abord un sentiment de sécurité et des ressources pour réguler vos émotions, puis travailler les souvenirs traumatiques, enfin intégrer ce travail dans votre vie présente et vos relations. Le rythme est ajusté à chacun : il ne s'agit pas de revenir sur les souvenirs avant d'avoir les moyens de le faire sans être submergé.
 
+Plusieurs approches peuvent accompagner ce chemin. Certaines passent par la mémoire, l'histoire de vie et le corps, comme la LI-ICV, ou par la mémoire, comme l'EMDR ; d'autres partent avant tout du corps, comme la TCTSY ou la Pleine Conscience Sensible au Trauma ; d'autres encore des parts de soi, comme l'IFS. Il n'y a pas une seule bonne approche : l'essentiel est de trouver celle qui vous convient (voir LI-ICV ou EMDR).
+
+Le travail ne demande pas de tout raconter, ni de tout se rappeler. Il s'appuie aussi sur ce que le corps et les émotions ont gardé, au-delà des mots (voir mémoire explicite et mémoire implicite).
+
 ## Pour aller plus loin
 
 - Les déclencheurs émotionnels : quand le présent réveille le passé.
@@ -1423,7 +1549,7 @@ Lorsque les souvenirs, l'évitement ou l'état d'alerte persistent plus d'un moi
 
 ### Le trauma complexe est-il un diagnostic reconnu ?
 
-Oui. L'Organisation mondiale de la santé le reconnaît dans sa classification internationale des maladies (la CIM-11), utilisée par les professionnels de santé dans le monde entier, sous le nom de trouble de stress post-traumatique complexe. Le manuel américain de référence utilisé dans le cadre médical (le DSM-5-TR) ne le distingue pas encore du stress post-traumatique.
+Le TSPT complexe, oui : l'Organisation mondiale de la santé le reconnaît dans sa classification internationale des maladies (la CIM-11). Le manuel américain de référence (le DSM-5-TR) ne le distingue pas encore du stress post-traumatique. Le trauma complexe, lui, est une notion clinique plus large, qui décrit l'ensemble des répercussions de traumatismes répétés, au-delà des seuls critères du diagnostic.
 
 -
 
@@ -1436,6 +1562,24 @@ Oui. Elles peuvent apparaître ou s'intensifier des mois, voire des années apr�
 ### Faut-il raconter en détail ce qui s'est passé ?
 
 Non, pas nécessairement. Certaines approches, comme la LI-ICV, permettent de travailler sans décrire les événements dans le détail. On avance à votre rythme.
+
+-
+
+### ESPT, TSPT, syndrome post-traumatique : quelle différence ?
+
+Aucune sur le fond : ce sont plusieurs noms pour la même chose. « État de stress post-traumatique » (ESPT) est l'ancienne traduction française ; on parle aujourd'hui de « trouble de stress post-traumatique » (TSPT), et l'on entend aussi « syndrome post-traumatique » dans le langage courant. Pour la forme complexe, la classification de l'Organisation mondiale de la santé (CIM-11) parle de TSPT complexe.
+
+-
+
+### Peut-on se rétablir d'un trauma complexe ?
+
+Oui. Le chemin est souvent plus long que pour un événement unique, parce qu'il touche à la sécurité, à l'image de soi et aux relations. Mais avec un accompagnement adapté, à votre rythme, les réactions s'apaisent, le passé reprend sa place dans le temps, et de nouvelles façons d'être en lien deviennent possibles. Le rétablissement ne veut pas dire oublier : il veut dire que ce qui a été vécu cesse de diriger le présent.
+
+-
+
+### Est-ce que je peux être aidé·e si je ne me souviens pas de ce qui a pu m'arriver ?
+
+Oui. Beaucoup de personnes consultent avec peu de souvenirs, ou sans souvenir précis. Le travail part de ce qui est présent aujourd'hui : les émotions, les réactions du corps, les relations. Une partie de ce qui a été vécu est gardée dans la mémoire implicite, sans forme de récit, et peut être travaillée sans que le souvenir revienne. Il n'est pas nécessaire de savoir exactement ce qui s'est passé pour aller mieux (voir la mémoire traumatique).
 
 ## Sources
 
@@ -1464,6 +1608,8 @@ Non, pas nécessairement. Certaines approches, comme la LI-ICV, permettent de tr
 - Weathers, F. W., Litz, B. T., Keane, T. M., Palmieri, P. A., Marx, B. P., & Schnurr, P. P. (2013). The PTSD Checklist for DSM-5 (PCL-5). National Center for PTSD.
 
 - Ashbaugh, A. R., Houle-Johnson, S., Herbert, C., El-Hage, W., & Brunet, A. (2016). Psychometric validation of the English and French versions of the Posttraumatic Stress Disorder Checklist for DSM-5 (PCL-5). PLoS ONE, 11(10), e0161645.
+
+- World Health Organization (2022). ICD-11: 6B41 Complex post traumatic stress disorder. Genève : OMS.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -2832,6 +2978,22 @@ Prendre rendez-vous
 
 Lors d'un événement traumatique, l'alarme du cerveau est si forte que l'hippocampe, qui range habituellement les souvenirs dans le temps et dans l'espace, ne peut pas faire son travail. Le souvenir reste alors morcelé, sensoriel, sans le repère du « c'était avant ». S'il continue à se manifester, c'est parce que notre cerveau cherche justement à le résoudre, à l'intégrer, et reste en échec. Il peut être réactivé par un déclencheur : une odeur, un bruit, un lieu, une date, un ton de voix, parfois sans que l'on fasse le lien.
 
+## Mémoire explicite et mémoire implicite
+
+Notre mémoire n'est pas un seul tiroir. Les chercheurs distinguent deux grandes formes de mémoire :
+
+- La mémoire explicite : celle des souvenirs que l'on peut se rappeler et raconter, avec des mots, un lieu, un moment. Elle s'appuie notamment sur l'hippocampe.
+
+- La mémoire implicite : celle qui n'est pas directement accessible à la conscience. C'est la mémoire des comportements automatiques : on sait faire du vélo sans se souvenir de comment on l'a appris, ni penser à chaque geste. Elle garde de la même façon des émotions, des sensations, des réactions du corps et des façons d'être en relation, sans qu'on se souvienne de leur origine.
+
+Lors d'un traumatisme, et plus encore lorsqu'il a lieu dans la petite enfance, une grande partie de ce qui est vécu peut être gardée dans la mémoire implicite, sans souvenir explicite associé. C'est pourquoi on peut avoir peur, se figer ou se sentir en danger sans savoir pourquoi : le corps se souvient, même quand le récit manque.
+
+En thérapie, on peut travailler ces deux formes de mémoire. La LI-ICV, en particulier, permet de travailler la mémoire implicite : en parcourant la ligne du temps, en lien avec ce que ressent le corps, le système nerveux intègre aussi ce qui n'a jamais été mis en mots (voir la LI-ICV).
+
+### Pour la FAQ de cette page (lien vers la réponse complète sur la page trauma complexe)
+
+Est-ce que je peux être aidé·e si je ne me souviens pas de ce qui a pu m'arriver ? Oui. Une partie de ce qui a été vécu reste gardée dans la mémoire implicite, et peut être travaillée sans que le souvenir revienne. Il n'est pas nécessaire de tout se rappeler pour aller mieux.
+
 ## Flashbacks, reviviscences et cauchemars : ce que l'on peut vivre
 
 On appelle reviviscences ces moments où un souvenir revient avec force, comme s'il se reproduisait maintenant : par des images, des sensations, des émotions ou des cauchemars. Elles sont souvent réveillées par un déclencheur (voir les déclencheurs émotionnels).
@@ -2849,6 +3011,16 @@ On appelle reviviscences ces moments où un souvenir revient avec force, comme s
 Il arrive qu'une partie ou la totalité d'un événement traumatique devienne inaccessible à la mémoire, parfois pendant des années. Cette amnésie est liée à la dissociation : le système nerveux met à distance ce qui était trop difficile à vivre. Elle est reconnue dans les classifications internationales, sous le nom d'amnésie dissociative. Des souvenirs peuvent revenir plus tard, souvent déclenchés par un événement de vie ou un rappel sensoriel.
 
 Toute mémoire se reconstruit à chaque rappel. C'est pourquoi, en thérapie, je ne suggère jamais de souvenirs : nous travaillons avec ce qui se présente, à votre rythme, sans chercher à combler les vides à tout prix.
+
+## Comment se souvenir d'un traumatisme d'enfance ?
+
+C'est une question que beaucoup de personnes se posent, souvent parce qu'elles ressentent quelque chose sans pouvoir le relier à un souvenir précis. Certains souvenirs peuvent revenir avec le temps, souvent par fragments : une image, une odeur, une sensation dans le corps, une émotion, sans récit complet. Ils reviennent plutôt d'eux-mêmes, quand le système nerveux se sent suffisamment en sécurité.
+
+D'autres n'existent pas en mémoire. Lors d'un événement traumatique, il arrive que la mémoire n'enregistre pas l'information, sous l'effet de la dissociation : il n'y a alors pas de souvenir à retrouver. Le corps, lui, peut garder la trace de ce qui a été vécu, même quand les mots manquent (voir les déclencheurs émotionnels).
+
+Il n'existe pas de technique fiable pour faire revenir un souvenir, et chercher à tout prix peut même être risqué : la mémoire se reconstruit à chaque rappel, et la psychologue Elizabeth Loftus a montré qu'un souvenir peut se modifier, voire se créer, sous l'effet de la suggestion. C'est pourquoi les méthodes qui promettent de « retrouver » des souvenirs sont à éviter.
+
+En thérapie, on ne part pas à la recherche du souvenir : on part de ce qui est présent aujourd'hui, dans les émotions, le corps et les relations, et l'on accueille ce qui se présente, à votre rythme. Il est possible d'aller beaucoup mieux sans tout se rappeler.
 
 ## Un repère au quotidien : c'était avant
 
@@ -2882,6 +3054,18 @@ Non. Ce qui compte, ce n'est pas de retrouver chaque détail, mais que ce qui a 
 
 Le corps peut garder la trace d'une expérience sous forme de sensations ou d'émotions, même lorsque le récit n'est pas accessible. Ces réactions ont un sens, et elles peuvent s'apaiser.
 
+-
+
+### Comment se souvenir d'un traumatisme d'enfance ?
+
+Certains souvenirs peuvent revenir avec le temps, souvent par fragments, quand on se sent en sécurité ; d'autres n'ont jamais été enregistrés, sous l'effet de la dissociation. Il vaut mieux ne pas chercher à les forcer : la mémoire peut être influencée par la suggestion. Et il est possible d'aller mieux sans tout se rappeler.
+
+-
+
+### Est-ce que je peux être aidé·e si je ne me souviens pas de ce qui a pu m'arriver ?
+
+Oui. Une partie de ce qui a été vécu reste gardée dans la mémoire implicite, et peut être travaillée sans que le souvenir revienne. Il n'est pas nécessaire de tout se rappeler pour aller mieux (voir le trauma complexe).
+
 ## Sources
 
 - van der Kolk, B. A., & Fisler, R. (1995). Dissociation and the fragmentary nature of traumatic memories: Overview and exploratory study. Journal of Traumatic Stress, 8(4), 505-525.
@@ -2889,6 +3073,12 @@ Le corps peut garder la trace d'une expérience sous forme de sensations ou d'é
 - Brewin, C. R. (2014). Episodic memory, perceptual memory, and their interaction: Foundations for a theory of posttraumatic stress disorder. Psychological Bulletin, 140(1), 69-97.
 
 - American Psychiatric Association (2013). DSM-5 : Manuel diagnostique et statistique des troubles mentaux (5e éd.), amnésie dissociative.
+
+- Loftus, E. F. (1997). Creating false memories. Scientific American, 277(3), 70-75.
+
+- Squire, L. R. (2004). Memory systems of the brain: A brief history and current perspective. Neurobiology of Learning and Memory, 82(3), 171-177.
+
+- van der Kolk, B. A. (2014). The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma. New York : Viking. (trad. française : Le corps n'oublie rien, Albin Michel)
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -2913,11 +3103,29 @@ Un déclencheur est un élément du présent qui réactive une émotion, une sen
 
 La réaction qu'il entraîne semble souvent disproportionnée par rapport à la situation actuelle. Elle est en réalité proportionnée à ce qu'elle rappelle. Notre cerveau va pourtant essayer de relier cette activation émotionnelle à un élément du contexte présent, sans comprendre qu'il réagit en réalité au passé : on attribue alors l'émotion à ce qui se passe maintenant. Dans le langage de l'IFS, on dirait qu'une part de soi, liée au vécu passé, se réactive dans le présent.
 
+Être « trigger » : l'expression est devenue courante, sur les réseaux sociaux notamment. Elle désigne bien ce mécanisme : une réaction forte, déclenchée par un élément du présent qui rappelle le passé. Ce n'est pas une susceptibilité : c'est le système nerveux qui protège.
+
+## Des exemples de déclencheurs
+
+Les déclencheurs sont propres à chaque histoire, mais on retrouve souvent quelques familles :
+
+- Les sens : une odeur, un bruit, une musique, une lumière, une texture, un goût.
+
+- Les relations : un ton de voix, un regard, une critique, un silence, une porte qui claque, le sentiment d'être exclu·e ou abandonné·e.
+
+- Les lieux et les situations : un hôpital, une route, une fête de famille, un conflit, un examen.
+
+- Le temps : une date anniversaire, une saison, un moment de la journée.
+
+- Le corps : la fatigue, la faim, une douleur, une sensation physique qui rappelle autre chose.
+
 ## Pourquoi le corps réagit avant la pensée
 
 Notre système nerveux évalue en permanence, sans que nous en ayons conscience, si notre environnement est sûr ou menaçant : c'est la neuroception, décrite par Stephen Porges dans la théorie polyvagale. Quand un élément ressemble à un danger passé, l'alarme se déclenche en une fraction de seconde, bien avant que la pensée ait eu le temps d'analyser la situation.
 
 Après un événement difficile, certains souvenirs restent enregistrés surtout sous forme de sensations, d'images et d'émotions, sans être bien rangés dans le temps (voir la mémoire traumatique). C'est pourquoi un détail sensoriel peut les réveiller, avec l'impression que « ça se passe maintenant ».
+
+Une grande partie de ce mécanisme passe par la mémoire implicite, celle qui n'est pas directement accessible à la conscience : c'est pourquoi on peut être déclenché·e sans savoir par quoi (voir mémoire explicite et mémoire implicite).
 
 ## Reconnaître ses déclencheurs
 
@@ -2982,6 +3190,18 @@ Le corps peut garder la trace d'une expérience que la mémoire consciente n'a p
 ### Les déclencheurs peuvent-ils disparaître ?
 
 Oui, lorsque l'événement ou les événements à l'origine sont retraités. Le souvenir redevient alors un souvenir du passé, et ne réveille plus la même alarme.
+
+-
+
+### Un déclencheur peut-il disparaître ?
+
+Il peut perdre beaucoup de sa force. Lorsque ce qu'il rappelle est intégré, le système nerveux reconnaît que le passé est passé, et la réaction s'apaise. La répétition joue un rôle important dans ce travail (voir le principe de Hebb, sur la page LI-ICV).
+
+-
+
+### Comment savoir ce qui me déclenche ?
+
+En observant, sans vous juger, ce qui se passe juste avant une réaction forte : où vous étiez, ce que vous avez vu, entendu, ressenti. Le carnet des déclencheurs est fait pour cela.
 
 ## Sources
 
@@ -3250,6 +3470,34 @@ La période de la séparation peut être un moment où les tensions augmentent. 
 
 L'expression « pervers narcissique » est très utilisée pour décrire une personne qui exerce une emprise. Elle vient des travaux du psychanalyste Paul-Claude Racamier, et a été popularisée par Marie-France Hirigoyen. Ce n'est pas un diagnostic : elle ne figure dans aucune classification médicale (ni la CIM-11, ni le DSM). Elle peut aider à mettre des mots sur ce que l'on vit, mais il est souvent plus utile de s'intéresser aux comportements et à leurs effets sur soi qu'à une étiquette.
 
+### D'où vient l'expression
+
+Racamier décrivait la perversion narcissique comme une façon de se protéger de ses propres failles en se valorisant aux dépens de l'autre : l'autre devient un objet que l'on utilise, que l'on disqualifie, pour ne pas ressentir sa propre souffrance. Marie-France Hirigoyen a ensuite montré comment ce fonctionnement peut s'exprimer au quotidien, dans le couple, la famille ou le travail, sous la forme d'une violence psychologique souvent invisible de l'extérieur.
+
+### Les comportements que l'on décrit
+
+Ce que les personnes concernées décrivent le plus souvent, ce sont des comportements, qui se répètent :
+
+- l'alternance entre des moments de charme ou de tendresse et des moments de froideur ou de dévalorisation ;
+
+- la critique, les remarques blessantes présentées comme de l'humour ou de la franchise ;
+
+- la culpabilisation et l'inversion des rôles : c'est vous qui finissez par vous excuser ;
+
+- le doute semé sur vos souvenirs ou vos perceptions ;
+
+- l'isolement progressif de vos proches et de vos appuis ;
+
+- le double discours : une image séduisante à l'extérieur, une autre dans l'intimité.
+
+### Narcissisme, trouble de la personnalité, pervers narcissique : ne pas tout confondre
+
+Le narcissisme, au sens courant, désigne le besoin d'être reconnu et valorisé : nous en avons tous une part, et elle est nécessaire à l'estime de soi. Le trouble de la personnalité narcissique, lui, est un diagnostic qui figure dans le DSM-5 ; seul un professionnel de santé peut le poser, après une évaluation approfondie. Et toutes les personnes qui ont un fonctionnement narcissique n'exercent pas une emprise, comme toutes les emprises ne relèvent pas d'un trouble de la personnalité.
+
+### Pourquoi s'intéresser plutôt à ce qui se passe pour vous
+
+Mettre un nom peut soulager : enfin, ce que l'on vit a une forme. Mais l'étiquette a ses limites. Elle ne peut pas être posée à distance, sur quelqu'un que l'on n'a pas évalué. Elle peut enfermer la relation dans le face-à-face d'un « bourreau » et d'une « victime », et faire oublier ce qui, dans votre histoire, a rendu ce lien si difficile à quitter (voir pourquoi l’emprise touche à notre histoire). Les questions les plus utiles sont souvent : qu'est-ce que je vis dans cette relation ? Qu'est-ce que cela me fait ? De quoi ai-je besoin pour me protéger ?
+
 ## Pourquoi l'emprise touche à notre histoire
 
 Tout le monde peut se retrouver sous emprise. Notre histoire peut parfois rendre certains mécanismes plus familiers, notamment quand l'insécurité ou l'imprévisibilité faisaient partie de l'enfance (voir le trauma de l'enfance et les styles d'attachement). Ce n'est jamais une faute de la personne qui la subit.
@@ -3288,6 +3536,12 @@ Quelques repères peuvent alerter : vous vous sentez souvent coupable, vous marc
 
 Parce que l'emprise crée un lien fort, entretenu par l'alternance des moments positifs et douloureux (le lien traumatique), par l'isolement et par le doute. Ce n'est pas un manque de volonté : plusieurs fils retiennent à la fois, comme un élastique qui ramène vers l'autre.
 
+-
+
+### Comment savoir si mon ou ma partenaire est un pervers narcissique ?
+
+Ce n'est pas un diagnostic, et personne ne peut le déterminer à distance. Ce que vous pouvez observer, en revanche, ce sont les comportements et leurs effets sur vous : si vous vous sentez de plus en plus diminué·e, isolé·e, en doute sur vous-même, ces signes méritent d'être pris au sérieux, quel que soit le nom qu'on leur donne.
+
 ## Sources
 
 - Dutton, D. G., & Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. Victimology, 6(1-4), 139-155.
@@ -3299,6 +3553,10 @@ Parce que l'emprise crée un lien fort, entretenu par l'alternance des moments p
 - Racamier, P.-C. (1992). Le génie des origines. Paris : Payot.
 
 - Walker, L. E. (1979). The Battered Woman. New York : Harper & Row.
+
+- Racamier, P.-C. (1986). Entre agonie psychique, déni psychotique et perversion narcissique. Revue française de psychanalyse, 50(5), 1299-1309.
+
+- American Psychiatric Association (2013). Diagnostic and Statistical Manual of Mental Disorders (5e éd.). Arlington : APA.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -3605,6 +3863,14 @@ Le déroulé et les points de stimulation, sur une page à imprimer ou à garder
 
 Télécharger l'affiche (PDF)
 
+## Les points d'acupression : un héritage de la médecine chinoise
+
+Les points tapotés en EFT viennent de la médecine traditionnelle chinoise. Selon ce modèle, une énergie vitale, le qi, circule dans le corps le long de canaux appelés méridiens. Sur ces méridiens se trouvent des points précis, que l'acupuncture stimule avec de fines aiguilles et l'acupression avec la pression des doigts. Dans cette tradition, stimuler un point aide à rétablir la libre circulation de l'énergie, et avec elle l'équilibre du corps et des émotions.
+
+L'EFT a repris ces points, mais sans aiguilles : on les stimule par de légers tapotements, du bout des doigts. Elle descend d'une méthode plus ancienne, la Thought Field Therapy, mise au point dans les années 1980 par le psychologue américain Roger Callahan, qui associait déjà des séquences de tapotements à une émotion gardée à l'esprit. Gary Craig l'a ensuite simplifiée en une ronde unique, la même pour toutes les émotions.
+
+Il n'est pas nécessaire d'adhérer à la notion d'énergie pour pratiquer l'EFT clinique : la médecine chinoise en est l'origine, et c'est un modèle de compréhension parmi d'autres. La recherche explore aujourd'hui d'autres pistes, plus physiologiques : la stimulation de la peau par le toucher, l'apaisement de la réponse de stress, ou encore une baisse du cortisol, l'hormone du stress, observée après des séances d'EFT.
+
 ## Comment ça agit
 
 Les tapotements stimulent des cellules mécano-sensorielles de la peau, sensibles à la pression et au toucher. Selon les hypothèses actuelles, ces signaux envoyés au cerveau contribueraient à apaiser la réponse de stress, notamment l'activation de l'amygdale, pendant que l'on garde l'émotion à l'esprit.
@@ -3631,6 +3897,12 @@ Oui, c'est même sa vocation première : une fois la technique apprise, elle s'u
 
 Non. Il suffit de suivre le déroulé et d'observer ce qui change dans l'intensité de l'émotion.
 
+-
+
+### EFT et acupuncture, est-ce la même chose ?
+
+Non. L'EFT utilise des points issus de la médecine chinoise, mais sans aiguilles, et toujours en gardant à l'esprit l'émotion ou la sensation sur laquelle on travaille. L'acupuncture est un soin à part entière, pratiqué par des professionnels formés.
+
 ## Sources
 
 - Church, D., Stapleton, P., Vasudevan, A., & O'Keefe, T. (2022). Clinical EFT as an evidence-based practice for the treatment of psychological and physiological conditions: A systematic review. Frontiers in Psychology, 13, 951451.
@@ -3638,6 +3910,10 @@ Non. Il suffit de suivre le déroulé et d'observer ce qui change dans l'intensi
 - Clond, M. (2016). Emotional Freedom Techniques for anxiety: A systematic review with meta-analysis. The Journal of Nervous and Mental Disease, 204(5), 388-395.
 
 - Sebastian, B., & Nelms, J. (2017). The effectiveness of Emotional Freedom Techniques in the treatment of posttraumatic stress disorder: A meta-analysis. Explore, 13(1), 16-25.
+
+- Callahan, R. J., & Trubo, R. (2001). Tapping the Healer Within: Using Thought Field Therapy to Instantly Conquer Your Fears, Anxieties, and Emotional Distress. New York : Contemporary Books.
+
+- Church, D., Yount, G., & Brooks, A. J. (2012). The effect of Emotional Freedom Techniques on stress biochemistry: A randomized controlled trial. The Journal of Nervous and Mental Disease, 200(10), 891-896.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -3664,7 +3940,7 @@ Prendre rendez-vous
 
 - Les troubles du comportement alimentaire, qui relèvent à la fois du comportement et de l'alimentation.
 
-- La pornographie, une addiction particulière (voir plus bas).
+- La pornographie et les comportements sexuels compulsifs (voir plus bas).
 
 ## Les critères de l'addiction selon Aviel Goodman
 
@@ -3706,15 +3982,15 @@ Ces critères aident à repérer une addiction ; le diagnostic se fait en consul
 
 Beaucoup de personnes consomment d'abord pour se soulager : calmer une angoisse, éteindre des émotions trop fortes, dormir, oublier, se sentir moins seul. Le psychiatre Edward Khantzian a décrit cette fonction d'apaisement sous le nom d'« automédication ». Avec la répétition, le cerveau associe la consommation au soulagement, et l'envie revient dès que la tension monte.
 
-Les addictions sont fréquemment liées à des expériences difficiles ou traumatiques, en particulier dans l'enfance (voir le trauma complexe). La consommation peut alors aider à réguler un système nerveux resté en alerte ou, au contraire, à se couper de ce que l'on ressent (voir la régulation émotionnelle et la dissociation). Dans le modèle IFS, on peut y reconnaître l'action d'une part « pompier », qui cherche à éteindre une douleur au plus vite.
+Les addictions peuvent être liées à des expériences difficiles ou traumatiques, en particulier dans l'enfance, sans que ce soit toujours le cas (voir le trauma complexe). La consommation peut alors aider à réguler un système nerveux resté en alerte ou, au contraire, à se couper de ce que l'on ressent (voir la régulation émotionnelle et la dissociation). Dans le modèle IFS, on peut y reconnaître l'action d'une part « pompier », qui cherche à éteindre une douleur au plus vite.
 
 ## La honte et la culpabilité
 
 Quelle que soit l'addiction, la honte et la culpabilité y occupent une place importante. Elles poussent à cacher la consommation, à s'isoler et à repousser le moment d'en parler, alors que ce sont souvent elles qui entretiennent le besoin de se soulager. Les accueillir sans jugement est une étape essentielle de l'accompagnement (voir honte et culpabilité).
 
-## La pornographie, une addiction particulière
+## La pornographie : quand la consommation devient difficile à contrôler
 
-L'addiction à la pornographie a la particularité d'être accessible à tous, gratuitement et partout, en quelques secondes. Elle commence souvent tôt, la première exposition ayant parfois lieu avant 10 ans. C'est ce qui en fait l'une des addictions les plus difficiles à défaire, d'autant que la honte et la culpabilité empêchent souvent d'oser en parler. En consultation, elle peut être abordée simplement, sans jugement.
+La pornographie est accessible à tous, gratuitement et partout, en quelques secondes, et la première exposition a parfois lieu tôt. Une consommation fréquente ne suffit pas à parler d'addiction : ce qui compte, c'est la perte de contrôle et le retentissement sur la vie. La honte empêche souvent d'en parler ; en consultation, elle peut être abordée simplement, sans jugement (voir pornographie et comportements sexuels compulsifs).
 
 ## Les étapes du changement
 
@@ -3805,6 +4081,141 @@ La honte est très fréquente, quelle que soit l'addiction. Vous pouvez avancer 
 - Felitti, V. J., Anda, R. F., Nordenberg, D., et al. (1998). The Adverse Childhood Experiences (ACE) Study. American Journal of Preventive Medicine, 14(4), 245-258.
 
 - Bowen, S., Chawla, N., & Marlatt, G. A. (2011). Mindfulness-Based Relapse Prevention for Addictive Behaviors. New York : Guilford Press.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/pornographie-comportements-sexuels-compulsifs/
+Titre : Pornographie et comportements sexuels compulsifs
+
+# Pornographie et comportements sexuels compulsifs
+
+Quand la consommation devient difficile à contrôler
+
+Regarder de la pornographie, même souvent, ne constitue pas à lui seul une addiction ni un trouble. Ce qui compte, c'est la perte de contrôle : l'impression que le comportement prend une place que l'on ne choisit plus, et ce qu'il entraîne dans la vie de la personne. Cette page propose quelques repères, sans jugement, pour comprendre ce qui se passe et savoir quand un accompagnement peut aider.
+
+Prendre rendez-vous
+
+## Quand la consommation devient difficile à contrôler
+
+Certaines personnes ont le sentiment que leur consommation prend trop de place. On le repère surtout à quelques signes :
+
+- Le temps consacré au comportement, et la place qu'il occupe dans le quotidien.
+
+- Des tentatives répétées, et sans succès, de réduire ou d'arrêter.
+
+- La poursuite du comportement malgré des conséquences négatives, sur le sommeil, le travail, le couple ou l'estime de soi.
+
+- L'impression de perdre le contrôle, même avec une réelle volonté de changer.
+
+La classification internationale de l'Organisation mondiale de la santé (CIM-11) décrit un trouble du comportement sexuel compulsif. Il se définit par la perte de contrôle, la souffrance et le retentissement sur la vie, et non par la fréquence ni par le contenu de ce que l'on regarde. Seul un professionnel peut évaluer ce qu'il en est pour vous.
+
+## Un premier contact souvent précoce, et pas toujours choisi
+
+La première exposition à la pornographie a souvent lieu tôt, à l'adolescence ou même dans l'enfance. Elle n'est pas toujours choisie : une image tombée par hasard sur une chaîne de télévision tard le soir ou sur internet, une vidéo regardée avec des camarades « pour faire pareil »… Ce premier contact, vécu sans repères et sans personne à qui en parler, peut marquer. Ce n'est en rien la faute de l'enfant ou de l'adolescent qui l'a vécu.
+
+## Le circuit de la récompense et l'escalade
+
+La pornographie active fortement le circuit de la récompense du cerveau, qui libère de la dopamine face à ce qui est nouveau et excitant. Avec la répétition, la même image produit moins d'effet : c'est le phénomène de tolérance. Chez certaines personnes, cela peut conduire à chercher des contenus de plus en plus intenses, parfois plus violents, pour retrouver le même effet. Cette escalade ne concerne pas tout le monde ; lorsqu'elle s'installe, elle peut créer un décalage douloureux avec ses propres valeurs et nourrir la honte. La comprendre comme un mécanisme, et non comme un défaut de la personne, aide déjà à en sortir (voir le circuit de la récompense sur la page Addictions).
+
+## Honte et culpabilité
+
+Il est souvent difficile d'en parler : peur d'être jugé·e ou incompris·e, secret, culpabilité après la consommation, crainte de blesser son ou sa partenaire. La honte pousse à se cacher, et l'isolement entretient souvent le besoin de se soulager (voir honte et culpabilité).
+
+Il est utile de distinguer deux sources de souffrance, qui peuvent coexister sans être équivalentes : celle qui vient d'une perte de contrôle, et celle qui vient d'un décalage entre le comportement et ses valeurs, ses convictions ou ses normes personnelles. Les recherches du psychologue Joshua Grubbs montrent que ce décalage peut, à lui seul, donner le sentiment d'une addiction. Les deux méritent d'être entendus, mais ils ne se travaillent pas de la même façon.
+
+## Pornographie, désir et sexualité
+
+Certaines personnes se posent des questions sur leur sexualité : l'évolution de leurs attentes, leur rapport à l'excitation et au désir, leur satisfaction dans la sexualité partagée, la place de la pornographie dans leur vie intime. Ses effets varient beaucoup selon les personnes, les usages et les contextes : la pornographie ne dérègle pas systématiquement la sexualité. Ce qui compte, c'est ce que vous en vivez, et ce que vous souhaitez pour vous.
+
+## La place du ou de la partenaire
+
+Pour le ou la partenaire, la découverte peut être un choc. Beaucoup décrivent le sentiment d'être insuffisant·e, l'impression de perdre de la valeur, de devoir faire plus ou être autrement, d'être mis·e en concurrence avec des images, d'être trahi·e et trompé·e. S'y ajoutent souvent la perte de confiance, l'inquiétude face au secret et l'incertitude sur la façon de réagir. Ce ressenti est légitime et important : il mérite d'être entendu pour lui-même, et pas seulement comme une conséquence du comportement de l'autre. Il ne s'agit pas pour autant de désigner un coupable. Le ou la partenaire peut avoir besoin de soutien pour comprendre ce qu'il ou elle vit, poser ses limites et préserver son propre équilibre, sans devenir le contrôleur du comportement de l'autre.
+
+## Ce que le comportement peut apporter
+
+Comme d'autres comportements répétés, la consommation peut remplir une fonction : s'apaiser, faire baisser le stress ou une émotion difficile, combler l'ennui ou la solitude, éviter de ressentir certaines choses, ou chercher une stimulation. Ces fonctions ne sont ni les mêmes pour tout le monde, ni forcément liées à un traumatisme : elles se découvrent à partir de votre propre expérience, sans être présumées.
+
+Lorsqu'il y a un lien avec d'autres difficultés, il peut être utile d'explorer, par exemple, la régulation des émotions ou l'anxiété (voir la régulation émotionnelle et l'anxiété). Et lorsque l'histoire de la personne comporte des expériences traumatiques, ce lien peut aussi être travaillé, s'il fait sens pour elle (voir le trauma complexe).
+
+## Que faire ? Des pistes concrètes
+
+Changer son rapport à la pornographie se fait rarement d'un seul coup. Quelques repères peuvent aider à reprendre la main, pas à pas :
+
+- Faire le point sans se juger : noter, pendant quelques semaines, quand l'envie arrive, ce qui s'est passé juste avant, et ce que vous ressentez après.
+
+- Repérer les moments à risque : le soir, la solitude, la fatigue, le stress, l'ennui. Prévoir pour ces moments une alternative concrète, préparée à l'avance.
+
+- Mettre de la distance avec l'accès : le téléphone hors de la chambre la nuit, des filtres ou des bloqueurs, moins d'applications qui entraînent vers ces contenus. Ce sont des appuis, pas des punitions.
+
+- Prendre soin des besoins qui se cachent derrière l'envie : le repos, le lien avec les autres, le mouvement, l'apaisement (respirer par le nez en allongeant l'expiration, s'ancrer dans ses sens).
+
+- Traverser l'envie : une envie monte, atteint un pic, puis redescend en quelques minutes. L'observer comme une vague, sans y obéir ni la combattre, permet de constater qu'elle passe.
+
+- Accueillir les écarts sans honte : un écart n'efface pas le chemin parcouru. Il apporte une information sur ce qui était difficile à ce moment-là.
+
+- En parler : à une personne de confiance, à un professionnel. Le secret entretient la honte ; la parole, souvent, l'allège.
+
+Pour le ou la partenaire, quelques repères aussi : prendre au sérieux ce que vous ressentez, vous rappeler que votre valeur ne se mesure pas à une comparaison, vous appuyer sur des personnes de confiance, poser vos propres limites, et ne pas porter seul·e la responsabilité du changement de l'autre.
+
+## Comment se faire accompagner
+
+Un accompagnement psychologique peut aider à :
+
+- comprendre le cycle du comportement et les circonstances dans lesquelles il se répète ;
+
+- repérer ses déclencheurs et ce qui suit (voir les déclencheurs émotionnels) ;
+
+- développer d'autres façons de s'apaiser et de réguler ses émotions ;
+
+- travailler la honte et la culpabilité ;
+
+- retrouver une marge de choix dans ses comportements ;
+
+- clarifier ses besoins, ses limites et ses objectifs ;
+
+- prendre en compte les répercussions sur le couple, si cela fait partie de la demande.
+
+L'objectif n'est pas forcément l'arrêt complet : il se construit avec vous, selon vos difficultés, vos valeurs et ce que vous souhaitez. Un accompagnement du ou de la partenaire peut aussi être utile, selon la situation.
+
+## Mon accompagnement
+
+J'accompagne aussi bien les personnes qui souhaitent changer leur rapport à la pornographie que leurs partenaires. Pour le ou la partenaire, l'un des axes du travail est de retrouver le sentiment de sa propre valeur, mis à mal par la comparaison et la trahison. Je vous accueille sans jugement, à votre rythme, pour comprendre ce que vous vivez et ce qui l'entretient. Je m'appuie sur l'entretien motivationnel pour explorer l'ambivalence face au changement, et, lorsque c'est pertinent, sur les approches de régulation émotionnelle et de travail sur le trauma (voir les addictions).
+
+## Questions fréquentes
+
+-
+
+### Regarder souvent de la pornographie, est-ce une addiction ?
+
+Pas forcément. La fréquence ne suffit pas : ce qui compte, c'est la perte de contrôle, la souffrance et le retentissement sur votre vie.
+
+-
+
+### Faut-il arrêter complètement ?
+
+Pas nécessairement. L'objectif se choisit ensemble : réduire, retrouver une marge de choix, ou arrêter, selon ce qui compte pour vous.
+
+-
+
+### Mon ou ma partenaire peut-il ou elle consulter aussi ?
+
+Oui. Le ou la partenaire peut avoir besoin d'un espace à soi pour comprendre ce qu'il ou elle vit, mettre des mots sur la trahison ou le sentiment d'insuffisance, et poser ses limites. J'accompagne aussi les partenaires.
+
+## Sources
+
+- Kraus, S. W., Krueger, R. B., Briken, P., First, M. B., Stein, D. J., Kaplan, M. S., Voon, V., Abdo, C. H. N., Grant, J. E., Atalla, E., & Reed, G. M. (2018). Compulsive sexual behaviour disorder in the ICD-11. World Psychiatry, 17(1), 109-110.
+
+- Grubbs, J. B., Perry, S. L., Wilt, J. A., & Reid, R. C. (2019). Pornography problems due to moral incongruence: An integrative model with a systematic review and meta-analysis. Archives of Sexual Behavior, 48(2), 397-415.
+
+- Kühn, S., & Gallinat, J. (2014). Brain structure and functional connectivity associated with pornography consumption: The brain on porn. JAMA Psychiatry, 71(7), 827-834. (associations observées, sans lien de cause établi)
+
+- Bowen, S., Chawla, N., & Marlatt, G. A. (2011). Mindfulness-Based Relapse Prevention for Addictive Behaviors. New York : Guilford Press. (traverser l'envie, « urge surfing » ; déjà dans les sources de la page Addictions)
+
+- Miller, W. R., & Rollnick, S. (2013). L'entretien motivationnel. Aider la personne à engager le changement (2e éd.). Paris : InterÉditions.
 
 Consultation : 1 h, 70 €, en ligne.
 
