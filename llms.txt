@@ -4,7 +4,7 @@
 
 ## Essentiel
 - [Site](https://laetitia-duchemin-psychologue.fr/): présentation, approche, demandes accompagnées, formation, tarifs, questions fréquentes
-- [À propos](https://laetitia-duchemin-psychologue.fr/a-propos/): identité professionnelle complète (formation, numéros ADELI/RPPS/SIREN, pratique, recherche)
+- [À propos](https://laetitia-duchemin-psychologue.fr/a-propos/): parcours, façon de travailler, LI-ICV, recherche et identité professionnelle (formation, numéros ADELI/RPPS/SIREN)
 - [Ma recherche doctorale](https://laetitia-duchemin-psychologue.fr/recherche/): doctorat en cours sur la LI-ICV, le trauma complexe et l'attachement chez les jeunes adultes (Université de Picardie Jules Verne, laboratoire CRP-CPO, axe 2)
 - [Mes approches](https://laetitia-duchemin-psychologue.fr/mes-approches/): psychothérapie intégrative et psychocorporelle centrée sur la LI-ICV, place du corps, accompagnement adapté à chacun
 - [LI-ICV (Intégration du Cycle de la Vie)](https://laetitia-duchemin-psychologue.fr/li-icv/): définition, situations concernées, formation, recherche, questions fréquentes, mémoire implicite, principe de Hebb (schéma animé)
