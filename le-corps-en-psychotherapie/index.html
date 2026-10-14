@@ -384,6 +384,14 @@ footer summary{padding-block:.65rem}
 .tags li,footer,.exo .exo-links,.offer p,.tarifs .row p,.tarifs .dur,.exo p{font-size:1rem}
 .btns + .lede{margin-top:1.5rem}
 .lede a{color:var(--gold-soft)}
+
+/* Retouches du 15/10/2026 : zones de toucher d'au moins 44 px sur mobile, sans changer l'aspect */
+.crumbs a{padding-inline:.35rem;margin-inline:-.35rem}
+.prose ul.dash li>a,.faq-list a{padding-block:.65rem}
+.refs-list a{padding-block:.75rem}
+figure figcaption a{padding-block:.7rem}
+/* En-tête sans défilement horizontal de 360 à 420 px (la marque et le bouton Menu demandaient 351 px pour 320) */
+@media (max-width:420px){.site-header .bar{gap:.75rem}.brand small{letter-spacing:0}.menu-btn{padding-inline:.75rem}}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -551,6 +559,7 @@ footer summary{padding-block:.65rem}
     <h3 id="activite-physique">Les bienfaits de l'activité physique sur la santé mentale</h3>
     <p>Plus largement, l'activité physique régulière est l'un des leviers les mieux étudiés pour la santé mentale. Une large synthèse de près de cent méta-analyses (Singh et al., 2023) montre qu'elle réduit nettement les symptômes de dépression, d'anxiété et de détresse psychologique, avec des effets comparables, voire supérieurs, à ceux des traitements habituels. Elle améliore aussi le sommeil, l'estime de soi et les capacités d'attention et de mémoire, notamment en stimulant la plasticité du cerveau. Pas besoin de performance : la marche, la danse, le vélo ou le jardinage comptent. L'Organisation mondiale de la santé recommande au moins 150 minutes d'activité modérée par semaine, et chaque minute compte.</p>
     <p>En <a href="/li-icv/">LI-ICV</a>, le mouvement fait partie de la séance : marcher, se lever, passer une balle d'une main à l'autre, pour aider le système nerveux à intégrer ce qui est travaillé, tout en restant ancré dans le présent.</p>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="la-respiration">La respiration et le système nerveux</h2>
     <p>La respiration est l'une des seules fonctions du système nerveux autonome sur lesquelles nous pouvons agir volontairement. Elle est donc une porte d'entrée directe vers sa régulation. À l'inspiration, le cœur accélère légèrement ; à l'expiration, il ralentit, sous l'effet du nerf vague, qui agit comme un frein. Allonger l'expiration renforce ce frein, et aide le corps à passer de l'alerte au calme.</p>
     <h3 id="la-coherence-cardiaque">La cohérence cardiaque</h3>
@@ -597,6 +606,9 @@ footer summary{padding-block:.65rem}
 .cc-dur select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:.35rem .5rem}
 .cc-left{font-variant-numeric:tabular-nums;font-size:1.05rem;color:var(--heading);min-width:3.5rem;text-align:center}
 .cc-hint{font-size:.9rem;color:var(--muted);text-align:center;margin:.9rem auto 0;max-width:34rem}
+
+/* Retouches du 15/10/2026 : contrôle du schéma à 44 px */
+.cc-dur select{min-height:44px}
 </style>
 <script>
 (function(){
@@ -678,6 +690,7 @@ footer summary{padding-block:.65rem}
     <p>Les stimulations bilatérales ne sont pas propres à l'EMDR : en LI-ICV, marcher ou passer une balle d'une main à l'autre relève aussi de ce procédé bilatéral alterné (voir <a href="/li-icv-ou-emdr/">LI-ICV ou EMDR</a>).</p>
     <h2 id="tapotement-eft">Le tapotement en EFT</h2>
     <p>L'EFT associe l'évocation d'une difficulté à des tapotements sur certains points du visage et du corps. Des méta-analyses montrent un effet sur l'anxiété (Clond, 2016) et sur les symptômes de stress post-traumatique (Sebastian et Nelms, 2017). Son mécanisme reste discuté : une hypothèse est que la stimulation des récepteurs de la peau, sensibles au toucher et à la pression, enverrait au cerveau des signaux qui atténueraient la réponse d'alarme (Feinstein, 2010). Je propose l'EFT comme un auto-exercice, à pratiquer chez soi (voir <a href="/eft/">l'EFT</a>).</p>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="approches-corporelles">Les approches corporelles du trauma</h2>
     <ul class="dash">
       <li><strong>La Somatic Experiencing</strong>, développée par Peter Levine, aide à percevoir les sensations et à laisser le système nerveux décharger l'activation, par petites étapes, en alternant entre l'inconfort et des appuis (la pendulation). Un essai randomisé a montré son intérêt dans le stress post-traumatique (Brom et al., 2017).</li>
@@ -745,7 +758,7 @@ footer summary{padding-block:.65rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 6 octobre 2026</div>
   </div>
 </footer>
 <script>

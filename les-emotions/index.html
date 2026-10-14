@@ -378,6 +378,14 @@ footer summary{padding-block:.65rem}
 .tags li,footer,.exo .exo-links,.offer p,.tarifs .row p,.tarifs .dur,.exo p{font-size:1rem}
 .btns + .lede{margin-top:1.5rem}
 .lede a{color:var(--gold-soft)}
+
+/* Retouches du 15/10/2026 : zones de toucher d'au moins 44 px sur mobile, sans changer l'aspect */
+.crumbs a{padding-inline:.35rem;margin-inline:-.35rem}
+.prose ul.dash li>a,.faq-list a{padding-block:.65rem}
+.refs-list a{padding-block:.75rem}
+figure figcaption a{padding-block:.7rem}
+/* En-tête sans défilement horizontal de 360 à 420 px (la marque et le bouton Menu demandaient 351 px pour 320) */
+@media (max-width:420px){.site-header .bar{gap:.75rem}.brand small{letter-spacing:0}.menu-btn{padding-inline:.75rem}}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -617,21 +625,21 @@ footer summary{padding-block:.65rem}
 .ev-lab{font-family:var(--serif);font-size:23px;font-weight:500;fill:#fff;text-anchor:middle;paint-order:stroke;stroke:rgba(20,10,40,.35);stroke-width:3px;pointer-events:none}
 .ev-hint{text-align:center;font-size:.9rem;color:var(--muted);margin:.4rem 0 .2rem}
 .ev-panel{margin-top:.8rem}
-.ev-panel h4{font-family:var(--serif);font-weight:500;font-size:1.5rem;color:var(--heading);margin:0 0 .2rem}
+.ev-panel h3{font-family:var(--serif);font-weight:500;font-size:1.5rem;color:var(--heading);margin:0 0 .2rem}
 .ev-panel>p{margin:0 0 .8rem;color:var(--muted)}
 .ev-sw{display:grid;grid-template-columns:repeat(5,1fr);gap:.5rem;margin:0;padding:0;list-style:none}
-.ev-sw li{border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--bg)}
+.ev-sw>div{border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--bg)}
 .ev-sw i{display:block;height:46px}
 .ev-sw b{display:block;font-weight:500;color:var(--heading);padding:.45rem .55rem 0;font-size:.95rem}
 .ev-sw span{display:block;font-size:.82rem;color:var(--muted);padding:.1rem .55rem .55rem;line-height:1.35}
 .ev-play{display:inline-flex;align-items:center;gap:.45rem;font:500 .92rem var(--sans);color:var(--heading);background:var(--bg);border:1px solid var(--gold,#d9a648);border-radius:999px;padding:.45rem 1rem;cursor:pointer;margin:0 0 .9rem;min-height:40px}
-.ev-play:hover,.ev-sw li:hover{border-color:var(--gold,#d9a648)}
-.ev-play:focus-visible,.ev-sw li:focus-visible{outline:3px solid var(--gold-soft,#ecd096);outline-offset:2px}
-.ev-sw li{cursor:pointer;transition:transform .2s}
-.ev-sw li.is-playing{transform:translateY(-3px);border-color:var(--gold,#d9a648)}
+.ev-play:hover,.ev-sw>div:hover{border-color:var(--gold,#d9a648)}
+.ev-play:focus-visible,.ev-sw>div:focus-visible{outline:3px solid var(--gold-soft,#ecd096);outline-offset:2px}
+.ev-sw>div{cursor:pointer;transition:transform .2s}
+.ev-sw>div.is-playing{transform:translateY(-3px);border-color:var(--gold,#d9a648)}
 .ev-note{font-size:.8rem;color:var(--muted);margin:.5rem 0 0;text-align:center}
 .ev-scale{display:flex;justify-content:space-between;font-size:.78rem;color:var(--muted);margin:.35rem .2rem 0}
-@media (max-width:620px){.ev-sw{grid-template-columns:1fr}.ev-sw li{display:grid;grid-template-columns:40px 1fr;grid-template-rows:auto auto}.ev-sw i{grid-row:1/3;height:auto;min-height:100%}.ev-sw b{grid-column:2;padding:.5rem .75rem 0}.ev-sw span{grid-column:2;padding:.05rem .75rem .55rem}.ev-scale{display:none}.ev-lab{font-size:31px;stroke-width:4px}}
+@media (max-width:620px){.ev-sw{grid-template-columns:1fr}.ev-sw>div{display:grid;grid-template-columns:40px 1fr;grid-template-rows:auto auto}.ev-sw i{grid-row:1/3;height:auto;min-height:100%}.ev-sw b{grid-column:2;padding:.5rem .75rem 0}.ev-sw span{grid-column:2;padding:.05rem .75rem .55rem}.ev-scale{display:none}.ev-lab{font-size:31px;stroke-width:4px}}
 @media (prefers-reduced-motion:reduce){.ev-open,.ev-s{transition:none}}
 </style>
 <script>
@@ -688,14 +696,14 @@ footer summary{padding-block:.65rem}
   function sel(k){
     S.forEach(function(s){ var on=+s.dataset.k===k; s.setAttribute('aria-pressed',on); s.style.transform=on?'translate('+s.dataset.dx+'px,'+s.dataset.dy+'px)':''; });
     root.classList.add('has-sel');
-    var e=D[k], h='<h4></h4><p></p><button type="button" class="ev-play"><span aria-hidden="true">♪</span> <span class="ev-pl"></span></button><ul class="ev-sw"></ul><div class="ev-scale"><span>plus légère</span><span>plus intense</span></div><p class="ev-note">Touchez une nuance pour l’entendre : son air de piano se joue plus doucement ou plus intensément. Le son ne se joue que lorsque vous appuyez.</p>';
-    panel.innerHTML=h; panel.querySelector('h4').textContent=e[1]; panel.querySelector('p').textContent=e[3];
+    var e=D[k], h='<h3></h3><p></p><button type="button" class="ev-play"><span aria-hidden="true">♪</span> <span class="ev-pl"></span></button><div class="ev-sw"></div><div class="ev-scale"><span>plus légère</span><span>plus intense</span></div><p class="ev-note">Touchez une nuance pour l’entendre : son air de piano se joue plus doucement ou plus intensément. Le son ne se joue que lorsque vous appuyez.</p>';
+    panel.innerHTML=h; panel.querySelector('h3').textContent=e[1]; panel.querySelector('p').textContent=e[3];
     panel.querySelector('.ev-pl').textContent='Écouter '+e[1].toLowerCase();
     panel.querySelector('.ev-play').addEventListener('click',function(){ play(k,2); });
-    var ul=panel.querySelector('ul');
-    e[4].forEach(function(n,j){ var li=document.createElement('li'), i=document.createElement('i'), b=document.createElement('b'), sp=document.createElement('span');
+    var ul=panel.querySelector('.ev-sw');
+    e[4].forEach(function(n,j){ var li=document.createElement('div'), i=document.createElement('i'), b=document.createElement('b'), sp=document.createElement('span');
       i.style.background=n[2]; b.textContent=n[0]; sp.textContent=n[1]; li.appendChild(i); li.appendChild(b); li.appendChild(sp); ul.appendChild(li);
-      li.tabIndex=0; li.setAttribute('role','button'); li.setAttribute('aria-label','Écouter : '+n[0]);
+      li.tabIndex=0; li.setAttribute('role','button'); var sr=document.createElement('small'); sr.textContent='Écouter : '; sr.style.cssText='position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap'; li.insertBefore(sr,li.firstChild);
       var go=function(){ play(k,j); li.classList.add('is-playing'); setTimeout(function(){ li.classList.remove('is-playing'); },700); };
       li.addEventListener('click',go); li.addEventListener('keydown',function(ev){ if(ev.key==='Enter'||ev.key===' '){ ev.preventDefault(); go(); } }); });
   }
@@ -716,6 +724,7 @@ footer summary{padding-block:.65rem}
         <a class="btn solid" href="/documents/affiche-la-roue-des-emotions.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche (PDF)</a>
       </div>
     </div>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="ce-qui-se-passe-dans-le-corps">Ce qui se passe dans le corps</h2>
     <p>Une émotion se vit d'abord dans le corps. Le système nerveux autonome, qui régule sans que nous y pensions le cœur, la respiration, la digestion ou la température, se met en route : le cœur accélère dans la peur, la chaleur monte dans la colère, le corps s'alourdit dans la tristesse, la poitrine s'ouvre dans la joie.</p>
     <p>En 2014, une équipe finlandaise (Nummenmaa et ses collègues) a demandé à plus de 700 personnes de colorier, sur une silhouette, les zones de leur corps qu'elles sentaient s'activer ou se désactiver avec chaque émotion. Les cartes obtenues se ressemblent d'une personne et d'une culture à l'autre : la colère active surtout le haut du corps et les bras, la tristesse diminue l'activité des membres, la joie active le corps tout entier.</p>
@@ -734,7 +743,7 @@ footer summary{padding-block:.65rem}
   <script type="application/json">{"z": {"prefrontal": ["Le cortex préfrontal", "le chef d'orchestre", "À l'avant du cerveau, il aide à prendre du recul, à donner du sens à ce que l'on ressent, à moduler l'émotion et à choisir sa réponse. Il poursuit sa maturation jusqu'au début de l'âge adulte. Lorsqu'une émotion devient trop forte, il a plus de mal à jouer son rôle (voir le cerveau dans la main)."], "thalamus": ["Le thalamus", "le relais des sens", "Presque toutes les informations venues des sens passent par lui. Il en envoie une copie rapide à l'amygdale, la « voie courte », qui déclenche l'alarme en une fraction de seconde, et une version plus détaillée au cortex, la « voie longue », qui permet d'analyser la situation."], "hypothalamus": ["L'hypothalamus", "le pont entre l'émotion et le corps", "Il traduit l'émotion dans le corps : il active le système nerveux autonome (le cœur, la respiration, la digestion) et déclenche la libération des hormones du stress, comme le cortisol. Il participe aussi à la régulation de la faim, du sommeil et de la température."], "amygdale": ["L'amygdale", "le détecteur d'alarme", "Petite structure en forme d'amande, elle repère très vite ce qui est important pour nous, qu'il s'agisse d'un danger ou d'une source de plaisir, et déclenche la réaction de protection. Après des expériences traumatiques, elle peut rester plus sensible et s'activer plus facilement."], "hippocampe": ["L'hippocampe", "la mémoire du contexte", "Il relie l'émotion à son contexte : où, quand, avec qui. Il aide à ranger les souvenirs dans le temps, et donc à distinguer le passé du présent. Lors d'un stress très intense, son travail est perturbé, ce qui explique en partie la mémoire traumatique."], "tronc": ["Le tronc cérébral", "les fonctions vitales", "Il régule les fonctions vitales, comme la respiration, le rythme cardiaque et la vigilance, et les réflexes de survie : lutter, fuir, se figer. C'est de lui que part le nerf vague, au cœur de la théorie polyvagale."]}, "c": {"prefrontal": "#2f5fae", "thalamus": "#2b9a9a", "hypothalamus": "#c4508a", "amygdale": "#e07b4f", "hippocampe": "#7a4fb5", "tronc": "#8c6a3a"}}</script>
   <figure class="bz-fig"><img src="/documents/cerveau-des-emotions.webp" width="1536" height="1024" alt="Coupe du cerveau vue de côté, avec six zones impliquées dans les émotions : cortex préfrontal, thalamus, hypothalamus, amygdale, hippocampe et tronc cérébral" loading="lazy"><button type="button" class="bz-dot" data-z="prefrontal" style="left:14.71%;top:34.86%;--c:#2f5fae" aria-pressed="false" aria-label="Le cortex préfrontal"></button><button type="button" class="bz-dot" data-z="thalamus" style="left:43.16%;top:38.28%;--c:#2b9a9a" aria-pressed="false" aria-label="Le thalamus"></button><button type="button" class="bz-dot" data-z="hypothalamus" style="left:45.96%;top:45.80%;--c:#c4508a" aria-pressed="false" aria-label="L'hypothalamus"></button><button type="button" class="bz-dot" data-z="amygdale" style="left:42.77%;top:54.98%;--c:#e07b4f" aria-pressed="false" aria-label="L'amygdale"></button><button type="button" class="bz-dot" data-z="hippocampe" style="left:54.04%;top:53.81%;--c:#7a4fb5" aria-pressed="false" aria-label="L'hippocampe"></button><button type="button" class="bz-dot" data-z="tronc" style="left:56.97%;top:71.68%;--c:#8c6a3a" aria-pressed="false" aria-label="Le tronc cérébral"></button></figure>
   <div class="bz-chips"><button type="button" class="bz-chip" data-z="prefrontal" style="--c:#2f5fae" aria-pressed="false"><i aria-hidden="true"></i>cortex préfrontal</button><button type="button" class="bz-chip" data-z="thalamus" style="--c:#2b9a9a" aria-pressed="false"><i aria-hidden="true"></i>thalamus</button><button type="button" class="bz-chip" data-z="hypothalamus" style="--c:#c4508a" aria-pressed="false"><i aria-hidden="true"></i>hypothalamus</button><button type="button" class="bz-chip" data-z="amygdale" style="--c:#e07b4f" aria-pressed="false"><i aria-hidden="true"></i>amygdale</button><button type="button" class="bz-chip" data-z="hippocampe" style="--c:#7a4fb5" aria-pressed="false"><i aria-hidden="true"></i>hippocampe</button><button type="button" class="bz-chip" data-z="tronc" style="--c:#8c6a3a" aria-pressed="false"><i aria-hidden="true"></i>tronc cérébral</button></div>
-  <div class="bz-panel" aria-live="polite"><h4></h4><p class="bz-tag"></p><p class="bz-txt"></p></div>
+  <div class="bz-panel" aria-live="polite"><h3></h3><p class="bz-tag"></p><p class="bz-txt"></p></div>
   <p class="bz-note">L'insula, enfouie sur le côté du cerveau, n'est pas visible sur cette coupe : elle perçoit les sensations venues de l'intérieur du corps, comme les battements du cœur ou la respiration (l'intéroception).</p>
 </div>
 <style>
@@ -752,12 +761,12 @@ footer summary{padding-block:.65rem}
 .bz-chip i{width:.7rem;height:.7rem;border-radius:50%;background:var(--c);display:inline-block}
 .bz-chip[aria-pressed="true"]{border-color:var(--c);box-shadow:inset 0 0 0 1px var(--c)}
 .bz-panel{margin-top:.7rem;padding:.9rem 1rem;border-radius:12px;background:var(--bg);border-left:4px solid var(--c,#d9a648)}
-.bz-panel h4{font-family:var(--serif);font-weight:500;font-size:1.4rem;color:var(--heading);margin:0}
+.bz-panel h3{font-family:var(--serif);font-weight:500;font-size:1.4rem;color:var(--heading);margin:0}
 .bz-panel .bz-tag{font-family:var(--serif);font-style:italic;color:var(--gold-deep,#7d5a16);margin:.05rem 0 .45rem;font-size:1.05rem}
 .bz-panel p{margin:0;color:var(--ink)}
 .bz-note{font-size:.88rem;color:var(--muted);margin:.8rem 0 0}
 @media (prefers-reduced-motion:reduce){.bz-dot::before{animation:none}}
-@media (max-width:520px){.bz-dot{width:22px;height:22px;margin:-11px 0 0 -11px}.bz-dot::before{border-width:2px}.bz-dot::after{width:9px;height:9px;margin:-4.5px 0 0 -4.5px;box-shadow:0 0 0 2px #fff}}
+@media (max-width:520px){.bz-dot{width:24px;height:24px;margin:-12px 0 0 -12px}.bz-dot::before{border-width:2px}.bz-dot::after{width:9px;height:9px;margin:-4.5px 0 0 -4.5px;box-shadow:0 0 0 2px #fff}}
 </style>
 <script>
 (function(){
@@ -767,7 +776,7 @@ footer summary{padding-block:.65rem}
   function sel(k){
     B.forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.z===k); });
     var z=D.z[k]; P.style.setProperty('--c',D.c[k]);
-    P.querySelector('h4').textContent=z[0]; P.querySelector('.bz-tag').textContent=z[1]; P.querySelector('.bz-txt').textContent=z[2];
+    P.querySelector('h3').textContent=z[0]; P.querySelector('.bz-tag').textContent=z[1]; P.querySelector('.bz-txt').textContent=z[2];
   }
   B.forEach(function(b){ b.addEventListener('click',function(){ sel(b.dataset.z); }); });
   sel('amygdale');
@@ -841,6 +850,12 @@ footer summary{padding-block:.65rem}
 .cs-vu b.on{background:var(--vc);box-shadow:0 0 6px var(--vc)}
 @media (max-width:620px){.cs-keys{grid-template-columns:repeat(3,1fr);row-gap:14px}.cs-shell{padding:16px 12px 0}.cs-deck{margin:14px -12px 0;padding:16px 12px 18px}}
 @media (prefers-reduced-motion:reduce){.cs ul.cs-needs li{animation:none;opacity:1;transform:none}.cs .cs-idle::after{animation:none}}
+
+/* Retouches du 15/10/2026 : contrôles et petits textes des schémas */
+.bz-chip,.ev-play{min-height:44px}
+.ev-panel h3,.bz-panel h3{line-height:inherit}
+.cs-fader input{height:44px;border:17px solid transparent;border-inline:0;background-clip:padding-box;border-radius:6px/23px}
+.cs-fader label,.cs-key .tag,.cs-plate span,.cs .cs-hd,.cs-scale,.ev-scale,.ev-note,.ev-sw span{font-size:.875rem}
 </style>
 <script>
 (function(){
@@ -889,6 +904,7 @@ footer summary{padding-block:.65rem}
     <p>Il ne s'agit pas de juger l'émotion, ni de la chasser, mais de la laisser passer en l'accompagnant (voir la <a href="/regulation-emotionnelle/">régulation émotionnelle</a> et la <a href="/regulation-emotionnelle/#la-tolerance-emotionnelle">tolérance émotionnelle</a>).</p>
     <h2 id="mon-accompagnement">Mon accompagnement</h2>
     <p>En séance, en ligne, nous apprenons ensemble à repérer les signaux du corps, à nommer les émotions et à comprendre les besoins qu'elles expriment, à votre rythme. Je m'appuie sur un éclairage <a href="/neuropsychologie/">neuropsychologique</a>, dont la <a href="/theorie-polyvagale/">théorie polyvagale</a>, pour comprendre avec vous ce qui se joue dans votre cerveau et votre corps, ainsi que sur la <a href="/li-icv/">LI-ICV</a> et la <a href="/pleine-conscience-sensible-au-trauma/">Pleine Conscience Sensible au Trauma</a>, pour que les émotions puissent être ressenties sans submerger, et retrouver leur rôle de messagères.</p>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="questions-frequentes">Questions fréquentes</h2>
     <ul class="faq-list">
       <li><h3>Existe-t-il des émotions négatives ?</h3><p>Il existe des émotions désagréables, comme la peur, la colère ou la tristesse, mais aucune n'est inutile. Chacune signale quelque chose d'important. C'est plutôt leur intensité, leur durée ou leur décalage avec la situation qui peut rendre une émotion difficile à vivre.</p></li>
@@ -925,7 +941,7 @@ footer summary{padding-block:.65rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 11 octobre 2026</div>
   </div>
 </footer>
 <script>

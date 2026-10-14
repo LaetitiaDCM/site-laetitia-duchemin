@@ -402,6 +402,14 @@ footer summary{padding-block:.65rem}
 .tags li,footer,.exo .exo-links,.offer p,.tarifs .row p,.tarifs .dur,.exo p{font-size:1rem}
 .btns + .lede{margin-top:1.5rem}
 .lede a{color:var(--gold-soft)}
+
+/* Retouches du 15/10/2026 : zones de toucher d'au moins 44 px sur mobile, sans changer l'aspect */
+.crumbs a{padding-inline:.35rem;margin-inline:-.35rem}
+.prose ul.dash li>a,.faq-list a{padding-block:.65rem}
+.refs-list a{padding-block:.75rem}
+figure figcaption a{padding-block:.7rem}
+/* En-tête sans défilement horizontal de 360 à 420 px (la marque et le bouton Menu demandaient 351 px pour 320) */
+@media (max-width:420px){.site-header .bar{gap:.75rem}.brand small{letter-spacing:0}.menu-btn{padding-inline:.75rem}}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -740,6 +748,7 @@ footer summary{padding-block:.65rem}
     <p>Face à un danger, votre cerveau déclenche une alarme très rapide. L'amygdale, une petite structure qui repère les menaces, active le système nerveux et la libération d'hormones de stress, comme l'adrénaline et le cortisol : le cœur accélère, la respiration change, le corps se prépare à lutter, à fuir ou à se figer.</p>
     <p>Lors d'un événement traumatique, cette alarme est si forte que l'hippocampe, qui range habituellement les souvenirs dans le temps et dans l'espace, ne peut pas faire son travail. Le souvenir est alors enregistré en fragments (voir la <a href="/memoire-traumatique/">mémoire traumatique</a>) : des images, des sons, des odeurs, des sensations, sans le fil du récit ni le repère du « c'était avant ». C'est pourquoi il peut revenir comme s'il se produisait maintenant.</p>
     <p>Quand le trauma s'installe, l'alarme reste plus sensible et se déclenche plus facilement, tandis que les régions qui aident à prendre du recul et à réguler les émotions, notamment le cortex préfrontal, ont plus de mal à la calmer. Ces changements ne sont pas figés : le cerveau reste plastique. La thérapie permet de déconstruire des connexions neuronales liées au trauma, pour construire de nouveaux chemins vers le rétablissement. Ces réactions rejoignent les états de mobilisation et d'immobilisation décrits par la <a href="/theorie-polyvagale/">théorie polyvagale</a>.</p>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="origine-de-la-notion">D'où vient la notion de trauma complexe</h2>
     <p>La notion a été proposée en 1992 par la psychiatre américaine Judith Herman, à partir de son travail auprès de personnes ayant subi des violences répétées et prolongées, dans l'enfance, le couple ou la captivité. Elle constatait que le diagnostic de stress post-traumatique ne rendait pas compte de l'ensemble de leurs difficultés : la régulation des émotions, l'image de soi et les relations étaient elles aussi profondément touchées. L'Organisation mondiale de la santé a reconnu le TSPT complexe comme un diagnostic distinct dans sa classification internationale des maladies (la CIM-11), entrée en vigueur en 2022.</p>
     <h2 id="tspt-complexe-et-trauma-complexe-une-nuance-importante">TSPT complexe et trauma complexe : une nuance importante</h2>
@@ -792,6 +801,7 @@ footer summary{padding-block:.65rem}
     <p>La psychothérapeute américaine Ruth Cohn, qui a consacré un ouvrage au trauma de négligence, le résume ainsi : « Rien n'est pas rien. Rien, c'est quelque chose. Et ce rien compte. » Ce manque répété peut laisser des traces comparables à celles d'un trauma, en particulier sur la régulation des émotions, l'image de soi et les relations, comme dans le trauma complexe.</p>
     <h3 id="trauma-vicariant">Le trauma vicariant</h3>
     <p>On peut aussi être touché par le trauma des autres : c'est le trauma vicariant. Il concerne les personnes exposées de façon répétée à la souffrance d'autrui, comme les soignants, les secouristes, les travailleurs sociaux, ou les proches d'une personne traumatisée. Il peut se manifester par de la fatigue, de l'hypervigilance, une perte de sens ou un détachement émotionnel.</p>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="comment-le-trauma-se-travaille">Comment le trauma se travaille</h2>
     <p>Les recommandations internationales décrivent souvent un travail par étapes : construire d'abord un sentiment de sécurité et des ressources pour réguler vos émotions, puis travailler les souvenirs traumatiques, enfin intégrer ce travail dans votre vie présente et vos relations. Le rythme est ajusté à chacun : il ne s'agit pas de revenir sur les souvenirs avant d'avoir les moyens de le faire sans être submergé.</p>
     <p>Plusieurs approches peuvent accompagner ce chemin. Certaines passent par la mémoire, l'histoire de vie et le corps, comme la <a href="/li-icv/">LI-ICV</a>, ou par la mémoire, comme l'EMDR ; d'autres partent avant tout du corps, comme la <a href="/tctsy/">TCTSY</a> ou la <a href="/pleine-conscience-sensible-au-trauma/">Pleine Conscience Sensible au Trauma</a> ; d'autres encore des parts de soi, comme l'<a href="/ifs/">IFS</a>. Il n'y a pas une seule bonne approche : l'essentiel est de trouver celle qui vous convient (voir <a href="/li-icv-ou-emdr/">LI-ICV ou EMDR</a>).</p>
@@ -855,7 +865,7 @@ footer summary{padding-block:.65rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 13 octobre 2026</div>
   </div>
 </footer>
 <script>

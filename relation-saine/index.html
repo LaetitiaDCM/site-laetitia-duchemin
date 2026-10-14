@@ -384,6 +384,14 @@ footer summary{padding-block:.65rem}
 .tags li,footer,.exo .exo-links,.offer p,.tarifs .row p,.tarifs .dur,.exo p{font-size:1rem}
 .btns + .lede{margin-top:1.5rem}
 .lede a{color:var(--gold-soft)}
+
+/* Retouches du 15/10/2026 : zones de toucher d'au moins 44 px sur mobile, sans changer l'aspect */
+.crumbs a{padding-inline:.35rem;margin-inline:-.35rem}
+.prose ul.dash li>a,.faq-list a{padding-block:.65rem}
+.refs-list a{padding-block:.75rem}
+figure figcaption a{padding-block:.7rem}
+/* En-tête sans défilement horizontal de 360 à 420 px (la marque et le bouton Menu demandaient 351 px pour 320) */
+@media (max-width:420px){.site-header .bar{gap:.75rem}.brand small{letter-spacing:0}.menu-btn{padding-inline:.75rem}}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -574,6 +582,7 @@ footer summary{padding-block:.65rem}
     <p>Dans ces relations, chacun aide l'autre à se rapprocher de la personne qu'il souhaite devenir, son « soi idéal ». Le partenaire perçoit déjà les qualités en devenir, il les reconnaît, et il soutient les efforts de l'autre pour les développer. Peu à peu, la personne se rapproche de ce soi idéal. Les recherches montrent que cet effet est associé à plus de bien-être personnel et à une plus grande satisfaction dans la relation.</p>
     <p>Ce mouvement va dans les deux sens, car une relation saine est équilibrée. Chacun soutient l'autre et se sent soutenu ; chacun a de la place pour ses projets, ses besoins et ses fragilités. Les rôles peuvent varier selon les périodes de la vie, l'un portant un peu plus l'autre dans un moment difficile, puis l'inverse. Lorsque c'est toujours le même qui donne, s'adapte ou s'efface, la relation se déséquilibre et finit par épuiser les deux.</p>
     <p>Dans une relation d'emprise, le mouvement est inverse : on se sent peu à peu s'éloigner de soi-même (voir l'<a href="/emprise/">emprise</a>).</p>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="carl-gustav-jung-se-transformer-ensemble-en-restant-soi">Carl Gustav Jung : se transformer ensemble, en restant soi</h2>
     <p>Le psychiatre suisse Carl Gustav Jung a beaucoup réfléchi à ce qui se joue dans la relation. Il en a tiré quelques idées qui éclairent encore aujourd'hui ce qu'est un lien sain.</p>
     <ul class="dash">
@@ -654,6 +663,13 @@ footer summary{padding-block:.65rem}
 .bsl-range input{width:100%;accent-color:#d9a648}
 .bsl-cap{margin:.7rem 0 0;font-family:var(--serif,'Cormorant Garamond',Georgia,serif);font-style:italic;font-size:1.12rem;line-height:1.4;color:var(--ink,#2b2340);min-height:3.2em}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .bsl-l{fill:#ecd096}:root:not([data-theme="light"]) .bsl-s{fill:#d9a648}:root:not([data-theme="light"]) .bsl-l-storm{fill:#b5b0d4}:root:not([data-theme="light"]) .bsl-s.bsl-l-storm{fill:#a29dc4}}
+
+/* Retouches du 15/10/2026 : contrôle du schéma à 44 px */
+.bsl-range input{height:44px;margin-block:-14px}
+.bsl-hint{font-size:.875rem}
+.bsl-s{font-size:14px;letter-spacing:1.5px}.bsl-s.bsl-l-storm{transform:translateY(3px)}
+@media (max-width:479px){.bsl-s{font-size:20px;letter-spacing:1px}.bsl-s.bsl-l-calm{transform:translateY(6px)}.bsl-s.bsl-l-storm{transform:translateY(8px)}}
+@media (max-width:359px){.bsl-s{font-size:24px}.bsl-s.bsl-l-calm{transform:translateY(9px)}.bsl-s.bsl-l-storm{transform:translateY(11px)}}
 </style>
 <script>
 (function(){
@@ -761,7 +777,7 @@ footer summary{padding-block:.65rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 7 octobre 2026</div>
   </div>
 </footer>
 <script>
