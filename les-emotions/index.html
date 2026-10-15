@@ -31,7 +31,7 @@
    "name": "Les émotions : définition, rôles, corps et cerveau",
    "description": "Qu'est-ce qu'une émotion, à quoi sert-elle et comment se manifeste-t-elle dans le corps et le cerveau ? Les bases pour comprendre et accueillir ses émotions.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-11",
+   "dateModified": "2026-10-15",
    "about": {
     "@type": "Thing",
     "name": "Émotions"
@@ -386,6 +386,14 @@ footer summary{padding-block:.65rem}
 figure figcaption a{padding-block:.7rem}
 /* En-tête sans défilement horizontal de 360 à 420 px (la marque et le bouton Menu demandaient 351 px pour 320) */
 @media (max-width:420px){.site-header .bar{gap:.75rem}.brand small{letter-spacing:0}.menu-btn{padding-inline:.75rem}}
+
+/* Retouches du 15/10/2026 (2) */
+.toc{margin:0 0 2rem}
+.toc details{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:0 1.1rem}
+.toc summary{color:var(--heading);font-family:var(--serif);font-size:1.25rem;font-weight:500;padding-block:.45rem}
+.toc ol{margin:0 0 .9rem;padding-left:1.3rem;color:var(--muted)}
+.toc a{display:block;padding-block:.7rem;line-height:1.35}
+.refs-list a{overflow-wrap:anywhere}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -531,6 +539,18 @@ figure figcaption a{padding-block:.7rem}
 </section>
 <section class="prose">
   <div class="wrap">
+    <nav class="toc" aria-label="Sommaire de la page"><details><summary>Sommaire</summary><ol>
+      <li><a href="#qu-est-ce-qu-une-emotion">Qu'est-ce qu'une émotion ?</a></li>
+      <li><a href="#a-quoi-servent-les-emotions">À quoi servent les émotions ?</a></li>
+      <li><a href="#les-emotions-universelles">Les émotions universelles</a></li>
+      <li><a href="#ce-qui-se-passe-dans-le-corps">Ce qui se passe dans le corps</a></li>
+      <li><a href="#ce-qui-se-passe-dans-le-cerveau">Ce qui se passe dans le cerveau</a></li>
+      <li><a href="#quand-les-emotions-deviennent-difficiles-a-vivre">Quand les émotions deviennent difficiles à vivre</a></li>
+      <li><a href="#apprendre-a-reconnaitre-ses-emotions">Apprendre à reconnaître ses émotions</a></li>
+      <li><a href="#mon-accompagnement">Mon accompagnement</a></li>
+      <li><a href="#questions-frequentes">Questions fréquentes</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ol></details></nav>
     <h2 id="qu-est-ce-qu-une-emotion">Qu'est-ce qu'une émotion ?</h2>
     <p>Le mot vient du latin movere, « mettre en mouvement » : une émotion est d'abord ce qui nous met en mouvement. C'est une réaction brève de tout l'organisme face à une situation qui compte pour nous, qu'elle soit extérieure (une rencontre, une parole, un événement) ou intérieure (un souvenir, une pensée, une sensation).</p>
     <p>Le psychologue Klaus Scherer décrit l'émotion comme un ensemble de réactions qui se produisent presque en même temps :</p>
@@ -915,13 +935,13 @@ figure figcaption a{padding-block:.7rem}
     <ul class="refs-list">
       <li>Barrett, L. F. (2017). How Emotions Are Made: The Secret Life of the Brain. Boston : Houghton Mifflin Harcourt.</li>
       <li>Damasio, A. R. (1995). L'erreur de Descartes : la raison des émotions. Paris : Odile Jacob.</li>
-      <li>Darwin, C. (1872). The Expression of the Emotions in Man and Animals. Londres : John Murray.</li>
+      <li>Darwin, C. (1872). The Expression of the Emotions in Man and Animals. Londres : John Murray. <a href="https://doi.org/10.1037/10001-000" target="_blank" rel="noopener">https://doi.org/10.1037/10001-000</a></li>
       <li>Keltner, D., &amp; Ekman, P. (2015, 3 juillet). The science of « Inside Out ». The New York Times.</li>
-      <li>Ekman, P. (1992). An argument for basic emotions. Cognition and Emotion, 6(3-4), 169-200.</li>
+      <li>Ekman, P. (1992). An argument for basic emotions. Cognition and Emotion, 6(3-4), 169-200. <a href="https://doi.org/10.1080/02699939208411068" target="_blank" rel="noopener">https://doi.org/10.1080/02699939208411068</a></li>
       <li>LeDoux, J. (1996). The Emotional Brain. New York : Simon &amp; Schuster.</li>
-      <li>Lieberman, M. D., Eisenberger, N. I., Crockett, M. J., Tom, S. M., Pfeifer, J. H., &amp; Way, B. M. (2007). Putting feelings into words: Affect labeling disrupts amygdala activity in response to affective stimuli. Psychological Science, 18(5), 421-428.</li>
-      <li>Nummenmaa, L., Glerean, E., Hari, R., &amp; Hietanen, J. K. (2014). Bodily maps of emotions. Proceedings of the National Academy of Sciences, 111(2), 646-651.</li>
-      <li>Scherer, K. R. (2005). What are emotions? And how can they be measured? Social Science Information, 44(4), 695-729.</li>
+      <li>Lieberman, M. D., Eisenberger, N. I., Crockett, M. J., Tom, S. M., Pfeifer, J. H., &amp; Way, B. M. (2007). Putting feelings into words: Affect labeling disrupts amygdala activity in response to affective stimuli. Psychological Science, 18(5), 421-428. <a href="https://doi.org/10.1111/j.1467-9280.2007.01916.x" target="_blank" rel="noopener">https://doi.org/10.1111/j.1467-9280.2007.01916.x</a></li>
+      <li>Nummenmaa, L., Glerean, E., Hari, R., &amp; Hietanen, J. K. (2014). Bodily maps of emotions. Proceedings of the National Academy of Sciences, 111(2), 646-651. <a href="https://doi.org/10.1073/pnas.1321664111" target="_blank" rel="noopener">https://doi.org/10.1073/pnas.1321664111</a></li>
+      <li>Scherer, K. R. (2005). What are emotions? And how can they be measured? Social Science Information, 44(4), 695-729. <a href="https://doi.org/10.1177/0539018405058216" target="_blank" rel="noopener">https://doi.org/10.1177/0539018405058216</a></li>
       <li>Siegel, D. J. (2010). Mindsight: The New Science of Personal Transformation. New York : Bantam.</li>
       <li>Sifneos, P. E. (1973). The prevalence of 'alexithymic' characteristics in psychosomatic patients. Psychotherapy and Psychosomatics, 22(2-6), 255-262.</li>
     </ul>
@@ -941,7 +961,7 @@ figure figcaption a{padding-block:.7rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 11 octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 15 octobre 2026</div>
   </div>
 </footer>
 <script>

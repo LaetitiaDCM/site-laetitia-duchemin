@@ -30,7 +30,7 @@
    "name": "Styles d'attachement et théorie de l'attachement — L. Duchemin",
    "description": "Styles d'attachement (sécure, anxieux, évitant, désorganisé) : d'où ils viennent, leurs effets à l'âge adulte et l'accompagnement en ligne.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-11",
+   "dateModified": "2026-10-15",
    "about": {
     "@type": "Thing",
     "name": "Styles d'attachement"
@@ -412,6 +412,14 @@ footer summary{padding-block:.65rem}
 figure figcaption a{padding-block:.7rem}
 /* En-tête sans défilement horizontal de 360 à 420 px (la marque et le bouton Menu demandaient 351 px pour 320) */
 @media (max-width:420px){.site-header .bar{gap:.75rem}.brand small{letter-spacing:0}.menu-btn{padding-inline:.75rem}}
+
+/* Retouches du 15/10/2026 (2) */
+.toc{margin:0 0 2rem}
+.toc details{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:0 1.1rem}
+.toc summary{color:var(--heading);font-family:var(--serif);font-size:1.25rem;font-weight:500;padding-block:.45rem}
+.toc ol{margin:0 0 .9rem;padding-left:1.3rem;color:var(--muted)}
+.toc a{display:block;padding-block:.7rem;line-height:1.35}
+.refs-list a{overflow-wrap:anywhere}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -557,6 +565,19 @@ figure figcaption a{padding-block:.7rem}
 </section>
 <section class="prose">
   <div class="wrap">
+    <nav class="toc" aria-label="Sommaire de la page"><details><summary>Sommaire</summary><ol>
+      <li><a href="#qu-est-ce-que-l-attachement">Qu'est-ce que l'attachement ?</a></li>
+      <li><a href="#les-styles-d-attachement">Les styles d'attachement</a></li>
+      <li><a href="#a-l-age-adulte">Les styles d'attachement à l'âge adulte</a></li>
+      <li><a href="#un-style-preferentiel">Un style préférentiel, mais pas une étiquette</a></li>
+      <li><a href="#style-insecure-ou-trouble">Style insécure ou trouble de l'attachement : ce que c'est, ce que ce n'est pas</a></li>
+      <li><a href="#manifestations-a-l-age-adulte">Comment ça se manifeste à l'âge adulte</a></li>
+      <li><a href="#pourquoi-repete-t-on-les-memes-schemas">Pourquoi répète-t-on les mêmes schémas en amour ?</a></li>
+      <li><a href="#attachement-et-trauma-complexe">Attachement et trauma complexe</a></li>
+      <li><a href="#mon-accompagnement">Mon accompagnement</a></li>
+      <li><a href="#questions-frequentes">Questions fréquentes</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ol></details></nav>
     <h2 id="qu-est-ce-que-l-attachement">Qu'est-ce que l'attachement ?</h2>
     <p>L'attachement est un besoin fondamental : dès la naissance, le bébé cherche la proximité d'une personne qui le protège et le réconforte, sa figure d'attachement. Lorsque cette personne répond de façon suffisamment fiable, elle devient une base de sécurité, à partir de laquelle l'enfant ose explorer le monde, et un refuge, vers lequel il revient quand il a peur. De ces expériences répétées, l'enfant tire des représentations de lui-même (« je mérite qu'on prenne soin de moi ») et des autres (« on peut compter sur eux »), que Bowlby appelait les modèles internes opérants. Ce sont eux qui continuent d'influencer nos relations à l'âge adulte.</p>
     <h2 id="les-styles-d-attachement">Les styles d'attachement</h2>
@@ -666,20 +687,20 @@ figure figcaption a{padding-block:.7rem}
     </ul>
     <h2 id="sources">Sources</h2>
     <ul class="refs-list">
-      <li>Cassidy, J., &amp; Berlin, L. J. (1994). The insecure/ambivalent pattern of attachment: Theory and research. Child Development, 65(4), 971-991.</li>
+      <li>Cassidy, J., &amp; Berlin, L. J. (1994). The insecure/ambivalent pattern of attachment: Theory and research. Child Development, 65(4), 971-991. <a href="https://doi.org/10.2307/1131298" target="_blank" rel="noopener">https://doi.org/10.2307/1131298</a></li>
       <li>Bowlby, J. (1969). <em>Attachment and Loss. Vol. 1 : Attachment</em>. New York : Basic Books.</li>
       <li>Ainsworth, M. D. S., Blehar, M. C., Waters, E., &amp; Wall, S. (1978). <em>Patterns of Attachment</em>. Hillsdale : Erlbaum.</li>
       <li>Main, M., &amp; Solomon, J. (1990). Procedures for identifying infants as disorganized/disoriented during the Ainsworth Strange Situation. In M. T. Greenberg, D. Cicchetti &amp; E. M. Cummings (dir.), <em>Attachment in the Preschool Years</em>. Chicago : University of Chicago Press.</li>
-      <li>Hazan, C., &amp; Shaver, P. (1987). Romantic love conceptualized as an attachment process. <em>Journal of Personality and Social Psychology</em>, 52(3), 511-524.</li>
-      <li>Bartholomew, K., &amp; Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. <em>Journal of Personality and Social Psychology</em>, 61(2), 226-244.</li>
+      <li>Hazan, C., &amp; Shaver, P. (1987). Romantic love conceptualized as an attachment process. <em>Journal of Personality and Social Psychology</em>, 52(3), 511-524. <a href="https://doi.org/10.1037/0022-3514.52.3.511" target="_blank" rel="noopener">https://doi.org/10.1037/0022-3514.52.3.511</a></li>
+      <li>Bartholomew, K., &amp; Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. <em>Journal of Personality and Social Psychology</em>, 61(2), 226-244. <a href="https://doi.org/10.1037/0022-3514.61.2.226" target="_blank" rel="noopener">https://doi.org/10.1037/0022-3514.61.2.226</a></li>
       <li>Brennan, K. A., Clark, C. L., &amp; Shaver, P. R. (1998). Self-report measurement of adult attachment: An integrative overview. In J. A. Simpson &amp; W. S. Rholes (dir.), <em>Attachment Theory and Close Relationships</em> (p. 46-76). New York : Guilford Press.</li>
       <li>Guédeney, N., &amp; Guédeney, A. (dir.) (2021). <em>L'attachement : approche théorique. Du bébé à la personne âgée</em> (5e éd.). Paris : Elsevier Masson.</li>
       <li>Smith, J. (2024). <em>Applications cliniques en ICV (Intégration du Cycle de la Vie). Trauma, dissociation, troubles anxieux, traumatismes précoces, attachement et affirmation de soi</em>. Paris : Dunod.</li>
       <li>Bowlby, J. (1973). Attachment and Loss. Vol. 2 : Separation: Anxiety and Anger. New York : Basic Books.</li>
       <li>Young, J. E., Klosko, J. S., &amp; Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press.</li>
       <li>Young, J. E., &amp; Klosko, J. S. (1993). Reinventing Your Life. New York : Plume. (trad. française : Je réinvente ma vie, Éditions de l'Homme)</li>
-      <li>Mason, O., Platts, H., &amp; Tyson, M. (2005). Early maladaptive schemas and adult attachment in a UK clinical population. Psychology and Psychotherapy: Theory, Research and Practice, 78(4), 549-564.</li>
-      <li>Bosmans, G., Braet, C., &amp; Van Vlierberghe, L. (2010). Attachment and symptoms of psychopathology: Early maladaptive schemas as a cognitive link? Clinical Psychology &amp; Psychotherapy, 17(5), 374-385.</li>
+      <li>Mason, O., Platts, H., &amp; Tyson, M. (2005). Early maladaptive schemas and adult attachment in a UK clinical population. Psychology and Psychotherapy: Theory, Research and Practice, 78(4), 549-564. <a href="https://doi.org/10.1348/147608305x41371" target="_blank" rel="noopener">https://doi.org/10.1348/147608305x41371</a></li>
+      <li>Bosmans, G., Braet, C., &amp; Van Vlierberghe, L. (2010). Attachment and symptoms of psychopathology: Early maladaptive schemas as a cognitive link? Clinical Psychology &amp; Psychotherapy, 17(5), 374-385. <a href="https://doi.org/10.1002/cpp.667" target="_blank" rel="noopener">https://doi.org/10.1002/cpp.667</a></li>
     </ul>
   </div>
 </section>
@@ -697,7 +718,7 @@ figure figcaption a{padding-block:.7rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 11 octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 15 octobre 2026</div>
   </div>
 </footer>
 <script>

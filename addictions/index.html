@@ -31,7 +31,7 @@
    "name": "Addictions : comprendre et changer à son rythme — L. Duchemin",
    "description": "Addictions avec ou sans substance : leur lien avec le trauma et les émotions, les étapes du changement, l'entretien motivationnel et l'accompagnement en ligne.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-13",
+   "dateModified": "2026-10-15",
    "about": {
     "@type": "Thing",
     "name": "Addictions"
@@ -413,6 +413,14 @@ footer summary{padding-block:.65rem}
 figure figcaption a{padding-block:.7rem}
 /* En-tête sans défilement horizontal de 360 à 420 px (la marque et le bouton Menu demandaient 351 px pour 320) */
 @media (max-width:420px){.site-header .bar{gap:.75rem}.brand small{letter-spacing:0}.menu-btn{padding-inline:.75rem}}
+
+/* Retouches du 15/10/2026 (2) */
+.toc{margin:0 0 2rem}
+.toc details{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:0 1.1rem}
+.toc summary{color:var(--heading);font-family:var(--serif);font-size:1.25rem;font-weight:500;padding-block:.45rem}
+.toc ol{margin:0 0 .9rem;padding-left:1.3rem;color:var(--muted)}
+.toc a{display:block;padding-block:.7rem;line-height:1.35}
+.refs-list a{overflow-wrap:anywhere}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -558,6 +566,21 @@ figure figcaption a{padding-block:.7rem}
 </section>
 <section class="prose">
   <div class="wrap">
+    <nav class="toc" aria-label="Sommaire de la page"><details><summary>Sommaire</summary><ol>
+      <li><a href="#avec-ou-sans-substance">Avec ou sans substance</a></li>
+      <li><a href="#criteres-de-goodman">Les critères de l'addiction selon Aviel Goodman</a></li>
+      <li><a href="#une-strategie-de-regulation">Une stratégie de régulation</a></li>
+      <li><a href="#honte-et-culpabilite">La honte et la culpabilité</a></li>
+      <li><a href="#pornographie">La pornographie : quand la consommation devient difficile à contrôler</a></li>
+      <li><a href="#les-etapes-du-changement">Les étapes du changement</a></li>
+      <li><a href="#circuit-de-la-recompense">Le circuit de la récompense</a></li>
+      <li><a href="#entretien-motivationnel">L'entretien motivationnel</a></li>
+      <li><a href="#deux-outils">Deux outils</a></li>
+      <li><a href="#mon-accompagnement">Mon accompagnement</a></li>
+      <li><a href="#quand-consulter">Quand consulter</a></li>
+      <li><a href="#questions-frequentes">Questions fréquentes</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ol></details></nav>
     <h2 id="avec-ou-sans-substance">Avec ou sans substance</h2>
     <ul class="dash">
       <li>Les addictions aux substances : alcool, tabac, cannabis, médicaments, autres drogues.</li>
@@ -657,10 +680,10 @@ figure figcaption a{padding-block:.7rem}
     </ul>
     <h2 id="sources">Sources</h2>
     <ul class="refs-list">
-      <li>Goodman, A. (1990). Addiction: definition and implications. <em>British Journal of Addiction</em>, 85(11), 1403-1408.</li>
+      <li>Goodman, A. (1990). Addiction: definition and implications. <em>British Journal of Addiction</em>, 85(11), 1403-1408. <a href="https://doi.org/10.1111/j.1360-0443.1990.tb01620.x" target="_blank" rel="noopener">https://doi.org/10.1111/j.1360-0443.1990.tb01620.x</a></li>
       <li>Miller, W. R., &amp; Rollnick, S. (2013). <em>L'entretien motivationnel. Aider la personne à engager le changement</em> (2e éd.). Paris : InterÉditions.</li>
-      <li>Prochaska, J. O., &amp; DiClemente, C. C. (1983). Stages and processes of self-change of smoking: Toward an integrative model of change. <em>Journal of Consulting and Clinical Psychology</em>, 51(3), 390-395.</li>
-      <li>Khantzian, E. J. (1997). The self-medication hypothesis of substance use disorders: A reconsideration and recent applications. <em>Harvard Review of Psychiatry</em>, 4(5), 231-244.</li>
+      <li>Prochaska, J. O., &amp; DiClemente, C. C. (1983). Stages and processes of self-change of smoking: Toward an integrative model of change. <em>Journal of Consulting and Clinical Psychology</em>, 51(3), 390-395. <a href="https://doi.org/10.1037/0022-006x.51.3.390" target="_blank" rel="noopener">https://doi.org/10.1037/0022-006x.51.3.390</a></li>
+      <li>Khantzian, E. J. (1997). The self-medication hypothesis of substance use disorders: A reconsideration and recent applications. <em>Harvard Review of Psychiatry</em>, 4(5), 231-244. <a href="https://doi.org/10.3109/10673229709030550" target="_blank" rel="noopener">https://doi.org/10.3109/10673229709030550</a></li>
       <li>Felitti, V. J., Anda, R. F., Nordenberg, D., et al. (1998). The Adverse Childhood Experiences (ACE) Study. <em>American Journal of Preventive Medicine</em>, 14(4), 245-258.</li>
       <li>Bowen, S., Chawla, N., &amp; Marlatt, G. A. (2011). <em>Mindfulness-Based Relapse Prevention for Addictive Behaviors</em>. New York : Guilford Press.</li>
     </ul>
@@ -680,7 +703,7 @@ figure figcaption a{padding-block:.7rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 13 octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 15 octobre 2026</div>
   </div>
 </footer>
 <script>

@@ -31,7 +31,7 @@
    "name": "Dépendance affective : comprendre et s'en libérer — L. Duchemin",
    "description": "Dépendance affective : d'où elle vient, le cercle qui l'entretient, et comment apprendre peu à peu à tolérer l'absence pour retrouver une sécurité intérieure.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-11",
+   "dateModified": "2026-10-15",
    "about": {
     "@type": "Thing",
     "name": "Dépendance affective"
@@ -400,6 +400,14 @@ footer summary{padding-block:.65rem}
 figure figcaption a{padding-block:.7rem}
 /* En-tête sans défilement horizontal de 360 à 420 px (la marque et le bouton Menu demandaient 351 px pour 320) */
 @media (max-width:420px){.site-header .bar{gap:.75rem}.brand small{letter-spacing:0}.menu-btn{padding-inline:.75rem}}
+
+/* Retouches du 15/10/2026 (2) */
+.toc{margin:0 0 2rem}
+.toc details{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:0 1.1rem}
+.toc summary{color:var(--heading);font-family:var(--serif);font-size:1.25rem;font-weight:500;padding-block:.45rem}
+.toc ol{margin:0 0 .9rem;padding-left:1.3rem;color:var(--muted)}
+.toc a{display:block;padding-block:.7rem;line-height:1.35}
+.refs-list a{overflow-wrap:anywhere}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -545,6 +553,19 @@ figure figcaption a{padding-block:.7rem}
 </section>
 <section class="prose">
   <div class="wrap">
+    <nav class="toc" aria-label="Sommaire de la page"><details><summary>Sommaire</summary><ol>
+      <li><a href="#les-signes-qui-peuvent-alerter">Les signes qui peuvent alerter</a></li>
+      <li><a href="#le-cercle-qui-l-entretient">Le cercle qui l'entretient</a></li>
+      <li><a href="#comment-elle-s-installe">Comment elle s'installe</a></li>
+      <li><a href="#quand-le-lien-fait-du-mal-le-lien-invisible">Quand le lien fait du mal : le lien invisible</a></li>
+      <li><a href="#apprendre-a-tolerer-l-absence">Apprendre à tolérer l'absence</a></li>
+      <li><a href="#un-outil-traverser-l-absence">Un outil : traverser l'absence</a></li>
+      <li><a href="#un-deuxieme-outil-mes-petites-lueurs">Un deuxième outil : mes petites lueurs</a></li>
+      <li><a href="#des-pistes-pour-s-en-liberer">Des pistes pour s'en libérer</a></li>
+      <li><a href="#mon-accompagnement">Mon accompagnement</a></li>
+      <li><a href="#questions-frequentes">Questions fréquentes</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ol></details></nav>
     <h2 id="les-signes-qui-peuvent-alerter">Les signes qui peuvent alerter</h2>
     <ul class="dash">
       <li>Une grande peur de la solitude, ou de la séparation.</li>
@@ -635,7 +656,7 @@ figure figcaption a{padding-block:.7rem}
     <p>La dépendance affective prend souvent racine dans l'enfance, lorsque l'amour ou l'attention ont semblé fragiles ou conditionnels. On apprend alors que le lien doit être préservé à tout prix, quitte à s'oublier soi-même. La présence de l'autre apaise sur le moment, comme un soulagement, ce qui renforce le besoin, un peu à la manière d'une addiction.</p>
     <p>Plusieurs fils peuvent se croiser :</p>
     <ul class="dash">
-      <li><strong>Un style d'attachement anxieux (ou ambivalent).</strong> Lorsque le parent a été surprotecteur et a peu laissé l'enfant faire par lui-même, ou lorsque sa disponibilité a été inconstante, l'enfant a pu apprendre qu'il est plus sûr de rester proche et de ne pas agir seul. Faire seul devient alors source d'anxiété, et la présence de l'autre, une condition pour se sentir en sécurité. À l'âge adulte, on parle de style préoccupé (voir l'<a href="/attachement-anxieux/">attachement anxieux</a>).</li>
+      <li><strong>Un <a href="/styles-d-attachement/">style d'attachement</a> anxieux (ou ambivalent).</strong> Lorsque le parent a été surprotecteur et a peu laissé l'enfant faire par lui-même, ou lorsque sa disponibilité a été inconstante, l'enfant a pu apprendre qu'il est plus sûr de rester proche et de ne pas agir seul. Faire seul devient alors source d'anxiété, et la présence de l'autre, une condition pour se sentir en sécurité. À l'âge adulte, on parle de style préoccupé (voir l'<a href="/attachement-anxieux/">attachement anxieux</a>).</li>
       <li><strong>Des schémas précoces.</strong> Le psychologue Jeffrey Young a décrit des croyances profondes, apprises tôt, qui se réactivent dans les relations adultes : l'abandon (« les gens finissent par partir »), la dépendance (« je n'y arriverai pas sans l'autre »), l'assujettissement (« pour garder le lien, je dois faire passer l'autre avant moi »).</li>
       <li><strong>Un style d'attachement désorganisé.</strong> Lorsque la figure censée protéger a aussi été source de peur, l'enfant a appris à se rapprocher de ce qui l'inquiète. À l'âge adulte, le besoin de l'autre et l'envie de le fuir peuvent coexister, avec des allers-retours dans la relation. Cette histoire rend aussi plus vulnérable au lien traumatique : on cherche l'apaisement auprès de la personne même qui fait souffrir (voir l'<a href="/attachement-desorganise/">attachement désorganisé</a>).</li>
       <li><strong>Une estime de soi fragile.</strong> Quand on doute de sa valeur, l'amour de l'autre devient la preuve que l'on en a (voir l'<a href="/estime-de-soi/">estime de soi</a>).</li>
@@ -707,13 +728,13 @@ figure figcaption a{padding-block:.7rem}
     </ul>
     <h2 id="sources">Sources</h2>
     <ul class="refs-list">
-      <li>Bornstein, R. F. (1992). The dependent personality: Developmental, social, and clinical perspectives. Psychological Bulletin, 112(1), 3-23.</li>
+      <li>Bornstein, R. F. (1992). The dependent personality: Developmental, social, and clinical perspectives. Psychological Bulletin, 112(1), 3-23. <a href="https://doi.org/10.1037/0033-2909.112.1.3" target="_blank" rel="noopener">https://doi.org/10.1037/0033-2909.112.1.3</a></li>
       <li>Mikulincer, M., &amp; Shaver, P. R. (2016). Attachment in Adulthood: Structure, Dynamics, and Change (2e éd.). New York : Guilford Press.</li>
       <li>André, C., &amp; Lelord, F. (1999). L'estime de soi. S'aimer pour mieux vivre avec les autres. Paris : Odile Jacob.</li>
       <li>Ainsworth, M. D. S., Blehar, M. C., Waters, E., &amp; Wall, S. (1978). Patterns of Attachment. Hillsdale : Erlbaum.</li>
-      <li>Cassidy, J., &amp; Berlin, L. J. (1994). The insecure/ambivalent pattern of attachment: Theory and research. Child Development, 65(4), 971-991.</li>
+      <li>Cassidy, J., &amp; Berlin, L. J. (1994). The insecure/ambivalent pattern of attachment: Theory and research. Child Development, 65(4), 971-991. <a href="https://doi.org/10.2307/1131298" target="_blank" rel="noopener">https://doi.org/10.2307/1131298</a></li>
       <li>Main, M., &amp; Hesse, E. (1990). Parents' unresolved traumatic experiences are related to infant disorganized attachment status: Is frightened and/or frightening parental behavior the linking mechanism? In M. T. Greenberg, D. Cicchetti &amp; E. M. Cummings (dir.), Attachment in the Preschool Years (p. 161-182). Chicago : University of Chicago Press.</li>
-      <li>Bartholomew, K., &amp; Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. Journal of Personality and Social Psychology, 61(2), 226-244.</li>
+      <li>Bartholomew, K., &amp; Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. Journal of Personality and Social Psychology, 61(2), 226-244. <a href="https://doi.org/10.1037/0022-3514.61.2.226" target="_blank" rel="noopener">https://doi.org/10.1037/0022-3514.61.2.226</a></li>
       <li>Peele, S., &amp; Brodsky, A. (1975). Love and Addiction. New York : Taplinger.</li>
       <li>Young, J. E., Klosko, J. S., &amp; Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press.</li>
       <li>Mahler, M. S., Pine, F., &amp; Bergman, A. (1975). The Psychological Birth of the Human Infant. New York : Basic Books.</li>
@@ -738,7 +759,7 @@ figure figcaption a{padding-block:.7rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 11 octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 15 octobre 2026</div>
   </div>
 </footer>
 <script>

@@ -31,7 +31,7 @@
    "name": "Personnalité : les 5 grands traits et un test court",
    "description": "Les cinq grands traits de personnalité, un questionnaire court avec votre profil en araignée, et pourquoi un trait peut aussi être une adaptation.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-12",
+   "dateModified": "2026-10-15",
    "about": {
     "@type": "Thing",
     "name": "Personnalité"
@@ -392,6 +392,14 @@ footer summary{padding-block:.65rem}
 figure figcaption a{padding-block:.7rem}
 /* En-tête sans défilement horizontal de 360 à 420 px (la marque et le bouton Menu demandaient 351 px pour 320) */
 @media (max-width:420px){.site-header .bar{gap:.75rem}.brand small{letter-spacing:0}.menu-btn{padding-inline:.75rem}}
+
+/* Retouches du 15/10/2026 (2) */
+.toc{margin:0 0 2rem}
+.toc details{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:0 1.1rem}
+.toc summary{color:var(--heading);font-family:var(--serif);font-size:1.25rem;font-weight:500;padding-block:.45rem}
+.toc ol{margin:0 0 .9rem;padding-left:1.3rem;color:var(--muted)}
+.toc a{display:block;padding-block:.7rem;line-height:1.35}
+.refs-list a{overflow-wrap:anywhere}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -537,6 +545,17 @@ figure figcaption a{padding-block:.7rem}
 </section>
 <section class="prose">
   <div class="wrap">
+    <nav class="toc" aria-label="Sommaire de la page"><details><summary>Sommaire</summary><ol>
+      <li><a href="#temperament-et-caractere">Tempérament et caractère</a></li>
+      <li><a href="#les-cinq-grands-traits">Les cinq grands traits</a></li>
+      <li><a href="#un-questionnaire-court-mes-grandes-tendances">Un questionnaire court : mes grandes tendances</a></li>
+      <li><a href="#trait-de-personnalite-ou-adaptation">Trait de personnalité ou adaptation ?</a></li>
+      <li><a href="#la-personnalite-evolue">La personnalité évolue</a></li>
+      <li><a href="#ce-que-ce-n-est-pas">Ce que ce n'est pas</a></li>
+      <li><a href="#mon-accompagnement">Mon accompagnement</a></li>
+      <li><a href="#questions-frequentes">Questions fréquentes</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ol></details></nav>
     <h2 id="temperament-et-caractere">Tempérament et caractère</h2>
     <p>La personnalité se construit à partir de deux sources qui s'entremêlent. Le tempérament, c'est la part avec laquelle on arrive au monde : un bébé plutôt calme ou plutôt vif, plus ou moins sensible aux bruits, aux changements, à la nouveauté. Les psychiatres Alexander Thomas et Stella Chess l'ont observé dès les années 1950 en suivant des enfants de la naissance à l'âge adulte.</p>
     <p>Le caractère, lui, se façonne au fil des relations et des expériences : ce que l'on a appris sur soi et sur les autres, les façons de faire qui ont été encouragées, ou qui ont permis de s'adapter (voir les <a href="/styles-d-attachement/">styles d’attachement</a>). Ce qui nous définit tient donc autant à notre histoire qu'à notre nature.</p>
@@ -548,7 +567,7 @@ figure figcaption a{padding-block:.7rem}
       <li><strong>L'organisation</strong> (les chercheurs disent « conscience ») : d'un côté la persévérance, la rigueur, le sens des responsabilités ; de l'autre la souplesse et la spontanéité.</li>
       <li><strong>L'extraversion</strong> : d'un côté une énergie tournée vers les autres et l'action ; de l'autre une énergie tournée vers l'intérieur, qui se ressource dans le calme. L'introversion n'est pas de la timidité.</li>
       <li><strong>La coopération</strong> (les chercheurs disent « agréabilité ») : d'un côté la confiance, l'empathie, le goût de l'harmonie ; de l'autre l'esprit critique, la franchise, la capacité à défendre son point de vue.</li>
-      <li><strong>La sensibilité émotionnelle</strong> (les chercheurs disent « névrosisme », un terme ancien et peu heureux) : d'un côté des émotions vives et une vigilance aux signaux de danger ; de l'autre le calme et la stabilité face aux tensions.</li>
+      <li><strong>La sensibilité émotionnelle</strong> (les chercheurs disent « névrosisme », un terme ancien et peu heureux) : d'un côté des <a href="/les-emotions/">émotions</a> vives et une vigilance aux signaux de danger ; de l'autre le calme et la stabilité face aux tensions.</li>
     </ul>
     <h2 id="un-questionnaire-court-mes-grandes-tendances">Un questionnaire court : mes grandes tendances</h2>
     <p>Ce questionnaire de dix affirmations est la version française du Big Five Inventory à 10 items (BFI-10), validée en 2020 auprès de plus de 13 000 personnes. Il demande environ une minute. À la fin, vos réponses dessinent un graphique en araignée : chaque branche correspond à une dimension, du centre (1) au bord (5). La forme obtenue donne des tendances. Elle ne vous enferme pas dans un profil, et elle peut changer selon la période que vous traversez.</p>
@@ -764,13 +783,13 @@ figure figcaption a{padding-block:.7rem}
     </ul>
     <h2 id="sources">Sources</h2>
     <ul class="refs-list">
-      <li>McCrae, R. R., &amp; John, O. P. (1992). An introduction to the five-factor model and its applications. Journal of Personality, 60(2), 175-215.</li>
-      <li>Rammstedt, B., &amp; John, O. P. (2007). Measuring personality in one minute or less: A 10-item short version of the Big Five Inventory in English and German. <em>Journal of Research in Personality</em>, 41(1), 203-212.</li>
-      <li>Courtois, R., Petot, J.-M., Plaisant, O., Allibe, B., Lignier, B., Réveillère, C., Lecocq, G., &amp; John, O. (2020). Validation française du Big Five Inventory à 10 items (BFI-10). <em>L'Encéphale</em>, 46(6), 455-462.</li>
-      <li>Pittenger, D. J. (2005). Cautionary comments regarding the Myers-Briggs Type Indicator. Consulting Psychology Journal: Practice and Research, 57(3), 210-221.</li>
+      <li>McCrae, R. R., &amp; John, O. P. (1992). An introduction to the five-factor model and its applications. Journal of Personality, 60(2), 175-215. <a href="https://doi.org/10.1111/j.1467-6494.1992.tb00970.x" target="_blank" rel="noopener">https://doi.org/10.1111/j.1467-6494.1992.tb00970.x</a></li>
+      <li>Rammstedt, B., &amp; John, O. P. (2007). Measuring personality in one minute or less: A 10-item short version of the Big Five Inventory in English and German. <em>Journal of Research in Personality</em>, 41(1), 203-212. <a href="https://doi.org/10.1016/j.jrp.2006.02.001" target="_blank" rel="noopener">https://doi.org/10.1016/j.jrp.2006.02.001</a></li>
+      <li>Courtois, R., Petot, J.-M., Plaisant, O., Allibe, B., Lignier, B., Réveillère, C., Lecocq, G., &amp; John, O. (2020). Validation française du Big Five Inventory à 10 items (BFI-10). <em>L'Encéphale</em>, 46(6), 455-462. <a href="https://doi.org/10.1016/j.encep.2020.02.006" target="_blank" rel="noopener">https://doi.org/10.1016/j.encep.2020.02.006</a></li>
+      <li>Pittenger, D. J. (2005). Cautionary comments regarding the Myers-Briggs Type Indicator. Consulting Psychology Journal: Practice and Research, 57(3), 210-221. <a href="https://doi.org/10.1037/1065-9293.57.3.210" target="_blank" rel="noopener">https://doi.org/10.1037/1065-9293.57.3.210</a></li>
       <li>Thomas, A., &amp; Chess, S. (1977). Temperament and Development. New York : Brunner/Mazel.</li>
-      <li>Roberts, B. W., Walton, K. E., &amp; Viechtbauer, W. (2006). Patterns of mean-level change in personality traits across the life course: A meta-analysis of longitudinal studies. Psychological Bulletin, 132(1), 1-25.</li>
-      <li>Roberts, B. W., Luo, J., Briley, D. A., Chow, P. I., Su, R., &amp; Hill, P. L. (2017). A systematic review of personality trait change through intervention. Psychological Bulletin, 143(2), 117-141.</li>
+      <li>Roberts, B. W., Walton, K. E., &amp; Viechtbauer, W. (2006). Patterns of mean-level change in personality traits across the life course: A meta-analysis of longitudinal studies. Psychological Bulletin, 132(1), 1-25. <a href="https://doi.org/10.1037/0033-2909.132.1.1" target="_blank" rel="noopener">https://doi.org/10.1037/0033-2909.132.1.1</a></li>
+      <li>Roberts, B. W., Luo, J., Briley, D. A., Chow, P. I., Su, R., &amp; Hill, P. L. (2017). A systematic review of personality trait change through intervention. Psychological Bulletin, 143(2), 117-141. <a href="https://doi.org/10.1037/bul0000088" target="_blank" rel="noopener">https://doi.org/10.1037/bul0000088</a></li>
     </ul>
   </div>
 </section>
@@ -788,7 +807,7 @@ figure figcaption a{padding-block:.7rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 12 octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 15 octobre 2026</div>
   </div>
 </footer>
 <script>

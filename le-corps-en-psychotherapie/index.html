@@ -31,7 +31,7 @@
    "name": "Le corps en psychothérapie : mémoire, trauma et mouvement",
    "description": "Pourquoi la parole seule ne suffit pas après un trauma : la mémoire du corps, le mouvement, la respiration, les stimulations bilatérales et l'image du corps.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-06",
+   "dateModified": "2026-10-15",
    "about": {
     "@type": "Thing",
     "name": "Le corps en psychothérapie"
@@ -392,6 +392,14 @@ footer summary{padding-block:.65rem}
 figure figcaption a{padding-block:.7rem}
 /* En-tête sans défilement horizontal de 360 à 420 px (la marque et le bouton Menu demandaient 351 px pour 320) */
 @media (max-width:420px){.site-header .bar{gap:.75rem}.brand small{letter-spacing:0}.menu-btn{padding-inline:.75rem}}
+
+/* Retouches du 15/10/2026 (2) */
+.toc{margin:0 0 2rem}
+.toc details{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:0 1.1rem}
+.toc summary{color:var(--heading);font-family:var(--serif);font-size:1.25rem;font-weight:500;padding-block:.45rem}
+.toc ol{margin:0 0 .9rem;padding-left:1.3rem;color:var(--muted)}
+.toc a{display:block;padding-block:.7rem;line-height:1.35}
+.refs-list a{overflow-wrap:anywhere}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -537,6 +545,23 @@ figure figcaption a{padding-block:.7rem}
 </section>
 <section class="prose">
   <div class="wrap">
+    <nav class="toc" aria-label="Sommaire de la page"><details><summary>Sommaire</summary><ol>
+      <li><a href="#la-parole-seule">Pourquoi la parole seule ne suffit pas</a></li>
+      <li><a href="#la-trace-dans-le-corps">Comment le corps garde la trace</a></li>
+      <li><a href="#les-symptomes">Quand les symptômes racontent une histoire</a></li>
+      <li><a href="#bouger-pour-ne-plus-subir">Bouger pour ne plus subir</a></li>
+      <li><a href="#le-mouvement">Le mouvement pour réguler les émotions</a></li>
+      <li><a href="#la-respiration">La respiration et le système nerveux</a></li>
+      <li><a href="#relaxation-et-sophrologie">Relaxation et sophrologie</a></li>
+      <li><a href="#stimulations-bilaterales">Les stimulations bilatérales</a></li>
+      <li><a href="#tapotement-eft">Le tapotement en EFT</a></li>
+      <li><a href="#approches-corporelles">Les approches corporelles du trauma</a></li>
+      <li><a href="#catharsis">Une brève histoire de la catharsis</a></li>
+      <li><a href="#marcher-en-therapie">Marcher en thérapie</a></li>
+      <li><a href="#mon-accompagnement">Mon accompagnement</a></li>
+      <li><a href="#questions-frequentes">Questions fréquentes</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ol></details></nav>
     <h2 id="la-parole-seule">Pourquoi la parole seule ne suffit pas</h2>
     <p>En 1996, une équipe de chercheurs (Rauch, van der Kolk et leurs collègues) a observé par imagerie cérébrale des personnes souffrant de <a href="/stress-post-traumatique-trauma-complexe/">stress post-traumatique</a> pendant qu'elles écoutaient le récit de leur souvenir. L'activité de l'aire de Broca, une zone essentielle à la production du langage, diminuait. Le psychiatre Bessel van der Kolk parle de « terreur sans mots » : au moment où le souvenir s'active, les mots manquent.</p>
     <p>On distingue ainsi deux voies complémentaires. Les approches « par le haut » partent de la pensée et de la parole, pour comprendre et donner du sens. Les approches « par le bas » partent du corps et des sensations, pour apaiser le système nerveux là où l'alarme s'est installée. La thérapie gagne à s'appuyer sur les deux.</p>
@@ -705,6 +730,8 @@ figure figcaption a{padding-block:.7rem}
     <p>La walking therapy, ou thérapie en marchant, consiste à mener la séance en se promenant, côte à côte, à l'extérieur. Le mouvement, la nature et le fait de ne pas être face à face peuvent faciliter la parole et l'apaisement. Les études sont encore peu nombreuses, surtout qualitatives, mais elles décrivent un cadre vécu comme plus libre et moins intimidant (Revell et McLeod, 2016). C'est une approche qui m'intéresse et que j'aimerais intégrer plus largement.</p>
     <h2 id="mon-accompagnement">Mon accompagnement</h2>
     <p>Les séances ont lieu en ligne. Le travail corporel s'y adapte bien : il repose sur l'attention portée à vos sensations, sur la respiration et sur des mouvements simples, sans aucun toucher. Chaque proposition reste une invitation : vous pouvez la refuser, l'adapter ou vous arrêter à tout moment. C'est le cœur d'une approche sensible au trauma.</p>
+    <p>Le travail corporel s'articule avec les autres <a href="/mes-approches/">approches que j'utilise</a>.</p>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="questions-frequentes">Questions fréquentes</h2>
     <ul class="faq-list">
       <li><h3>Faut-il être à l'aise avec son corps pour ce type de travail ?</h3><p>Non. Le travail commence là où vous en êtes, par de toutes petites étapes, et rien n'est imposé. Pour beaucoup de personnes, se sentir mal à l'aise avec son corps est justement ce qui amène à ce travail.</p></li>
@@ -714,33 +741,33 @@ figure figcaption a{padding-block:.7rem}
     <h2 id="sources">Sources</h2>
     <ul class="refs-list">
       <li>Porges, S. W. (2011). The Polyvagal Theory. New York : Norton.</li>
-      <li>Rauch, S. L., van der Kolk, B. A., Fisler, R. E., et al. (1996). A symptom provocation study of posttraumatic stress disorder using positron emission tomography and script-driven imagery. Archives of General Psychiatry, 53(5), 380-387.</li>
+      <li>Rauch, S. L., van der Kolk, B. A., Fisler, R. E., et al. (1996). A symptom provocation study of posttraumatic stress disorder using positron emission tomography and script-driven imagery. Archives of General Psychiatry, 53(5), 380-387. <a href="https://doi.org/10.1001/archpsyc.1996.01830050014003" target="_blank" rel="noopener">https://doi.org/10.1001/archpsyc.1996.01830050014003</a></li>
       <li>van der Kolk, B. (2018). Le corps n'oublie rien. Paris : Albin Michel.</li>
       <li>Ogden, P., Minton, K., &amp; Pain, C. (2006). Trauma and the Body: A Sensorimotor Approach to Psychotherapy. New York : Norton.</li>
       <li>Levine, P. A. (1997). Waking the Tiger: Healing Trauma. Berkeley : North Atlantic Books.</li>
-      <li>Brom, D., Stokar, Y., Lawi, C., et al. (2017). Somatic Experiencing for posttraumatic stress disorder: A randomized controlled outcome study. Journal of Traumatic Stress, 30(3), 304-312.</li>
-      <li>Price, C. J., &amp; Hooven, C. (2018). Interoceptive awareness skills for emotion regulation: Theory and approach of Mindful Awareness in Body-Oriented Therapy (MABT). Frontiers in Psychology, 9, 798.</li>
-      <li>Rosenbaum, S., Vancampfort, D., Steel, Z., et al. (2015). Physical activity in the treatment of post-traumatic stress disorder: A systematic review and meta-analysis. Psychiatry Research, 230(2), 130-136.</li>
-      <li>Singh, B., Olds, T., Curtis, R., et al. (2023). Effectiveness of physical activity interventions for improving depression, anxiety and distress: An overview of systematic reviews. British Journal of Sports Medicine, 57(18), 1203-1209.</li>
+      <li>Brom, D., Stokar, Y., Lawi, C., et al. (2017). Somatic Experiencing for posttraumatic stress disorder: A randomized controlled outcome study. Journal of Traumatic Stress, 30(3), 304-312. <a href="https://doi.org/10.1002/jts.22189" target="_blank" rel="noopener">https://doi.org/10.1002/jts.22189</a></li>
+      <li>Price, C. J., &amp; Hooven, C. (2018). Interoceptive awareness skills for emotion regulation: Theory and approach of Mindful Awareness in Body-Oriented Therapy (MABT). Frontiers in Psychology, 9, 798. <a href="https://doi.org/10.3389/fpsyg.2018.00798" target="_blank" rel="noopener">https://doi.org/10.3389/fpsyg.2018.00798</a></li>
+      <li>Rosenbaum, S., Vancampfort, D., Steel, Z., et al. (2015). Physical activity in the treatment of post-traumatic stress disorder: A systematic review and meta-analysis. Psychiatry Research, 230(2), 130-136. <a href="https://doi.org/10.1016/j.psychres.2015.10.017" target="_blank" rel="noopener">https://doi.org/10.1016/j.psychres.2015.10.017</a></li>
+      <li>Singh, B., Olds, T., Curtis, R., et al. (2023). Effectiveness of physical activity interventions for improving depression, anxiety and distress: An overview of systematic reviews. British Journal of Sports Medicine, 57(18), 1203-1209. <a href="https://doi.org/10.1136/bjsports-2022-106195" target="_blank" rel="noopener">https://doi.org/10.1136/bjsports-2022-106195</a></li>
       <li>Organisation mondiale de la santé (2020). Lignes directrices de l'OMS sur l'activité physique et la sédentarité. Genève : OMS.</li>
-      <li>Lehrer, P. M., &amp; Gevirtz, R. (2014). Heart rate variability biofeedback: How and why does it work? Frontiers in Psychology, 5, 756.</li>
-      <li>Zaccaro, A., Piarulli, A., Laurino, M., et al. (2018). How breath-control can change your life: A systematic review on psycho-physiological correlates of slow breathing. Frontiers in Human Neuroscience, 12, 353.</li>
-      <li>Manzoni, G. M., Pagnini, F., Castelnuovo, G., &amp; Molinari, E. (2008). Relaxation training for anxiety: A ten-years systematic review with meta-analysis. BMC Psychiatry, 8, 41.</li>
-      <li>Heide, F. J., &amp; Borkovec, T. D. (1983). Relaxation-induced anxiety: Paradoxical anxiety enhancement due to relaxation training. Journal of Consulting and Clinical Psychology, 51(2), 171-182.</li>
+      <li>Lehrer, P. M., &amp; Gevirtz, R. (2014). Heart rate variability biofeedback: How and why does it work? Frontiers in Psychology, 5, 756. <a href="https://doi.org/10.3389/fpsyg.2014.00756" target="_blank" rel="noopener">https://doi.org/10.3389/fpsyg.2014.00756</a></li>
+      <li>Zaccaro, A., Piarulli, A., Laurino, M., et al. (2018). How breath-control can change your life: A systematic review on psycho-physiological correlates of slow breathing. Frontiers in Human Neuroscience, 12, 353. <a href="https://doi.org/10.3389/fnhum.2018.00353" target="_blank" rel="noopener">https://doi.org/10.3389/fnhum.2018.00353</a></li>
+      <li>Manzoni, G. M., Pagnini, F., Castelnuovo, G., &amp; Molinari, E. (2008). Relaxation training for anxiety: A ten-years systematic review with meta-analysis. BMC Psychiatry, 8, 41. <a href="https://doi.org/10.1186/1471-244x-8-41" target="_blank" rel="noopener">https://doi.org/10.1186/1471-244x-8-41</a></li>
+      <li>Heide, F. J., &amp; Borkovec, T. D. (1983). Relaxation-induced anxiety: Paradoxical anxiety enhancement due to relaxation training. Journal of Consulting and Clinical Psychology, 51(2), 171-182. <a href="https://doi.org/10.1037/0022-006x.51.2.171" target="_blank" rel="noopener">https://doi.org/10.1037/0022-006x.51.2.171</a></li>
       <li>Jacobson, E. (1938). Progressive Relaxation. Chicago : University of Chicago Press.</li>
-      <li>Lee, C. W., &amp; Cuijpers, P. (2013). A meta-analysis of the contribution of eye movements in processing emotional memories. Journal of Behavior Therapy and Experimental Psychiatry, 44(2), 231-239.</li>
-      <li>van den Hout, M. A., &amp; Engelhard, I. M. (2012). How does EMDR work? Journal of Experimental Psychopathology, 3(5), 724-738.</li>
-      <li>Clond, M. (2016). Emotional Freedom Techniques for anxiety: A systematic review with meta-analysis. Journal of Nervous and Mental Disease, 204(5), 388-395.</li>
-      <li>Sebastian, B., &amp; Nelms, J. (2017). The effectiveness of Emotional Freedom Techniques in the treatment of posttraumatic stress disorder: A meta-analysis. Explore, 13(1), 16-25.</li>
-      <li>Feinstein, D. (2010). Rapid treatment of PTSD: Why psychological exposure with acupoint tapping may be effective. Psychotherapy: Theory, Research, Practice, Training, 47(3), 385-402.</li>
+      <li>Lee, C. W., &amp; Cuijpers, P. (2013). A meta-analysis of the contribution of eye movements in processing emotional memories. Journal of Behavior Therapy and Experimental Psychiatry, 44(2), 231-239. <a href="https://doi.org/10.1016/j.jbtep.2012.11.001" target="_blank" rel="noopener">https://doi.org/10.1016/j.jbtep.2012.11.001</a></li>
+      <li>van den Hout, M. A., &amp; Engelhard, I. M. (2012). How does EMDR work? Journal of Experimental Psychopathology, 3(5), 724-738. <a href="https://doi.org/10.5127/jep.028212" target="_blank" rel="noopener">https://doi.org/10.5127/jep.028212</a></li>
+      <li>Clond, M. (2016). Emotional Freedom Techniques for anxiety: A systematic review with meta-analysis. Journal of Nervous and Mental Disease, 204(5), 388-395. <a href="https://doi.org/10.1097/nmd.0000000000000483" target="_blank" rel="noopener">https://doi.org/10.1097/nmd.0000000000000483</a></li>
+      <li>Sebastian, B., &amp; Nelms, J. (2017). The effectiveness of Emotional Freedom Techniques in the treatment of posttraumatic stress disorder: A meta-analysis. Explore, 13(1), 16-25. <a href="https://doi.org/10.1016/j.explore.2016.10.001" target="_blank" rel="noopener">https://doi.org/10.1016/j.explore.2016.10.001</a></li>
+      <li>Feinstein, D. (2010). Rapid treatment of PTSD: Why psychological exposure with acupoint tapping may be effective. Psychotherapy: Theory, Research, Practice, Training, 47(3), 385-402. <a href="https://doi.org/10.1037/a0021171" target="_blank" rel="noopener">https://doi.org/10.1037/a0021171</a></li>
       <li>Treleaven, D. A. (2018). Trauma-Sensitive Mindfulness. New York : Norton.</li>
       <li>Emerson, D., &amp; Hopper, E. (2011). Overcoming Trauma through Yoga. Berkeley : North Atlantic Books.</li>
-      <li>van der Kolk, B. A., Stone, L., West, J., et al. (2014). Yoga as an adjunctive treatment for posttraumatic stress disorder: A randomized controlled trial. Journal of Clinical Psychiatry, 75(6), e559-e565.</li>
+      <li>van der Kolk, B. A., Stone, L., West, J., et al. (2014). Yoga as an adjunctive treatment for posttraumatic stress disorder: A randomized controlled trial. Journal of Clinical Psychiatry, 75(6), e559-e565. <a href="https://doi.org/10.4088/jcp.13m08561" target="_blank" rel="noopener">https://doi.org/10.4088/jcp.13m08561</a></li>
       <li>Breuer, J., &amp; Freud, S. (1895). Études sur l'hystérie. Trad. fr. Paris : PUF, 1956.</li>
       <li>Janet, P. (1889). L'automatisme psychologique. Paris : Alcan.</li>
-      <li>Bushman, B. J. (2002). Does venting anger feed or extinguish the flame? Personality and Social Psychology Bulletin, 28(6), 724-731.</li>
-      <li>Bruchon-Schweitzer, M. (1990). Une psychologie du corps. Paris : PUF.</li>
-      <li>Revell, S., &amp; McLeod, J. (2016). Experiences of therapists who integrate walk and talk into their professional practice. Counselling and Psychotherapy Research, 16(1), 35-43.</li>
+      <li>Bushman, B. J. (2002). Does venting anger feed or extinguish the flame? Personality and Social Psychology Bulletin, 28(6), 724-731. <a href="https://doi.org/10.1177/0146167202289002" target="_blank" rel="noopener">https://doi.org/10.1177/0146167202289002</a></li>
+      <li>Bruchon-Schweitzer, M. (1990). Une psychologie du corps. Paris : PUF. <a href="https://doi.org/10.3917/puf.bruch.1990.01" target="_blank" rel="noopener">https://doi.org/10.3917/puf.bruch.1990.01</a></li>
+      <li>Revell, S., &amp; McLeod, J. (2016). Experiences of therapists who integrate walk and talk into their professional practice. Counselling and Psychotherapy Research, 16(1), 35-43. <a href="https://doi.org/10.1002/capr.12042" target="_blank" rel="noopener">https://doi.org/10.1002/capr.12042</a></li>
     </ul>
   </div>
 </section>
@@ -758,7 +785,7 @@ figure figcaption a{padding-block:.7rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 6 octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 15 octobre 2026</div>
   </div>
 </footer>
 <script>
