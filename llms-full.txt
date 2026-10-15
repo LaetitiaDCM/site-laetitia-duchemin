@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 45 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 15 octobre 2026.
+> Version complète de llms.txt : texte principal des 46 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 16 octobre 2026.
 
 ---
 
@@ -83,7 +83,7 @@ Comprendre ce que sont les émotions et à quoi elles servent. Développer des r
 
 ### Styles d'attachement
 
-Explorer comment vos premiers liens influencent aujourd'hui vos relations et votre rapport à vous-même : attachement sécure, anxieux, évitant ou désorganisé, dépendance affective, peur de l'abandon, et les repères d'une relation saine. En savoir plus sur les styles d'attachement
+Explorer comment vos premiers liens influencent aujourd'hui vos relations et votre rapport à vous-même : attachement sécure, anxieux, évitant ou désorganisé, dépendance affective, peur de l'abandon, et les repères d'une relation saine. Quel est mon style d'attachement ? · En savoir plus sur les styles d'attachement
 
 -
 
@@ -1736,7 +1736,7 @@ Comprendre ses liens, de l'enfance à l'âge adulte
 
 La théorie de l'attachement, développée par John Bowlby puis complétée par Mary Ainsworth, décrit comment les premiers liens avec les figures qui prennent soin de l'enfant façonnent sa manière de se sentir en sécurité et d'entrer en relation. Ces premières expériences donnent naissance à des styles d'attachement, qui continuent d'influencer nos relations à l'âge adulte.
 
-Prendre rendez-vous
+Prendre rendez-vousQuel est mon style d'attachement ?
 
 ## Qu'est-ce que l'attachement ?
 
@@ -1933,6 +1933,59 @@ Dès l'enfance, à partir des milliers d'échanges avec les personnes qui prenne
 - Bosmans, G., Braet, C., & Van Vlierberghe, L. (2010). Attachment and symptoms of psychopathology: Early maladaptive schemas as a cognitive link? Clinical Psychology & Psychotherapy, 17(5), 374-385. https://doi.org/10.1002/cpp.667
 
 Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/test-style-d-attachement/
+Titre : Test du style d'attachement (ECR-RS) : quel est le vôtre ?
+
+# Quel est mon style d'attachement ?
+
+Le test du style d'attachement, relation par relation
+
+Nous ne nous attachons pas de la même façon à tout le monde. Ce questionnaire vous propose de regarder vos liens un par un : avec votre mère, votre père, votre partenaire, votre ami·e le plus proche. Choisissez les relations qui vous parlent, puis indiquez pour chaque phrase à quel point vous êtes d'accord, de 1 (pas du tout) à 7 (tout à fait).
+
+Faire le testPrendre rendez-vous
+
+## Le questionnaire
+
+Questionnaire · 9 phrases par relation
+
+Avant de commencer
+
+- Il n'y a pas de bonne ou de mauvaise réponse : répondez selon ce que vous ressentez en général.
+
+- Vos réponses restent sur votre appareil : rien n'est enregistré ni envoyé.
+
+Les relations que vous souhaitez regarder
+
+Pour chaque phrase, indiquez à quel point vous êtes d'accord, de 1 (pas du tout) à 7 (tout à fait).
+
+Votre résultat
+
+Votre style d'attachement principal
+
+Selon les relations
+
+Les réglettes montrent à quel point vos réponses ressemblent à chacun des quatre styles. On parle de style principal : la plupart des personnes se reconnaissent un peu dans plusieurs, et les façons d'être en lien peuvent changer selon les relations et évoluer au fil de la vie.
+
+Ce questionnaire donne des observations, et non un résultat officiel : il n'a pas été interprété par un professionnel. Ses résultats sont indicatifs, pour commencer à mieux vous connaître.
+
+Pour en parler, vous pouvez apporter ce document en séance.
+
+Prendre rendez-vous
+
+Questionnaire ECR-RS (Experiences in Close Relationships, Relationship Structures), Fraley, Heffernan, Vicary et Brumbaugh (2011). Traduction française : Laetitia Duchemin. Les pourcentages des quatre styles sont calculés sur ce site à partir des deux scores du questionnaire, l'anxiété et l'évitement.
+
+Pour une vue d'ensemble, je vous invite à lire la page Styles d'attachement.
+
+## Sources
+
+- Fraley, R. C., Heffernan, M. E., Vicary, A. M., et al. (2011). The Experiences in Close Relationships-Relationship Structures questionnaire: A method for assessing attachment orientations across relationships. Psychological Assessment, 23(3), 615-625. https://doi.org/10.1037/a0022898
+
+Consultation : 1 h, 70 €, en ligne.
 
 Réserver en ligne
 
