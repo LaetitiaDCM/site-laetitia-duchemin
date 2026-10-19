@@ -31,7 +31,7 @@
    "name": "Test du style d'attachement (ECR-RS) : quel est le vôtre ?",
    "description": "Test du style d'attachement en ligne, relation par relation (mère, père, partenaire, ami) : 9 phrases, un résultat indicatif, rien n'est enregistré.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-16",
+   "dateModified": "2026-10-19",
    "about": {
     "@type": "Thing",
     "name": "Style d'attachement"
@@ -523,7 +523,7 @@ figure figcaption a{padding-block:.7rem}
     <h1>Quel est mon style d'attachement ?</h1>
     <p class="sub">Le test du style d'attachement, relation par relation</p>
     <hr class="rule">
-    <p class="lede">Nous ne nous attachons pas de la même façon à tout le monde. Ce questionnaire vous propose de regarder vos liens un par un : avec votre mère, votre père, votre partenaire, votre ami·e le plus proche. Choisissez les relations qui vous parlent, puis indiquez pour chaque phrase à quel point vous êtes d'accord, de 1 (pas du tout) à 7 (tout à fait).</p>
+    <p class="lede">Nous ne nous attachons pas de la même façon à tout le monde. Ce questionnaire vous propose de regarder vos liens un par un : avec votre mère, votre père, votre partenaire, votre ami·e le plus proche. Choisissez les relations qui vous parlent, puis indiquez pour chaque phrase dans quelle mesure vous êtes en accord ou en désaccord, de 1 (totalement en désaccord) à 7 (totalement en accord).</p>
     <div class="btns"><a class="btn solid" href="#le-test">Faire le test</a><a class="btn ghost" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
   </div>
 </section>
@@ -537,15 +537,15 @@ figure figcaption a{padding-block:.7rem}
     {"id": "part", "name": "Mon ou ma partenaire", "hint": "actuel·le, passé·e ou souhaité·e", "avec": "avec votre partenaire"},
     {"id": "ami", "name": "Mon ami·e le plus proche", "hint": "", "avec": "avec votre ami·e le plus proche"}],
   "items": [
-    "Cela m'aide de me tourner vers cette personne quand j'en ai besoin.",
-    "J'aborde généralement mes problèmes et mes soucis avec cette personne.",
-    "J'échange volontiers avec cette personne sur ce que je vis.",
-    "Il m'est facile de compter sur cette personne.",
-    "Je ne me sens pas à l'aise de me confier à cette personne.",
-    "Je préfère ne pas montrer à cette personne ce que je ressens au fond de moi.",
-    "Je m'inquiète souvent que cette personne ne tienne pas vraiment à moi.",
-    "J'ai peur que cette personne m'abandonne.",
-    "Je crains que cette personne tienne moins à moi que je ne tiens à elle."],
+    "En cas de besoin, me tourner vers cette personne m'aide.",
+    "Habituellement, je discute de mes préoccupations et de mes problèmes avec cette personne.",
+    "Je discute des sujets importants avec cette personne.",
+    "Je peux facilement compter sur cette personne.",
+    "Je ne me sens pas à l'aise de m'ouvrir à cette personne.",
+    "Je préfère ne pas montrer mes sentiments profonds à cette personne.",
+    "Je m'inquiète souvent que cette personne ne se soucie pas vraiment de moi.",
+    "Je crains que cette personne puisse m'abandonner.",
+    "J'ai peur que cette personne ne soit pas autant attachée à moi que je le suis à elle."],
   "styles": [
     {"k": "sec", "name": "Sécure", "adj": "sécure", "url": "/attachement-secure/", "glob": "vous paraissez à l'aise aussi bien dans la proximité que dans l'autonomie, et vous pouvez compter sur les autres sans vous perdre dans le lien."},
     {"k": "anx", "name": "Anxieux", "adj": "anxieux", "url": "/attachement-anxieux/", "glob": "le lien compte beaucoup pour vous, et la crainte de ne pas compter assez pour l'autre peut prendre beaucoup de place."},
@@ -562,7 +562,7 @@ figure figcaption a{padding-block:.7rem}
       <legend><span class="qz-stem">Les relations que vous souhaitez regarder</span></legend>
       <div class="qz-opts"></div>
     </fieldset>
-    <p class="qz-consigne">Pour chaque phrase, indiquez à quel point vous êtes d'accord, de 1 (pas du tout) à 7 (tout à fait).</p>
+    <p class="qz-consigne">Pour chaque phrase, indiquez dans quelle mesure vous êtes en accord ou en désaccord, de 1 (totalement en désaccord) à 7 (totalement en accord).</p>
     <div class="qz-nav"><button type="button" class="btn solid qz-go" disabled>Commencer le questionnaire</button></div>
   </div>
   <div class="qz-screen" data-s="q" hidden>
@@ -589,7 +589,7 @@ figure figcaption a{padding-block:.7rem}
     <p class="qz-note qz-printonly">Pour en parler, vous pouvez apporter ce document en séance.</p>
     <div class="qz-nav"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a><button type="button" class="qz-link qz-print">Imprimer ou enregistrer en PDF</button><button type="button" class="qz-link qz-reset">Effacer et recommencer</button></div>
   </div>
-  <p class="qz-src">Questionnaire ECR-RS (Experiences in Close Relationships, Relationship Structures), Fraley, Heffernan, Vicary et Brumbaugh (2011). Traduction française : Laetitia Duchemin. Les pourcentages des quatre styles sont calculés sur ce site à partir des deux scores du questionnaire, l'anxiété et l'évitement.</p>
+  <p class="qz-src">Questionnaire ECR-RS (Experiences in Close Relationships, Relationship Structures), Fraley, Heffernan, Vicary et Brumbaugh (2011). Version française : Questionnaire sur les structures relationnelles (QSR), traduction et validation par Élise Chaperon et Stéphane Dandeneau (UQAM). Les pourcentages des quatre styles sont calculés sur ce site à partir des deux scores du questionnaire, l'anxiété et l'évitement. Pour le ou la partenaire, l'évitement est calculé sur les quatre premières phrases.</p>
 </div>
 <style>
 .qz{margin:1.6rem 0;padding:1.4rem 1.3rem 1rem;border:1px solid var(--line);border-radius:18px;background:var(--surface)}
@@ -627,7 +627,8 @@ figure figcaption a{padding-block:.7rem}
 .ecr-g{display:grid;gap:.3rem}
 .ecr-lab{display:flex;justify-content:space-between;align-items:center;gap:.6rem;font-size:.95rem}
 .ecr-lab a{display:inline-block;padding-block:.7rem;color:var(--link)}
-.ecr-lab b{font-weight:500;font-variant-numeric:tabular-nums}
+.ecr-lab b{font-weight:500;font-variant-numeric:tabular-nums;text-align:right}
+.ecr-niv{font-weight:400;font-size:.85rem;color:var(--muted);white-space:nowrap}
 .ecr-track{position:relative;height:10px;border-radius:99px;background:var(--line)}
 .ecr-fill{position:absolute;inset:0 auto 0 0;border-radius:99px;background:linear-gradient(90deg,var(--gold),var(--gold-deep,#7d5a16))}
 .ecr-cursor{position:absolute;top:50%;width:18px;height:18px;border-radius:50%;background:var(--surface);border:3px solid var(--gold-deep,#7d5a16);transform:translate(-50%,-50%)}
@@ -646,6 +647,10 @@ figure figcaption a{padding-block:.7rem}
   var NB = String.fromCharCode(160);
   function ty(t){ return t.replace(/ ([:;?!%])/g, NB + "$1"); }
   function note(v){ return v.toFixed(1).replace(".", ",") + NB + "/" + NB + "7"; }
+  // Libellé de chaque réponse : extrêmes du QSR, intermédiaires validés par Laetitia (16/10/2026).
+  var ECHELLE = ["Totalement en désaccord", "En désaccord", "Plutôt en désaccord", "Neutre", "Plutôt en accord", "En accord", "Totalement en accord"];
+  // Niveau affiché après chaque pourcentage.
+  function niveau(p){ return p >= 50 ? "Très présent" : p >= 30 ? "Présent" : p >= 15 ? "Peu présent" : "Très peu présent"; }
   var scr = {}; root.querySelectorAll(".qz-screen").forEach(function(s){ scr[s.dataset.s] = s; });
   var relsBox = root.querySelector(".qz-rels .qz-opts"), go = root.querySelector(".qz-go");
   var q = scr.q, stem = q.querySelector(".qz-stem"), item = q.querySelector(".qz-item"), opts = q.querySelector(".qz-opts");
@@ -673,18 +678,20 @@ figure figcaption a{padding-block:.7rem}
     for (var v = 1; v <= 7; v++) (function(v){
       var l = document.createElement("label"), x = document.createElement("input"), s = document.createElement("span");
       x.type = "radio"; x.name = "qz-ecrrs-q"; x.value = v; if (v0 === v) x.checked = true;
-      s.textContent = v + (v === 1 ? " · Pas du tout d'accord" : v === 7 ? " · Tout à fait d'accord" : "");
+      s.textContent = v + " · " + ECHELLE[v - 1];
       l.appendChild(x); l.appendChild(s); opts.appendChild(l);
       x.addEventListener("change", function(){ rep[r.id][k] = v; nxt.disabled = false; });
       l.addEventListener("click", function(ev){ if (ev.detail > 0) { rep[r.id][k] = v; x.checked = true; nxt.disabled = false; clearTimeout(timer); timer = setTimeout(suivant, 350); } });
     })(v);
   }
   function suivant(){ if (i < etapes.length - 1) { i++; render(); var c = opts.querySelector("input:checked") || opts.querySelector("input"); c.focus({ preventScroll: true }); } else resultat(); }
-  // Calcul validé par Laetitia : évitement = moyenne des items 1 à 6 (1 à 4 inversés, 8 - x) ;
-  // anxiété = moyenne des items 7 à 9 ; poids des quatre styles à partir des deux scores ramenés de 0 à 1.
+  // Calcul validé par Laetitia : évitement = moyenne des items 1 à 6 (1 à 4 inversés, 8 - x), sauf pour le ou la
+  // partenaire : items 1 à 4 seulement, comme le recommande le QSR ; anxiété = moyenne des items 7 à 9 ;
+  // poids des quatre styles à partir des deux scores ramenés de 0 à 1.
   function poids(ax, av){ var A = (ax - 1) / 6, V = (av - 1) / 6; return { sec: (1 - A) * (1 - V), anx: A * (1 - V), evi: (1 - A) * V, des: A * V }; }
-  function score(a){
-    var av = (a.slice(0, 4).map(function(x){ return 8 - x; }).concat(a.slice(4, 6))).reduce(function(s, x){ return s + x; }, 0) / 6;
+  function score(a, rel){
+    var inv = a.slice(0, 4).map(function(x){ return 8 - x; }), items = rel === "part" ? inv : inv.concat(a.slice(4, 6));
+    var av = items.reduce(function(s, x){ return s + x; }, 0) / items.length;
     var ax = a.slice(6).reduce(function(s, x){ return s + x; }, 0) / 3;
     return { ax: ax, av: av, w: poids(ax, av) };
   }
@@ -701,7 +708,8 @@ figure figcaption a{padding-block:.7rem}
       g.innerHTML = '<div class="ecr-lab"><a></a><b></b></div><div class="ecr-track" role="img"><div class="ecr-fill"></div><div class="ecr-cursor"></div></div>';
       var a = g.querySelector("a"); a.href = x.url; a.textContent = x.name;
       g.querySelector("b").textContent = p + NB + "%";
-      g.querySelector(".ecr-track").setAttribute("aria-label", x.name + " : " + p + " %");
+      var nv = document.createElement("span"); nv.className = "ecr-niv"; nv.textContent = " · " + niveau(p); g.querySelector("b").appendChild(nv);
+      g.querySelector(".ecr-track").setAttribute("aria-label", x.name + " : " + p + " %, " + niveau(p).toLowerCase());
       g.querySelector(".ecr-fill").style.width = p + "%"; g.querySelector(".ecr-cursor").style.left = p + "%";
       box.appendChild(g);
     });
@@ -712,7 +720,7 @@ figure figcaption a{padding-block:.7rem}
     box.appendChild(ax);
   }
   function resultat(){
-    var per = choisies.map(function(r){ return { r: r, s: score(rep[r.id]) }; });
+    var per = choisies.map(function(r){ return { r: r, s: score(rep[r.id], r.id) }; });
     var mAx = per.reduce(function(t, x){ return t + x.s.ax; }, 0) / per.length, mAv = per.reduce(function(t, x){ return t + x.s.av; }, 0) / per.length;
     var G = { ax: mAx, av: mAv, w: poids(mAx, mAv) };
     var gBox = root.querySelector("#ecr-global"); gBox.innerHTML = ""; reglettes(gBox, G, true);
@@ -752,6 +760,7 @@ figure figcaption a{padding-block:.7rem}
     <p>Pour une vue d'ensemble, je vous invite à lire la page <a href="/styles-d-attachement/">Styles d'attachement</a>.</p>
     <h2 id="sources">Sources</h2>
     <ul class="refs-list">
+      <li>Chaperon, É., &amp; Dandeneau, S. (2017). Le Questionnaire sur les structures relationnelles : adaptation et validation de la version française du Experiences in Close Relationships-Relationship Structures Questionnaire. Revue européenne de psychologie appliquée, 67(4), 213-221. <a href="https://doi.org/10.1016/j.erap.2017.04.002" target="_blank" rel="noopener">https://doi.org/10.1016/j.erap.2017.04.002</a></li>
       <li>Fraley, R. C., Heffernan, M. E., Vicary, A. M., et al. (2011). The Experiences in Close Relationships-Relationship Structures questionnaire: A method for assessing attachment orientations across relationships. Psychological Assessment, 23(3), 615-625. <a href="https://doi.org/10.1037/a0022898" target="_blank" rel="noopener">https://doi.org/10.1037/a0022898</a></li>
     </ul>
   </div>
@@ -770,7 +779,7 @@ figure figcaption a{padding-block:.7rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 16 octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 19 octobre 2026</div>
   </div>
 </footer>
 <script>

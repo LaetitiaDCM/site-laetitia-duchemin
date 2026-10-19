@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 46 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 16 octobre 2026.
+> Version complète de llms.txt : texte principal des 46 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 19 octobre 2026.
 
 ---
 
@@ -1945,7 +1945,7 @@ Titre : Test du style d'attachement (ECR-RS) : quel est le vôtre ?
 
 Le test du style d'attachement, relation par relation
 
-Nous ne nous attachons pas de la même façon à tout le monde. Ce questionnaire vous propose de regarder vos liens un par un : avec votre mère, votre père, votre partenaire, votre ami·e le plus proche. Choisissez les relations qui vous parlent, puis indiquez pour chaque phrase à quel point vous êtes d'accord, de 1 (pas du tout) à 7 (tout à fait).
+Nous ne nous attachons pas de la même façon à tout le monde. Ce questionnaire vous propose de regarder vos liens un par un : avec votre mère, votre père, votre partenaire, votre ami·e le plus proche. Choisissez les relations qui vous parlent, puis indiquez pour chaque phrase dans quelle mesure vous êtes en accord ou en désaccord, de 1 (totalement en désaccord) à 7 (totalement en accord).
 
 Faire le testPrendre rendez-vous
 
@@ -1961,7 +1961,7 @@ Avant de commencer
 
 Les relations que vous souhaitez regarder
 
-Pour chaque phrase, indiquez à quel point vous êtes d'accord, de 1 (pas du tout) à 7 (tout à fait).
+Pour chaque phrase, indiquez dans quelle mesure vous êtes en accord ou en désaccord, de 1 (totalement en désaccord) à 7 (totalement en accord).
 
 Votre résultat
 
@@ -1977,11 +1977,13 @@ Pour en parler, vous pouvez apporter ce document en séance.
 
 Prendre rendez-vous
 
-Questionnaire ECR-RS (Experiences in Close Relationships, Relationship Structures), Fraley, Heffernan, Vicary et Brumbaugh (2011). Traduction française : Laetitia Duchemin. Les pourcentages des quatre styles sont calculés sur ce site à partir des deux scores du questionnaire, l'anxiété et l'évitement.
+Questionnaire ECR-RS (Experiences in Close Relationships, Relationship Structures), Fraley, Heffernan, Vicary et Brumbaugh (2011). Version française : Questionnaire sur les structures relationnelles (QSR), traduction et validation par Élise Chaperon et Stéphane Dandeneau (UQAM). Les pourcentages des quatre styles sont calculés sur ce site à partir des deux scores du questionnaire, l'anxiété et l'évitement. Pour le ou la partenaire, l'évitement est calculé sur les quatre premières phrases.
 
 Pour une vue d'ensemble, je vous invite à lire la page Styles d'attachement.
 
 ## Sources
+
+- Chaperon, É., & Dandeneau, S. (2017). Le Questionnaire sur les structures relationnelles : adaptation et validation de la version française du Experiences in Close Relationships-Relationship Structures Questionnaire. Revue européenne de psychologie appliquée, 67(4), 213-221. https://doi.org/10.1016/j.erap.2017.04.002
 
 - Fraley, R. C., Heffernan, M. E., Vicary, A. M., et al. (2011). The Experiences in Close Relationships-Relationship Structures questionnaire: A method for assessing attachment orientations across relationships. Psychological Assessment, 23(3), 615-625. https://doi.org/10.1037/a0022898
 
@@ -3045,7 +3047,7 @@ Le piège, c'est la surveillance : plus on guette ces sensations pour vérifier
 
 ## Pourquoi cela arrive
 
-Quand une situation est vécue comme trop intense, et que ni la lutte ni la fuite ne semblent possibles, le système nerveux peut prendre de la distance : les sensations s'atténuent, le monde semble s'éloigner. Sur le moment, cette réponse protège. Elle ne se déclenche jamais sans raison, même lorsque l'on n'en a pas conscience. Elle peut ensuite se déclencher face au stress, à l'anxiété, à la fatigue, ou à ce qui rappelle des expériences traumatiques. La consommation de certaines substances, comme le cannabis, peut aussi en déclencher.
+Quand une situation est vécue comme trop intense, et que ni la lutte ni la fuite ne semblent possibles, le système nerveux peut prendre de la distance : les sensations s'atténuent, le monde semble s'éloigner. Sur le moment, cette réponse protège. Elle ne se déclenche jamais sans raison, même lorsque l'on n'en a pas conscience. Elle peut ensuite se déclencher face au stress, à l'anxiété, à la fatigue, ou à ce qui rappelle des expériences traumatiques. La prise de substances, comme l'alcool ou les drogues, peut aussi en déclencher.
 
 Un cercle peut s'installer : on a peur de ces sensations, on les surveille, et cette vigilance entretient l'anxiété qui les nourrit.
 
@@ -3055,7 +3057,7 @@ Un cercle peut s'installer : on a peur de ces sensations, on les surveille, et c
 
 - le manque de sommeil, l'épuisement, une période de stress prolongé ;
 
-- le cannabis et d'autres substances : un épisode peut parfois se prolonger bien après la consommation ;
+- la prise de substances (alcool, drogues) : chez certaines personnes, un épisode survenu après une prise de drogue peut se prolonger bien après la consommation ;
 
 - ce qui rappelle, même de loin, une expérience traumatique (voir les déclencheurs émotionnels) ;
 
@@ -3117,9 +3119,9 @@ Le plus souvent, les épisodes sont passagers. Lorsqu'ils persistent, un accompa
 
 -
 
-### Le cannabis peut-il provoquer une déréalisation qui dure ?
+### La prise de substances peut-elle provoquer une déréalisation qui dure ?
 
-Oui, c'est l'un des déclencheurs les plus souvent rapportés. Un épisode survenu pendant une consommation peut se prolonger ou revenir ensuite, notamment chez les personnes anxieuses. Arrêter la consommation et apaiser l'anxiété qui entretient les sensations sont alors deux étapes importantes (voir les addictions).
+Oui, cela arrive. Certaines personnes font remonter le début d'une déréalisation durable à un épisode de consommation de drogue. Arrêter la consommation et apaiser ce qui entretient les sensations sont alors deux étapes importantes (voir les addictions).
 
 -
 
@@ -3170,13 +3172,13 @@ Prendre rendez-vous
 
 ## Pourquoi est-ce que je sursaute aussi facilement ?
 
-Le sursaut est un réflexe : il part d'une zone très ancienne du cerveau et se déclenche en une fraction de seconde, avant même que l'on ait eu le temps de penser. Il n'est donc ni un manque de contrôle, ni de la « nervosité ». Après des expériences traumatiques, ce réflexe devient plus intense et plus difficile à calmer : le système nerveux a appris qu'il valait mieux réagir trop vite que trop tard. Les recherches sur le stress post-traumatique retrouvent d'ailleurs régulièrement un sursaut plus marqué et plus lent à s'apaiser.
+Le sursaut est un réflexe : il part d'une zone très ancienne du cerveau et se déclenche en une fraction de seconde, avant même que l'on ait eu le temps de penser. Il n'est donc ni un manque de contrôle, ni de la « nervosité ». Après des expériences traumatiques, ce réflexe devient plus intense et plus difficile à calmer : le système nerveux a appris qu'il valait mieux réagir trop vite que trop tard. Un sursaut exagéré fait d'ailleurs partie des signes décrits dans le stress post-traumatique, même si les mesures du réflexe de sursaut en laboratoire le retrouvent de façon moins constante.
 
 Votre corps ne vous trahit pas : il continue de vous protéger, avec un réglage qui date d'une période où cette rapidité était nécessaire.
 
 ## Pourquoi le monde me paraît-il dangereux ?
 
-Le monde n'a pas changé : c'est le détecteur qui est réglé plus finement. Lorsque l'on a vécu des situations menaçantes, l'attention se tourne en priorité vers ce qui pourrait être dangereux : un visage neutre peut sembler fermé, un silence peut sembler lourd, un bruit inhabituel peut sembler inquiétant. Les études montrent que l'attention des personnes anxieuses ou traumatisées se pose plus vite et plus longtemps sur les signes de menace.
+Le monde n'a pas changé : c'est le détecteur qui est réglé plus finement. Lorsque l'on a vécu des situations menaçantes, l'attention se tourne en priorité vers ce qui pourrait être dangereux : un visage neutre peut sembler fermé, un silence peut sembler lourd, un bruit inhabituel peut sembler inquiétant. Les études montrent que l'attention des personnes anxieuses est davantage attirée par les signes de menace.
 
 À l'inverse, les signes de sécurité, comme un sourire, une voix douce ou un lieu calme, passent plus facilement inaperçus. Le cerveau ne ment pas : il fait ce qu'il a appris à faire pour survivre. Tout l'enjeu de l'accompagnement est de lui réapprendre à remarquer aussi ce qui est sûr.
 
@@ -3312,10 +3314,6 @@ Notre mémoire n'est pas un seul tiroir. Les chercheurs distinguent deux grandes
 Lors d'un traumatisme, et plus encore lorsqu'il a lieu dans la petite enfance, une grande partie de ce qui est vécu peut être gardée dans la mémoire implicite, sans souvenir explicite associé. C'est pourquoi on peut avoir peur, se figer ou se sentir en danger sans savoir pourquoi : le corps se souvient, même quand le récit manque.
 
 En thérapie, on peut travailler ces deux formes de mémoire. La LI-ICV, en particulier, permet de travailler la mémoire implicite : en parcourant la ligne du temps, en lien avec ce que ressent le corps, le système nerveux intègre aussi ce qui n'a jamais été mis en mots (voir la LI-ICV).
-
-### Pour la FAQ de cette page (lien vers la réponse complète sur la page trauma complexe)
-
-Est-ce que je peux être aidé·e si je ne me souviens pas de ce qui a pu m'arriver ? Oui. Une partie de ce qui a été vécu reste gardée dans la mémoire implicite, et peut être travaillée sans que le souvenir revienne. Il n'est pas nécessaire de tout se rappeler pour aller mieux.
 
 ## Flashbacks, reviviscences et cauchemars : ce que l'on peut vivre
 
