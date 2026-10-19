@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 46 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 19 octobre 2026.
+> Version complète de llms.txt : texte principal des 47 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 19 octobre 2026.
 
 ---
 
@@ -211,7 +211,7 @@ Tarifs nets, honoraires exonérés de TVA (art. 261 du CGI). Tarifs mis à jour 
 
 ### Consultation en ligne
 
-Les séances ont lieu en ligne, sur une plateforme sécurisée, pour toute la France comme depuis l'étranger. Il suffit d'un ordinateur, d'une tablette ou d'un téléphone, d'une connexion stable et d'un lieu au calme, pour échanger dans les mêmes conditions de confidentialité qu'en cabinet. Cette modalité permet d'être suivi sans contrainte de déplacement, y compris entre deux rendez-vous d'un accompagnement au long cours.
+Les séances ont lieu en ligne, sur une plateforme sécurisée, pour toute la France comme depuis l'étranger. Il suffit d'un ordinateur, d'une tablette ou d'un téléphone, d'une connexion stable et d'un lieu au calme, pour échanger dans les mêmes conditions de confidentialité qu'en cabinet. Cette modalité permet d'être suivi sans contrainte de déplacement, y compris entre deux rendez-vous d'un accompagnement au long cours. Pour savoir comment se déroule une séance, je vous invite à lire la page Consulter en visio.
 
 ### Prendre rendez-vous
 
@@ -586,6 +586,179 @@ Oui : au-delà de son doctorat en cours, elle poursuit une formation à l'IFS (I
 La psychotraumatologie et la LI-ICV, une thérapie de connexion des différents états du soi, qu'elle pratique à tout âge et en ligne. Elle s'intéresse particulièrement au trauma complexe et à l'attachement, sujets de sa recherche doctorale.
 
 Prendre rendez-vous en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/consulter-en-visio/
+Titre : Consulter une psychologue en visio : séance, cadre, tarifs
+
+# Consulter en visio
+
+Une consultation de psychologue à distance, depuis chez vous
+
+Les séances ont lieu en visio, partout en France comme depuis l'étranger : vous êtes suivi·e sans contrainte de déplacement.
+
+Prendre rendez-vous
+
+## Comment se passe une séance
+
+- Vous réservez en ligne sur ma page de réservation, en choisissant le créneau qui vous convient. Une question avant de réserver ? Vous pouvez m'écrire par email ou me laisser un message depuis ma page de réservation.
+
+- Dès que votre rendez-vous est confirmé, c'est-à-dire une fois votre carte enregistrée, vous recevez un email de confirmation qui contient le lien de connexion à la séance. Ce lien est aussi accessible à tout moment depuis votre espace patient.
+
+- Le jour venu, vous vous installez quelques minutes avant l'heure dans un endroit calme, puis vous rejoignez la séance en cliquant sur le lien : tout se passe dans votre navigateur, sans application à installer.
+
+- La séance dure 1 h (70 €). Une séance ICV, propre à la LI-ICV (Intégration du Cycle de la Vie, voir la LI-ICV), dure 1 h 30 (90 €). La première consultation sert à poser votre demande et à voir si nous pouvons cheminer ensemble.
+
+- Le règlement : une empreinte bancaire est prise lors de la réservation, et le montant est débité après la séance. Vous pouvez aussi régler par virement avant la séance. Dans les deux cas, vous recevez votre facture par email après le rendez-vous. Mes honoraires sont exonérés de TVA (article 261 du Code général des impôts) : le tarif affiché est celui que vous payez.
+
+## Ce dont vous avez besoin
+
+Un ordinateur, une tablette ou un téléphone, une connexion stable et un lieu au calme. Quelques précautions utiles :
+
+- Une pièce où vous pouvez parler librement, porte fermée, sans craindre d'être entendu·e.
+
+- Des écouteurs ou un casque : personne autour de vous n'entend ce que je dis, et le son est meilleur.
+
+- Un appareil chargé et posé, à hauteur de visage, plutôt que tenu à la main.
+
+- Un verre d'eau et des mouchoirs à portée de main.
+
+Si la connexion coupe en cours de séance, je vous appelle par téléphone. Si la séance ne peut pas reprendre dans de bonnes conditions, nous la reportons.
+
+## Un cadre protégé, même à distance
+
+Les séances ont lieu avec l'outil de visio intégré à ma plateforme de réservation, qui chiffre les échanges de bout en bout. Le cadre reste celui d'une consultation : sans jugement, avec bienveillance, dans la confidentialité. La confidentialité de nos échanges tient aussi à quelques précautions, de mon côté comme du vôtre :
+
+- Aucune séance n'est enregistrée.
+
+- Mes numéros d'enregistrement de psychologue (ADELI et RPPS) figurent en bas de chaque page.
+
+- Pouvoir vous joindre en cas de besoin : votre téléphone et votre email sont demandés à la réservation. Lors du premier entretien, je vous demande également l'adresse où vous vous trouvez pendant les séances, ainsi que les coordonnées de votre médecin traitant et, le cas échéant, de votre psychiatre.
+
+- La caméra : je vous recommande vivement de la garder allumée, car une part importante de ce qui se joue en séance passe par la communication non verbale. Lors d'une consultation classique, nous pouvons prévoir des pauses si vous en avez besoin. Lors d'une séance LI-ICV, j'ai besoin de pouvoir vous observer tout au long de la séance, pour comprendre comment réagissent votre système nerveux et vos émotions, et ne pas manquer d'éléments importants pour la thérapie : les pauses ne sont donc pas possibles.
+
+Une séance en visio n'est pas un service d'urgence. Si vous êtes en détresse ou si des idées suicidaires vous traversent, le 3114 répond gratuitement, 24 h/24 et 7 j/7. Si vous vous sentez en danger, appelez le 17 (police) ou le 112. En cas d'urgence, appelez le 15 ou le 112. Depuis l'étranger, en Europe, composez le 112 ; ailleurs, le numéro d'urgence du pays où vous vous trouvez.
+
+## La visio vous convient-elle ?
+
+La visio peut convenir dans beaucoup de situations :
+
+- quand se déplacer est difficile (distance, horaires, santé, enfants à faire garder) ;
+
+- quand vous vivez loin d'un ou d'une psychologue formé·e à ce que vous traversez ;
+
+- quand vous vivez à l'étranger ;
+
+- ou simplement quand vous vous sentez plus en sécurité chez vous.
+
+Certaines situations demandent davantage de précautions. Nous les regardons ensemble dès le premier rendez-vous :
+
+- Si vous ne disposez d'aucun lieu où parler librement, par exemple lorsque vous vivez avec la personne dont vous avez peur (voir l'emprise) : l'outil de visio comporte un chat, et l'échange peut se faire à l'écrit. Nous pouvons aussi convenir à l'avance, par email ou par message, de mots de sécurité ou d'un langage codé à utiliser si une personne potentiellement toxique est présente.
+
+- En cas de dérégulation émotionnelle ou de dissociation pendant la séance, je vous accompagne avec des outils de stabilisation, de régulation et d'ancrage (voir la dissociation).
+
+- Si un état aigu de décompensation apparaît, j'appelle les urgences (15) pour garantir votre sécurité. Nous pouvons aussi désigner ensemble une personne de confiance, capable d'intervenir rapidement en présentiel, et votre médecin traitant peut être sollicité pour assurer votre suivi médical.
+
+- Un besoin de soins médicaux relève d'un médecin ou d'une équipe médicale.
+
+Si la visio ne convient pas à votre situation, nous le voyons ensemble, et je vous aide à trouver un ou une collègue qui reçoit en face à face. En cas de crise ou de danger immédiat, n'attendez pas le rendez-vous : appelez les numéros d'urgence rappelés plus haut.
+
+## Le corps, la LI-ICV et les enfants en visio
+
+Le travail corporel s'adapte bien à la visio : il repose sur l'attention portée à vos sensations, sur la respiration et sur des mouvements simples, sans aucun toucher. Chaque proposition reste une invitation : vous pouvez la refuser, l'adapter ou vous arrêter à tout moment (voir le corps en psychothérapie).
+
+La séance ICV est elle aussi possible en ligne.
+
+Les séances avec les enfants et les adolescents ont lieu en ligne, elles aussi. Avec les enfants, elles s'appuient sur des médiateurs adaptés à l'âge (jeux, jouets, supports visuels). Selon l'âge, et notamment pour les plus jeunes, la présence d'un parent est requise pendant la séance pour manipuler les médiateurs si besoin. Les parents peuvent aussi être reçus en ligne lors des séances individuelles (voir la LI-ICV enfants et adolescents).
+
+Prendre rendez-vous
+
+## Ce que dit la recherche
+
+Une thérapie en visio est-elle aussi efficace qu'en face à face ? La plupart des synthèses citées ci-dessous trouvent des résultats proches, avec une exception sur le stress post-traumatique dans une synthèse plus ancienne. Le mot « méta-analyse » désigne une étude qui regroupe les résultats de plusieurs études pour en dégager une tendance d'ensemble.
+
+- Peu de différence avec le face-à-face. Une méta-analyse de 47 études comparatives (3 564 participants), qui opposent la vidéo au face-à-face ou à d'autres groupes de comparaison, dont des listes d'attente, trouve une différence négligeable avec le face-à-face (Fernandez et al., 2021). En visio, l'amélioration entre le début et la fin du suivi y est particulièrement nette pour l'anxiété, la dépression et le stress post-traumatique.
+
+- Des effets largement équivalents à ceux du face-à-face, d'après une autre synthèse de 43 études d'intervention (4 336 participants), dont les auteurs soulignent que les essais randomisés étaient relativement peu nombreux (Batastini et al., 2021).
+
+- L'alliance thérapeutique se construit aussi à l'écran. L'alliance, c'est la qualité du lien de travail entre patient et thérapeute. Dans une revue de 23 études, la plupart montrent que les patients évaluent le lien et le sentiment de présence au moins aussi fortement qu'en face à face ; les thérapeutes évaluent eux aussi l'alliance à un niveau élevé, mais souvent un peu moins haut que leurs patients en début de suivi (Simpson et Reid, 2014).
+
+- Une nuance sur l'alliance. Une revue de 12 études l'estime un peu moins élevée en visio : cet écart n'est pas établi (il pourrait être nul), mais les données ne permettent pas non plus d'exclure une alliance nettement moins bonne. La baisse des symptômes, elle, est jugée non inférieure : l'écart éventuel avec le face-à-face reste dans la marge fixée par les auteurs (Norwood et al., 2018).
+
+- Pour le stress post-traumatique, dans un essai randomisé où 132 vétérans ont été répartis au hasard entre les deux formules, une thérapie d'exposition menée à distance, depuis le domicile, ne s'est pas montrée moins efficace qu'en face à face sur les symptômes de stress post-traumatique, en fin de traitement, à 3 et à 6 mois ; sur la dépression, seulement à 6 mois (Acierno et al., 2017). La thérapie d'exposition est un outil utilisé en TCC (thérapie cognitive et comportementale) qui consiste à exposer la personne au souvenir que l'on cherche à travailler. Il s'agit ici d'une exposition directe et prolongée, différente de l'exposition brève et progressive de l'ICV.
+
+- Une synthèse plus ancienne de 13 études de télésanté trouvait en revanche un résultat moins bon qu'en face à face sur le stress post-traumatique, et comparable sur la dépression (Sloan et al., 2011).
+
+- Pour des troubles psychiques moins fréquents et des maladies physiques qui demandent un accompagnement psychologique (addictions, troubles alimentaires, difficultés de santé mentale de l'enfant, maladies chroniques), une synthèse de 12 essais randomisés (931 participants, en vidéo ou par téléphone) ne met pas en évidence de différence avec le face-à-face (Greenwood et al., 2022).
+
+Une limite à garder en tête : l'amélioration mesurée en visio, entre le début et la fin du suivi, est plus forte avec les thérapies cognitives et comportementales qu'avec les autres thérapies (Fernandez et al., 2021). Aucune des études citées ici ne porte sur la LI-ICV ni spécifiquement sur le trauma complexe.
+
+Prendre rendez-vous
+
+## Questions fréquentes
+
+-
+
+### Une séance en visio est-elle aussi efficace qu'en face à face ?
+
+Dans l'ensemble, les synthèses citées sur cette page trouvent peu de différence entre la visio et le face-à-face. Il y a des nuances : une revue de 12 études estime l'alliance thérapeutique un peu moins élevée en visio, sans que cet écart soit établi ni qu'une alliance nettement moins bonne puisse être exclue, et une synthèse plus ancienne, en télésanté, trouvait un résultat moins bon sur le stress post-traumatique. Aucune de ces études ne porte sur la LI-ICV ni spécifiquement sur le trauma complexe.
+
+-
+
+### Faut-il installer une application ?
+
+Non. Vous rejoignez la séance en cliquant sur le lien reçu dans l'email de confirmation, ou depuis votre espace patient : tout se passe dans votre navigateur.
+
+-
+
+### Que se passe-t-il si la connexion coupe ?
+
+Je vous appelle par téléphone. En cas de problème de connexion le jour du rendez-vous, nous pouvons reporter la séance si nécessaire.
+
+-
+
+### Les séances en visio sont-elles remboursées ?
+
+Les séances ne sont pas remboursées par l'Assurance maladie. Certaines mutuelles prennent en charge une partie des consultations de psychologue : renseignez-vous auprès de la vôtre sur les garanties de votre contrat. Une facture vous est envoyée par email après chaque séance.
+
+-
+
+### Peut-on consulter depuis l'étranger ?
+
+Oui, les séances en visio sont possibles depuis l'étranger.
+
+-
+
+### Mon enfant peut-il être suivi en visio ?
+
+Oui. Les séances ont lieu en ligne pour les enfants comme pour les adolescents. Pour les plus jeunes, le travail se fait principalement avec le ou les parents : l'enfant participe à son rythme, depuis un lieu qu'il connaît, avec ses propres jouets ou dessins, et vous à ses côtés pour manipuler les médiateurs si besoin.
+
+-
+
+### Et si je ne suis pas à l'aise devant une caméra ?
+
+Vous pouvez me le dire dès la première séance. Lors d'une consultation classique, nous pouvons ajuster avec des pauses, mais je vous recommande vivement de garder la caméra allumée : une part importante de l'accompagnement passe par la communication non verbale. Lors d'une séance LI-ICV, j'ai besoin de vous voir tout au long de la séance pour observer les réactions de votre système nerveux et de vos émotions : les pauses n'y sont pas possibles.
+
+## Sources
+
+- Acierno, R., Knapp, R., Tuerk, P., et al. (2017). A non-inferiority trial of Prolonged Exposure for posttraumatic stress disorder: In person versus home-based telehealth. Behaviour Research and Therapy, 89, 57-65. https://doi.org/10.1016/j.brat.2016.11.009
+
+- Batastini, A. B., Paprzycki, P., Jones, A. C. T., et al. (2021). Are videoconferenced mental and behavioral health services just as good as in-person? A meta-analysis of a fast-growing practice. Clinical Psychology Review, 83, 101944. https://doi.org/10.1016/j.cpr.2020.101944
+
+- Fernandez, E., Woldgabreal, Y., Day, A., et al. (2021). Live psychotherapy by video versus in-person: A meta-analysis of efficacy and its relationship to types and targets of treatment. Clinical Psychology & Psychotherapy, 28(6), 1535-1549. https://doi.org/10.1002/cpp.2594
+
+- Greenwood, H., Krzyzaniak, N., Peiris, R., et al. (2022). Telehealth Versus Face-to-face Psychotherapy for Less Common Mental Health Conditions: Systematic Review and Meta-analysis of Randomized Controlled Trials. JMIR Mental Health, 9(3), e31780. https://doi.org/10.2196/31780
+
+- Norwood, C., Moghaddam, N. G., Malins, S., et al. (2018). Working alliance and outcome effectiveness in videoconferencing psychotherapy: A systematic review and noninferiority meta-analysis. Clinical Psychology & Psychotherapy, 25(6), 797-808. https://doi.org/10.1002/cpp.2315
+
+- Simpson, S. G., & Reid, C. L. (2014). Therapeutic alliance in videoconferencing psychotherapy: A review. Australian Journal of Rural Health, 22(6), 280-299. https://doi.org/10.1111/ajr.12149
+
+- Sloan, D. M., Gallagher, M. W., Feinstein, B. A., et al. (2011). Efficacy of Telehealth Treatments for Posttraumatic Stress-Related Symptoms: A Meta-Analysis. Cognitive Behaviour Therapy, 40(2), 111-125. https://doi.org/10.1080/16506073.2010.550058
+
+Consultation : 1 h, 70 €, en ligne.
 
 Réserver en ligne
 
