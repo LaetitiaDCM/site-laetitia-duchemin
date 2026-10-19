@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 47 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 19 octobre 2026.
+> Version complète de llms.txt : texte principal des 47 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 20 octobre 2026.
 
 ---
 
@@ -1605,7 +1605,7 @@ Après un événement soudain et violent (un accident, une agression, une annonc
 
 - Des souvenirs, des images, des sensations ou des émotions qui s'imposent, à n'importe quel moment de la journée comme la nuit sous forme de cauchemars, avec l'impression de revivre la scène (flash-backs). Ils sont souvent déclenchés par un bruit, une odeur, un lieu, un mot, sans que vous fassiez toujours le lien.
 
-- Des réactions du corps qui peuvent vous sembler incompréhensibles : vous figer, vous sentir vide ou coupé de vous-même (dissociation) ; ou, à l'inverse, être très agité, faire une attaque de panique sans comprendre pourquoi, déborder émotionnellement (un trop-plein, des pleurs que vous ne contrôlez pas). Ces réactions existent aussi dans le TSPT simple. Ce sont des réactions de votre système nerveux autonome, pas un manque de volonté (voir la théorie polyvagale).
+- Des réactions du corps qui peuvent vous sembler incompréhensibles : vous figer, vous sentir vide ou coupé de vous-même (dissociation) ; ou, à l'inverse, être très agité, faire une attaque de panique sans comprendre pourquoi, déborder émotionnellement (un trop-plein, des pleurs que vous ne contrôlez pas). Ces réactions existent aussi dans le TSPT simple. Ce sont des réactions de votre système nerveux autonome, pas un manque de volonté.
 
 - L'évitement de lieux, de personnes, de conversations ou de pensées qui vous rappellent ce qui s'est passé.
 
@@ -1694,7 +1694,7 @@ Face à un danger, votre cerveau déclenche une alarme très rapide. L'amygdale,
 
 Lors d'un événement traumatique, cette alarme est si forte que l'hippocampe, qui range habituellement les souvenirs dans le temps et dans l'espace, ne peut pas faire son travail. Le souvenir est alors enregistré en fragments (voir la mémoire traumatique) : des images, des sons, des odeurs, des sensations, sans le fil du récit ni le repère du « c'était avant ». C'est pourquoi il peut revenir comme s'il se produisait maintenant.
 
-Quand le trauma s'installe, l'alarme reste plus sensible et se déclenche plus facilement, tandis que les régions qui aident à prendre du recul et à réguler les émotions, notamment le cortex préfrontal, ont plus de mal à la calmer. Ces changements ne sont pas figés : le cerveau reste plastique. La thérapie permet de déconstruire des connexions neuronales liées au trauma, pour construire de nouveaux chemins vers le rétablissement. Ces réactions rejoignent les états de mobilisation et d'immobilisation décrits par la théorie polyvagale.
+Quand le trauma s'installe, l'alarme reste plus sensible et se déclenche plus facilement, tandis que les régions qui aident à prendre du recul et à réguler les émotions, notamment le cortex préfrontal, ont plus de mal à la calmer. Ces changements ne sont pas figés : le cerveau reste plastique. La thérapie permet de déconstruire des connexions neuronales liées au trauma, pour construire de nouveaux chemins vers le rétablissement.
 
 Prendre rendez-vous
 
@@ -1792,7 +1792,7 @@ Prendre rendez-vous
 
 Les recommandations internationales décrivent souvent un travail par étapes : construire d'abord un sentiment de sécurité et des ressources pour réguler vos émotions, puis travailler les souvenirs traumatiques, enfin intégrer ce travail dans votre vie présente et vos relations. Le rythme est ajusté à chacun : il ne s'agit pas de revenir sur les souvenirs avant d'avoir les moyens de le faire sans être submergé.
 
-Plusieurs approches peuvent accompagner ce chemin. Certaines passent par la mémoire, l'histoire de vie et le corps, comme la LI-ICV, ou par la mémoire, comme l'EMDR ; d'autres partent avant tout du corps, comme la TCTSY ou la Pleine Conscience Sensible au Trauma ; d'autres encore des parts de soi, comme l'IFS. Il n'y a pas une seule bonne approche : l'essentiel est de trouver celle qui vous convient (voir LI-ICV ou EMDR).
+Plusieurs approches peuvent accompagner ce chemin. Certaines passent par la mémoire, l'histoire de vie et le corps, comme la LI-ICV, ou par la mémoire, comme l'EMDR. Il n'y a pas une seule bonne approche : l'essentiel est de trouver celle qui vous convient (voir LI-ICV ou EMDR).
 
 Le travail ne demande pas de tout raconter, ni de tout se rappeler. Il s'appuie aussi sur ce que le corps et les émotions ont gardé, au-delà des mots (voir mémoire explicite et mémoire implicite).
 
@@ -1814,11 +1814,9 @@ Le travail ne demande pas de tout raconter, ni de tout se rappeler. Il s'appuie 
 
 - La résilience : se rétablir et se reconstruire après un traumatisme.
 
-- Le corps en psychothérapie : ce que le corps garde, et comment il aide à le libérer.
-
 ## Mon accompagnement
 
-L'accompagnement dépend de la personne, de son histoire de vie et de la thérapie envisagée. Je m'appuie sur la LI-ICV, la Pleine Conscience Sensible au Trauma, la TCTSY et la théorie polyvagale, avec un éclairage neuropsychologique. Le trauma complexe est souvent associé à un style d'attachement insécure, lorsqu'il trouve son origine dans la relation avec les figures qui prennent soin de l'enfant.
+L'accompagnement dépend de la personne, de son histoire de vie et de la thérapie envisagée. Je m'appuie sur la LI-ICV, avec un éclairage neuropsychologique. Le trauma complexe est souvent associé à un style d'attachement insécure, lorsqu'il trouve son origine dans la relation avec les figures qui prennent soin de l'enfant.
 
 Le trauma complexe est aussi l'objet de ma recherche doctorale : j'étudie l'intérêt de la LI-ICV chez des jeunes adultes présentant un trauma complexe d'origine relationnelle.
 
@@ -2576,7 +2574,7 @@ Ces schémas peuvent s'activer tour à tour, parfois très vite : la proximité
 
 L'attachement désorganisé est souvent associé au trauma complexe, lorsque les expériences difficiles ont eu lieu tôt, dans la relation même avec les figures d'attachement. Le psychiatre Giovanni Liotti a montré ses liens avec la dissociation. Il ne s'agit pas d'une faiblesse, mais d'une adaptation à une situation impossible.
 
-Lorsque ni la fuite ni le rapprochement ne sont possibles, le système nerveux n'a plus qu'une issue : se figer, ou se couper de ce qui se passe. La théorie polyvagale décrit cette réponse d'immobilisation. Elle explique pourquoi, à l'âge adulte, certaines situations relationnelles peuvent provoquer un vide, un engourdissement ou une impression d'être « à côté » de soi (voir la théorie polyvagale et la dissociation).
+Lorsque ni la fuite ni le rapprochement ne sont possibles, le système nerveux n'a plus qu'une issue : se figer, ou se couper de ce qui se passe. Cette réponse d'immobilisation explique pourquoi, à l'âge adulte, certaines situations relationnelles peuvent provoquer un vide, un engourdissement ou une impression d'être « à côté » de soi (voir la dissociation).
 
 ## Retrouver de la sécurité
 
@@ -2606,7 +2604,7 @@ Télécharger l'affiche (PDF)
 
 ## Mon accompagnement
 
-J'accompagne les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions de soi et des autres. Le rythme est ajusté pour rester dans votre fenêtre de tolérance. La théorie polyvagale, la Pleine Conscience Sensible au Trauma et la TCTSY offrent des appuis corporels pour retrouver de la sécurité au fil du travail.
+J'accompagne les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions de soi et des autres. Le rythme est ajusté pour rester dans votre fenêtre de tolérance.
 
 Prendre rendez-vous
 
@@ -2801,7 +2799,7 @@ Télécharger l'affiche (PDF)
 
 ## Mon accompagnement
 
-Nous travaillons sur l'estime de soi, l'affirmation de soi, le respect de soi et de ses propres limites, et les besoins, pour que votre sécurité ne repose plus uniquement sur l'autre. La LI-ICV permet d'aller plus loin, en travaillant sur les expériences d'attachement qui ont installé ce besoin. La théorie polyvagale et la Pleine Conscience Sensible au Trauma aident, au quotidien, à reconnaître les signaux de sécurité et à se réguler pendant l'absence.
+Nous travaillons sur l'estime de soi, l'affirmation de soi, le respect de soi et de ses propres limites, et les besoins, pour que votre sécurité ne repose plus uniquement sur l'autre. La LI-ICV permet d'aller plus loin, en travaillant sur les expériences d'attachement qui ont installé ce besoin.
 
 ## Questions fréquentes
 
@@ -2970,7 +2968,7 @@ Télécharger l'affiche (PDF)
 
 ## Mon accompagnement
 
-J'accompagne la peur de l'abandon avec la LI-ICV, qui aide le système nerveux à intégrer que ces séparations appartiennent au passé, et à construire une sécurité intérieure plus stable. La théorie polyvagale et la Pleine Conscience Sensible au Trauma aident, au quotidien, à reconnaître l'alarme dans le corps et à revenir vers la sécurité.
+J'accompagne la peur de l'abandon avec la LI-ICV, qui aide le système nerveux à intégrer que ces séparations appartiennent au passé, et à construire une sécurité intérieure plus stable.
 
 Pour une vue d'ensemble, je vous invite à lire la page Styles d'attachement.
 
@@ -3079,11 +3077,11 @@ Avant de penser à la dissociation, il est indispensable de consulter un médeci
 
 ### Pourquoi le corps a toute sa place dans l'accompagnement
 
-Puisque la dissociation somatique passe par le corps, l'accompagnement passe aussi par lui. Il s'agit de retrouver progressivement le contact avec ses sensations, sans forcer, à son rythme et en gardant toujours le choix. Les approches que j'utilise vont dans ce sens : la TCTSY, la Pleine Conscience Sensible au Trauma, la théorie polyvagale, et la LI-ICV, qui passe elle aussi par le corps (voir le corps en psychothérapie).
+Puisque la dissociation somatique passe par le corps, l'accompagnement passe aussi par lui. Il s'agit de retrouver progressivement le contact avec ses sensations, sans forcer, à son rythme et en gardant toujours le choix. La LI-ICV, que j'utilise, va dans ce sens : elle passe elle aussi par le corps (voir le corps en psychothérapie).
 
 ## Une réponse de protection du système nerveux
 
-Face à un danger, le corps se prépare d'abord à lutter ou à fuir. Quand aucune de ces options ne semble possible, le système nerveux peut basculer vers l'immobilisation : le corps ralentit, les sensations s'atténuent, la conscience prend de la distance. La théorie polyvagale décrit cet état comme une réponse du nerf vague dorsal ; il correspond à l'hypoactivation dans la fenêtre de tolérance.
+Face à un danger, le corps se prépare d'abord à lutter ou à fuir. Quand aucune de ces options ne semble possible, le système nerveux peut basculer vers l'immobilisation : le corps ralentit, les sensations s'atténuent, la conscience prend de la distance. Cet état correspond à l'hypoactivation dans la fenêtre de tolérance.
 
 Sur le moment, cette réponse protège. Avec le temps, elle peut s'installer comme une habitude du système nerveux et se déclencher face à des situations du quotidien qui rappellent, même de loin, ce qui a été vécu.
 
@@ -3119,7 +3117,7 @@ Télécharger l'affiche (PDF)
 
 ## Mon accompagnement
 
-L'accompagnement consiste à comprendre ce qui se passe, à repérer les signes qui annoncent la dissociation, à construire des ressources pour rester présent et à redonner de la connexion entre les différentes parts de soi. Je m'appuie pour cela sur la théorie polyvagale, la Pleine Conscience Sensible au Trauma, la TCTSY, une approche corporelle qui aide à retrouver le contact avec son corps, à son rythme et en gardant le choix, et la LI-ICV, une thérapie de connexion des différents états du soi. Le rythme est ajusté à chacun, pour avancer en restant dans votre fenêtre de tolérance.
+L'accompagnement consiste à comprendre ce qui se passe, à repérer les signes qui annoncent la dissociation, à construire des ressources pour rester présent et à redonner de la connexion entre les différentes parts de soi. Je m'appuie pour cela sur la LI-ICV, une thérapie de connexion des différents états du soi. Le rythme est ajusté à chacun, pour avancer en restant dans votre fenêtre de tolérance.
 
 ## Quand consulter
 
@@ -3597,7 +3595,7 @@ Un bruit, une odeur, un ton de voix, une date, un regard, une sensation physique
 
 Un déclencheur est un élément du présent qui réactive une émotion, une sensation ou un souvenir lié au passé. Il peut être extérieur (un lieu, une musique, une parole, une situation) ou intérieur (une sensation dans le corps, une fatigue, une pensée).
 
-La réaction qu'il entraîne semble souvent disproportionnée par rapport à la situation actuelle. Elle est en réalité proportionnée à ce qu'elle rappelle. Notre cerveau va pourtant essayer de relier cette activation émotionnelle à un élément du contexte présent, sans comprendre qu'il réagit en réalité au passé : on attribue alors l'émotion à ce qui se passe maintenant. Dans le langage de l'IFS, on dirait qu'une part de soi, liée au vécu passé, se réactive dans le présent.
+La réaction qu'il entraîne semble souvent disproportionnée par rapport à la situation actuelle. Elle est en réalité proportionnée à ce qu'elle rappelle. Notre cerveau va pourtant essayer de relier cette activation émotionnelle à un élément du contexte présent, sans comprendre qu'il réagit en réalité au passé : on attribue alors l'émotion à ce qui se passe maintenant.
 
 Être « trigger » : l'expression est devenue courante, sur les réseaux sociaux notamment. Elle désigne bien ce mécanisme : une réaction forte, déclenchée par un élément du présent qui rappelle le passé. Ce n'est pas une susceptibilité : c'est le système nerveux qui protège.
 
@@ -3851,7 +3849,7 @@ Après un événement difficile, il est très fréquent de se sentir coupable ou
 
 - On juge le passé avec ce que l'on sait aujourd'hui, en oubliant ce que l'on savait, ressentait et pouvait faire sur le moment.
 
-- Les réactions automatiques du corps (se figer, se soumettre, ne pas réagir) sont souvent vécues comme une faute, alors qu'elles sont des réponses de protection du système nerveux, qui ne se choisissent pas (voir la théorie polyvagale).
+- Les réactions automatiques du corps (se figer, se soumettre, ne pas réagir) sont souvent vécues comme une faute, alors qu'elles sont des réponses de protection du système nerveux, qui ne se choisissent pas.
 
 - Des messages reçus dans l'enfance peuvent avoir appris à se sentir responsable de tout (voir le trauma de l'enfance).
 
@@ -3875,7 +3873,7 @@ Télécharger l'affiche (PDF)
 
 ## Mon accompagnement
 
-En séance, nous accueillons la honte et la culpabilité sans les juger, pour comprendre d'où elles viennent et ce qu'elles protègent. Avec la LI-ICV et l'éclairage de l'IFS, il devient possible de regarder le passé avec un regard d'adulte, plus juste et plus doux.
+En séance, nous accueillons la honte et la culpabilité sans les juger, pour comprendre d'où elles viennent et ce qu'elles protègent. Avec la LI-ICV, il devient possible de regarder le passé avec un regard d'adulte, plus juste et plus doux.
 
 Pour une vue d'ensemble, je vous invite à lire la page Stress post-traumatique et trauma complexe.
 
@@ -4245,7 +4243,7 @@ On pense souvent au soutien dans les moments difficiles. La psychologue Shelly G
 
 ## Quand les repères se brouillent
 
-Après des relations insécurisantes ou un trauma, le système nerveux peut associer l'intensité à l'amour. Les montagnes russes émotionnelles semblent familières, et le calme d'une relation stable peut paraître fade, voire inquiétant. C'est un apprentissage du corps, qui a eu sa raison d'être, et qui peut évoluer : peu à peu, le système nerveux découvre que la sécurité peut aussi être agréable (voir les styles d’attachement, la théorie polyvagale et la fenêtre de tolérance).
+Après des relations insécurisantes ou un trauma, le système nerveux peut associer l'intensité à l'amour. Les montagnes russes émotionnelles semblent familières, et le calme d'une relation stable peut paraître fade, voire inquiétant. C'est un apprentissage du corps, qui a eu sa raison d'être, et qui peut évoluer : peu à peu, le système nerveux découvre que la sécurité peut aussi être agréable (voir les styles d’attachement et la fenêtre de tolérance).
 
 On peut imaginer une boussole intérieure. Après des relations agitées, son aiguille s'est habituée à indiquer l'intensité. Peu à peu, elle peut apprendre une autre direction : le calme. Ce calme, que l'on prend parfois pour de la routine, montre en réalité la stabilité, et c'est sur elle que la confiance peut se construire.
 
@@ -4281,7 +4279,7 @@ Si vous vous sentez en danger, ou si vous vous inquiétez pour un proche, vous p
 
 ## Mon accompagnement
 
-Les relations que l'on vit aujourd'hui portent souvent la trace des premiers liens. J'accompagne ce travail avec la LI-ICV, en m'appuyant sur la Pleine Conscience Sensible au Trauma, la TCTSY et la théorie polyvagale, pour aider le système nerveux à reconnaître la sécurité et à construire des liens plus sereins. La relation thérapeutique elle-même peut devenir une expérience de lien fiable et prévisible.
+Les relations que l'on vit aujourd'hui portent souvent la trace des premiers liens. J'accompagne ce travail avec la LI-ICV, pour aider le système nerveux à reconnaître la sécurité et à construire des liens plus sereins. La relation thérapeutique elle-même peut devenir une expérience de lien fiable et prévisible.
 
 ## Questions fréquentes
 
@@ -4614,7 +4612,7 @@ Pour certaines substances, comme l'alcool ou certains médicaments, un arrêt br
 
 ## Mon accompagnement
 
-Je m'appuie sur l'entretien motivationnel pour avancer à votre rythme, sans jugement, vers l'objectif que vous choisissez. Nous travaillons aussi sur ce que la consommation vient apaiser : les émotions difficiles, le vécu traumatique, avec la LI-ICV, la Pleine Conscience Sensible au Trauma, la TCTSY et la théorie polyvagale. Lorsque c'est utile, l'accompagnement se fait en lien avec votre médecin ou une structure spécialisée en addictologie.
+Je m'appuie sur l'entretien motivationnel pour avancer à votre rythme, sans jugement, vers l'objectif que vous choisissez. Nous travaillons aussi sur ce que la consommation vient apaiser : les émotions difficiles, le vécu traumatique, avec la LI-ICV. Lorsque c'est utile, l'accompagnement se fait en lien avec votre médecin ou une structure spécialisée en addictologie.
 
 Depuis plus de dix ans, j'accompagne différentes addictions : alcool, tabac, médicaments, drogues, troubles du comportement alimentaire, pornographie… Mes formations et expériences en addictologie :
 
@@ -5367,7 +5365,7 @@ Une fois que la crise ne fait plus peur, parce que vous savez la réguler, une d
 
 ## Mon accompagnement
 
-Je vous aide d'abord à comprendre ce qui se passe dans votre corps et à construire vos propres outils pour baisser l'intensité. Nous pouvons ensuite travailler ce qui entretient les crises, et, lorsqu'elles sont liées à des expériences difficiles, ce qui s'est inscrit dans votre histoire, avec la LI-ICV, la théorie polyvagale ou la Pleine Conscience Sensible au Trauma.
+Je vous aide d'abord à comprendre ce qui se passe dans votre corps et à construire vos propres outils pour baisser l'intensité. Nous pouvons ensuite travailler ce qui entretient les crises, et, lorsqu'elles sont liées à des expériences difficiles, ce qui s'est inscrit dans votre histoire, avec la LI-ICV ou la théorie polyvagale.
 
 ## Questions fréquentes
 
@@ -5607,7 +5605,7 @@ Une émotion se vit d'abord dans le corps. Le système nerveux autonome, qui ré
 
 En 2014, une équipe finlandaise (Nummenmaa et ses collègues) a demandé à plus de 700 personnes de colorier, sur une silhouette, les zones de leur corps qu'elles sentaient s'activer ou se désactiver avec chaque émotion. Les cartes obtenues se ressemblent d'une personne et d'une culture à l'autre : la colère active surtout le haut du corps et les bras, la tristesse diminue l'activité des membres, la joie active le corps tout entier.
 
-Percevoir ces signaux intérieurs, c'est l'intéroception (voir le corps en psychothérapie). C'est souvent par le corps que l'on peut repérer une émotion avant même de pouvoir la nommer. L'état de notre système nerveux colore aussi nos émotions : lorsqu'on est en sécurité, dans sa fenêtre de tolérance, on peut les ressentir sans être submergé (voir la théorie polyvagale et la fenêtre de tolérance).
+Percevoir ces signaux intérieurs, c'est l'intéroception. C'est souvent par le corps que l'on peut repérer une émotion avant même de pouvoir la nommer. L'état de notre système nerveux colore aussi nos émotions : lorsqu'on est en sécurité, dans sa fenêtre de tolérance, on peut les ressentir sans être submergé (voir la théorie polyvagale et la fenêtre de tolérance).
 
 ## Ce qui se passe dans le cerveau
 
@@ -5673,7 +5671,7 @@ Il ne s'agit pas de juger l'émotion, ni de la chasser, mais de la laisser passe
 
 ## Mon accompagnement
 
-En séance, en ligne, nous apprenons ensemble à repérer les signaux du corps, à nommer les émotions et à comprendre les besoins qu'elles expriment, à votre rythme. Je m'appuie sur un éclairage neuropsychologique, dont la théorie polyvagale, pour comprendre avec vous ce qui se joue dans votre cerveau et votre corps, ainsi que sur la LI-ICV et la Pleine Conscience Sensible au Trauma, pour que les émotions puissent être ressenties sans submerger, et retrouver leur rôle de messagères.
+En séance, en ligne, nous apprenons ensemble à repérer les signaux du corps, à nommer les émotions et à comprendre les besoins qu'elles expriment, à votre rythme. Je m'appuie sur un éclairage neuropsychologique, dont la théorie polyvagale, pour comprendre avec vous ce qui se joue dans votre cerveau et votre corps, ainsi que sur la LI-ICV, pour que les émotions puissent être ressenties sans submerger, et retrouver leur rôle de messagères.
 
 Prendre rendez-vous
 
@@ -5802,7 +5800,7 @@ Source : Linehan, M. M. (2015). DBT Skills Training Manual (2e éd.). New York :
 
 ## Mon accompagnement
 
-Je possède différents outils qui permettent de mieux réguler ses émotions, en fonction de chacun. La pleine conscience est un bon outil pour commencer à comprendre ce que nous ressentons, sans jugement et avec curiosité. J'accompagne aussi les personnes qui se reconnaissent dans l'hypersensibilité ou la haute sensibilité.
+Je possède différents outils qui permettent de mieux réguler ses émotions, en fonction de chacun. La pleine conscience est un bon outil pour commencer à comprendre ce que nous ressentons, sans jugement et avec curiosité. La Pleine Conscience Sensible au Trauma aide à s'ancrer, l'EFT peut servir à s'apaiser seul·e, et la TCTSY propose de se réguler par le corps. J'accompagne aussi les personnes qui se reconnaissent dans l'hypersensibilité ou la haute sensibilité.
 
 ## Ce que dit la recherche
 
