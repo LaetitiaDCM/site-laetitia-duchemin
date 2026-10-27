@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mes outils · Laetitia Duchemin, psychologue</title>
+<meta name="description" content="L'appli d'exercices de Laetitia Duchemin, psychologue : fiches, audios guidés et carnet personnel (situations, déclencheurs, sommeil). Sans compte : vos notes restent sur votre téléphone.">
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#1b1140">
+<link rel="manifest" href="/appli/manifest.webmanifest">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/appli/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Mes outils">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<style>
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/cormorant-garamond-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/cormorant-garamond-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;font-display:swap;src:url(/fonts/cormorant-garamond-latin-400-italic.woff2) format('woff2')}
+@font-face{font-family:'Jost';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/jost-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Jost';font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/jost-latin-500-normal.woff2) format('woff2')}
+</style>
+</head>
+<body>
+<style>
+/* Layout: one-column phone app, bottom tab bar, the night-violet "calm card" as the one bold element */
+:root{
+  --night:#1b1140; --indigo:#22135e; --gold:#d9a648; --gold-soft:#ecd096; --gold-deep:#7d5a16;
+  --bg:#f7f3ec; --surface:#fffdf9; --ink:#1d1b3b; --muted:#56537a; --line:#e6dccb; --tint:#efe7d8;
+  --serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --sans:"Jost","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --tab-h:64px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#120c26; --surface:#1a1236; --ink:#ece8f7; --muted:#b5aed0; --line:#2e2552; --tint:#231a45; --gold-deep:#ecd096; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#120c26; --surface:#1a1236; --ink:#ece8f7; --muted:#b5aed0; --line:#2e2552; --tint:#231a45; --gold-deep:#ecd096; color-scheme:dark}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.15;text-wrap:balance;margin:0}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
+a{color:inherit}
+.app{max-width:560px;margin:0 auto;min-height:100%;padding-bottom:calc(var(--tab-h) + env(safe-area-inset-bottom,0px) + 24px)}
+.view{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 8px;display:flex;flex-direction:column;gap:18px}
+.top{display:flex;align-items:center;gap:12px}
+.top img{width:40px;height:40px}
+.top .n{font-family:var(--serif);font-size:1.05rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-deep);line-height:1.1}
+.top .r{font-size:.78rem;color:var(--muted)}
+.h1{font-size:2rem;color:var(--ink)}
+.lead{color:var(--muted);margin:-8px 0 0;max-width:60ch}
+/* calm card */
+.calm{display:block;width:100%;text-align:left;border:0;cursor:pointer;border-radius:22px;padding:22px 20px;background:var(--night);color:var(--gold-soft);position:relative;overflow:hidden}
+.calm h2{font-size:1.65rem;color:var(--gold-soft);max-width:14ch}
+.calm p{margin:8px 0 0;color:#ddd5ef;font-size:.95rem}
+.calm .go{margin-top:16px;display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:var(--night);border-radius:999px;padding:9px 18px;font-weight:500;font-size:.95rem}
+.calm svg.rings{position:absolute;right:-40px;top:-40px;width:190px;height:190px;opacity:.28}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tile{display:flex;flex-direction:column;gap:6px;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:16px;padding:14px;cursor:pointer;min-height:110px}
+.tile b{font-family:var(--serif);font-size:1.25rem;font-weight:600}
+.tile span{font-size:.85rem;color:var(--muted)}
+.lab{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-deep);margin:0}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding-inline:max(16px,env(safe-area-inset-left,0px));scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chips.wrap{flex-wrap:wrap;overflow:visible;margin-inline:0;padding-inline:0}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 14px;min-height:44px;font-size:.92rem;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--indigo);border-color:var(--indigo);color:#fff}
+.search{width:100%;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:11px 16px;font:inherit}
+.count{font-size:.88rem;color:var(--muted);display:flex;gap:12px;align-items:center}
+.linkbtn{border:0;background:none;padding:12px 0;text-decoration:underline;cursor:pointer;color:var(--ink);font-size:.88rem}
+.list{display:flex;flex-direction:column;gap:10px;margin:0;padding:0;list-style:none}
+.item{display:grid;grid-template-columns:62px minmax(0,1fr);gap:14px;align-items:center;width:100%;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:16px;padding:10px;cursor:pointer}
+.item img{width:62px;height:84px;object-fit:cover;object-position:top;border-radius:8px;background:var(--tint)}
+.item b{display:block;font-family:var(--serif);font-size:1.18rem;font-weight:600;line-height:1.2}
+.item small{display:block;color:var(--muted);font-size:.84rem;line-height:1.4;margin-top:3px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pill{display:inline-block;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--gold);color:var(--gold-deep);border-radius:999px;padding:1px 8px;margin-bottom:4px}
+.empty{color:var(--muted);font-style:italic}
+/* detail */
+.back{align-self:flex-start;border:0;background:none;cursor:pointer;color:var(--muted);padding:6px 0;display:flex;gap:6px;align-items:center;font-size:.92rem}
+.poster{width:100%;max-width:300px;align-self:center;border-radius:12px;box-shadow:0 6px 24px rgba(27,17,64,.18)}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tags span{font-size:.78rem;background:var(--tint);border-radius:999px;padding:3px 10px}
+.btn{display:flex;justify-content:center;align-items:center;gap:8px;text-decoration:none;border-radius:999px;padding:13px 20px;font-weight:500;border:1px solid var(--gold);cursor:pointer;background:transparent;font-size:.98rem}
+.btn.solid{background:var(--gold);color:var(--night)}
+.stack{display:flex;flex-direction:column;gap:10px}
+.note{border-left:2px solid var(--gold);padding:2px 0 2px 12px;color:var(--muted);font-style:italic;font-size:.93rem;margin:0}
+/* player */
+.player{border-radius:22px;background:var(--night);color:var(--gold-soft);padding:22px 20px;display:flex;flex-direction:column;gap:16px}
+.player h2{font-size:1.6rem;color:var(--gold-soft)}
+.player .meta{font-size:.88rem;color:#cfc6ea}
+.pl-row{display:flex;align-items:center;gap:14px}
+.play{width:62px;height:62px;border-radius:50%;border:0;background:var(--gold);color:var(--night);display:grid;place-items:center;cursor:pointer;flex:0 0 auto}
+.play svg{width:24px;height:24px}
+.bar{flex:1;min-width:0}
+.bar input{width:100%;accent-color:var(--gold)}
+.time{display:flex;justify-content:space-between;font-size:.8rem;color:#cfc6ea;font-variant-numeric:tabular-nums}
+/* crisis */
+.urg{border:1px solid var(--line);background:var(--surface);border-radius:16px;padding:14px 16px}
+.urg dl{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:8px 0 0}
+.urg dt{font-family:var(--serif);font-size:1.45rem;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums;user-select:all}
+.urg dd{margin:0;align-self:center;font-size:.88rem;color:var(--muted)}
+/* journal */
+.entry{width:100%;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:16px;padding:14px;cursor:pointer;display:flex;flex-direction:column;gap:4px}
+.entry .d{font-size:.78rem;color:var(--muted);display:flex;gap:8px;align-items:center}
+.entry b{font-family:var(--serif);font-size:1.15rem;font-weight:600;line-height:1.25}
+.entry .em{font-size:.85rem;color:var(--muted)}
+.ex{font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;background:var(--tint);border-radius:999px;padding:1px 8px}
+.private{display:flex;gap:10px;align-items:flex-start;font-size:.86rem;color:var(--muted);background:var(--tint);border-radius:14px;padding:12px 14px}
+.private svg{flex:0 0 18px;margin-top:2px}
+.steps{display:flex;gap:6px}
+.steps i{flex:1;height:4px;border-radius:4px;background:var(--line)}
+.steps i.on{background:var(--gold)}
+.qh{font-size:1.7rem}
+.cols{display:flex;flex-direction:column;gap:12px}
+.col{border:1px solid var(--line);background:var(--surface);border-radius:16px;padding:14px 14px 16px;display:flex;flex-direction:column;gap:12px;scroll-margin-top:16px}
+.col.done{background:var(--tint);border-color:transparent;gap:6px}
+.col.active{border-color:var(--gold);box-shadow:0 0 0 3px rgba(217,166,72,.15)}
+.col-h{display:flex;align-items:center;gap:10px}
+.col-h h2{font-size:1.25rem;flex:1}
+.col-n{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:.8rem;background:var(--indigo);color:#fff;flex:0 0 auto;font-variant-numeric:tabular-nums}
+.col.done .col-n{background:var(--gold);color:var(--night)}
+.col-v{margin:0 0 0 36px;color:var(--ink);font-size:.95rem;white-space:pre-wrap}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+@media (prefers-reduced-motion:no-preference){.col.active{animation:colin .35s ease-out}@keyframes colin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}}
+
+.help{color:var(--muted);margin:0;font-size:.95rem}
+textarea{width:100%;min-height:120px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:14px;padding:12px 14px;font:inherit;resize:vertical}
+.range{display:flex;flex-direction:column;gap:6px}
+.range label{font-size:.92rem}
+.range input{width:100%;accent-color:var(--indigo)}
+.range .scale{display:flex;justify-content:space-between;font-size:.75rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.nav2{display:flex;gap:10px}
+.nav2 .btn{flex:1}
+.prompts{margin:0;padding-left:18px;color:var(--muted);font-size:.92rem}
+.field h3{font-size:1.15rem;margin-bottom:2px}
+.field p{margin:0;white-space:pre-wrap}
+.confirm{border:1px solid var(--gold);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:10px;background:var(--surface)}
+.confirm .nav2 .btn{padding:10px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(var(--tab-h) + env(safe-area-inset-bottom,0px) + 16px);background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;font-size:.9rem;z-index:30}
+/* tabbar */
+.tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+.tabs ul{list-style:none;margin:0 auto;padding:0;max-width:560px;display:grid;grid-template-columns:repeat(5,1fr);height:var(--tab-h)}
+.tabs button{width:100%;height:100%;border:0;background:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:.74rem;color:var(--muted)}
+.tabs button svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.tabs button[aria-current="page"]{color:var(--ink);font-weight:500}
+.tabs button[aria-current="page"] svg{stroke:var(--gold-deep)}
+/* agenda du sommeil */
+.tl{position:relative;height:30px;border:1px solid var(--line);border-radius:6px;background:var(--surface) repeating-linear-gradient(to right,var(--line) 0 1px,transparent 1px calc(100% / 24));overflow:hidden}
+.tl i{position:absolute;top:5px;bottom:5px;background:var(--indigo);border-radius:3px}
+.tl i.si{background:#4a6fc4}
+.tl b.so{position:absolute;top:50%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:var(--gold)}
+.tl em{position:absolute;top:-1px;font-style:normal;font-size:11px;line-height:1;color:var(--gold-deep);transform:translateX(-50%)}
+.tl em.up{top:auto;bottom:0}
+.tlh{display:flex;justify-content:space-between;font-size:.7rem;color:var(--muted);margin-top:3px;font-variant-numeric:tabular-nums}
+.tlh span{width:0;white-space:nowrap;display:flex;justify-content:center}
+.tgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tgrid label,.rg label{display:flex;flex-direction:column;gap:4px;font-size:.88rem;color:var(--muted)}
+input[type=time],input[type=date]{width:100%;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:12px;padding:10px 12px;font:inherit;min-height:46px}
+.rg{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;align-items:end}
+.rg .x{border:0;background:none;color:var(--muted);font-size:1.4rem;line-height:1;padding:10px 6px;cursor:pointer}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.8rem;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:2px;background:var(--indigo)}
+.legend i.si{background:#4a6fc4}.legend i.so{width:10px;height:10px;border-radius:50%;background:var(--gold)}
+.row2 .tile.wide{grid-column:1/-1;min-height:0}
+/* accueil et sections (inspirées des applis de bien-être les mieux notées) */
+.hello h1{font-size:2.2rem}.hello p{margin:2px 0 0;color:var(--muted);font-size:.92rem}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:6px 0 -6px}
+.sec-h h2{font-size:1.4rem}
+.rail{display:flex;gap:12px;overflow-x:auto;list-style:none;margin:0 calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding:2px max(16px,env(safe-area-inset-left,0px)) 6px;scroll-snap-type:x mandatory;scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.rail>li,.rail>.tool{scroll-snap-align:start;flex:0 0 auto}
+.tcard{width:148px;border:0;background:none;padding:0;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:6px}
+.tcard b{font-family:var(--serif);font-size:1.08rem;font-weight:600;line-height:1.15}
+.tcard span{font-size:.78rem;color:var(--muted)}
+.cv{width:148px;height:148px;border-radius:18px;object-fit:cover;display:block;background:var(--tint)}
+.cv.sm{width:56px;height:56px;border-radius:12px;flex:0 0 auto}
+.cv.lg{width:96px;height:96px;border-radius:16px;flex:0 0 auto}
+.gl{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;flex:0 0 auto;background:var(--tint)}
+.gl svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.c-beck{background:#e3e8f6;color:#0d2c8c}.c-decl{background:#f8e7d6;color:#9a4f12}.c-som{background:#ece5f3;color:#3a1163}.c-pos{background:#f7f0d6;color:#8a5f12}.c-test{background:#e4eee6;color:#2f6b4f}
+.tool{display:flex;flex-direction:column;gap:6px;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:16px;padding:14px;cursor:pointer}
+.tool b{font-family:var(--serif);font-size:1.15rem;font-weight:600;line-height:1.2}
+.tool .d{font-size:.84rem;color:var(--muted)}
+.tool.sm{width:150px}
+.tools2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.test{display:flex;flex-direction:column;gap:8px;width:170px;height:100%;text-decoration:none;color:inherit;border:1px solid var(--line);background:var(--surface);border-radius:16px;padding:14px;position:relative}
+.test .tx{display:flex;flex-direction:column;gap:2px}
+.test b{font-family:var(--serif);font-size:1.12rem;font-weight:600;line-height:1.2}
+.test span,.test small{font-size:.8rem;color:var(--muted)}
+.test small.src{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold-deep);margin-top:2px}
+.test .ext{position:absolute;right:12px;top:12px;color:var(--gold-deep);font-size:.9rem}
+.test.row{width:auto;flex-direction:row;align-items:flex-start;gap:14px;padding-right:34px}
+.test.row small{display:block;margin-top:3px}
+.trow{width:100%;display:flex;align-items:center;gap:14px;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:16px;padding:8px 14px 8px 8px;cursor:pointer}
+.trow.on{border-color:var(--gold);box-shadow:0 0 0 3px rgba(217,166,72,.15)}
+.trow .tx{flex:1;min-width:0}.trow b{display:block;font-family:var(--serif);font-size:1.15rem;font-weight:600;line-height:1.2}.trow .tx span{font-size:.82rem;color:var(--muted)}
+.trow .pi{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--tint);color:var(--ink);font-size:.8rem;flex:0 0 auto}
+.player{display:grid;grid-template-columns:auto 1fr;gap:14px 16px;align-items:center}
+.player .pl-row{grid-column:1/-1}
+.mom{display:flex;align-items:center;gap:10px}.mom span{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:var(--night);font-size:.85rem;flex:0 0 auto}
+.mom input{flex:1;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:12px;padding:11px 12px;font:inherit;min-height:46px}
+ol.moms{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
+.tabs button{font-size:.7rem}
+#printArea{display:none}
+@media print{
+  @page{size:A4 landscape;margin:12mm}
+  body{background:#fff!important;color:#1d1b3b!important}
+  .app,.tabs,.toast,audio{display:none!important}
+  #printArea{display:block!important;font:400 9.5pt/1.4 var(--sans);color:#1d1b3b}
+  #printArea header{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1.5pt solid #d9a648;padding-bottom:6pt;margin-bottom:8pt}
+  #printArea h1{font:600 20pt var(--serif);color:#22135e;margin:0}
+  #printArea header p{margin:2pt 0 0;color:#56537a}
+  #printArea table{width:100%;border-collapse:collapse;table-layout:fixed}
+  #printArea th{font:500 8pt var(--sans);text-transform:uppercase;letter-spacing:.06em;color:#fff;background:#22135e;padding:5pt;text-align:left;vertical-align:bottom}
+  #printArea th:first-child{width:11%}
+  #printArea td{border:.6pt solid #cfc4ae;padding:5pt;vertical-align:top;word-wrap:break-word}
+  #printArea tr{break-inside:avoid}
+  #printArea h2.pt{font:600 13pt var(--serif);color:#22135e;margin:10pt 0 5pt}
+  #printArea tbody tr:nth-child(even) td{background:#f7f3ec}
+  #printArea,#printArea *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  #printArea table.som th:first-child{width:9%}
+  #printArea table.som th:nth-child(2){padding-left:2pt;padding-right:2pt}
+  #printArea table.som th:nth-child(n+3):nth-child(-n+5){font-size:6.5pt;letter-spacing:0;padding:5pt 2pt;text-align:center}
+  #printArea table.som td.tc{padding:3pt 2pt}
+  #printArea .tl{height:16pt;border-radius:2pt;border-color:#cfc4ae;background:#fff repeating-linear-gradient(to right,#e3dccd 0 .5pt,transparent .5pt calc(100% / 24))}
+  #printArea .tl i{top:3pt;bottom:3pt;background:#0d2c8c}#printArea .tl i.si{background:#4a6fc4}
+  #printArea .tl b.so{background:#d9a648;width:7pt;height:7pt;margin:-3.5pt 0 0 -3.5pt}
+  #printArea .tl em{font-size:7pt;color:#7d5a16}
+  #printArea .hrs{display:flex;justify-content:space-between;font-weight:400;letter-spacing:0}
+  #printArea .hrs span{width:0;display:flex;justify-content:center}
+  #printArea td.n{text-align:center;font-weight:600}
+  #printArea footer{margin-top:8pt;font-size:8pt;color:#56537a;text-align:center}
+}
+.foot{font-size:.78rem;color:var(--muted);text-align:center;padding:10px 0 0}
+@media (prefers-reduced-motion:no-preference){.view{animation:in .25s ease-out}@keyframes in{from{opacity:.85;transform:translateY(4px)}to{opacity:1;transform:none}}}
+</style>
+
+<div class="app">
+  <main id="main"></main>
+</div>
+<nav class="tabs" aria-label="Navigation">
+  <ul>
+    <li><button type="button" data-tab="accueil"><svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-5h4v5"/></svg>Accueil</button></li>
+    <li><button type="button" data-tab="outils"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="7" height="9" rx="1.5"/><rect x="13" y="3" width="7" height="9" rx="1.5"/><rect x="4" y="14" width="7" height="7" rx="1.5"/><rect x="13" y="14" width="7" height="7" rx="1.5"/></svg>Exercices</button></li>
+    <li><button type="button" data-tab="ecouter"><svg viewBox="0 0 24 24"><path d="M4 14a8 8 0 0116 0"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg>Écouter</button></li>
+    <li><button type="button" data-tab="carnet"><svg viewBox="0 0 24 24"><path d="M6 3h11a1 1 0 011 1v16a1 1 0 01-1 1H6z"/><path d="M6 3v18M10 8h5M10 12h5"/></svg>Carnet</button></li>
+    <li><button type="button" data-tab="tests"><svg viewBox="0 0 24 24"><path d="M9 4h6v3H9z"/><path d="M7 5H5v16h14V5h-2"/><path d="M8 12l2 2 4-4M8 17h8"/></svg>Tests</button></li>
+  </ul>
+</nav>
+<audio id="aud" preload="none"></audio>
+<div id="printArea" aria-hidden="true"></div>
+
+<script>
+var DATA = {"besoins": [["crise", "Crise d'angoisse ou de panique"], ["anxiete", "Anxiété et stress"], ["emotions", "Émotions"], ["estime", "Estime de soi"], ["relations", "Relations et attachement"], ["trauma", "Trauma et dissociation"], ["habitude", "Changer une habitude"], ["sommeil", "Sommeil"], ["enfant", "Avec un enfant"], ["pro", "Pour les professionnels"]], "formats": [["audio", "Audio guidé"], ["remplir", "Fiche à remplir"], ["affiche", "Affiche à lire"]], "sos": ["la-crise-de-panique", "ancrage-5-4-3-2-1", "exercices-de-respiration"], "fiches": [{"id": "exercices-de-respiration", "t": "Exercices de respiration", "d": "Sept façons de revenir à son souffle : respiration mentale, numérique, paille, triangle, carrée, abdominale et cohérence cardiaque.", "img": "img/exercices-de-respiration.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-exercices-de-respiration.pdf", "page": "https://laetitia-duchemin-psychologue.fr/anxiete/", "b": ["crise", "anxiete", "emotions"], "f": ["affiche"]}, {"id": "la-coherence-cardiaque", "t": "La cohérence cardiaque", "d": "Inspirer cinq secondes, expirer cinq secondes : le rythme 365, avec un guide animé à suivre en ligne.", "img": "img/la-coherence-cardiaque.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-la-coherence-cardiaque.pdf", "page": "https://laetitia-duchemin-psychologue.fr/le-corps-en-psychotherapie/#la-coherence-cardiaque", "b": ["anxiete", "emotions"], "f": ["affiche"]}, {"id": "la-relaxation", "t": "La relaxation de Schultz", "d": "Une relaxation guidée par la voix, qui invite le corps à se détendre à travers des sensations de lourdeur et de chaleur.", "img": "img/la-relaxation.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-la-relaxation.pdf", "page": "https://laetitia-duchemin-psychologue.fr/exercices/relaxation-schultz/", "b": ["anxiete", "emotions"], "f": ["audio", "affiche"], "tr": ["relax"]}, {"id": "exercices-de-sophrologie", "t": "Exercices de sophrologie", "d": "Bouger et respirer pour relâcher les tensions du quotidien, dans la nuque, les épaules et le dos.", "img": "img/exercices-de-sophrologie.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-exercices-de-sophrologie.pdf", "page": "https://laetitia-duchemin-psychologue.fr/anxiete/", "b": ["anxiete", "emotions"], "f": ["affiche"]}, {"id": "ancrage-5-4-3-2-1", "t": "L'ancrage 5-4-3-2-1", "d": "Revenir au présent par les cinq sens quand on se sent « partir ».", "img": "img/ancrage-5-4-3-2-1.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-ancrage-5-4-3-2-1.pdf", "page": "https://laetitia-duchemin-psychologue.fr/dissociation/#un-outil-d-ancrage", "b": ["crise", "anxiete", "trauma", "emotions"], "f": ["affiche"]}, {"id": "la-pleine-conscience", "t": "La pleine conscience", "d": "Revenir au moment présent, sans jugement : choisir son point d'ancrage, faire une pause, marcher, et une progression en trois temps guidés.", "img": "img/la-pleine-conscience.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-la-pleine-conscience.pdf", "page": "https://laetitia-duchemin-psychologue.fr/pleine-conscience-sensible-au-trauma/", "b": ["anxiete", "trauma", "emotions"], "f": ["audio", "affiche"], "tr": ["resp", "body", "meteo"]}, {"id": "la-crise-de-panique", "t": "La crise de panique", "d": "Laisser passer la vague : comprendre la fausse alerte et les étapes pour traverser la crise.", "img": "img/la-crise-de-panique.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-la-crise-de-panique.pdf", "page": "https://laetitia-duchemin-psychologue.fr/crise-d-angoisse/", "b": ["crise"], "f": ["affiche"]}, {"id": "eft-clinique", "t": "L'EFT clinique", "d": "Des tapotements sur 15 points pour apaiser une émotion qui déborde.", "img": "img/eft-clinique.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-eft-clinique.pdf", "page": "https://laetitia-duchemin-psychologue.fr/eft/#comment-ca-se-passe", "b": ["crise", "anxiete", "emotions"], "f": ["affiche"]}, {"id": "pendulation", "t": "La pendulation", "d": "Osciller entre une sensation inconfortable et un appui extérieur, pour apprendre à mieux la supporter.", "img": "img/pendulation.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-pendulation.pdf", "page": "https://laetitia-duchemin-psychologue.fr/fenetre-de-tolerance/#elargir", "b": ["trauma", "emotions"], "f": ["affiche"]}, {"id": "la-roue-des-emotions", "t": "La roue des émotions", "d": "Six émotions universelles et les besoins qu'elles peuvent signaler, avec trois questions pour écouter une émotion.", "img": "img/la-roue-des-emotions.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-la-roue-des-emotions.pdf", "page": "https://laetitia-duchemin-psychologue.fr/les-emotions/#les-emotions-universelles", "b": ["emotions", "enfant"], "f": ["affiche"]}, {"id": "le-cerveau-dans-la-main", "t": "Le cerveau dans la main", "d": "Comprendre les débordements émotionnels avec le modèle de Daniel Siegel, et apprendre à refermer la main.", "img": "img/le-cerveau-dans-la-main.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-le-cerveau-dans-la-main.pdf", "page": "https://laetitia-duchemin-psychologue.fr/les-emotions/#un-outil-le-cerveau-dans-la-main", "b": ["emotions", "enfant"], "f": ["affiche"]}, {"id": "echelle-des-etats", "t": "L'échelle de mes états", "d": "L'exercice de Deb Dana : « Je me sens… et le monde est… », du bas vers le haut de l'échelle.", "img": "img/echelle-des-etats.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-echelle-des-etats.pdf", "page": "https://laetitia-duchemin-psychologue.fr/theorie-polyvagale/#l-echelle-de-ses-etats", "b": ["emotions", "trauma"], "f": ["remplir"]}, {"id": "fenetre-de-tolerance", "t": "La fenêtre de tolérance", "d": "Repérer ses trois états, de l'hyperactivation à l'hypoactivation, et ce qui aide à revenir dans sa zone.", "img": "img/fenetre-de-tolerance.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-fenetre-de-tolerance.pdf", "page": "https://laetitia-duchemin-psychologue.fr/regulation-emotionnelle/#la-fenetre-de-tolerance", "b": ["emotions", "trauma"], "f": ["affiche"]}, {"id": "les-messagers-du-bien-etre", "t": "Les messagers du bien-être", "d": "Dopamine, sérotonine, ocytocine, endorphines : les gestes du quotidien qui les soutiennent.", "img": "img/les-messagers-du-bien-etre.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-les-messagers-du-bien-etre.pdf", "page": "https://laetitia-duchemin-psychologue.fr/neuropsychologie/#messagers-du-bien-etre", "b": ["emotions"], "f": ["affiche"]}, {"id": "mon-carnet-des-declencheurs", "t": "Mon carnet des déclencheurs", "d": "Noter la situation, les sensations, l'émotion et ce qui a aidé, pour repérer ses déclencheurs et ses appuis.", "img": "img/mon-carnet-des-declencheurs.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-mon-carnet-des-declencheurs.pdf", "page": "https://laetitia-duchemin-psychologue.fr/declencheurs-emotionnels/#mon-carnet", "b": ["emotions", "trauma"], "f": ["remplir"]}, {"id": "mes-besoins-fondamentaux", "t": "Mes besoins fondamentaux", "d": "Les cinq besoins affectifs décrits par Jeffrey Young, et des idées concrètes pour en prendre soin au quotidien.", "img": "img/mes-besoins-fondamentaux.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-mes-besoins-fondamentaux.pdf", "page": "https://laetitia-duchemin-psychologue.fr/regulation-emotionnelle/", "b": ["emotions", "estime"], "f": ["affiche"]}, {"id": "regulation-emotionnelle", "t": "Des outils pour apaiser ses émotions", "d": "Moduler l'intensité d'une émotion en s'appuyant sur ce qui vous fait du bien : un souvenir, une personne, un lieu, un son.", "img": "img/regulation-emotionnelle.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-regulation-emotionnelle.pdf", "page": "https://laetitia-duchemin-psychologue.fr/regulation-emotionnelle/", "b": ["emotions"], "f": ["affiche"]}, {"id": "me-parler-comme-a-un-ami", "t": "Me parler comme à un·e ami·e", "d": "Un détour vers l'auto-compassion : se dire ce qu'on dirait à un·e ami·e.", "img": "img/me-parler-comme-a-un-ami.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-me-parler-comme-a-un-ami.pdf", "page": "https://laetitia-duchemin-psychologue.fr/resilience/#un-detour-utile-s-adresser-a-soi-comme-a-un-e-ami-e", "b": ["estime"], "f": ["remplir"]}, {"id": "mes-5-moments-positifs", "t": "Mes 5 moments positifs du jour", "d": "Noter chaque jour cinq choses positives, agréables ou satisfaisantes : les petits moments qui ont fait du bien.", "img": "img/mes-5-moments-positifs.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-mes-5-moments-positifs.pdf", "page": "https://laetitia-duchemin-psychologue.fr/confiance-en-soi/#un-outil-simple", "b": ["estime"], "f": ["remplir"], "carnet": "pos"}, {"id": "mes-petites-lueurs", "t": "Mes petites lueurs", "d": "Un carnet d'une semaine pour remarquer et noter les petites lueurs de sécurité du quotidien (d'après Deb Dana).", "img": "img/mes-petites-lueurs.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-mes-petites-lueurs.pdf", "page": "https://laetitia-duchemin-psychologue.fr/dependance-affective/#un-deuxieme-outil-mes-petites-lueurs", "b": ["estime", "relations"], "f": ["remplir"]}, {"id": "agenda-du-sommeil", "t": "Mon agenda du sommeil", "d": "Noter ses nuits, ses siestes et sa forme pendant 15 jours à un mois, pour repérer ce qui favorise le sommeil et ce qui le perturbe.", "img": "img/agenda-du-sommeil.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-agenda-du-sommeil.pdf", "page": "", "b": ["sommeil", "anxiete"], "f": ["remplir"], "carnet": "som"}, {"id": "balance-decisionnelle", "t": "Ma balance décisionnelle", "d": "Quatre cases pour voir plus clair dans ce qui retient et ce qui motive à changer.", "img": "img/balance-decisionnelle.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-balance-decisionnelle.pdf", "page": "https://laetitia-duchemin-psychologue.fr/addictions/#deux-outils", "b": ["habitude"], "f": ["remplir"]}, {"id": "parler-en-je", "t": "Parler en « je »", "d": "Les quatre étapes de la Communication NonViolente, en commençant par le ressenti, pour ouvrir le dialogue.", "img": "img/parler-en-je.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-parler-en-je.pdf", "page": "https://laetitia-duchemin-psychologue.fr/relation-saine/#la-communication-nonviolente", "b": ["relations"], "f": ["affiche"]}, {"id": "hier-ou-aujourd-hui", "t": "Hier ou aujourd'hui ?", "d": "Cinq questions pour distinguer l'alarme ancienne de la situation présente, quand la peur d'être quitté·e monte.", "img": "img/hier-ou-aujourd-hui.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-hier-ou-aujourd-hui.pdf", "page": "https://laetitia-duchemin-psychologue.fr/peur-de-l-abandon/#un-outil-hier-ou-aujourd-hui", "b": ["relations", "trauma"], "f": ["affiche"]}, {"id": "traverser-l-absence", "t": "Traverser l'absence", "d": "Quatre étapes pour traverser l'absence de l'autre, pas à pas, en revenant vers la sécurité de son corps.", "img": "img/traverser-l-absence.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-traverser-l-absence.pdf", "page": "https://laetitia-duchemin-psychologue.fr/dependance-affective/#un-outil-traverser-l-absence", "b": ["relations"], "f": ["affiche"]}, {"id": "approche-et-fuite", "t": "Approche et fuite", "d": "Un carnet d'une semaine pour observer ses mouvements d'approche et de fuite dans la relation.", "img": "img/approche-et-fuite.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-approche-et-fuite.pdf", "page": "https://laetitia-duchemin-psychologue.fr/attachement-desorganise/#un-outil-reperer-ses-mouvements-d-approche-et-de-fuite", "b": ["relations", "trauma"], "f": ["remplir"]}, {"id": "calinotherapie", "t": "La câlinothérapie", "d": "Des moments de câlins réguliers entre parent et enfant, pour ressentir le lien.", "img": "img/calinotherapie.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-calinotherapie.pdf", "page": "https://laetitia-duchemin-psychologue.fr/li-icv-enfants-adolescents/#la-calinotherapie", "b": ["enfant", "relations"], "f": ["affiche"]}, {"id": "la-meteo-de-mes-emotions", "t": "La météo de mes émotions", "d": "Pour les enfants : repérer le temps qu'il fait en soi, ce dont on a besoin, et colorier où l'émotion se sent dans le corps.", "b": ["enfant", "emotions"], "f": ["audio", "remplir"], "img": "img/la-meteo-de-mes-emotions.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-la-meteo-de-mes-emotions.pdf", "page": "", "tr": ["meteo-enf", "rayon"]}, {"id": "respirer-en-jouant", "t": "Respirer en jouant", "d": "Pour les enfants : la fleur et la bougie, le ballon, la main, le nuage gris, le souffle du dragon.", "b": ["enfant", "anxiete", "emotions"], "f": ["audio", "affiche"], "img": "img/respirer-en-jouant.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-respirer-en-jouant.pdf", "page": "", "tr": ["souffle"]}, {"id": "mon-thermometre-de-la-colere", "t": "Mon thermomètre de la colère", "d": "Pour les enfants : repérer quand la colère monte, du vert au rouge, et ce qui aide à chaque niveau.", "b": ["enfant", "emotions"], "f": ["remplir"], "img": "img/mon-thermometre-de-la-colere.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-mon-thermometre-de-la-colere.pdf", "page": ""}, {"id": "ma-boite-d-apaisement", "t": "Ma boîte d'apaisement", "d": "Pour les enfants : une boîte à remplir d'objets pour les cinq sens, qui aident à revenir au calme.", "b": ["enfant", "emotions"], "f": ["audio", "remplir"], "img": "img/ma-boite-d-apaisement.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-ma-boite-d-apaisement.pdf", "page": "", "tr": ["chat"]}, {"id": "mes-3-petits-bonheurs", "t": "Mes 3 petits bonheurs", "d": "Pour les enfants : le rituel du soir, trois petits moments qui ont fait du bien aujourd'hui.", "b": ["enfant", "estime"], "f": ["remplir"], "img": "img/mes-3-petits-bonheurs.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-mes-3-petits-bonheurs.pdf", "page": ""}, {"id": "fenetre-de-tolerance-A3", "t": "La fenêtre de tolérance, version murale", "d": "Une version grand format (A3), avec les trois zones et l'échelle qui remonte vers la sécurité, pour un cabinet ou une salle d'attente.", "img": "img/fenetre-de-tolerance-A3.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-fenetre-de-tolerance-A3.pdf", "page": "https://laetitia-duchemin-psychologue.fr/fenetre-de-tolerance/", "b": ["pro"], "f": ["affiche"]}, {"id": "fenetre-de-tolerance-li-icv", "t": "La fenêtre de tolérance pendant la LI-ICV", "d": "Comment l'activation émotionnelle peut fluctuer au fil des répétitions, puis se stabiliser dans la fenêtre.", "img": "img/fenetre-de-tolerance-li-icv.webp", "pdf": "https://laetitia-duchemin-psychologue.fr/documents/affiche-fenetre-de-tolerance-li-icv.pdf", "page": "https://laetitia-duchemin-psychologue.fr/li-icv/#deroule", "b": ["pro"], "f": ["affiche"]}], "tracks": [{"id": "relax", "fiche": "la-relaxation", "lab": "Relaxation", "t": "La relaxation autogène de Schultz", "meta": "11 min · lourdeur, chaleur, respiration", "src": "audio/relaxation-schultz.mp3", "dur": "11:04", "yt": "https://youtu.be/oqwQvymdX_Q"}, {"id": "resp", "fiche": "la-pleine-conscience", "lab": "Pleine conscience · 1", "t": "La respiration consciente", "meta": "7 min · suivre le mouvement naturel du souffle", "src": "audio/respiration-consciente.mp3", "dur": "6:31", "yt": "https://youtu.be/Aog8HDxqDs0"}, {"id": "body", "fiche": "la-pleine-conscience", "lab": "Pleine conscience · 2", "t": "Le body-scan", "meta": "10 min · parcourir le corps avec attention", "src": "audio/body-scan.mp3", "dur": "10:04", "yt": "https://youtu.be/QeoTge2MyZM"}, {"id": "meteo", "fiche": "la-pleine-conscience", "lab": "Pleine conscience · 3", "t": "La météo intérieure", "meta": "6 min · observer le temps qu’il fait en soi", "src": "audio/meteo-interieure.mp3", "dur": "6:01", "yt": "https://youtu.be/dUy8nwuoZFs"}, {"id": "meteo-enf", "fiche": "la-meteo-de-mes-emotions", "lab": "Pour les enfants", "t": "La météo de mes émotions", "meta": "6 min · quel temps fait-il en moi ? Avec un adulte les premières fois", "src": "audio/meteo-des-emotions-enfant.mp3", "dur": "5:56", "yt": "https://youtu.be/ySpO8y1OvaU"}, {"id": "souffle", "fiche": "respirer-en-jouant", "lab": "Pour les enfants", "t": "Le souffle magique", "meta": "4 min · des jeux de souffle pour se calmer", "src": "audio/souffle-magique-enfant.mp3", "dur": "4:24", "yt": "https://youtu.be/PnJ4EvUzA5c"}, {"id": "chat", "fiche": "ma-boite-d-apaisement", "lab": "Pour les enfants", "t": "Le chat qui se repose", "meta": "4 min · une petite relaxation tout en douceur", "src": "audio/chat-qui-se-repose-enfant.mp3", "dur": "4:19", "yt": "https://youtu.be/5w36c3fY5QI"}, {"id": "rayon", "fiche": "la-meteo-de-mes-emotions", "lab": "Pour les enfants", "t": "Le petit rayon de lumière", "meta": "4 min · écouter son corps, tout doucement", "src": "audio/petit-rayon-de-lumiere-enfant.mp3", "dur": "3:51", "yt": "https://youtu.be/aR-LaYQ7fno"}]};
+(function(){
+"use strict";
+var $=function(s,r){return (r||document).querySelector(s)}, main=$('#main'), aud=$('#aud');
+var F=DATA.fiches, byId={}; F.forEach(function(f){byId[f.id]=f});
+var TR={}; DATA.tracks.forEach(function(t){TR[t.id]=t});
+var BES={}; DATA.besoins.forEach(function(b){BES[b[0]]=b[1]});
+var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+var state={cur:'relax',tab:'accueil',b:[],f:[],q:'',fiche:null,entry:null,step:0,draft:null,confirm:null};
+
+/* ---------- carnet : stocké uniquement sur l'appareil ---------- */
+var KEY='ld-carnet-v1', mem=null;
+function load(){
+  if(mem) return mem;
+  try{var r=localStorage.getItem(KEY); if(r){mem=JSON.parse(r); return mem;}}catch(e){}
+  mem={seeded:true,entries:[{id:'ex1',ex:true,date:'2026-10-20T18:30:00',situation:"Un message de mon frère resté sans réponse toute la journée.",emotions:['Anxiété','Tristesse'],avant:7,sensations:"Gorge serrée, ventre noué.",besoins:['Être rassuré·e','Lien'],pensees:"Il m'en veut. J'ai encore dit quelque chose de travers.",action:"Lui écrire demain matin pour prendre des nouvelles, et ce soir appeler une amie.",apres:4,resultat:"Je lui écrirai demain matin. Ça m'a apaisée de l'écrire."}]};
+  return mem;
+}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(mem))}catch(e){}}
+
+var EMO=['Peur','Anxiété','Colère','Tristesse','Honte','Culpabilité','Dégoût','Solitude','Joie'];
+var NEEDS=['Sécurité','Repos','Lien','Être entendu·e','Être rassuré·e','Reconnaissance','Autonomie','Limites respectées','Réconfort'];
+var AIDES=['Respirer','M\u2019ancrer par les sens','Bouger','Parler à quelqu\u2019un','M\u2019éloigner un moment','Écouter de la musique','L\u2019EFT','Me dire : c\u2019est hier, pas aujourd\u2019hui'];
+var STEPS_D=[
+ {k:'situation',t:'La situation',h:"Où, quand, avec qui ?",p:"Ex. : un ton de voix au téléphone…"},
+ {k:'corps',t:'Dans mon corps',h:"Ce que je ressens physiquement.",p:"Ex. : cœur qui s\u2019accélère, mâchoire serrée…"},
+ {k:'emotion',t:'Mon émotion',h:"Le nom que je lui donne."},
+ {k:'aide',t:'Ce qui m\u2019a aidé',h:"Pour revenir dans ma fenêtre de tolérance."}
+];
+var STEPS_S=[
+ {k:'nuit',t:'Ma nuit',h:"Des heures approximatives suffisent : inutile de regarder l\u2019heure pendant la nuit."},
+ {k:'eveils',t:'Les éveils dans la nuit',h:"Vous êtes-vous réveillé·e pendant la nuit ? Notez-le à peu près. S\u2019il n\u2019y en a pas, passez à la suite."},
+ {k:'journee',t:'Ma journée',h:"Vos siestes et vos moments de somnolence. Vous pouvez aussi compléter ce soir : la page reste modifiable."},
+ {k:'notes',t:'Mes notes de 1 à 10',h:"La qualité de votre sommeil, de votre réveil et votre forme dans la journée."},
+ {k:'remarques',t:'Remarques',h:"Un éventuel traitement, ce que vous avez fait pour vous détendre au coucher, et tout ce qui vous semble utile : un évènement, une préoccupation, un changement de rythme."}
+];
+var JOUR=['Activité physique','Contacts sociaux','Lumière naturelle','Café','Alcool','Écrans le soir','Horaires de travail','Repas tardif','Sortie'];
+var STEPS_P=[
+ {k:'moments',t:'Mes 5 moments',h:"Cinq choses positives, agréables ou satisfaisantes de ma journée. Elles peuvent être toutes petites : un sourire, un rayon de soleil, un bon café… Les jours difficiles, un seul suffit."},
+ {k:'ressenti',t:'Ce que je remarque',h:"En les relisant, qu\u2019est-ce que je ressens ? Facultatif."}
+];
+function S(){return state.kind==='decl'?STEPS_D:(state.kind==='som'?STEPS_S:(state.kind==='pos'?STEPS_P:STEPS))}
+/* --- agenda du sommeil : outils --- */
+function tmin(t){if(!t)return null;var p=t.split(':');return (+p[0])*60+(+p[1])}
+function tpos(t){var m=tmin(t);if(m==null)return null;return ((m-1200+1440)%1440)/14.4}
+function nuitLabel(d){if(!d)return '';try{var a=new Date(d+'T12:00:00'),b=new Date(a.getTime()+864e5);return 'Nuit du '+a.getDate()+' au '+b.toLocaleDateString('fr-FR',{day:'numeric',month:'short'})}catch(e){return ''}}
+function hfmt(t){return t?t.replace(':','h'):''}
+function sleepSegs(e){
+  var a=tpos(e.endort||e.coucher), b=tpos(e.reveil||e.lever); if(a==null||b==null||b<=a) return [];
+  var segs=[[a,b]];
+  (e.eveils||[]).forEach(function(r){var x=tpos(r.a),y=tpos(r.b); if(x==null||y==null||y<=x) return; var out=[]; segs.forEach(function(s){ if(y<=s[0]||x>=s[1]){out.push(s);return} if(x>s[0])out.push([s[0],x]); if(y<s[1])out.push([y,s[1]]); }); segs=out;});
+  return segs;
+}
+function tlHTML(e,lab){
+  var h='<div class="tl" role="img" aria-label="'+esc(somText(e))+'">';
+  sleepSegs(e).forEach(function(s){h+='<i style="left:'+s[0]+'%;width:'+(s[1]-s[0])+'%"></i>'});
+  (e.siestes||[]).forEach(function(r){var x=tpos(r.a),y=tpos(r.b); if(x!=null&&y!=null&&y>x) h+='<i class="si" style="left:'+x+'%;width:'+(y-x)+'%"></i>'});
+  (e.somno||[]).forEach(function(t){var x=tpos(t); if(x!=null) h+='<b class="so" style="left:'+x+'%"></b>'});
+  if(tpos(e.coucher)!=null) h+='<em style="left:'+tpos(e.coucher)+'%">↓</em>';
+  if(tpos(e.lever)!=null) h+='<em class="up" style="left:'+tpos(e.lever)+'%">↑</em>';
+  h+='</div>';
+  if(lab) h+='<div class="tlh" aria-hidden="true">'+[20,22,0,2,4,6,8,10,12,14,16,18].map(function(x){return '<span>'+x+'h</span>'}).join('')+'<span></span></div>';
+  return h;
+}
+function somText(e){
+  var p=[nuitLabel(e.nuit)];
+  if(e.coucher)p.push('au lit à '+hfmt(e.coucher)); if(e.endort)p.push('endormissement vers '+hfmt(e.endort));
+  (e.eveils||[]).forEach(function(r){if(r.a)p.push('éveil de '+hfmt(r.a)+' à '+hfmt(r.b))});
+  if(e.reveil)p.push('réveil vers '+hfmt(e.reveil)); if(e.lever)p.push('lever à '+hfmt(e.lever));
+  (e.siestes||[]).forEach(function(r){if(r.a)p.push('sieste de '+hfmt(r.a)+' à '+hfmt(r.b))});
+  (e.somno||[]).forEach(function(t){if(t)p.push('somnolence vers '+hfmt(t))});
+  return p.filter(Boolean).join(', ');
+}
+function rangesHTML(key,d,lbA,lbB,add){
+  return (d[key]||[]).map(function(r,i){return '<div class="rg"><label>'+lbA+'<input type="time" data-rg="'+key+'" data-i="'+i+'" data-e="a" value="'+esc(r.a)+'"></label><label>'+lbB+'<input type="time" data-rg="'+key+'" data-i="'+i+'" data-e="b" value="'+esc(r.b)+'"></label><button type="button" class="x" data-delrg="'+key+'" data-i="'+i+'" aria-label="Retirer">×</button></div>'}).join('')+
+   '<button type="button" class="btn" data-addrg="'+key+'">'+add+'</button>';
+}
+var STEPS=[
+ {k:'situation',t:'La situation',h:"Que s'est-il passé ? Où, quand, avec qui ? Décrivez les faits, simplement.",p:"Ex. : une remarque en réunion…"},
+ {k:'emotions',t:'Mes émotions et sensations',h:"Qu'avez-vous ressenti ? Où dans le corps ?"},
+ {k:'besoins',t:'Mes besoins',h:"De quoi aviez-vous besoin à ce moment-là ?"},
+ {k:'pensees',t:'Mes pensées automatiques',h:"Qu'est-ce qui vous est passé par la tête ? Notez les phrases telles qu'elles sont venues.",p:"Ex. : « Je n'y arriverai jamais »"},
+ {k:'action',t:'Ce que je peux faire',h:"Qu\u2019est-ce que je peux faire, ici et maintenant, pour répondre à mes besoins ?",p:"Ex. : demander de l\u2019aide, faire une pause, poser une limite…"},
+ {k:'resultat',t:'Le résultat',h:"Comment vous sentez-vous maintenant ? Qu'est-ce que vous retenez ?"}
+];
+
+function fmtDate(iso){try{return new Date(iso).toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'long'})}catch(e){return ''}}
+function toast(t){var d=document.createElement('div');d.className='toast';d.setAttribute('role','status');d.textContent=t;document.body.appendChild(d);setTimeout(function(){d.remove()},2200)}
+
+/* ---------- vues ---------- */
+var ICON_LOCK='<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 018 0v3"/></svg>';
+var RINGS='<svg class="rings" viewBox="0 0 100 100" aria-hidden="true" fill="none" stroke="#d9a648" stroke-width="1.2"><circle cx="50" cy="50" r="46"/><circle cx="50" cy="50" r="37"/><circle cx="50" cy="50" r="28"/><circle cx="50" cy="50" r="19"/><circle cx="50" cy="50" r="10"/></svg>';
+
+var SITE='https://laetitia-duchemin-psychologue.fr';
+var TESTS=[
+ {g:'Émotions et stress',id:'gad7',t:'Mon niveau d’anxiété',s:'GAD-7',n:'7 questions · 2 min',d:'La fréquence des signes d’anxiété au cours des deux dernières semaines.',u:'/anxiete/#questionnaire-gad-7',i:'wave'},
+ {g:'Émotions et stress',id:'pcl5',t:'Stress post-traumatique',s:'PCL-5',n:'20 questions · 5 min',d:'Les réactions qui peuvent suivre un événement très éprouvant, au cours du dernier mois.',u:'/stress-post-traumatique-trauma-complexe/#pcl-5',i:'shield',care:1},
+ {g:'Relations',id:'ecr',t:'Mon style d’attachement',s:'ECR-RS',n:'9 questions par relation · 5 à 10 min',d:'Relation par relation : mère, père, partenaire, ami·e.',u:'/test-style-d-attachement/',i:'link'},
+ {g:'Estime et confiance en soi',id:'rosenberg',t:'Mon estime de moi',s:'Échelle de Rosenberg',n:'10 questions · 2 min',d:'La manière dont on se considère et dont on s’apprécie dans l’ensemble.',u:'/estime-de-soi/#echelle-de-rosenberg',i:'heart'},
+ {g:'Estime et confiance en soi',id:'gse',t:'Mon sentiment d’efficacité',s:'Schwarzer et Jerusalem',n:'10 questions · 2 min',d:'Le sentiment de pouvoir faire face aux difficultés et aux imprévus.',u:'/confiance-en-soi/#efficacite-personnelle',i:'spark'},
+ {g:'Estime et confiance en soi',id:'clance',t:'Le sentiment d’imposture',s:'Échelle de Clance',n:'20 questions · 5 min',d:'La peur d’être « démasqué·e », l’impression de devoir sa réussite à la chance.',u:'/syndrome-de-l-imposteur/#echelle-de-clance',i:'mask'},
+ {g:'Personnalité',id:'bfi',t:'Mes grandes tendances',s:'BFI-10',n:'10 questions · 1 min',d:'Cinq grandes dimensions de la personnalité, en graphique.',u:'/personnalite/#un-questionnaire-court-mes-grandes-tendances',i:'star'}
+];
+var GL={
+ wave:'<path d="M3 12c2-4 4-4 6 0s4 4 6 0 4-4 6 0"/>',
+ shield:'<path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/>',
+ link:'<circle cx="9" cy="12" r="4.5"/><circle cx="15" cy="12" r="4.5"/>',
+ heart:'<path d="M12 20s-7-4.5-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.5-7 10-7 10z"/>',
+ spark:'<path d="M12 3v5M12 16v5M3 12h5M16 12h5M6 6l3 3M15 15l3 3M18 6l-3 3M9 15l-3 3"/>',
+ mask:'<path d="M4 7h16v4a8 6 0 01-16 0z"/><circle cx="9" cy="10" r="1.3"/><circle cx="15" cy="10" r="1.3"/>',
+ star:'<path d="M12 3l2.6 5.6 6 .7-4.5 4 1.3 6-5.4-3.1-5.4 3.1 1.3-6-4.5-4 6-.7z"/>',
+ situ:'<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/>',
+ decl:'<path d="M12 3l9 16H3z"/><path d="M12 9v4M12 16v.5"/>',
+ som:'<path d="M20 14.5A8 8 0 019.5 4 8 8 0 1020 14.5z"/>',
+ pos:'<circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/>'
+};
+function gl(k,cls){return '<span class="gl'+(cls?' '+cls:'')+'" aria-hidden="true"><svg viewBox="0 0 24 24">'+GL[k]+'</svg></span>'}
+var TOOLS=[
+ {k:'beck',ic:'situ',lab:'Situation problématique',t:'Regarder une situation autrement',d:'Pensées, besoins, ce que je peux faire'},
+ {k:'decl',ic:'decl',lab:'Déclencheurs',t:'Repérer ce qui me fait réagir',d:'Situation, corps, émotion, ce qui aide'},
+ {k:'som',ic:'som',lab:'Agenda du sommeil',t:'Noter mes nuits',d:'Chaque matin, 15 jours à un mois'},
+ {k:'pos',ic:'pos',lab:'Moments positifs',t:'Mes 5 moments du jour',d:'Le soir, ce qui m’a fait du bien'}
+];
+var KLAB={beck:'Situation',decl:'Déclencheur',som:'Sommeil',pos:'Moments positifs'};
+function hello(){var h=new Date().getHours();return h<5||h>=18?'Bonsoir':'Bonjour'}
+function cover(t,sz){return '<img class="cv'+(sz?' '+sz:'')+'" src="img/cover-'+t.id+'.webp" alt="" loading="lazy">'}
+function secH(t,tab,more){return '<div class="sec-h"><h2>'+t+'</h2>'+(tab?'<button type="button" class="linkbtn" data-tab="'+tab+'">'+(more||'Tout voir')+'</button>':'')+'</div>'}
+function trackCard(t){return '<li><button type="button" class="tcard" data-play="'+t.id+'">'+cover(t)+'<b>'+esc(t.t)+'</b><span>'+esc(t.lab)+' · '+t.dur.split(':')[0]+' min</span></button></li>'}
+function toolCard(o,small){return '<button type="button" class="tool'+(small?' sm':'')+'" data-new="'+o.k+'">'+gl(o.ic,'c-'+o.k)+'<span class="lab">'+esc(o.lab)+'</span><b>'+esc(o.t)+'</b>'+(small?'':'<span class="d">'+esc(o.d)+'</span>')+'</button>'}
+function testCard(x,row){return '<'+(row?'li':'li')+'><a class="test'+(row?' row':'')+'" href="'+SITE+x.u+'" target="_blank" rel="noopener">'+gl(x.i,'c-test')+'<span class="tx"><b>'+esc(x.t)+'</b><span>'+esc(x.n)+'</span>'+(row?'<small>'+esc(x.d)+'</small><small class="src">'+esc(x.s)+'</small>':'')+'</span><span class="ext" aria-hidden="true">↗</span></a></li>'}
+
+function vAccueil(){
+  var c=load(), last=c.entries.filter(function(e){return !e.ex})[0];
+  var bes=DATA.besoins.filter(function(b){return b[0]!=='pro'}).map(function(b){return '<button type="button" class="chip" data-go-b="'+b[0]+'">'+esc(b[1])+'</button>'}).join('');
+  var d=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'});
+  return '<section class="view">'+
+   '<div class="top"><img src="img/logo.webp" alt="" width="40" height="40"><div><div class="n">Laetitia Duchemin</div><div class="r">Psychologue clinicienne intégrative</div></div></div>'+
+   '<div class="hello"><h1 class="h1">'+hello()+'</h1><p>'+esc(d.charAt(0).toUpperCase()+d.slice(1))+'</p></div>'+
+   '<button type="button" class="calm" data-tab="sos">'+RINGS+'<h2>Besoin de vous apaiser maintenant ?</h2><p>Trois outils pour faire baisser l’intensité, et les numéros d’urgence.</p><span class="go">Y aller</span></button>'+
+   secH('Écouter','ecouter')+'<ul class="rail">'+DATA.tracks.map(trackCard).join('')+'</ul>'+
+   secH('Mon carnet','carnet',last?'Mes pages':'')+'<div class="rail tools">'+TOOLS.map(function(o){return toolCard(o,1)}).join('')+'</div>'+
+   (last?'<p class="help" style="font-size:.86rem;margin-top:-8px">Dernière page : '+esc(KLAB[last.kind||'beck'])+', '+esc(fmtDate(last.date))+'</p>':'')+
+   secH('Faire le point','tests')+'<ul class="rail">'+TESTS.slice(0,4).map(function(x){return testCard(x)}).join('')+'</ul>'+
+   secH('J’ai besoin de','outils','Tous les exercices')+'<div class="chips wrap">'+bes+'</div>'+
+   '<p class="foot">Une appli d’exercices et de psychoéducation. Elle ne remplace pas un accompagnement.</p>'+
+  '</section>';
+}
+function vTests(){
+  var groups=[]; TESTS.forEach(function(x){if(groups.indexOf(x.g)<0)groups.push(x.g)});
+  return '<section class="view"><h1 class="h1">Faire le point</h1>'+
+   '<p class="lead">Des questionnaires reconnus pour mieux vous connaître. Ils s’ouvrent sur le site, et vos réponses ne sont pas enregistrées.</p>'+
+   groups.map(function(g){return secH(g)+'<ul class="list">'+TESTS.filter(function(x){return x.g===g}).map(function(x){return testCard(x,1)}).join('')+'</ul>'+
+     (g==='Émotions et stress'?'<p class="note" style="font-size:.86rem">Le questionnaire sur le stress post-traumatique peut réveiller des souvenirs difficiles. Faites-le à un moment calme, et arrêtez-vous si c’est trop.</p>':'')}).join('')+
+   '<div class="private">'+ICON_LOCK+'<span>Un résultat donne une indication, pas un diagnostic. Si un résultat vous inquiète ou vous questionne, parlons-en en séance.</span></div>'+
+  '</section>';
+}
+function trackRow(x){var on=x.id===state.cur;return '<li><button type="button" class="trow'+(on?' on':'')+'" data-sel="'+x.id+'" aria-pressed="'+on+'">'+cover(x,'sm')+'<span class="tx"><b>'+esc(x.t)+'</b><span>'+esc(x.meta)+'</span></span><span class="pi" aria-hidden="true">'+(on&&!aud.paused?'❚❚':'▶')+'</span></button></li>'}
+function vEcouter(){
+  var t=TR[state.cur];
+  var pc=['resp','body','meteo'].map(function(id){return TR[id]}).filter(Boolean);
+  var kids=DATA.tracks.filter(function(x){return x.lab==='Pour les enfants'});
+  return '<section class="view"><h1 class="h1">Écouter</h1><p class="lead">Des exercices guidés par ma voix. Installez-vous assis ou allongé, dans un endroit calme.</p>'+
+   '<div class="player">'+cover(t,'lg')+'<div><p class="lab" style="color:var(--gold)">'+esc(t.lab)+'</p><h2>'+esc(t.t)+'</h2><p class="meta">'+esc(t.meta)+'</p></div>'+
+   '<div class="pl-row"><button type="button" class="play" id="pp" aria-label="Lecture">'+playIco()+'</button>'+
+   '<div class="bar"><label for="seek" class="lab" style="position:absolute;left:-9999px">Position dans l’audio</label><input id="seek" type="range" min="0" max="600" value="0" step="1"><div class="time"><span id="t1">0:00</span><span id="t2">'+t.dur+'</span></div></div></div></div>'+
+   '<p class="note">Vous pouvez ouvrir les yeux, bouger ou arrêter l’écoute à tout moment.</p>'+
+   secH('Pleine conscience, en trois temps')+'<p class="help" style="font-size:.88rem;margin-top:-10px">Commencez par la respiration consciente pendant quelques semaines, puis le body-scan, puis la météo intérieure.</p><ul class="list">'+pc.map(trackRow).join('')+'</ul>'+
+   secH('Relaxation')+'<ul class="list">'+trackRow(TR.relax)+'</ul>'+
+   secH('Pour les enfants')+'<p class="help" style="font-size:.88rem;margin-top:-10px">Les premières fois, écoutez-les avec votre enfant ; ensuite, il pourra les écouter seul.</p><ul class="list">'+kids.map(trackRow).join('')+'</ul>'+
+  '</section>';
+}
+function entryRow(e){
+  var k=e.kind||'beck', tag='<span class="ex">'+esc(KLAB[k])+'</span>'+(e.ex?' <span class="ex">Exemple</span>':'');
+  if(k==='som') return '<li><button type="button" class="entry" data-entry="'+e.id+'"><span class="d">'+esc(fmtDate(e.date))+' '+tag+'</span><b>'+esc(nuitLabel(e.nuit))+'</b>'+tlHTML(e,false)+'<span class="em">Sommeil '+e.nS+'/10 · réveil '+e.nR+'/10 · journée '+e.nJ+'/10</span></button></li>';
+  if(k==='pos'){var m=(e.moments||[]).filter(Boolean); return '<li><button type="button" class="entry" data-entry="'+e.id+'"><span class="d">'+esc(posDate(e))+' '+tag+'</span><b>'+esc(m[0]||'')+'</b><span class="em">'+m.length+' moment'+(m.length>1?'s':'')+(m.length>1?' · '+esc(m.slice(1).join(' · ')):'')+'</span></button></li>';}
+  var dec=k==='decl';
+  return '<li><button type="button" class="entry" data-entry="'+e.id+'"><span class="d">'+esc(fmtDate(e.date))+' '+tag+'</span><b>'+esc(e.situation||'Sans titre')+'</b><span class="em">'+esc((e.emotions||[]).concat(e.emotionTxt?[e.emotionTxt]:[]).join(', '))+(dec?((e.aides||[]).length?' · aidé par : '+esc(e.aides.join(', ')):''):(e.avant!=null&&e.apres!=null?' · intensité '+e.avant+' → '+e.apres:''))+'</span></button></li>';
+}
+function vCarnet(){
+  var c=load(), fk=state.fk||'', es=c.entries.filter(function(e){return !fk||(e.kind||'beck')===fk});
+  var kinds=['beck','decl','som','pos'].filter(function(k){return c.entries.some(function(e){return (e.kind||'beck')===k})});
+  return '<section class="view"><h1 class="h1">Mon carnet</h1>'+
+   '<p class="lead">Quatre outils à remplir pas à pas. Choisissez celui qui vous convient aujourd’hui.</p>'+
+   '<div class="tools2">'+TOOLS.map(function(o){return toolCard(o)}).join('')+'</div>'+
+   '<div class="private">'+ICON_LOCK+'<span>Vos notes restent sur ce téléphone. Rien n’est envoyé automatiquement, ni à moi ni à personne. Vous choisissez ce que vous imprimez ou m’envoyez avant un rendez-vous.</span></div>'+
+   (c.entries.length?secH('Mes pages')+(kinds.length>1?'<div class="chips" role="group" aria-label="Filtrer mes pages"><button type="button" class="chip" data-fk="" aria-pressed="'+(!fk)+'">Tout</button>'+kinds.map(function(k){return '<button type="button" class="chip" data-fk="'+k+'" aria-pressed="'+(fk===k)+'">'+esc(KLAB[k])+'</button>'}).join('')+'</div>':'')+
+     '<ul class="list">'+es.map(entryRow).join('')+'</ul><button type="button" class="btn" data-print="all">Imprimer le carnet (tableau)</button>':'<p class="empty">Votre carnet est vide. Vos pages apparaîtront ici.</p>')+
+   (c.entries.length?(state.confirm==='all'?confirmHTML('Effacer tout le carnet ? Cette action est définitive.','wipe'):'<button type="button" class="linkbtn" data-ask="all" style="align-self:center">Effacer tout le carnet</button>'):'')+
+  '</section>';
+}
+function posDate(e){try{return new Date((e.jourP||e.date.slice(0,10))+'T12:00:00').toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'long'})}catch(x){return fmtDate(e.date)}}
+
+function vSOS(){
+  var items=DATA.sos.map(function(id){return itemHTML(byId[id])}).join('');
+  return '<section class="view"><button type="button" class="back" data-tab="accueil">← Accueil</button>'+
+   '<h1 class="h1">Revenir au calme</h1><p class="lead">Choisissez l’outil qui vous parle. Vous pouvez vous arrêter à tout moment.</p>'+
+   '<ul class="list">'+items+'</ul>'+
+   '<div class="urg"><p class="lab">En cas d’urgence</p><dl>'+
+     '<dt>3114</dt><dd>Prévention du suicide, 24 h/24, gratuit</dd>'+
+     '<dt>15</dt><dd>SAMU, urgence médicale</dd>'+
+     '<dt>112</dt><dd>Urgences, depuis toute l’Europe</dd></dl></div>'+
+  '</section>';
+}
+function itemHTML(f){
+  var pill=(f.tr||[]).length?'<span class="pill">Audio guidé</span>':(f.f.indexOf('remplir')>-1?'<span class="pill">À remplir</span>':'');
+  return '<li><button type="button" class="item" data-fiche="'+f.id+'"><img src="'+f.img+'" alt="" loading="lazy"><span>'+pill+'<b>'+esc(f.t)+'</b><small>'+esc(f.d)+'</small></span></button></li>';
+}
+function filtered(){
+  var q=state.q.trim().toLowerCase();
+  return F.filter(function(f){
+    return (!state.b.length||state.b.some(function(x){return f.b.indexOf(x)>-1}))&&
+           (!state.f.length||state.f.some(function(x){return f.f.indexOf(x)>-1}))&&
+           (!q||(f.t+' '+f.d+' '+f.b.map(function(x){return BES[x]}).join(' ')).toLowerCase().indexOf(q)>-1);
+  });
+}
+function vOutils(){
+  var cb=DATA.besoins.map(function(b){return '<button type="button" class="chip" data-b="'+b[0]+'" aria-pressed="'+(state.b.indexOf(b[0])>-1)+'">'+esc(b[1])+'</button>'}).join('');
+  var cf=DATA.formats.map(function(b){return '<button type="button" class="chip" data-f="'+b[0]+'" aria-pressed="'+(state.f.indexOf(b[0])>-1)+'">'+esc(b[1])+'</button>'}).join('');
+  return '<section class="view"><h1 class="h1">Exercices</h1>'+
+   '<label for="q" class="lab">Rechercher</label><input id="q" class="search" type="search" placeholder="Respiration, colère, enfant…" value="'+esc(state.q)+'" autocomplete="off">'+
+   '<p class="lab">J’ai besoin de</p><div class="chips" role="group" aria-label="J’ai besoin de">'+cb+'</div>'+
+   '<p class="lab">Format</p><div class="chips" role="group" aria-label="Format">'+cf+'</div>'+
+   '<div id="res"></div></section>';
+}
+function renderRes(){
+  var r=filtered(), any=state.b.length||state.f.length||state.q;
+  $('#res').innerHTML='<p class="count" aria-live="polite">'+r.length+' outil'+(r.length>1?'s':'')+(any?' <button type="button" class="linkbtn" data-reset="1">Tout afficher</button>':'')+'</p>'+
+   (r.length?'<ul class="list">'+r.map(itemHTML).join('')+'</ul>':'<p class="empty">Aucun outil ne correspond. Essayez d’enlever un filtre.</p>');
+}
+function vFiche(){
+  var f=byId[state.fiche];
+  var tags=f.b.map(function(x){return '<span>'+esc(BES[x])+'</span>'}).join('');
+  return '<section class="view"><button type="button" class="back" data-back="1">← Retour</button>'+
+   '<h1 class="h1">'+esc(f.t)+'</h1><p class="lead">'+esc(f.d)+'</p><div class="tags">'+tags+'</div>'+
+   '<div class="stack">'+(f.tr||[]).map(function(id){var t=TR[id];return '<button type="button" class="btn solid" data-play="'+id+'">Écouter : '+esc(t.t)+' ('+t.dur+')</button>'}).join('')+
+   '<a class="btn'+((f.tr||[]).length||f.carnet?'':' solid')+'" href="'+f.pdf+'" target="_blank" rel="noopener">Ouvrir la fiche (PDF)</a>'+
+   (f.carnet?'<button type="button" class="btn solid" data-new="'+f.carnet+'">Le remplir dans Mon carnet</button>':'')+
+   (f.page?'<a class="btn" href="'+f.page+'" target="_blank" rel="noopener">Comprendre : lire l’explication</a>':'')+'</div>'+
+   '<img class="poster" src="'+f.img+'" alt="Aperçu de la fiche '+esc(f.t)+'">'+
+   '<p class="note">Vous restez libre d’adapter l’exercice, de faire une pause ou de vous arrêter à tout moment.</p></section>';
+}
+function playIco(){return aud.paused?'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l14 8-14 8z"/></svg>':'<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>'}
+function mmss(s){s=Math.max(0,Math.floor(s||0));return Math.floor(s/60)+':'+String(s%60).padStart(2,'0')}
+
+function confirmHTML(msg,act){return '<div class="confirm" role="alertdialog" aria-label="Confirmation"><p style="margin:0">'+msg+'</p><div class="nav2"><button type="button" class="btn" data-cancel="1">Annuler</button><button type="button" class="btn solid" data-do="'+act+'">Effacer</button></div></div>'}
+
+function filled(k,d){
+  if(state.kind==='pos'){ if(k==='moments') return (d.moments||[]).some(function(m){return (m||'').trim()}); return true; }
+  if(state.kind==='som'){ if(k==='nuit') return !!(d.nuit&&d.coucher&&d.lever); return true; }
+  if(k==='emotion') return d.emotions.length>0||!!(d.emotionTxt||'').trim();
+  if(k==='aide') return d.aides.length>0||!!(d.aideTxt||'').trim();
+  if(k==='emotions') return d.emotions.length>0;
+  if(k==='besoins') return d.besoins.length>0||!!(d.besoinsTxt||'').trim();
+  return !!(d[k]||'').trim();
+}
+function colSummary(k,d){
+  if(state.kind==='pos'){
+    if(k==='moments') return esc(posDate(d))+'<br>'+(d.moments||[]).filter(function(m){return (m||'').trim()}).map(function(m,i){return (i+1)+'. '+esc(m)}).join('<br>');
+    return esc(d.ressenti)||'-';
+  }
+  if(state.kind==='som'){
+    if(k==='nuit') return esc(nuitLabel(d.nuit))+'<br>Au lit '+esc(hfmt(d.coucher))+(d.endort?', endormissement vers '+esc(hfmt(d.endort)):'')+(d.reveil?', réveil vers '+esc(hfmt(d.reveil)):'')+', lever '+esc(hfmt(d.lever));
+    if(k==='eveils'){var ev=(d.eveils||[]).filter(function(r){return r.a}); return ev.length?ev.map(function(r){return esc(hfmt(r.a))+' → '+esc(hfmt(r.b))}).join(', '):'Aucun éveil noté';}
+    if(k==='journee'){var j=(d.siestes||[]).filter(function(r){return r.a}).map(function(r){return 'sieste '+esc(hfmt(r.a))+' → '+esc(hfmt(r.b))}).concat((d.somno||[]).filter(Boolean).map(function(t){return 'somnolence vers '+esc(hfmt(t))})); return (j.length?j.join(', '):'Rien de noté pour l\u2019instant')+((d.jour||[]).length?'<br>'+esc(d.jour.join(', ')):'');}
+    if(k==='notes') return 'Sommeil '+d.nS+'/10 · Réveil '+d.nR+'/10 · Journée '+d.nJ+'/10';
+    if(k==='remarques') return esc([d.traitement,d.detente,d.remarques].filter(Boolean).join(' · '))||'Pas de remarque';
+  }
+  if(k==='emotion') return esc(d.emotions.concat(d.emotionTxt?[d.emotionTxt]:[]).join(', '));
+  if(k==='aide') return esc(d.aides.concat(d.aideTxt?[d.aideTxt]:[]).join(', '));
+  if(k==='emotions') return esc(d.emotions.join(', '))+' · intensité '+d.avant+'/10'+(d.sensations?'<br>'+esc(d.sensations):'');
+  if(k==='besoins') return esc(d.besoins.concat(d.besoinsTxt?[d.besoinsTxt]:[]).join(', '));
+  if(k==='resultat') return (d.apres!=null?'Intensité '+d.apres+'/10. ':'')+esc(d.resultat);
+  return esc(d[k]);
+}
+function colEditor(s,d){
+  if(state.kind==='pos'){
+    if(s.k==='moments') return '<div class="tgrid"><label style="grid-column:1/-1">Le jour<input type="date" data-t="jourP" value="'+esc(d.jourP)+'"></label></div>'+
+      d.moments.map(function(m,i){return '<label class="mom"><span>'+(i+1)+'</span><input type="text" data-m="'+i+'" value="'+esc(m)+'" placeholder="'+['Ex. : un café au soleil','Ex. : un message d\u2019une amie','Ex. : j\u2019ai fini ce que je voulais','Ex. : une balade','Ex. : un fou rire'][i]+'" aria-label="Moment '+(i+1)+'"></label>'}).join('');
+    return '<label class="lab" for="ressenti" style="position:absolute;left:-9999px">Ce que je remarque</label><textarea id="ressenti" data-k="ressenti" placeholder="Ex. : je me sens un peu plus léger·e…">'+esc(d.ressenti)+'</textarea>';
+  }
+  if(state.kind==='som'){
+    if(s.k==='nuit') return '<div class="tgrid"><label style="grid-column:1/-1">La nuit du (date du soir)<input type="date" data-t="nuit" value="'+esc(d.nuit)+'"></label>'+
+      '<label>Au lit à<input type="time" data-t="coucher" value="'+esc(d.coucher)+'"></label><label>Endormissement vers<input type="time" data-t="endort" value="'+esc(d.endort)+'"></label>'+
+      '<label>Réveil vers<input type="time" data-t="reveil" value="'+esc(d.reveil)+'"></label><label>Lever à<input type="time" data-t="lever" value="'+esc(d.lever)+'"></label></div>';
+    if(s.k==='eveils') return rangesHTML('eveils',d,'Éveillé·e de','à','+ Ajouter un éveil');
+    if(s.k==='journee') return '<p class="lab">Siestes</p>'+rangesHTML('siestes',d,'De','à','+ Ajouter une sieste')+
+      '<p class="lab">Moments de somnolence</p>'+(d.somno||[]).map(function(t,i){return '<div class="rg" style="grid-template-columns:1fr auto"><label>Vers<input type="time" data-sn="'+i+'" value="'+esc(t)+'"></label><button type="button" class="x" data-delsn="'+i+'" aria-label="Retirer">×</button></div>'}).join('')+
+      '<button type="button" class="btn" data-addsn="1">+ Ajouter un moment de somnolence</button>'+
+      '<p class="lab">Pour aller plus loin (facultatif)</p><p class="help" style="font-size:.86rem">La qualité du sommeil dépend aussi de la journée.</p><div class="chips wrap" role="group" aria-label="Ma journée">'+JOUR.map(function(e){return '<button type="button" class="chip" data-pick="jour" data-v="'+esc(e)+'" aria-pressed="'+(d.jour.indexOf(e)>-1)+'">'+esc(e)+'</button>'}).join('')+'</div>';
+    if(s.k==='notes') return rangeHTML('nS','Mon sommeil',d.nS,1)+rangeHTML('nR','Mon réveil',d.nR,1)+rangeHTML('nJ','Ma forme dans la journée',d.nJ,1);
+    if(s.k==='remarques') return '<label class="lab" for="traitement">Traitement</label><textarea id="traitement" data-k="traitement" style="min-height:60px" placeholder="Médicament, homéopathie…">'+esc(d.traitement)+'</textarea>'+
+      '<label class="lab" for="detente">Détente au coucher</label><textarea id="detente" data-k="detente" style="min-height:60px" placeholder="Lecture, relaxation, respiration…">'+esc(d.detente)+'</textarea>'+
+      '<label class="lab" for="remarques">Remarques particulières</label><textarea id="remarques" data-k="remarques" style="min-height:80px">'+esc(d.remarques)+'</textarea>';
+  }
+  if(s.k==='emotion') return '<div class="chips wrap" role="group" aria-label="Émotions">'+EMO.map(function(e){return '<button type="button" class="chip" data-pick="emotions" data-v="'+e+'" aria-pressed="'+(d.emotions.indexOf(e)>-1)+'">'+e+'</button>'}).join('')+'</div>'+
+     '<label class="lab" for="emotionTxt">Avec mes mots</label><textarea id="emotionTxt" data-k="emotionTxt" style="min-height:80px">'+esc(d.emotionTxt)+'</textarea>';
+  if(s.k==='aide') return '<div class="chips wrap" role="group" aria-label="Ce qui m\u2019a aidé">'+AIDES.map(function(e){return '<button type="button" class="chip" data-pick="aides" data-v="'+esc(e)+'" aria-pressed="'+(d.aides.indexOf(e)>-1)+'">'+esc(e)+'</button>'}).join('')+'</div>'+
+     '<label class="lab" for="aideTxt">Autre chose ?</label><textarea id="aideTxt" data-k="aideTxt" style="min-height:80px">'+esc(d.aideTxt)+'</textarea>';
+  if(s.k==='emotions') return '<div class="chips wrap" role="group" aria-label="Émotions">'+EMO.map(function(e){return '<button type="button" class="chip" data-pick="emotions" data-v="'+e+'" aria-pressed="'+(d.emotions.indexOf(e)>-1)+'">'+e+'</button>'}).join('')+'</div>'+
+     rangeHTML('avant','Intensité de l’émotion',d.avant)+
+     '<label class="lab" for="sensations">Sensations dans le corps</label><textarea id="sensations" data-k="sensations" placeholder="Ex. : gorge serrée, chaleur dans le visage…">'+esc(d.sensations)+'</textarea>';
+  if(s.k==='besoins') return '<div class="chips wrap" role="group" aria-label="Besoins">'+NEEDS.map(function(e){return '<button type="button" class="chip" data-pick="besoins" data-v="'+e+'" aria-pressed="'+(d.besoins.indexOf(e)>-1)+'">'+e+'</button>'}).join('')+'</div>'+
+     '<label class="lab" for="besoinsTxt">Autre chose ?</label><textarea id="besoinsTxt" data-k="besoinsTxt" style="min-height:80px">'+esc(d.besoinsTxt)+'</textarea>';
+  if(s.k==='alternative') return '<ul class="prompts"><li>Qu’est-ce que je dirais à un·e ami·e dans la même situation ?</li><li>Quels éléments vont dans un autre sens ?</li><li>Est-ce que je réagis à aujourd’hui, ou à quelque chose d’hier ?</li></ul>'+
+     '<label class="lab" for="alternative">Ma pensée alternative</label><textarea id="alternative" data-k="alternative">'+esc(d.alternative)+'</textarea>';
+  if(s.k==='resultat') return rangeHTML('apres','Intensité de l’émotion maintenant',d.apres)+
+     '<label class="lab" for="resultat">Ce que je retiens</label><textarea id="resultat" data-k="resultat" placeholder="Ce que je remarque, ce que je retiens…">'+esc(d.resultat)+'</textarea>';
+  return '<label class="lab" for="'+s.k+'" style="position:absolute;left:-9999px">'+s.t+'</label><textarea id="'+s.k+'" data-k="'+s.k+'" placeholder="'+esc(s.p||'')+'">'+esc(d[s.k])+'</textarea>';
+}
+function vStep(){
+  var d=state.draft, i=state.step, cols='';
+  for(var j=0;j<=i;j++){
+    var s=S()[j];
+    if(j<i){
+      cols+='<div class="col done"><div class="col-h"><span class="col-n">'+(j+1)+'</span><h2>'+s.t+'</h2><button type="button" class="linkbtn" data-edit="'+j+'">Modifier</button></div><p class="col-v">'+colSummary(s.k,d)+'</p></div>';
+    }else{
+      var last=j===S().length-1, ok=filled(s.k,d);
+      cols+='<div class="col active" id="colActive"><div class="col-h"><span class="col-n">'+(j+1)+'</span><h2>'+s.t+'</h2></div><p class="help">'+s.h+'</p>'+colEditor(s,d)+
+        (j===0&&state.kind!=='pos'&&state.kind!=='som'?'<p class="note">Si repenser à la situation devient trop intense, faites une pause. <button type="button" class="linkbtn" data-tab="sos">Revenir au calme</button></p>':'')+
+        '<button type="button" class="btn solid" id="nextBtn" '+(last?'data-save="1"':'data-next="1"')+(ok?'':' disabled')+'>'+(last?'Enregistrer':'Suivant')+'</button></div>';
+    }
+  }
+  var bar='<div class="steps" aria-hidden="true">'+S().map(function(_,k){return '<i class="'+(k<=i?'on':'')+'"></i>'}).join('')+'</div>';
+  return '<section class="view"><button type="button" class="back" data-quit="1">← Quitter (le brouillon est gardé)</button>'+bar+
+   '<h1 class="qh">'+(state.kind==='decl'?'Mon carnet des déclencheurs':(state.kind==='som'?'Mon agenda du sommeil':(state.kind==='pos'?'Mes 5 moments positifs':'Une situation problématique')))+'</h1>'+
+   (state.kind==='som'&&i>0?'<div>'+tlHTML(d,true)+'</div>':'')+'<div class="cols">'+cols+'</div></section>';
+}
+function updNext(){
+  var b=$('#nextBtn'); if(!b) return;
+  main.querySelectorAll('#colActive textarea[data-k]').forEach(function(t){state.draft[t.dataset.k]=t.value});
+  var ok=filled(S()[state.step].k,state.draft); b.disabled=!ok;
+}
+function rangeHTML(k,label,v,mn){v=v==null?5:v;return '<div class="range"><label for="r-'+k+'">'+label+' : <b id="rv-'+k+'">'+v+'</b> / 10</label><input id="r-'+k+'" type="range" min="'+(mn||0)+'" max="10" step="1" value="'+v+'" data-r="'+k+'"><div class="scale">'+(mn?'<span>1 · très mauvais</span><span>10 · excellent</span>':'<span>0 · aucune</span><span>10 · très forte</span>')+'</div></div>'}
+
+function vEntry(){
+  var e=load().entries.filter(function(x){return x.id===state.entry})[0]; if(!e){state.tab='carnet';return vCarnet()}
+  var f=function(t,v){return v&&v.length?'<div class="field"><h3>'+t+'</h3><p>'+esc(Array.isArray(v)?v.join(', '):v)+'</p></div>':''};
+  return '<section class="view"><button type="button" class="back" data-tab="carnet">← Mon carnet</button>'+
+   '<p class="lab">'+esc(fmtDate(e.date))+(e.ex?' · exemple':'')+'</p>'+
+   (e.kind==='pos'?'<h1 class="h1">Mes moments positifs</h1><p class="lead">'+esc(posDate(e))+'</p><ol class="moms">'+(e.moments||[]).filter(Boolean).map(function(m){return '<li>'+esc(m)+'</li>'}).join('')+'</ol>'+f('Ce que je remarque',e.ressenti)+'<button type="button" class="btn" data-editentry="'+e.id+'">Compléter ou modifier</button>':
+   e.kind==='som'?'<h1 class="h1">'+esc(nuitLabel(e.nuit))+'</h1><div>'+tlHTML(e,true)+'</div><div class="legend"><span><i></i>sommeil</span><span><i class="si"></i>sieste</span><span><i class="so"></i>somnolence</span><span>↓ au lit · ↑ lever</span></div>'+
+     f('Ma nuit',somText(e))+'<div class="field"><h3>Mes notes</h3><p>Sommeil '+e.nS+'/10 · réveil '+e.nR+'/10 · journée '+e.nJ+'/10</p></div>'+f('Ma journée',e.jour)+f('Traitement',e.traitement)+f('Détente au coucher',e.detente)+f('Remarques',e.remarques)+
+     '<button type="button" class="btn" data-editentry="'+e.id+'">Compléter ou modifier</button>':
+   e.kind==='decl'?f('La situation',e.situation)+f('Dans mon corps',e.corps)+f('Mon émotion',(e.emotions||[]).concat(e.emotionTxt?[e.emotionTxt]:[]))+f('Ce qui m\u2019a aidé',(e.aides||[]).concat(e.aideTxt?[e.aideTxt]:[])):
+   f('La situation',e.situation)+f('Émotions',e.emotions)+(e.avant!=null?'<div class="field"><h3>Intensité</h3><p>'+e.avant+' / 10 avant'+(e.apres!=null?', '+e.apres+' / 10 après':'')+'</p></div>':'')+
+   f('Sensations',e.sensations)+f('Besoins',(e.besoins||[]).concat(e.besoinsTxt?[e.besoinsTxt]:[]))+f('Pensées automatiques',e.pensees)+f('Pensée alternative',e.alternative)+f('Ce que je peux faire',e.action)+f('Ce que je retiens',e.resultat))+
+   '<div class="stack"><button type="button" class="btn solid" data-print="'+e.id+'">Imprimer ou enregistrer en PDF</button>'+
+   '<button type="button" class="btn" data-share="'+e.id+'">Envoyer à ma psychologue</button>'+
+   '<button type="button" class="linkbtn" data-copy="'+e.id+'" style="align-self:center">Copier le texte</button></div>'+
+   (state.confirm===e.id?confirmHTML('Effacer cette page ?','del'):'<button type="button" class="linkbtn" data-ask="'+e.id+'" style="align-self:center">Effacer cette page</button>')+
+  '</section>';
+}
+function entryText(e){
+  if(e.kind==='pos') return ['Mes moments positifs : '+posDate(e),''].concat((e.moments||[]).filter(Boolean).map(function(m,i){return (i+1)+'. '+m})).concat(e.ressenti?['','Ce que je remarque : '+e.ressenti]:[]).join('\n');
+  if(e.kind==='som') return ['Mon agenda du sommeil : '+nuitLabel(e.nuit),'',somText(e)+'.','Notes : sommeil '+e.nS+'/10, réveil '+e.nR+'/10, journée '+e.nJ+'/10',(e.jour||[]).length?'Ma journée : '+e.jour.join(', '):'',e.traitement?'Traitement : '+e.traitement:'',e.detente?'Détente au coucher : '+e.detente:'',e.remarques?'Remarques : '+e.remarques:''].filter(function(x,i){return x||i===1}).join('\n');
+  if(e.kind==='decl') return ['Mon carnet des déclencheurs : '+fmtDate(e.date),'','Situation : '+(e.situation||''),'Dans mon corps : '+(e.corps||''),'Mon émotion : '+(e.emotions||[]).concat(e.emotionTxt?[e.emotionTxt]:[]).join(', '),'Ce qui m\u2019a aidé : '+(e.aides||[]).concat(e.aideTxt?[e.aideTxt]:[]).join(', ')].join('\n');
+  var L=['Une situation problématique : '+fmtDate(e.date),'','Situation : '+(e.situation||''),'Émotions : '+(e.emotions||[]).join(', ')+(e.avant!=null?' ('+e.avant+'/10)':''),'Sensations : '+(e.sensations||''),'Besoins : '+(e.besoins||[]).concat(e.besoinsTxt?[e.besoinsTxt]:[]).join(', '),'Pensées automatiques : '+(e.pensees||''),(e.alternative?'Pensée alternative : '+e.alternative:''),'Ce que je peux faire : '+(e.action||''),'Résultat : '+(e.apres!=null?e.apres+'/10. ':'')+(e.resultat||'')];
+  return L.join('\n');
+}
+
+/* ---------- rendu ---------- */
+var history=[];
+function render(){
+  var t=state.tab, html;
+  if(t==='sos') html=vSOS(); else if(t==='outils') html=vOutils(); else if(t==='fiche') html=vFiche();
+  else if(t==='ecouter') html=vEcouter(); else if(t==='carnet') html=vCarnet(); else if(t==='step') html=vStep();
+  else if(t==='entry') html=vEntry(); else if(t==='tests') html=vTests(); else html=vAccueil();
+  main.innerHTML=html;
+  if(t==='outils') renderRes();
+  if(t==='ecouter') syncPlayer();
+  var tabFor={accueil:'accueil',sos:'accueil',outils:'outils',fiche:history.length&&history[history.length-1]==='outils'?'outils':'accueil',ecouter:'ecouter',carnet:'carnet',step:'carnet',entry:'carnet',tests:'tests'}[t];
+  document.querySelectorAll('.tabs [data-tab]').forEach(function(b){b.setAttribute('aria-current',b.dataset.tab===tabFor?'page':'false')});
+}
+function go(tab){if(state.tab!==tab) history.push(state.tab); state.tab=tab; state.confirm=null; render(); window.scrollTo(0,0); var h=main.querySelector('h1'); if(h){h.setAttribute('tabindex','-1');h.focus({preventScroll:true})}}
+
+function readStep(){
+  main.querySelectorAll('textarea[data-k]').forEach(function(t){state.draft[t.dataset.k]=t.value});
+  main.querySelectorAll('input[data-r]').forEach(function(r){state.draft[r.dataset.r]=+r.value});
+  try{sessionStorage.setItem('ld-draft-'+state.kind,JSON.stringify({d:state.draft,s:state.step,ed:state.editId||null}))}catch(e){}
+}
+function scrollActive(){var a=$('#colActive'); if(a){a.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}); var t=a.querySelector('textarea,input,button.chip'); if(t) t.focus({preventScroll:true});}}
+function newDraft(){
+  var saved=null; try{saved=JSON.parse(sessionStorage.getItem('ld-draft-'+state.kind)||'null')}catch(e){}
+  state.editId=null;
+  if(saved){state.draft=saved.d; state.step=saved.s||0; state.editId=saved.ed||null}
+  else {state.draft={kind:state.kind,situation:'',emotions:[],avant:5,sensations:'',besoins:[],besoinsTxt:'',pensees:'',alternative:'',action:'',apres:null,resultat:'',corps:'',emotionTxt:'',aides:[],aideTxt:''}; state.step=0}
+  state.draft.kind=state.kind; ['aides','eveils','siestes','somno','jour'].forEach(function(k){if(!state.draft[k])state.draft[k]=[]});
+  if(state.kind==='pos'){var dp=state.draft; if(!dp.moments||!dp.moments.length) dp.moments=['','','','','']; if(!dp.jourP){var n=new Date(); dp.jourP=n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0')} if(dp.ressenti==null) dp.ressenti='';}
+  if(state.kind==='som'){var dd=state.draft; if(!dd.nuit){var y=new Date(Date.now()-864e5); dd.nuit=y.getFullYear()+'-'+String(y.getMonth()+1).padStart(2,'0')+'-'+String(y.getDate()).padStart(2,'0')} ['nS','nR','nJ'].forEach(function(k){if(dd[k]==null)dd[k]=5}); ['coucher','endort','reveil','lever','traitement','detente','remarques'].forEach(function(k){if(dd[k]==null)dd[k]=''});}
+}
+
+/* ---------- audio ---------- */
+function setTrack(id){var t=TR[id]; if(!t) return; if(state.cur!==id||!aud.getAttribute('src')){state.cur=id; aud.src=t.src;}}
+function playId(id){
+  if(!TR[id]) return;
+  setTrack(id); go('ecouter');
+  var p=aud.play(); if(p&&p.catch) p.catch(function(){toast('Touchez lecture pour démarrer')});
+}
+function syncPlayer(){
+  var pp=$('#pp'), sk=$('#seek'); if(!pp) return;
+  pp.innerHTML=playIco(); pp.setAttribute('aria-label',aud.paused?'Lecture':'Pause');
+  if(aud.duration&&aud.getAttribute('src')){sk.max=Math.floor(aud.duration); $('#t2').textContent=mmss(aud.duration)}
+  sk.value=Math.floor(aud.currentTime); $('#t1').textContent=mmss(aud.currentTime);
+}
+['play','pause','timeupdate','loadedmetadata','ended'].forEach(function(ev){aud.addEventListener(ev,syncPlayer)});
+['play','pause','ended'].forEach(function(ev){aud.addEventListener(ev,function(){main.querySelectorAll('.trow').forEach(function(b){var i=b.querySelector('.pi'); if(i) i.textContent=(b.dataset.sel===state.cur&&!aud.paused)?'❚❚':'▶'})})});
+
+/* ---------- événements ---------- */
+document.addEventListener('click',function(ev){
+  var el=ev.target.closest('button,a'); if(!el||el.tagName==='A') return;
+  var d=el.dataset;
+  if(d.tab){ if(state.tab==='step') readStep(); go(d.tab); return; }
+  if(d.goB){state.b=[d.goB];state.f=[];state.q='';go('outils');return}
+  if(d.b||d.f){var key=d.b?'b':'f',v=d.b||d.f,on=state[key][0]===v; state[key]=on?[]:[v]; main.querySelectorAll('[data-'+key+']').forEach(function(c){c.setAttribute('aria-pressed',!on&&c.dataset[key]===v)}); renderRes(); return}
+  if(d.reset){state.b=[];state.f=[];state.q='';render();return}
+  if(d.fiche){state.fiche=d.fiche;go('fiche');return}
+  if(d.back){var prev=history.pop()||'accueil'; state.tab=prev; render(); return}
+  if(d.play){playId(d.play);return}
+  if(d.sel){var was=!aud.paused&&state.cur===d.sel; if(state.cur!==d.sel){aud.pause(); setTrack(d.sel);} render(); return}
+  if(el.id==='pp'){ if(!aud.getAttribute('src')) setTrack(state.cur); if(aud.paused){var p=aud.play(); if(p&&p.catch)p.catch(function(){})} else aud.pause(); return}
+  if(d['new']){state.kind=['decl','som','pos'].indexOf(d['new'])>-1?d['new']:'beck';newDraft();go('step');return}
+  if(d.fk!=null&&el.classList.contains('chip')){state.fk=d.fk;render();return}
+  if(d.editentry){var ee=load().entries.filter(function(x){return x.id===d.editentry})[0]; if(!ee) return; state.kind=ee.kind||'beck'; state.draft=JSON.parse(JSON.stringify(ee)); state.editId=ee.id; state.step=0; try{sessionStorage.removeItem('ld-draft-'+state.kind)}catch(x){} go('step'); return}
+  if(d.addrg){readStep(); state.draft[d.addrg].push({a:'',b:''}); render(); scrollActive(); return}
+  if(d.delrg){readStep(); state.draft[d.delrg].splice(+d.i,1); render(); scrollActive(); return}
+  if(d.addsn){readStep(); state.draft.somno.push(''); render(); scrollActive(); return}
+  if(d.delsn){readStep(); state.draft.somno.splice(+d.i,1); render(); scrollActive(); return}
+  if(d.pick){var arr=state.draft[d.pick],j=arr.indexOf(d.v); if(j>-1)arr.splice(j,1); else arr.push(d.v); el.setAttribute('aria-pressed',j<0); updNext(); return}
+  if(d.edit){readStep();state.step=+d.edit;render();scrollActive();return}
+  if(d.next){readStep(); if(!filled(S()[state.step].k,state.draft)) return; state.step++;render();scrollActive();return}
+  if(d.quit){readStep();go('carnet');return}
+  if(d.save){readStep(); if(!filled(S()[S().length-1].k,state.draft)) return; var c=load(), e;
+    if(state.editId){var old=c.entries.filter(function(x){return x.id===state.editId})[0]; e=Object.assign({},state.draft,{id:state.editId,date:old?old.date:new Date().toISOString()}); delete e.ex; c.entries=c.entries.map(function(x){return x.id===state.editId?e:x}); state.editId=null;}
+    else {e=Object.assign({id:'e'+Date.now(),date:new Date().toISOString()},state.draft); c.entries.unshift(e);} save(); try{sessionStorage.removeItem('ld-draft-'+state.kind)}catch(x){} state.draft=null; state.entry=e.id; state.tab='entry'; history=['carnet']; render(); toast('Page enregistrée sur ce téléphone'); return}
+  if(d.entry){state.entry=d.entry;go('entry');return}
+  if(d.ask){state.confirm=d.ask;render();return}
+  if(d.cancel){state.confirm=null;render();return}
+  if(d['do']==='del'){var c2=load(); c2.entries=c2.entries.filter(function(x){return x.id!==state.entry}); save(); state.confirm=null; state.tab='carnet'; render(); toast('Page effacée'); return}
+  if(d['do']==='wipe'){mem={seeded:true,entries:[]}; save(); state.confirm=null; render(); toast('Carnet effacé'); return}
+  if(d.print){var all=load().entries, list=d.print==='all'?all.filter(function(x){return !x.ex}):all.filter(function(x){return x.id===d.print}); if(!list.length) list=all; printEntries(list); return}
+  if(d.share){var e3=load().entries.filter(function(x){return x.id===d.share})[0], t3=entryText(e3);
+    if(navigator.share){navigator.share({title:'Mon carnet',text:t3}).catch(function(){})} else {var a=document.createElement('a');a.href='mailto:'+PSY_MAIL+'?subject='+encodeURIComponent('Mon carnet avant notre rendez-vous')+'&body='+encodeURIComponent(t3);a.click();toast('Si rien ne s’ouvre, utilisez « Copier le texte »')} return}
+  if(d.copy){var e2=load().entries.filter(function(x){return x.id===d.copy})[0], txt=entryText(e2);
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){toast('Copié')},function(){fallbackCopy(txt)})} else fallbackCopy(txt); return}
+});
+var PSY_MAIL='duchemin.laetitia.psy@gmail.com';
+function printEntries(list){
+  var cell=function(v){return '<td>'+esc(Array.isArray(v)?v.join(', '):(v||'')).replace(/\n/g,'<br>')+'</td>'};
+  var beck=list.filter(function(e){return !e.kind||e.kind==='beck'}), dec=list.filter(function(e){return e.kind==='decl'}), som=list.filter(function(e){return e.kind==='som'}).sort(function(a,b){return a.nuit<b.nuit?-1:1}), pos=list.filter(function(e){return e.kind==='pos'}).sort(function(a,b){return (a.jourP||'')<(b.jourP||'')?-1:1});
+  var rowsP=pos.map(function(e){var m=e.moments||[];return '<tr><td class="pd">'+esc(posDate(e))+'</td>'+[0,1,2,3,4].map(function(i){return cell(m[i])}).join('')+cell(e.ressenti)+'</tr>'}).join('');
+  var rowsS=som.map(function(e){return '<tr><td class="pd">'+esc(nuitLabel(e.nuit).replace('Nuit ',''))+'</td><td class="tc">'+tlHTML(e,false)+'</td><td class="n">'+e.nS+'</td><td class="n">'+e.nR+'</td><td class="n">'+e.nJ+'</td>'+cell([e.traitement,e.detente,e.remarques,(e.jour||[]).join(', ')].filter(Boolean).join(' · '))+'</tr>'}).join('');
+  var hrs='<div class="hrs">'+[20,21,22,23,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19].map(function(x){return '<span>'+x+'</span>'}).join('')+'<span></span></div>';
+  var rows=beck.map(function(e){return '<tr><td class="pd">'+esc(fmtDate(e.date))+'</td>'+cell(e.situation)+
+    '<td>'+esc((e.emotions||[]).join(', '))+(e.avant!=null?' <b>('+e.avant+'/10)</b>':'')+(e.sensations?'<br><i>'+esc(e.sensations)+'</i>':'')+'</td>'+
+    cell((e.besoins||[]).concat(e.besoinsTxt?[e.besoinsTxt]:[]))+cell(e.pensees)+cell(e.action)+
+    '<td>'+(e.apres!=null?'<b>'+e.apres+'/10</b> ':'')+esc(e.resultat||'')+'</td></tr>'}).join('');
+  var p=document.getElementById('printArea');
+  var rowsD=dec.map(function(e){return '<tr><td class="pd">'+esc(fmtDate(e.date))+'</td>'+cell(e.situation)+cell(e.corps)+cell((e.emotions||[]).concat(e.emotionTxt?[e.emotionTxt]:[]))+cell((e.aides||[]).concat(e.aideTxt?[e.aideTxt]:[]))+'</tr>'}).join('');
+  var what=[beck.length?'Situations problématiques':'',dec.length?'Carnet des déclencheurs':'',som.length?'Agenda du sommeil':'',pos.length?'Moments positifs':''].filter(Boolean).join(', ');
+  p.innerHTML='<header><div><h1>Mon carnet</h1><p>'+what+' · imprimé le '+esc(new Date().toLocaleDateString('fr-FR'))+'</p></div><p class="pn">Prénom : ________________________</p></header>'+
+    (beck.length?'<h2 class="pt">Situations problématiques</h2><table><thead><tr><th>Date</th><th>Situation</th><th>Émotions et sensations (intensité)</th><th>Besoins</th><th>Pensées automatiques</th><th>Ce que je peux faire</th><th>Résultat</th></tr></thead><tbody>'+rows+'</tbody></table>':'')+
+    (dec.length?'<h2 class="pt">Carnet des déclencheurs</h2><table><thead><tr><th>Date</th><th>Situation</th><th>Dans mon corps</th><th>Mon émotion</th><th>Ce qui m\u2019a aidé</th></tr></thead><tbody>'+rowsD+'</tbody></table>':'')+
+    (som.length?'<h2 class="pt">Agenda du sommeil</h2><table class="som"><colgroup><col style="width:9%"><col style="width:52%"><col style="width:6%"><col style="width:6%"><col style="width:6%"><col></colgroup><thead><tr><th>Nuit</th><th>Heures'+hrs+'</th><th>Sommeil</th><th>Réveil</th><th>Journée</th><th>Traitement, détente, remarques</th></tr></thead><tbody>'+rowsS+'</tbody></table><p style="font-size:8pt;color:#56537a;margin:4pt 0 0">↓ au lit · ↑ lever · bleu foncé : sommeil · bleu clair : sieste · rond doré : somnolence · blanc : éveil. Notes de 1 à 10.</p>':'')+
+    (pos.length?'<h2 class="pt">Mes 5 moments positifs</h2><table><thead><tr><th>Jour</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>Ce que je remarque</th></tr></thead><tbody>'+rowsP+'</tbody></table>':'')+
+    '<footer>Laetitia Duchemin · Psychologue clinicienne intégrative · laetitia-duchemin-psychologue.fr</footer>';
+  try{window.print()}catch(e){}
+}
+function fallbackCopy(txt){var t=document.createElement('textarea');t.value=txt;t.setAttribute('aria-label','Texte à copier');t.style.minHeight='200px';el2=main.querySelector('[data-copy]').parentNode;el2.insertAdjacentElement('afterend',t);t.select();toast('Sélectionnez le texte puis copiez-le')}
+var el2;
+document.addEventListener('input',function(ev){
+  var t=ev.target;
+  if(t.id==='q'){state.q=t.value;renderRes();return}
+  if(t.dataset.k&&state.tab==='step'){updNext();}
+  if(t.dataset.t&&state.draft){state.draft[t.dataset.t]=t.value; updNext(); return}
+  if(t.dataset.rg&&state.draft){state.draft[t.dataset.rg][+t.dataset.i][t.dataset.e]=t.value; return}
+  if(t.dataset.m!=null&&state.draft){state.draft.moments[+t.dataset.m]=t.value; updNext(); return}
+  if(t.dataset.sn!=null&&state.draft){state.draft.somno[+t.dataset.sn]=t.value; return}
+  if(t.dataset.r){var o=$('#rv-'+t.dataset.r); if(o)o.textContent=t.value; state.draft[t.dataset.r]=+t.value;return}
+  if(t.id==='seek'){aud.currentTime=+t.value;return}
+});
+
+/* ---------- démarrage ---------- */
+var start=(location.hash||'').replace('#','');
+if(['outils','ecouter','carnet','sos','tests'].indexOf(start)>-1) state.tab=start;
+render();
+if('serviceWorker' in navigator){try{navigator.serviceWorker.register('/appli/sw.js',{scope:'/appli/'}).catch(function(){})}catch(e){}}
+})();
+</script>
+</body>
+</html>

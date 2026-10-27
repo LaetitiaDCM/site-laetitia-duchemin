@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 47 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 20 octobre 2026.
+> Version complète de llms.txt : texte principal des 49 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 27 octobre 2026.
 
 ---
 
@@ -237,9 +237,9 @@ Télécharger le PDF
 
 Les exercices que je propose sur le site, chacun avec sa page d'explication et une affiche à imprimer ou à garder sous la main.
 
-### Respirer pour se réguler
+### Exercices de respiration
 
-Ralentir sa respiration, 5 secondes à l'inspiration et 5 à l'expiration, pour revenir au calme.
+Sept façons de revenir à son souffle : respiration mentale, numérique, paille, triangle, carrée, abdominale et cohérence cardiaque.
 Lire la page Régulation émotionnelle · Télécharger l'affiche
 
 ### La fenêtre de tolérance
@@ -282,9 +282,9 @@ Lire la page EFT clinique · Télécharger l'affiche
 Quatre cases pour voir plus clair dans ce qui retient et ce qui motive à changer.
 Lire la page Addictions · Télécharger l'affiche
 
-### Que faire en cas de crise
+### La crise de panique
 
-Les étapes pour faire baisser l'intensité d'une crise d'angoisse.
+Laisser passer la vague : comprendre la fausse alerte et les étapes pour traverser la crise.
 Lire la page Crise d'angoisse · Télécharger l'affiche
 
 ### La pendulation
@@ -356,6 +356,8 @@ Lire la page Dépendance affective · Télécharger l'affiche
 
 Un carnet d'une semaine pour observer ses mouvements d'approche et de fuite dans la relation.
 Lire la page Attachement désorganisé · Télécharger l'affiche
+
+Voir tous mes exercices
 
 Prendre rendez-vous
 
@@ -1345,6 +1347,8 @@ Avec un adolescent, on ne décide pas à sa place. Il est associé dès le dépa
 
 Un adolescent qui se sent respecté dans ses choix s'engage beaucoup plus volontiers. S'il n'est pas prêt, il est inutile de le forcer : un premier rendez-vous avec les parents seuls peut déjà aider, en attendant qu'il le soit.
 
+Prendre rendez-vous
+
 ## Comment se déroule l'accompagnement
 
 ### Un premier temps avec les parents
@@ -1378,6 +1382,38 @@ En complément des séances, je recommande fortement la câlinothérapie : des m
 Les bienfaits des câlins au quotidien, sur une page à afficher à la maison.
 
 Télécharger l'affiche (PDF)
+
+## Des outils pour les enfants
+
+Les premières fois, écoutez-les avec votre enfant ; ensuite, il pourra les écouter seul.
+
+Vous restez libre : vous pouvez faire une pause, ouvrir les yeux ou arrêter la vidéo à tout moment.
+
+### La météo de mes émotions (6 minutes)
+
+Télécharger la fiche « La météo de mes émotions » (PDF)
+
+### Le souffle magique (4 minutes)
+
+Télécharger la fiche « Respirer en jouant » (PDF)
+
+### Le chat qui se repose (4 minutes)
+
+Télécharger la fiche « Ma boîte d'apaisement » (PDF)
+
+### Le petit rayon de lumière (4 minutes)
+
+Télécharger la fiche « La météo de mes émotions », page 2 (PDF)
+
+La vidéo se charge seulement quand vous cliquez (YouTube, mode confidentialité renforcée).
+
+### Deux autres fiches
+
+- Mon thermomètre de la colère
+
+- Mes 3 petits bonheurs
+
+Tous les outils pour les enfants
 
 ## Ma formation
 
@@ -3581,9 +3617,9 @@ Réserver en ligne
 ---
 
 URL : https://laetitia-duchemin-psychologue.fr/declencheurs-emotionnels/
-Titre : Déclencheurs émotionnels (triggers) : comprendre et apaiser
+Titre : Déclencheurs émotionnels ou triggers : comprendre et apaiser
 
-# Les déclencheurs émotionnels
+# Les déclencheurs émotionnels ou triggers
 
 Quand le présent réveille le passé
 
@@ -3597,7 +3633,11 @@ Un déclencheur est un élément du présent qui réactive une émotion, une sen
 
 La réaction qu'il entraîne semble souvent disproportionnée par rapport à la situation actuelle. Elle est en réalité proportionnée à ce qu'elle rappelle. Notre cerveau va pourtant essayer de relier cette activation émotionnelle à un élément du contexte présent, sans comprendre qu'il réagit en réalité au passé : on attribue alors l'émotion à ce qui se passe maintenant.
 
-Être « trigger » : l'expression est devenue courante, sur les réseaux sociaux notamment. Elle désigne bien ce mécanisme : une réaction forte, déclenchée par un élément du présent qui rappelle le passé. Ce n'est pas une susceptibilité : c'est le système nerveux qui protège.
+## Trigger en psychologie : que veut dire ce mot ?
+
+« Trigger » est le mot anglais pour « déclencheur ». Être « trigger » : l'expression est devenue courante, sur les réseaux sociaux notamment. Elle désigne bien ce mécanisme : une réaction forte, déclenchée par un élément du présent qui rappelle le passé. Ce n'est pas une susceptibilité : c'est le système nerveux qui protège.
+
+Les triggers peuvent être très subtils, et ils ne sont pas toujours conscients : on peut réagir fortement sans savoir ce qui a déclenché la réaction. Notre cerveau a tendance à rattacher ce que l'on ressent à la situation présente. Pour comprendre sa réaction, il faut avoir conscience qu'elle vient d'un événement passé, et non de ce qui se passe maintenant.
 
 ## Des exemples de déclencheurs
 
@@ -3651,9 +3691,13 @@ Un déclencheur peut faire sortir de sa fenêtre de tolérance : vers l'hyperact
 
 - Se rapprocher d'une personne sécurisante, si c'est possible (voir la co-régulation).
 
+Prendre rendez-vous
+
 ## Un outil : mon carnet des déclencheurs
 
 Pendant quelques semaines, notez simplement : la situation, ce que vous avez ressenti dans le corps, l'émotion, et ce qui vous a aidé à revenir. Ce carnet n'a pas pour but d'analyser, mais de mieux vous connaître et de repérer vos appuis.
+
+Vous pouvez aussi le remplir sur votre téléphone, dans l'appli Mes outils : vos notes restent sur votre appareil, et vous pouvez les imprimer pour les apporter en séance.
 
 ### Mon carnet des déclencheurs
 
@@ -3671,6 +3715,12 @@ Pour une vue d'ensemble, je vous invite à lire la page Stress post-traumatique 
 
 -
 
+### Qu'est-ce qu'un trigger en psychologie ?
+
+C'est un déclencheur émotionnel : un élément du présent (un bruit, un ton de voix, une date, une sensation) qui réveille une émotion liée au passé. La réaction peut alors paraître disproportionnée, ou inexplicable, au regard de la situation actuelle : elle est en réalité proportionnée à ce qu'elle rappelle.
+
+-
+
 ### Faut-il éviter ses déclencheurs ?
 
 Sur le moment, s'en éloigner peut aider. Mais l'évitement, à long terme, a tendance à rétrécir la vie et à entretenir la peur. L'idée est plutôt de s'en approcher progressivement, en sécurité, pour qu'ils perdent leur force.
@@ -3683,15 +3733,9 @@ Le corps peut garder la trace d'une expérience que la mémoire consciente n'a p
 
 -
 
-### Les déclencheurs peuvent-ils disparaître ?
-
-Oui, lorsque l'événement ou les événements à l'origine sont retraités. Le souvenir redevient alors un souvenir du passé, et ne réveille plus la même alarme.
-
--
-
 ### Un déclencheur peut-il disparaître ?
 
-Il peut perdre beaucoup de sa force. Lorsque ce qu'il rappelle est intégré, le système nerveux reconnaît que le passé est passé, et la réaction s'apaise. La répétition joue un rôle important dans ce travail (voir le principe de Hebb, sur la page LI-ICV).
+Oui, lorsque l'événement ou les événements à l'origine sont retraités. Le système nerveux reconnaît alors que le passé est passé : le souvenir redevient un souvenir du passé, et ne réveille plus la même alarme.
 
 -
 
@@ -4333,6 +4377,404 @@ Réserver en ligne
 
 ---
 
+URL : https://laetitia-duchemin-psychologue.fr/exercices/
+Titre : Exercices de psychologie à imprimer et audios guidés
+
+# Mes exercices
+
+Des outils à garder sous la main
+
+Fiches à imprimer, exercices guidés par ma voix et carnets à remplir. Choisissez selon ce dont vous avez besoin aujourd'hui. Vous restez libre d'adapter chaque exercice, de faire une pause ou de vous arrêter à tout moment.
+
+## Besoin de vous apaiser maintenant ?
+
+Trois outils pour faire baisser l'intensité. Choisissez celui qui vous parle, et arrêtez-vous quand vous le souhaitez.
+
+- La crise de panique
+
+- L'ancrage 5-4-3-2-1
+
+- Exercices de respiration
+
+En cas d'urgence : 3114 (prévention du suicide, 24 h/24) · 15 (SAMU) · 112.
+
+## Tous ces outils sur votre téléphone
+
+L'appli Mes outils rassemble les fiches, les audios guidés (aussi hors connexion) et un carnet à remplir pas à pas : situations, déclencheurs, sommeil. Sans compte : vos notes restent sur votre téléphone.
+
+34 exercices
+
+### Exercices de respiration
+
+Sept façons de revenir à son souffle : respiration mentale, numérique, paille, triangle, carrée, abdominale et cohérence cardiaque.
+
+Crise d'angoisse ou de panique · Anxiété et stress · Émotions
+
+Télécharger la fiche · Lire l'explication
+
+### La cohérence cardiaque
+
+Inspirer cinq secondes, expirer cinq secondes : le rythme 365, avec un guide animé à suivre en ligne.
+
+Anxiété et stress · Émotions
+
+Télécharger la fiche · Lire l'explication
+
+Audio guidé
+
+### La relaxation de Schultz
+
+Une relaxation guidée par la voix, qui invite le corps à se détendre à travers des sensations de lourdeur et de chaleur.
+
+Anxiété et stress · Émotions
+
+Écouter l'exercice guidé · Télécharger la fiche · Lire l'explication
+
+### Exercices de sophrologie
+
+Bouger et respirer pour relâcher les tensions du quotidien, dans la nuque, les épaules et le dos.
+
+Anxiété et stress · Émotions
+
+Télécharger la fiche · Lire l'explication
+
+### L'ancrage 5-4-3-2-1
+
+Revenir au présent par les cinq sens quand on se sent « partir ».
+
+Crise d'angoisse ou de panique · Anxiété et stress · Trauma et dissociation · Émotions
+
+Télécharger la fiche · Lire l'explication
+
+Audio guidé
+
+### La pleine conscience
+
+Revenir au moment présent, sans jugement : choisir son point d'ancrage, faire une pause, marcher, et une progression en trois temps guidés.
+
+Anxiété et stress · Trauma et dissociation · Émotions
+
+Écouter les exercices guidés · Télécharger la fiche · Lire l'explication
+
+### La crise de panique
+
+Laisser passer la vague : comprendre la fausse alerte et les étapes pour traverser la crise.
+
+Crise d'angoisse ou de panique
+
+Télécharger la fiche · Lire l'explication
+
+### L'EFT clinique
+
+Des tapotements sur 15 points pour apaiser une émotion qui déborde.
+
+Crise d'angoisse ou de panique · Anxiété et stress · Émotions
+
+Télécharger la fiche · Lire l'explication
+
+### La pendulation
+
+Osciller entre une sensation inconfortable et un appui extérieur, pour apprendre à mieux la supporter.
+
+Trauma et dissociation · Émotions
+
+Télécharger la fiche · Lire l'explication
+
+### La roue des émotions
+
+Six émotions universelles et les besoins qu'elles peuvent signaler, avec trois questions pour écouter une émotion.
+
+Émotions · Avec un enfant
+
+Télécharger la fiche · Lire l'explication
+
+### Le cerveau dans la main
+
+Comprendre les débordements émotionnels avec le modèle de Daniel Siegel, et apprendre à refermer la main.
+
+Émotions · Avec un enfant
+
+Télécharger la fiche · Lire l'explication
+
+À remplir
+
+### L'échelle de mes états
+
+L'exercice de Deb Dana : « Je me sens… et le monde est… », du bas vers le haut de l'échelle.
+
+Émotions · Trauma et dissociation
+
+Télécharger la fiche · Lire l'explication
+
+### La fenêtre de tolérance
+
+Repérer ses trois états, de l'hyperactivation à l'hypoactivation, et ce qui aide à revenir dans sa zone.
+
+Émotions · Trauma et dissociation
+
+Télécharger la fiche · Lire l'explication
+
+### Les messagers du bien-être
+
+Dopamine, sérotonine, ocytocine, endorphines : les gestes du quotidien qui les soutiennent.
+
+Émotions
+
+Télécharger la fiche · Lire l'explication
+
+À remplir
+
+### Mon carnet des déclencheurs
+
+Noter la situation, les sensations, l'émotion et ce qui a aidé, pour repérer ses déclencheurs et ses appuis.
+
+Émotions · Trauma et dissociation
+
+Télécharger la fiche · Lire l'explication
+
+### Mes besoins fondamentaux
+
+Les cinq besoins affectifs décrits par Jeffrey Young, et des idées concrètes pour en prendre soin au quotidien.
+
+Émotions · Estime de soi
+
+Télécharger la fiche · Lire l'explication
+
+### Des outils pour apaiser ses émotions
+
+Moduler l'intensité d'une émotion en s'appuyant sur ce qui vous fait du bien : un souvenir, une personne, un lieu, un son.
+
+Émotions
+
+Télécharger la fiche · Lire l'explication
+
+À remplir
+
+### Me parler comme à un·e ami·e
+
+Un détour vers l'auto-compassion : se dire ce qu'on dirait à un·e ami·e.
+
+Estime de soi
+
+Télécharger la fiche · Lire l'explication
+
+À remplir
+
+### Mes 5 moments positifs du jour
+
+Noter chaque jour cinq choses positives, agréables ou satisfaisantes : les petits moments qui ont fait du bien.
+
+Estime de soi
+
+Télécharger la fiche · Lire l'explication · Le remplir dans l'appli
+
+À remplir
+
+### Mes petites lueurs
+
+Un carnet d'une semaine pour remarquer et noter les petites lueurs de sécurité du quotidien (d'après Deb Dana).
+
+Estime de soi · Relations et attachement
+
+Télécharger la fiche · Lire l'explication
+
+À remplir
+
+### Mon agenda du sommeil
+
+Noter ses nuits, ses siestes et sa forme pendant 15 jours à un mois, pour repérer ce qui favorise le sommeil et ce qui le perturbe.
+
+Sommeil · Anxiété et stress
+
+Télécharger la fiche · Le remplir dans l'appli
+
+À remplir
+
+### Ma balance décisionnelle
+
+Quatre cases pour voir plus clair dans ce qui retient et ce qui motive à changer.
+
+Changer une habitude
+
+Télécharger la fiche · Lire l'explication
+
+### Parler en « je »
+
+Les quatre étapes de la Communication NonViolente, en commençant par le ressenti, pour ouvrir le dialogue.
+
+Relations et attachement
+
+Télécharger la fiche · Lire l'explication
+
+### Hier ou aujourd'hui ?
+
+Cinq questions pour distinguer l'alarme ancienne de la situation présente, quand la peur d'être quitté·e monte.
+
+Relations et attachement · Trauma et dissociation
+
+Télécharger la fiche · Lire l'explication
+
+### Traverser l'absence
+
+Quatre étapes pour traverser l'absence de l'autre, pas à pas, en revenant vers la sécurité de son corps.
+
+Relations et attachement
+
+Télécharger la fiche · Lire l'explication
+
+À remplir
+
+### Approche et fuite
+
+Un carnet d'une semaine pour observer ses mouvements d'approche et de fuite dans la relation.
+
+Relations et attachement · Trauma et dissociation
+
+Télécharger la fiche · Lire l'explication
+
+### La câlinothérapie
+
+Des moments de câlins réguliers entre parent et enfant, pour ressentir le lien.
+
+Avec un enfant · Relations et attachement
+
+Télécharger la fiche · Lire l'explication
+
+Audio guidé
+
+### La météo de mes émotions
+
+Pour les enfants : repérer le temps qu'il fait en soi, ce dont on a besoin, et colorier où l'émotion se sent dans le corps.
+
+Avec un enfant · Émotions
+
+Écouter l'audio pour les enfants · Écouter « Le petit rayon de lumière » · Télécharger la fiche
+
+Audio guidé
+
+### Respirer en jouant
+
+Pour les enfants : la fleur et la bougie, le ballon, la main, le nuage gris, le souffle du dragon.
+
+Avec un enfant · Anxiété et stress · Émotions
+
+Écouter l'audio pour les enfants · Télécharger la fiche
+
+À remplir
+
+### Mon thermomètre de la colère
+
+Pour les enfants : repérer quand la colère monte, du vert au rouge, et ce qui aide à chaque niveau.
+
+Avec un enfant · Émotions
+
+Télécharger la fiche
+
+Audio guidé
+
+### Ma boîte d'apaisement
+
+Pour les enfants : une boîte à remplir d'objets pour les cinq sens, qui aident à revenir au calme.
+
+Avec un enfant · Émotions
+
+Écouter « Le chat qui se repose » · Télécharger la fiche
+
+À remplir
+
+### Mes 3 petits bonheurs
+
+Pour les enfants : le rituel du soir, trois petits moments qui ont fait du bien aujourd'hui.
+
+Avec un enfant · Estime de soi
+
+Télécharger la fiche
+
+### La fenêtre de tolérance, version murale
+
+Une version grand format (A3), avec les trois zones et l'échelle qui remonte vers la sécurité, pour un cabinet ou une salle d'attente.
+
+Pour les professionnels
+
+Télécharger la fiche · Lire l'explication
+
+### La fenêtre de tolérance pendant la LI-ICV
+
+Comment l'activation émotionnelle peut fluctuer au fil des répétitions, puis se stabiliser dans la fenêtre.
+
+Pour les professionnels
+
+Télécharger la fiche · Lire l'explication
+
+Aucun exercice ne correspond. Essayez d'enlever un filtre.
+
+Ces fiches sont des outils de psychoéducation : elles ne remplacent pas un accompagnement. Vous pouvez les imprimer, les utiliser chez vous ou les apporter en séance.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/exercices/relaxation-schultz/
+Titre : Relaxation autogène de Schultz : audio guidé de 11 minutes
+
+# La relaxation autogène de Schultz
+
+Relâcher le corps, à votre rythme
+
+Une relaxation guidée par ma voix, qui invite le corps à se détendre à travers des sensations de lourdeur et de chaleur. Elle aide à apaiser le flot des pensées en ramenant l'attention sur le corps et le moment présent.
+
+## Écouter l'exercice (11 minutes)
+
+Vous restez libre : vous pouvez faire une pause, ouvrir les yeux ou arrêter la vidéo à tout moment.
+
+La vidéo se charge seulement quand vous cliquez (YouTube, mode confidentialité renforcée).
+
+## Comment se déroule l'exercice
+
+Installez-vous assis·e ou allongé·e, dans un endroit calme. Les yeux peuvent être fermés, ou le regard posé sur un point fixe. Tout au long de l'exercice, vous restez libre de bouger, d'ouvrir les yeux ou de vous arrêter.
+
+- Arriver. Trois respirations abdominales, le visage qui se relâche, puis une minute d'écoute des sons qui vous entourent, ici, dans le présent.
+
+- Un lieu calme. Si vous le souhaitez, vous vous imaginez dans un lieu paisible. Si aucune image ne vient, vous restez simplement avec les sons ou vos appuis.
+
+- La lourdeur. Bras droit, bras gauche, jambe droite, jambe gauche : chaque partie devient lourde, de plus en plus lourde, très très lourde, complètement lourde, bien soutenue par la surface qui la porte.
+
+- La chaleur. Le même parcours, avec une douce chaleur, comme un rayon de soleil qui se pose sur le corps.
+
+- Le cœur et la respiration. Les battements du cœur, ou simplement la chaleur de la main posée sur la poitrine ; puis la respiration, qui monte et descend comme le mouvement d'une vague.
+
+- Le ventre et le front. Le plexus solaire chaud et détendu, le front agréablement frais.
+
+- Revenir. Trois grandes inspirations, bouger doucement, s'étirer, puis ouvrir les yeux, ou laisser le regard s'élargir à ce qui vous entoure.
+
+## Quelques conseils
+
+- Pratiquée régulièrement, la relaxation aide à développer la capacité à se détendre spontanément, quand l'environnement devient stressant.
+
+- Si la lourdeur ou une sensation devient inconfortable, bougez doucement les doigts ou les orteils, ou revenez à vos appuis. Vous pouvez reprendre quand vous le souhaitez.
+
+- L'audio est aussi dans l'appli Mes outils, où il reste disponible hors connexion.
+
+### La fiche La relaxation
+
+Le relâchement musculaire, la relaxation rapide et la relaxation de Schultz, avec le QR code de l'audio.
+
+Télécharger la fiche (PDF)
+
+Pour aller plus loin : l'anxiété, la crise d'angoisse, et tous mes exercices.
+
+## Source
+
+- Schultz, J. H. (1958). Le training autogène. Paris : PUF.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
 URL : https://laetitia-duchemin-psychologue.fr/ifs/
 Titre : IFS (Internal Family Systems) : les parts de soi — L. Duchemin
 
@@ -4882,6 +5324,8 @@ GAD-7 : Spitzer, Kroenke, Williams et Löwe (2006), développé avec une bourse 
 
 Lorsque l'anxiété est présente la plupart du temps, depuis plusieurs mois, qu'elle épuise ou qu'elle conduit à renoncer à des choses importantes, il est utile d'en parler à un professionnel. Elle peut prendre différentes formes (anxiété généralisée, anxiété sociale, phobies, crises d'angoisse répétées), qui s'évaluent en consultation.
 
+Prendre rendez-vous
+
 ## Des repères pour l'apaiser
 
 - Respirer : ralentir sa respiration, toujours par le nez, en allongeant l'expiration, aide le système nerveux à revenir au calme (voir l'exercice de respiration).
@@ -4892,13 +5336,21 @@ Lorsque l'anxiété est présente la plupart du temps, depuis plusieurs mois, qu
 
 - Revenir au présent : l'anxiété se tourne vers l'avenir, les sens ramènent à l'instant (voir l'ancrage 5-4-3-2-1).
 
-### L'exercice en affiche
+### Exercices de respiration
 
-Les trois étapes de la respiration, à imprimer ou à garder sous la main.
+Sept façons de revenir à son souffle : respiration mentale, numérique, paille, triangle, carrée, abdominale et cohérence cardiaque.
 
 Télécharger l'affiche (PDF)
 
 Pour aller plus loin, vous pouvez télécharger le guide de gestion du stress et de l'anxiété que j'ai rédigé pour le Service de Santé Étudiante de l'UPJV.
+
+### Écouter : la relaxation autogène de Schultz (11 minutes)
+
+Vous restez libre : vous pouvez faire une pause, ouvrir les yeux ou arrêter la vidéo à tout moment.
+
+La vidéo se charge seulement quand vous cliquez (YouTube, mode confidentialité renforcée).
+
+Lire la page de l'exercice
 
 ## Mon accompagnement
 
@@ -5353,15 +5805,25 @@ La respiration aide aussi, à une condition : être utilisée régulièrement en
 
 Ces outils fonctionnent d'autant mieux qu'ils ont été pratiqués en dehors des crises, quand tout va bien.
 
-### Que faire en cas de crise
+### La crise de panique
 
 Les étapes à garder sous la main, à imprimer ou à enregistrer sur son téléphone.
 
 Télécharger l'affiche (PDF)
 
+Prendre rendez-vous
+
 ## Et ensuite
 
 Une fois que la crise ne fait plus peur, parce que vous savez la réguler, une deuxième étape devient possible : elle se travaille en accompagnement, à votre rythme, pour que les crises perdent leur emprise sur votre quotidien.
+
+### Écouter : la relaxation autogène de Schultz (11 minutes)
+
+Vous restez libre : vous pouvez faire une pause, ouvrir les yeux ou arrêter la vidéo à tout moment.
+
+La vidéo se charge seulement quand vous cliquez (YouTube, mode confidentialité renforcée).
+
+Lire la page de l'exercice
 
 ## Mon accompagnement
 
@@ -5567,6 +6029,8 @@ Il n'existe pas d'émotion inutile. Certaines sont agréables, d'autres désagr�
 
 Une émotion devient difficile lorsqu'elle est trop intense, trop fréquente, trop longue, ou lorsqu'elle ne correspond plus à la situation présente, par exemple quand elle est réveillée par un souvenir (voir les déclencheurs émotionnels). Elle reste un signal, qui mérite d'être écouté.
 
+Prendre rendez-vous
+
 ## Les émotions universelles
 
 Le psychologue Paul Ekman a montré que certaines émotions s'expriment sur le visage et sont reconnues de la même façon dans toutes les cultures étudiées. Il parle d'émotions universelles, que l'on appelle aussi souvent « émotions de base ». Il en a décrit six :
@@ -5647,6 +6111,8 @@ Le modèle de Daniel Siegel pour comprendre les débordements émotionnels, et c
 
 Télécharger l'affiche (PDF)
 
+Prendre rendez-vous
+
 ## Quand les émotions deviennent difficiles à vivre
 
 Après des expériences difficiles, le rapport aux émotions peut changer. Certaines personnes ressentent des émotions très intenses, qui montent vite et redescendent lentement (voir l'hypervigilance). D'autres, au contraire, ont l'impression de ne plus rien ressentir, de vivre « à distance » d'elles-mêmes (voir la dissociation).
@@ -5668,6 +6134,14 @@ Trois questions simples peuvent guider :
 - De quoi aurais-je besoin ?
 
 Il ne s'agit pas de juger l'émotion, ni de la chasser, mais de la laisser passer en l'accompagnant (voir la régulation émotionnelle et la tolérance émotionnelle).
+
+### Écouter : la météo intérieure (6 minutes)
+
+Vous restez libre : vous pouvez faire une pause, ouvrir les yeux ou arrêter la vidéo à tout moment.
+
+### Pour les enfants : la météo de mes émotions (6 minutes)
+
+La vidéo se charge seulement quand vous cliquez (YouTube, mode confidentialité renforcée).
 
 ## Mon accompagnement
 
@@ -5742,11 +6216,17 @@ Quand une émotion monte, le rythme respiratoire s'accélère et alimente l'éta
 
 L'exercice : installez-vous confortablement. Inspirez par le nez pendant 5 secondes, en laissant le ventre se gonfler. Expirez par le nez pendant 5 secondes, lentement. Si vous préférez, vous pouvez expirer par la bouche, les lèvres légèrement pincées, comme dans une paille. Répétez pendant 3 à 5 minutes, à votre rythme.
 
-### L'exercice en affiche
+### Exercices de respiration
 
-Les trois étapes de la respiration, à imprimer ou à garder sous la main.
+Sept façons de revenir à son souffle : respiration mentale, numérique, paille, triangle, carrée, abdominale et cohérence cardiaque.
 
 Télécharger l'affiche (PDF)
+
+### Écouter : la respiration consciente (7 minutes)
+
+Vous restez libre : vous pouvez faire une pause, ouvrir les yeux ou arrêter la vidéo à tout moment.
+
+La vidéo se charge seulement quand vous cliquez (YouTube, mode confidentialité renforcée).
 
 ## Qu'est-ce que la régulation émotionnelle ?
 
@@ -5774,6 +6254,8 @@ Les trois états du système nerveux et des exemples de ressentis pour chacun, s
 
 Télécharger l'affiche (PDF)
 
+Prendre rendez-vous
+
 ## Se réguler avec l'autre : la co-régulation
 
 Avant de savoir se réguler seul, on apprend à se réguler avec l'autre. Le bébé s'apaise dans les bras d'un adulte calme : son système nerveux s'accorde à celui de la personne qui prend soin de lui. C'est la co-régulation, la base de l'autorégulation émotionnelle. Elle passe notamment par la validation émotionnelle : savoir accueillir l'émotion de l'autre, en particulier celle de l'enfant, la reconnaître, l'identifier et la comprendre, pour répondre au besoin qui se cache derrière. Elle reste importante toute la vie : une voix posée, une présence bienveillante, un regard qui rassure aident le système nerveux à revenir dans sa fenêtre de tolérance. En thérapie, la présence calme du thérapeute soutient elle aussi ce travail, jusqu'à ce que l'autorégulation devienne plus facile.
@@ -5795,6 +6277,10 @@ Une émotion ressemble à une vague : elle monte, atteint un sommet, puis redesc
 - Détourner son attention de façon choisie et temporaire, le temps que l'intensité baisse, pour revenir ensuite à ce qui se passe.
 
 - Accepter ce qui est là, pour l'instant, sans pour autant l'approuver : l'acceptation diminue souvent la lutte, et avec elle une partie de la souffrance.
+
+### Écouter : la météo intérieure (6 minutes)
+
+Là aussi, vous pouvez arrêter à tout moment.
 
 Source : Linehan, M. M. (2015). DBT Skills Training Manual (2e éd.). New York : Guilford Press.
 
@@ -5859,6 +6345,26 @@ Dans une séance, plusieurs adaptations sont possibles : garder les yeux ouverts
 
 Laissez votre regard se promener lentement dans la pièce, sans chercher quoi que ce soit. Arrêtez-le sur quelque chose d'agréable ou de neutre : une couleur, une forme, la lumière. Remarquez ce qui se passe dans votre corps. Vous pouvez à tout moment arrêter, bouger ou changer de point d'attention : c'est vous qui choisissez. Pour aller plus loin, voir l'ancrage 5-4-3-2-1.
 
+## Une progression en trois temps guidés
+
+La respiration consciente est un bon outil pour démarrer la pratique de la pleine conscience à son rythme, en l'effectuant régulièrement pendant quelques semaines. On peut ensuite passer au body-scan, qui permet d'être davantage présent à soi et de commencer à se réapproprier les sensations de son corps, les identifier, en prendre conscience. Il permet également d'apprendre à tolérer les ressentis corporels petit à petit. La météo intérieure permet quant à elle d'apprendre à être présent à ses émotions, à leur laisser de la place. Elle se tourne davantage vers le monde intérieur : c'est un bon outil pour commencer à apprivoiser ses émotions et comprendre les messages qu'elles transportent avec elles.
+
+Vous restez libre : vous pouvez faire une pause, ouvrir les yeux ou arrêter la vidéo à tout moment.
+
+### 1. La respiration consciente (7 minutes)
+
+### 2. Le body-scan (10 minutes)
+
+### 3. La météo intérieure (6 minutes)
+
+La vidéo se charge seulement quand vous cliquez (YouTube, mode confidentialité renforcée).
+
+### La progression en affiche
+
+Les trois temps guidés, avec un QR code vers chaque vidéo, à imprimer ou à garder sous la main.
+
+Télécharger l'affiche (PDF)
+
 ## Mon accompagnement
 
 Je suis formée à la Pleine Conscience Sensible au Trauma auprès de David Treleaven : niveau 1 en 2025, niveau 2 en 2026.
@@ -5866,6 +6372,8 @@ Je suis formée à la Pleine Conscience Sensible au Trauma auprès de David Trel
 Mon accompagnement s'adapte au fonctionnement de chaque personne : je choisis, avec elle, quand et comment intégrer la pleine conscience, selon ce qui est sécurisant pour elle à ce moment de son parcours.
 
 La Pleine Conscience Sensible au Trauma s'articule avec les autres approches que j'utilise.
+
+Prendre rendez-vous
 
 ## Questions fréquentes
 

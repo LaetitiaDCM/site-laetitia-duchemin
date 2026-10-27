@@ -31,7 +31,7 @@
    "name": "Les émotions : définition, rôles, corps et cerveau",
    "description": "Qu'est-ce qu'une émotion, à quoi sert-elle et comment se manifeste-t-elle dans le corps et le cerveau ? Les bases pour comprendre et accueillir ses émotions.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-20",
+   "dateModified": "2026-10-27",
    "about": {
     "@type": "Thing",
     "name": "Émotions"
@@ -394,6 +394,15 @@ figure figcaption a{padding-block:.7rem}
 .toc ol{margin:0 0 .9rem;padding-left:1.3rem;color:var(--muted)}
 .toc a{display:block;padding-block:.7rem;line-height:1.35}
 .refs-list a{overflow-wrap:anywhere}
+
+/* Retouches du 27/10/2026 */
+.yt{position:relative;display:block;width:100%;aspect-ratio:16/9;border:0;padding:0;border-radius:14px;overflow:hidden;background:#f5f0e4 center/cover no-repeat;cursor:pointer;box-shadow:0 4px 18px rgba(27,17,64,.14)}
+.yt .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:76px;height:76px;border-radius:50%;background:var(--night);color:var(--gold-soft);display:grid;place-items:center;box-shadow:0 4px 16px rgba(27,17,64,.35)}
+.yt .play svg{width:30px;height:30px;margin-left:4px}
+.yt:hover .play,.yt:focus-visible .play{background:var(--violet)}
+.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt-note{font-size:.92rem;color:var(--muted);font-style:italic;margin:.4rem 0 .7rem}
+.yt-cap{font-size:.85rem;color:var(--muted);margin:.5rem 0 1.4rem}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -521,7 +530,7 @@ figure figcaption a{padding-block:.7rem}
             <li><a href="/consulter-en-visio/">Consulter en visio</a></li>
           </ul>
         </li>
-        <li class="nav-plain"><a href="/#ressources">Ressources</a></li>
+        <li class="nav-plain"><a href="/exercices/">Ressources</a></li>
         <li class="nav-cta"><a class="cta" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
       </ul>
     </nav>
@@ -583,6 +592,7 @@ figure figcaption a{padding-block:.7rem}
       <li><strong>Mémoriser.</strong> Nous retenons mieux ce qui nous a touchés : l'émotion signale au cerveau que l'expérience mérite d'être gardée.</li>
     </ul>
     <p>Une émotion devient difficile lorsqu'elle est trop intense, trop fréquente, trop longue, ou lorsqu'elle ne correspond plus à la situation présente, par exemple quand elle est réveillée par un souvenir (voir les <a href="/declencheurs-emotionnels/">déclencheurs émotionnels</a>). Elle reste un signal, qui mérite d'être écouté.</p>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="les-emotions-universelles">Les émotions universelles</h2>
     <p>Le psychologue Paul Ekman a montré que certaines émotions s'expriment sur le visage et sont reconnues de la même façon dans toutes les cultures étudiées. Il parle d'émotions universelles, que l'on appelle aussi souvent « émotions de base ». Il en a décrit six :</p>
     <ul class="dash">
@@ -911,6 +921,7 @@ figure figcaption a{padding-block:.7rem}
         <a class="btn solid" href="/documents/affiche-le-cerveau-dans-la-main.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche (PDF)</a>
       </div>
     </div>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="quand-les-emotions-deviennent-difficiles-a-vivre">Quand les émotions deviennent difficiles à vivre</h2>
     <p>Après des expériences difficiles, le rapport aux émotions peut changer. Certaines personnes ressentent des émotions très intenses, qui montent vite et redescendent lentement (voir l'<a href="/hypervigilance/">hypervigilance</a>). D'autres, au contraire, ont l'impression de ne plus rien ressentir, de vivre « à distance » d'elles-mêmes (voir la <a href="/dissociation/">dissociation</a>).</p>
     <p>On parle d'alexithymie pour décrire la difficulté à identifier, à distinguer et à exprimer ses émotions. Ce n'est pas un manque de sensibilité : c'est souvent une façon dont le système nerveux s'est adapté, lorsque ressentir ou montrer ses émotions n'était pas possible ou pas accueilli. Cette capacité peut se développer à tout âge.</p>
@@ -924,6 +935,12 @@ figure figcaption a{padding-block:.7rem}
       <li>De quoi aurais-je besoin ?</li>
     </ul>
     <p>Il ne s'agit pas de juger l'émotion, ni de la chasser, mais de la laisser passer en l'accompagnant (voir la <a href="/regulation-emotionnelle/">régulation émotionnelle</a> et la <a href="/regulation-emotionnelle/#la-tolerance-emotionnelle">tolérance émotionnelle</a>).</p>
+    <h3>Écouter : la météo intérieure (6 minutes)</h3>
+    <p class="yt-note">Vous restez libre : vous pouvez faire une pause, ouvrir les yeux ou arrêter la vidéo à tout moment.</p>
+    <button type="button" class="yt" data-id="dUy8nwuoZFs" aria-label="Lire la vidéo : La météo intérieure" style="background-image:url(/documents/video-meteo-interieure.jpg)"><span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4l14 8-14 8z"/></svg></span></button>
+    <h3>Pour les enfants : la météo de mes émotions (6 minutes)</h3>
+    <button type="button" class="yt" data-id="ySpO8y1OvaU" aria-label="Lire la vidéo : La météo de mes émotions" style="background-image:url(/documents/video-meteo-des-emotions-enfant.jpg)"><span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4l14 8-14 8z"/></svg></span></button>
+    <p class="yt-cap">La vidéo se charge seulement quand vous cliquez (YouTube, mode confidentialité renforcée).</p>
     <h2 id="mon-accompagnement">Mon accompagnement</h2>
     <p>En séance, en ligne, nous apprenons ensemble à repérer les signaux du corps, à nommer les émotions et à comprendre les besoins qu'elles expriment, à votre rythme. Je m'appuie sur un éclairage <a href="/neuropsychologie/">neuropsychologique</a>, dont la <a href="/theorie-polyvagale/">théorie polyvagale</a>, pour comprendre avec vous ce qui se joue dans votre cerveau et votre corps, ainsi que sur la <a href="/li-icv/">LI-ICV</a>, pour que les émotions puissent être ressenties sans submerger, et retrouver leur rôle de messagères.</p>
     <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
@@ -963,7 +980,7 @@ figure figcaption a{padding-block:.7rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 20 octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 27 octobre 2026</div>
   </div>
 </footer>
 <script>
@@ -985,6 +1002,11 @@ figure figcaption a{padding-block:.7rem}
   document.addEventListener('click',function(e){if(!n.contains(e.target))closeAll();});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'){var open=n.querySelector('.dd-btn[aria-expanded="true"]');closeAll();if(open)open.focus();}});
 })();
+</script>
+<script>
+document.addEventListener('click',function(e){var b=e.target.closest('button.yt');if(!b)return;
+var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0';f.title=b.getAttribute('aria-label');
+f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;var w=document.createElement('div');w.className='yt';w.appendChild(f);b.replaceWith(w);f.focus();});
 </script>
 </body>
 </html>

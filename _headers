@@ -19,6 +19,12 @@
   Cache-Control: public, max-age=604800
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
+/appli/sw.js
+  Cache-Control: no-cache
+/appli/manifest.webmanifest
+  Cache-Control: no-cache
+/appli/audio/*
+  Cache-Control: public, max-age=2592000
 
 https://:project.pages.dev/*
   X-Robots-Tag: noindex

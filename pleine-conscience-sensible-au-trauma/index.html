@@ -31,7 +31,7 @@
    "name": "Pleine Conscience Sensible au Trauma — Laetitia Duchemin",
    "description": "La Pleine Conscience Sensible au Trauma de David Treleaven : pourquoi adapter la méditation après un trauma, ses cinq principes, une pratique d'ancrage.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-15",
+   "dateModified": "2026-10-27",
    "about": {
     "@type": "Thing",
     "name": "Pleine Conscience Sensible au Trauma (Trauma-Sensitive Mindfulness, David Treleaven)"
@@ -399,6 +399,15 @@ footer summary{padding-block:.65rem}
 figure figcaption a{padding-block:.7rem}
 /* En-tête sans défilement horizontal de 360 à 420 px (la marque et le bouton Menu demandaient 351 px pour 320) */
 @media (max-width:420px){.site-header .bar{gap:.75rem}.brand small{letter-spacing:0}.menu-btn{padding-inline:.75rem}}
+
+/* Retouches du 27/10/2026 */
+.yt{position:relative;display:block;width:100%;aspect-ratio:16/9;border:0;padding:0;border-radius:14px;overflow:hidden;background:#f5f0e4 center/cover no-repeat;cursor:pointer;box-shadow:0 4px 18px rgba(27,17,64,.14)}
+.yt .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:76px;height:76px;border-radius:50%;background:var(--night);color:var(--gold-soft);display:grid;place-items:center;box-shadow:0 4px 16px rgba(27,17,64,.35)}
+.yt .play svg{width:30px;height:30px;margin-left:4px}
+.yt:hover .play,.yt:focus-visible .play{background:var(--violet)}
+.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt-note{font-size:.92rem;color:var(--muted);font-style:italic;margin:.4rem 0 .7rem}
+.yt-cap{font-size:.85rem;color:var(--muted);margin:.5rem 0 1.4rem}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -526,7 +535,7 @@ figure figcaption a{padding-block:.7rem}
             <li><a href="/consulter-en-visio/">Consulter en visio</a></li>
           </ul>
         </li>
-        <li class="nav-plain"><a href="/#ressources">Ressources</a></li>
+        <li class="nav-plain"><a href="/exercices/">Ressources</a></li>
         <li class="nav-cta"><a class="cta" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
       </ul>
     </nav>
@@ -560,10 +569,29 @@ figure figcaption a{padding-block:.7rem}
     <p>Dans une séance, plusieurs adaptations sont possibles : garder les yeux ouverts, fixer un point d'ancrage, s'arrêter à tout moment. Le travail peut aussi procéder par pendulation, c'est-à-dire par un mouvement d'aller-retour entre une sensation inconfortable et une sensation de sécurité ou de ressource, pour rester dans une zone tolérable. Le langage utilisé est également adapté, pour éviter les mots susceptibles de déclencher une réaction difficile.</p>
     <h2 id="une-courte-pratique">Une courte pratique : s'orienter dans la pièce</h2>
     <p>Laissez votre regard se promener lentement dans la pièce, sans chercher quoi que ce soit. Arrêtez-le sur quelque chose d'agréable ou de neutre : une couleur, une forme, la lumière. Remarquez ce qui se passe dans votre corps. Vous pouvez à tout moment arrêter, bouger ou changer de point d'attention : c'est vous qui choisissez. Pour aller plus loin, voir l'<a href="/documents/affiche-ancrage-5-4-3-2-1.pdf" target="_blank" rel="noopener">ancrage 5-4-3-2-1</a>.</p>
+    <h2 id="ecouter">Une progression en trois temps guidés</h2>
+    <p>La respiration consciente est un bon outil pour démarrer la pratique de la pleine conscience à son rythme, en l'effectuant régulièrement pendant quelques semaines. On peut ensuite passer au body-scan, qui permet d'être davantage présent à soi et de commencer à se réapproprier les sensations de son corps, les identifier, en prendre conscience. Il permet également d'apprendre à tolérer les ressentis corporels petit à petit. La météo intérieure permet quant à elle d'apprendre à être présent à ses émotions, à leur laisser de la place. Elle se tourne davantage vers le monde intérieur : c'est un bon outil pour commencer à apprivoiser ses émotions et comprendre les messages qu'elles transportent avec elles.</p>
+    <p class="yt-note">Vous restez libre : vous pouvez faire une pause, ouvrir les yeux ou arrêter la vidéo à tout moment.</p>
+    <h3>1. La respiration consciente (7 minutes)</h3>
+    <button type="button" class="yt" data-id="Aog8HDxqDs0" aria-label="Lire la vidéo : La respiration consciente" style="background-image:url(/documents/video-respiration-consciente.jpg)"><span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4l14 8-14 8z"/></svg></span></button>
+    <h3>2. Le body-scan (10 minutes)</h3>
+    <button type="button" class="yt" data-id="QeoTge2MyZM" aria-label="Lire la vidéo : Le body-scan" style="background-image:url(/documents/video-body-scan.jpg)"><span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4l14 8-14 8z"/></svg></span></button>
+    <h3>3. La météo intérieure (6 minutes)</h3>
+    <button type="button" class="yt" data-id="dUy8nwuoZFs" aria-label="Lire la vidéo : La météo intérieure" style="background-image:url(/documents/video-meteo-interieure.jpg)"><span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4l14 8-14 8z"/></svg></span></button>
+    <p class="yt-cap">La vidéo se charge seulement quand vous cliquez (YouTube, mode confidentialité renforcée).</p>
+    <div class="poster-dl">
+      <a href="/documents/affiche-la-pleine-conscience.pdf" target="_blank" rel="noopener"><img src="/documents/affiche-la-pleine-conscience.webp" width="620" height="878" alt="Aperçu de l'affiche : la pleine conscience, une progression en trois temps guidés avec un QR code vers chaque vidéo" loading="lazy"></a>
+      <div>
+        <h3>La progression en affiche</h3>
+        <p>Les trois temps guidés, avec un QR code vers chaque vidéo, à imprimer ou à garder sous la main.</p>
+        <a class="btn solid" href="/documents/affiche-la-pleine-conscience.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche (PDF)</a>
+      </div>
+    </div>
     <h2 id="mon-accompagnement">Mon accompagnement</h2>
     <p>Je suis formée à la Pleine Conscience Sensible au Trauma auprès de David Treleaven : niveau 1 en 2025, niveau 2 en 2026.</p>
     <p>Mon accompagnement s'adapte au fonctionnement de chaque personne : je choisis, avec elle, quand et comment intégrer la pleine conscience, selon ce qui est sécurisant pour elle à ce moment de son parcours.</p>
     <p>La Pleine Conscience Sensible au Trauma s'articule avec les autres <a href="/mes-approches/">approches que j'utilise</a>.</p>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="questions-frequentes">Questions fréquentes</h2>
     <ul class="faq-list">
       <li><h3>Quelle différence avec la pleine conscience classique ?</h3><p>La pleine conscience classique invite à se tourner vers l'intérieur. La PCST ajoute une vigilance : elle adapte les instructions et le rythme à <a href="/regulation-emotionnelle/#la-fenetre-de-tolerance">la fenêtre de tolérance</a> de la personne, pour éviter de raviver un vécu traumatique.</p></li>
@@ -592,7 +620,7 @@ figure figcaption a{padding-block:.7rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 15 octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 27 octobre 2026</div>
   </div>
 </footer>
 <script>
@@ -614,6 +642,11 @@ figure figcaption a{padding-block:.7rem}
   document.addEventListener('click',function(e){if(!n.contains(e.target))closeAll();});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'){var open=n.querySelector('.dd-btn[aria-expanded="true"]');closeAll();if(open)open.focus();}});
 })();
+</script>
+<script>
+document.addEventListener('click',function(e){var b=e.target.closest('button.yt');if(!b)return;
+var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0';f.title=b.getAttribute('aria-label');
+f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;var w=document.createElement('div');w.className='yt';w.appendChild(f);b.replaceWith(w);f.focus();});
 </script>
 </body>
 </html>

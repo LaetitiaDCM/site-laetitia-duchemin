@@ -31,7 +31,7 @@
    "name": "Anxiété et angoisse : les comprendre — Laetitia Duchemin, psy",
    "description": "Du stress à l'angoisse : comprendre l'anxiété, la différence avec l'angoisse, ce qui l'entretient et des repères concrets pour l'apaiser au quotidien.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-15",
+   "dateModified": "2026-10-27",
    "about": {
     "@type": "Thing",
     "name": "Anxiété"
@@ -433,6 +433,16 @@ figure figcaption a{padding-block:.7rem}
 
 /* Retouches du 15/10/2026 (2) */
 .refs-list a{overflow-wrap:anywhere}
+
+/* Retouches du 27/10/2026 */
+.lien-seul a{display:inline-block;padding-block:.75rem}
+.yt{position:relative;display:block;width:100%;aspect-ratio:16/9;border:0;padding:0;border-radius:14px;overflow:hidden;background:#f5f0e4 center/cover no-repeat;cursor:pointer;box-shadow:0 4px 18px rgba(27,17,64,.14)}
+.yt .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:76px;height:76px;border-radius:50%;background:var(--night);color:var(--gold-soft);display:grid;place-items:center;box-shadow:0 4px 16px rgba(27,17,64,.35)}
+.yt .play svg{width:30px;height:30px;margin-left:4px}
+.yt:hover .play,.yt:focus-visible .play{background:var(--violet)}
+.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt-note{font-size:.92rem;color:var(--muted);font-style:italic;margin:.4rem 0 .7rem}
+.yt-cap{font-size:.85rem;color:var(--muted);margin:.5rem 0 1.4rem}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -560,7 +570,7 @@ figure figcaption a{padding-block:.7rem}
             <li><a href="/consulter-en-visio/">Consulter en visio</a></li>
           </ul>
         </li>
-        <li class="nav-plain"><a href="/#ressources">Ressources</a></li>
+        <li class="nav-plain"><a href="/exercices/">Ressources</a></li>
         <li class="nav-cta"><a class="cta" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
       </ul>
     </nav>
@@ -726,6 +736,7 @@ figure figcaption a{padding-block:.7rem}
 </script>
     <h2 id="quand-consulter">Quand consulter</h2>
     <p>Lorsque l'anxiété est présente la plupart du temps, depuis plusieurs mois, qu'elle épuise ou qu'elle conduit à renoncer à des choses importantes, il est utile d'en parler à un professionnel. Elle peut prendre différentes formes (anxiété généralisée, anxiété sociale, phobies, crises d'angoisse répétées), qui s'évaluent en consultation.</p>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="reperes">Des repères pour l'apaiser</h2>
     <ul class="dash">
       <li><strong>Respirer</strong> : ralentir sa respiration, toujours par le nez, en allongeant l'expiration, aide le système nerveux à revenir au calme (voir l'<a href="/regulation-emotionnelle/#un-outil-de-respiration-de-base">exercice de respiration</a>).</li>
@@ -734,14 +745,19 @@ figure figcaption a{padding-block:.7rem}
       <li><strong>Revenir au présent</strong> : l'anxiété se tourne vers l'avenir, les sens ramènent à l'instant (voir l'<a href="/documents/affiche-ancrage-5-4-3-2-1.pdf">ancrage 5-4-3-2-1</a>).</li>
     </ul>
     <div class="poster-dl">
-      <a href="/documents/affiche-respiration.pdf" target="_blank" rel="noopener"><img src="/documents/affiche-respiration.webp" width="620" height="877" alt="Aperçu de l'affiche : respirer pour se réguler, 5 secondes d'inspiration et 5 secondes d'expiration" loading="lazy"></a>
+      <a href="/documents/affiche-exercices-de-respiration.pdf" target="_blank" rel="noopener"><img src="/documents/affiche-exercices-de-respiration.webp" width="620" height="878" alt="Aperçu de l'affiche : exercices de respiration, sept façons de revenir à son souffle" loading="lazy"></a>
       <div>
-        <h3>L'exercice en affiche</h3>
-        <p>Les trois étapes de la respiration, à imprimer ou à garder sous la main.</p>
-        <a class="btn solid" href="/documents/affiche-respiration.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche (PDF)</a>
+        <h3>Exercices de respiration</h3>
+        <p>Sept façons de revenir à son souffle : respiration mentale, numérique, paille, triangle, carrée, abdominale et cohérence cardiaque.</p>
+        <a class="btn solid" href="/documents/affiche-exercices-de-respiration.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche (PDF)</a>
       </div>
     </div>
     <p>Pour aller plus loin, vous pouvez télécharger le <a href="https://mescoursjv.u-picardie.fr/moodle/pluginfile.php/239817/mod_resource/content/3/GUIDE_STRESS-ANXIETE-VF.pdf" target="_blank" rel="noopener">guide de gestion du stress et de l'anxiété</a> que j'ai rédigé pour le Service de Santé Étudiante de l'UPJV.</p>
+    <h3>Écouter : la relaxation autogène de Schultz (11 minutes)</h3>
+    <p class="yt-note">Vous restez libre : vous pouvez faire une pause, ouvrir les yeux ou arrêter la vidéo à tout moment.</p>
+    <button type="button" class="yt" data-id="oqwQvymdX_Q" aria-label="Lire la vidéo : La relaxation autogène de Schultz" style="background-image:url(/documents/video-relaxation-schultz.jpg)"><span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4l14 8-14 8z"/></svg></span></button>
+    <p class="yt-cap">La vidéo se charge seulement quand vous cliquez (YouTube, mode confidentialité renforcée).</p>
+    <p class="lien-seul"><a href="/exercices/relaxation-schultz/">Lire la page de l'exercice</a></p>
     <h2 id="mon-accompagnement">Mon accompagnement</h2>
     <p>Nous travaillons d'abord à comprendre votre anxiété et à réguler votre système nerveux, avec des outils concrets pour le quotidien. Lorsque l'anxiété prend racine dans votre histoire, la <a href="/li-icv/">LI-ICV</a> permet de travailler plus en profondeur.</p>
     <h2 id="questions-frequentes">Questions fréquentes</h2>
@@ -775,7 +791,7 @@ figure figcaption a{padding-block:.7rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 15 octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 27 octobre 2026</div>
   </div>
 </footer>
 <script>
@@ -821,6 +837,11 @@ document.addEventListener('click',function(e){
   document.addEventListener('click',function(e){if(!n.contains(e.target))closeAll();});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'){var open=n.querySelector('.dd-btn[aria-expanded="true"]');closeAll();if(open)open.focus();}});
 })();
+</script>
+<script>
+document.addEventListener('click',function(e){var b=e.target.closest('button.yt');if(!b)return;
+var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0';f.title=b.getAttribute('aria-label');
+f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;var w=document.createElement('div');w.className='yt';w.appendChild(f);b.replaceWith(w);f.focus();});
 </script>
 </body>
 </html>

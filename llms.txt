@@ -50,8 +50,11 @@
 - [Syndrome de l'imposteur](https://laetitia-duchemin-psychologue.fr/syndrome-de-l-imposteur/): cycle de l'imposteur (Clance), cinq profils de Valerie Young, origines, repères pour l'apaiser, questionnaire : échelle de Clance (20 items)
 - [Résilience](https://laetitia-duchemin-psychologue.fr/resilience/): auto-compassion, faire surface avant de faire face, accompagnement intégratif
 - [Théorie polyvagale](https://laetitia-duchemin-psychologue.fr/theorie-polyvagale/): trois états du système nerveux autonome (Stephen Porges), vidéo, lien avec la fenêtre de tolérance
+- [Mes exercices](https://laetitia-duchemin-psychologue.fr/exercices/): bibliothèque de fiches d'exercices à imprimer, audios guidés et carnets à remplir, filtrables par besoin (crise d'angoisse, anxiété, émotions, estime de soi, relations, trauma, habitudes, sommeil, enfants), encadré « Besoin de vous apaiser maintenant ? », fiches pour les enfants (météo des émotions, respirer en jouant, thermomètre de la colère, boîte d'apaisement, 3 petits bonheurs), agenda du sommeil
+- [Relaxation autogène de Schultz](https://laetitia-duchemin-psychologue.fr/exercices/relaxation-schultz/): audio guidé de 11 minutes sensible au trauma (lourdeur, chaleur, respiration), déroulé en sept temps, conseils, fiche à imprimer
+- [Appli Mes outils](https://laetitia-duchemin-psychologue.fr/appli/): appli web installable sans compte, fiches d'exercices, 8 audios guidés hors connexion (dont 4 pour les enfants), carnet personnel (situation problématique, déclencheurs, agenda du sommeil, 5 moments positifs) stocké uniquement sur le téléphone et imprimable, accès aux 7 questionnaires du site
 - [Tarifs et modalités](https://laetitia-duchemin-psychologue.fr/#infos): première consultation 1 h (70 €), consultation 1 h (70 €), séance ICV 1 h 30 (90 €), honoraires exonérés de TVA
 - [Réserver en ligne](https://rdv.deiz.fr/laetitia-duchemin-psychologue)
-- [Texte intégral du site](https://laetitia-duchemin-psychologue.fr/llms-full.txt): contenu complet des 36 pages, pour les assistants IA
+- [Texte intégral du site](https://laetitia-duchemin-psychologue.fr/llms-full.txt): contenu complet des 49 pages, pour les assistants IA
 
 Mis à jour en octobre 2026.

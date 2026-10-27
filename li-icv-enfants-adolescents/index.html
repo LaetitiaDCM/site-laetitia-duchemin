@@ -31,7 +31,7 @@
    "name": "ICV enfants et adolescents (LI-ICV) — L. Duchemin, psychologue",
    "description": "La LI-ICV pour les enfants et les adolescents : retrouver la sécurité, un travail co-construit avec les parents, le choix respecté des ados. En ligne.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-19",
+   "dateModified": "2026-10-27",
    "about": {
     "@type": "Thing",
     "name": "Intégration du Cycle de la Vie (Lifespan Integration) chez l'enfant et l'adolescent"
@@ -430,6 +430,21 @@ footer summary{padding-block:.65rem}
 figure figcaption a{padding-block:.7rem}
 /* En-tête sans défilement horizontal de 360 à 420 px (la marque et le bouton Menu demandaient 351 px pour 320) */
 @media (max-width:420px){.site-header .bar{gap:.75rem}.brand small{letter-spacing:0}.menu-btn{padding-inline:.75rem}}
+
+/* Retouches du 27/10/2026 */
+.lien-seul a{display:inline-block;padding-block:.75rem}
+.yt{position:relative;display:block;width:100%;aspect-ratio:16/9;border:0;padding:0;border-radius:14px;overflow:hidden;background:#f5f0e4 center/cover no-repeat;cursor:pointer;box-shadow:0 4px 18px rgba(27,17,64,.14)}
+.yt .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:76px;height:76px;border-radius:50%;background:var(--night);color:var(--gold-soft);display:grid;place-items:center;box-shadow:0 4px 16px rgba(27,17,64,.35)}
+.yt .play svg{width:30px;height:30px;margin-left:4px}
+.yt:hover .play,.yt:focus-visible .play{background:var(--violet)}
+.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt-note{font-size:.92rem;color:var(--muted);font-style:italic;margin:.4rem 0 .7rem}
+.yt-cap{font-size:.85rem;color:var(--muted);margin:.5rem 0 1.4rem}
+.toc{margin:0 0 2rem}
+.toc details{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:0 1.1rem}
+.toc summary{color:var(--heading);font-family:var(--serif);font-size:1.25rem;font-weight:500;padding-block:.45rem}
+.toc ol{margin:0 0 .9rem;padding-left:1.3rem;color:var(--muted)}
+.toc a{display:block;padding-block:.7rem;line-height:1.35}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -557,7 +572,7 @@ figure figcaption a{padding-block:.7rem}
             <li><a href="/consulter-en-visio/">Consulter en visio</a></li>
           </ul>
         </li>
-        <li class="nav-plain"><a href="/#ressources">Ressources</a></li>
+        <li class="nav-plain"><a href="/exercices/">Ressources</a></li>
         <li class="nav-cta"><a class="cta" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
       </ul>
     </nav>
@@ -577,6 +592,21 @@ figure figcaption a{padding-block:.7rem}
 </section>
 <section class="prose">
   <div class="wrap">
+    <nav class="toc" aria-label="Sommaire de la page"><details><summary>Sommaire</summary><ol>
+      <li><a href="#ce-que-la-li-icv-apporte-a-l-enfant">Ce que la LI-ICV apporte à l'enfant</a></li>
+      <li><a href="#pour-quelles-situations">Pour quelles situations ?</a></li>
+      <li><a href="#un-travail-co-construit-avec-le-parent">Un travail co-construit avec le parent</a></li>
+      <li><a href="#co-regulation">La co-régulation, au cœur du travail avec l'enfant</a></li>
+      <li><a href="#les-adolescents-leur-choix-est-respecte">Les adolescents : leur choix est respecté</a></li>
+      <li><a href="#deroule">Comment se déroule l'accompagnement</a></li>
+      <li><a href="#preparer-votre-enfant-au-premier-rendez-vous">Préparer votre enfant au premier rendez-vous</a></li>
+      <li><a href="#modalites">Modalités</a></li>
+      <li><a href="#la-calinotherapie">Le lien au quotidien : la câlinothérapie</a></li>
+      <li><a href="#des-outils-pour-les-enfants">Des outils pour les enfants</a></li>
+      <li><a href="#ma-formation">Ma formation</a></li>
+      <li><a href="#questions-frequentes">Questions fréquentes</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ol></details></nav>
     <h2 id="ce-que-la-li-icv-apporte-a-l-enfant">Ce que la LI-ICV apporte à l'enfant</h2>
     <p>Un enfant qui a traversé un événement difficile, ou qui a manqué de repères stables, ne dispose pas encore des mots pour dire ce qu'il vit. Ce qu'il ressent s'exprime alors autrement : dans son corps, son sommeil, ses colères, ses peurs ou son comportement. La LI-ICV ne cherche pas à le faire parler à tout prix : avec les enfants, elle passe beaucoup par le jeu. Elle l'aide à retrouver un sentiment de sécurité, puis à relier ce qu'il ressent à son histoire, avec des mots simples ou à travers des émotions partagées avec l'adulte qui l'accompagne.</p>
     <p>Quand ce qui était confus devient compréhensible, l'enfant n'a plus besoin de le crier par ses réactions : il peut commencer à s'apaiser.</p>
@@ -605,6 +635,7 @@ figure figcaption a{padding-block:.7rem}
     <h2 id="les-adolescents-leur-choix-est-respecte">Les adolescents : leur choix est respecté</h2>
     <p>Avec un adolescent, on ne décide pas à sa place. Il est associé dès le départ : il peut dire ce qu'il attend, ce dont il ne veut pas parler, et s'il souhaite que ses parents participent ou non à certaines séances. Ce qu'il confie en séance reste confidentiel. Les parents sont informés du cadre et des grandes étapes, et je les préviens si la sécurité de leur enfant est en jeu.</p>
     <p>Un adolescent qui se sent respecté dans ses choix s'engage beaucoup plus volontiers. S'il n'est pas prêt, il est inutile de le forcer : un premier rendez-vous avec les parents seuls peut déjà aider, en attendant qu'il le soit.</p>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="deroule">Comment se déroule l'accompagnement</h2>
     <h3>Un premier temps avec les parents</h3>
     <p>Je reçois d'abord les parents, pour comprendre la demande et retracer l'histoire de l'enfant. Ensemble, nous construisons la ligne du temps : une liste de souvenirs, un ou deux par année de vie, qui servira de fil conducteur aux séances.</p>
@@ -627,6 +658,28 @@ figure figcaption a{padding-block:.7rem}
         <a class="btn solid" href="/documents/affiche-calinotherapie.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche (PDF)</a>
       </div>
     </div>
+    <h2 id="des-outils-pour-les-enfants">Des outils pour les enfants</h2>
+    <p>Les premières fois, écoutez-les avec votre enfant ; ensuite, il pourra les écouter seul.</p>
+    <p class="yt-note">Vous restez libre : vous pouvez faire une pause, ouvrir les yeux ou arrêter la vidéo à tout moment.</p>
+    <h3>La météo de mes émotions (6 minutes)</h3>
+    <button type="button" class="yt" data-id="ySpO8y1OvaU" aria-label="Lire la vidéo : La météo de mes émotions" style="background-image:url(/documents/video-meteo-des-emotions-enfant.jpg)"><span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4l14 8-14 8z"/></svg></span></button>
+    <p class="lien-seul"><a href="/documents/affiche-la-meteo-de-mes-emotions.pdf" target="_blank" rel="noopener" download>Télécharger la fiche « La météo de mes émotions » (PDF)</a></p>
+    <h3>Le souffle magique (4 minutes)</h3>
+    <button type="button" class="yt" data-id="PnJ4EvUzA5c" aria-label="Lire la vidéo : Le souffle magique" style="background-image:url(/documents/video-souffle-magique-enfant.jpg)"><span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4l14 8-14 8z"/></svg></span></button>
+    <p class="lien-seul"><a href="/documents/affiche-respirer-en-jouant.pdf" target="_blank" rel="noopener" download>Télécharger la fiche « Respirer en jouant » (PDF)</a></p>
+    <h3>Le chat qui se repose (4 minutes)</h3>
+    <button type="button" class="yt" data-id="5w36c3fY5QI" aria-label="Lire la vidéo : Le chat qui se repose" style="background-image:url(/documents/video-chat-qui-se-repose-enfant.jpg)"><span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4l14 8-14 8z"/></svg></span></button>
+    <p class="lien-seul"><a href="/documents/affiche-ma-boite-d-apaisement.pdf" target="_blank" rel="noopener" download>Télécharger la fiche « Ma boîte d'apaisement » (PDF)</a></p>
+    <h3>Le petit rayon de lumière (4 minutes)</h3>
+    <button type="button" class="yt" data-id="aR-LaYQ7fno" aria-label="Lire la vidéo : Le petit rayon de lumière" style="background-image:url(/documents/video-petit-rayon-de-lumiere-enfant.jpg)"><span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4l14 8-14 8z"/></svg></span></button>
+    <p class="lien-seul"><a href="/documents/affiche-la-meteo-de-mes-emotions.pdf" target="_blank" rel="noopener" download>Télécharger la fiche « La météo de mes émotions », page 2 (PDF)</a></p>
+    <p class="yt-cap">La vidéo se charge seulement quand vous cliquez (YouTube, mode confidentialité renforcée).</p>
+    <h3>Deux autres fiches</h3>
+    <ul class="dash">
+      <li><a href="/documents/affiche-mon-thermometre-de-la-colere.pdf" target="_blank" rel="noopener" download>Mon thermomètre de la colère</a></li>
+      <li><a href="/documents/affiche-mes-3-petits-bonheurs.pdf" target="_blank" rel="noopener" download>Mes 3 petits bonheurs</a></li>
+    </ul>
+    <p class="lien-seul"><a href="/exercices/#enfant">Tous les outils pour les enfants</a></p>
     <h2 id="ma-formation">Ma formation</h2>
     <p>Je suis formée à l'ICV enfants-ados (2023, avec Laure Mann).</p>
     <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
@@ -664,7 +717,7 @@ figure figcaption a{padding-block:.7rem}
       <summary>Mentions légales</summary>
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 19 octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 27 octobre 2026</div>
   </div>
 </footer>
 <script>
@@ -686,6 +739,11 @@ figure figcaption a{padding-block:.7rem}
   document.addEventListener('click',function(e){if(!n.contains(e.target))closeAll();});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'){var open=n.querySelector('.dd-btn[aria-expanded="true"]');closeAll();if(open)open.focus();}});
 })();
+</script>
+<script>
+document.addEventListener('click',function(e){var b=e.target.closest('button.yt');if(!b)return;
+var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0';f.title=b.getAttribute('aria-label');
+f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;var w=document.createElement('div');w.className='yt';w.appendChild(f);b.replaceWith(w);f.focus();});
 </script>
 </body>
 </html>
