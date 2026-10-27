@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 49 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 27 octobre 2026.
+> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 27 octobre 2026.
 
 ---
 
@@ -77,7 +77,7 @@ Comprendre l'impact d'un événement marquant ou d'expériences anciennes ou ré
 
 ### Régulation émotionnelle
 
-Comprendre ce que sont les émotions et à quoi elles servent. Développer des repères et des outils pour accueillir les émotions intenses et retrouver de la stabilité, en m'appuyant notamment sur la Pleine Conscience Sensible au Trauma et la théorie polyvagale. Comprendre sa fenêtre de tolérance, sa haute sensibilité et sa personnalité. Apaiser l'anxiété, apprendre à faire baisser l'intensité d'une crise d'angoisse ou d'une attaque de panique, pour ne plus en avoir peur. Comprendre ce que la consommation ou le comportement vient apaiser dans les addictions, et changer à son rythme, sans jugement. En savoir plus sur la régulation émotionnelle
+Comprendre ce que sont les émotions et à quoi elles servent. Développer des repères et des outils pour accueillir les émotions intenses et retrouver de la stabilité, en m'appuyant notamment sur la Pleine Conscience Sensible au Trauma et la théorie polyvagale. Comprendre sa fenêtre de tolérance, sa haute sensibilité et sa personnalité. Apaiser l'anxiété, apprendre à faire baisser l'intensité d'une crise d'angoisse ou d'une attaque de panique, pour ne plus en avoir peur. Comprendre ce que la consommation ou le comportement vient apaiser dans les addictions, et changer à son rythme, sans jugement. Accompagner les émotions de son enfant, avec la co-régulation et la validation émotionnelle. En savoir plus sur la régulation émotionnelle
 
 -
 
@@ -1412,6 +1412,12 @@ La vidéo se charge seulement quand vous cliquez (YouTube, mode confidentialité
 - Mon thermomètre de la colère
 
 - Mes 3 petits bonheurs
+
+### Pour les parents
+
+- La co-régulation : mon calme aide le sien
+
+- La validation émotionnelle : accueillir l'émotion de mon enfant
 
 Tous les outils pour les enfants
 
@@ -4402,7 +4408,7 @@ En cas d'urgence : 3114 (prévention du suicide, 24 h/24) · 15 (SAMU) · 112.
 
 L'appli Mes outils rassemble les fiches, les audios guidés (aussi hors connexion) et un carnet à remplir pas à pas : situations, déclencheurs, sommeil. Sans compte : vos notes restent sur votre téléphone.
 
-34 exercices
+36 exercices
 
 ### Exercices de respiration
 
@@ -4689,6 +4695,22 @@ Pour les enfants : le rituel du soir, trois petits moments qui ont fait du bien 
 Avec un enfant · Estime de soi
 
 Télécharger la fiche
+
+### Accueillir l'émotion de mon enfant
+
+Pour les parents : la validation émotionnelle en cinq étapes, et des phrases qui aident à accueillir ce que l'enfant ressent.
+
+Avec un enfant · Émotions · Relations et attachement
+
+Télécharger la fiche · Lire l'explication
+
+### La co-régulation
+
+Pour les parents : comment mon calme aide celui de mon enfant quand l'émotion déborde, et quoi faire quand je n'y arrive pas.
+
+Avec un enfant · Émotions · Relations et attachement
+
+Télécharger la fiche · Lire l'explication
 
 ### La fenêtre de tolérance, version murale
 
@@ -6143,6 +6165,8 @@ Vous restez libre : vous pouvez faire une pause, ouvrir les yeux ou arrêter la
 
 La vidéo se charge seulement quand vous cliquez (YouTube, mode confidentialité renforcée).
 
+Pour accompagner l'émotion de votre enfant, je vous invite à lire la page La validation émotionnelle et à télécharger la fiche « Accueillir l'émotion de mon enfant ».
+
 ## Mon accompagnement
 
 En séance, en ligne, nous apprenons ensemble à repérer les signaux du corps, à nommer les émotions et à comprendre les besoins qu'elles expriment, à votre rythme. Je m'appuie sur un éclairage neuropsychologique, dont la théorie polyvagale, pour comprendre avec vous ce qui se joue dans votre cerveau et votre corps, ainsi que sur la LI-ICV, pour que les émotions puissent être ressenties sans submerger, et retrouver leur rôle de messagères.
@@ -6260,6 +6284,14 @@ Prendre rendez-vous
 
 Avant de savoir se réguler seul, on apprend à se réguler avec l'autre. Le bébé s'apaise dans les bras d'un adulte calme : son système nerveux s'accorde à celui de la personne qui prend soin de lui. C'est la co-régulation, la base de l'autorégulation émotionnelle. Elle passe notamment par la validation émotionnelle : savoir accueillir l'émotion de l'autre, en particulier celle de l'enfant, la reconnaître, l'identifier et la comprendre, pour répondre au besoin qui se cache derrière. Elle reste importante toute la vie : une voix posée, une présence bienveillante, un regard qui rassure aident le système nerveux à revenir dans sa fenêtre de tolérance. En thérapie, la présence calme du thérapeute soutient elle aussi ce travail, jusqu'à ce que l'autorégulation devienne plus facile.
 
+Pour aller plus loin : la co-régulation et la validation émotionnelle.
+
+### La co-régulation
+
+Un mémo d'une page à garder sous la main : ce qui se passe chez l'enfant, les quatre appuis de l'adulte (moi, ma voix, mon visage et mon corps, ma présence), l'après-tempête et quoi faire quand on n'y arrive pas.
+
+Télécharger la fiche (PDF)
+
 ## La tolérance émotionnelle
 
 La tolérance émotionnelle, que la psychologue Marsha Linehan appelle tolérance à la détresse, désigne la capacité à ressentir une émotion difficile sans chercher à la fuir tout de suite et sans être submergé par elle. Elle complète la régulation : réguler, c'est agir sur l'intensité d'une émotion ; tolérer, c'est pouvoir la traverser quand on ne peut pas, sur le moment, changer la situation.
@@ -6303,6 +6335,260 @@ Sources : synthèse de 223 études sur la respiration lente et la variabilité c
 ### Faut-il pratiquer cet exercice tous les jours ?
 
 La régularité permet de mieux se réguler : elle aide à construire de nouveaux circuits neuronaux, capables de fonctionner automatiquement lorsqu'ils sont suffisamment répétés.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/co-regulation/
+Titre : Co-régulation : comment le calme du parent apaise l'enfant
+
+# La co-régulation
+
+Mon calme aide le sien
+
+Prendre rendez-vous
+
+Un enfant en pleine colère, en larmes ou paniqué ne peut pas « se calmer » sur demande. Ce n'est ni un caprice ni un manque de volonté : la partie de son cerveau qui régule les émotions est encore en construction. Pour retrouver son calme, il s'appuie sur le système nerveux d'un adulte apaisé. C'est ce qu'on appelle la co-régulation : avant de savoir s'apaiser seul, on a besoin d'avoir été apaisé avec quelqu'un.
+
+## Qu'est-ce que la co-régulation ?
+
+La co-régulation, c'est la façon dont deux systèmes nerveux s'accordent l'un à l'autre. Le bébé s'apaise dans les bras d'un adulte calme : sa respiration ralentit, son corps se relâche, comme s'il empruntait le calme de la personne qui prend soin de lui. Répétée des centaines de fois, cette expérience devient peu à peu une capacité intérieure : c'est la base de l'autorégulation émotionnelle.
+
+La co-régulation ne s'arrête pas à l'enfance. Toute la vie, une voix posée, une présence bienveillante ou un regard qui rassure aident notre système nerveux à revenir dans sa fenêtre de tolérance. Mais chez l'enfant, elle est indispensable : c'est ainsi qu'il apprend.
+
+## Pourquoi un enfant ne peut pas se calmer seul
+
+Le cerveau de l'enfant se construit de bas en haut. Les régions qui gèrent la survie et les émotions sont actives dès la naissance ; celles qui permettent de réfléchir, de prendre du recul et de freiner une réaction, dans le cortex préfrontal, mûrissent jusqu'au début de l'âge adulte.
+
+Le modèle du cerveau dans la main, de Daniel Siegel, l'illustre bien : quand l'émotion déborde, le « couvercle » se soulève, et la partie qui réfléchit est momentanément débranchée. À ce moment-là, les explications, les raisonnements ou les punitions ne peuvent pas être entendus. L'enfant ne fait pas exprès : il n'a pas encore les moyens de faire autrement. Ce dont il a besoin, c'est d'un adulte qui l'aide à refermer la main.
+
+## Ce qui se passe dans le système nerveux
+
+La théorie polyvagale, développée par Stephen Porges, offre un modèle de compréhension utile. Notre système nerveux évalue en permanence, sans que nous en ayons conscience, si nous sommes en sécurité ou en danger : c'est la neuroception. Quand il perçoit un danger, il active des réactions de survie (agitation, colère, fuite, ou au contraire repli et sidération).
+
+Pour sortir de cet état, le corps de l'enfant cherche des signaux de sécurité autour de lui :
+
+- une voix douce, au rythme lent ;
+
+- un visage détendu et un regard bienveillant ;
+
+- un corps calme, des gestes lents ;
+
+- des réactions prévisibles : savoir comment l'adulte va répondre rassure, bien plus que les mots eux-mêmes.
+
+Ces signaux passent de système nerveux à système nerveux, avant même que l'enfant ne comprenne ce qu'on lui dit. C'est pourquoi le calme de l'adulte compte davantage que ce qu'il dit.
+
+## Au quotidien : comment co-réguler
+
+### D'abord moi
+
+C'est en étant disponible pour soi que l'on peut être disponible pour les autres. Avant de m'approcher, je prends une respiration lente (par le nez), je relâche mes épaules et ma mâchoire. Si je sens la colère ou l'inquiétude monter en moi, mes propres outils de régulation m'aident : la respiration, l'ancrage par les sens, la relaxation. Ils sont rassemblés dans la bibliothèque d'exercices et dans l'appli Mes outils.
+
+### Ma voix
+
+Une voix plus lente et plus grave que d'habitude, des phrases courtes : « Je suis là. » « On va respirer ensemble. » Le ton compte plus que les mots.
+
+### Mon visage et mon corps
+
+Je me mets à sa hauteur, sans le surplomber. Un regard doux, des gestes lents, des mains visibles. Je reste prévisible : pas de mouvement brusque, pas de changement de ton soudain.
+
+### Ma présence
+
+Je reste proche, sans forcer le contact. Un câlin s'il en a envie, sinon simplement être là. Respirer lentement à côté de lui l'aide à caler son souffle sur le mien.
+
+### Après la tempête
+
+Quand tout le monde est redescendu, on peut parler : mettre des mots sur ce qui s'est passé, et chercher ensemble ce qui aide. C'est le moment de la validation émotionnelle.
+
+## Et quand je n'y arrive pas
+
+Ça arrive à tous les parents. Fatigue, stress, une journée difficile, ou une colère d'enfant qui réveille quelque chose de notre propre histoire : il est parfois impossible de rester calme. Si je sens que je déborde moi aussi, je peux m'éloigner un instant, en sécurité : « Je prends une pause pour me calmer, je reviens. » Puis je reviens.
+
+Ce qui compte, ce n'est pas d'être un parent parfait, mais de réparer : revenir vers l'enfant, reconnaître ce qui s'est passé (« tout à l'heure, j'ai crié, je n'aurais pas dû »). Ces moments de réparation apprennent à l'enfant que le lien résiste aux tempêtes.
+
+Si les colères de votre enfant réveillent régulièrement chez vous des réactions très fortes, c'est peut-être le signe d'un déclencheur lié à votre propre histoire. Ce n'est pas une faute : c'est une piste de travail, pour vous.
+
+Prendre rendez-vous
+
+## De la co-régulation à l'autorégulation
+
+Chaque moment de co-régulation laisse une trace. Peu à peu, l'enfant intériorise ce calme et apprend à s'apaiser seul. Les moments calmes comptent tout autant que les moments de crise : les câlins réguliers (la câlinothérapie), les rituels du soir, le jeu partagé nourrissent ce sentiment de sécurité.
+
+Des outils pour l'enfant peuvent prendre le relais quand il grandit : la météo de ses émotions, son thermomètre de la colère, sa boîte d'apaisement, des jeux de respiration. Vous les trouverez dans la bibliothèque d'exercices.
+
+## Un outil : la fiche « La co-régulation »
+
+### La co-régulation
+
+Un mémo d'une page à garder sous la main : ce qui se passe chez l'enfant, les quatre appuis de l'adulte (moi, ma voix, mon visage et mon corps, ma présence), l'après-tempête et quoi faire quand on n'y arrive pas.
+
+Télécharger la fiche (PDF)
+
+## Mon accompagnement
+
+Je reçois des enfants, des adolescents et leurs parents. Le travail avec les parents fait partie intégrante de l'accompagnement : comprendre ce que vit l'enfant, retrouver des repères pour l'apaiser, et parfois regarder ce que ses réactions réveillent chez l'adulte. La LI-ICV aide l'enfant à intégrer les événements qui l'ont marqué ; la co-régulation au quotidien en prolonge les effets à la maison.
+
+## Questions fréquentes
+
+-
+
+### Co-réguler, est-ce céder ?
+
+Non. On peut rester calme et garder le cadre. Accueillir l'émotion ne veut pas dire accepter tous les comportements : « Tu as le droit d'être en colère, tu n'as pas le droit de taper. » Simplement, on apaise d'abord, et on rappelle la règle ensuite, quand l'enfant peut l'entendre.
+
+-
+
+### À partir de quel âge un enfant peut-il se calmer seul ?
+
+Il n'y a pas d'âge précis : l'autorégulation se construit progressivement, au fil des expériences de co-régulation, et continue de se développer à l'adolescence. Même un adolescent, même un adulte, a encore besoin de l'autre dans les moments difficiles.
+
+-
+
+### Et si mon enfant refuse que je m'approche ?
+
+On accepte, on n'impose pas sa présence. Respectez sa distance, en restant disponible : « Je suis là, à côté. Je reste. » Votre calme, votre voix et votre présence agissent même à quelques pas. Le contact viendra quand il sera prêt.
+
+## Sources
+
+- Porges, S. W. (2011). The Polyvagal Theory: Neurophysiological Foundations of Emotions, Attachment, Communication, and Self-Regulation. New York : Norton.
+
+- Dana, D. (2018). The Polyvagal Theory in Therapy. New York : Norton.
+
+- Siegel, D. J., & Payne Bryson, T. (2011). The Whole-Brain Child. New York : Delacorte Press. Traduction française : Le cerveau de votre enfant, Les Arènes, 2015.
+
+- Tronick, E. (2007). The Neurobehavioral and Social-Emotional Development of Infants and Children. New York : Norton.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
+
+URL : https://laetitia-duchemin-psychologue.fr/validation-emotionnelle/
+Titre : Validation émotionnelle : accueillir l'émotion de son enfant
+
+# La validation émotionnelle
+
+Accueillir l'émotion de mon enfant
+
+Prendre rendez-vous
+
+« C'est rien », « arrête de pleurer », « il n'y a pas de quoi avoir peur »… Ces phrases ne viennent pas d'un manque d'amour : elles viennent d'une éducation apprise et répétée, souvent de génération en génération. Pourtant, une émotion niée ou minimisée a tendance à revenir plus fort. Valider une émotion, c'est savoir l'accueillir, la reconnaître, l'identifier et la comprendre, pour répondre au besoin qui se cache derrière. Et c'est l'un des cadeaux les plus précieux que l'on puisse faire à un enfant.
+
+## Qu'est-ce que valider une émotion ?
+
+Valider une émotion, c'est reconnaître ce que l'enfant ressent, tel qu'il le ressent : « Tu es très déçu. » « Ça t'a fait peur. » Ce n'est pas être d'accord avec la raison de l'émotion, ni approuver un comportement. On peut trouver qu'un jouet cassé n'est pas un drame, et reconnaître que pour l'enfant, à ce moment-là, c'est un vrai chagrin.
+
+Toutes les émotions sont légitimes : elles sont des messagers, qui signalent un besoin (voir la roue des émotions). Tous les comportements, eux, ne sont pas acceptables. La validation tient ensemble ces deux réalités.
+
+## Pourquoi c'est important
+
+### Nommer pour apprivoiser
+
+Daniel Siegel et Tina Payne Bryson résument ce mécanisme par une formule : « nommer pour apprivoiser ». Mettre des mots sur une émotion aide le cerveau à l'apaiser. Des travaux en imagerie montrent que le simple fait de nommer ce que l'on ressent diminue l'activité de l'amygdale, le centre d'alarme du cerveau.
+
+### Une émotion accueillie peut passer
+
+Une émotion a une montée, un pic, puis une descente. Quand elle est accueillie, elle suit son cours et redescend. Quand elle est niée (« c'est rien »), l'enfant reçoit un double message : ce qu'il ressent n'est pas réel, ou pas acceptable. L'émotion ne disparaît pas pour autant : elle s'intensifie, se cache, ou ressort plus tard, ailleurs.
+
+### Apprendre à se connaître
+
+En entendant les mots de l'adulte, l'enfant apprend peu à peu à reconnaître et à nommer lui-même ce qu'il ressent. C'est la base de la régulation émotionnelle, et d'un style d'attachement plus sécure : je peux ressentir des choses fortes, et l'autre reste là.
+
+## Les cinq étapes
+
+John Gottman, qui a étudié pendant des années les familles où les enfants développent une bonne intelligence émotionnelle, a décrit ce qu'il appelle le « coaching émotionnel », en cinq étapes.
+
+- Remarquer l'émotion. Repérer les signes avant qu'elle ne déborde : un visage qui se ferme, des poings serrés, un silence inhabituel. Une petite émotion est plus facile à accueillir qu'une grosse.
+
+- Y voir une occasion de lien. Une émotion n'est pas un problème à faire disparaître vite : c'est un moment où l'enfant a besoin de vous, et une occasion de lui apprendre à se comprendre.
+
+- Écouter et accueillir. Se mettre à sa hauteur, le regarder, l'écouter avec tout le corps. Sans chercher tout de suite à résoudre, à expliquer ou à relativiser.
+
+- Mettre des mots. « Tu as l'air très en colère. » « Je crois que tu es triste parce que ton copain n'est pas venu. » Si l'on se trompe, l'enfant corrige, et c'est très bien : il précise ce qu'il ressent.
+
+- Poser un cadre et chercher ensemble. « Tu as le droit d'être en colère, tu n'as pas le droit de taper. » Une fois l'émotion redescendue, on cherche ensemble ce qui pourrait aider la prochaine fois.
+
+## Des phrases qui aident, des phrases qui coupent
+
+Des phrases qui aident
+
+Des phrases qui coupent
+
+« Je vois que c'est difficile pour toi. »
+
+« C'est rien. »
+
+« Tu as le droit d'être triste. »
+
+« Arrête de pleurer. »
+
+« Je suis là, je reste avec toi. »
+
+« Tu exagères. »
+
+« Tu étais très en colère quand… »
+
+« Il n'y a pas de quoi avoir peur. »
+
+On adhère mieux à une phrase neutre et bienveillante qu'à une phrase trop positive : inutile de promettre que « tout va bien se passer ». Reconnaître ce qui est là suffit souvent.
+
+## Quand l'émotion est trop forte
+
+Quand l'émotion déborde (le rouge du thermomètre de la colère), l'enfant ne peut plus entendre les mots : la partie de son cerveau qui réfléchit est momentanément débranchée. Dans ces moments-là, on apaise d'abord, par la présence, la voix, le calme : c'est la co-régulation. On met des mots ensuite, quand tout le monde est redescendu.
+
+Prendre rendez-vous
+
+## Et pour soi ?
+
+La validation ne s'adresse pas qu'aux enfants. Beaucoup d'adultes n'ont pas entendu, enfants, que leurs émotions avaient le droit d'exister, et ont appris à les taire. Apprendre à valider ses propres émotions (« c'est normal que ça me touche ») est souvent un premier pas pour pouvoir accueillir celles de son enfant. L'exercice Me parler comme à un·e ami·e peut y aider.
+
+Et si vous ne l'avez pas toujours fait : il n'est jamais trop tard. Revenir après un moment raté (« tout à l'heure, je t'ai dit que ce n'était rien, mais je vois que c'était important pour toi ») compte autant que de bien faire du premier coup.
+
+## Un outil : la fiche « Accueillir l'émotion de mon enfant »
+
+### Accueillir l'émotion de mon enfant
+
+Un mémo d'une page : les cinq étapes, des phrases qui aident et des phrases qui coupent, à afficher à la maison ou à garder sous la main.
+
+Télécharger la fiche (PDF)
+
+Pour aider votre enfant à reconnaître ses émotions, vous pouvez aussi utiliser la météo de ses émotions et son thermomètre de la colère.
+
+## Mon accompagnement
+
+En séance, j'accompagne les parents à reconnaître ce que vit leur enfant et à trouver leurs propres mots pour l'accueillir. Quand les émotions de l'enfant réveillent des souvenirs de l'enfance du parent, c'est aussi un espace pour en prendre soin. Pour l'enfant, la LI-ICV l'aide à intégrer ce qu'il a vécu.
+
+## Questions fréquentes
+
+-
+
+### Valider, ce n'est pas tout permettre ?
+
+Non. On valide l'émotion, pas le comportement. L'enfant peut être en colère ; il ne peut pas taper ou casser. Le cadre est d'autant mieux accepté que l'émotion a d'abord été reconnue.
+
+-
+
+### Et si je ne comprends pas pourquoi il réagit si fort ?
+
+Ce n'est pas nécessaire pour valider. Il suffit de reconnaître ce qui est là : « Je vois que c'est très fort pour toi. » La compréhension viendra peut-être après, en en parlant au calme.
+
+-
+
+### Est-ce trop tard si je ne l'ai pas fait jusqu'ici ?
+
+Non. Le cerveau reste capable d'apprendre à tout âge, et le lien se répare. Chaque émotion accueillie compte, à 3 ans comme à 15 ans.
+
+## Sources
+
+- Gottman, J. (1997). Raising an Emotionally Intelligent Child. New York : Simon & Schuster.
+
+- Siegel, D. J., & Payne Bryson, T. (2011). The Whole-Brain Child. New York : Delacorte Press. Traduction française : Le cerveau de votre enfant, Les Arènes, 2015.
+
+- Lieberman, M. D., Eisenberger, N. I., Crockett, M. J., Tom, S. M., Pfeifer, J. H., & Way, B. M. (2007). Putting feelings into words: Affect labeling disrupts amygdala activity in response to affective stimuli. Psychological Science, 18(5), 421-428. https://doi.org/10.1111/j.1467-9280.2007.01916.x
 
 Consultation : 1 h, 70 €, en ligne.
 

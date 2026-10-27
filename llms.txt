@@ -42,6 +42,8 @@
 - [Neuropsychologie](https://laetitia-duchemin-psychologue.fr/neuropsychologie/): la neuropsychologie comme grille de lecture des difficultés (attention, mémoire, émotions), évaluations au cas par cas
 - [Les émotions](https://laetitia-duchemin-psychologue.fr/les-emotions/): définition d'une émotion, émotion, sentiment et humeur, fonctions des émotions, six émotions universelles (Ekman) et leurs nuances, besoins, corps (cartes corporelles), cerveau (amygdale, thalamus, hypothalamus, hippocampe, cortex préfrontal), le cerveau dans la main, alexithymie, haute sensibilité
 - [Régulation émotionnelle](https://laetitia-duchemin-psychologue.fr/regulation-emotionnelle/): exercice de respiration de base, définition, accompagnement
+- [La co-régulation](https://laetitia-duchemin-psychologue.fr/co-regulation/): comment le calme du parent apaise l'enfant, cerveau en construction et cerveau dans la main, théorie polyvagale et signaux de sécurité (voix, visage, réactions prévisibles), gestes au quotidien, quand on n'y arrive pas et réparer, de la co-régulation à l'autorégulation, fiche à télécharger
+- [La validation émotionnelle](https://laetitia-duchemin-psychologue.fr/validation-emotionnelle/): accueillir l'émotion de son enfant, nommer pour apprivoiser, les cinq étapes du coaching émotionnel (Gottman), phrases qui aident et phrases qui coupent, valider ses propres émotions, fiche à télécharger
 - [Pleine Conscience Sensible au Trauma](https://laetitia-duchemin-psychologue.fr/pleine-conscience-sensible-au-trauma/): principes de David Treleaven, adaptations en séance, accompagnement
 - [TCTSY](https://laetitia-duchemin-psychologue.fr/tctsy/): Trauma Center Trauma-Sensitive Yoga, principes, recherche, accompagnement
 - [Confiance en soi](https://laetitia-duchemin-psychologue.fr/confiance-en-soi/): définition, sources selon Bandura, outil simple, accompagnement
@@ -55,6 +57,6 @@
 - [Appli Mes outils](https://laetitia-duchemin-psychologue.fr/appli/): appli web installable sans compte, fiches d'exercices, 8 audios guidés hors connexion (dont 4 pour les enfants), carnet personnel (situation problématique, déclencheurs, agenda du sommeil, 5 moments positifs) stocké uniquement sur le téléphone et imprimable, accès aux 7 questionnaires du site
 - [Tarifs et modalités](https://laetitia-duchemin-psychologue.fr/#infos): première consultation 1 h (70 €), consultation 1 h (70 €), séance ICV 1 h 30 (90 €), honoraires exonérés de TVA
 - [Réserver en ligne](https://rdv.deiz.fr/laetitia-duchemin-psychologue)
-- [Texte intégral du site](https://laetitia-duchemin-psychologue.fr/llms-full.txt): contenu complet des 49 pages, pour les assistants IA
+- [Texte intégral du site](https://laetitia-duchemin-psychologue.fr/llms-full.txt): contenu complet des 51 pages, pour les assistants IA
 
 Mis à jour en octobre 2026.
