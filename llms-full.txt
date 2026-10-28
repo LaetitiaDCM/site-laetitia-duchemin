@@ -821,9 +821,9 @@ Ce doctorat est en cours. Les résultats ne sont pas encore disponibles et cette
 
 - Teicher, M. H., & Samson, J. A. (2016). Annual research review: Enduring neurobiological effects of childhood abuse and neglect. Journal of Child Psychology and Psychiatry, 57(3), 241-266. https://doi.org/10.1111/jcpp.12507
 
-- Siegel, D. J. (1999). The Developing Mind. New York : Guilford Press.
+- Siegel, D. J. (2020). The Developing Mind: How Relationships and the Brain Interact to Shape Who We Are (3e éd.). New York : Guilford Press. (Ouvrage original publié en 1999)
 
-- Roisman, G. I., Padrón, E., Sroufe, L. A., & Egeland, B. (2002). Earned-secure attachment status in retrospect and prospect. Child Development, 73(4), 1204-1219. https://doi.org/10.1111/1467-8624.00467
+- Roisman, G. I., Padrón, E., Sroufe, L. A., & Egeland, B. (2002). Earned-secure attachment status in retrospect and prospect. Child Development, 73, 1204-1219. https://doi.org/10.1111/1467-8624.00467
 
 ## Questions fréquentes
 
@@ -880,7 +880,7 @@ Elle a l'avantage d'être une thérapie douce et complète : elle permet de trav
 
 ## La place du corps
 
-Selon la théorie polyvagale de Stephen Porges, notre système nerveux évalue en permanence, sans que nous en ayons conscience, si notre environnement est sûr ou menaçant : c'est la neuroception. Lorsqu'il perçoit un danger, il déclenche des réactions de protection (lutter, fuir, se figer), avant même que nous ayons eu le temps d'y réfléchir. Le psychiatre Bessel van der Kolk a montré, de son côté, que le corps garde la mémoire de ce que nous avons vécu.
+Selon la théorie polyvagale de Stephen Porges, notre système nerveux évalue en permanence, sans que nous en ayons conscience, si notre environnement est sûr ou menaçant : c'est la neuroception. Lorsqu'il perçoit un danger, il déclenche des réactions de protection (lutter, fuir, se figer), avant même que nous ayons eu le temps d'y réfléchir. Le psychiatre Bessel van der Kolk a popularisé, de son côté, l'idée que le corps garde la trace de ce que nous avons vécu.
 
 C'est dans le corps que s'engramment beaucoup de tensions, de sensations et d'émotions. Quand elles ne sont pas libérées ni exprimées, elles restent là, dans l'indicible. D'où l'importance d'agir avec le corps pour s'en libérer. Le mouvement est un élément important, qui participe pleinement à la thérapie (voir le corps en psychothérapie).
 
@@ -920,7 +920,7 @@ Non. Je vous explique au fil des séances ce que nous faisons et pourquoi.
 
 ## Sources
 
-- Pace, P. (2012). Lifespan Integration: Connecting Ego States through Time (5e éd.). Eirene Imprint.
+- Pace, P. (2012). Lifespan Integration: Connecting Ego States through Time. Eirene Imprint.
 
 - Porges, S. W. (2011). The Polyvagal Theory: Neurophysiological Foundations of Emotions, Attachment, Communication, and Self-regulation. New York : W. W. Norton.
 
@@ -977,7 +977,7 @@ Les liens entre trauma et santé physique sont bien établis : douleurs persista
 
 Un événement adverse, du latin adversus, « tourné contre », est un événement défavorable, qui va contre nous, et que l'on a dû subir. Face à un danger, le corps prépare une réponse de défense : fuir, se protéger, repousser. Quand cette réponse n'a pas pu aller jusqu'au bout, le corps peut en garder une trace, comme une action restée inachevée.
 
-Dès la fin du XIXe siècle, Pierre Janet remarquait que les personnes traumatisées restaient comme figées dans l'événement, incapables de « passer à l'acte suivant ». Peter Levine et Pat Ogden ont repris cette idée : permettre au corps de compléter, en sécurité, le mouvement de protection qui n'a pas pu se faire. Bouger en thérapie permet ainsi de passer d'une position où l'on a subi à une position où l'on agit. C'est ce que l'on appelle retrouver un sentiment d'agentivité, le sentiment d'être acteur de ce que l'on vit.
+Dès la fin du XIXe siècle, Pierre Janet remarquait que les personnes traumatisées restaient comme figées dans l'événement. Peter Levine et Pat Ogden ont repris cette idée : permettre au corps de compléter, en sécurité, le mouvement de protection qui n'a pas pu se faire. Bouger en thérapie permet ainsi de passer d'une position où l'on a subi à une position où l'on agit. C'est ce que l'on appelle retrouver un sentiment d'agentivité, le sentiment d'être acteur de ce que l'on vit.
 
 ## Le mouvement pour réguler les émotions
 
@@ -1015,7 +1015,7 @@ La relaxation regroupe des techniques qui aident le corps à relâcher les tensi
 
 La sophrologie, créée par le neuropsychiatre Alfonso Caycedo dans les années 1960, associe respiration, détente musculaire et visualisation. Elle est très pratiquée en France ; les études scientifiques à son sujet restent encore peu nombreuses.
 
-Après un trauma, la détente peut parfois, paradoxalement, faire monter l'anxiété : relâcher sa vigilance peut être vécu comme un danger (Heide et Borkovec, 1983). C'est pourquoi, en séance, ces exercices sont adaptés : yeux ouverts si vous le souhaitez, temps courts, possibilité de bouger ou de s'arrêter à tout moment.
+La détente peut parfois, paradoxalement, faire monter l'anxiété (Heide et Borkovec, 1983). Après un trauma, cela se comprend : relâcher sa vigilance peut être vécu comme un danger. C'est pourquoi, en séance, ces exercices sont adaptés : yeux ouverts si vous le souhaitez, temps courts, possibilité de bouger ou de s'arrêter à tout moment.
 
 ### Quelques exercices de relaxation
 
@@ -1079,7 +1079,7 @@ Les recherches actuelles lui donnent raison : décharger une émotion ne suffit 
 
 ## Marcher en thérapie
 
-La walking therapy, ou thérapie en marchant, consiste à mener la séance en se promenant, côte à côte, à l'extérieur. Le mouvement, la nature et le fait de ne pas être face à face peuvent faciliter la parole et l'apaisement. Les études sont encore peu nombreuses, surtout qualitatives, mais elles décrivent un cadre vécu comme plus libre et moins intimidant (Revell et McLeod, 2016). C'est une approche qui m'intéresse et que j'aimerais intégrer plus largement.
+La walking therapy, ou thérapie en marchant, consiste à mener la séance en se promenant, côte à côte, à l'extérieur. Le mouvement, la nature et le fait de ne pas être face à face peuvent faciliter la parole et l'apaisement. Les études sont encore peu nombreuses, surtout qualitatives. Les thérapeutes interrogés décrivent une pratique qui aide à sortir d'un sentiment de blocage, et une façon de travailler plus collaborative, côte à côte (Revell et McLeod, 2016). C'est une approche qui m'intéresse et que j'aimerais intégrer plus largement.
 
 ## Mon accompagnement
 
@@ -1111,11 +1111,11 @@ Oui, la parole garde toute sa place. Le travail corporel la complète : il aide 
 
 ## Sources
 
-- Porges, S. W. (2011). The Polyvagal Theory. New York : Norton.
+- Porges, S. W. (2011). The Polyvagal Theory: Neurophysiological Foundations of Emotions, Attachment, Communication, and Self-Regulation. New York : Norton.
 
 - Rauch, S. L., van der Kolk, B. A., Fisler, R. E., et al. (1996). A symptom provocation study of posttraumatic stress disorder using positron emission tomography and script-driven imagery. Archives of General Psychiatry, 53(5), 380-387. https://doi.org/10.1001/archpsyc.1996.01830050014003
 
-- van der Kolk, B. (2018). Le corps n'oublie rien. Paris : Albin Michel.
+- van der Kolk, B. A. (2018). Le corps n'oublie rien : le cerveau, l'esprit et le corps dans la guérison du traumatisme (A. Weill, trad.). Paris : Albin Michel.
 
 - Ogden, P., Minton, K., & Pain, C. (2006). Trauma and the Body: A Sensorimotor Approach to Psychotherapy. New York : Norton.
 
@@ -1129,7 +1129,7 @@ Oui, la parole garde toute sa place. Le travail corporel la complète : il aide 
 
 - Singh, B., Olds, T., Curtis, R., et al. (2023). Effectiveness of physical activity interventions for improving depression, anxiety and distress: An overview of systematic reviews. British Journal of Sports Medicine, 57(18), 1203-1209. https://doi.org/10.1136/bjsports-2022-106195
 
-- Organisation mondiale de la santé (2020). Lignes directrices de l'OMS sur l'activité physique et la sédentarité. Genève : OMS.
+- Organisation mondiale de la Santé. (2020). Lignes directrices de l'OMS sur l'activité physique et la sédentarité : en un coup d'œil. Genève : OMS.
 
 - Lehrer, P. M., & Gevirtz, R. (2014). Heart rate variability biofeedback: How and why does it work? Frontiers in Psychology, 5, 756. https://doi.org/10.3389/fpsyg.2014.00756
 
@@ -1139,7 +1139,7 @@ Oui, la parole garde toute sa place. Le travail corporel la complète : il aide 
 
 - Heide, F. J., & Borkovec, T. D. (1983). Relaxation-induced anxiety: Paradoxical anxiety enhancement due to relaxation training. Journal of Consulting and Clinical Psychology, 51(2), 171-182. https://doi.org/10.1037/0022-006x.51.2.171
 
-- Jacobson, E. (1938). Progressive Relaxation. Chicago : University of Chicago Press.
+- Jacobson, E. (1938). Progressive Relaxation: A Physiological and Clinical Investigation of Muscular States and Their Significance in Psychology and Medical Practice (2e éd.). Chicago : University of Chicago Press.
 
 - Lee, C. W., & Cuijpers, P. (2013). A meta-analysis of the contribution of eye movements in processing emotional memories. Journal of Behavior Therapy and Experimental Psychiatry, 44(2), 231-239. https://doi.org/10.1016/j.jbtep.2012.11.001
 
@@ -1151,17 +1151,17 @@ Oui, la parole garde toute sa place. Le travail corporel la complète : il aide 
 
 - Feinstein, D. (2010). Rapid treatment of PTSD: Why psychological exposure with acupoint tapping may be effective. Psychotherapy: Theory, Research, Practice, Training, 47(3), 385-402. https://doi.org/10.1037/a0021171
 
-- Treleaven, D. A. (2018). Trauma-Sensitive Mindfulness. New York : Norton.
+- Treleaven, D. A. (2018). Trauma-Sensitive Mindfulness: Practices for Safe and Transformative Healing. New York : W. W. Norton.
 
-- Emerson, D., & Hopper, E. (2011). Overcoming Trauma through Yoga. Berkeley : North Atlantic Books.
+- Emerson, D., & Hopper, E. (2011). Overcoming Trauma through Yoga: Reclaiming Your Body. Berkeley : North Atlantic Books.
 
 - van der Kolk, B. A., Stone, L., West, J., et al. (2014). Yoga as an adjunctive treatment for posttraumatic stress disorder: A randomized controlled trial. Journal of Clinical Psychiatry, 75(6), e559-e565. https://doi.org/10.4088/jcp.13m08561
 
 - Breuer, J., & Freud, S. (1895). Études sur l'hystérie. Trad. fr. Paris : PUF, 1956.
 
-- Janet, P. (1889). L'automatisme psychologique. Paris : Alcan.
+- Janet, P. (1889). L'automatisme psychologique : essai de psychologie expérimentale sur les formes inférieures de l'activité humaine. Paris : Alcan.
 
-- Bushman, B. J. (2002). Does venting anger feed or extinguish the flame? Personality and Social Psychology Bulletin, 28(6), 724-731. https://doi.org/10.1177/0146167202289002
+- Bushman, B. J. (2002). Does venting anger feed or extinguish the flame? Catharsis, rumination, distraction, anger, and aggressive responding. Personality and Social Psychology Bulletin, 28(6), 724-731. https://doi.org/10.1177/0146167202289002
 
 - Bruchon-Schweitzer, M. (1990). Une psychologie du corps. Paris : PUF. https://doi.org/10.3917/puf.bruch.1990.01
 
@@ -1242,7 +1242,7 @@ Pour découvrir l'approche plus en détail, vous pouvez consulter la plaquette d
 
 ## Ce que dit la recherche
 
-La recherche sur la LI-ICV est récente et encore peu développée. Une étude randomisée pilote (Rajan et al., 2020) a évalué une séance unique de LI modifiée après un événement traumatique unique : trois semaines plus tard, 72 % des personnes analysées n'avaient plus de score de stress post-traumatique, contre 6 % sur liste d'attente. Une étude exploratoire (Balkus, 2012, thèse de doctorat) menée auprès de 17 femmes ayant vécu des événements traumatiques rapporte, après deux séances de LI, un score moyen d'intrusion et d'évitement passé d'environ 28 à 6, puis à 3,7 un mois plus tard. Une étude de cas pragmatique menée sur six thérapies terminées (Bajramovic Richet, Branly et Duriez, 2023) rapporte, chez une patiente suivie pendant 18 mois (34 séances) pour un trouble d'anxiété généralisée, une diminution de l'anxiété et une amélioration de la régulation émotionnelle. Même si ces études portent sur de petits échantillons, elles convergent vers une diminution notable des troubles. Ma thèse de doctorat porte justement sur l'intérêt de la LI-ICV pour les jeunes adultes de 18 à 25 ans présentant un trauma complexe : découvrir ma recherche doctorale.
+La recherche sur la LI-ICV est récente et encore peu développée. Une étude randomisée pilote (Rajan et al., 2020) a évalué une séance unique de LI modifiée chez des jeunes femmes, après une agression sexuelle unique : trois semaines plus tard, 72 % des personnes analysées n'avaient plus de score de stress post-traumatique, contre 6 % sur liste d'attente. Une étude exploratoire (Balkus, 2012, thèse de doctorat) menée auprès de 17 femmes ayant vécu des événements traumatiques rapporte un score moyen d'intrusion et d'évitement passé d'environ 28 à 6 après une première séance de LI, puis à 3,7 après la seconde, trois à quatre semaines plus tard. Une étude de cas pragmatique menée sur six thérapies terminées (Bajramovic Richet, Branly et Duriez, 2023) rapporte, chez une patiente suivie pendant 18 mois (34 séances) pour un trouble d'anxiété généralisée, une diminution de l'anxiété et une amélioration de la régulation émotionnelle. Même si ces études portent sur de petits échantillons, elles convergent vers une diminution notable des troubles. Ma thèse de doctorat porte justement sur l'intérêt de la LI-ICV pour les jeunes adultes de 18 à 25 ans présentant un trauma complexe : découvrir ma recherche doctorale.
 
 Sources : Rajan et al. (2020), Journal of Interpersonal Violence, doi.org/10.1177/0886260520965973 · Balkus (2012), thèse, Northwest University · Bajramovic Richet, Branly et Duriez (2023), article sur ScienceDirect.
 
@@ -1473,11 +1473,11 @@ Ne pas le forcer : un adolescent contraint s'engage rarement. Vous pouvez venir
 
 ## Sources
 
-- Pace, P. (2012). Lifespan Integration: Connecting Ego States Through Time. Eirene Imprints.
+- Pace, P. (2012). Lifespan Integration: Connecting Ego States Through Time. Eirene Imprint.
 
-- Smith, J. (2024). Applications cliniques en ICV (Intégration du Cycle de la Vie). Trauma, dissociation, troubles anxieux, traumatismes précoces, attachement et affirmation de soi. Paris : Dunod.
+- Smith, J. (2024). Applications cliniques de l'ICV. Paris : Dunod.
 
-- LI-France, plaquette de présentation de la LI-ICV.
+- LI-France. (s. d.). Présentation de la thérapie LI-ICV [page et plaquette]. https://www.li-france.com/presentation-de-li-icv
 
 - Siegel, D. J., & Bryson, T. P. (2011). The Whole-Brain Child. New York : Delacorte Press. (trad. française : Le cerveau de votre enfant, Les Arènes, 2015)
 
@@ -1570,7 +1570,7 @@ Il n'existe pas une seule bonne thérapie du trauma. Ce qui compte le plus, quel
 
 ## Comment choisir ?
 
-Les deux thérapies se valent : le choix dépend surtout de la personne, de son histoire et de ce qu'elle préfère. Je pratique la LI-ICV, et je peux vous orienter vers un thérapeute EMDR si cette approche vous correspond davantage.
+Le choix dépend surtout de la personne, de son histoire et de ce qu'elle préfère. Je pratique la LI-ICV, et je peux vous orienter vers un thérapeute EMDR si cette approche vous correspond davantage.
 
 ## Questions fréquentes
 
@@ -1598,9 +1598,11 @@ Non. Je pratique la LI-ICV, et je peux vous orienter si vous souhaitez une thér
 
 - World Health Organization (2013). Guidelines for the Management of Conditions Specifically Related to Stress. Genève : OMS.
 
-- Pace, P. (2012). Lifespan Integration: Connecting Ego States through Time (5e éd.). Eirene Imprint.
+- Pace, P. (2012). Lifespan Integration: Connecting Ego States through Time. Eirene Imprint.
 
-- Smith, J. (2024). Applications cliniques en ICV (Intégration du Cycle de la Vie). Paris : Dunod.
+- Pace, P. (2018). Pratiquer l'ICV : l'intégration du cycle de la vie (2e éd., C. Clément & J. Smith, trad.). Malakoff : Dunod.
+
+- Smith, J. (2024). Applications cliniques de l'ICV. Paris : Dunod.
 
 - Levine, P. A. (1997). Waking the Tiger: Healing Trauma. Berkeley : North Atlantic Books.
 
@@ -1908,31 +1910,29 @@ Oui. Beaucoup de personnes consultent avec peu de souvenirs, ou sans souvenir pr
 
 - Herman, J. L. (1992). Complex PTSD: A syndrome in survivors of prolonged and repeated trauma. Journal of Traumatic Stress, 5(3), 377-391. https://doi.org/10.1002/jts.2490050305
 
-- Herman, J. L. (1992). Trauma and Recovery. New York : Basic Books.
+- Herman, J. L. (2022). Trauma and Recovery: The Aftermath of Violence, from Domestic Abuse to Political Terror (éd. avec un nouvel épilogue). New York : Basic Books. (Ouvrage original publié en 1992)
 
 - Freyd, J. J. (1996). Betrayal Trauma: The Logic of Forgetting Childhood Abuse. Cambridge (MA) : Harvard University Press.
 
 - van der Kolk, B. A. (2005). Developmental trauma disorder: Toward a rational diagnosis for children with complex trauma histories. Psychiatric Annals, 35(5), 401-408. https://doi.org/10.3928/00485713-20050501-06
 
-- Organisation mondiale de la santé. CIM-11, 6B41 Trouble de stress post-traumatique complexe.
+- Organisation mondiale de la santé. (2022). Classification internationale des maladies, 11e révision (CIM-11), code 6B41 (trouble de stress post-traumatique complexe). https://icd.who.int/
 
 - Maercker, A., Cloitre, M., Bachem, R., et al. (2022). Complex post-traumatic stress disorder. The Lancet, 400(10345), 60-72. https://doi.org/10.1016/s0140-6736(22)00821-2
 
-- Tarquinio, C. (dir.) (2022). Manuel des troubles psychotraumatiques. Théories et pratiques cliniques. Paris : Dunod.
+- Tarquinio, C., & Auxéméry, Y. (dir.). (2022). Manuel des troubles psychotraumatiques : théories et pratiques cliniques. Paris : Dunod.
 
-- Hingray, C., & El-Hage, W. (2020). Le trauma ? Comment s'en sortir. Je (re)prends ma vie en main. Bruxelles : De Boeck Supérieur.
+- Hingray, C., & El-Hage, W. (2020). Le trauma, comment s'en sortir ? (coll. Je (re)prends ma vie en main). Louvain-la-Neuve : De Boeck Supérieur.
 
 - Canini, F., El-Hage, W., & Garcia, R. (2024). L'ABC des psychotraumas. Approches biologiques et cliniques des psychotraumas. Paris : Ellipses.
 
-- Cohn, R. (2026). Le trauma de négligence. Reconnaître, accompagner et guérir, parce que rien n'est pas rien. Quantum Way.
+- Cohn, R. (2026). Le trauma de négligence : reconnaître, accompagner et guérir (préface d'É. Binet). Quantum Way Éditions.
 
-- Smith, J. (2021). Psychothérapie de la dissociation et du trauma (2e éd.). Paris : Dunod. https://doi.org/10.3917/dunod.smith.2021.01.0345
+- Smith, J. (2021). Psychothérapie de la dissociation et du trauma (2e éd.). Paris : Dunod.
 
 - Weathers, F. W., Litz, B. T., Keane, T. M., Palmieri, P. A., Marx, B. P., & Schnurr, P. P. (2013). The PTSD Checklist for DSM-5 (PCL-5). National Center for PTSD.
 
 - Ashbaugh, A. R., Houle-Johnson, S., Herbert, C., El-Hage, W., & Brunet, A. (2016). Psychometric validation of the English and French versions of the Posttraumatic Stress Disorder Checklist for DSM-5 (PCL-5). PLoS ONE, 11(10), e0161645. https://doi.org/10.1371/journal.pone.0161645
-
-- World Health Organization (2022). ICD-11: 6B41 Complex post traumatic stress disorder. Genève : OMS.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -2059,7 +2059,7 @@ Young a aussi observé que l'on se sent souvent attiré par ce qui est familier,
 
 ### Styles d'attachement et schémas : des liens fréquents
 
-Les recherches montrent des liens entre les styles d'attachement et certains schémas. Ce sont des tendances, et non des correspondances fixes : chaque histoire est singulière.
+Les recherches montrent des liens entre les styles d'attachement et les schémas : ils sont plus marqués dans le style anxieux, puis dans le style craintif, et plus modérés dans le style évitant. Ce sont des tendances, et non des correspondances fixes : chaque histoire est singulière. En clinique, on retrouve souvent :
 
 - Attachement anxieux (préoccupé)  : souvent associé aux schémas d'abandon, de dépendance et d'assujettissement (voir l'attachement anxieux).
 
@@ -2117,33 +2117,35 @@ Dès l'enfance, à partir des milliers d'échanges avec les personnes qui prenne
 
 ## Sources
 
-- Cassidy, J., & Berlin, L. J. (1994). The insecure/ambivalent pattern of attachment: Theory and research. Child Development, 65(4), 971-991. https://doi.org/10.2307/1131298
+- Cassidy, J., & Berlin, L. J. (1994). The insecure/ambivalent pattern of attachment: Theory and research. Child Development, 65(4), 971-991. https://doi.org/10.1111/j.1467-8624.1994.tb00796.x
 
-- Bowlby, J. (1969). Attachment and Loss. Vol. 1 : Attachment. New York : Basic Books.
+- Bowlby, J. (1982). Attachment and Loss. Vol. 1 : Attachment (2e éd.). New York : Basic Books.
 
-- Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. (1978). Patterns of Attachment. Hillsdale : Erlbaum.
+- Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. (1978). Patterns of Attachment: A Psychological Study of the Strange Situation. Hillsdale : Erlbaum.
 
-- Main, M., & Solomon, J. (1990). Procedures for identifying infants as disorganized/disoriented during the Ainsworth Strange Situation. In M. T. Greenberg, D. Cicchetti & E. M. Cummings (dir.), Attachment in the Preschool Years. Chicago : University of Chicago Press.
+- Main, M., & Solomon, J. (1990). Procedures for identifying infants as disorganized/disoriented during the Ainsworth Strange Situation. In M. T. Greenberg, D. Cicchetti, & E. M. Cummings (dir.), Attachment in the Preschool Years: Theory, Research, and Intervention. Chicago : University of Chicago Press.
 
 - Hazan, C., & Shaver, P. (1987). Romantic love conceptualized as an attachment process. Journal of Personality and Social Psychology, 52(3), 511-524. https://doi.org/10.1037/0022-3514.52.3.511
 
 - Bartholomew, K., & Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. Journal of Personality and Social Psychology, 61(2), 226-244. https://doi.org/10.1037/0022-3514.61.2.226
 
-- Brennan, K. A., Clark, C. L., & Shaver, P. R. (1998). Self-report measurement of adult attachment: An integrative overview. In J. A. Simpson & W. S. Rholes (dir.), Attachment Theory and Close Relationships (p. 46-76). New York : Guilford Press.
+- Brennan, K. A., Clark, C. L., & Shaver, P. R. (1998). Self-report measurement of adult romantic attachment: An integrative overview. In J. A. Simpson & W. S. Rholes (dir.), Attachment Theory and Close Relationships (p. 46-76). New York : Guilford Press.
 
-- Guédeney, N., & Guédeney, A. (dir.) (2021). L'attachement : approche théorique. Du bébé à la personne âgée (5e éd.). Paris : Elsevier Masson.
+- Guédeney, N., Guédeney, A., & Tereno, S. (dir.). (2021). L'attachement : approche théorique et évaluation (5e éd.). Paris : Elsevier Masson.
 
-- Smith, J. (2024). Applications cliniques en ICV (Intégration du Cycle de la Vie). Trauma, dissociation, troubles anxieux, traumatismes précoces, attachement et affirmation de soi. Paris : Dunod.
+- Smith, J. (2024). Applications cliniques de l'ICV. Paris : Dunod.
 
 - Bowlby, J. (1973). Attachment and Loss. Vol. 2 : Separation: Anxiety and Anger. New York : Basic Books.
 
 - Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press.
 
-- Young, J. E., & Klosko, J. S. (1993). Reinventing Your Life. New York : Plume. (trad. française : Je réinvente ma vie, Éditions de l'Homme)
+- Young, J. E., & Klosko, J. S. (1993). Reinventing Your Life: The Breakthrough Program to End Negative Behavior... and Feel Great Again. New York : Dutton. (trad. française : Je réinvente ma vie, Éditions de l'Homme)
 
 - Mason, O., Platts, H., & Tyson, M. (2005). Early maladaptive schemas and adult attachment in a UK clinical population. Psychology and Psychotherapy: Theory, Research and Practice, 78(4), 549-564. https://doi.org/10.1348/147608305x41371
 
 - Bosmans, G., Braet, C., & Van Vlierberghe, L. (2010). Attachment and symptoms of psychopathology: Early maladaptive schemas as a cognitive link? Clinical Psychology & Psychotherapy, 17(5), 374-385. https://doi.org/10.1002/cpp.667
+
+- Karantzas, G. C., Younan, R., & Pilkington, P. D. (2023). The associations between early maladaptive schemas and adult attachment styles: A meta-analysis. Clinical Psychology: Science and Practice, 30(1), 1-20. https://doi.org/10.1037/cps0000108
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -2255,7 +2257,7 @@ Les schémas précoces décrits par le psychologue Jeffrey Young y sont en gén�
 
 ## L'attachement sécure acquis
 
-Des chercheurs ont décrit des adultes qui, malgré une enfance marquée par l'insécurité, ont développé un attachement sécure. Ce qui les distingue n'est pas l'absence de difficultés passées, mais la capacité à raconter leur histoire de façon cohérente, en y donnant du sens. Des relations réparatrices, un partenaire, un ami, un thérapeute, contribuent à cette évolution. On retrouve ici la notion de résilience : la capacité à se reconstruire après des expériences difficiles, en s'appuyant sur des liens qui soutiennent.
+Des chercheurs ont décrit des adultes qui, malgré une enfance marquée par l'insécurité, ont développé un attachement sécure. Ce qui les distingue n'est pas l'absence de difficultés passées, mais la capacité à raconter leur histoire de façon cohérente, en y donnant du sens. Les recherches soulignent aussi le rôle d'autres figures d'attachement, en dehors des parents. Des relations réparatrices, un partenaire, un ami, un thérapeute, peuvent ainsi contribuer à cette évolution. On retrouve ici la notion de résilience : la capacité à se reconstruire après des expériences difficiles, en s'appuyant sur des liens qui soutiennent.
 
 La LI-ICV permet justement ce travail d'évolution vers un attachement sécure acquis : en reliant les différents moments de la vie, elle aide à construire une histoire cohérente et un sentiment de sécurité intérieure. C'est l'objet de ma recherche doctorale.
 
@@ -2297,13 +2299,17 @@ Non. Des parents « suffisamment bons », selon l'expression du pédiatre Donald
 
 - Bowlby, J. (1988). A Secure Base: Parent-Child Attachment and Healthy Human Development. New York : Basic Books.
 
-- Roisman, G. I., Padrón, E., Sroufe, L. A., & Egeland, B. (2002). Earned-secure attachment status in retrospect and prospect. Child Development, 73(4), 1204-1219. https://doi.org/10.1111/1467-8624.00467
+- Roisman, G. I., Padrón, E., Sroufe, L. A., & Egeland, B. (2002). Earned-secure attachment status in retrospect and prospect. Child Development, 73, 1204-1219. https://doi.org/10.1111/1467-8624.00467
+
+- Filosa, M., Sharp, C., Gori, A., & Musetti, A. (2026). A comprehensive scoping review of empirical studies on earned secure attachment. Psychological Reports, 129(3), 1807-1832. https://doi.org/10.1177/00332941241277495
 
 - Mikulincer, M., & Shaver, P. R. (2016). Attachment in Adulthood: Structure, Dynamics, and Change (2e éd.). New York : Guilford Press.
 
 - Bowlby, J. (1973). Attachment and Loss. Vol. 2 : Separation: Anxiety and Anger. New York : Basic Books.
 
 - Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press.
+
+- Karantzas, G. C., Younan, R., & Pilkington, P. D. (2023). The associations between early maladaptive schemas and adult attachment styles: A meta-analysis. Clinical Psychology: Science and Practice, 30(1), 1-20. https://doi.org/10.1037/cps0000108
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -2342,7 +2348,7 @@ Rester très attentif à l'autre a été, pour l'enfant, la meilleure façon de 
 
 Dans l'attachement anxieux, la carte intérieure de la relation, ce que John Bowlby appelait les modèles internes opérants, associe souvent une image de soi fragile et une image de l'autre précieuse mais incertaine : « l'autre peut m'apporter ce dont j'ai besoin, mais je ne sais jamais s'il sera là » (voir pourquoi répète-t-on les mêmes schémas).
 
-Les recherches montrent que ce style est souvent associé à certains schémas précoces décrits par le psychologue Jeffrey Young (voir les schémas précoces) :
+Les recherches montrent que c'est le style le plus fortement associé aux schémas précoces décrits par le psychologue Jeffrey Young (voir les schémas précoces), en particulier à ceux qui touchent à la peur de perdre le lien et au besoin de faire passer l'autre avant soi. En clinique, on retrouve souvent :
 
 - L'abandon. « Les personnes importantes finissent toujours par partir. »
 
@@ -2355,6 +2361,8 @@ Lorsqu'un message reste sans réponse, ces schémas peuvent s'activer et colorer
 ## Anxieux et évitant : un duo fréquent
 
 Les personnes au style anxieux se retrouvent souvent avec des personnes au style évitant : la quête de proximité de l'une active le besoin de distance de l'autre, et la distance de l'autre ravive la peur de l'une.
+
+Prendre rendez-vous
 
 ## Des pistes pour s'apaiser
 
@@ -2406,9 +2414,9 @@ Pas nécessairement. La jalousie peut en faire partie, mais le cœur de l'attach
 
 ## Sources
 
-- Cassidy, J., & Berlin, L. J. (1994). The insecure/ambivalent pattern of attachment: Theory and research. Child Development, 65(4), 971-991. https://doi.org/10.2307/1131298
+- Cassidy, J., & Berlin, L. J. (1994). The insecure/ambivalent pattern of attachment: Theory and research. Child Development, 65(4), 971-991. https://doi.org/10.1111/j.1467-8624.1994.tb00796.x
 
-- Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. (1978). Patterns of Attachment. Hillsdale : Erlbaum.
+- Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. (1978). Patterns of Attachment: A Psychological Study of the Strange Situation. Hillsdale : Erlbaum.
 
 - Bartholomew, K., & Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. Journal of Personality and Social Psychology, 61(2), 226-244. https://doi.org/10.1037/0022-3514.61.2.226
 
@@ -2421,6 +2429,8 @@ Pas nécessairement. La jalousie peut en faire partie, mais le cœur de l'attach
 - Mason, O., Platts, H., & Tyson, M. (2005). Early maladaptive schemas and adult attachment in a UK clinical population. Psychology and Psychotherapy: Theory, Research and Practice, 78(4), 549-564. https://doi.org/10.1348/147608305x41371
 
 - Bosmans, G., Braet, C., & Van Vlierberghe, L. (2010). Attachment and symptoms of psychopathology: Early maladaptive schemas as a cognitive link? Clinical Psychology & Psychotherapy, 17(5), 374-385. https://doi.org/10.1002/cpp.667
+
+- Karantzas, G. C., Younan, R., & Pilkington, P. D. (2023). The associations between early maladaptive schemas and adult attachment styles: A meta-analysis. Clinical Psychology: Science and Practice, 30(1), 1-20. https://doi.org/10.1037/cps0000108
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -2453,13 +2463,13 @@ L'attachement évitant est l'un des styles d'attachement insécures. Il se const
 
 ## Ce que ce style protège
 
-L'évitement n'est pas de l'indifférence. C'est une stratégie apprise tôt pour se protéger de la douleur de ne pas être entendu : si je n'attends rien, je ne peux pas être déçu. Les recherches montrent d'ailleurs que, sous un calme apparent, le corps réagit fortement à la séparation : les émotions sont là, mais mises à distance.
+L'évitement n'est pas de l'indifférence. C'est une stratégie apprise tôt pour se protéger de la douleur de ne pas être entendu : si je n'attends rien, je ne peux pas être déçu. Une étude montre d'ailleurs que, sous un calme apparent, ces bébés réagissent à la séparation : leur rythme cardiaque s'active autant que celui des autres bébés, et leur cortisol, l'hormone du stress, augmente. Les émotions sont là, mais mises à distance.
 
 ## Modèles internes et schémas : ce qui se rejoue
 
 Dans l'attachement évitant, la carte intérieure de la relation, les modèles internes opérants décrits par John Bowlby, s'est souvent construite autour d'une idée : compter sur soi est plus sûr que compter sur les autres. Exprimer un besoin a pu, un jour, rester sans réponse ; l'enfant a alors appris à s'en passer (voir pourquoi répète-t-on les mêmes schémas).
 
-Les recherches montrent que ce style est souvent associé à certains schémas précoces décrits par le psychologue Jeffrey Young (voir les schémas précoces) :
+Les recherches montrent que ce style est lui aussi associé aux schémas précoces décrits par le psychologue Jeffrey Young, de façon plus modérée que le style anxieux (voir les schémas précoces). En clinique, on retrouve souvent :
 
 - La carence affective. « Personne ne pourra vraiment comprendre ni combler ce dont j'ai besoin. »
 
@@ -2472,6 +2482,8 @@ Ces schémas peuvent se rejouer sous la forme d'une prise de distance : se repl
 ## Évitant et anxieux : un duo fréquent
 
 Les personnes au style évitant se retrouvent souvent en couple avec des personnes au style anxieux. Plus l'une cherche la proximité, plus l'autre prend de la distance, et inversement : chacun renforce, sans le vouloir, la peur de l'autre.
+
+Prendre rendez-vous
 
 ## Des pistes pour avancer
 
@@ -2521,9 +2533,11 @@ Pas forcément. On parle de style principal : on peut être plus évitant dans l
 
 ## Sources
 
-- Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. (1978). Patterns of Attachment. Hillsdale : Erlbaum.
+- Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. (1978). Patterns of Attachment: A Psychological Study of the Strange Situation. Hillsdale : Erlbaum.
 
-- Belsky, J., Rovine, M., & Taylor, D. G. (1984). The Pennsylvania Infant and Family Development Project, III: The origins of individual differences in infant-mother attachment. Child Development, 55(3), 718-728. https://doi.org/10.2307/1130124
+- Belsky, J., Rovine, M., & Taylor, D. G. (1984). The Pennsylvania Infant and Family Development Project, III: The origins of individual differences in infant-mother attachment: Maternal and infant contributions. Child Development, 55(3), 718-728. https://doi.org/10.2307/1130124
+
+- Spangler, G., & Grossmann, K. E. (1993). Biobehavioral organization in securely and insecurely attached infants. Child Development, 64(5), 1439-1450.
 
 - Bartholomew, K., & Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. Journal of Personality and Social Psychology, 61(2), 226-244. https://doi.org/10.1037/0022-3514.61.2.226
 
@@ -2536,6 +2550,8 @@ Pas forcément. On parle de style principal : on peut être plus évitant dans l
 - Mason, O., Platts, H., & Tyson, M. (2005). Early maladaptive schemas and adult attachment in a UK clinical population. Psychology and Psychotherapy: Theory, Research and Practice, 78(4), 549-564. https://doi.org/10.1348/147608305x41371
 
 - Bosmans, G., Braet, C., & Van Vlierberghe, L. (2010). Attachment and symptoms of psychopathology: Early maladaptive schemas as a cognitive link? Clinical Psychology & Psychotherapy, 17(5), 374-385. https://doi.org/10.1002/cpp.667
+
+- Karantzas, G. C., Younan, R., & Pilkington, P. D. (2023). The associations between early maladaptive schemas and adult attachment styles: A meta-analysis. Clinical Psychology: Science and Practice, 30(1), 1-20. https://doi.org/10.1037/cps0000108
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -2602,7 +2618,7 @@ Cette histoire rend aussi plus vulnérable au lien traumatique : on peut cherche
 
 Dans l'attachement désorganisé, la carte intérieure de la relation, les modèles internes opérants décrits par John Bowlby, porte souvent deux messages en même temps : « j'ai besoin de l'autre » et « l'autre peut me faire du mal ». C'est ce qui rend les mouvements d'approche et de fuite si difficiles à comprendre de l'intérieur (voir pourquoi répète-t-on les mêmes schémas).
 
-Les recherches montrent que ce style est souvent associé à certains schémas précoces décrits par le psychologue Jeffrey Young (voir les schémas précoces) :
+Les recherches montrent que le style craintif, dont il se rapproche à l'âge adulte, est nettement associé aux schémas précoces décrits par le psychologue Jeffrey Young (voir les schémas précoces). En clinique, on retrouve souvent :
 
 - La méfiance. « Si je baisse la garde, on me fera du mal. »
 
@@ -2678,17 +2694,17 @@ Souvent, ils étaient eux-mêmes effrayés, et portaient une histoire qui ne s'�
 
 ## Sources
 
-- Main, M., & Solomon, J. (1990). Procedures for identifying infants as disorganized/disoriented during the Ainsworth Strange Situation. In M. T. Greenberg, D. Cicchetti & E. M. Cummings (dir.), Attachment in the Preschool Years. Chicago : University of Chicago Press.
+- Main, M., & Solomon, J. (1990). Procedures for identifying infants as disorganized/disoriented during the Ainsworth Strange Situation. In M. T. Greenberg, D. Cicchetti, & E. M. Cummings (dir.), Attachment in the Preschool Years: Theory, Research, and Intervention. Chicago : University of Chicago Press.
 
 - Liotti, G. (2004). Trauma, dissociation, and disorganized attachment: Three strands of a single braid. Psychotherapy: Theory, Research, Practice, Training, 41(4), 472-486. https://doi.org/10.1037/0033-3204.41.4.472
 
 - Mikulincer, M., & Shaver, P. R. (2016). Attachment in Adulthood: Structure, Dynamics, and Change (2e éd.). New York : Guilford Press.
 
-- Main, M., & Hesse, E. (1990). Parents' unresolved traumatic experiences are related to infant disorganized attachment status: Is frightened and/or frightening parental behavior the linking mechanism? In M. T. Greenberg, D. Cicchetti & E. M. Cummings (dir.), Attachment in the Preschool Years (p. 161-182). Chicago : University of Chicago Press.
+- Main, M., & Hesse, E. (1990). Parents' unresolved traumatic experiences are related to infant disorganized attachment status: Is frightened and/or frightening parental behavior the linking mechanism? In M. T. Greenberg, D. Cicchetti, & E. M. Cummings (dir.), Attachment in the Preschool Years: Theory, Research, and Intervention (p. 161-182). Chicago : University of Chicago Press.
 
 - Main, M., & Cassidy, J. (1988). Categories of response to reunion with the parent at age 6: Predictable from infant attachment classifications and stable over a 1-month period. Developmental Psychology, 24(3), 415-426. https://doi.org/10.1037/0012-1649.24.3.415
 
-- Liotti, G. (1999). Disorganization of attachment as a model for understanding dissociative psychopathology. In J. Solomon & C. George (dir.), Attachment Disorganization (p. 291-317). New York : Guilford Press.
+- Liotti, G. (1999). Disorganization of attachment as a model for understanding dissociative psychopathology. In J. Solomon & C. George (dir.), Attachment Disorganization. New York : Guilford Press.
 
 - Bartholomew, K., & Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. Journal of Personality and Social Psychology, 61(2), 226-244. https://doi.org/10.1037/0022-3514.61.2.226
 
@@ -2699,6 +2715,8 @@ Souvent, ils étaient eux-mêmes effrayés, et portaient une histoire qui ne s'�
 - Mason, O., Platts, H., & Tyson, M. (2005). Early maladaptive schemas and adult attachment in a UK clinical population. Psychology and Psychotherapy: Theory, Research and Practice, 78(4), 549-564. https://doi.org/10.1348/147608305x41371
 
 - Bosmans, G., Braet, C., & Van Vlierberghe, L. (2010). Attachment and symptoms of psychopathology: Early maladaptive schemas as a cognitive link? Clinical Psychology & Psychotherapy, 17(5), 374-385. https://doi.org/10.1002/cpp.667
+
+- Karantzas, G. C., Younan, R., & Pilkington, P. D. (2023). The associations between early maladaptive schemas and adult attachment styles: A meta-analysis. Clinical Psychology: Science and Practice, 30(1), 1-20. https://doi.org/10.1037/cps0000108
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -2877,11 +2895,11 @@ Parce que le silence réveille une alarme ancienne : le système nerveux le lit 
 
 - André, C., & Lelord, F. (1999). L'estime de soi. S'aimer pour mieux vivre avec les autres. Paris : Odile Jacob.
 
-- Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. (1978). Patterns of Attachment. Hillsdale : Erlbaum.
+- Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. (1978). Patterns of Attachment: A Psychological Study of the Strange Situation. Hillsdale : Erlbaum.
 
-- Cassidy, J., & Berlin, L. J. (1994). The insecure/ambivalent pattern of attachment: Theory and research. Child Development, 65(4), 971-991. https://doi.org/10.2307/1131298
+- Cassidy, J., & Berlin, L. J. (1994). The insecure/ambivalent pattern of attachment: Theory and research. Child Development, 65(4), 971-991. https://doi.org/10.1111/j.1467-8624.1994.tb00796.x
 
-- Main, M., & Hesse, E. (1990). Parents' unresolved traumatic experiences are related to infant disorganized attachment status: Is frightened and/or frightening parental behavior the linking mechanism? In M. T. Greenberg, D. Cicchetti & E. M. Cummings (dir.), Attachment in the Preschool Years (p. 161-182). Chicago : University of Chicago Press.
+- Main, M., & Hesse, E. (1990). Parents' unresolved traumatic experiences are related to infant disorganized attachment status: Is frightened and/or frightening parental behavior the linking mechanism? In M. T. Greenberg, D. Cicchetti, & E. M. Cummings (dir.), Attachment in the Preschool Years: Theory, Research, and Intervention (p. 161-182). Chicago : University of Chicago Press.
 
 - Bartholomew, K., & Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. Journal of Personality and Social Psychology, 61(2), 226-244. https://doi.org/10.1037/0022-3514.61.2.226
 
@@ -2889,15 +2907,17 @@ Parce que le silence réveille une alarme ancienne : le système nerveux le lit 
 
 - Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press.
 
-- Mahler, M. S., Pine, F., & Bergman, A. (1975). The Psychological Birth of the Human Infant. New York : Basic Books.
+- Mahler, M. S., Pine, F., & Bergman, A. (1975). The Psychological Birth of the Human Infant: Symbiosis and Individuation. New York : Basic Books.
 
 - Winnicott, D. W. (1958). The capacity to be alone. International Journal of Psycho-Analysis, 39, 416-420.
 
 - Dutton, D. G., & Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. Victimology, 6(1-4), 139-155.
 
-- Porges, S. W. (2011). The Polyvagal Theory. New York : Norton.
+- Porges, S. W. (2011). The Polyvagal Theory: Neurophysiological Foundations of Emotions, Attachment, Communication, and Self-Regulation. New York : Norton.
 
 - Dana, D. (2021). Anchored: How to Befriend Your Nervous System Using Polyvagal Theory. Boulder : Sounds True.
+
+- Dana, D. (2018). The Polyvagal Theory in Therapy: Engaging the Rhythm of Regulation. New York : W. W. Norton.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -3195,23 +3215,23 @@ Non. Les sensations sont réelles. La dissociation somatique décrit la façon d
 
 - American Psychiatric Association (2022). DSM-5-TR, section « Troubles dissociatifs ».
 
-- Organisation mondiale de la santé. CIM-11, 6B6 Troubles dissociatifs.
+- Organisation mondiale de la santé. (2022). Classification internationale des maladies, 11e révision (CIM-11), code 6B6 (troubles dissociatifs). https://icd.who.int/
 
 - Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2010). Le Soi hanté. Dissociation structurelle et traitement de la traumatisation chronique. Bruxelles : De Boeck.
 
-- Boon, S., Steele, K., & Van der Hart, O. (2014). Gérer la dissociation d'origine traumatique. Exercices pratiques pour patients et thérapeutes. Bruxelles : De Boeck Supérieur. https://doi.org/10.3917/dbu.boons.2014.01
+- Boon, S., Steele, K., & Van der Hart, O. (2014). Gérer la dissociation d'origine traumatique : exercices pratiques pour patients et thérapeutes. Louvain-la-Neuve : De Boeck Supérieur. https://doi.org/10.3917/dbu.boons.2014.01
 
-- Thiriez, I. Fiche « Ancrage ». igorthiriez.com
+- Thiriez, I. (2021, 21 novembre). Ancrage [affiche]. Aliéniste & Rockologue. https://igorthiriez.com/portfolio/ancrage/
 
 - Schwartz, R. C. (2021). No Bad Parts. Healing Trauma and Restoring Wholeness with the Internal Family Systems Model. Boulder : Sounds True.
 
-- Smith, J. (2021). Psychothérapie de la dissociation et du trauma (2e éd.). Paris : Dunod. https://doi.org/10.3917/dunod.smith.2021.01.0345
+- Smith, J. (2021). Psychothérapie de la dissociation et du trauma (2e éd.). Paris : Dunod.
 
 - Nijenhuis, E. R. S., Spinhoven, P., Van Dyck, R., Van der Hart, O., & Vanderlinden, J. (1996). The development and psychometric characteristics of the Somatoform Dissociation Questionnaire (SDQ-20). Journal of Nervous and Mental Disease, 184(11), 688-694. https://doi.org/10.1097/00005053-199611000-00006
 
 - Nijenhuis, E. R. S. (2004). Somatoform Dissociation: Phenomena, Measurement, and Theoretical Issues. New York : W. W. Norton.
 
-- Organisation mondiale de la santé. CIM-11, 6B60 Trouble dissociatif à symptômes neurologiques.
+- Organisation mondiale de la santé. (2022). Classification internationale des maladies, 11e révision (CIM-11), code 6B60 (trouble dissociatif à symptômes neurologiques). https://icd.who.int/
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -3250,7 +3270,7 @@ Ces impressions sont souvent difficiles à décrire, et elles font peur. Elles n
 
 ## Une expérience fréquente
 
-Près d'une personne sur deux connaît au moins un épisode passager de dépersonnalisation ou de déréalisation au cours de sa vie, par exemple après une nuit blanche, un choc ou une crise d'angoisse. Elles deviennent une difficulté lorsqu'elles reviennent souvent, durent, ou perturbent la vie quotidienne.
+Selon les études, entre un quart et les trois quarts des personnes connaissent au moins un épisode passager de dépersonnalisation ou de déréalisation au cours de leur vie, par exemple après une nuit blanche, un choc ou une crise d'angoisse. Elles deviennent une difficulté lorsqu'elles reviennent souvent, durent, ou perturbent la vie quotidienne.
 
 ## Pourquoi ces sensations font-elles si peur ?
 
@@ -3346,9 +3366,9 @@ La déréalisation et la dépersonnalisation sont des formes de dissociation. La
 
 - Hunter, E. C. M., Sierra, M., & David, A. S. (2004). The epidemiology of depersonalisation and derealisation: A systematic review. Social Psychiatry and Psychiatric Epidemiology, 39(1), 9-18. https://doi.org/10.1007/s00127-004-0701-4
 
-- Simeon, D., & Abugel, J. (2006). Feeling Unreal: Depersonalization Disorder and the Loss of the Self. New York : Oxford University Press.
+- Simeon, D., & Abugel, J. (2023). Feeling Unreal: Depersonalization and the Loss of the Self (2e éd.). New York : Oxford University Press.
 
-- American Psychiatric Association (2013). DSM-5 : Manuel diagnostique et statistique des troubles mentaux (5e éd.).
+- American Psychiatric Association. (2023). DSM-5-TR : Manuel diagnostique et statistique des troubles mentaux, texte révisé (M.-A. Crocq, A. E. Boehrer & J.-D. Guelfi, trad.). Issy-les-Moulineaux : Elsevier Masson.
 
 - Medford, N., Baker, D., Hunter, E., Sierra, M., Lawrence, E., Phillips, M. L., & David, A. S. (2003). Chronic depersonalization following illicit drug use: A controlled analysis of 40 cases. Addiction, 98(12), 1731-1736. https://doi.org/10.1111/j.1360-0443.2003.00548.x
 
@@ -3485,7 +3505,7 @@ Les deux peuvent donner une attention dispersée, de l'agitation et des difficul
 
 - van der Kolk, B. (2014). The Body Keeps the Score. New York : Viking. Traduction française : Le corps n'oublie rien (2018). Paris : Albin Michel.
 
-- Organisation mondiale de la santé (2022). CIM-11, 6B40 Trouble de stress post-traumatique.
+- Organisation mondiale de la santé. (2022). Classification internationale des maladies, 11e révision (CIM-11), code 6B40 (trouble de stress post-traumatique). https://icd.who.int/
 
 - Orr, S. P., Metzger, L. J., & Pitman, R. K. (2002). Psychophysiology of post-traumatic stress disorder. Psychiatric Clinics of North America, 25(2), 271-293. https://doi.org/10.1016/s0193-953x(01)00007-7
 
@@ -3608,7 +3628,7 @@ Oui. Une partie de ce qui a été vécu reste gardée dans la mémoire implicite
 
 - Brewin, C. R. (2014). Episodic memory, perceptual memory, and their interaction: Foundations for a theory of posttraumatic stress disorder. Psychological Bulletin, 140(1), 69-97. https://doi.org/10.1037/a0033722
 
-- American Psychiatric Association (2013). DSM-5 : Manuel diagnostique et statistique des troubles mentaux (5e éd.), amnésie dissociative.
+- American Psychiatric Association. (2023). DSM-5-TR : Manuel diagnostique et statistique des troubles mentaux, texte révisé (M.-A. Crocq, A. E. Boehrer & J.-D. Guelfi, trad.). Issy-les-Moulineaux : Elsevier Masson.
 
 - Loftus, E. F. (1997). Creating false memories. Scientific American, 277(3), 70-75. https://doi.org/10.1038/scientificamerican0997-70
 
@@ -3751,15 +3771,15 @@ En observant, sans vous juger, ce qui se passe juste avant une réaction forte :
 
 ## Sources
 
-- Porges, S. W. (2011). The Polyvagal Theory. New York : Norton.
+- Porges, S. W. (2011). The Polyvagal Theory: Neurophysiological Foundations of Emotions, Attachment, Communication, and Self-Regulation. New York : Norton.
 
 - Ehlers, A., & Clark, D. M. (2000). A cognitive model of posttraumatic stress disorder. Behaviour Research and Therapy, 38(4), 319-345. https://doi.org/10.1016/s0005-7967(99)00123-0
 
 - Brewin, C. R., Dalgleish, T., & Joseph, S. (1996). A dual representation theory of posttraumatic stress disorder. Psychological Review, 103(4), 670-686. https://doi.org/10.1037/0033-295x.103.4.670
 
-- Siegel, D. J. (1999). The Developing Mind. New York : Guilford Press.
+- Siegel, D. J. (2020). The Developing Mind: How Relationships and the Brain Interact to Shape Who We Are (3e éd.). New York : Guilford Press. (Ouvrage original publié en 1999)
 
-- van der Kolk, B. (2018). Le corps n'oublie rien. Paris : Albin Michel.
+- van der Kolk, B. A. (2018). Le corps n'oublie rien : le cerveau, l'esprit et le corps dans la guérison du traumatisme (A. Weill, trad.). Paris : Albin Michel.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -3856,7 +3876,7 @@ Non. Le cerveau continue de se transformer tout au long de la vie, et il est pos
 
 - Felitti, V. J., Anda, R. F., Nordenberg, D., et al. (1998). Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: The Adverse Childhood Experiences (ACE) Study. American Journal of Preventive Medicine, 14(4), 245-258. https://doi.org/10.1016/s0749-3797(98)00017-8
 
-- Herman, J. L. (1992). Trauma and Recovery. New York : Basic Books.
+- Herman, J. L. (2022). Trauma and Recovery: The Aftermath of Violence, from Domestic Abuse to Political Terror (éd. avec un nouvel épilogue). New York : Basic Books. (Ouvrage original publié en 1992)
 
 - Teicher, M. H., & Samson, J. A. (2016). Annual research review: Enduring neurobiological effects of childhood abuse and neglect. Journal of Child Psychology and Psychiatry, 57(3), 241-266. https://doi.org/10.1111/jcpp.12507
 
@@ -3947,7 +3967,7 @@ Elle peut beaucoup s'apaiser, surtout quand elle est partagée dans une relation
 
 - Lee, D. A., Scragg, P., & Turner, S. (2001). The role of shame and guilt in traumatic events: A clinical model of shame-based and guilt-based PTSD. British Journal of Medical Psychology, 74(4), 451-466. https://doi.org/10.1348/000711201161109
 
-- Kubany, E. S., & Watson, S. B. (2003). Guilt: Elaboration of a multidimensional model. The Psychological Record, 53(1), 51-90.
+- Kubany, E. S., & Watson, S. B. (2003). Guilt: Elaboration of a multidimensional model. The Psychological Record, 53, 51-90.
 
 - Neff, K. D. (2003). Self-compassion: An alternative conceptualization of a healthy attitude toward oneself. Self and Identity, 2(2), 85-101. https://doi.org/10.1080/15298860309032
 
@@ -4046,7 +4066,7 @@ Le lien d'emprise fonctionne comme un élastique : plus on s'éloigne, plus il s
 
 - Le lien traumatique. L'alternance imprévisible de tendresse et de souffrance renforce l'attachement : des moments doux, rares et inattendus attachent plus fort qu'une tendresse constante.
 
-- Le cycle de la violence. La psychologue Lenore Walker a décrit un cycle qui se répète : la tension monte, une crise éclate, viennent ensuite les justifications, puis une phase de réconciliation, parfois appelée « lune de miel ». Cette dernière phase fait renaître l'espoir.
+- Le cycle de la violence. La psychologue Lenore Walker a décrit un cycle en trois phases, qui se répète : la tension monte, une crise éclate, puis vient une phase de réconciliation, parfois appelée « lune de miel ». Cette dernière phase fait renaître l'espoir.
 
 - L'espoir. On garde en mémoire la personne du début de la relation, et l'on espère la retrouver.
 
@@ -4166,17 +4186,17 @@ Oui, et c'est souvent ainsi que cela commence. Le doute fait partie du contrôle
 
 - Dutton, D. G., & Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. Victimology, 6(1-4), 139-155.
 
-- Stark, E. (2007). Coercive Control: How Men Entrap Women in Personal Life. New York : Oxford University Press.
+- Stark, E. (2023). Coercive Control: How Men Entrap Women in Personal Life (2e éd.). New York : Oxford University Press. https://doi.org/10.1093/oso/9780197639986.001.0001
 
 - Hirigoyen, M.-F. (1998). Le harcèlement moral : la violence perverse au quotidien. Paris : Syros.
 
-- Racamier, P.-C. (1992). Le génie des origines. Paris : Payot.
+- Racamier, P.-C. (1992). Le génie des origines : psychanalyse et psychoses. Paris : Payot.
 
 - Walker, L. E. (1979). The Battered Woman. New York : Harper & Row.
 
 - Racamier, P.-C. (1986). Entre agonie psychique, déni psychotique et perversion narcissique. Revue française de psychanalyse, 50(5), 1299-1309.
 
-- American Psychiatric Association (2013). Diagnostic and Statistical Manual of Mental Disorders (5e éd.). Arlington : APA. https://doi.org/10.1176/appi.books.9780890425596
+- American Psychiatric Association. (2022). Diagnostic and Statistical Manual of Mental Disorders (5e éd., texte révisé). Washington, DC : American Psychiatric Association. https://doi.org/10.1176/appi.books.9780890425787
 
 - Cour d'appel de Poitiers, arrêts du 31 janvier 2024 (notion de contrôle coercitif).
 
@@ -4353,7 +4373,7 @@ Oui. Le style d'attachement peut évoluer au fil des relations fiables, y compri
 
 ## Sources
 
-- Drigotas, S. M., Rusbult, C. E., Wieselquist, J., & Whitton, S. W. (1999). Close partner as sculptor of the ideal self: Behavioral affirmation and the Michelangelo phenomenon. Journal of Personality and Social Psychology, 77(2), 293-323. https://doi.org/10.1037//0022-3514.77.2.293
+- Drigotas, S. M., Rusbult, C. E., Wieselquist, J., & Whitton, S. W. (1999). Close partner as sculptor of the ideal self: Behavioral affirmation and the Michelangelo phenomenon. Journal of Personality and Social Psychology, 77(2), 293-323. https://doi.org/10.1037/0022-3514.77.2.293
 
 - Rusbult, C. E., Finkel, E. J., & Kumashiro, M. (2009). The Michelangelo phenomenon. Current Directions in Psychological Science, 18(6), 305-309. https://doi.org/10.1111/j.1467-8721.2009.01657.x
 
@@ -4361,15 +4381,15 @@ Oui. Le style d'attachement peut évoluer au fil des relations fiables, y compri
 
 - Gable, S. L., Reis, H. T., Impett, E. A., & Asher, E. R. (2004). What do you do when things go right? The intrapersonal and interpersonal benefits of sharing positive events. Journal of Personality and Social Psychology, 87(2), 228-245. https://doi.org/10.1037/0022-3514.87.2.228
 
-- Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. New York : Crown.
+- Gottman, J. M., & Silver, N. (2015). The Seven Principles for Making Marriage Work: A Practical Guide from the Country's Foremost Relationship Expert (éd. rév.). New York : Harmony.
 
-- Gordon, T. (1970). Parent Effectiveness Training. New York : Peter H. Wyden.
+- Gordon, T. (2000). Parent Effectiveness Training: The Proven Program for Raising Responsible Children (éd. rév.). New York : Three Rivers Press.
 
 - Rosenberg, M. B. (2016). Les mots sont des fenêtres (ou bien ce sont des murs). Initiation à la Communication NonViolente. Paris : La Découverte.
 
 - Jung, C. G. (1933). Modern Man in Search of a Soul. Londres : Kegan Paul, Trench, Trubner.
 
-- Jung, C. G. (1925). Le mariage comme relation psychologique (Die Ehe als psychologische Beziehung). In Œuvres complètes, vol. 17 (The Development of Personality).
+- Jung, C. G. (1954). Marriage as a psychological relationship (R. F. C. Hull, trad.). In H. Read, M. Fordham, G. Adler, & W. McGuire (dir.), The Collected Works of C. G. Jung: Vol. 17. The Development of Personality (§ 324-345). Princeton : Princeton University Press. (Œuvre originale publiée en 1925 : Die Ehe als psychologische Beziehung)
 
 - Ministère de la Justice. Le 116 006, numéro d'aide aux victimes. justice.fr.
 
@@ -5118,15 +5138,17 @@ La honte est très fréquente, quelle que soit l'addiction. Vous pouvez avancer 
 
 - Goodman, A. (1990). Addiction: definition and implications. British Journal of Addiction, 85(11), 1403-1408. https://doi.org/10.1111/j.1360-0443.1990.tb01620.x
 
-- Miller, W. R., & Rollnick, S. (2013). L'entretien motivationnel. Aider la personne à engager le changement (2e éd.). Paris : InterÉditions.
+- Miller, W. R., & Rollnick, S. (2024). L'entretien motivationnel : aider la personne à engager et réaliser le changement (3e éd., D. Lécallier & P. Michaud, trad.). Paris : InterÉditions.
 
 - Prochaska, J. O., & DiClemente, C. C. (1983). Stages and processes of self-change of smoking: Toward an integrative model of change. Journal of Consulting and Clinical Psychology, 51(3), 390-395. https://doi.org/10.1037/0022-006x.51.3.390
 
+- Prochaska, J. O., DiClemente, C. C., & Norcross, J. C. (1992). In search of how people change: Applications to addictive behaviors. American Psychologist, 47(9), 1102-1114. https://doi.org/10.1037/0003-066X.47.9.1102
+
 - Khantzian, E. J. (1997). The self-medication hypothesis of substance use disorders: A reconsideration and recent applications. Harvard Review of Psychiatry, 4(5), 231-244. https://doi.org/10.3109/10673229709030550
 
-- Felitti, V. J., Anda, R. F., Nordenberg, D., et al. (1998). The Adverse Childhood Experiences (ACE) Study. American Journal of Preventive Medicine, 14(4), 245-258.
+- Felitti, V. J., Anda, R. F., Nordenberg, D., Williamson, D. F., Spitz, A. M., Edwards, V., Koss, M. P., & Marks, J. S. (1998). Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: The Adverse Childhood Experiences (ACE) Study. American Journal of Preventive Medicine, 14(4), 245-258. https://doi.org/10.1016/S0749-3797(98)00017-8
 
-- Bowen, S., Chawla, N., & Marlatt, G. A. (2011). Mindfulness-Based Relapse Prevention for Addictive Behaviors. New York : Guilford Press.
+- Bowen, S., Chawla, N., Grow, J., & Marlatt, G. A. (2021). Mindfulness-Based Relapse Prevention for Addictive Behaviors: A Clinician's Guide (2e éd.). New York : Guilford Press.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -5261,9 +5283,9 @@ Oui. Le ou la partenaire peut avoir besoin d'un espace à soi pour comprendre ce
 
 - Kühn, S., & Gallinat, J. (2014). Brain structure and functional connectivity associated with pornography consumption: The brain on porn. JAMA Psychiatry, 71(7), 827-834. (associations observées, sans lien de cause établi) https://doi.org/10.1001/jamapsychiatry.2014.93
 
-- Bowen, S., Chawla, N., & Marlatt, G. A. (2011). Mindfulness-Based Relapse Prevention for Addictive Behaviors. New York : Guilford Press. (traverser l'envie, « urge surfing » ; déjà dans les sources de la page Addictions)
+- Bowen, S., Chawla, N., Grow, J., & Marlatt, G. A. (2021). Mindfulness-Based Relapse Prevention for Addictive Behaviors: A Clinician's Guide (2e éd.). New York : Guilford Press. (traverser l'envie, « urge surfing » ; déjà dans les sources de la page Addictions)
 
-- Miller, W. R., & Rollnick, S. (2013). L'entretien motivationnel. Aider la personne à engager le changement (2e éd.). Paris : InterÉditions.
+- Miller, W. R., & Rollnick, S. (2024). L'entretien motivationnel : aider la personne à engager et réaliser le changement (3e éd., D. Lécallier & P. Michaud, trad.). Paris : InterÉditions.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -5330,7 +5352,7 @@ Votre résultat
 
 MinimeSévère
 
-Repères habituels : 5 pour une anxiété légère, 10 pour une anxiété modérée, 15 pour une anxiété sévère (Spitzer et al., 2006). À partir de 10, une évaluation en consultation est recommandée. Le GAD-7 a été conçu pour l'anxiété généralisée, et il réagit aussi à d'autres formes d'anxiété (crises d'angoisse, anxiété sociale, stress post-traumatique).
+Repères habituels : 5 pour une anxiété légère, 10 pour une anxiété modérée, 15 pour une anxiété sévère (Spitzer et al., 2006). À partir de 10, une évaluation en consultation est recommandée. Le GAD-7 a été conçu pour l'anxiété généralisée, et il réagit aussi à d'autres formes d'anxiété (crises d'angoisse, anxiété sociale, stress post-traumatique), d'après une étude de la même équipe (Kroenke et al., 2007).
 
 Ce questionnaire donne des observations, et non un résultat officiel : il n'a pas été interprété par un professionnel. Ses résultats sont indicatifs, pour commencer à mieux vous connaître.
 
@@ -5400,15 +5422,17 @@ C'est une décision qui relève de votre médecin. La psychothérapie est effica
 
 ## Sources
 
-- American Psychiatric Association (2013). DSM-5 : Manuel diagnostique et statistique des troubles mentaux (5e éd.).
+- American Psychiatric Association. (2023). DSM-5-TR : Manuel diagnostique et statistique des troubles mentaux, texte révisé (M.-A. Crocq, A. E. Boehrer & J.-D. Guelfi, trad.). Issy-les-Moulineaux : Elsevier Masson.
 
 - Borkovec, T. D., Wilkinson, L., Folensbee, R., & Lerman, C. (1983). Stimulus control applications to the treatment of worry. Behaviour Research and Therapy, 21(3), 247-251. https://doi.org/10.1016/0005-7967(83)90206-1
 
-- Dugas, M. J., & Robichaud, M. (2007). Cognitive-Behavioral Treatment for Generalized Anxiety Disorder. New York : Routledge.
+- Dugas, M. J., & Robichaud, M. (2007). Cognitive-Behavioral Treatment for Generalized Anxiety Disorder: From Science to Practice. New York : Routledge.
 
-- Duchemin, L., Service de Santé Étudiante de l'UPJV (2024). Guide de gestion du stress et de l'anxiété.
+- Duchemin, L. (2024). Le guide de gestion du stress et de l'anxiété. Amiens : Université de Picardie Jules Verne, Service universitaire de Santé Étudiante.
 
 - Spitzer, R. L., Kroenke, K., Williams, J. B. W., & Löwe, B. (2006). A brief measure for assessing generalized anxiety disorder: The GAD-7. Archives of Internal Medicine, 166(10), 1092-1097. https://doi.org/10.1001/archinte.166.10.1092
+
+- Kroenke, K., Spitzer, R. L., Williams, J. B. W., Monahan, P. O., & Löwe, B. (2007). Anxiety disorders in primary care: Prevalence, impairment, comorbidity, and detection. Annals of Internal Medicine, 146(5), 317-325.
 
 - Micoulaud-Franchi, J.-A., Lagarde, S., Barkate, G., et al. (2016). Rapid detection of generalized anxiety disorder and major depression in epilepsy: Validation of the GAD-7 as a complementary tool to the NDDI-E in a French sample. Epilepsy & Behavior, 57, 211-216. https://doi.org/10.1016/j.yebeh.2016.02.015
 
@@ -5512,7 +5536,7 @@ Cela dépend de chacun. C'est un travail progressif, qui se fait par petites exp
 
 ## Sources
 
-- Siegel, D. J. (1999). The Developing Mind. New York : Guilford Press.
+- Siegel, D. J. (2020). The Developing Mind: How Relationships and the Brain Interact to Shape Who We Are (3e éd.). New York : Guilford Press. (Ouvrage original publié en 1999)
 
 - Ogden, P., Minton, K., & Pain, C. (2006). Trauma and the Body: A Sensorimotor Approach to Psychotherapy. New York : W. W. Norton.
 
@@ -5537,7 +5561,7 @@ Ressentir plus finement, et plus intensément
 
 Prendre rendez-vous
 
-On parle souvent d'hypersensibilité, le terme rendu célèbre par la psychologue Elaine Aron. Je préfère parler de haute sensibilité, un terme plus récent proposé par Nathalie Clobert et Nicolas Gauvrit. Ce n'est ni un défaut ni un diagnostic : c'est la capacité à vivre un éventail d'émotions plus large que la majorité, une forme d'intelligence émotionnelle développée. Elle permet de ressentir les événements de façon plus fine, et effectivement plus intensément que d'autres.
+On parle souvent d'hypersensibilité, le terme rendu célèbre par la psychologue Elaine Aron. Je préfère parler de haute sensibilité, le terme que privilégient notamment Nathalie Clobert et Nicolas Gauvrit. Ce n'est ni un défaut ni un diagnostic : c'est la capacité à vivre un éventail d'émotions plus large que la majorité, avec une perception plus fine, qui peut être assimilée à une forme d'intelligence émotionnelle. Elle permet de ressentir les événements de façon plus fine, et effectivement plus intensément que d'autres. Cette sensibilité ne s'accompagne pas toujours de la capacité à réguler ces émotions : c'est ce qui s'apprend.
 
 ## Quatre facettes de la haute sensibilité
 
@@ -5593,7 +5617,7 @@ Non. C'est une façon de ressentir, présente chez de nombreuses personnes. Elle
 
 ### Hypersensibilité ou haute sensibilité, quelle différence ?
 
-Les deux termes désignent une sensibilité plus forte que la moyenne. « Haute sensibilité », plus récent, insiste sur une richesse émotionnelle plutôt que sur un excès.
+Les deux termes désignent une sensibilité plus forte que la moyenne. « Haute sensibilité » insiste sur une richesse émotionnelle plutôt que sur un excès.
 
 -
 
@@ -5603,13 +5627,15 @@ Les deux peuvent se mêler. C'est justement ce que l'on peut explorer ensemble.
 
 ## Sources
 
-- Aron, E. N. (1996). The Highly Sensitive Person. New York : Broadway Books.
+- Aron, E. N. (2020). The Highly Sensitive Person: How to Thrive When the World Overwhelms You (éd. du 25e anniversaire). New York : Citadel Press.
 
 - Aron, E. N., & Aron, A. (1997). Sensory-processing sensitivity and its relation to introversion and emotionality. Journal of Personality and Social Psychology, 73(2), 345-368. https://doi.org/10.1037/0022-3514.73.2.345
 
-- Clobert, N., & Gauvrit, N. (2022). CASS: A practical balanced scale of environmental sensitivity.
+- Clobert, N., & Gauvrit, N. (2024). Mesurer la sensibilité comme une dimension de la personnalité : la CASS, une nouvelle échelle de sensibilité francophone. In N. Duriez, Haut potentiel et haute sensibilité : approches plurielles en psychologie (p. 161-195). Paris : Dunod.
 
-- Duriez, N. (dir.) (2023). Haut potentiel et haute sensibilité. Approches plurielles en psychologie. Paris : Dunod.
+- Duriez, N. (2024). Haut potentiel et haute sensibilité : approches plurielles en psychologie. Paris : Dunod.
+
+- Clobert, N. (2026). Ma bible de la haute sensibilité (nouv. éd. révisée et enrichie). Paris : Leduc.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -5879,9 +5905,9 @@ Oui : les deux expressions désignent le même phénomène. « Attaque de paniqu
 
 - Organisation mondiale de la santé. CIM-11, 6B01 Trouble panique.
 
-- Barlow, D. H. (2002). Anxiety and Its Disorders (2e éd.). New York : Guilford Press.
+- Barlow, D. H. (2002). Anxiety and Its Disorders: The Nature and Treatment of Anxiety and Panic (2e éd.). New York : Guilford Press.
 
-- Thiriez, I. Fiche « Ancrage ». igorthiriez.com
+- Thiriez, I. (2021, 21 novembre). Ancrage [affiche]. Aliéniste & Rockologue. https://igorthiriez.com/portfolio/ancrage/
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -5984,7 +6010,7 @@ Pas de façon systématique. Lorsque la situation le justifie, je peux évaluer 
 
 - Lezak, M. D., Howieson, D. B., Bigler, E. D., & Tranel, D. (2012). Neuropsychological Assessment (5e éd.). New York : Oxford University Press.
 
-- Siegel, D. J. (1999). The Developing Mind. New York : Guilford Press (fenêtre de tolérance).
+- Siegel, D. J. (2020). The Developing Mind: How Relationships and the Brain Interact to Shape Who We Are (3e éd.). New York : Guilford Press. (Ouvrage original publié en 1999) (fenêtre de tolérance)
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -6141,11 +6167,11 @@ Après des expériences difficiles, le rapport aux émotions peut changer. Certa
 
 On parle d'alexithymie pour décrire la difficulté à identifier, à distinguer et à exprimer ses émotions. Ce n'est pas un manque de sensibilité : c'est souvent une façon dont le système nerveux s'est adapté, lorsque ressentir ou montrer ses émotions n'était pas possible ou pas accueilli. Cette capacité peut se développer à tout âge.
 
-La sensibilité varie aussi d'une personne à l'autre, selon le tempérament, l'histoire de vie, la fatigue ou le stress du moment. Dans la haute sensibilité, ou hypersensibilité, la personne est capable de vivre un éventail d'émotions plus large et plus nuancé que la majorité, une forme d'intelligence émotionnelle développée : elle ressent les événements de façon plus fine, et plus intensément (voir la haute sensibilité).
+La sensibilité varie aussi d'une personne à l'autre, selon le tempérament, l'histoire de vie, la fatigue ou le stress du moment. Dans la haute sensibilité, ou hypersensibilité, la personne est capable de vivre un éventail d'émotions plus large et plus nuancé que la majorité, ce qui peut être assimilé à une forme d'intelligence émotionnelle : elle ressent les événements de façon plus fine, et plus intensément ; la régulation de ces émotions, elle, s'apprend (voir la haute sensibilité).
 
 ## Apprendre à reconnaître ses émotions
 
-Mettre des mots sur ce que l'on ressent aide déjà à l'apaiser. Une étude en imagerie cérébrale (Lieberman et ses collègues, 2007) a montré que nommer une émotion diminue l'activité de l'amygdale. Plus le vocabulaire est précis (« déçu·e », « inquiet·ète », « blessé·e » plutôt que « mal »), plus il devient facile de comprendre ce dont on a besoin.
+Mettre des mots sur ce que l'on ressent aide déjà à l'apaiser. Une étude en imagerie cérébrale (Lieberman et ses collègues, 2007) a montré que nommer l'émotion lue sur un visage diminue la réponse de l'amygdale. Plus le vocabulaire est précis (« déçu·e », « inquiet·ète », « blessé·e » plutôt que « mal »), plus il devient facile de comprendre ce dont on a besoin.
 
 Trois questions simples peuvent guider :
 
@@ -6191,7 +6217,7 @@ On ne choisit pas ce que l'on ressent. On peut en revanche apprendre à agir sur
 
 ### Pourquoi certaines personnes ressentent-elles plus intensément que d'autres ?
 
-Le tempérament, l'histoire de vie, l'attachement, la fatigue ou le stress influencent l'intensité des émotions. Une sensibilité plus forte n'est pas un défaut : dans la haute sensibilité, elle témoigne d'une forme d'intelligence émotionnelle développée, qui permet de ressentir des émotions plus vastes et plus nuancées (voir la haute sensibilité).
+Le tempérament, l'histoire de vie, l'attachement, la fatigue ou le stress influencent l'intensité des émotions. Une sensibilité plus forte n'est pas un défaut : dans la haute sensibilité, elle peut être assimilée à une forme d'intelligence émotionnelle, qui permet de ressentir des émotions plus vastes et plus nuancées ; leur régulation, elle, s'apprend (voir la haute sensibilité).
 
 ## Sources
 
@@ -6199,7 +6225,7 @@ Le tempérament, l'histoire de vie, l'attachement, la fatigue ou le stress influ
 
 - Damasio, A. R. (1995). L'erreur de Descartes : la raison des émotions. Paris : Odile Jacob.
 
-- Darwin, C. (1872). The Expression of the Emotions in Man and Animals. Londres : John Murray. https://doi.org/10.1037/10001-000
+- Darwin, C. (1872). The Expression of the Emotions in Man and Animals. Londres : John Murray.
 
 - Keltner, D., & Ekman, P. (2015, 3 juillet). The science of « Inside Out ». The New York Times.
 
@@ -6322,11 +6348,11 @@ Je possède différents outils qui permettent de mieux réguler ses émotions, e
 
 ## Ce que dit la recherche
 
-Une respiration lente, autour de 6 cycles par minute, a fait l'objet de nombreuses études. Une synthèse portant sur 223 recherches montre une augmentation de la variabilité cardiaque liée à l'activité vagale, pendant et après la pratique. Une autre méta-analyse, portant sur 31 études et plus de 1 100 participants, confirme ces effets physiologiques, avec un effet global faible à modéré sur le stress ressenti.
+Une respiration lente, autour de 6 cycles par minute, a fait l'objet de nombreuses études. Une synthèse portant sur 223 recherches montre une augmentation de la variabilité cardiaque liée à l'activité vagale, pendant et après la pratique. Une autre méta-analyse, portant sur 31 études et plus de 1 100 participants, confirme une partie de ces effets physiologiques : la tension artérielle et le rythme cardiaque baissent, la variabilité cardiaque augmente. Sur le stress ressenti, l'effet va dans le même sens, mais il reste incertain.
 
 Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press.
 
-Sources : synthèse de 223 études sur la respiration lente et la variabilité cardiaque, et méta-analyse de 31 études (1 133 participants) sur ses effets physiologiques — synthèse en français.
+Sources : Laborde et al. (2022), synthèse de 223 études, Neuroscience & Biobehavioral Reviews, doi.org/10.1016/j.neubiorev.2022.104711 · Shao, Man et Lee (2024), méta-analyse de 31 études (1 133 participants), Mindfulness, doi.org/10.1007/s12671-023-02294-2 — synthèse en français.
 
 ## Questions fréquentes
 
@@ -6455,9 +6481,9 @@ On accepte, on n'impose pas sa présence. Respectez sa distance, en restant disp
 
 - Porges, S. W. (2011). The Polyvagal Theory: Neurophysiological Foundations of Emotions, Attachment, Communication, and Self-Regulation. New York : Norton.
 
-- Dana, D. (2018). The Polyvagal Theory in Therapy. New York : Norton.
+- Dana, D. (2018). The Polyvagal Theory in Therapy: Engaging the Rhythm of Regulation. New York : Norton.
 
-- Siegel, D. J., & Payne Bryson, T. (2011). The Whole-Brain Child. New York : Delacorte Press. Traduction française : Le cerveau de votre enfant, Les Arènes, 2015.
+- Siegel, D. J., & Bryson, T. P. (2011). The Whole-Brain Child: 12 Revolutionary Strategies to Nurture Your Child's Developing Mind, Survive Everyday Parenting Struggles, and Help Your Family Thrive. New York : Delacorte Press. Traduction française : Le cerveau de votre enfant, Les Arènes, 2015.
 
 - Tronick, E. (2007). The Neurobehavioral and Social-Emotional Development of Infants and Children. New York : Norton.
 
@@ -6586,7 +6612,7 @@ Non. Le cerveau reste capable d'apprendre à tout âge, et le lien se répare. C
 
 - Gottman, J., & DeClaire, J. (1998). Raising an Emotionally Intelligent Child: The Heart of Parenting. New York : Simon & Schuster. Publié d'abord sous le titre The Heart of Parenting: How to Raise an Emotionally Intelligent Child, 1997.
 
-- Siegel, D. J., & Payne Bryson, T. (2011). The Whole-Brain Child. New York : Delacorte Press. Traduction française : Le cerveau de votre enfant, Les Arènes, 2015.
+- Siegel, D. J., & Bryson, T. P. (2011). The Whole-Brain Child: 12 Revolutionary Strategies to Nurture Your Child's Developing Mind, Survive Everyday Parenting Struggles, and Help Your Family Thrive. New York : Delacorte Press. Traduction française : Le cerveau de votre enfant, Les Arènes, 2015.
 
 - Lieberman, M. D., Eisenberger, N. I., Crockett, M. J., Tom, S. M., Pfeifer, J. H., & Way, B. M. (2007). Putting feelings into words: Affect labeling disrupts amygdala activity in response to affective stimuli. Psychological Science, 18(5), 421-428. https://doi.org/10.1111/j.1467-9280.2007.01916.x
 
@@ -6687,7 +6713,7 @@ C'est une information précieuse, pas un échec. On ajuste ensemble : garder les
 
 - Treleaven, D. A. (2018). Trauma-Sensitive Mindfulness: Practices for Safe and Transformative Healing. New York : W. W. Norton.
 
-- Siegel, D. J. (1999). The Developing Mind. New York : Guilford Press (fenêtre de tolérance).
+- Siegel, D. J. (2020). The Developing Mind: How Relationships and the Brain Interact to Shape Who We Are (3e éd.). New York : Guilford Press. (Ouvrage original publié en 1999) (fenêtre de tolérance)
 
 - Levine, P. A. (1997). Waking the Tiger: Healing Trauma. Berkeley : North Atlantic Books (pendulation).
 
@@ -6706,7 +6732,7 @@ Trauma Center Trauma-Sensitive Yoga
 
 Prendre rendez-vous
 
-Le TCTSY (Trauma Center Trauma-Sensitive Yoga) a été développé à partir de 2002-2003 au Trauma Center de Brookline (Massachusetts), par le professeur de yoga David Emerson, en collaboration clinique avec le psychiatre Bessel van der Kolk et l'équipe du centre. Il part du constat que le trauma s'inscrit aussi dans le corps et le système nerveux, pas seulement dans les pensées : c'est une approche qui ne demande pas de revivre ou de raconter l'événement traumatique. Elle s'appuie sur des formes simples de hatha yoga, proposées en invitation plutôt qu'en injonction, où la priorité n'est jamais la posture. Le TCTSY permet de se reconnecter à son corps, de se réapproprier progressivement ses sensations en toute sécurité, et développe la tolérance sensorielle.
+Le TCTSY (Trauma Center Trauma-Sensitive Yoga) a été développé au début des années 2000 au Trauma Center de Brookline (Massachusetts), par le professeur de yoga David Emerson, en collaboration clinique avec le psychiatre Bessel van der Kolk et l'équipe du centre. Il part du constat que le trauma s'inscrit aussi dans le corps et le système nerveux, pas seulement dans les pensées : c'est une approche qui ne demande pas de revivre ou de raconter l'événement traumatique. Elle s'appuie sur des formes simples de hatha yoga, proposées en invitation plutôt qu'en injonction, où la priorité n'est jamais la posture. Le TCTSY permet de se reconnecter à son corps, de se réapproprier progressivement ses sensations en toute sécurité, et développe la tolérance sensorielle.
 
 ## Pour quelles situations ?
 
@@ -6742,9 +6768,9 @@ Je suis initiée au TCTSY (formation de 20 heures en 2023, auprès de Maria Kari
 
 ## Ce que dit la recherche
 
-Un essai randomisé conduit par van der Kolk, Emerson et une équipe pluridisciplinaire, publié en 2014 dans le Journal of Clinical Psychiatry, a établi l'efficacité du TCTSY chez des femmes souffrant d'un TSPT chronique résistant aux traitements : à la fin du programme, 16 des 31 participantes du groupe yoga ne répondaient plus aux critères du TSPT, contre 6 des 29 participantes du groupe de comparaison. Le TCTSY a depuis été inscrit au registre national américain des programmes fondés sur des preuves (NREPP). Plus récemment, un essai randomisé publié en 2023 dans JAMA Network Open l'a comparé à une thérapie cognitive orientée trauma, avec une amélioration plus rapide des symptômes.
+Un essai randomisé conduit par van der Kolk, Emerson et une équipe pluridisciplinaire, publié en 2014 dans le Journal of Clinical Psychiatry, a montré l'intérêt du TCTSY chez des femmes souffrant d'un TSPT chronique résistant aux traitements : à la fin du programme, 16 des 31 participantes du groupe yoga ne répondaient plus aux critères du TSPT, contre 6 des 29 participantes du groupe de comparaison. Le TCTSY a depuis été inscrit au registre national américain des programmes fondés sur des preuves (NREPP). Plus récemment, un essai randomisé publié en 2023 dans JAMA Network Open l'a comparé, chez des femmes vétérans, à une thérapie cognitive centrée sur le trauma (la thérapie des processus cognitifs) : les deux approches ont réduit les symptômes, sans différence significative entre elles, et davantage de participantes sont allées au bout du programme avec le TCTSY.
 
-Sources : van der Kolk et al. (2014), Journal of Clinical Psychiatry, doi.org/10.4088/JCP.13m08561 · essai randomisé 2023, JAMA Network Open.
+Sources : van der Kolk et al. (2014), Journal of Clinical Psychiatry, doi.org/10.4088/JCP.13m08561 · Zaccari et al. (2023), JAMA Network Open.
 
 ## Questions fréquentes
 
@@ -6779,6 +6805,8 @@ Vous pouvez à tout moment arrêter, changer de mouvement ou revenir à une posi
 - Emerson, D. (2015). Trauma-Sensitive Yoga in Therapy: Bringing the Body into Treatment. New York : W. W. Norton.
 
 - van der Kolk, B. A., Stone, L., West, J., et al. (2014). Yoga as an adjunctive treatment for posttraumatic stress disorder: A randomized controlled trial. Journal of Clinical Psychiatry, 75(6), e559-e565. https://doi.org/10.4088/jcp.13m08561
+
+- Zaccari, B., Higgins, M., Haywood, T. N., et al. (2023). Yoga vs cognitive processing therapy for military sexual trauma-related posttraumatic stress disorder: A randomized clinical trial. JAMA Network Open, 6(12), e2344862. https://doi.org/10.1001/jamanetworkopen.2023.44862
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -6881,7 +6909,7 @@ Mon approche repose sur le triptyque confiance en soi, estime de soi et affirmat
 
 ### Les affirmations positives suffisent-elles à se sentir plus confiant ?
 
-Une étude (Wood, Perunovic & Lee, 2009) montre qu'une affirmation générique et peu crédible peut au contraire aggraver l'humeur des personnes ayant une faible confiance en elles. Une affirmation spécifique et crédible, ancrée dans du concret, est plus efficace. On adhère mieux à une phrase neutre et bienveillante, par exemple « Je fais de mon mieux avec ce que j'ai aujourd'hui », qu'à une phrase trop positive.
+Une étude (Wood, Perunovic & Lee, 2009) montre qu'une affirmation générique et peu crédible peut au contraire aggraver l'humeur des personnes ayant une faible estime de soi. Selon les auteurs, une phrase trop éloignée de l'image que l'on a de soi est rejetée, et peut même renforcer cette image. On adhère mieux à une phrase neutre et bienveillante, par exemple « Je fais de mon mieux avec ce que j'ai aujourd'hui », qu'à une phrase trop positive.
 
 -
 
@@ -6903,11 +6931,11 @@ Oui. La confiance se construit par l'expérience : chaque action réussie, même
 
 - Wood, J. V., Perunovic, W. Q. E., & Lee, J. W. (2009). Positive self-statements: Power for some, peril for others. Psychological Science, 20(7), 860-866. https://doi.org/10.1111/j.1467-9280.2009.02370.x
 
-- Bower, S. A., & Bower, G. H. (1976). Asserting Yourself. Reading : Addison-Wesley (méthode DESC).
+- Bower, S. A., & Bower, G. H. (1976). Asserting Yourself: A Practical Guide for Positive Change. Reading : Addison-Wesley. (méthode DESC)
 
-- Schwarzer, R., & Jerusalem, M. (1995). Generalized Self-Efficacy Scale. In J. Weinman, S. Wright, & M. Johnston (Eds.), Measures in Health Psychology: A User's Portfolio (pp. 35-37). Windsor : NFER-Nelson.
+- Schwarzer, R., & Jerusalem, M. (1995). Generalized Self-Efficacy scale. In J. Weinman, S. Wright, & M. Johnston (dir.), Measures in Health Psychology: A User's Portfolio. Causal and Control Beliefs (p. 35-37). Windsor : NFER-Nelson.
 
-- Dumont, M., Schwarzer, R., & Jerusalem, M. (2000). French Adaptation of the General Self-Efficacy Scale. Berlin : Freie Universität Berlin.
+- Dumont, M., Schwarzer, R., & Jerusalem, M. (2000). French Adaptation of the General Self-Efficacy Scale. http://userpage.fu-berlin.de/~health/french.htm
 
 - Scholz, U., Gutiérrez Doña, B., Sud, S., & Schwarzer, R. (2002). Is general self-efficacy a universal construct? Psychometric findings from 25 countries. European Journal of Psychological Assessment, 18(3), 242-251. https://doi.org/10.1027//1015-5759.18.3.242
 
@@ -7078,7 +7106,7 @@ Quelques signes peuvent alerter : une autocritique très présente, la peur cons
 
 - Vallières, É. F., & Vallerand, R. J. (1990). Traduction et validation canadienne-française de l'Échelle de l'estime de soi de Rosenberg. International Journal of Psychology, 25(2), 305-316. https://doi.org/10.1080/00207599008247865
 
-- Raes, F., Pommier, E., Neff, K. D., & Van Gucht, D. (2011). Construction and factorial validation of a short form of the Self-Compassion Scale. Clinical Psychology & Psychotherapy, 18(3), 250-255. https://doi.org/10.1002/cpp.702
+- Raes, F., Pommier, E., Neff, K. D., & Van Gucht, D. (2011). Construction and factorial validation of a short form of the Self-Compassion Scale. Clinical Psychology & Psychotherapy, 18, 250-255. https://doi.org/10.1002/cpp.702
 
 - Kotsou, I., & Leys, C. (2016). Self-Compassion Scale (SCS): Psychometric properties of the French translation and its relations with psychological well-being, affect and depression. PLoS ONE, 11(4), e0152880. https://doi.org/10.1371/journal.pone.0152880
 
@@ -7185,15 +7213,15 @@ Oui. L'affirmation de soi se travaille par la pratique régulière, en commença
 
 ## Sources
 
-- Alberti, R. E., & Emmons, M. L. (1970). Your Perfect Right. San Luis Obispo : Impact Publishers.
+- Alberti, R. E., & Emmons, M. L. (2017). Your Perfect Right: Assertiveness and Equality in Your Life and Relationships (10e éd.). Oakland : Impact Publishers.
 
-- Bower, S. A., & Bower, G. H. (1976). Asserting Yourself. Reading : Addison-Wesley (méthode DESC).
+- Bower, S. A., & Bower, G. H. (1976). Asserting Yourself: A Practical Guide for Positive Change. Reading : Addison-Wesley. (méthode DESC)
 
-- Fensterheim, H., & Baer, J. (1975). Don't Say Yes When You Want to Say No. New York : David McKay.
+- Fensterheim, H., & Baer, J. (1975). Don't Say Yes When You Want to Say No: How Assertiveness Training Can Change Your Life. New York : David McKay.
 
 - Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press.
 
-- Cungi, C. (1996). Savoir s'affirmer. Paris : Retz.
+- Cungi, C. (2005). Savoir s'affirmer en toutes circonstances. Paris : Retz.
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -7347,7 +7375,7 @@ Traverser une épreuve et s'en relever
 
 Prendre rendez-vous
 
-La résilience désigne la capacité à traverser une épreuve et à s'en relever, en poursuivant un développement différent plutôt qu'un retour à l'identique. Le terme vient de la physique, où il désigne la résistance d'un matériau aux chocs. En psychologie, c'est la chercheuse américaine Emmy Werner qui a mené le premier travail scientifique sur le sujet : à partir de 1954, elle a suivi pendant plus de trente ans une cohorte d'enfants grandissant dans des conditions difficiles, et a montré qu'une partie d'entre eux menaient malgré tout une vie épanouie, grâce à des facteurs de protection. En France, c'est le neuropsychiatre Boris Cyrulnik qui a popularisé le concept à la fin des années 1990, en l'appliquant au trauma.
+La résilience désigne la capacité à traverser une épreuve et à s'en relever, en poursuivant un développement différent plutôt qu'un retour à l'identique. Le terme vient de la physique, où il désigne la résistance d'un matériau aux chocs. En psychologie, la chercheuse américaine Emmy Werner a mené l'un des premiers grands travaux scientifiques sur le sujet : elle a suivi pendant plus de trente ans les enfants nés en 1955 sur l'île de Kauai, dont certains grandissaient dans des conditions difficiles, et a montré qu'une partie d'entre eux menaient malgré tout une vie épanouie, grâce à des facteurs de protection. En France, c'est le neuropsychiatre Boris Cyrulnik qui a popularisé le concept à la fin des années 1990, en l'appliquant au trauma.
 
 ## Un processus, pas un trait de caractère
 
@@ -7584,7 +7612,7 @@ Cette théorie me sert de base de compréhension. Il existe des outils spécifiq
 
 ### La théorie polyvagale est-elle une thérapie ?
 
-Non. C'est un modèle qui porte sur le fonctionnement du système nerveux, sur laquelle s'appuient plusieurs approches thérapeutiques. En séance, elle sert de repère pour comprendre les réactions et choisir des outils adaptés.
+Non. C'est un modèle qui porte sur le fonctionnement du système nerveux, sur lequel s'appuient plusieurs approches thérapeutiques. En séance, il sert de repère pour comprendre les réactions et choisir des outils adaptés.
 
 -
 
@@ -7614,9 +7642,9 @@ Ce qu'elle décrit repose en grande partie sur des connaissances solides : l'év
 
 - Laborde, S., Allen, M. S., Borges, U., et al. (2022). Effects of voluntary slow breathing on heart rate and heart rate variability: A systematic review and a meta-analysis. Neuroscience & Biobehavioral Reviews, 138, 104711. https://doi.org/10.1016/j.neubiorev.2022.104711
 
-- Dana, D. (2018). The Polyvagal Theory in Therapy. New York : W. W. Norton.
+- Dana, D. (2018). The Polyvagal Theory in Therapy: Engaging the Rhythm of Regulation. New York : W. W. Norton.
 
-- Siegel, D. J. (1999). The Developing Mind. New York : Guilford Press (fenêtre de tolérance).
+- Siegel, D. J. (2020). The Developing Mind: How Relationships and the Brain Interact to Shape Who We Are (3e éd.). New York : Guilford Press. (Ouvrage original publié en 1999) (fenêtre de tolérance)
 
 Consultation : 1 h, 70 €, en ligne.
 
