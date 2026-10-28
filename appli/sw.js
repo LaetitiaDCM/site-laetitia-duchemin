@@ -1,5 +1,5 @@
 /* Mes outils : service worker. Version à changer à chaque mise à jour de l'appli. */
-const VERSION = 'mes-outils-2026-10-27g';
+const VERSION = 'mes-outils-2026-10-28a';
 const SHELL = [
   '/appli/', '/appli/manifest.webmanifest', '/appli/icon-192.png', '/appli/icon-512.png',
   '/fonts/cormorant-garamond-latin-500-normal.woff2', '/fonts/cormorant-garamond-latin-400-italic.woff2',
@@ -8,8 +8,9 @@ const SHELL = [
 ];
 const AUDIO = 'mes-outils-audio';
 
+/* Précache revalidé auprès du serveur : une image remplacée sous le même nom n'est jamais reprise du cache du navigateur. */
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL.map(u => new Request(u, { cache: 'no-cache' })))).then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', e => {
   e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION && k !== AUDIO).map(k => caches.delete(k)))).then(() => self.clients.claim()));

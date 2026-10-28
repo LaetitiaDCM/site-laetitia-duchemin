@@ -977,7 +977,7 @@ document.addEventListener('click',function(ev){
   if(d['do']==='wipe'){mem={seeded:true,entries:[]}; save(); state.confirm=null; render(); toast('Carnet effacé'); return}
   if(d.print){var all=load().entries, list=d.print==='all'?all.filter(function(x){return !x.ex}):all.filter(function(x){return x.id===d.print}); if(!list.length) list=all; printEntries(list); return}
   if(d.share){var e3=load().entries.filter(function(x){return x.id===d.share})[0], t3=entryText(e3);
-    if(navigator.share){navigator.share({title:'Mon carnet',text:t3}).catch(function(){})} else {var a=document.createElement('a');a.href='mailto:'+PSY_MAIL+'?subject='+encodeURIComponent('Mon carnet avant notre rendez-vous')+'&body='+encodeURIComponent(t3);a.click();toast('Si rien ne s’ouvre, utilisez « Copier le texte »')} return}
+    var a=document.createElement('a');a.href='mailto:'+PSY_MAIL+'?subject='+encodeURIComponent('Mon carnet avant notre rendez-vous')+'&body='+encodeURIComponent(t3);a.click();toast('Si rien ne s’ouvre, utilisez « Copier le texte »'); return}
   if(d.copy){var e2=load().entries.filter(function(x){return x.id===d.copy})[0], txt=entryText(e2);
     if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){toast('Copié')},function(){fallbackCopy(txt)})} else fallbackCopy(txt); return}
 });
