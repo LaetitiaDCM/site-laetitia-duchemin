@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 27 octobre 2026.
+> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 28 octobre 2026.
 
 ---
 
@@ -6367,11 +6367,11 @@ Le modèle du cerveau dans la main, de Daniel Siegel, l'illustre bien : quand l
 
 ## Ce qui se passe dans le système nerveux
 
-La théorie polyvagale, développée par Stephen Porges, offre un modèle de compréhension utile. Notre système nerveux évalue en permanence, sans que nous en ayons conscience, si nous sommes en sécurité ou en danger : c'est la neuroception. Quand il perçoit un danger, il active des réactions de survie (agitation, colère, fuite, ou au contraire repli et sidération).
+La théorie polyvagale, développée par Stephen Porges, offre une cartographie utile pour comprendre ce qui se passe (voir sur quoi elle s'appuie, page Théorie polyvagale). Notre système nerveux évalue en permanence, sans que nous en ayons conscience, si nous sommes en sécurité ou en danger : Porges appelle cela la neuroception. Quand il perçoit un danger, il active des réactions de survie (agitation, colère, fuite, ou au contraire repli et sidération).
 
 Pour sortir de cet état, le corps de l'enfant cherche des signaux de sécurité autour de lui :
 
-- une voix douce, au rythme lent ;
+- une voix prosodique, qui module son intonation et son rythme ;
 
 - un visage détendu et un regard bienveillant ;
 
@@ -6389,7 +6389,7 @@ C'est en étant disponible pour soi que l'on peut être disponible pour les autr
 
 ### Ma voix
 
-Une voix plus lente et plus grave que d'habitude, des phrases courtes : « Je suis là. » « On va respirer ensemble. » Le ton compte plus que les mots.
+Une voix prosodique, c'est-à-dire qui module son intonation et son rythme, des phrases courtes : « Je suis là. » « On va respirer ensemble. » Le ton compte plus que les mots.
 
 ### Mon visage et mon corps
 
@@ -6488,7 +6488,7 @@ Toutes les émotions sont légitimes : elles sont des messagers, qui signalent 
 
 ### Nommer pour apprivoiser
 
-Daniel Siegel et Tina Payne Bryson résument ce mécanisme par une formule : « nommer pour apprivoiser ». Mettre des mots sur une émotion aide le cerveau à l'apaiser. Des travaux en imagerie montrent que le simple fait de nommer ce que l'on ressent diminue l'activité de l'amygdale, le centre d'alarme du cerveau.
+Daniel Siegel et Tina Payne Bryson résument ce mécanisme par une formule : « nommer pour apprivoiser ». Mettre des mots sur une émotion aide le cerveau à l'apaiser. Une étude en imagerie a montré que nommer l'émotion lue sur un visage diminue la réponse de l'amygdale, une région du cerveau qui évalue l'importance émotionnelle de ce qui arrive, positif comme négatif. Une autre étude de la même équipe montre que mettre un mot sur ce que montre une image pénible diminue la détresse ressentie.
 
 ### Une émotion accueillie peut passer
 
@@ -6584,11 +6584,13 @@ Non. Le cerveau reste capable d'apprendre à tout âge, et le lien se répare. C
 
 ## Sources
 
-- Gottman, J. (1997). Raising an Emotionally Intelligent Child. New York : Simon & Schuster.
+- Gottman, J., & DeClaire, J. (1998). Raising an Emotionally Intelligent Child: The Heart of Parenting. New York : Simon & Schuster. Publié d'abord sous le titre The Heart of Parenting: How to Raise an Emotionally Intelligent Child, 1997.
 
 - Siegel, D. J., & Payne Bryson, T. (2011). The Whole-Brain Child. New York : Delacorte Press. Traduction française : Le cerveau de votre enfant, Les Arènes, 2015.
 
 - Lieberman, M. D., Eisenberger, N. I., Crockett, M. J., Tom, S. M., Pfeifer, J. H., & Way, B. M. (2007). Putting feelings into words: Affect labeling disrupts amygdala activity in response to affective stimuli. Psychological Science, 18(5), 421-428. https://doi.org/10.1111/j.1467-9280.2007.01916.x
+
+- Lieberman, M. D., Inagaki, T. K., Tabibnia, G., & Crockett, M. J. (2011). Subjective responses to emotional stimuli during labeling, reappraisal, and distraction. Emotion, 11(3), 468-480. https://doi.org/10.1037/a0023503
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -7464,11 +7466,25 @@ Titre : Théorie polyvagale : les 3 états du système nerveux — L. Duchemin
 
 Comprendre son système nerveux autonome
 
-La théorie polyvagale, développée par le neuroscientifique américain Stephen Porges, décrit trois états du système nerveux autonome : la sécurité (activation du nerf vague ventral, qui permet la connexion aux autres), la mobilisation (système sympathique, réaction de lutte ou de fuite) et l'immobilisation (nerf vague dorsal, sidération ou dissociation).
+La théorie polyvagale, développée par le neuroscientifique américain Stephen Porges, propose de distinguer trois états du système nerveux autonome : la sécurité, qui permet la connexion aux autres et que Porges associe au nerf vague ventral ; la mobilisation (système sympathique, réaction de lutte ou de fuite) ; et l'immobilisation, sidération ou dissociation, qu'il associe au nerf vague dorsal.
 
 Prendre rendez-vous
 
-Il s'agit d'un modèle théorique permettant de mieux comprendre et nommer ses réactions.
+## Une cartographie clinique et fonctionnelle
+
+J'utilise la théorie polyvagale comme une cartographie clinique et fonctionnelle : elle décrit des états que l'on observe en séance (se sentir en sécurité, se mobiliser, s'immobiliser) et aide à repérer où l'on se trouve et ce qui permet de revenir vers la sécurité.
+
+Cette cartographie rejoint des connaissances solides :
+
+- notre système nerveux évalue en permanence, sans que nous en ayons conscience, si nous sommes en sécurité ou en danger ;
+
+- face à une menace, les réactions vont de la mobilisation (lutte, fuite) à l'immobilité : c'est la cascade de défense ;
+
+- la présence d'une personne fiable atténue les réactions de défense ;
+
+- respirer lentement, en allongeant l'expiration, augmente la variabilité du rythme cardiaque, signe de l'action apaisante du nerf vague sur le cœur.
+
+C'est sur ces connaissances et sur l'adaptation clinique du modèle que je m'appuie. Les mécanismes biologiques précis proposés par Stephen Porges restent, eux, discutés (voir les sources).
 
 ## Les trois états au quotidien, selon ce modèle
 
@@ -7508,9 +7524,11 @@ Ces trois états rejoignent la fenêtre de tolérance : la sécurité correspond
 
 - Utiliser des outils simples, comme une expiration plus longue que l'inspiration ou l'orientation du regard dans la pièce, pour revenir dans sa fenêtre de tolérance.
 
+Prendre rendez-vous
+
 ## Un exercice : l'échelle de ses états
 
-Cet exercice, proposé par la thérapeute Deb Dana, aide à identifier et reconnaître ses différents états, à comprendre ce qui nous y amène et à apprendre à passer de l'un à l'autre. On le représente comme une échelle à trois barreaux : en bas, la déconnexion ; au milieu, l'activation ; en haut, l'état régulé. Pour chaque barreau, Deb Dana propose de compléter la phrase « Je me sens… et le monde est… » : ce que nous ressentons dans notre corps colore la façon dont nous percevons le monde.
+Cet exercice, proposé par la thérapeute Deb Dana, aide à identifier et reconnaître ses différents états, à comprendre ce qui nous y amène et à apprendre à passer de l'un à l'autre. On le représente comme une échelle à trois barreaux : en bas, la déconnexion ; au milieu, l'activation ; en haut, l'état régulé. Pour chaque barreau, Deb Dana propose de compléter la phrase « Je me sens… et le monde est… » : ce que nous ressentons dans notre corps colore la façon dont nous percevons le monde. Les noms des barreaux (dorsal, sympathique, ventral) reprennent le vocabulaire de Deb Dana.
 
 Avant de commencer
 
@@ -7566,7 +7584,7 @@ Cette théorie me sert de base de compréhension. Il existe des outils spécifiq
 
 ### La théorie polyvagale est-elle une thérapie ?
 
-Non. C'est une théorie du fonctionnement du système nerveux, sur laquelle s'appuient plusieurs approches thérapeutiques. En séance, elle sert de repère pour comprendre les réactions et choisir des outils adaptés.
+Non. C'est un modèle qui porte sur le fonctionnement du système nerveux, sur laquelle s'appuient plusieurs approches thérapeutiques. En séance, elle sert de repère pour comprendre les réactions et choisir des outils adaptés.
 
 -
 
@@ -7574,11 +7592,27 @@ Non. C'est une théorie du fonctionnement du système nerveux, sur laquelle s'ap
 
 Après un trauma, le système nerveux peut rester bloqué dans la mobilisation ou l'immobilisation. La théorie aide à comprendre ces réactions et à retrouver progressivement des moments de sécurité (voir la page stress post-traumatique et trauma complexe).
 
+-
+
+### La théorie polyvagale est-elle prouvée ?
+
+Ce qu'elle décrit repose en grande partie sur des connaissances solides : l'évaluation automatique du danger, les réactions de défense, l'effet apaisant d'une présence fiable et de la respiration lente. Ses mécanismes biologiques précis restent discutés. Je l'utilise donc comme une cartographie clinique et fonctionnelle.
+
 ## Sources
 
 - Porges, S. W. (1995). Orienting in a defensive world: Mammalian modifications of our evolutionary heritage. A polyvagal theory. Psychophysiology, 32(4), 301-318. https://doi.org/10.1111/j.1469-8986.1995.tb01213.x
 
 - Porges, S. W. (2011). The Polyvagal Theory. New York : W. W. Norton.
+
+- Porges, S. W. (2025). Polyvagal theory: Current status, clinical applications, and future directions. Clinical Neuropsychiatry, 22(3), 169-184. https://doi.org/10.36131/cnfioritieditore20250301
+
+- Grossman, P., Ackland, G. L., Allen, A. M., et al. (2026). Why the polyvagal theory is untenable: An international expert evaluation of the polyvagal theory and commentary upon Porges (2025). Clinical Neuropsychiatry, 23(1), 100-112. https://doi.org/10.36131/cnfioritieditore20260110
+
+- Porges, S. W. (2026). When a critique becomes untenable: A scholarly response to Grossman et al.'s evaluation of polyvagal theory. Clinical Neuropsychiatry, 23(1), 113-128. https://doi.org/10.36131/cnfioritieditore20260111
+
+- Kozlowska, K., Walker, P., McLean, L., & Carrive, P. (2015). Fear and the defense cascade: Clinical implications and management. Harvard Review of Psychiatry, 23(4), 263-287. https://doi.org/10.1097/HRP.0000000000000065
+
+- Laborde, S., Allen, M. S., Borges, U., et al. (2022). Effects of voluntary slow breathing on heart rate and heart rate variability: A systematic review and a meta-analysis. Neuroscience & Biobehavioral Reviews, 138, 104711. https://doi.org/10.1016/j.neubiorev.2022.104711
 
 - Dana, D. (2018). The Polyvagal Theory in Therapy. New York : W. W. Norton.
 
