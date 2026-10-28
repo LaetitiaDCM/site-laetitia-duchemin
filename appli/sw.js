@@ -1,10 +1,10 @@
 /* Mes outils : service worker. Version à changer à chaque mise à jour de l'appli. */
-const VERSION = 'mes-outils-2026-10-27d';
+const VERSION = 'mes-outils-2026-10-27g';
 const SHELL = [
   '/appli/', '/appli/manifest.webmanifest', '/appli/icon-192.png', '/appli/icon-512.png',
   '/fonts/cormorant-garamond-latin-500-normal.woff2', '/fonts/cormorant-garamond-latin-400-italic.woff2',
-  '/fonts/jost-latin-400-normal.woff2', '/fonts/jost-latin-500-normal.woff2',
-  "/appli/img/accueillir-l-emotion-de-mon-enfant.webp",  "/appli/img/agenda-du-sommeil.webp",  "/appli/img/ancrage-5-4-3-2-1.webp",  "/appli/img/approche-et-fuite.webp",  "/appli/img/balance-decisionnelle.webp",  "/appli/img/calinotherapie.webp",  "/appli/img/cover-body.webp",  "/appli/img/cover-chat.webp",  "/appli/img/cover-meteo-enf.webp",  "/appli/img/cover-meteo.webp",  "/appli/img/cover-rayon.webp",  "/appli/img/cover-relax.webp",  "/appli/img/cover-resp.webp",  "/appli/img/cover-souffle.webp",  "/appli/img/echelle-des-etats.webp",  "/appli/img/eft-clinique.webp",  "/appli/img/exercices-de-respiration.webp",  "/appli/img/exercices-de-sophrologie.webp",  "/appli/img/fenetre-de-tolerance-A3.webp",  "/appli/img/fenetre-de-tolerance-li-icv.webp",  "/appli/img/fenetre-de-tolerance.webp",  "/appli/img/hier-ou-aujourd-hui.webp",  "/appli/img/la-co-regulation.webp",  "/appli/img/la-coherence-cardiaque.webp",  "/appli/img/la-crise-de-panique.webp",  "/appli/img/la-meteo-de-mes-emotions.webp",  "/appli/img/la-pleine-conscience.webp",  "/appli/img/la-relaxation.webp",  "/appli/img/la-roue-des-emotions.webp",  "/appli/img/le-cerveau-dans-la-main.webp",  "/appli/img/les-messagers-du-bien-etre.webp",  "/appli/img/logo.webp",  "/appli/img/ma-boite-d-apaisement.webp",  "/appli/img/me-parler-comme-a-un-ami.webp",  "/appli/img/mes-3-petits-bonheurs.webp",  "/appli/img/mes-5-moments-positifs.webp",  "/appli/img/mes-besoins-fondamentaux.webp",  "/appli/img/mes-petites-lueurs.webp",  "/appli/img/mon-carnet-des-declencheurs.webp",  "/appli/img/mon-thermometre-de-la-colere.webp",  "/appli/img/parler-en-je.webp",  "/appli/img/pendulation.webp",  "/appli/img/regulation-emotionnelle.webp",  "/appli/img/respirer-en-jouant.webp",  "/appli/img/traverser-l-absence.webp",
+  '/fonts/jost-latin-400-normal.woff2', '/fonts/jost-latin-500-normal.woff2', '/appli/fonts/caveat-latin-500-normal.woff2',
+  "/appli/img/accueillir-l-emotion-de-mon-enfant.webp",  "/appli/img/agenda-du-sommeil.webp",  "/appli/img/ancrage-5-4-3-2-1.webp",  "/appli/img/approche-et-fuite.webp",  "/appli/img/balance-decisionnelle.webp",  "/appli/img/calinotherapie.webp",  "/appli/img/cover-body.webp",  "/appli/img/cover-chat.webp",  "/appli/img/cover-meteo-enf.webp",  "/appli/img/cover-meteo.webp",  "/appli/img/cover-rayon.webp",  "/appli/img/cover-relax.webp",  "/appli/img/cover-resp.webp",  "/appli/img/cover-souffle.webp",  "/appli/img/echelle-des-etats.webp",  "/appli/img/eft-clinique.webp",  "/appli/img/exercices-de-respiration.webp",  "/appli/img/exercices-de-sophrologie.webp",  "/appli/img/fenetre-de-tolerance-A3.webp",  "/appli/img/fenetre-de-tolerance-li-icv.webp",  "/appli/img/fenetre-de-tolerance.webp",  "/appli/img/hier-ou-aujourd-hui.webp",  "/appli/img/la-co-regulation.webp",  "/appli/img/la-coherence-cardiaque.webp",  "/appli/img/la-crise-de-panique.webp",  "/appli/img/la-meteo-de-mes-emotions.webp",  "/appli/img/la-pleine-conscience.webp",  "/appli/img/la-relaxation.webp",  "/appli/img/la-roue-des-emotions.webp",  "/appli/img/le-cerveau-dans-la-main.webp",  "/appli/img/les-messagers-du-bien-etre.webp",  "/appli/img/logo.webp",  "/logo-260.webp",  "/appli/img/ma-boite-d-apaisement.webp",  "/appli/img/me-parler-comme-a-un-ami.webp",  "/appli/img/mes-3-petits-bonheurs.webp",  "/appli/img/mes-5-moments-positifs.webp",  "/appli/img/mes-besoins-fondamentaux.webp",  "/appli/img/mes-petites-lueurs.webp",  "/appli/img/mon-carnet-des-declencheurs.webp",  "/appli/img/mon-thermometre-de-la-colere.webp",  "/appli/img/parler-en-je.webp",  "/appli/img/pendulation.webp",  "/appli/img/regulation-emotionnelle.webp",  "/appli/img/respirer-en-jouant.webp",  "/appli/img/traverser-l-absence.webp",
 ];
 const AUDIO = 'mes-outils-audio';
 
@@ -19,13 +19,12 @@ self.addEventListener('activate', e => {
 async function audio(req) {
   const cache = await caches.open(AUDIO);
   const url = new URL(req.url); url.search = '';
-  let full = await cache.match(url.href);
+  const full = await cache.match(url.href);
   if (!full) {
-    try {
-      const r = await fetch(url.href);
-      if (r.ok && r.status === 200) { await cache.put(url.href, r.clone()); full = r; }
-      else return fetch(req);
-    } catch (e) { return fetch(req); }
+    /* Première écoute : on lit directement depuis le réseau (démarrage immédiat),
+       et on enregistre le fichier en arrière-plan pour les écoutes hors connexion. */
+    fetch(url.href).then(r => { if (r.ok && r.status === 200) cache.put(url.href, r); }).catch(() => {});
+    return fetch(req);
   }
   const range = req.headers.get('range');
   if (!range) return full;
