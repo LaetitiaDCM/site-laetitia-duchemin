@@ -360,6 +360,8 @@ ol.moms{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
   #printArea footer{margin-top:8pt;font-size:8pt;color:#56537a;text-align:center}
 }
 .foot{font-size:.78rem;color:var(--muted);text-align:center;padding:10px 0 0}
+.stack.rdv{margin-top:14px;align-items:center}
+.stack.rdv .btn{padding:10px 22px;min-height:44px;font-size:.92rem}
 @media (prefers-reduced-motion:no-preference){.view{animation:in .25s ease-out}@keyframes in{from{opacity:.85;transform:translateY(4px)}to{opacity:1;transform:none}}}
 </style>
 
@@ -474,6 +476,8 @@ var ICON_LOCK='<svg viewBox="0 0 24 24" width="18" height="18" fill="none" strok
 var RINGS='<img class="rings" src="/logo-260.webp" alt="" width="170" height="170">';
 
 var SITE='https://laetitia-duchemin-psychologue.fr';
+var RDV='https://rdv.deiz.fr/laetitia-duchemin-psychologue';
+function rdvBtn(c){return '<a class="btn'+(c?' '+c:'')+'" href="'+RDV+'" target="_blank" rel="noopener">Prendre rendez-vous</a>'}
 var TESTS=[
  {g:'Émotions et stress',id:'gad7',t:'Mon niveau d’anxiété',s:'GAD-7',n:'7 questions · 2 min',d:'La fréquence des signes d’anxiété au cours des deux dernières semaines.',u:'/anxiete/#questionnaire-gad-7',i:'wave'},
  {g:'Émotions et stress',id:'pcl5',t:'Stress post-traumatique',s:'PCL-5',n:'20 questions · 5 min',d:'Les réactions qui peuvent suivre un événement très éprouvant, au cours du dernier mois.',u:'/stress-post-traumatique-trauma-complexe/#pcl-5',i:'shield',care:1},
@@ -600,7 +604,7 @@ function tqResult(T,X){
    (h.length?secH('Mes résultats précédents')+'<ul class="tq-hist">'+h.map(function(r){return '<li><span>'+esc(fmtDate(r.d))+'</span><b>'+esc(r.l)+'</b></li>'}).join('')+'</ul>':'')+
    T.notes.map(function(n){return '<p class="tq-note">'+ty(n)+'</p>'}).join('')+
    '<div class="stack">'+(T.calm?'<button type="button" class="btn solid" data-tab="sos">Revenir au calme</button>':'')+
-   '<a class="btn'+(T.calm?'':' solid')+'" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a>'+
+   rdvBtn(T.calm?'':'solid')+
    '<button type="button" class="btn" data-tqcopy="1">Copier mon résultat</button>'+
    '<button type="button" class="linkbtn" data-tqreset="1" style="align-self:center">Effacer et recommencer</button></div>'+
    '<p class="tq-src">'+esc(T.src)+'</p>';
@@ -653,6 +657,7 @@ function vAccueil(){
    secH('Faire le point','tests')+'<ul class="rail">'+TESTS.slice(0,4).map(function(x){return testCard(x)}).join('')+'</ul>'+
    secH('J’ai besoin de','outils','Tous les exercices')+'<div class="chips wrap">'+bes+'</div>'+
    '<p class="foot">Une appli d’exercices et de psychoéducation. Elle ne remplace pas un accompagnement.</p>'+
+   '<div class="stack rdv">'+rdvBtn()+'</div>'+
   '</section>';
 }
 function vTests(){
@@ -709,6 +714,7 @@ function vSOS(){
      '<dt>3114</dt><dd>Prévention du suicide, 24 h/24, gratuit</dd>'+
      '<dt>15</dt><dd>SAMU, urgence médicale</dd>'+
      '<dt>112</dt><dd>Urgences, depuis toute l’Europe</dd></dl></div>'+
+   '<div class="stack rdv">'+rdvBtn()+'</div>'+
   '</section>';
 }
 function itemHTML(f){
@@ -745,7 +751,7 @@ function vFiche(){
    '<div class="stack">'+(f.tr||[]).map(function(id){var t=TR[id];return '<button type="button" class="btn solid" data-play="'+id+'">Écouter : '+esc(t.t)+' ('+t.dur+')</button>'}).join('')+
    '<a class="btn'+((f.tr||[]).length||f.carnet?'':' solid')+'" href="'+f.pdf+'" target="_blank" rel="noopener">Ouvrir la fiche (PDF)</a>'+
    (f.carnet?'<button type="button" class="btn solid" data-new="'+f.carnet+'">Le remplir dans Mon carnet</button>':'')+
-   (f.page?'<a class="btn" href="'+f.page+'" target="_blank" rel="noopener">Comprendre : lire l’explication</a>':'')+'</div>'+
+   (f.page?'<a class="btn" href="'+f.page+'" target="_blank" rel="noopener">Comprendre : lire l’explication</a>':'')+(f.b.indexOf('pro')>-1?'':rdvBtn())+'</div>'+
    '<img class="poster" src="'+f.img+'" alt="Aperçu de la fiche '+esc(f.t)+'">'+
    '<p class="note">Vous restez libre d’adapter l’exercice, de faire une pause ou de vous arrêter à tout moment.</p></section>';
 }
@@ -855,7 +861,7 @@ function vEntry(){
    f('La situation',e.situation)+f('Émotions',e.emotions)+(e.avant!=null?'<div class="field"><h3>Intensité</h3><p>'+e.avant+' / 10 avant'+(e.apres!=null?', '+e.apres+' / 10 après':'')+'</p></div>':'')+
    f('Sensations',e.sensations)+f('Besoins',(e.besoins||[]).concat(e.besoinsTxt?[e.besoinsTxt]:[]))+f('Pensées automatiques',e.pensees)+f('Pensée alternative',e.alternative)+f('Ce que je peux faire',e.action)+f('Ce que je retiens',e.resultat))+
    '</article><div class="stack"><button type="button" class="btn solid" data-print="'+e.id+'">Imprimer ou enregistrer en PDF</button>'+
-   '<button type="button" class="btn" data-share="'+e.id+'">Envoyer à ma psychologue</button>'+
+   '<button type="button" class="btn" data-share="'+e.id+'">Envoyer à ma psychologue</button>'+rdvBtn()+
    '<button type="button" class="linkbtn" data-copy="'+e.id+'" style="align-self:center">Copier le texte</button></div>'+
    (state.confirm===e.id?confirmHTML('Effacer cette page ?','del'):'<button type="button" class="linkbtn" data-ask="'+e.id+'" style="align-self:center">Effacer cette page</button>')+
   '</section>';

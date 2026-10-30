@@ -1,5 +1,5 @@
 /* Mes outils : service worker. Version à changer à chaque mise à jour de l'appli. */
-const VERSION = 'mes-outils-2026-10-28a';
+const VERSION = 'mes-outils-2026-10-30a';
 const SHELL = [
   '/appli/', '/appli/manifest.webmanifest', '/appli/icon-192.png', '/appli/icon-512.png',
   '/fonts/cormorant-garamond-latin-500-normal.woff2', '/fonts/cormorant-garamond-latin-400-italic.woff2',
