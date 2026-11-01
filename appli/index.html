@@ -27,7 +27,8 @@
 <style>
 /* Layout: one-column phone app, bottom tab bar, the night-violet "calm card" as the one bold element */
 :root{
-  --night:#1b1140; --indigo:#22135e; --gold:#d9a648; --gold-soft:#ecd096; --gold-deep:#7d5a16;
+  --night:#1b1140; --indigo:#22135e; --violet:#3a1163; --blue:#0d2c8c;
+  --grad:linear-gradient(to bottom right,var(--violet),var(--blue)); --gold:#d9a648; --gold-soft:#ecd096; --gold-deep:#7d5a16;
   --bg:#f7f3ec; --surface:#fffdf9; --ink:#1d1b3b; --muted:#56537a; --line:#e6dccb; --tint:#efe7d8;
   --serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
   --sans:"Jost","Avenir Next","Segoe UI",system-ui,sans-serif;
@@ -52,7 +53,7 @@ a{color:inherit}
 .h1{font-size:2rem;color:var(--ink)}
 .lead{color:var(--muted);margin:-8px 0 0;max-width:60ch}
 /* calm card */
-.calm{display:block;width:100%;text-align:left;border:0;cursor:pointer;border-radius:22px;padding:22px 20px;background:var(--night);color:var(--gold-soft);position:relative;overflow:hidden}
+.calm{display:block;width:100%;text-align:left;border:0;cursor:pointer;border-radius:22px;padding:22px 20px;background:var(--grad);color:var(--gold-soft);position:relative;overflow:hidden}
 .calm h2{font-size:1.65rem;color:var(--gold-soft);max-width:14ch}
 .calm p{margin:8px 0 0;color:#ddd5ef;font-size:.95rem}
 .calm .go{margin-top:16px;display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:var(--night);border-radius:999px;padding:9px 18px;font-weight:500;font-size:.95rem}
@@ -87,7 +88,7 @@ a{color:inherit}
 .stack{display:flex;flex-direction:column;gap:10px}
 .note{border-left:2px solid var(--gold);padding:2px 0 2px 12px;color:var(--muted);font-style:italic;font-size:.93rem;margin:0}
 /* player */
-.player{border-radius:22px;background:var(--night);color:var(--gold-soft);padding:22px 20px;display:flex;flex-direction:column;gap:16px}
+.player{border-radius:22px;background:var(--grad);color:var(--gold-soft);padding:22px 20px;display:flex;flex-direction:column;gap:16px}
 .player h2{font-size:1.6rem;color:var(--gold-soft)}
 .player .meta{font-size:.88rem;color:#cfc6ea}
 .pl-row{display:flex;align-items:center;gap:14px}
@@ -142,7 +143,7 @@ textarea{width:100%;min-height:120px;border:1px solid var(--line);background:var
 /* mini-lecteur : visible hors de l'onglet Écouter pendant une écoute */
 .mini{position:fixed;left:0;right:0;bottom:calc(var(--tab-h) + env(safe-area-inset-bottom,0px));z-index:19;padding:0 max(10px,env(safe-area-inset-left,0px)) 8px}
 .mini[hidden]{display:none}
-.mini>div{max-width:540px;margin:0 auto;display:flex;align-items:center;gap:10px;background:var(--night);color:var(--gold-soft);border-radius:16px;padding:8px 8px 8px 8px;box-shadow:0 6px 20px rgba(27,17,64,.25)}
+.mini>div{max-width:540px;margin:0 auto;display:flex;align-items:center;gap:10px;background:var(--grad);color:var(--gold-soft);border-radius:16px;padding:8px 8px 8px 8px;box-shadow:0 6px 20px rgba(27,17,64,.25)}
 .mini img{width:42px;height:42px;border-radius:10px;flex:0 0 auto}
 .mini .mt{flex:1;min-width:0;border:0;background:none;color:inherit;text-align:left;cursor:pointer;padding:0;display:flex;flex-direction:column}
 .mini .mt b{font-family:var(--serif);font-size:1.02rem;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -159,7 +160,7 @@ body.has-mini .toast{bottom:calc(var(--tab-h) + env(safe-area-inset-bottom,0px) 
 :root[data-theme="dark"]{--paper:#1f1840;--rule:#2f2858;--margin:#6b3d4f;--ink-pen:#ecd096}
 .hand{font-family:var(--hand);font-weight:500}
 /* couverture */
-.nb-cover{position:relative;border-radius:8px 22px 22px 8px;background:var(--night);color:var(--gold-soft);padding:26px 56px 24px 30px;overflow:hidden;box-shadow:inset 10px 0 0 rgba(0,0,0,.22),inset 12px 0 0 rgba(255,255,255,.05),0 10px 24px rgba(27,17,64,.18)}
+.nb-cover{position:relative;border-radius:8px 22px 22px 8px;background:var(--grad);color:var(--gold-soft);padding:26px 56px 24px 30px;overflow:hidden;box-shadow:inset 10px 0 0 rgba(0,0,0,.22),inset 12px 0 0 rgba(255,255,255,.05),0 10px 24px rgba(27,17,64,.18)}
 .nb-cover::before{content:"";position:absolute;inset:10px 12px 10px 22px;border:1px solid rgba(217,166,72,.45);border-radius:4px 14px 14px 4px;pointer-events:none}
 .nb-cover::after{content:"";position:absolute;top:0;bottom:0;right:26px;width:12px;background:linear-gradient(90deg,#b9893a,#e8c477 45%,#a67a2f);box-shadow:-2px 0 4px rgba(0,0,0,.25)}
 .nb-cover img{position:absolute;right:-38px;bottom:-40px;width:170px;height:170px;opacity:.9}
@@ -332,8 +333,10 @@ ol.moms{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
 #printArea{display:none}
 @media print{
   @page{size:A4 landscape;margin:12mm}
+  html,body{height:auto!important;min-height:0!important}
+  html{background:#fff!important;color-scheme:light!important}
   body{background:#fff!important;color:#1d1b3b!important}
-  .app,.tabs,.toast,audio{display:none!important}
+  .app,.tabs,.toast,.mini,audio{display:none!important}
   #printArea{display:block!important;font:400 9.5pt/1.4 var(--sans);color:#1d1b3b}
   #printArea header{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1.5pt solid #d9a648;padding-bottom:6pt;margin-bottom:8pt}
   #printArea h1{font:600 20pt var(--serif);color:#22135e;margin:0}
@@ -358,6 +361,11 @@ ol.moms{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
   #printArea .hrs span{width:0;display:flex;justify-content:center}
   #printArea td.n{text-align:center;font-weight:600}
   #printArea footer{margin-top:8pt;font-size:8pt;color:#56537a;text-align:center}
+  #printArea.tqp{--bg:#fff;--surface:#fff;--ink:#1d1b3b;--muted:#56537a;--line:#e6dccb;--tint:#efe7d8;--gold-deep:#7d5a16;font-size:10.5pt;line-height:1.5}
+  #printArea.tqp header>p:last-child{text-align:right;font-size:8.5pt}
+  #printArea.tqp .tq-card{border:.6pt solid #cfc4ae;break-inside:auto}
+  #printArea.tqp .tq-card>*,#printArea.tqp .tq-note{break-inside:avoid}
+  #printArea.tqp .tq-note,#printArea.tqp .tq-src{color:#56537a;font-size:9pt;margin:8pt 0 0}
 }
 .foot{font-size:.78rem;color:var(--muted);text-align:center;padding:10px 0 0}
 .stack.rdv{margin-top:14px;align-items:center}
@@ -605,6 +613,7 @@ function tqResult(T,X){
    T.notes.map(function(n){return '<p class="tq-note">'+ty(n)+'</p>'}).join('')+
    '<div class="stack">'+(T.calm?'<button type="button" class="btn solid" data-tab="sos">Revenir au calme</button>':'')+
    rdvBtn(T.calm?'':'solid')+
+   '<button type="button" class="btn" data-tqprint="1">Imprimer ou enregistrer en PDF</button>'+
    '<button type="button" class="btn" data-tqcopy="1">Copier mon résultat</button>'+
    '<button type="button" class="linkbtn" data-tqreset="1" style="align-self:center">Effacer et recommencer</button></div>'+
    '<p class="tq-src">'+esc(T.src)+'</p>';
@@ -621,9 +630,23 @@ function tqClick(d,el){
   if(d.tqpause){clearTimeout(tqTimer); state.ts='pause'; render(); return true}
   if(d.tqresume){state.ts='q'; render(); return true}
   if(d.tqreset){state.ts='intro'; state.ta=[]; state.ti=0; state.tsaved=false; render(); window.scrollTo(0,0); return true}
+  if(d.tqprint){tqPrint(); return true}
   if(d.tqcopy){var t=TESTS.filter(function(x){return x.id===state.tq})[0], r=tqLast(state.tq); var txt=t.t+' ('+t.s+') · '+fmtDate(r.d)+' : '+r.l;
     try{navigator.clipboard.writeText(txt).then(function(){toast('Résultat copié')})}catch(e){toast(txt)} return true}
   return false;
+}
+function tqPrint(){
+  var t=TESTS.filter(function(x){return x.id===state.tq})[0], r=tqLast(state.tq)||{d:new Date().toISOString()};
+  var card=main.querySelector('.tq-card'); if(!card) return;
+  var notes=[].map.call(main.querySelectorAll('.tq-note,.tq-src'),function(n){return n.outerHTML}).join('');
+  var p=document.getElementById('printArea'); p.className='tqp';
+  p.innerHTML='<header><div><h1>'+esc(t.t)+'</h1><p>'+esc(t.s)+' · Résultat du '+esc(new Date(r.d).toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'}))+'</p></div><p>Laetitia Duchemin, psychologue<br>laetitia-duchemin-psychologue.fr</p></header>'+
+    card.outerHTML+notes+'<footer>Un résultat donne une indication, pas un diagnostic. · Laetitia Duchemin · Psychologue clinicienne intégrative · laetitia-duchemin-psychologue.fr</footer>';
+  var old=document.getElementById('tqPage'); if(old) old.remove();
+  var st=document.createElement('style'); st.id='tqPage'; st.textContent='@page{size:A4 portrait;margin:14mm}'; document.body.appendChild(st);
+  var done=function(){var x=document.getElementById('tqPage'); if(x) x.remove(); p.className=''; window.removeEventListener('afterprint',done)};
+  window.addEventListener('afterprint',done);
+  try{window.print()}catch(e){}
 }
 function tqNext(){var n=tqSteps().length; if(state.ti<n-1){state.ti++; render()} else {state.ts='res'; render(); window.scrollTo(0,0)}}
 
@@ -998,7 +1021,7 @@ function printEntries(list){
     '<td>'+esc((e.emotions||[]).join(', '))+(e.avant!=null?' <b>('+e.avant+'/10)</b>':'')+(e.sensations?'<br><i>'+esc(e.sensations)+'</i>':'')+'</td>'+
     cell((e.besoins||[]).concat(e.besoinsTxt?[e.besoinsTxt]:[]))+cell(e.pensees)+cell(e.action)+
     '<td>'+(e.apres!=null?'<b>'+e.apres+'/10</b> ':'')+esc(e.resultat||'')+'</td></tr>'}).join('');
-  var p=document.getElementById('printArea');
+  var p=document.getElementById('printArea'); p.className=''; var tp=document.getElementById('tqPage'); if(tp) tp.remove();
   var rowsD=dec.map(function(e){return '<tr><td class="pd">'+esc(fmtDate(e.date))+'</td>'+cell(e.situation)+cell(e.corps)+cell((e.emotions||[]).concat(e.emotionTxt?[e.emotionTxt]:[]))+cell((e.aides||[]).concat(e.aideTxt?[e.aideTxt]:[]))+'</tr>'}).join('');
   var what=[beck.length?'Situations problématiques':'',dec.length?'Carnet des déclencheurs':'',som.length?'Agenda du sommeil':'',pos.length?'Moments positifs':''].filter(Boolean).join(', ');
   p.innerHTML='<header><div><h1>Mon carnet</h1><p>'+what+' · imprimé le '+esc(new Date().toLocaleDateString('fr-FR'))+'</p></div><p class="pn">Prénom : ________________________</p></header>'+
