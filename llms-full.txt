@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 28 octobre 2026.
+> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 2 novembre 2026.
 
 ---
 
@@ -38,13 +38,13 @@ Des séances sur une plateforme sécurisée, où que vous soyez, avec la même q
 
 Les séances en ligne
 
-« Le changement n'est pas un chemin unique. »
-
 Mon approche
 
 ## Une approche intégrative au service de votre histoire
 
 Je m'appuie sur une vision globale de l'être humain, en intégrant les apports de la psychologie clinique, de la neuropsychologie, de la psychotraumatologie et des approches corporelles. Chaque accompagnement se construit avec vous, à votre rythme, autour de ce qui compte pour vous.
+
+« Le changement n'est pas un chemin unique. »
 
 -
 HistoireComprendre votre vécu
@@ -119,6 +119,34 @@ Mon accompagnement est centré sur le trauma, mais il ne s'y limite pas : j'acco
 
 Votre situation ne figure pas dans cette liste ? Écrivez-moi : nous pourrons voir ensemble si mon accompagnement vous convient.
 
+Ressources
+
+## Mes exercices
+
+Plus de trente fiches à imprimer, des exercices guidés par ma voix et des carnets à remplir, rangés selon ce dont vous avez besoin. Choisissez un thème pour voir les outils qui s'y rapportent.
+
+J'ai besoin de : Crise d'angoisse ou de panique · Anxiété et stress · Émotions · Estime de soi · Relations et attachement · Trauma et dissociation · Changer une habitude · Sommeil · Avec un enfant
+
+Voir tous mes exercices · Installer l'appli Mes outils
+
+### Mes guides
+
+Deux guides gratuits que j'ai rédigés pour le Service universitaire de Santé Étudiante de l'UPJV, accessibles à toutes et tous.
+
+#### Le guide du sommeil
+
+Comprendre le sommeil et ses troubles, avec des conseils concrets pour mieux dormir. Coécrit avec Clément Busin (SSE UPJV, édition 2024).
+Télécharger le PDF
+
+#### Le guide de gestion du stress et de l'anxiété
+
+Comprendre le stress et l'anxiété, avec une boîte à outils pratique (respiration, relaxation, pleine conscience...). SSE UPJV, édition 2024.
+Télécharger le PDF
+
+### Besoin de vous apaiser maintenant ?
+
+Inspirez par le nez, expirez lentement. Respirer avec le cercle · Crise d'angoisse ou de panique
+
 Qui suis-je ?
 
 ## Une psychologue engagée
@@ -182,65 +210,6 @@ Plus de dix ans d'accompagnement des addictions, et participation depuis 2023 au
 
 Animatrice d'ateliers au Service de Santé Étudiante et à l'extérieur, formatrice ; autrice de guides pour les étudiants ; rédaction et coordination de projets institutionnels.
 
-Infos pratiques
-
-## Tarifs et modalités
-
-### Première consultation
-
-Un premier temps pour découvrir ce que je peux vous apporter et poser votre demande.
-
-1 h
-70 €
-
-### Consultation
-
-Séance individuelle de suivi.
-
-1 h
-70 €
-
-### Séance ICV
-
-Séance dédiée à l'approche LI-ICV.
-
-1 h 30
-90 €
-
-Tarifs nets, honoraires exonérés de TVA (art. 261 du CGI). Tarifs mis à jour en septembre 2026.
-
-### Consultation en ligne
-
-Les séances ont lieu en ligne, sur une plateforme sécurisée, pour toute la France comme depuis l'étranger. Il suffit d'un ordinateur, d'une tablette ou d'un téléphone, d'une connexion stable et d'un lieu au calme, pour échanger dans les mêmes conditions de confidentialité qu'en cabinet. Cette modalité permet d'être suivi sans contrainte de déplacement, y compris entre deux rendez-vous d'un accompagnement au long cours. Pour savoir comment se déroule une séance, je vous invite à lire la page Consulter en visio.
-
-### Prendre rendez-vous
-
-En ligne, en quelques clics, sur ma page de réservation. Une question avant de réserver ? Écrivez-moi par email ou laissez-moi un message depuis cette page.
-
-Ressources
-
-## Mes guides
-
-Deux guides gratuits que j'ai rédigés pour le Service universitaire de Santé Étudiante de l'UPJV, accessibles à toutes et tous.
-
-### Le guide du sommeil
-
-Comprendre le sommeil et ses troubles, avec des conseils concrets pour mieux dormir. Coécrit avec Clément Busin (SSE UPJV, édition 2024).
-Télécharger le PDF
-
-### Le guide de gestion du stress et de l'anxiété
-
-Comprendre le stress et l'anxiété, avec une boîte à outils pratique (respiration, relaxation, pleine conscience...). SSE UPJV, édition 2024.
-Télécharger le PDF
-
-## Mes exercices
-
-Plus de trente fiches à imprimer, des exercices guidés par ma voix et des carnets à remplir, rangés selon ce dont vous avez besoin. Choisissez un thème pour voir les outils qui s'y rapportent.
-
-J'ai besoin de : Crise d'angoisse ou de panique · Anxiété et stress · Émotions · Estime de soi · Relations et attachement · Trauma et dissociation · Changer une habitude · Sommeil · Avec un enfant
-
-Voir tous mes exercices · Installer l'appli Mes outils
-
 ## Vos questions
 
 -
@@ -291,6 +260,41 @@ Une psychologue clinicienne intégrative combine plusieurs modèles au lieu de s
 
 Une approche trauma-informée tient compte de l'impact que des expériences traumatiques peuvent avoir sur une personne, sur son corps, ses émotions et ses relations, même lorsque le trauma n'est pas la demande de départ. Elle repose sur quelques principes : la sécurité, la transparence, le choix, la collaboration et le respect du rythme de chacun. Concrètement, rien ne vous est imposé : vous pouvez à tout moment ralentir, faire une pause ou dire non. « Sensible au trauma » désigne des pratiques adaptées dans cet esprit, comme la Pleine Conscience Sensible au Trauma ou le TCTSY.
 
+Infos pratiques
+
+## Tarifs et modalités
+
+### Première consultation
+
+Un premier temps pour découvrir ce que je peux vous apporter et poser votre demande.
+
+1 h
+70 €
+
+### Consultation
+
+Séance individuelle de suivi.
+
+1 h
+70 €
+
+### Séance ICV
+
+Séance dédiée à l'approche LI-ICV.
+
+1 h 30
+90 €
+
+Tarifs nets, honoraires exonérés de TVA (art. 261 du CGI). Tarifs mis à jour en septembre 2026.
+
+### Consultation en ligne
+
+Les séances ont lieu en ligne, sur une plateforme sécurisée, pour toute la France comme depuis l'étranger. Il suffit d'un ordinateur, d'une tablette ou d'un téléphone, d'une connexion stable et d'un lieu au calme, pour échanger dans les mêmes conditions de confidentialité qu'en cabinet. Cette modalité permet d'être suivi sans contrainte de déplacement, y compris entre deux rendez-vous d'un accompagnement au long cours. Pour savoir comment se déroule une séance, je vous invite à lire la page Consulter en visio.
+
+### Prendre rendez-vous
+
+En ligne, en quelques clics, sur ma page de réservation. Une question avant de réserver ? Écrivez-moi par email ou laissez-moi un message depuis cette page.
+
 ## Prendre rendez-vous
 
 Réservez un premier rendez-vous en ligne, ou contactez-moi pour poser une question sur l'accompagnement. Je vous réponds dès que possible.
@@ -300,17 +304,14 @@ Réserver en ligne
 Téléphone
 07 59 56 06 00
 
-Message
-Formulaire de contact sur ma page de réservation
-
 Email
 duchemin.laetitia.psy@gmail.com
 
+Message
+Formulaire de contact sur ma page de réservation
+
 Consultations
 En ligne
-
-LinkedIn
-Profil LinkedIn
 
 Prendre soin de votre santé mentale, c'est aussi prendre soin de votre avenir.
 
