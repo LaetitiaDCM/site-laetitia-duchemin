@@ -618,6 +618,10 @@ figure figcaption a{padding-block:.7rem}
 @media (max-width:899px){.vb .frise{grid-template-columns:1fr;gap:30px;padding-left:34px}.vb .frise::before{left:7px;right:auto;top:6px;bottom:6px;width:1px;height:auto;background:linear-gradient(180deg,#d9a648,#d9a648 85%,rgba(217,166,72,.2))}.vb .fr-item{padding-top:0}.vb .fr-dot{left:-34px;top:3px}}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .vb .fr-dot{background:#2e1466}:root:not([data-theme="light"]) .vb .fr-item:last-child .fr-dot{background:#d9a648}}
 :root[data-theme="dark"] .vb .fr-dot{background:#2e1466}:root[data-theme="dark"] .vb .fr-item:last-child .fr-dot{background:#d9a648}
+.vb .frise{grid-template-columns:repeat(6,minmax(0,1fr))}
+.vb .fr-title{hyphens:auto;-webkit-hyphens:auto}
+.vb .frise .fr-org a{display:inline;min-height:0;padding:12px 0;border-bottom:0!important;text-decoration:underline;text-decoration-color:rgba(217,166,72,.65);text-underline-offset:3px}
+@media (max-width:899px){.vb .frise{grid-template-columns:1fr}}
 .vb .ct-app{text-decoration:underline;text-decoration-color:rgba(236,208,150,.5);text-underline-offset:4px}
 .vb .ct-app:hover{color:#ecd096!important}
 .vb .tcard p a{color:var(--b-link);text-decoration:underline;text-decoration-color:rgba(217,166,72,.65);text-underline-offset:3px}
