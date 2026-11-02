@@ -136,6 +136,10 @@
   --c-lav:#241a4a; --c-sky:#15234f; --c-sand:#2c2438;
   --line:rgba(236,208,150,.22); --link:#a9bdff; --heading:#ecd096; --gold-deep:#ecd096;
 }
+/* Mode sombre : fond en dégradé violet → bleu, comme l'appli (01/11/2026) */
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--surface:rgba(14,8,44,.42);--c-lav:rgba(36,26,74,.55);--c-sky:rgba(21,35,79,.55);--c-sand:rgba(44,36,56,.55)}:root:not([data-theme="light"]) body{background:transparent}:root:not([data-theme="light"]) body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(to bottom right,var(--violet) 0%,var(--violet) 50%,var(--royal) 100%)}:root:not([data-theme="light"]) .bf-bar i,:root:not([data-theme="light"]) .ecr-cursor,:root:not([data-theme="light"]) .qz-gauge i{background:#1a1236}}
+:root[data-theme="dark"]{--surface:rgba(14,8,44,.42);--c-lav:rgba(36,26,74,.55);--c-sky:rgba(21,35,79,.55);--c-sand:rgba(44,36,56,.55)}:root[data-theme="dark"] body{background:transparent}:root[data-theme="dark"] body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(to bottom right,var(--violet) 0%,var(--violet) 50%,var(--royal) 100%)}:root[data-theme="dark"] .bf-bar i,:root[data-theme="dark"] .ecr-cursor,:root[data-theme="dark"] .qz-gauge i{background:#1a1236}
+@media print{body::before{display:none}}
 *,*::before,*::after{box-sizing:inherit}
 html{background:var(--night);scroll-padding-top:calc(env(safe-area-inset-top,0px) + 84px);scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-weight:400;font-size:1.0625rem;line-height:1.65;-webkit-font-smoothing:antialiased}
@@ -187,13 +191,13 @@ p{margin:0 0 1em}
 .btn.ghost{color:var(--gold-soft)}
 .btn.ghost:hover{background:rgba(217,166,72,.15)}
 .kint{position:absolute;z-index:1;pointer-events:none}
-.kint.a{left:0;top:0;width:min(34vw,360px)}
-.kint.b{right:0;bottom:0;width:min(38vw,400px)}
+.kint.a{left:0;top:0;width:clamp(120px,22vw - 60px,240px);transform:translate(-12%,-16%)}
+.kint.b{right:0;bottom:0;width:min(24vw,260px);transform:translate(8%,10%)}
 @media (max-width:760px){
   .hero .wrap{grid-template-columns:1fr;text-align:left}
   .hero .mark{width:min(58vw,240px)}
   .kint.a{display:none}
-  .kint.b{width:60vw;opacity:.7}
+  .kint.b{width:38vw;opacity:.55}
 }
 
 /* ---------- Offres ---------- */
@@ -420,6 +424,7 @@ figure figcaption a{padding-block:.7rem}
 .toc ol{margin:0 0 .9rem;padding-left:1.3rem;color:var(--muted)}
 .toc a{display:block;padding-block:.7rem;line-height:1.35}
 .refs-list a{overflow-wrap:anywhere}
+@media (max-width:360px){.brand{gap:.6rem}.brand .mark{width:34px}.brand b{font-size:.84rem;letter-spacing:.08em}.brand small{font-size:.78rem;letter-spacing:.02em}.menu-btn{padding:.45rem .8rem}} /* en-tête à 320 px (02/11/2026) */
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -557,7 +562,7 @@ figure figcaption a{padding-block:.7rem}
 </header>
 <main>
 <section class="subhero">
-  <svg class="kint a" viewBox="0 0 360 260" fill="none" aria-hidden="true"><path d="M0 200 C90 190 150 120 190 60 S 250 10 290 0" stroke="#d9a648" stroke-width="2.2"/><path d="M0 232 C110 220 180 150 226 80 S 290 20 340 0" stroke="#d9a648" stroke-opacity=".35" stroke-width="1"/></svg>
+  <svg class="kint a" viewBox="0 0 360 260" fill="none" aria-hidden="true"><defs><linearGradient id="kint-or-1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbd786"/><stop offset=".5" stop-color="#e0aa52"/><stop offset="1" stop-color="#b77f2a"/></linearGradient></defs><path d="M0 200 C90 190 150 120 190 60 S 250 10 290 0" stroke="url(#kint-or-1)" stroke-width="2.2"/><path d="M0 232 C110 220 180 150 226 80 S 290 20 340 0" stroke="url(#kint-or-1)" stroke-opacity=".35" stroke-width="1"/></svg>
   <div class="wrap">
     <nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> / Styles d'attachement</nav>
     <h1>Styles d'attachement</h1>
@@ -724,7 +729,7 @@ figure figcaption a{padding-block:.7rem}
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
       <p><a href="/mentions-legales/" style="display:inline-block;padding-block:.7rem">Mentions légales complètes</a></p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 28 octobre 2026</div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 28 octobre 2026 · Référencement : <a href="https://mkz-consulting.fr/" style="display:inline-block;padding-block:.7rem;margin-block:-.7rem">MKZ</a></div>
   </div>
 </footer>
 <script>
