@@ -562,8 +562,30 @@ figure figcaption a{padding-block:.7rem}
 :root[data-theme="dark"] body{background:transparent}
 :root[data-theme="dark"] body::before{content:"";position:fixed;inset:0;z-index:-1;background:var(--app-grad);pointer-events:none}
 :root[data-theme="dark"] .vb,:root[data-theme="dark"] .vb-foot{--link:#a9bdff}
-@media not all and (prefers-color-scheme:dark){:root:not([data-theme="dark"]){background:#f7f3ec}:root:not([data-theme="dark"]) body{background:transparent}:root:not([data-theme="dark"]) body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse 70% 55% at 12% 18%,rgba(236,212,236,.75),transparent 70%),radial-gradient(ellipse 60% 50% at 88% 26%,rgba(206,226,246,.8),transparent 70%),radial-gradient(ellipse 65% 55% at 78% 86%,rgba(244,224,186,.8),transparent 70%),radial-gradient(ellipse 55% 45% at 18% 82%,rgba(214,236,228,.7),transparent 70%),linear-gradient(115deg,rgba(255,255,255,0) 30%,rgba(255,255,255,.55) 48%,rgba(255,255,255,0) 66%),#f7f3ec}:root:not([data-theme="dark"]) .vb{--b-page:transparent}}
+@media not all and (prefers-color-scheme:dark){:root:not([data-theme="dark"]){background:#f7f3ec}:root:not([data-theme="dark"]) body{background:transparent}:root:not([data-theme="dark"]) body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse 120% 95% at 0% 0%,rgba(240,228,240,.5),transparent 72%),radial-gradient(ellipse 115% 95% at 100% 15%,rgba(226,234,245,.5),transparent 72%),radial-gradient(ellipse 125% 100% at 75% 100%,rgba(245,236,216,.55),transparent 72%),#f7f3ec}:root:not([data-theme="dark"]) .vb{--b-page:transparent}}
 @media (max-width:899px) and (not (prefers-color-scheme:dark)){:root:not([data-theme="dark"]) body::before{inset:-30vh -110vw;background-size:100% 100%}}
+.vb .tf-grid{margin-top:clamp(48px,6vw,72px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:22px;align-items:stretch}
+.vb .tf-card{position:relative;display:flex;flex-direction:column;gap:12px;padding:clamp(30px,3.4vw,42px);border-radius:26px;background:var(--b-card);border:1px solid var(--b-line12);box-shadow:0 30px 60px -46px rgba(27,17,64,.45);transition:transform 900ms cubic-bezier(.22,1,.36,1),border-color 900ms ease,box-shadow 900ms ease}
+.vb .tf-card:hover{transform:translateY(-4px);border-color:rgba(217,166,72,.75);box-shadow:0 40px 70px -40px rgba(58,17,99,.4)}
+.vb .tf-main{background:var(--app-grad);color:#f7f3ec;border-color:rgba(236,208,150,.45);box-shadow:0 40px 80px -40px rgba(27,17,64,.6)}
+.vb .tf-badge{position:absolute;top:-15px;left:clamp(30px,3.4vw,42px);margin:0;padding:7px 16px;border-radius:999px;background:#ecd096;color:#1b1140;box-shadow:0 8px 20px -10px rgba(27,17,64,.5);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:500}
+.vb .tf-title{margin:0;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:28px;line-height:1.15}
+.vb .tf-price{margin:6px 0 0;display:flex;align-items:baseline;gap:14px}
+.vb .tf-amount{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(56px,5vw,72px);line-height:1}
+.vb .tf-dur{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--b-gold);font-weight:500}
+.vb .tf-main .tf-dur{color:#ecd096}
+.vb .tf-text{margin:0;flex-grow:1;font-size:15.5px;line-height:1.7;color:var(--b-muted)}
+.vb .tf-main .tf-text{color:#e2ddeb}
+.vb .tf-btn{position:relative;overflow:hidden;margin-top:12px;display:flex;align-items:center;justify-content:center;text-align:center;min-height:52px;padding:10px 22px;border-radius:999px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;transition:background 500ms ease,color 500ms ease,border-color 500ms ease}
+.vb .tf-btn-gold{background:#d9a648;color:#1b1140;box-shadow:0 14px 34px -14px rgba(217,166,72,.7)}
+.vb .tf-btn-gold:hover{color:#1b1140}
+.vb .tf-btn-line{border:1px solid rgba(217,166,72,.7);color:var(--b-ink)}
+.vb .tf-btn-line:hover{background:rgba(217,166,72,.12);color:var(--b-ink)}
+.vb .tf-sheen{position:absolute;top:0;bottom:0;left:0;width:40%;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.55),rgba(255,255,255,0));transform:translateX(-120%) skewX(-20deg);pointer-events:none}
+.vb .tf-trust{list-style:none;margin:clamp(36px,4vw,48px) 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:18px 32px}
+.vb .tf-trust li{display:flex;align-items:center;gap:14px;font-size:15px;line-height:1.5;color:var(--b-body)}
+.vb .tf-trust svg{flex:none;color:var(--b-gold)}
+.vb .tf-trust a{display:inline;min-height:0;color:var(--b-link);text-decoration:underline;text-decoration-color:rgba(217,166,72,.65);text-underline-offset:3px}
 .vb .tcard p a{color:var(--b-link);text-decoration:underline;text-decoration-color:rgba(217,166,72,.65);text-underline-offset:3px}
 .vb .tcard-deep p a{color:#ecd096}
 .vb .need-b{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid rgba(236,208,150,.4);color:#f7f3ec;font-size:14px;font-weight:400;transition:background 500ms ease,border-color 500ms ease}
@@ -708,8 +730,6 @@ figure figcaption a{padding-block:.7rem}
 <main>
 <!-- Accueil -->
 <section class="hero" id="accueil">
-  <svg class="kint a" viewBox="0 0 360 260" fill="none" aria-hidden="true"><path d="M0 200 C90 190 150 120 190 60 S 250 10 290 0" stroke="#d9a648" stroke-width="2.2"/><path d="M0 232 C110 220 180 150 226 80 S 290 20 340 0" stroke="#d9a648" stroke-opacity=".35" stroke-width="1"/><path d="M0 170 C70 160 120 100 150 50" stroke="#a48be0" stroke-opacity=".35" stroke-width="1"/></svg>
-  <svg class="kint b" viewBox="0 0 400 260" fill="none" aria-hidden="true"><path d="M400 30 C340 80 300 130 250 180 S 150 240 90 260" stroke="#d9a648" stroke-width="2.2"/><path d="M400 70 C350 120 320 160 280 200 S 200 250 150 260" stroke="#d9a648" stroke-opacity=".35" stroke-width="1"/><path d="M400 110 C370 150 340 180 310 210" stroke="#7f9cf0" stroke-opacity=".4" stroke-width="1"/></svg>
   <div class="wrap">
     <div class="mark" role="img" aria-label="Coupe de tronc dont les fissures sont réparées à l'or"></div>
     <div>
@@ -984,11 +1004,34 @@ figure figcaption a{padding-block:.7rem}
     <div style="height:1px;background:linear-gradient(90deg,rgba(217,166,72,0),#d9a648 20%,#d9a648 80%,rgba(217,166,72,0));margin-bottom:clamp(88px,11vw,150px)"></div>
     <p data-reveal="0" style="margin:0;display:flex;align-items:center;gap:18px;font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--b-gold);font-weight:500"><span style="width:44px;height:1px;background:#d9a648"></span>Infos pratiques</p>
     <h2 data-reveal="1" style="margin:28px 0 0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(36px,4.4vw,58px);line-height:1.1">Tarifs et <em style="color:var(--b-gold);font-weight:300">modalités</em></h2>
-    <div data-reveal="2" style="margin-top:clamp(48px,6vw,72px);border-radius:28px;background:var(--b-card);border:1px solid var(--b-line07);box-shadow:0 40px 80px -50px rgba(27,17,64,.35);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));overflow:hidden">
-      <div style="padding:clamp(32px,4vw,48px);display:flex;flex-direction:column;gap:14px;border-right:1px solid var(--b-line07);border-bottom:1px solid var(--b-line07)"><span style="font-family:'Cormorant Garamond',serif;font-size:clamp(52px,5vw,68px);font-weight:300;line-height:1">70 €</span><span style="font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--b-gold);font-weight:500">1 h</span><h3 style="margin:14px 0 0;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:26px">Première consultation</h3><p style="margin:0;font-size:15px;line-height:1.7;color:var(--b-muted)">Un premier temps pour découvrir ce que je peux vous apporter et poser votre demande.</p></div>
-      <div style="padding:clamp(32px,4vw,48px);display:flex;flex-direction:column;gap:14px;border-right:1px solid var(--b-line07);border-bottom:1px solid var(--b-line07)"><span style="font-family:'Cormorant Garamond',serif;font-size:clamp(52px,5vw,68px);font-weight:300;line-height:1">70 €</span><span style="font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--b-gold);font-weight:500">1 h</span><h3 style="margin:14px 0 0;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:26px">Consultation</h3><p style="margin:0;font-size:15px;line-height:1.7;color:var(--b-muted)">Séance individuelle de suivi.</p></div>
-      <div style="padding:clamp(32px,4vw,48px);display:flex;flex-direction:column;gap:14px;border-bottom:1px solid var(--b-line07)"><span style="font-family:'Cormorant Garamond',serif;font-size:clamp(52px,5vw,68px);font-weight:300;line-height:1">90 €</span><span style="font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--b-gold);font-weight:500">1 h 30</span><h3 style="margin:14px 0 0;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:26px">Séance ICV</h3><p style="margin:0;font-size:15px;line-height:1.7;color:var(--b-muted)">Séance dédiée à l'approche LI-ICV.</p></div>
+    <div data-reveal="2" class="tf-grid">
+      <article class="tf-card tf-main">
+        <p class="tf-badge">Pour commencer</p>
+        <h3 class="tf-title">Première consultation</h3>
+        <p class="tf-price"><span class="tf-amount">70 €</span><span class="tf-dur">1 h</span></p>
+        <p class="tf-text">Un premier temps pour découvrir ce que je peux vous apporter et poser votre demande.</p>
+        <a data-hover="" class="tf-btn tf-btn-gold" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Réserver ma première consultation<span data-sheen="" class="tf-sheen"></span></a>
+      </article>
+      <article class="tf-card">
+        <h3 class="tf-title">Consultation</h3>
+        <p class="tf-price"><span class="tf-amount">70 €</span><span class="tf-dur">1 h</span></p>
+        <p class="tf-text">Séance individuelle de suivi.</p>
+        <a class="tf-btn tf-btn-line" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Réserver une consultation</a>
+      </article>
+      <article class="tf-card">
+        <h3 class="tf-title">Séance ICV</h3>
+        <p class="tf-price"><span class="tf-amount">90 €</span><span class="tf-dur">1 h 30</span></p>
+        <p class="tf-text">Séance dédiée à l'approche LI-ICV.</p>
+        <a class="tf-btn tf-btn-line" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Réserver une séance ICV</a>
+      </article>
     </div>
+    <ul data-reveal="3" class="tf-trust">
+      <li><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></svg><span>En visio, partout en France et depuis l'étranger</span></li>
+      <li><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><span>Plateforme sécurisée, même confidentialité qu'en cabinet</span></li>
+      <li><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span>Réservation en ligne en quelques clics</span></li>
+      <li><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 5h16v11H8l-4 4z"/></svg><span>Une question avant de réserver ? <a href="#contact">Écrivez-moi</a>, je vous réponds dès que possible</span></li>
+    </ul>
+
     <p data-reveal="0" style="margin:24px 0 0;font-size:13.5px;color:var(--b-muted)">Tarifs nets, honoraires exonérés de TVA (art. 261 du CGI). Tarifs mis à jour en septembre 2026.</p>
     <div style="margin-top:clamp(64px,8vw,96px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:clamp(40px,6vw,80px)">
       <div data-reveal="0"><h3 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:28px">Consultation en ligne</h3><p style="margin:16px 0 0;font-size:16px;line-height:1.8;color:var(--b-body);text-wrap:pretty">Les séances ont lieu en ligne, sur une plateforme sécurisée, pour toute la France comme depuis l'étranger. Il suffit d'un ordinateur, d'une tablette ou d'un téléphone, d'une connexion stable et d'un lieu au calme, pour échanger dans les mêmes conditions de confidentialité qu'en cabinet. Cette modalité permet d'être suivi sans contrainte de déplacement, y compris entre deux rendez-vous d'un accompagnement au long cours. Pour savoir comment se déroule une séance, je vous invite à lire la page <a href="/consulter-en-visio/" style="color:var(--b-link);border-bottom:1px solid rgba(217,166,72,.6)">Consulter en visio</a>.</p></div>
