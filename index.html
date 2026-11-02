@@ -154,7 +154,7 @@
       "priceCurrency": "EUR",
       "itemOffered": {
        "@type": "Service",
-       "name": "Séance ICV (1 h 30)"
+       "name": "Séance ICV (1 h à 1 h 30)"
       }
      }
     ]
@@ -184,7 +184,7 @@
      "name": "Quels sont les tarifs et la durée des séances ?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Chez Laetitia Duchemin, la première consultation dure 1 h (70 €), la consultation de suivi 1 h (70 €) et la séance ICV 1 h 30 (90 €). Les honoraires sont exonérés de TVA (art. 261 du CGI). Tarifs mis à jour en septembre 2026."
+      "text": "Chez Laetitia Duchemin, la première consultation dure 1 h (70 €), la consultation de suivi 1 h (70 €) et la séance ICV 1 h à 1 h 30 (90 €). Les honoraires sont exonérés de TVA (art. 261 du CGI). Tarifs mis à jour en septembre 2026."
      }
     },
     {
@@ -562,7 +562,7 @@ figure figcaption a{padding-block:.7rem}
 :root[data-theme="dark"] body{background:transparent}
 :root[data-theme="dark"] body::before{content:"";position:fixed;inset:0;z-index:-1;background:var(--app-grad);pointer-events:none}
 :root[data-theme="dark"] .vb,:root[data-theme="dark"] .vb-foot{--link:#a9bdff}
-@media not all and (prefers-color-scheme:dark){:root:not([data-theme="dark"]){background:#f7f3ec}:root:not([data-theme="dark"]) body{background:transparent}:root:not([data-theme="dark"]) body::before{content:"";position:fixed;inset:-90px;z-index:-1;pointer-events:none;filter:blur(55px);background:radial-gradient(ellipse 70% 50% at 25% 18%,rgba(255,255,255,.55),transparent 65%),conic-gradient(from 210deg at 55% 50%,rgba(232,208,236,.8),rgba(206,220,246,.8) 22%,rgba(206,236,228,.75) 42%,rgba(246,230,196,.8) 62%,rgba(240,212,226,.8) 82%,rgba(232,208,236,.8)),#f7f3ec}:root:not([data-theme="dark"]) .vb{--b-page:transparent}}
+@media not all and (prefers-color-scheme:dark){:root:not([data-theme="dark"]){background:#f7f3ec}:root:not([data-theme="dark"]) body{background:transparent}:root:not([data-theme="dark"]) body::before{content:"";position:fixed;inset:-90px;z-index:-1;pointer-events:none;filter:blur(55px);background:radial-gradient(ellipse 70% 50% at 25% 18%,rgba(255,255,255,.45),transparent 65%),conic-gradient(from 210deg at 55% 50%,rgba(232,208,236,.5),rgba(206,220,246,.5) 22%,rgba(206,236,228,.45) 42%,rgba(246,230,196,.5) 62%,rgba(240,212,226,.5) 82%,rgba(232,208,236,.5)),#f7f3ec}:root:not([data-theme="dark"]) .vb{--b-page:transparent}}
 @media (max-width:899px) and (not (prefers-color-scheme:dark)){:root:not([data-theme="dark"]) body::before{inset:-30vh -110vw;background-size:100% 100%}}
 .vb .tf-grid{margin-top:clamp(48px,6vw,72px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:22px;align-items:stretch}
 .vb .tf-card{position:relative;display:flex;flex-direction:column;gap:12px;padding:clamp(30px,3.4vw,42px);border-radius:26px;background:var(--b-card);border:1px solid var(--b-line12);box-shadow:0 30px 60px -46px rgba(27,17,64,.45);transition:transform 900ms cubic-bezier(.22,1,.36,1),border-color 900ms ease,box-shadow 900ms ease}
@@ -599,6 +599,12 @@ figure figcaption a{padding-block:.7rem}
 :root[data-theme="dark"] .vb .ph-clair{display:none}:root[data-theme="dark"] .vb .ph-sombre{display:block}
 .vb .ph-screen::after{content:"";position:absolute;left:0;right:0;bottom:0;height:42%;background:linear-gradient(to top,rgba(15,10,38,.92),rgba(15,10,38,.55) 45%,rgba(15,10,38,0));pointer-events:none}
 .vb .ph-cta{position:absolute;z-index:1;left:14px;right:14px;bottom:20px;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center;min-height:48px;padding:8px 16px;border-radius:999px;background:#d9a648;color:#1b1140;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;line-height:1.35;box-shadow:0 14px 30px -12px rgba(217,166,72,.8)}
+.vb .ap-fig{position:relative;margin:0 0 clamp(40px,5vw,56px);border-radius:28px;overflow:hidden;aspect-ratio:5/4;box-shadow:0 40px 70px -40px rgba(27,17,64,.5)}
+@media (max-width:899px){.vb .ap-fig{aspect-ratio:1/1}}
+.vb .ap-fig img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 60%}
+.vb .ap-quote{position:absolute;left:clamp(22px,3vw,36px);top:clamp(22px,3vw,36px);right:38%;margin:0;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:400;font-size:clamp(24px,2.5vw,32px);line-height:1.35;color:#fffdf9;text-shadow:0 2px 18px rgba(27,17,64,.45)}
+.vb .ap-quote::after{content:"";display:block;width:64px;height:2px;margin-top:18px;background:#d9a648}
+.vb .vb-sign{width:min(100%,400px);margin-top:8px;border-radius:22px}
 .vb .tcard p a{color:var(--b-link);text-decoration:underline;text-decoration-color:rgba(217,166,72,.65);text-underline-offset:3px}
 .vb .tcard-deep p a{color:#ecd096}
 .vb .need-b{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid rgba(236,208,150,.4);color:#f7f3ec;font-size:14px;font-weight:400;transition:background 500ms ease,border-color 500ms ease}
@@ -753,7 +759,7 @@ figure figcaption a{padding-block:.7rem}
       <hr class="rule">
       <p class="promise"><span>Comprendre ce qui vous bloque.</span><span>Retrouver de la sécurité.</span><span>Avancer autrement.</span></p>
       <p class="domains">Trauma complexe · Attachement · LI-ICV · Neuropsychologie</p>
-      <p class="tarif">70 € la séance (1 h) · 90 € la séance ICV (1 h 30)</p>
+      <p class="tarif">70 € la séance (1 h) · 90 € la séance ICV (1 h à 1 h 30)</p>
       <div class="btns">
         <a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a>
         <a class="btn ghost" href="#approche">Découvrir mon approche</a>
@@ -774,11 +780,11 @@ figure figcaption a{padding-block:.7rem}
 
 <section id="approche" style="padding:clamp(110px,13vw,180px) clamp(20px,4vw,48px)">
   <div style="max-width:1240px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:clamp(64px,8vw,120px);align-items:start">
-    <div style="position:var(--l-sticky);top:140px">
+    <div style="position:static">
+      <figure data-reveal="0" class="ap-fig"><img src="/documents/approche-lac.webp" alt="" width="852" height="826" loading="lazy"><blockquote class="ap-quote">«&nbsp;Le changement n'est pas un chemin unique.&nbsp;»</blockquote></figure>
       <p data-reveal="0" style="margin:0;display:flex;align-items:center;gap:18px;font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--b-gold);font-weight:500"><span style="width:44px;height:1px;background:#d9a648"></span>Mon approche</p>
       <h2 data-reveal="1" style="margin:28px 0 0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(36px,4.4vw,58px);line-height:1.1;text-wrap:balance">Une approche intégrative au service de votre <em style="color:var(--b-gold);font-weight:300">histoire</em></h2>
       <p data-reveal="2" style="margin:32px 0 0;font-size:17px;line-height:1.8;color:var(--b-body);text-wrap:pretty">Je m'appuie sur une vision globale de l'être humain, en intégrant les apports de la psychologie clinique, de la neuropsychologie, de la psychotraumatologie et des approches corporelles. Chaque accompagnement se construit avec vous, à votre rythme, autour de ce qui compte pour vous.</p>
-      <p data-reveal="3" style="margin:44px 0 0;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:300;font-size:clamp(24px,2.4vw,30px);color:var(--b-link)">« Le changement n'est pas un chemin unique. »</p>
     </div>
     <ol data-track="v" style="position:relative;list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:clamp(48px,6vw,72px)">
       <li style="position:absolute;left:11px;top:12px;bottom:12px;width:1px;background:var(--b-line1)"></li>
@@ -923,7 +929,7 @@ figure figcaption a{padding-block:.7rem}
           <div style="position:absolute;inset:0;transform:translate(18px,18px);border-radius:28px;border:1px solid rgba(217,166,72,.6)"></div>
           <img src="/portrait.webp" width="900" height="945" loading="lazy" alt="Laetitia Duchemin, psychologue clinicienne intégrative" style="position:relative;width:100%;height:100%;object-fit:cover;border-radius:28px;display:block;box-shadow:0 40px 70px -40px rgba(27,17,64,.45)">
         </div>
-        <p style="margin:12px 0 0;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:21px;color:var(--b-link);display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px"><span>Écouter</span><span aria-hidden="true" style="color:#d9a648">·</span><span>Comprendre</span><span aria-hidden="true" style="color:#d9a648">·</span><span>Accompagner</span><span aria-hidden="true" style="color:#d9a648">·</span><span>Transmettre</span></p>
+        <div class="signature-panel vb-sign" role="img" aria-label="Écouter, Comprendre, Accompagner, Transmettre"><div class="mark" aria-hidden="true"></div><div class="signature" aria-hidden="true"><span>Écouter</span><span>Comprendre</span><span>Accompagner</span><span>Transmettre</span></div></div>
       </div>
     </div>
 
@@ -973,7 +979,7 @@ figure figcaption a{padding-block:.7rem}
         </div>
         <div data-reveal="2" style="border-bottom:1px solid rgba(217,166,72,.5)">
           <h3 style="margin:0;font:inherit"><button type="button" data-faq aria-expanded="false" aria-controls="faq-r2" id="faq-q2" style="width:100%;min-height:44px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:28px 0;background:none;border:0;cursor:pointer;text-align:left;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:clamp(22px,2.1vw,27px);line-height:1.3;color:var(--b-ink)">Quels sont les tarifs et la durée des séances ?<span aria-hidden="true" style="flex:none;position:relative;width:40px;height:40px;box-sizing:border-box;border-radius:50%;border:1px solid rgba(217,166,72,.65);transform:rotate(0deg);transition:transform 700ms cubic-bezier(.22,1,.36,1)"><span style="position:absolute;left:50%;top:50%;width:14px;height:1px;margin:0 0 0 -7px;background:var(--b-gold)"></span><span style="position:absolute;left:50%;top:50%;width:1px;height:14px;margin:-7px 0 0 0;background:var(--b-gold)"></span></span></button></h3>
-          <div id="faq-r2" role="region" aria-labelledby="faq-q2" style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 800ms cubic-bezier(.22,1,.36,1),opacity 800ms ease,visibility 0s 800ms"><div style="overflow:hidden"><p style="margin:0;padding:0 64px 32px 0;font-size:16px;line-height:1.8;color:var(--b-body);text-wrap:pretty">Chez Laetitia Duchemin, la première consultation dure 1 h (70 €), la consultation de suivi 1 h (70 €) et la séance ICV 1 h 30 (90 €). Les honoraires sont exonérés de TVA (art. 261 du CGI). Tarifs mis à jour en septembre 2026.</p></div></div>
+          <div id="faq-r2" role="region" aria-labelledby="faq-q2" style="display:grid;grid-template-rows:1fr;transition:grid-template-rows 800ms cubic-bezier(.22,1,.36,1),opacity 800ms ease,visibility 0s 800ms"><div style="overflow:hidden"><p style="margin:0;padding:0 64px 32px 0;font-size:16px;line-height:1.8;color:var(--b-body);text-wrap:pretty">Chez Laetitia Duchemin, la première consultation dure 1 h (70 €), la consultation de suivi 1 h (70 €) et la séance ICV 1 h à 1 h 30 (90 €). Les honoraires sont exonérés de TVA (art. 261 du CGI). Tarifs mis à jour en septembre 2026.</p></div></div>
         </div>
         <div data-reveal="3" style="border-bottom:1px solid rgba(217,166,72,.5)">
           <h3 style="margin:0;font:inherit"><button type="button" data-faq aria-expanded="false" aria-controls="faq-r3" id="faq-q3" style="width:100%;min-height:44px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:28px 0;background:none;border:0;cursor:pointer;text-align:left;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:clamp(22px,2.1vw,27px);line-height:1.3;color:var(--b-ink)">Comment se déroule une séance de psychologie en ligne ?<span aria-hidden="true" style="flex:none;position:relative;width:40px;height:40px;box-sizing:border-box;border-radius:50%;border:1px solid rgba(217,166,72,.65);transform:rotate(0deg);transition:transform 700ms cubic-bezier(.22,1,.36,1)"><span style="position:absolute;left:50%;top:50%;width:14px;height:1px;margin:0 0 0 -7px;background:var(--b-gold)"></span><span style="position:absolute;left:50%;top:50%;width:1px;height:14px;margin:-7px 0 0 0;background:var(--b-gold)"></span></span></button></h3>
@@ -1021,7 +1027,7 @@ figure figcaption a{padding-block:.7rem}
       </article>
       <article class="tf-card">
         <h3 class="tf-title">Séance ICV</h3>
-        <p class="tf-price"><span class="tf-amount">90 €</span><span class="tf-dur">1 h 30</span></p>
+        <p class="tf-price"><span class="tf-amount">90 €</span><span class="tf-dur">1 h à 1 h 30</span></p>
         <p class="tf-text">Séance dédiée à l'approche LI-ICV.</p>
         <a class="tf-btn tf-btn-line" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Réserver une séance ICV</a>
       </article>
