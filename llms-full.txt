@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 2 novembre 2026.
+> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 3 novembre 2026.
 
 ---
 
@@ -43,6 +43,8 @@ Mon approche
 ## Une approche intégrative au service de votre histoire
 
 Je m'appuie sur une vision globale de l'être humain, en intégrant les apports de la psychologie clinique, de la neuropsychologie, de la psychotraumatologie et des approches corporelles. Chaque accompagnement se construit avec vous, à votre rythme, autour de ce qui compte pour vous.
+
+Prendre rendez-vous
 
 « Le changement n'est pas un chemin unique. »
 
@@ -119,6 +121,8 @@ Mon accompagnement est centré sur le trauma, mais il ne s'y limite pas : j'acco
 
 Votre situation ne figure pas dans cette liste ? Écrivez-moi : nous pourrons voir ensemble si mon accompagnement vous convient.
 
+Prendre rendez-vous
+
 Ressources
 
 ## Mes exercices
@@ -144,6 +148,8 @@ Télécharger le PDF
 
 Comprendre le stress et l'anxiété, avec une boîte à outils pratique (respiration, relaxation, pleine conscience...). SSE UPJV, édition 2024.
 Télécharger le PDF
+
+Prendre rendez-vous
 
 ### Besoin de vous apaiser maintenant ?
 
