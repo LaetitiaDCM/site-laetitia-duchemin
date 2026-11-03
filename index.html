@@ -626,6 +626,9 @@ figure figcaption a{padding-block:.7rem}
 .vb .ct-app:hover{color:#ecd096!important}
 .vb .tcard p a{color:var(--b-link);text-decoration:underline;text-decoration-color:rgba(217,166,72,.65);text-underline-offset:3px}
 .vb .tcard-deep p a{color:#ecd096}
+/* Mode sombre : liens des cartes claires en doré, comme les cartes foncées (03/11/2026) */
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .vb .tcard p a{color:#ecd096}:root:not([data-theme="light"]) .vb .tcard p a:hover{color:#fff}}
+:root[data-theme="dark"] .vb .tcard p a{color:#ecd096}:root[data-theme="dark"] .vb .tcard p a:hover{color:#fff}
 .vb .need-b{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid rgba(236,208,150,.4);color:#f7f3ec;font-size:14px;font-weight:400;transition:background 500ms ease,border-color 500ms ease}
 .vb .need-b:hover{background:rgba(236,208,150,.1);border-color:#d9a648;color:#fff}
 .vb .tcard h3 a:hover,.vb .tcard p a:hover{color:var(--b-gold)}
