@@ -31,7 +31,7 @@
    "name": "Addictions : comprendre et changer à son rythme — L. Duchemin",
    "description": "Addictions avec ou sans substance : leur lien avec le trauma et les émotions, les étapes du changement, l'entretien motivationnel et l'accompagnement en ligne.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-28",
+   "dateModified": "2026-11-03",
    "about": {
     "@type": "Thing",
     "name": "Addictions"
@@ -438,7 +438,7 @@ figure figcaption a{padding-block:.7rem}
 .nav .dd-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
 .nav .dd-panel{display:block;list-style:none;margin:0;padding:.55rem 0;position:absolute;top:calc(100% + .7rem);left:-1rem;min-width:16rem;background:rgba(27,17,64,.98);border:1px solid rgba(236,208,150,.22);border-radius:14px;box-shadow:0 18px 40px rgba(10,5,30,.45);opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .18s,transform .18s,visibility .18s;z-index:60}
 .nav .dd-panel::before{content:"";position:absolute;left:0;right:0;top:-.8rem;height:.8rem}
-.nav .dd:nth-last-child(3) .dd-panel,.nav .dd:nth-last-child(4) .dd-panel{left:auto;right:-1rem}
+.nav .dd:nth-last-child(4) .dd-panel,.nav .dd:nth-last-child(5) .dd-panel{left:auto;right:-1rem}
 .nav .dd-panel a{display:block;padding:.48rem 1.1rem;font-size:.88rem;color:#e9e3f7;border:0;white-space:normal;line-height:1.35}
 .nav .dd-panel a:hover,.nav .dd-panel a:focus-visible{background:rgba(217,166,72,.13);color:#fff}
 .nav .dd-panel a.dd-main{font-family:var(--serif);font-size:1.05rem;color:var(--gold-soft)}
@@ -459,10 +459,14 @@ figure figcaption a{padding-block:.7rem}
   .nav .nav-plain{border-bottom:1px solid rgba(236,208,150,.12)}
   .nav .nav-plain a{display:flex;align-items:center;width:100%;font-size:1.02rem;padding:.85rem 0;min-height:48px;border:0}
   .nav .nav-cta{padding-top:1rem}
-  .nav .nav-cta a{display:inline-block}
+  .nav .nav-cta a{display:inline-flex;align-items:center;min-height:48px;padding:.7rem 1.6rem;background:var(--gold);border-color:var(--gold);color:#1b1140;font-weight:500}
+  .nav .nav-cta a:hover{background:#e3b45d}
 }
-@media (min-width:1180px){.site-header .wrap{width:min(1340px,100% - 3rem)}.nav .nav-top{gap:1.55rem}}
-@media (min-width:1440px){.nav .nav-top{gap:2rem}.nav .dd-btn,.nav .nav-plain a{font-size:.9rem}}
+@media (min-width:1180px){.site-header .wrap{width:min(1340px,100% - 3rem)}.nav .nav-top{gap:.8rem}}
+@media (min-width:1280px){.nav .nav-mob{display:none}}
+@media (max-width:1279px){.nav .nav-desk{display:none}}
+#dd-approche li:not(:first-child)>a.dd-main{border-top:1px solid rgba(236,208,150,.16);margin-top:.3rem;padding-top:.7rem}
+@media (min-width:1440px){.nav .nav-top{gap:1.2rem}.nav .dd-btn,.nav .nav-plain a{font-size:.9rem}}
 @media (prefers-reduced-motion:reduce){.nav .dd-panel,.nav .dd-caret{transition:none}}
 </style>
 </head>
@@ -477,22 +481,6 @@ figure figcaption a{padding-block:.7rem}
     <nav class="nav" id="nav" aria-label="Navigation principale">
       <ul class="nav-top">
         <li class="dd">
-          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-approches">Mes approches<span class="dd-caret" aria-hidden="true"></span></button>
-          <ul class="dd-panel" id="dd-approches">
-            <li><a href="/mes-approches/" class="dd-main">Mes approches</a></li>
-            <li><a href="/li-icv/">LI-ICV</a></li>
-            <li><a href="/li-icv-enfants-adolescents/">LI-ICV enfants et adolescents</a></li>
-            <li><a href="/li-icv-ou-emdr/">LI-ICV ou EMDR ?</a></li>
-            <li><a href="/pleine-conscience-sensible-au-trauma/">Pleine Conscience Sensible au Trauma</a></li>
-            <li><a href="/tctsy/">TCTSY</a></li>
-            <li><a href="/theorie-polyvagale/">Théorie polyvagale</a></li>
-            <li><a href="/ifs/">IFS : les parts de soi</a></li>
-            <li><a href="/eft/">EFT clinique</a></li>
-            <li><a href="/le-corps-en-psychotherapie/">Le corps en psychothérapie</a></li>
-            <li><a href="/neuropsychologie/">Neuropsychologie</a></li>
-          </ul>
-        </li>
-        <li class="dd">
           <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-trauma">Trauma<span class="dd-caret" aria-hidden="true"></span></button>
           <ul class="dd-panel" id="dd-trauma">
             <li><a href="/stress-post-traumatique-trauma-complexe/" class="dd-main">Stress post-traumatique et trauma complexe</a></li>
@@ -503,22 +491,6 @@ figure figcaption a{padding-block:.7rem}
             <li><a href="/dissociation/">Dissociation</a></li>
             <li><a href="/derealisation-depersonnalisation/">Déréalisation et dépersonnalisation</a></li>
             <li><a href="/honte-et-culpabilite/">Honte et culpabilité</a></li>
-          </ul>
-        </li>
-        <li class="dd here">
-          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-emotions">Émotions<span class="dd-caret" aria-hidden="true"></span></button>
-          <ul class="dd-panel" id="dd-emotions">
-            <li><a href="/les-emotions/" class="dd-main">Les émotions</a></li>
-            <li><a href="/regulation-emotionnelle/" class="dd-main">Régulation émotionnelle</a></li>
-            <li><a href="/co-regulation/">La co-régulation</a></li>
-            <li><a href="/validation-emotionnelle/">La validation émotionnelle</a></li>
-            <li><a href="/fenetre-de-tolerance/">Fenêtre de tolérance</a></li>
-            <li><a href="/anxiete/">Anxiété</a></li>
-            <li><a href="/crise-d-angoisse/">Crise d'angoisse</a></li>
-            <li><a href="/hypersensibilite/">Hypersensibilité</a></li>
-            <li><a href="/personnalite/">Personnalité</a></li>
-            <li><a href="/addictions/" aria-current="page">Addictions</a></li>
-            <li><a href="/pornographie-comportements-sexuels-compulsifs/">Pornographie et compulsions sexuelles</a></li>
           </ul>
         </li>
         <li class="dd">
@@ -537,25 +509,58 @@ figure figcaption a{padding-block:.7rem}
           </ul>
         </li>
         <li class="dd">
-          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-confiance">Confiance en soi<span class="dd-caret" aria-hidden="true"></span></button>
-          <ul class="dd-panel" id="dd-confiance">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-emotions">Émotions<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-emotions">
+            <li><a href="/les-emotions/" class="dd-main">Les émotions</a></li>
+            <li><a href="/regulation-emotionnelle/" class="dd-main">Régulation émotionnelle</a></li>
+            <li><a href="/co-regulation/">La co-régulation</a></li>
+            <li><a href="/validation-emotionnelle/">La validation émotionnelle</a></li>
+            <li><a href="/fenetre-de-tolerance/">Fenêtre de tolérance</a></li>
+            <li><a href="/anxiete/">Anxiété</a></li>
+            <li><a href="/crise-d-angoisse/">Crise d'angoisse</a></li>
+            <li><a href="/hypersensibilite/">Hypersensibilité</a></li>
+          </ul>
+        </li>
+        <li class="dd">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-connaitre">Se connaître<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-connaitre">
             <li><a href="/confiance-en-soi/" class="dd-main">Confiance en soi</a></li>
             <li><a href="/estime-de-soi/">Estime de soi</a></li>
             <li><a href="/affirmation-de-soi/">Affirmation de soi</a></li>
             <li><a href="/syndrome-de-l-imposteur/">Syndrome de l'imposteur</a></li>
             <li><a href="/resilience/">Résilience</a></li>
+            <li><a href="/personnalite/">Personnalité</a></li>
+          </ul>
+        </li>
+        <li class="dd here">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-addictions">Addictions<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-addictions">
+            <li><a href="/addictions/" class="dd-main" aria-current="page">Addictions</a></li>
+            <li><a href="/pornographie-comportements-sexuels-compulsifs/">Pornographie et compulsions sexuelles</a></li>
           </ul>
         </li>
         <li class="dd">
-          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-apropos">À propos<span class="dd-caret" aria-hidden="true"></span></button>
-          <ul class="dd-panel" id="dd-apropos">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-approche">Mon approche<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-approche">
+            <li><a href="/mes-approches/" class="dd-main">Mes approches</a></li>
+            <li><a href="/li-icv/">LI-ICV</a></li>
+            <li><a href="/li-icv-enfants-adolescents/">LI-ICV enfants et adolescents</a></li>
+            <li><a href="/li-icv-ou-emdr/">LI-ICV ou EMDR ?</a></li>
+            <li><a href="/pleine-conscience-sensible-au-trauma/">Pleine Conscience Sensible au Trauma</a></li>
+            <li><a href="/tctsy/">TCTSY</a></li>
+            <li><a href="/theorie-polyvagale/">Théorie polyvagale</a></li>
+            <li><a href="/ifs/">IFS : les parts de soi</a></li>
+            <li><a href="/eft/">EFT clinique</a></li>
+            <li><a href="/le-corps-en-psychotherapie/">Le corps en psychothérapie</a></li>
+            <li><a href="/neuropsychologie/">Neuropsychologie</a></li>
             <li><a href="/a-propos/" class="dd-main">À propos</a></li>
             <li><a href="/recherche/">Ma recherche doctorale</a></li>
-            <li><a href="/#infos">Infos pratiques et tarifs</a></li>
+            <li class="nav-desk"><a href="/#infos">Infos pratiques et tarifs</a></li>
             <li><a href="/consulter-en-visio/">Consulter en visio</a></li>
           </ul>
         </li>
-        <li class="nav-plain"><a href="/exercices/">Ressources</a></li>
+        <li class="nav-plain"><a href="/exercices/">Exercices et outils</a></li>
+        <li class="nav-plain nav-mob"><a href="/#infos">Tarifs et rendez-vous</a></li>
         <li class="nav-cta"><a class="cta" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
       </ul>
     </nav>
@@ -618,7 +623,7 @@ figure figcaption a{padding-block:.7rem}
       </ol>
       <p class="crit-l"><b>F</b>Certains de ces éléments durent depuis plus d'un mois ou se répètent sur une longue période.</p>
     </div>
-    <p>Ces critères aident à repérer une addiction ; le diagnostic se fait en consultation.</p>
+    <p>Ces critères sont un repère historique, utile pour comprendre ce que les addictions ont en commun, avec ou sans substance : ils ne constituent pas une grille diagnostique officielle. La classification de l'Organisation mondiale de la santé (CIM-11) décrit les troubles liés à l'usage de substances et, du côté des comportements, deux troubles : le trouble du jeu d'argent et le trouble du jeu vidéo. Le trouble du comportement sexuel compulsif y est classé à part, parmi les troubles du contrôle des impulsions (voir <a href="/pornographie-comportements-sexuels-compulsifs/">pornographie et comportements sexuels compulsifs</a>). Le diagnostic se fait en consultation.</p>
     <h2 id="une-strategie-de-regulation">Une stratégie de régulation</h2>
     <p>Beaucoup de personnes consomment d'abord pour se soulager : calmer une angoisse, éteindre des émotions trop fortes, dormir, oublier, se sentir moins seul. Le psychiatre Edward Khantzian a décrit cette fonction d'apaisement sous le nom d'« automédication ». Avec la répétition, le cerveau associe la consommation au soulagement, et l'envie revient dès que la tension monte.</p>
     <p>Les addictions peuvent être liées à des expériences difficiles ou traumatiques, en particulier dans l'enfance, sans que ce soit toujours le cas (voir le <a href="/stress-post-traumatique-trauma-complexe/">trauma complexe</a>). La consommation peut alors aider à réguler un système nerveux resté en alerte ou, au contraire, à se couper de ce que l'on ressent (voir la <a href="/regulation-emotionnelle/">régulation émotionnelle</a> et la <a href="/dissociation/">dissociation</a>). Dans le modèle <a href="/ifs/">IFS</a>, on peut y reconnaître l'action d'une part « pompier », qui cherche à éteindre une douleur au plus vite.</p>
@@ -687,6 +692,7 @@ figure figcaption a{padding-block:.7rem}
       <li><h3>Puis-je consulter si je ne suis pas sûr de vouloir changer ?</h3><p>Oui. L'hésitation est normale et fait partie du processus. L'entretien motivationnel est justement conçu pour l'explorer, sans pression.</p></li>
       <li><h3>J'ai honte d'en parler. Comment faire ?</h3><p>La honte est très fréquente, quelle que soit l'addiction. Vous pouvez avancer à votre rythme et dire seulement ce qui vous semble possible : la consultation est un espace sans jugement.</p></li>
     </ul>
+    <p class="revision" style="color:var(--muted);font-size:.95rem">Rédigé par <a href="/a-propos/">Laetitia Duchemin</a>, psychologue clinicienne intégrative. Dernière révision : novembre 2026.</p>
     <h2 id="sources">Sources</h2>
     <ul class="refs-list">
       <li>Goodman, A. (1990). Addiction: definition and implications. <em>British Journal of Addiction</em>, 85(11), 1403-1408. <a href="https://doi.org/10.1111/j.1360-0443.1990.tb01620.x" target="_blank" rel="noopener">https://doi.org/10.1111/j.1360-0443.1990.tb01620.x</a></li>
@@ -696,6 +702,8 @@ figure figcaption a{padding-block:.7rem}
       <li>Khantzian, E. J. (1997). The self-medication hypothesis of substance use disorders: A reconsideration and recent applications. <em>Harvard Review of Psychiatry</em>, 4(5), 231-244. <a href="https://doi.org/10.3109/10673229709030550" target="_blank" rel="noopener">https://doi.org/10.3109/10673229709030550</a></li>
       <li>Felitti, V. J., Anda, R. F., Nordenberg, D., Williamson, D. F., Spitz, A. M., Edwards, V., Koss, M. P., &amp; Marks, J. S. (1998). Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: The Adverse Childhood Experiences (ACE) Study. <em>American Journal of Preventive Medicine</em>, 14(4), 245-258. <a href="https://doi.org/10.1016/S0749-3797(98)00017-8" target="_blank" rel="noopener">https://doi.org/10.1016/S0749-3797(98)00017-8</a></li>
       <li>Bowen, S., Chawla, N., Grow, J., &amp; Marlatt, G. A. (2021). <em>Mindfulness-Based Relapse Prevention for Addictive Behaviors: A Clinician's Guide</em> (2e éd.). New York : Guilford Press.</li>
+      <li>Kraus, S. W., Krueger, R. B., Briken, P., First, M. B., Stein, D. J., Kaplan, M. S., Voon, V., Abdo, C. H. N., Grant, J. E., Atalla, E., &amp; Reed, G. M. (2018). Compulsive sexual behaviour disorder in the ICD-11. <em>World Psychiatry</em>, 17(1), 109-110. <a href="https://doi.org/10.1002/wps.20499" target="_blank" rel="noopener">https://doi.org/10.1002/wps.20499</a></li>
+      <li>Organisation mondiale de la santé. (2022). <em>CIM-11 : Classification internationale des maladies, 11e révision</em>. <a href="https://icd.who.int/" target="_blank" rel="noopener">https://icd.who.int/</a></li>
     </ul>
   </div>
 </section>
@@ -714,7 +722,7 @@ figure figcaption a{padding-block:.7rem}
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
       <p><a href="/mentions-legales/" style="display:inline-block;padding-block:.7rem">Mentions légales complètes</a></p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 28 octobre 2026 · Référencement : <a href="https://mkz-consulting.fr/" rel="nofollow" style="display:inline-block;padding:.7rem;margin:-.7rem">MKZ</a></div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 3 novembre 2026 · Référencement : <a href="https://mkz-consulting.fr/" rel="nofollow" style="display:inline-block;padding:.7rem;margin:-.7rem">MKZ</a></div>
   </div>
 </footer>
 <script>

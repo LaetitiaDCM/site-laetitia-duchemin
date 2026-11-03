@@ -31,7 +31,7 @@
    "name": "ICV, LI-ICV en ligne — Laetitia Duchemin, psychologue",
    "description": "La LI-ICV (Intégration du Cycle de la Vie) : définition, indications, formation et questions fréquentes. Séances en ligne avec Laetitia Duchemin, psychologue.",
    "inLanguage": "fr",
-   "dateModified": "2026-11-02",
+   "dateModified": "2026-11-03",
    "about": {
     "@type": "Thing",
     "name": "Intégration du Cycle de la Vie (Lifespan Integration, LI-ICV)"
@@ -413,6 +413,12 @@ figure figcaption a{padding-block:.7rem}
 /* En-tête sans défilement horizontal de 360 à 420 px (la marque et le bouton Menu demandaient 351 px pour 320) */
 @media (max-width:420px){.site-header .bar{gap:.75rem}.brand small{letter-spacing:0}.menu-btn{padding-inline:.75rem}}
 @media (max-width:360px){.brand{gap:.6rem}.brand .mark{width:34px}.brand b{font-size:.84rem;letter-spacing:.08em}.brand small{font-size:.78rem;letter-spacing:.02em}.menu-btn{padding:.45rem .8rem}} /* en-tête à 320 px (02/11/2026) */
+/* Sommaire, comme sur les autres pages */
+.toc{margin:0 0 2rem}
+.toc details{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:0 1.1rem}
+.toc summary{color:var(--heading);font-family:var(--serif);font-size:1.25rem;font-weight:500;padding-block:.45rem}
+.toc ol{margin:0 0 .9rem;padding-left:1.3rem;color:var(--muted)}
+.toc a{display:block;padding-block:.7rem;line-height:1.35}
 </style>
 <style id="nav-dd">
 .nav .nav-top{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
@@ -425,7 +431,7 @@ figure figcaption a{padding-block:.7rem}
 .nav .dd-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
 .nav .dd-panel{display:block;list-style:none;margin:0;padding:.55rem 0;position:absolute;top:calc(100% + .7rem);left:-1rem;min-width:16rem;background:rgba(27,17,64,.98);border:1px solid rgba(236,208,150,.22);border-radius:14px;box-shadow:0 18px 40px rgba(10,5,30,.45);opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .18s,transform .18s,visibility .18s;z-index:60}
 .nav .dd-panel::before{content:"";position:absolute;left:0;right:0;top:-.8rem;height:.8rem}
-.nav .dd:nth-last-child(3) .dd-panel,.nav .dd:nth-last-child(4) .dd-panel{left:auto;right:-1rem}
+.nav .dd:nth-last-child(4) .dd-panel,.nav .dd:nth-last-child(5) .dd-panel{left:auto;right:-1rem}
 .nav .dd-panel a{display:block;padding:.48rem 1.1rem;font-size:.88rem;color:#e9e3f7;border:0;white-space:normal;line-height:1.35}
 .nav .dd-panel a:hover,.nav .dd-panel a:focus-visible{background:rgba(217,166,72,.13);color:#fff}
 .nav .dd-panel a.dd-main{font-family:var(--serif);font-size:1.05rem;color:var(--gold-soft)}
@@ -446,10 +452,14 @@ figure figcaption a{padding-block:.7rem}
   .nav .nav-plain{border-bottom:1px solid rgba(236,208,150,.12)}
   .nav .nav-plain a{display:flex;align-items:center;width:100%;font-size:1.02rem;padding:.85rem 0;min-height:48px;border:0}
   .nav .nav-cta{padding-top:1rem}
-  .nav .nav-cta a{display:inline-block}
+  .nav .nav-cta a{display:inline-flex;align-items:center;min-height:48px;padding:.7rem 1.6rem;background:var(--gold);border-color:var(--gold);color:#1b1140;font-weight:500}
+  .nav .nav-cta a:hover{background:#e3b45d}
 }
-@media (min-width:1180px){.site-header .wrap{width:min(1340px,100% - 3rem)}.nav .nav-top{gap:1.55rem}}
-@media (min-width:1440px){.nav .nav-top{gap:2rem}.nav .dd-btn,.nav .nav-plain a{font-size:.9rem}}
+@media (min-width:1180px){.site-header .wrap{width:min(1340px,100% - 3rem)}.nav .nav-top{gap:.8rem}}
+@media (min-width:1280px){.nav .nav-mob{display:none}}
+@media (max-width:1279px){.nav .nav-desk{display:none}}
+#dd-approche li:not(:first-child)>a.dd-main{border-top:1px solid rgba(236,208,150,.16);margin-top:.3rem;padding-top:.7rem}
+@media (min-width:1440px){.nav .nav-top{gap:1.2rem}.nav .dd-btn,.nav .nav-plain a{font-size:.9rem}}
 @media (prefers-reduced-motion:reduce){.nav .dd-panel,.nav .dd-caret{transition:none}}
 </style>
 </head>
@@ -463,22 +473,6 @@ figure figcaption a{padding-block:.7rem}
     <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav class="nav" id="nav" aria-label="Navigation principale">
       <ul class="nav-top">
-        <li class="dd here">
-          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-approches">Mes approches<span class="dd-caret" aria-hidden="true"></span></button>
-          <ul class="dd-panel" id="dd-approches">
-            <li><a href="/mes-approches/" class="dd-main">Mes approches</a></li>
-            <li><a href="/li-icv/" aria-current="page">LI-ICV</a></li>
-            <li><a href="/li-icv-enfants-adolescents/">LI-ICV enfants et adolescents</a></li>
-            <li><a href="/li-icv-ou-emdr/">LI-ICV ou EMDR ?</a></li>
-            <li><a href="/pleine-conscience-sensible-au-trauma/">Pleine Conscience Sensible au Trauma</a></li>
-            <li><a href="/tctsy/">TCTSY</a></li>
-            <li><a href="/theorie-polyvagale/">Théorie polyvagale</a></li>
-            <li><a href="/ifs/">IFS : les parts de soi</a></li>
-            <li><a href="/eft/">EFT clinique</a></li>
-            <li><a href="/le-corps-en-psychotherapie/">Le corps en psychothérapie</a></li>
-            <li><a href="/neuropsychologie/">Neuropsychologie</a></li>
-          </ul>
-        </li>
         <li class="dd">
           <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-trauma">Trauma<span class="dd-caret" aria-hidden="true"></span></button>
           <ul class="dd-panel" id="dd-trauma">
@@ -490,22 +484,6 @@ figure figcaption a{padding-block:.7rem}
             <li><a href="/dissociation/">Dissociation</a></li>
             <li><a href="/derealisation-depersonnalisation/">Déréalisation et dépersonnalisation</a></li>
             <li><a href="/honte-et-culpabilite/">Honte et culpabilité</a></li>
-          </ul>
-        </li>
-        <li class="dd">
-          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-emotions">Émotions<span class="dd-caret" aria-hidden="true"></span></button>
-          <ul class="dd-panel" id="dd-emotions">
-            <li><a href="/les-emotions/" class="dd-main">Les émotions</a></li>
-            <li><a href="/regulation-emotionnelle/" class="dd-main">Régulation émotionnelle</a></li>
-            <li><a href="/co-regulation/">La co-régulation</a></li>
-            <li><a href="/validation-emotionnelle/">La validation émotionnelle</a></li>
-            <li><a href="/fenetre-de-tolerance/">Fenêtre de tolérance</a></li>
-            <li><a href="/anxiete/">Anxiété</a></li>
-            <li><a href="/crise-d-angoisse/">Crise d'angoisse</a></li>
-            <li><a href="/hypersensibilite/">Hypersensibilité</a></li>
-            <li><a href="/personnalite/">Personnalité</a></li>
-            <li><a href="/addictions/">Addictions</a></li>
-            <li><a href="/pornographie-comportements-sexuels-compulsifs/">Pornographie et compulsions sexuelles</a></li>
           </ul>
         </li>
         <li class="dd">
@@ -524,25 +502,58 @@ figure figcaption a{padding-block:.7rem}
           </ul>
         </li>
         <li class="dd">
-          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-confiance">Confiance en soi<span class="dd-caret" aria-hidden="true"></span></button>
-          <ul class="dd-panel" id="dd-confiance">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-emotions">Émotions<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-emotions">
+            <li><a href="/les-emotions/" class="dd-main">Les émotions</a></li>
+            <li><a href="/regulation-emotionnelle/" class="dd-main">Régulation émotionnelle</a></li>
+            <li><a href="/co-regulation/">La co-régulation</a></li>
+            <li><a href="/validation-emotionnelle/">La validation émotionnelle</a></li>
+            <li><a href="/fenetre-de-tolerance/">Fenêtre de tolérance</a></li>
+            <li><a href="/anxiete/">Anxiété</a></li>
+            <li><a href="/crise-d-angoisse/">Crise d'angoisse</a></li>
+            <li><a href="/hypersensibilite/">Hypersensibilité</a></li>
+          </ul>
+        </li>
+        <li class="dd">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-connaitre">Se connaître<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-connaitre">
             <li><a href="/confiance-en-soi/" class="dd-main">Confiance en soi</a></li>
             <li><a href="/estime-de-soi/">Estime de soi</a></li>
             <li><a href="/affirmation-de-soi/">Affirmation de soi</a></li>
             <li><a href="/syndrome-de-l-imposteur/">Syndrome de l'imposteur</a></li>
             <li><a href="/resilience/">Résilience</a></li>
+            <li><a href="/personnalite/">Personnalité</a></li>
           </ul>
         </li>
         <li class="dd">
-          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-apropos">À propos<span class="dd-caret" aria-hidden="true"></span></button>
-          <ul class="dd-panel" id="dd-apropos">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-addictions">Addictions<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-addictions">
+            <li><a href="/addictions/" class="dd-main">Addictions</a></li>
+            <li><a href="/pornographie-comportements-sexuels-compulsifs/">Pornographie et compulsions sexuelles</a></li>
+          </ul>
+        </li>
+        <li class="dd here">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-approche">Mon approche<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-approche">
+            <li><a href="/mes-approches/" class="dd-main">Mes approches</a></li>
+            <li><a href="/li-icv/" aria-current="page">LI-ICV</a></li>
+            <li><a href="/li-icv-enfants-adolescents/">LI-ICV enfants et adolescents</a></li>
+            <li><a href="/li-icv-ou-emdr/">LI-ICV ou EMDR ?</a></li>
+            <li><a href="/pleine-conscience-sensible-au-trauma/">Pleine Conscience Sensible au Trauma</a></li>
+            <li><a href="/tctsy/">TCTSY</a></li>
+            <li><a href="/theorie-polyvagale/">Théorie polyvagale</a></li>
+            <li><a href="/ifs/">IFS : les parts de soi</a></li>
+            <li><a href="/eft/">EFT clinique</a></li>
+            <li><a href="/le-corps-en-psychotherapie/">Le corps en psychothérapie</a></li>
+            <li><a href="/neuropsychologie/">Neuropsychologie</a></li>
             <li><a href="/a-propos/" class="dd-main">À propos</a></li>
             <li><a href="/recherche/">Ma recherche doctorale</a></li>
-            <li><a href="/#infos">Infos pratiques et tarifs</a></li>
+            <li class="nav-desk"><a href="/#infos">Infos pratiques et tarifs</a></li>
             <li><a href="/consulter-en-visio/">Consulter en visio</a></li>
           </ul>
         </li>
-        <li class="nav-plain"><a href="/exercices/">Ressources</a></li>
+        <li class="nav-plain"><a href="/exercices/">Exercices et outils</a></li>
+        <li class="nav-plain nav-mob"><a href="/#infos">Tarifs et rendez-vous</a></li>
         <li class="nav-cta"><a class="cta" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
       </ul>
     </nav>
@@ -562,8 +573,21 @@ figure figcaption a{padding-block:.7rem}
 </section>
 <section class="prose">
   <div class="wrap">
+    <p><strong>En bref :</strong> la LI-ICV est une thérapie de connexion des différents états du soi. Elle s'appuie sur une ligne du temps, parcourue de façon répétée, pour aider les expériences passées à trouver leur place dans votre histoire. Elle est notamment utilisée pour le stress post-traumatique, simple ou complexe, et la réparation de l'attachement. Elle se pratique à tout âge, avec des séances d'ICV de 1 h à 1 h 30. Vous hésitez avec l'EMDR ? Voir <a href="/li-icv-ou-emdr/">LI-ICV ou EMDR</a>.</p>
+    <nav class="toc" aria-label="Sommaire de la page"><details><summary>Sommaire</summary><ol>
+      <li><a href="#pour-quelles-situations">Pour quelles situations ?</a></li>
+      <li><a href="#comment-elle-agit">Comment elle agit : l'image du sablier</a></li>
+      <li><a href="#pourquoi-la-repetition-compte-le-principe-de-hebb">Pourquoi la répétition compte : le principe de Hebb</a></li>
+      <li><a href="#deroule">Comment se déroule l'accompagnement</a></li>
+      <li><a href="#apres-une-seance">Ce que l'on peut ressentir après une séance</a></li>
+      <li><a href="#ma-formation-a-la-li-icv">Ma formation à la LI-ICV</a></li>
+      <li><a href="#ce-que-dit-la-recherche">Ce que dit la recherche</a></li>
+      <li><a href="#pour-un-enfant-ou-un-adolescent">Pour un enfant ou un adolescent</a></li>
+      <li><a href="#questions-frequentes">Questions fréquentes</a></li>
+    </ol></details></nav>
     <h2 id="pour-quelles-situations">Pour quelles situations ?</h2>
-    <p>Elle est utilisée pour le <a href="/stress-post-traumatique-trauma-complexe/">stress post-traumatique (TSPT), simple ou complexe</a>, la réparation de l'<a href="/styles-d-attachement/">attachement</a> et la <a href="/regulation-emotionnelle/">régulation émotionnelle</a>. Au-delà, elle peut être utilisée pour toutes les demandes : elle travaille sur le noyau central du symptôme, son origine.</p>
+    <p>Elle est utilisée pour le <a href="/stress-post-traumatique-trauma-complexe/">stress post-traumatique (TSPT), simple ou complexe</a>, la réparation de l'<a href="/styles-d-attachement/">attachement</a> et la <a href="/regulation-emotionnelle/">régulation émotionnelle</a>. Au-delà, elle peut être utilisée pour d'autres demandes : <a href="/anxiete/">troubles anxieux</a>, dépression, symptômes <a href="/dissociation/">dissociatifs</a>, difficultés relationnelles, ou un mal-être plus diffus, comme l'impression de ne pas trouver sa place, ou de se sentir seul·e même entouré·e. Il n'est pas nécessaire d'avoir vécu des événements extrêmes pour ressentir une insécurité intérieure : elle travaille sur le fond, souvent complexe, qui peut être à l'origine des symptômes. Lors d'un deuil, elle peut faciliter ou débloquer le travail de deuil, sans le remplacer.</p>
+    <p>Son utilisation clinique pour ces différentes difficultés ne signifie pas que son efficacité a déjà été démontrée pour chacune d'elles : la recherche sur la LI-ICV est encore jeune (voir <a href="#ce-que-dit-la-recherche">ce que dit la recherche</a>).</p>
     <p>Vous vous demandez ce qui la distingue de l'EMDR ? Voir la page <a href="/li-icv-ou-emdr/">LI-ICV ou EMDR</a>.</p>
     <h2 id="comment-elle-agit">Comment elle agit : l'image du sablier</h2>
     <p>Dans un sablier, le sable ne passe pas d'un seul coup : il s'écoule grain par grain, par un passage étroit. La LI-ICV agit de la même façon : elle permet d'intégrer l'information traumatique petit à petit, et non massivement, en restant en sécurité dans le présent. À chaque passage de la ligne du temps, le système nerveux intègre une part de ce qui a été vécu, puis retrouve le présent, avant de continuer.</p>
@@ -607,12 +631,12 @@ figure figcaption a{padding-block:.7rem}
     <p>La LI-ICV permet aussi de travailler la mémoire implicite, celle qui n'est pas directement accessible à la conscience : les émotions, les sensations et les réactions du corps liées au passé, même sans souvenir précis (voir <a href="/memoire-traumatique/#memoire-explicite-et-memoire-implicite">mémoire explicite et mémoire implicite</a>).</p>
     <h2 id="pourquoi-la-repetition-compte-le-principe-de-hebb">Pourquoi la répétition compte : le principe de Hebb</h2>
     <p>En 1949, le psychologue canadien Donald Hebb a proposé une idée devenue centrale en neurosciences : lorsque deux neurones s'activent en même temps, de façon répétée, la connexion entre eux se renforce. On la résume souvent ainsi : « les neurones qui s'activent ensemble se connectent ensemble ». C'est l'un des mécanismes de la plasticité du cerveau, qui lui permet d'apprendre tout au long de la vie.</p>
-    <p>La LI-ICV s'appuie sur ce principe. À chaque passage de la ligne du temps, le souvenir est activé en même temps que les repères du présent : l'adulte d'aujourd'hui, en sécurité, présent dans son corps, accompagné par le thérapeute. En répétant ces passages, le cerveau renforce le lien entre les deux : le souvenir n'appelle plus seulement l'alarme, il appelle aussi le sentiment que c'est passé. C'est pourquoi la répétition est l'un des piliers de la LI-ICV.</p>
-    <p>L'image ci-dessous l'illustre : tout le réseau s'illumine ensemble, comme une guirlande, et des faisceaux de lumière relient les points entre eux, à l'image des connexions qui se renforcent à chaque répétition.</p>
+    <p>On peut comprendre l'effet de la répétition dans la LI-ICV à la lumière de ce principe. À chaque passage de la ligne du temps, le souvenir est activé en même temps que les repères du présent : l'adulte d'aujourd'hui, en sécurité, présent dans son corps, accompagné par le thérapeute. En répétant ces passages, on peut penser que le cerveau renforce le lien entre les deux : le souvenir n'appelle plus seulement l'alarme, il appelle aussi le sentiment que c'est passé. C'est pourquoi la répétition est l'un des piliers de la LI-ICV.</p>
+    <p>L'image ci-dessous l'illustre : tout le réseau s'illumine ensemble, et des faisceaux de lumière relient les points entre eux, à l'image des connexions qui se renforcent à chaque répétition.</p>
 <figure class="hebi" id="hebb-connexion">
   <div class="hebi-stage">
     <img src="/documents/neurones-hebb.webp" srcset="/documents/neurones-hebb-768.webp 768w, /documents/neurones-hebb.webp 1200w" sizes="(max-width: 820px) 100vw, 760px" width="1200" height="800" alt="" loading="lazy" decoding="async">
-    <svg class="hebi-svg" viewBox="0 0 1536 1024" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Un réseau de neurones qui s'illumine tout entier, comme une guirlande : les connexions s'allument ensemble et se renforcent à chaque répétition.">
+    <svg class="hebi-svg" viewBox="0 0 1536 1024" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Un réseau de neurones qui s'illumine tout entier : les connexions s'allument ensemble et se renforcent à chaque répétition.">
       <defs>
         <radialGradient id="hebi-soma" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff2c6" stop-opacity=".85"/><stop offset=".35" stop-color="#f3c25e" stop-opacity=".45"/><stop offset="1" stop-color="#f3c25e" stop-opacity="0"/></radialGradient>
         <radialGradient id="hebi-flare" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffffff" stop-opacity="1"/><stop offset=".22" stop-color="#ffe2a0" stop-opacity=".9"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/></radialGradient>
@@ -643,7 +667,7 @@ figure figcaption a{padding-block:.7rem}
     L.forEach(function(n){
       var v;
       if(u<2) v=s2(u);                                   // tout le réseau s'allume d'un coup, deux fois
-      else if(u<5) v=(n.g===2)?.55+.35*s2(u):(n.g===0?s2(u):s2(u+.5)); // guirlande : alternance des deux séries
+      else if(u<5) v=(n.g===2)?.55+.35*s2(u):(n.g===0?s2(u):s2(u+.5)); // alternance des deux séries
       else v=s2(u);                                      // de nouveau tout ensemble
       v*= .85+.15*Math.sin((ts/900)+n.ph*6.28);          // léger scintillement individuel
       n.el.style.opacity=Math.max(0,v).toFixed(3);
@@ -661,6 +685,7 @@ figure figcaption a{padding-block:.7rem}
 })();
 </script>
     <p class="refs">Sources : Hebb, D. O. (1949). <em>The Organization of Behavior: A Neuropsychological Theory</em>. New York : Wiley. Shatz, C. J. (1992). The developing brain. <em>Scientific American</em>, 267(3), 60-67.</p>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="deroule">Comment se déroule l'accompagnement</h2>
     <ul class="dash">
       <li><strong>Les premières séances</strong> : nous prenons le temps de comprendre votre demande, votre histoire et vos ressources, et de construire un sentiment de sécurité.</li>
@@ -673,7 +698,7 @@ figure figcaption a{padding-block:.7rem}
       <a href="/documents/affiche-fenetre-de-tolerance-li-icv.pdf" target="_blank" rel="noopener"><img src="/documents/affiche-fenetre-de-tolerance-li-icv.webp" width="1400" height="990" alt="Courbe de l'activation émotionnelle au fil de douze répétitions de la ligne du temps : de petites oscillations aux bords de la fenêtre de tolérance, un pic en hyperactivation vers la quatrième répétition, une baisse en hypoactivation, puis des oscillations de plus en plus petites qui se stabilisent dans la fenêtre de tolérance" loading="lazy"></a>
       <figcaption><a href="/documents/affiche-fenetre-de-tolerance-li-icv.pdf" target="_blank" rel="noopener" download>Télécharger l'affiche (PDF)</a></figcaption>
     </figure>
-    <p>Le nombre de séances dépend de chacun. Pour un stress post-traumatique simple ou un événement de vie difficile, une seule séance suffit généralement : je m'appuie pour le dire sur les observations des cliniciens qui la pratiquent, sur les études et sur ma propre expérience clinique. Un trauma complexe ou un travail sur l'attachement demandent davantage de séances.</p>
+    <p>Le nombre de séances dépend de chacun. Pour un stress post-traumatique simple ou un événement de vie difficile, une à deux séances suffisent généralement : je m'appuie pour le dire sur les observations des cliniciens qui la pratiquent, sur les études et sur ma propre expérience clinique. Un trauma complexe ou un travail sur l'attachement demandent davantage de séances.</p>
     <p>La LI-ICV s'articule avec les autres <a href="/mes-approches/">approches que j'utilise</a>.</p>
     <h2 id="apres-une-seance">Ce que l'on peut ressentir après une séance</h2>
     <p>L'intégration se poursuit souvent dans les jours qui suivent : comme pour n'importe quelle nouvelle information, elle se fait en grande partie pendant le sommeil. Il est normal de se sentir fatigué après les premières séances d'ICV. On peut aussi se sentir plus sensible, faire des rêves, puis ressentir un apaisement, un sentiment de continuité, l'impression que le passé est « plus loin ».</p>
@@ -683,11 +708,11 @@ figure figcaption a{padding-block:.7rem}
     <p>Je suis membre de <a href="https://www.li-france.com/" target="_blank" rel="noopener">LI-France</a>, association de thérapeutes formés à la LI-ICV, qui soutient la recherche sur cette approche et la fait connaître.</p>
     <p>Pour découvrir l'approche plus en détail, vous pouvez consulter <a href="https://www.li-france.com/_files/ugd/14a4fd_f00ebcce6f8643f78b8b3a056390cd19.pdf" target="_blank" rel="noopener">la plaquette de présentation de la LI-ICV (PDF, LI-France)</a>.</p>
     <h2 id="ce-que-dit-la-recherche">Ce que dit la recherche</h2>
-    <p>La recherche sur la LI-ICV est récente et encore peu développée. Une étude randomisée pilote (Rajan et al., 2020) a évalué une séance unique de LI modifiée chez des jeunes femmes, après une agression sexuelle unique : trois semaines plus tard, 72 % des personnes analysées n'avaient plus de score de stress post-traumatique, contre 6 % sur liste d'attente. Une étude exploratoire (Balkus, 2012, thèse de doctorat) menée auprès de 17 femmes ayant vécu des événements traumatiques rapporte un score moyen d'intrusion et d'évitement passé d'environ 28 à 6 après une première séance de LI, puis à 3,7 après la seconde, trois à quatre semaines plus tard. Une étude de cas pragmatique menée sur six thérapies terminées (Bajramovic Richet, Branly et Duriez, 2023) rapporte, chez une patiente suivie pendant 18 mois (34 séances) pour un trouble d'anxiété généralisée, une diminution de l'anxiété et une amélioration de la régulation émotionnelle. Même si ces études portent sur de petits échantillons, elles convergent vers une diminution notable des troubles. Ma thèse de doctorat porte justement sur l'intérêt de la LI-ICV pour les jeunes adultes de 18 à 25 ans présentant un trauma complexe : <a href="/recherche/">découvrir ma recherche doctorale</a>.</p>
+    <p>La recherche sur la LI-ICV est récente et encore peu développée. Une étude randomisée pilote (Rajan et al., 2020) a évalué une séance unique de LI modifiée chez des jeunes femmes, après une agression sexuelle unique : trois semaines plus tard, 72 % des personnes analysées n'avaient plus de score de stress post-traumatique, contre 6 % sur liste d'attente. Une étude exploratoire (Balkus, 2012, thèse de doctorat) menée auprès de 17 femmes ayant vécu des événements traumatiques rapporte un score moyen d'intrusion et d'évitement passé d'environ 28 à 6 après une première séance de LI, puis à 3,7 après la seconde, trois à quatre semaines plus tard. Une étude de cas pragmatique menée sur six thérapies terminées (Bajramovic Richet, Branly et Duriez, 2023) rapporte, chez une patiente suivie pendant 18 mois (34 séances) pour un trouble d'anxiété généralisée, une diminution de l'anxiété et une amélioration de la régulation émotionnelle. Ces premiers résultats sont encourageants, mais ils portent sur de petits échantillons et doivent encore être confirmés par des études plus larges, avec des groupes de comparaison. Ma thèse de doctorat porte justement sur l'intérêt de la LI-ICV pour les jeunes adultes de 18 à 25 ans présentant un trauma complexe : <a href="/recherche/">découvrir ma recherche doctorale</a>.</p>
     <p class="refs">Sources : Rajan et al. (2020), <em>Journal of Interpersonal Violence</em>, <a href="https://doi.org/10.1177/0886260520965973" target="_blank" rel="noopener">doi.org/10.1177/0886260520965973</a> · Balkus (2012), <a href="https://archives.northwestu.edu/bitstream/handle/nu/25053/balkus_bethany_psyd_2012.pdf?sequence=1&amp;isAllowed=y" target="_blank" rel="noopener">thèse, Northwest University</a> · Bajramovic Richet, Branly et Duriez (2023), <a href="https://www.sciencedirect.com/science/article/abs/pii/S0003448723001312" target="_blank" rel="noopener">article sur ScienceDirect</a>.</p>
     <h2 id="pour-un-enfant-ou-un-adolescent">Pour un enfant ou un adolescent</h2>
     <p>La LI-ICV se pratique aussi avec les enfants et les adolescents, en ligne. <a href="/li-icv-enfants-adolescents/">Découvrir la LI-ICV enfants-adolescents</a>.</p>
-    <h2>Questions fréquentes</h2>
+    <h2 id="questions-frequentes">Questions fréquentes</h2>
     <ul class="faq-list">
       <li><h3>Faut-il raconter ses souvenirs en détail ?</h3><p>Quelques mots clés suffisent pour construire la ligne du temps, sans récit détaillé.</p></li>
       <li><h3>Combien de séances prévoir ?</h3><p>Pour une expérience difficile précise, une à deux séances sont généralement prévues. Un travail plus large se construit ensemble, selon la situation.</p></li>
@@ -695,6 +720,7 @@ figure figcaption a{padding-block:.7rem}
       <li><h3>Faut-il se souvenir de tout ?</h3><p>Non. La LI-ICV permet aussi de travailler sur des périodes dont on n'a pas de souvenir précis, y compris la petite enfance.</p></li>
       <li><h3>Est-ce adapté au trauma complexe ?</h3><p>Oui. Peggy Pace l'a justement créée pour mieux accompagner le trauma complexe. Le travail est alors plus long et se fait pas à pas.</p></li>
     </ul>
+    <p class="revision" style="color:var(--muted);font-size:.95rem">Rédigé par <a href="/a-propos/">Laetitia Duchemin</a>, psychologue clinicienne intégrative. Dernière révision : novembre 2026.</p>
   </div>
 </section>
 <section class="cta-band">
@@ -712,7 +738,7 @@ figure figcaption a{padding-block:.7rem}
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
       <p><a href="/mentions-legales/" style="display:inline-block;padding-block:.7rem">Mentions légales complètes</a></p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 2 novembre 2026 · Référencement : <a href="https://mkz-consulting.fr/" rel="nofollow" style="display:inline-block;padding:.7rem;margin:-.7rem">MKZ</a></div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 3 novembre 2026 · Référencement : <a href="https://mkz-consulting.fr/" rel="nofollow" style="display:inline-block;padding:.7rem;margin:-.7rem">MKZ</a></div>
   </div>
 </footer>
 <script>

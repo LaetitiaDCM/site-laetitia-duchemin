@@ -1076,9 +1076,13 @@ La LI-ICV (Lifespan Integration, ou Intégration du Cycle de la Vie, souvent app
 
 Prendre rendez-vous
 
+En bref : la LI-ICV est une thérapie de connexion des différents états du soi. Elle s'appuie sur une ligne du temps, parcourue de façon répétée, pour aider les expériences passées à trouver leur place dans votre histoire. Elle est notamment utilisée pour le stress post-traumatique, simple ou complexe, et la réparation de l'attachement. Elle se pratique à tout âge, avec des séances d'ICV de 1 h à 1 h 30. Vous hésitez avec l'EMDR ? Voir LI-ICV ou EMDR.
+
 ## Pour quelles situations ?
 
-Elle est utilisée pour le stress post-traumatique (TSPT), simple ou complexe, la réparation de l'attachement et la régulation émotionnelle. Au-delà, elle peut être utilisée pour toutes les demandes : elle travaille sur le noyau central du symptôme, son origine.
+Elle est utilisée pour le stress post-traumatique (TSPT), simple ou complexe, la réparation de l'attachement et la régulation émotionnelle. Au-delà, elle peut être utilisée pour d'autres demandes : troubles anxieux, dépression, symptômes dissociatifs, difficultés relationnelles, ou un mal-être plus diffus, comme l'impression de ne pas trouver sa place, ou de se sentir seul·e même entouré·e. Il n'est pas nécessaire d'avoir vécu des événements extrêmes pour ressentir une insécurité intérieure : elle travaille sur le fond, souvent complexe, qui peut être à l'origine des symptômes. Lors d'un deuil, elle peut faciliter ou débloquer le travail de deuil, sans le remplacer.
+
+Son utilisation clinique pour ces différentes difficultés ne signifie pas que son efficacité a déjà été démontrée pour chacune d'elles : la recherche sur la LI-ICV est encore jeune (voir ce que dit la recherche).
 
 Vous vous demandez ce qui la distingue de l'EMDR ? Voir la page LI-ICV ou EMDR.
 
@@ -1094,11 +1098,13 @@ La LI-ICV permet aussi de travailler la mémoire implicite, celle qui n'est pas 
 
 En 1949, le psychologue canadien Donald Hebb a proposé une idée devenue centrale en neurosciences : lorsque deux neurones s'activent en même temps, de façon répétée, la connexion entre eux se renforce. On la résume souvent ainsi : « les neurones qui s'activent ensemble se connectent ensemble ». C'est l'un des mécanismes de la plasticité du cerveau, qui lui permet d'apprendre tout au long de la vie.
 
-La LI-ICV s'appuie sur ce principe. À chaque passage de la ligne du temps, le souvenir est activé en même temps que les repères du présent : l'adulte d'aujourd'hui, en sécurité, présent dans son corps, accompagné par le thérapeute. En répétant ces passages, le cerveau renforce le lien entre les deux : le souvenir n'appelle plus seulement l'alarme, il appelle aussi le sentiment que c'est passé. C'est pourquoi la répétition est l'un des piliers de la LI-ICV.
+On peut comprendre l'effet de la répétition dans la LI-ICV à la lumière de ce principe. À chaque passage de la ligne du temps, le souvenir est activé en même temps que les repères du présent : l'adulte d'aujourd'hui, en sécurité, présent dans son corps, accompagné par le thérapeute. En répétant ces passages, on peut penser que le cerveau renforce le lien entre les deux : le souvenir n'appelle plus seulement l'alarme, il appelle aussi le sentiment que c'est passé. C'est pourquoi la répétition est l'un des piliers de la LI-ICV.
 
-L'image ci-dessous l'illustre : tout le réseau s'illumine ensemble, comme une guirlande, et des faisceaux de lumière relient les points entre eux, à l'image des connexions qui se renforcent à chaque répétition.
+L'image ci-dessous l'illustre : tout le réseau s'illumine ensemble, et des faisceaux de lumière relient les points entre eux, à l'image des connexions qui se renforcent à chaque répétition.
 
 Sources : Hebb, D. O. (1949). The Organization of Behavior: A Neuropsychological Theory. New York : Wiley. Shatz, C. J. (1992). The developing brain. Scientific American, 267(3), 60-67.
+
+Prendre rendez-vous
 
 ## Comment se déroule l'accompagnement
 
@@ -1114,7 +1120,7 @@ Au fil des répétitions, l'activation émotionnelle peut fluctuer : elle peut m
 
 Télécharger l'affiche (PDF)
 
-Le nombre de séances dépend de chacun. Pour un stress post-traumatique simple ou un événement de vie difficile, une seule séance suffit généralement : je m'appuie pour le dire sur les observations des cliniciens qui la pratiquent, sur les études et sur ma propre expérience clinique. Un trauma complexe ou un travail sur l'attachement demandent davantage de séances.
+Le nombre de séances dépend de chacun. Pour un stress post-traumatique simple ou un événement de vie difficile, une à deux séances suffisent généralement : je m'appuie pour le dire sur les observations des cliniciens qui la pratiquent, sur les études et sur ma propre expérience clinique. Un trauma complexe ou un travail sur l'attachement demandent davantage de séances.
 
 La LI-ICV s'articule avec les autres approches que j'utilise.
 
@@ -1134,7 +1140,7 @@ Pour découvrir l'approche plus en détail, vous pouvez consulter la plaquette d
 
 ## Ce que dit la recherche
 
-La recherche sur la LI-ICV est récente et encore peu développée. Une étude randomisée pilote (Rajan et al., 2020) a évalué une séance unique de LI modifiée chez des jeunes femmes, après une agression sexuelle unique : trois semaines plus tard, 72 % des personnes analysées n'avaient plus de score de stress post-traumatique, contre 6 % sur liste d'attente. Une étude exploratoire (Balkus, 2012, thèse de doctorat) menée auprès de 17 femmes ayant vécu des événements traumatiques rapporte un score moyen d'intrusion et d'évitement passé d'environ 28 à 6 après une première séance de LI, puis à 3,7 après la seconde, trois à quatre semaines plus tard. Une étude de cas pragmatique menée sur six thérapies terminées (Bajramovic Richet, Branly et Duriez, 2023) rapporte, chez une patiente suivie pendant 18 mois (34 séances) pour un trouble d'anxiété généralisée, une diminution de l'anxiété et une amélioration de la régulation émotionnelle. Même si ces études portent sur de petits échantillons, elles convergent vers une diminution notable des troubles. Ma thèse de doctorat porte justement sur l'intérêt de la LI-ICV pour les jeunes adultes de 18 à 25 ans présentant un trauma complexe : découvrir ma recherche doctorale.
+La recherche sur la LI-ICV est récente et encore peu développée. Une étude randomisée pilote (Rajan et al., 2020) a évalué une séance unique de LI modifiée chez des jeunes femmes, après une agression sexuelle unique : trois semaines plus tard, 72 % des personnes analysées n'avaient plus de score de stress post-traumatique, contre 6 % sur liste d'attente. Une étude exploratoire (Balkus, 2012, thèse de doctorat) menée auprès de 17 femmes ayant vécu des événements traumatiques rapporte un score moyen d'intrusion et d'évitement passé d'environ 28 à 6 après une première séance de LI, puis à 3,7 après la seconde, trois à quatre semaines plus tard. Une étude de cas pragmatique menée sur six thérapies terminées (Bajramovic Richet, Branly et Duriez, 2023) rapporte, chez une patiente suivie pendant 18 mois (34 séances) pour un trouble d'anxiété généralisée, une diminution de l'anxiété et une amélioration de la régulation émotionnelle. Ces premiers résultats sont encourageants, mais ils portent sur de petits échantillons et doivent encore être confirmés par des études plus larges, avec des groupes de comparaison. Ma thèse de doctorat porte justement sur l'intérêt de la LI-ICV pour les jeunes adultes de 18 à 25 ans présentant un trauma complexe : découvrir ma recherche doctorale.
 
 Sources : Rajan et al. (2020), Journal of Interpersonal Violence, doi.org/10.1177/0886260520965973 · Balkus (2012), thèse, Northwest University · Bajramovic Richet, Branly et Duriez (2023), article sur ScienceDirect.
 
@@ -1173,6 +1179,8 @@ Non. La LI-ICV permet aussi de travailler sur des périodes dont on n'a pas de s
 ### Est-ce adapté au trauma complexe ?
 
 Oui. Peggy Pace l'a justement créée pour mieux accompagner le trauma complexe. Le travail est alors plus long et se fait pas à pas.
+
+Rédigé par Laetitia Duchemin, psychologue clinicienne intégrative. Dernière révision : novembre 2026.
 
 Séance ICV : 1 h à 1 h 30, 90 €, en ligne.
 
@@ -1849,6 +1857,8 @@ L'attachement est un besoin fondamental : dès la naissance, le bébé cherche l
 
 ## Les styles d'attachement
 
+On distingue généralement quatre styles, que l'on appelle aussi types d'attachement : sécure, anxieux, évitant et désorganisé.
+
 ### L'attachement sécure
 
 Vous vous sentez à l'aise dans la proximité comme dans l'autonomie. Vous pouvez demander de l'aide, faire confiance et supporter la séparation sans vous sentir menacé. Voir la page attachement sécure, qui parle aussi du sécure acquis.
@@ -2498,13 +2508,23 @@ Ces stratégies ont permis de traverser une situation impossible. À l'âge adul
 
 - Une méfiance profonde, même envers les personnes bienveillantes.
 
+Pour situer votre propre style, vous pouvez faire le test du style d'attachement : un court questionnaire, qui donne une indication et non un diagnostic.
+
 ## Viens… va-t'en : la dynamique relationnelle
 
-Dans les relations proches, le besoin de lien et la peur du lien peuvent s'activer en même temps : on se rapproche, puis la proximité elle-même réveille l'alarme, et l'on s'éloigne, avant de revenir. Comme un élastique qui se tend et ramène, avec un effet de rebond.
+Dans les relations proches, le besoin de lien et la peur du lien peuvent s'activer en même temps : on se rapproche, puis la proximité elle-même réveille l'alarme, et l'on s'éloigne, avant de revenir. Comme un élastique qui se tend et ramène, avec un effet de rebond. Ce sont souvent de petits signes, un silence, un ton, un regard, qui servent de déclencheurs.
 
 Le psychiatre Giovanni Liotti a décrit comment l'enfant intériorise des images de soi et de l'autre qui changent selon les moments : tantôt l'autre fait peur et l'on se sent victime, tantôt l'on se sent responsable de sauver l'autre, tantôt l'on se sent soi-même dangereux. Ces rôles, persécuteur, victime et sauveur, peuvent se rejouer dans les relations adultes, sans que personne ne l'ait choisi. Les reconnaître aide à en sortir.
 
 Cette histoire rend aussi plus vulnérable au lien traumatique : on peut chercher l'apaisement auprès de la personne même qui fait souffrir (voir la dépendance affective).
+
+### Attachement désorganisé et rupture amoureuse
+
+Une rupture peut réveiller les deux mouvements à la fois : la séparation active la peur de l'abandon, et l'idée de renouer réveille la méfiance. En clinique, on observe souvent des séparations et des retours qui se répètent, une détresse qui paraît démesurée au regard de la relation, ou au contraire un engourdissement, comme si l'on ne ressentait plus rien (voir la dissociation). L'image de l'autre peut aussi basculer très vite, de la personne idéale à la personne dont il faut se protéger, et la faute se retourner contre soi : « c'est moi qui fais tout échouer ».
+
+Ces réactions ne disent pas que vous aimez « mal » : elles montrent qu'une séparation touche une blessure ancienne. Dans ces moments, il peut être utile de ne pas prendre de décision au plus fort de l'émotion, de s'appuyer sur des personnes stables et de revenir au corps (voir la régulation émotionnelle et la peur de l'abandon). Le carnet approche et fuite aide aussi à repérer ce qui relance le cycle.
+
+Prendre rendez-vous
 
 ## Modèles internes et schémas : une carte contradictoire
 
@@ -2516,7 +2536,7 @@ Les recherches montrent que le style craintif, dont il se rapproche à l'âge ad
 
 - L'imperfection et la honte. « Si l'on me connaissait vraiment, on ne m'aimerait pas. » (voir la honte et la culpabilité)
 
-- L'abandon. « Les personnes importantes finissent toujours par partir. »
+- L'abandon. « Les personnes importantes finissent toujours par partir. » (voir la peur de l'abandon)
 
 Ces schémas peuvent s'activer tour à tour, parfois très vite : la proximité réveille la méfiance, la distance réveille l'abandon. Ce sont des tendances, pas des étiquettes : chaque histoire est singulière. Les reconnaître, sans se juger, aide à comprendre que ces réactions ont un sens, et qu'elles peuvent s'apaiser pas à pas, dans des relations stables (voir l'outil approche et fuite).
 
@@ -2583,6 +2603,8 @@ Non. Il peut aussi apparaître lorsque le parent est lui-même submergé par la 
 ### Mes parents ont-ils été de mauvais parents ?
 
 Souvent, ils étaient eux-mêmes effrayés, et portaient une histoire qui ne s'était pas apaisée. Reconnaître l'impact de ce que l'on a vécu peut aller de pair avec la compréhension de leur propre histoire, sans que l'un efface l'autre.
+
+Rédigé par Laetitia Duchemin, psychologue clinicienne intégrative. Dernière révision : novembre 2026.
 
 ## Sources
 
@@ -3414,13 +3436,13 @@ Réserver en ligne
 ---
 
 URL : https://laetitia-duchemin-psychologue.fr/memoire-traumatique/
-Titre : Mémoire traumatique et amnésie traumatique — L. Duchemin
+Titre : Mémoire traumatique, souvenirs d'enfance et amnésie — L. Duchemin
 
 # Mémoire traumatique
 
 Quand le passé revient comme s'il était présent
 
-Un souvenir ordinaire est fait, lui aussi, de sensations, d'émotions et d'une scène. Mais il est intégré : il est daté, et rangé dans notre mémoire autobiographique, celle de notre histoire. On sait qu'il appartient au passé. Le souvenir traumatique, lui, n'est pas intégré. Il se manifeste dans le corps et surgit dans le présent avec la même intensité que dans le passé : la personne revit la scène. C'est l'une des marques du stress post-traumatique.
+Un souvenir ordinaire est fait, lui aussi, de sensations, d'émotions et d'une scène. Mais il est intégré : il est daté, et rangé dans notre mémoire autobiographique, celle de notre histoire. On sait qu'il appartient au passé. Le souvenir traumatique, lui, n'est pas intégré. Il se manifeste dans le corps et surgit dans le présent avec la même intensité que dans le passé : la personne revit la scène. C'est l'une des marques du stress post-traumatique. Cette page aborde aussi l'amnésie traumatique, et une question que beaucoup se posent : peut-on se souvenir d'un traumatisme d'enfance ?
 
 Prendre rendez-vous
 
@@ -3513,6 +3535,8 @@ Certains souvenirs peuvent revenir avec le temps, souvent par fragments, quand o
 ### Est-ce que je peux être aidé·e si je ne me souviens pas de ce qui a pu m'arriver ?
 
 Oui. Une partie de ce qui a été vécu reste gardée dans la mémoire implicite, et peut être travaillée sans que le souvenir revienne. Il n'est pas nécessaire de tout se rappeler pour aller mieux (voir le trauma complexe).
+
+Rédigé par Laetitia Duchemin, psychologue clinicienne intégrative. Dernière révision : novembre 2026.
 
 ## Sources
 
@@ -4934,7 +4958,7 @@ EAu moins cinq des neuf critères suivants :
 
 FCertains de ces éléments durent depuis plus d'un mois ou se répètent sur une longue période.
 
-Ces critères aident à repérer une addiction ; le diagnostic se fait en consultation.
+Ces critères sont un repère historique, utile pour comprendre ce que les addictions ont en commun, avec ou sans substance : ils ne constituent pas une grille diagnostique officielle. La classification de l'Organisation mondiale de la santé (CIM-11) décrit les troubles liés à l'usage de substances et, du côté des comportements, deux troubles : le trouble du jeu d'argent et le trouble du jeu vidéo. Le trouble du comportement sexuel compulsif y est classé à part, parmi les troubles du contrôle des impulsions (voir pornographie et comportements sexuels compulsifs). Le diagnostic se fait en consultation.
 
 ## Une stratégie de régulation
 
@@ -5026,6 +5050,8 @@ Oui. L'hésitation est normale et fait partie du processus. L'entretien motivati
 
 La honte est très fréquente, quelle que soit l'addiction. Vous pouvez avancer à votre rythme et dire seulement ce qui vous semble possible : la consultation est un espace sans jugement.
 
+Rédigé par Laetitia Duchemin, psychologue clinicienne intégrative. Dernière révision : novembre 2026.
+
 ## Sources
 
 - Goodman, A. (1990). Addiction: definition and implications. British Journal of Addiction, 85(11), 1403-1408. https://doi.org/10.1111/j.1360-0443.1990.tb01620.x
@@ -5041,6 +5067,10 @@ La honte est très fréquente, quelle que soit l'addiction. Vous pouvez avancer 
 - Felitti, V. J., Anda, R. F., Nordenberg, D., Williamson, D. F., Spitz, A. M., Edwards, V., Koss, M. P., & Marks, J. S. (1998). Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: The Adverse Childhood Experiences (ACE) Study. American Journal of Preventive Medicine, 14(4), 245-258. https://doi.org/10.1016/S0749-3797(98)00017-8
 
 - Bowen, S., Chawla, N., Grow, J., & Marlatt, G. A. (2021). Mindfulness-Based Relapse Prevention for Addictive Behaviors: A Clinician's Guide (2e éd.). New York : Guilford Press.
+
+- Kraus, S. W., Krueger, R. B., Briken, P., First, M. B., Stein, D. J., Kaplan, M. S., Voon, V., Abdo, C. H. N., Grant, J. E., Atalla, E., & Reed, G. M. (2018). Compulsive sexual behaviour disorder in the ICD-11. World Psychiatry, 17(1), 109-110. https://doi.org/10.1002/wps.20499
+
+- Organisation mondiale de la santé. (2022). CIM-11 : Classification internationale des maladies, 11e révision. https://icd.who.int/
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -5071,7 +5101,7 @@ Certaines personnes ont le sentiment que leur consommation prend trop de place. 
 
 - L'impression de perdre le contrôle, même avec une réelle volonté de changer.
 
-La classification internationale de l'Organisation mondiale de la santé (CIM-11) décrit un trouble du comportement sexuel compulsif. Il se définit par la perte de contrôle, la souffrance et le retentissement sur la vie, et non par la fréquence ni par le contenu de ce que l'on regarde. Seul un professionnel peut évaluer ce qu'il en est pour vous.
+La classification internationale de l'Organisation mondiale de la santé (CIM-11) décrit un trouble du comportement sexuel compulsif. Il se définit par la perte de contrôle, la souffrance et le retentissement sur la vie, et non par la fréquence ni par le contenu de ce que l'on regarde. La CIM-11 précise aussi qu'une souffrance liée uniquement à des jugements moraux sur ses envies ou ses comportements sexuels ne suffit pas à poser ce diagnostic. Seul un professionnel peut évaluer ce qu'il en est pour vous.
 
 ## Un premier contact souvent précoce, et pas toujours choisi
 
@@ -5719,7 +5749,7 @@ Le psychologue David Clark a décrit comment une crise s'auto-entretient : une s
 
 ## Crise d'angoisse ou crise émotionnelle ?
 
-La crise d'angoisse est à distinguer de la crise émotionnelle, parfois appelée débordement émotionnel ou crise de larmes : on se met à pleurer beaucoup, parfois sans raison apparente, avec une impression de trop-plein. Elle est moins dominée par la peur et par les sensations d'alarme du corps, mais elle provient, elle aussi, d'une dérégulation émotionnelle : c'est le signe que notre système nerveux déborde, souvent après une accumulation de fatigue, de stress ou d'émotions retenues.
+La crise d'angoisse est à distinguer de la crise émotionnelle, parfois appelée débordement émotionnel ou crise de larmes : on se met à pleurer beaucoup, parfois sans raison apparente, avec une impression de trop-plein. Elle est moins dominée par la peur et par les sensations d'alarme du corps, mais elle provient, elle aussi, d'une dérégulation émotionnelle : c'est le signe que notre système nerveux déborde, souvent après une accumulation de fatigue, de stress ou d'émotions retenues, ou lorsqu'un déclencheur émotionnel réveille une expérience passée.
 
 Elle s'apaise avec les mêmes stratégies de régulation : s'isoler dans un endroit calme, s'ancrer par les sens, laisser passer la vague. On peut aussi laisser couler les larmes sans lutter contre elles, puis s'accorder un temps de repos.
 
