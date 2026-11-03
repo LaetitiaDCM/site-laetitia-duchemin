@@ -1074,7 +1074,7 @@ La LI-ICV (Lifespan Integration, ou Intégration du Cycle de la Vie, souvent app
 
 Prendre rendez-vous
 
-En bref : la LI-ICV est une thérapie de connexion des différents états du soi. Elle s'appuie sur une ligne du temps, parcourue de façon répétée, pour aider les expériences passées à trouver leur place dans votre histoire. Elle est notamment indiquée pour le stress post-traumatique, simple ou complexe, et la réparation de l'attachement. Elle se pratique à tout âge, avec des séances d'ICV de 1 h à 1 h 30. Vous hésitez avec l'EMDR ? Voir LI-ICV ou EMDR.
+En bref : la LI-ICV est une thérapie de connexion des différents états du soi. Elle s'appuie sur une ligne du temps, parcourue de façon répétée, pour aider les expériences passées à trouver leur place dans votre histoire. Elle est notamment indiquée pour le stress post-traumatique, simple ou complexe, et la réparation de l'attachement. Elle se pratique à tout âge, avec des séances d'ICV de 1 h à 1 h 30. Vous hésitez avec l'EMDR ? Voir LI-ICV ou EMDR.
 
 ## Pour quelles situations ?
 
@@ -1101,6 +1101,8 @@ On peut comprendre l'effet de la répétition dans la LI-ICV à la lumière de c
 L'image ci-dessous l'illustre : tout le réseau s'illumine ensemble, et des faisceaux de lumière relient les points entre eux, à l'image des connexions qui se renforcent à chaque répétition.
 
 Sources : Hebb, D. O. (1949). The Organization of Behavior: A Neuropsychological Theory. New York : Wiley. Shatz, C. J. (1992). The developing brain. Scientific American, 267(3), 60-67.
+
+Prendre rendez-vous
 
 ## Comment se déroule l'accompagnement
 
@@ -1144,8 +1146,6 @@ Sources : Rajan et al. (2020), Journal of Interpersonal Violence, doi.org/10.117
 
 La LI-ICV se pratique aussi avec les enfants et les adolescents, en ligne. Découvrir la LI-ICV enfants-adolescents.
 
-Rédigé par Laetitia Duchemin, psychologue clinicienne intégrative. Dernière révision : novembre 2026.
-
 ## Questions fréquentes
 
 -
@@ -1177,6 +1177,8 @@ Non. La LI-ICV permet aussi de travailler sur des périodes dont on n'a pas de s
 ### Est-ce adapté au trauma complexe ?
 
 Oui. Peggy Pace l'a justement créée pour mieux accompagner le trauma complexe. Le travail est alors plus long et se fait pas à pas.
+
+Rédigé par Laetitia Duchemin, psychologue clinicienne intégrative. Dernière révision : novembre 2026.
 
 Séance ICV : 1 h à 1 h 30, 90 €, en ligne.
 
@@ -2518,7 +2520,7 @@ Cette histoire rend aussi plus vulnérable au lien traumatique : on peut cherche
 
 Une rupture peut réveiller les deux mouvements à la fois : la séparation active la peur de l'abandon, et l'idée de renouer réveille la méfiance. En clinique, on observe souvent des séparations et des retours qui se répètent, une détresse qui paraît démesurée au regard de la relation, ou au contraire un engourdissement, comme si l'on ne ressentait plus rien (voir la dissociation). L'image de l'autre peut aussi basculer très vite, de la personne idéale à la personne dont il faut se protéger, et la faute se retourner contre soi : « c'est moi qui fais tout échouer ».
 
-Ces réactions ne disent pas que vous aimez « mal » : elles montrent qu'une séparation touche une blessure ancienne. Dans ces moments, il peut être utile de ne pas prendre de décision au plus fort de l'émotion, de s'appuyer sur des personnes stables et de revenir au corps (voir la régulation émotionnelle et la peur de l'abandon). Le carnet approche et fuite aide aussi à repérer ce qui relance le cycle.
+Ces réactions ne disent pas que vous aimez « mal » : elles montrent qu'une séparation touche une blessure ancienne. Dans ces moments, il peut être utile de ne pas prendre de décision au plus fort de l'émotion, de s'appuyer sur des personnes stables et de revenir au corps (voir la régulation émotionnelle et la peur de l'abandon). Le carnet approche et fuite aide aussi à repérer ce qui relance le cycle.
 
 ## Modèles internes et schémas : une carte contradictoire
 
@@ -4952,7 +4954,7 @@ EAu moins cinq des neuf critères suivants :
 
 FCertains de ces éléments durent depuis plus d'un mois ou se répètent sur une longue période.
 
-Ces critères sont un repère historique, utile pour comprendre ce que les addictions ont en commun, avec ou sans substance : ils ne constituent pas une grille diagnostique officielle. La classification de l'Organisation mondiale de la santé (CIM-11) décrit les troubles liés à l'usage de substances et, du côté des comportements, reconnaît notamment le trouble du jeu d'argent et le trouble du jeu vidéo. Les comportements sexuels compulsifs y sont classés à part, parmi les troubles du contrôle des impulsions (voir pornographie et comportements sexuels compulsifs). Le diagnostic se fait en consultation.
+Ces critères sont un repère historique, utile pour comprendre ce que les addictions ont en commun, avec ou sans substance : ils ne constituent pas une grille diagnostique officielle. La classification de l'Organisation mondiale de la santé (CIM-11) décrit les troubles liés à l'usage de substances et, du côté des comportements, deux troubles : le trouble du jeu d'argent et le trouble du jeu vidéo. Le trouble du comportement sexuel compulsif y est classé à part, parmi les troubles du contrôle des impulsions (voir pornographie et comportements sexuels compulsifs). Le diagnostic se fait en consultation.
 
 ## Une stratégie de régulation
 
