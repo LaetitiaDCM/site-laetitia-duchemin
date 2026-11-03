@@ -1078,7 +1078,7 @@ En bref : la LI-ICV est une thérapie de connexion des différents états du soi
 
 ## Pour quelles situations ?
 
-Elle est utilisée pour le stress post-traumatique (TSPT), simple ou complexe, la réparation de l'attachement et la régulation émotionnelle. Au-delà, elle peut être utilisée pour d'autres demandes : troubles anxieux, dépression, deuil qui ne s'apaise pas, symptômes dissociatifs, difficultés relationnelles, ou un mal-être plus diffus, comme l'impression de ne pas trouver sa place, ou de se sentir seul·e même entouré·e. Il n'est pas nécessaire d'avoir vécu des événements extrêmes pour ressentir une insécurité intérieure : elle travaille sur le fond, souvent complexe, qui peut être à l'origine des symptômes.
+Elle est utilisée pour le stress post-traumatique (TSPT), simple ou complexe, la réparation de l'attachement et la régulation émotionnelle. Au-delà, elle peut être utilisée pour d'autres demandes : troubles anxieux, dépression, symptômes dissociatifs, difficultés relationnelles, ou un mal-être plus diffus, comme l'impression de ne pas trouver sa place, ou de se sentir seul·e même entouré·e. Il n'est pas nécessaire d'avoir vécu des événements extrêmes pour ressentir une insécurité intérieure : elle travaille sur le fond, souvent complexe, qui peut être à l'origine des symptômes. Lors d'un deuil, elle peut faciliter ou débloquer le travail de deuil, sans le remplacer.
 
 Son utilisation clinique pour ces différentes difficultés ne signifie pas que son efficacité a déjà été démontrée pour chacune d'elles : la recherche sur la LI-ICV est encore jeune (voir ce que dit la recherche).
 
@@ -1143,6 +1143,8 @@ Sources : Rajan et al. (2020), Journal of Interpersonal Violence, doi.org/10.117
 ## Pour un enfant ou un adolescent
 
 La LI-ICV se pratique aussi avec les enfants et les adolescents, en ligne. Découvrir la LI-ICV enfants-adolescents.
+
+Rédigé par Laetitia Duchemin, psychologue clinicienne intégrative. Dernière révision : novembre 2026.
 
 ## Questions fréquentes
 
@@ -2506,7 +2508,7 @@ Pour situer votre propre style, vous pouvez faire le test du style d'attachement
 
 ## Viens… va-t'en : la dynamique relationnelle
 
-Dans les relations proches, le besoin de lien et la peur du lien peuvent s'activer en même temps : on se rapproche, puis la proximité elle-même réveille l'alarme, et l'on s'éloigne, avant de revenir. Comme un élastique qui se tend et ramène, avec un effet de rebond.
+Dans les relations proches, le besoin de lien et la peur du lien peuvent s'activer en même temps : on se rapproche, puis la proximité elle-même réveille l'alarme, et l'on s'éloigne, avant de revenir. Comme un élastique qui se tend et ramène, avec un effet de rebond. Ce sont souvent de petits signes, un silence, un ton, un regard, qui servent de déclencheurs.
 
 Le psychiatre Giovanni Liotti a décrit comment l'enfant intériorise des images de soi et de l'autre qui changent selon les moments : tantôt l'autre fait peur et l'on se sent victime, tantôt l'on se sent responsable de sauver l'autre, tantôt l'on se sent soi-même dangereux. Ces rôles, persécuteur, victime et sauveur, peuvent se rejouer dans les relations adultes, sans que personne ne l'ait choisi. Les reconnaître aide à en sortir.
 
@@ -2595,6 +2597,8 @@ Non. Il peut aussi apparaître lorsque le parent est lui-même submergé par la 
 ### Mes parents ont-ils été de mauvais parents ?
 
 Souvent, ils étaient eux-mêmes effrayés, et portaient une histoire qui ne s'était pas apaisée. Reconnaître l'impact de ce que l'on a vécu peut aller de pair avec la compréhension de leur propre histoire, sans que l'un efface l'autre.
+
+Rédigé par Laetitia Duchemin, psychologue clinicienne intégrative. Dernière révision : novembre 2026.
 
 ## Sources
 
@@ -3432,7 +3436,7 @@ Titre : Mémoire traumatique, souvenirs d'enfance et amnésie — L. Duchemin
 
 Quand le passé revient comme s'il était présent
 
-Un souvenir ordinaire est fait, lui aussi, de sensations, d'émotions et d'une scène. Mais il est intégré : il est daté, et rangé dans notre mémoire autobiographique, celle de notre histoire. On sait qu'il appartient au passé. Le souvenir traumatique, lui, n'est pas intégré. Il se manifeste dans le corps et surgit dans le présent avec la même intensité que dans le passé : la personne revit la scène. C'est l'une des marques du stress post-traumatique.
+Un souvenir ordinaire est fait, lui aussi, de sensations, d'émotions et d'une scène. Mais il est intégré : il est daté, et rangé dans notre mémoire autobiographique, celle de notre histoire. On sait qu'il appartient au passé. Le souvenir traumatique, lui, n'est pas intégré. Il se manifeste dans le corps et surgit dans le présent avec la même intensité que dans le passé : la personne revit la scène. C'est l'une des marques du stress post-traumatique. Cette page aborde aussi l'amnésie traumatique, et une question que beaucoup se posent : peut-on se souvenir d'un traumatisme d'enfance ?
 
 Prendre rendez-vous
 
@@ -3525,6 +3529,8 @@ Certains souvenirs peuvent revenir avec le temps, souvent par fragments, quand o
 ### Est-ce que je peux être aidé·e si je ne me souviens pas de ce qui a pu m'arriver ?
 
 Oui. Une partie de ce qui a été vécu reste gardée dans la mémoire implicite, et peut être travaillée sans que le souvenir revienne. Il n'est pas nécessaire de tout se rappeler pour aller mieux (voir le trauma complexe).
+
+Rédigé par Laetitia Duchemin, psychologue clinicienne intégrative. Dernière révision : novembre 2026.
 
 ## Sources
 
@@ -4946,7 +4952,7 @@ EAu moins cinq des neuf critères suivants :
 
 FCertains de ces éléments durent depuis plus d'un mois ou se répètent sur une longue période.
 
-Ces critères aident à repérer une addiction ; le diagnostic se fait en consultation.
+Ces critères sont un repère historique, utile pour comprendre ce que les addictions ont en commun, avec ou sans substance : ils ne constituent pas une grille diagnostique officielle. La classification de l'Organisation mondiale de la santé (CIM-11) décrit les troubles liés à l'usage de substances et, du côté des comportements, reconnaît notamment le trouble du jeu d'argent et le trouble du jeu vidéo. Les comportements sexuels compulsifs y sont classés à part, parmi les troubles du contrôle des impulsions (voir pornographie et comportements sexuels compulsifs). Le diagnostic se fait en consultation.
 
 ## Une stratégie de régulation
 
@@ -5038,6 +5044,8 @@ Oui. L'hésitation est normale et fait partie du processus. L'entretien motivati
 
 La honte est très fréquente, quelle que soit l'addiction. Vous pouvez avancer à votre rythme et dire seulement ce qui vous semble possible : la consultation est un espace sans jugement.
 
+Rédigé par Laetitia Duchemin, psychologue clinicienne intégrative. Dernière révision : novembre 2026.
+
 ## Sources
 
 - Goodman, A. (1990). Addiction: definition and implications. British Journal of Addiction, 85(11), 1403-1408. https://doi.org/10.1111/j.1360-0443.1990.tb01620.x
@@ -5053,6 +5061,10 @@ La honte est très fréquente, quelle que soit l'addiction. Vous pouvez avancer 
 - Felitti, V. J., Anda, R. F., Nordenberg, D., Williamson, D. F., Spitz, A. M., Edwards, V., Koss, M. P., & Marks, J. S. (1998). Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: The Adverse Childhood Experiences (ACE) Study. American Journal of Preventive Medicine, 14(4), 245-258. https://doi.org/10.1016/S0749-3797(98)00017-8
 
 - Bowen, S., Chawla, N., Grow, J., & Marlatt, G. A. (2021). Mindfulness-Based Relapse Prevention for Addictive Behaviors: A Clinician's Guide (2e éd.). New York : Guilford Press.
+
+- Kraus, S. W., Krueger, R. B., Briken, P., First, M. B., Stein, D. J., Kaplan, M. S., Voon, V., Abdo, C. H. N., Grant, J. E., Atalla, E., & Reed, G. M. (2018). Compulsive sexual behaviour disorder in the ICD-11. World Psychiatry, 17(1), 109-110. https://doi.org/10.1002/wps.20499
+
+- Organisation mondiale de la santé. (2022). CIM-11 : Classification internationale des maladies, 11e révision. https://icd.who.int/
 
 Consultation : 1 h, 70 €, en ligne.
 
@@ -5731,7 +5743,7 @@ Le psychologue David Clark a décrit comment une crise s'auto-entretient : une s
 
 ## Crise d'angoisse ou crise émotionnelle ?
 
-La crise d'angoisse est à distinguer de la crise émotionnelle, parfois appelée débordement émotionnel ou crise de larmes : on se met à pleurer beaucoup, parfois sans raison apparente, avec une impression de trop-plein. Elle est moins dominée par la peur et par les sensations d'alarme du corps, mais elle provient, elle aussi, d'une dérégulation émotionnelle : c'est le signe que notre système nerveux déborde, souvent après une accumulation de fatigue, de stress ou d'émotions retenues.
+La crise d'angoisse est à distinguer de la crise émotionnelle, parfois appelée débordement émotionnel ou crise de larmes : on se met à pleurer beaucoup, parfois sans raison apparente, avec une impression de trop-plein. Elle est moins dominée par la peur et par les sensations d'alarme du corps, mais elle provient, elle aussi, d'une dérégulation émotionnelle : c'est le signe que notre système nerveux déborde, souvent après une accumulation de fatigue, de stress ou d'émotions retenues, ou lorsqu'un déclencheur émotionnel réveille une expérience passée.
 
 Elle s'apaise avec les mêmes stratégies de régulation : s'isoler dans un endroit calme, s'ancrer par les sens, laisser passer la vague. On peut aussi laisser couler les larmes sans lutter contre elles, puis s'accorder un temps de repos.
 
