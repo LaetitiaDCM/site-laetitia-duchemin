@@ -31,7 +31,7 @@
    "name": "Attachement désorganisé : comprendre et retrouver de la sécurité",
    "description": "Attachement désorganisé : quand la figure qui protège fait aussi peur. La dynamique effrayant-effrayé, ses effets à l'âge adulte, les chemins vers la sécurité.",
    "inLanguage": "fr",
-   "dateModified": "2026-10-28",
+   "dateModified": "2026-11-03",
    "about": {
     "@type": "Thing",
     "name": "Attachement désorganisé"
@@ -425,7 +425,7 @@ figure figcaption a{padding-block:.7rem}
 .nav .dd-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
 .nav .dd-panel{display:block;list-style:none;margin:0;padding:.55rem 0;position:absolute;top:calc(100% + .7rem);left:-1rem;min-width:16rem;background:rgba(27,17,64,.98);border:1px solid rgba(236,208,150,.22);border-radius:14px;box-shadow:0 18px 40px rgba(10,5,30,.45);opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .18s,transform .18s,visibility .18s;z-index:60}
 .nav .dd-panel::before{content:"";position:absolute;left:0;right:0;top:-.8rem;height:.8rem}
-.nav .dd:nth-last-child(3) .dd-panel,.nav .dd:nth-last-child(4) .dd-panel{left:auto;right:-1rem}
+.nav .dd:nth-last-child(4) .dd-panel,.nav .dd:nth-last-child(5) .dd-panel{left:auto;right:-1rem}
 .nav .dd-panel a{display:block;padding:.48rem 1.1rem;font-size:.88rem;color:#e9e3f7;border:0;white-space:normal;line-height:1.35}
 .nav .dd-panel a:hover,.nav .dd-panel a:focus-visible{background:rgba(217,166,72,.13);color:#fff}
 .nav .dd-panel a.dd-main{font-family:var(--serif);font-size:1.05rem;color:var(--gold-soft)}
@@ -446,10 +446,14 @@ figure figcaption a{padding-block:.7rem}
   .nav .nav-plain{border-bottom:1px solid rgba(236,208,150,.12)}
   .nav .nav-plain a{display:flex;align-items:center;width:100%;font-size:1.02rem;padding:.85rem 0;min-height:48px;border:0}
   .nav .nav-cta{padding-top:1rem}
-  .nav .nav-cta a{display:inline-block}
+  .nav .nav-cta a{display:inline-flex;align-items:center;min-height:48px;padding:.7rem 1.6rem;background:var(--gold);border-color:var(--gold);color:#1b1140;font-weight:500}
+  .nav .nav-cta a:hover{background:#e3b45d}
 }
-@media (min-width:1180px){.site-header .wrap{width:min(1340px,100% - 3rem)}.nav .nav-top{gap:1.55rem}}
-@media (min-width:1440px){.nav .nav-top{gap:2rem}.nav .dd-btn,.nav .nav-plain a{font-size:.9rem}}
+@media (min-width:1180px){.site-header .wrap{width:min(1340px,100% - 3rem)}.nav .nav-top{gap:.8rem}}
+@media (min-width:1280px){.nav .nav-mob{display:none}}
+@media (max-width:1279px){.nav .nav-desk{display:none}}
+#dd-approche li:not(:first-child)>a.dd-main{border-top:1px solid rgba(236,208,150,.16);margin-top:.3rem;padding-top:.7rem}
+@media (min-width:1440px){.nav .nav-top{gap:1.2rem}.nav .dd-btn,.nav .nav-plain a{font-size:.9rem}}
 @media (prefers-reduced-motion:reduce){.nav .dd-panel,.nav .dd-caret{transition:none}}
 </style>
 </head>
@@ -464,22 +468,6 @@ figure figcaption a{padding-block:.7rem}
     <nav class="nav" id="nav" aria-label="Navigation principale">
       <ul class="nav-top">
         <li class="dd">
-          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-approches">Mes approches<span class="dd-caret" aria-hidden="true"></span></button>
-          <ul class="dd-panel" id="dd-approches">
-            <li><a href="/mes-approches/" class="dd-main">Mes approches</a></li>
-            <li><a href="/li-icv/">LI-ICV</a></li>
-            <li><a href="/li-icv-enfants-adolescents/">LI-ICV enfants et adolescents</a></li>
-            <li><a href="/li-icv-ou-emdr/">LI-ICV ou EMDR ?</a></li>
-            <li><a href="/pleine-conscience-sensible-au-trauma/">Pleine Conscience Sensible au Trauma</a></li>
-            <li><a href="/tctsy/">TCTSY</a></li>
-            <li><a href="/theorie-polyvagale/">Théorie polyvagale</a></li>
-            <li><a href="/ifs/">IFS : les parts de soi</a></li>
-            <li><a href="/eft/">EFT clinique</a></li>
-            <li><a href="/le-corps-en-psychotherapie/">Le corps en psychothérapie</a></li>
-            <li><a href="/neuropsychologie/">Neuropsychologie</a></li>
-          </ul>
-        </li>
-        <li class="dd">
           <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-trauma">Trauma<span class="dd-caret" aria-hidden="true"></span></button>
           <ul class="dd-panel" id="dd-trauma">
             <li><a href="/stress-post-traumatique-trauma-complexe/" class="dd-main">Stress post-traumatique et trauma complexe</a></li>
@@ -490,22 +478,6 @@ figure figcaption a{padding-block:.7rem}
             <li><a href="/dissociation/">Dissociation</a></li>
             <li><a href="/derealisation-depersonnalisation/">Déréalisation et dépersonnalisation</a></li>
             <li><a href="/honte-et-culpabilite/">Honte et culpabilité</a></li>
-          </ul>
-        </li>
-        <li class="dd">
-          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-emotions">Émotions<span class="dd-caret" aria-hidden="true"></span></button>
-          <ul class="dd-panel" id="dd-emotions">
-            <li><a href="/les-emotions/" class="dd-main">Les émotions</a></li>
-            <li><a href="/regulation-emotionnelle/" class="dd-main">Régulation émotionnelle</a></li>
-            <li><a href="/co-regulation/">La co-régulation</a></li>
-            <li><a href="/validation-emotionnelle/">La validation émotionnelle</a></li>
-            <li><a href="/fenetre-de-tolerance/">Fenêtre de tolérance</a></li>
-            <li><a href="/anxiete/">Anxiété</a></li>
-            <li><a href="/crise-d-angoisse/">Crise d'angoisse</a></li>
-            <li><a href="/hypersensibilite/">Hypersensibilité</a></li>
-            <li><a href="/personnalite/">Personnalité</a></li>
-            <li><a href="/addictions/">Addictions</a></li>
-            <li><a href="/pornographie-comportements-sexuels-compulsifs/">Pornographie et compulsions sexuelles</a></li>
           </ul>
         </li>
         <li class="dd here">
@@ -524,25 +496,58 @@ figure figcaption a{padding-block:.7rem}
           </ul>
         </li>
         <li class="dd">
-          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-confiance">Confiance en soi<span class="dd-caret" aria-hidden="true"></span></button>
-          <ul class="dd-panel" id="dd-confiance">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-emotions">Émotions<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-emotions">
+            <li><a href="/les-emotions/" class="dd-main">Les émotions</a></li>
+            <li><a href="/regulation-emotionnelle/" class="dd-main">Régulation émotionnelle</a></li>
+            <li><a href="/co-regulation/">La co-régulation</a></li>
+            <li><a href="/validation-emotionnelle/">La validation émotionnelle</a></li>
+            <li><a href="/fenetre-de-tolerance/">Fenêtre de tolérance</a></li>
+            <li><a href="/anxiete/">Anxiété</a></li>
+            <li><a href="/crise-d-angoisse/">Crise d'angoisse</a></li>
+            <li><a href="/hypersensibilite/">Hypersensibilité</a></li>
+          </ul>
+        </li>
+        <li class="dd">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-connaitre">Se connaître<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-connaitre">
             <li><a href="/confiance-en-soi/" class="dd-main">Confiance en soi</a></li>
             <li><a href="/estime-de-soi/">Estime de soi</a></li>
             <li><a href="/affirmation-de-soi/">Affirmation de soi</a></li>
             <li><a href="/syndrome-de-l-imposteur/">Syndrome de l'imposteur</a></li>
             <li><a href="/resilience/">Résilience</a></li>
+            <li><a href="/personnalite/">Personnalité</a></li>
           </ul>
         </li>
         <li class="dd">
-          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-apropos">À propos<span class="dd-caret" aria-hidden="true"></span></button>
-          <ul class="dd-panel" id="dd-apropos">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-addictions">Addictions<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-addictions">
+            <li><a href="/addictions/" class="dd-main">Addictions</a></li>
+            <li><a href="/pornographie-comportements-sexuels-compulsifs/">Pornographie et compulsions sexuelles</a></li>
+          </ul>
+        </li>
+        <li class="dd">
+          <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-approche">Mon approche<span class="dd-caret" aria-hidden="true"></span></button>
+          <ul class="dd-panel" id="dd-approche">
+            <li><a href="/mes-approches/" class="dd-main">Mes approches</a></li>
+            <li><a href="/li-icv/">LI-ICV</a></li>
+            <li><a href="/li-icv-enfants-adolescents/">LI-ICV enfants et adolescents</a></li>
+            <li><a href="/li-icv-ou-emdr/">LI-ICV ou EMDR ?</a></li>
+            <li><a href="/pleine-conscience-sensible-au-trauma/">Pleine Conscience Sensible au Trauma</a></li>
+            <li><a href="/tctsy/">TCTSY</a></li>
+            <li><a href="/theorie-polyvagale/">Théorie polyvagale</a></li>
+            <li><a href="/ifs/">IFS : les parts de soi</a></li>
+            <li><a href="/eft/">EFT clinique</a></li>
+            <li><a href="/le-corps-en-psychotherapie/">Le corps en psychothérapie</a></li>
+            <li><a href="/neuropsychologie/">Neuropsychologie</a></li>
             <li><a href="/a-propos/" class="dd-main">À propos</a></li>
             <li><a href="/recherche/">Ma recherche doctorale</a></li>
-            <li><a href="/#infos">Infos pratiques et tarifs</a></li>
+            <li class="nav-desk"><a href="/#infos">Infos pratiques et tarifs</a></li>
             <li><a href="/consulter-en-visio/">Consulter en visio</a></li>
           </ul>
         </li>
-        <li class="nav-plain"><a href="/exercices/">Ressources</a></li>
+        <li class="nav-plain"><a href="/exercices/">Exercices et outils</a></li>
+        <li class="nav-plain nav-mob"><a href="/#infos">Tarifs et rendez-vous</a></li>
         <li class="nav-cta"><a class="cta" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></li>
       </ul>
     </nav>
@@ -599,17 +604,22 @@ figure figcaption a{padding-block:.7rem}
       <li>Des moments où l'on se coupe de soi, pour supporter ce qui se passe (voir la <a href="/dissociation/">dissociation</a>).</li>
       <li>Une méfiance profonde, même envers les personnes bienveillantes.</li>
     </ul>
+    <p>Pour situer votre propre style, vous pouvez faire le <a href="/test-style-d-attachement/">test du style d'attachement</a> : un court questionnaire, qui donne une indication et non un diagnostic.</p>
     <h2 id="viens-va-t-en-la-dynamique-relationnelle">Viens… va-t'en : la dynamique relationnelle</h2>
-    <p>Dans les relations proches, le besoin de lien et la peur du lien peuvent s'activer en même temps : on se rapproche, puis la proximité elle-même réveille l'alarme, et l'on s'éloigne, avant de revenir. Comme un élastique qui se tend et ramène, avec un effet de rebond.</p>
+    <p>Dans les relations proches, le besoin de lien et la peur du lien peuvent s'activer en même temps : on se rapproche, puis la proximité elle-même réveille l'alarme, et l'on s'éloigne, avant de revenir. Comme un élastique qui se tend et ramène, avec un effet de rebond. Ce sont souvent de petits signes, un silence, un ton, un regard, qui servent de <a href="/declencheurs-emotionnels/">déclencheurs</a>.</p>
     <p>Le psychiatre Giovanni Liotti a décrit comment l'enfant intériorise des images de soi et de l'autre qui changent selon les moments : tantôt l'autre fait peur et l'on se sent victime, tantôt l'on se sent responsable de sauver l'autre, tantôt l'on se sent soi-même dangereux. Ces rôles, persécuteur, victime et sauveur, peuvent se rejouer dans les relations adultes, sans que personne ne l'ait choisi. Les reconnaître aide à en sortir.</p>
     <p>Cette histoire rend aussi plus vulnérable au lien traumatique : on peut chercher l'apaisement auprès de la personne même qui fait souffrir (voir la <a href="/dependance-affective/">dépendance affective</a>).</p>
+    <h3 id="attachement-desorganise-et-rupture-amoureuse">Attachement désorganisé et rupture amoureuse</h3>
+    <p>Une rupture peut réveiller les deux mouvements à la fois : la séparation active la peur de l'abandon, et l'idée de renouer réveille la méfiance. En clinique, on observe souvent des séparations et des retours qui se répètent, une détresse qui paraît démesurée au regard de la relation, ou au contraire un engourdissement, comme si l'on ne ressentait plus rien (voir la <a href="/dissociation/">dissociation</a>). L'image de l'autre peut aussi basculer très vite, de la personne idéale à la personne dont il faut se protéger, et la faute se retourner contre soi : « c'est moi qui fais tout échouer ».</p>
+    <p>Ces réactions ne disent pas que vous aimez « mal » : elles montrent qu'une séparation touche une blessure ancienne. Dans ces moments, il peut être utile de ne pas prendre de décision au plus fort de l'émotion, de s'appuyer sur des personnes stables et de revenir au corps (voir la <a href="/regulation-emotionnelle/">régulation émotionnelle</a> et la <a href="/peur-de-l-abandon/">peur de l'abandon</a>). Le <a href="#un-outil-reperer-ses-mouvements-d-approche-et-de-fuite">carnet approche et fuite</a> aide aussi à repérer ce qui relance le cycle.</p>
+    <div class="btns"><a class="btn solid" href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" target="_blank" rel="noopener">Prendre rendez-vous</a></div>
     <h2 id="modeles-internes-et-schemas">Modèles internes et schémas : une carte contradictoire</h2>
     <p>Dans l'attachement désorganisé, la carte intérieure de la relation, les modèles internes opérants décrits par John Bowlby, porte souvent deux messages en même temps : « j'ai besoin de l'autre » et « l'autre peut me faire du mal ». C'est ce qui rend les mouvements d'approche et de fuite si difficiles à comprendre de l'intérieur (voir <a href="/styles-d-attachement/#pourquoi-repete-t-on-les-memes-schemas">pourquoi répète-t-on les mêmes schémas</a>).</p>
     <p>Les recherches montrent que le style craintif, dont il se rapproche à l'âge adulte, est nettement associé aux schémas précoces décrits par le psychologue Jeffrey Young (voir <a href="/styles-d-attachement/#schemas-precoces">les schémas précoces</a>). En clinique, on retrouve souvent :</p>
     <ul class="dash">
       <li><strong>La méfiance.</strong> « Si je baisse la garde, on me fera du mal. »</li>
       <li><strong>L'imperfection et la honte.</strong> « Si l'on me connaissait vraiment, on ne m'aimerait pas. » (voir <a href="/honte-et-culpabilite/">la honte et la culpabilité</a>)</li>
-      <li><strong>L'abandon.</strong> « Les personnes importantes finissent toujours par partir. »</li>
+      <li><strong>L'abandon.</strong> « Les personnes importantes finissent toujours par partir. » (voir <a href="/peur-de-l-abandon/">la peur de l'abandon</a>)</li>
     </ul>
     <p>Ces schémas peuvent s'activer tour à tour, parfois très vite : la proximité réveille la méfiance, la distance réveille l'abandon. Ce sont des tendances, pas des étiquettes : chaque histoire est singulière. Les reconnaître, sans se juger, aide à comprendre que ces réactions ont un sens, et qu'elles peuvent s'apaiser pas à pas, dans des relations stables (voir l'<a href="#un-outil-reperer-ses-mouvements-d-approche-et-de-fuite">outil approche et fuite</a>).</p>
     <h2 id="un-lien-etroit-avec-le-trauma">Un lien étroit avec le trauma</h2>
@@ -645,6 +655,7 @@ figure figcaption a{padding-block:.7rem}
       <li><h3>Est-ce forcément lié à des violences ?</h3><p>Non. Il peut aussi apparaître lorsque le parent est lui-même submergé par la peur ou par un deuil non résolu, sans qu'il y ait de violence.</p></li>
       <li><h3>Mes parents ont-ils été de mauvais parents ?</h3><p>Souvent, ils étaient eux-mêmes effrayés, et portaient une histoire qui ne s'était pas apaisée. Reconnaître l'impact de ce que l'on a vécu peut aller de pair avec la compréhension de leur propre histoire, sans que l'un efface l'autre.</p></li>
     </ul>
+    <p class="revision" style="color:var(--muted);font-size:.95rem">Rédigé par <a href="/a-propos/">Laetitia Duchemin</a>, psychologue clinicienne intégrative. Dernière révision : novembre 2026.</p>
     <h2 id="sources">Sources</h2>
     <ul class="refs-list">
       <li>Main, M., &amp; Solomon, J. (1990). Procedures for identifying infants as disorganized/disoriented during the Ainsworth Strange Situation. In M. T. Greenberg, D. Cicchetti, &amp; E. M. Cummings (dir.), <em>Attachment in the Preschool Years: Theory, Research, and Intervention</em>. Chicago : University of Chicago Press.</li>
@@ -677,7 +688,7 @@ figure figcaption a{padding-block:.7rem}
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
       <p><a href="/mentions-legales/" style="display:inline-block;padding-block:.7rem">Mentions légales complètes</a></p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 28 octobre 2026 · Référencement : <a href="https://mkz-consulting.fr/" rel="nofollow" style="display:inline-block;padding:.7rem;margin:-.7rem">MKZ</a></div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 3 novembre 2026 · Référencement : <a href="https://mkz-consulting.fr/" rel="nofollow" style="display:inline-block;padding:.7rem;margin:-.7rem">MKZ</a></div>
   </div>
 </footer>
 <script>
