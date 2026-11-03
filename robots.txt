@@ -1,4 +1,6 @@
 # Tous les robots sont les bienvenus : moteurs de recherche et assistants IA.
+# Résumé du site pour les assistants IA : https://laetitia-duchemin-psychologue.fr/llms.txt
+# Texte intégral : https://laetitia-duchemin-psychologue.fr/llms-full.txt
 User-agent: *
 Allow: /
 
