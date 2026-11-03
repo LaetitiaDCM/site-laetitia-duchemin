@@ -1074,9 +1074,13 @@ La LI-ICV (Lifespan Integration, ou Intégration du Cycle de la Vie, souvent app
 
 Prendre rendez-vous
 
+En bref : la LI-ICV est une thérapie de connexion des différents états du soi. Elle s'appuie sur une ligne du temps, parcourue de façon répétée, pour aider les expériences passées à trouver leur place dans votre histoire. Elle est notamment indiquée pour le stress post-traumatique, simple ou complexe, et la réparation de l'attachement. Elle se pratique à tout âge, avec des séances d'ICV de 1 h à 1 h 30. Vous hésitez avec l'EMDR ? Voir LI-ICV ou EMDR.
+
 ## Pour quelles situations ?
 
-Elle est utilisée pour le stress post-traumatique (TSPT), simple ou complexe, la réparation de l'attachement et la régulation émotionnelle. Au-delà, elle peut être utilisée pour d'autres demandes : elle travaille sur le fond, souvent complexe, qui peut être à l'origine des symptômes.
+Elle est utilisée pour le stress post-traumatique (TSPT), simple ou complexe, la réparation de l'attachement et la régulation émotionnelle. Au-delà, elle peut être utilisée pour d'autres demandes : troubles anxieux, dépression, deuil qui ne s'apaise pas, symptômes dissociatifs, difficultés relationnelles, ou un mal-être plus diffus, comme l'impression de ne pas trouver sa place, ou de se sentir seul·e même entouré·e. Il n'est pas nécessaire d'avoir vécu des événements extrêmes pour ressentir une insécurité intérieure : elle travaille sur le fond, souvent complexe, qui peut être à l'origine des symptômes.
+
+Son utilisation clinique pour ces différentes difficultés ne signifie pas que son efficacité a déjà été démontrée pour chacune d'elles : la recherche sur la LI-ICV est encore jeune (voir ce que dit la recherche).
 
 Vous vous demandez ce qui la distingue de l'EMDR ? Voir la page LI-ICV ou EMDR.
 
@@ -1092,9 +1096,9 @@ La LI-ICV permet aussi de travailler la mémoire implicite, celle qui n'est pas 
 
 En 1949, le psychologue canadien Donald Hebb a proposé une idée devenue centrale en neurosciences : lorsque deux neurones s'activent en même temps, de façon répétée, la connexion entre eux se renforce. On la résume souvent ainsi : « les neurones qui s'activent ensemble se connectent ensemble ». C'est l'un des mécanismes de la plasticité du cerveau, qui lui permet d'apprendre tout au long de la vie.
 
-La LI-ICV s'appuie sur ce principe. À chaque passage de la ligne du temps, le souvenir est activé en même temps que les repères du présent : l'adulte d'aujourd'hui, en sécurité, présent dans son corps, accompagné par le thérapeute. En répétant ces passages, le cerveau renforce le lien entre les deux : le souvenir n'appelle plus seulement l'alarme, il appelle aussi le sentiment que c'est passé. C'est pourquoi la répétition est l'un des piliers de la LI-ICV.
+On peut comprendre l'effet de la répétition dans la LI-ICV à la lumière de ce principe. À chaque passage de la ligne du temps, le souvenir est activé en même temps que les repères du présent : l'adulte d'aujourd'hui, en sécurité, présent dans son corps, accompagné par le thérapeute. En répétant ces passages, on peut penser que le cerveau renforce le lien entre les deux : le souvenir n'appelle plus seulement l'alarme, il appelle aussi le sentiment que c'est passé. C'est pourquoi la répétition est l'un des piliers de la LI-ICV.
 
-L'image ci-dessous l'illustre : tout le réseau s'illumine ensemble, comme une guirlande, et des faisceaux de lumière relient les points entre eux, à l'image des connexions qui se renforcent à chaque répétition.
+L'image ci-dessous l'illustre : tout le réseau s'illumine ensemble, et des faisceaux de lumière relient les points entre eux, à l'image des connexions qui se renforcent à chaque répétition.
 
 Sources : Hebb, D. O. (1949). The Organization of Behavior: A Neuropsychological Theory. New York : Wiley. Shatz, C. J. (1992). The developing brain. Scientific American, 267(3), 60-67.
 
@@ -1132,7 +1136,7 @@ Pour découvrir l'approche plus en détail, vous pouvez consulter la plaquette d
 
 ## Ce que dit la recherche
 
-La recherche sur la LI-ICV est récente et encore peu développée. Une étude randomisée pilote (Rajan et al., 2020) a évalué une séance unique de LI modifiée chez des jeunes femmes, après une agression sexuelle unique : trois semaines plus tard, 72 % des personnes analysées n'avaient plus de score de stress post-traumatique, contre 6 % sur liste d'attente. Une étude exploratoire (Balkus, 2012, thèse de doctorat) menée auprès de 17 femmes ayant vécu des événements traumatiques rapporte un score moyen d'intrusion et d'évitement passé d'environ 28 à 6 après une première séance de LI, puis à 3,7 après la seconde, trois à quatre semaines plus tard. Une étude de cas pragmatique menée sur six thérapies terminées (Bajramovic Richet, Branly et Duriez, 2023) rapporte, chez une patiente suivie pendant 18 mois (34 séances) pour un trouble d'anxiété généralisée, une diminution de l'anxiété et une amélioration de la régulation émotionnelle. Même si ces études portent sur de petits échantillons, elles convergent vers une diminution notable des troubles. Ma thèse de doctorat porte justement sur l'intérêt de la LI-ICV pour les jeunes adultes de 18 à 25 ans présentant un trauma complexe : découvrir ma recherche doctorale.
+La recherche sur la LI-ICV est récente et encore peu développée. Une étude randomisée pilote (Rajan et al., 2020) a évalué une séance unique de LI modifiée chez des jeunes femmes, après une agression sexuelle unique : trois semaines plus tard, 72 % des personnes analysées n'avaient plus de score de stress post-traumatique, contre 6 % sur liste d'attente. Une étude exploratoire (Balkus, 2012, thèse de doctorat) menée auprès de 17 femmes ayant vécu des événements traumatiques rapporte un score moyen d'intrusion et d'évitement passé d'environ 28 à 6 après une première séance de LI, puis à 3,7 après la seconde, trois à quatre semaines plus tard. Une étude de cas pragmatique menée sur six thérapies terminées (Bajramovic Richet, Branly et Duriez, 2023) rapporte, chez une patiente suivie pendant 18 mois (34 séances) pour un trouble d'anxiété généralisée, une diminution de l'anxiété et une amélioration de la régulation émotionnelle. Ces premiers résultats sont encourageants, mais ils portent sur de petits échantillons et doivent encore être confirmés par des études plus larges, avec des groupes de comparaison. Ma thèse de doctorat porte justement sur l'intérêt de la LI-ICV pour les jeunes adultes de 18 à 25 ans présentant un trauma complexe : découvrir ma recherche doctorale.
 
 Sources : Rajan et al. (2020), Journal of Interpersonal Violence, doi.org/10.1177/0886260520965973 · Balkus (2012), thèse, Northwest University · Bajramovic Richet, Branly et Duriez (2023), article sur ScienceDirect.
 
