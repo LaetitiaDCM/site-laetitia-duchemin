@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 3 novembre 2026.
+> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 4 novembre 2026.
 
 ---
 
@@ -2842,11 +2842,11 @@ Réserver en ligne
 ---
 
 URL : https://laetitia-duchemin-psychologue.fr/peur-de-l-abandon/
-Titre : Peur de l'abandon et du rejet : comprendre et s'apaiser
+Titre : Peur de l'abandon ou du rejet : comprendre et s'apaiser
 
-# Peur de l'abandon
+# Peur de l'abandon ou du rejet
 
-Quand chaque distance ravive la crainte d'être quitté
+Quand chaque distance ravive la crainte d'être quitté·e ou rejeté·e
 
 La peur de l'abandon est la crainte, souvent envahissante, d'être quitté, rejeté ou laissé seul par les personnes auxquelles on tient. Elle est fréquente dans les styles d'attachement anxieux et désorganisé, et prend souvent racine dans des expériences anciennes de séparation, d'imprévisibilité ou de négligence.
 
@@ -2871,6 +2871,14 @@ La psychologue Geraldine Downey a décrit la « sensibilité au rejet » : une t
 - Ressentir une détresse intense lors des séparations, même courtes.
 
 - Se suradapter pour ne pas déplaire : dire oui, s'effacer, chercher à être parfait·e.
+
+- Dépendre du regard et de l'amour de l'autre pour se sentir bien, ou pour se sentir à sa place.
+
+- Réagir très fort quand on se sent rejeté·e : colère, larmes, repli sur soi ou pensées qui tournent en boucle.
+
+- Avoir du mal à poser ses limites : accepter des choses que l'on ne ferait pas habituellement, de peur d'être rejeté·e ou abandonné·e, et faire passer ses propres besoins après ceux des autres (voir l'affirmation de soi).
+
+Cette peur se manifeste dans le couple, mais aussi en amitié, en famille ou au travail : partout où le lien compte.
 
 ## Ce que vit le corps
 
@@ -2946,7 +2954,7 @@ Télécharger l'affiche (PDF)
 
 ## Mon accompagnement
 
-J'accompagne la peur de l'abandon avec la LI-ICV, qui aide le système nerveux à intégrer que ces séparations appartiennent au passé, et à construire une sécurité intérieure plus stable.
+J'accompagne la peur de l'abandon et du rejet en séances individuelles. Nous travaillons à comprendre ce qui l'entretient, avec des outils concrets pour mieux traverser les moments où vous vous sentez rejeté·e et oser poser vos limites. La LI-ICV aide ensuite le système nerveux à intégrer que ces séparations appartiennent au passé, et à construire une sécurité intérieure plus stable, qui dépende moins du regard de l'autre.
 
 Pour une vue d'ensemble, je vous invite à lire la page Styles d'attachement.
 
@@ -2981,6 +2989,10 @@ Les deux peuvent se rencontrer : une personne très sensible perçoit plus finem
 ### Est-ce que cela concerne seulement le couple ?
 
 Elle peut aussi se manifester en amitié, en famille ou au travail : la peur d'être mis·e à l'écart d'un groupe, de décevoir un responsable, de ne plus être invité·e.
+
+### Comment ne plus dépendre du regard de l'autre ?
+
+En construisant peu à peu une sécurité intérieure : reconnaître sa valeur sans attendre qu'un autre la confirme, et apprendre à traverser les moments de doute sans chercher aussitôt à être rassuré·e (voir l'estime de soi).
 
 ## Sources
 
