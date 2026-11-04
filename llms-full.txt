@@ -295,6 +295,8 @@ Réserver une séance ICV
 
 En visio, partout en France et depuis l'étranger · Plateforme sécurisée, même confidentialité qu'en cabinet · Réservation en ligne en quelques clics · Une question avant de réserver ? Écrivez-moi, je vous réponds dès que possible
 
+Les séances ne sont pas prises en charge par l'Assurance maladie. Certaines mutuelles remboursent une partie des séances de psychologie, sur un nombre limité par an selon votre contrat : renseignez-vous auprès de la vôtre. Une facture vous est envoyée après chaque séance.
+
 Tarifs nets, honoraires exonérés de TVA (art. 261 du CGI). Tarifs mis à jour en septembre 2026.
 
 ### Consultation en ligne
@@ -5246,6 +5248,16 @@ Les deux mots sont souvent employés l'un pour l'autre. L'anxiété se vit surto
 
 - Dans les comportements : éviter ce qui inquiète, tout vérifier, chercher à tout contrôler, demander souvent à être rassuré.
 
+## Ruminations et anticipation du pire
+
+Deux mécanismes de pensée reviennent souvent dans l'anxiété.
+
+- Les ruminations : les mêmes pensées tournent en boucle, souvent autour de ce qui s'est passé ou de ce que l'on aurait dû faire. On a l'impression de réfléchir, mais la pensée tourne sans trouver d'issue, et l'inquiétude grandit.
+
+- L'anticipation du pire : l'esprit se projette dans l'avenir et imagine ce qui pourrait mal tourner, souvent dans le scénario le plus sombre. C'est une façon de se préparer, de ne pas être pris au dépourvu, mais le corps réagit comme si le danger était déjà là.
+
+Ces deux mécanismes cherchent à protéger et à garder le contrôle. Apprendre à les reconnaître quand ils s'enclenchent permet de s'en décaler peu à peu (voir les repères pour l'apaiser, plus bas).
+
 ## Ce qui l'entretient
 
 Éviter ce qui inquiète soulage sur le moment, mais confirme au cerveau que la situation était dangereuse : la fois suivante, l'anxiété revient plus fort. De même, chercher la certitude à tout prix entretient l'inquiétude, car l'avenir comporte toujours une part d'inconnu. Apprendre à tolérer l'incertitude fait partie du chemin.
@@ -5299,6 +5311,8 @@ Prendre rendez-vous
 - Se donner un temps d'inquiétude : réservez chaque jour un moment court, par exemple quinze minutes, pour noter vos inquiétudes. En dehors de ce moment, quand une inquiétude surgit, notez-la et remettez-la à plus tard.
 
 - Prendre du recul sur ses pensées : « C'est mon anxiété qui parle », plutôt que « il va arriver quelque chose ».
+
+- Faire l'opposé : quand l'esprit imagine le pire, imaginez le meilleur scénario possible.
 
 - Revenir au présent : l'anxiété se tourne vers l'avenir, les sens ramènent à l'instant (voir l'ancrage 5-4-3-2-1).
 
