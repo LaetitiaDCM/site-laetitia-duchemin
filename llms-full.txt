@@ -2076,6 +2076,8 @@ Chacune de ces phrases renvoie à une page qui l'explique :
 
 - « J'ai besoin de l'autre pour me sentir bien. » → Dépendance affective
 
+- « Je m'attache à des personnes qui ne sont pas disponibles, et j'attends leurs messages au point que cela envahit mes pensées. » → Dépendance affective
+
 - « Je prends mes distances dès qu'on s'approche de moi. » → Attachement évitant
 
 - « Je veux être proche, et en même temps cela me fait peur. » → Attachement désorganisé
@@ -2116,7 +2118,7 @@ Prendre rendez-vous
 
 ## Mon accompagnement
 
-Je ne fais pas de thérapie de couple. J'accompagne la personne, en séances individuelles et en visio, dans ce qu'elle vit dans ses relations. Nous travaillons à comprendre les mécanismes qui se rejouent, avec des outils concrets pour traverser les moments difficiles, poser vos limites et construire une sécurité intérieure plus stable. La LI-ICV permet ensuite de travailler sur les expériences d'attachement qui ont installé ces schémas. Pour les modalités pratiques, voir consulter en visio.
+Je ne fais pas de thérapie de couple. J'accompagne la personne, en séances individuelles et en visio, dans ce qu'elle vit dans ses relations. Nous travaillons à comprendre les mécanismes qui se rejouent, avec des outils concrets pour traverser les moments difficiles, poser vos limites et construire une sécurité intérieure plus stable. La LI-ICV permet ensuite de travailler sur les expériences d'attachement qui ont installé ces schémas. L'objectif : retrouver votre place dans votre propre vie, apprendre à vous choisir, et construire des liens qui ne dépendent plus de la présence ou de l'absence des autres. Pour les modalités pratiques, voir consulter en visio.
 
 ## Questions fréquentes
 
@@ -7200,6 +7202,8 @@ Nous passons tous de l'une à l'autre selon les situations et les personnes. L'o
 - La peur du conflit, du rejet ou de l'abandon, souvent liée à son histoire relationnelle (voir les styles d'attachement).
 
 - Des messages appris tôt : « sois sage », « ne fais pas d'histoires », « pense d'abord aux autres », « arrête de ne penser qu'à toi », « ne sois pas égoïste ».
+
+- Une culpabilité qui surgit dès que l'on pose une limite ou que l'on demande quelque chose, comme si prendre soin de soi faisait du tort à l'autre (voir honte et culpabilité).
 
 - Une estime de soi fragile, qui fait douter de la légitimité de ses propres besoins.
 
