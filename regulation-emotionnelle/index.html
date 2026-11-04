@@ -329,14 +329,17 @@ footer details p{margin:.7rem 0 0;max-width:72ch}
 .refs a{word-break:break-word}
 .cta-band{text-align:center;background:var(--night);color:var(--gold-soft);padding:clamp(2.4rem,6vw,3.6rem) 1.25rem}
 .cta-band p{font-family:var(--serif);font-style:italic;font-size:clamp(1.25rem,2.6vw,1.7rem);margin:0 auto 1.4rem;max-width:32ch;line-height:1.4}
-.window-svg{margin:1.6rem 0 .4rem;border:1px solid var(--line);border-radius:16px;overflow:hidden}
-.window-svg svg{width:100%;height:auto;display:block}
+.window-zones{margin:1.6rem 0 .4rem;border:1px solid var(--line);border-radius:16px;padding:4px;display:grid;gap:4px}
+.window-zones .wz{border-radius:13px;padding:1.1rem 1.4rem}
+.window-zones .wz-tol{background:var(--c-sky)}.window-zones .wz-hyper{background:var(--c-lav)}.window-zones .wz-hypo{background:var(--c-sand)}
+.window-zones .wz-t{font-family:var(--serif);font-size:1.55rem;line-height:1.2;color:var(--heading);margin:0 0 .45rem}
+.window-zones p{margin:0;color:var(--muted);font-size:1rem;line-height:1.6}
 .poster-wide{margin:1.5rem 0}.poster-wide img{width:100%;height:auto;display:block;border-radius:8px;box-shadow:0 4px 18px rgba(18,12,38,.12)}.poster-wide figcaption{text-align:center;margin-top:.6rem;font-size:.92rem}
 .poster-dl{display:grid;grid-template-columns:minmax(0,180px) 1fr;gap:1.4rem;align-items:center;margin:1.6rem 0;padding:1.2rem;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
 .poster-dl img{width:100%;height:auto;border-radius:6px;box-shadow:0 2px 10px rgba(27,17,64,.12)}
 .poster-dl h3{font-size:1.35rem;color:var(--heading);margin-bottom:.4rem}
 .poster-dl p{margin:0 0 .9rem}
-@media (max-width:560px){.poster-dl{grid-template-columns:1fr}.poster-dl img{max-width:220px}.poster-dl .btn{display:table;margin:0 auto}}
+@media (max-width:560px){.poster-dl{grid-template-columns:1fr}.poster-dl img{max-width:220px}.poster-dl .btn{display:table;margin:0 auto}.poster-dl>a:first-child{justify-self:center;width:100%;max-width:220px}}
 .video-embed{position:relative;width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;margin:1.4rem 0;background:#000;border:1px solid var(--line)}
 .video-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 
@@ -586,26 +589,10 @@ figure figcaption a{padding-block:.7rem}
     </figure>
     <h2 id="la-fenetre-de-tolerance">La fenêtre de tolérance</h2>
     <p>La fenêtre de tolérance, un concept développé par le psychiatre Dan Siegel, désigne la zone dans laquelle une personne peut ressentir et vivre ses émotions sans être submergée par une hyperactivation (agitation, panique) ni s'en couper par une hypoactivation (engourdissement, vide). Rester dans cette zone, ou y revenir progressivement lorsqu'on en sort, est un des objectifs de la régulation émotionnelle, dont le rôle est aussi d'accroître cette fenêtre de tolérance dans la durée. Pour aller plus loin, voir la page <a href="/fenetre-de-tolerance/">fenêtre de tolérance</a>. Un déclencheur peut aussi nous en faire sortir brusquement (voir les <a href="/declencheurs-emotionnels/">déclencheurs émotionnels</a>).</p>
-    <div class="window-svg">
-<svg viewBox="0 0 720 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schéma de la fenêtre de tolérance et de la théorie polyvagale : zone de tolérance en haut, hyperactivation au milieu, hypoactivation en bas, avec des exemples de ressentis pour chaque zone.">
-  <rect x="4" y="4" width="712" height="146" rx="16" fill="var(--c-sky)"/>
-  <text x="34" y="48" font-family="var(--serif)" font-size="27" fill="var(--heading)">Zone de tolérance</text>
-  <text x="34" y="84" font-family="var(--sans)" font-size="15" fill="var(--muted)">Calme, présence, curiosité</text>
-  <text x="34" y="108" font-family="var(--sans)" font-size="15" fill="var(--muted)">Capacité à réfléchir, à se sentir en lien</text>
-  <text x="34" y="132" font-family="var(--sans)" font-size="15" fill="var(--muted)">avec soi et les autres</text>
-
-  <rect x="4" y="177" width="712" height="146" rx="16" fill="var(--c-lav)"/>
-  <text x="34" y="221" font-family="var(--serif)" font-size="27" fill="var(--heading)">Hyperactivation</text>
-  <text x="34" y="257" font-family="var(--sans)" font-size="15" fill="var(--muted)">Agitation, colère, panique</text>
-  <text x="34" y="281" font-family="var(--sans)" font-size="15" fill="var(--muted)">Cœur qui s'accélère, pensées qui</text>
-  <text x="34" y="305" font-family="var(--sans)" font-size="15" fill="var(--muted)">s'emballent, besoin de fuir ou de lutter</text>
-
-  <rect x="4" y="350" width="712" height="146" rx="16" fill="var(--c-sand)"/>
-  <text x="34" y="394" font-family="var(--serif)" font-size="27" fill="var(--heading)">Hypoactivation</text>
-  <text x="34" y="430" font-family="var(--sans)" font-size="15" fill="var(--muted)">Engourdissement, vide, fatigue extrême</text>
-  <text x="34" y="454" font-family="var(--sans)" font-size="15" fill="var(--muted)">Déconnexion, ralentissement,</text>
-  <text x="34" y="478" font-family="var(--sans)" font-size="15" fill="var(--muted)">difficulté à penser ou à agir</text>
-</svg>
+    <div class="window-zones" role="group" aria-label="Schéma de la fenêtre de tolérance et de la théorie polyvagale : zone de tolérance en haut, hyperactivation au milieu, hypoactivation en bas, avec des exemples de ressentis pour chaque zone.">
+  <div class="wz wz-tol"><p class="wz-t">Zone de tolérance</p><p>Calme, présence, curiosité<br>Capacité à réfléchir, à se sentir en lien avec soi et les autres</p></div>
+  <div class="wz wz-hyper"><p class="wz-t">Hyperactivation</p><p>Agitation, colère, panique<br>Cœur qui s'accélère, pensées qui s'emballent, besoin de fuir ou de lutter</p></div>
+  <div class="wz wz-hypo"><p class="wz-t">Hypoactivation</p><p>Engourdissement, vide, fatigue extrême<br>Déconnexion, ralentissement, difficulté à penser ou à agir</p></div>
 </div>
     <div class="poster-dl">
       <a href="/documents/affiche-fenetre-de-tolerance.pdf" target="_blank" rel="noopener"><img src="/documents/affiche-fenetre-de-tolerance.webp" width="620" height="876" alt="Aperçu de l'affiche : la fenêtre de tolérance et la théorie polyvagale, avec la zone de tolérance, l'hyperactivation et l'hypoactivation" loading="lazy"></a>
