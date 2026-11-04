@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 3 novembre 2026.
+> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 4 novembre 2026.
 
 ---
 
@@ -1983,7 +1983,7 @@ Le trauma complexe est souvent associé à un style d'attachement insécure, lor
 
 ## Mon accompagnement
 
-J'accompagne les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions d'une personne.
+Beaucoup de personnes consultent pour ce qu'elles appellent des problèmes relationnels : des relations amoureuses douloureuses qui se répètent, un sentiment de rejet, un attachement émotionnel qui fait souffrir, des difficultés familiales. J'accompagne en séances individuelles les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions d'une personne.
 
 Prendre rendez-vous
 
@@ -2294,7 +2294,7 @@ La tolérance à la détresse est une bonne piste de travail : apprendre à rest
 
 ## Mon accompagnement
 
-J'accompagne les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions de soi et des autres.
+J'accompagne les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions de soi et des autres, afin de vous sentir plus stable intérieurement, sans dépendre autant de la présence de l'autre.
 
 ## Questions fréquentes
 
@@ -2842,13 +2842,13 @@ Réserver en ligne
 ---
 
 URL : https://laetitia-duchemin-psychologue.fr/peur-de-l-abandon/
-Titre : Peur de l'abandon et du rejet : comprendre et s'apaiser
+Titre : Peur de l'abandon ou du rejet : comprendre et s'apaiser
 
-# Peur de l'abandon
+# Peur de l'abandon ou du rejet
 
-Quand chaque distance ravive la crainte d'être quitté
+Quand chaque distance ravive la crainte d'être quitté·e ou rejeté·e
 
-La peur de l'abandon est la crainte, souvent envahissante, d'être quitté, rejeté ou laissé seul par les personnes auxquelles on tient. Elle est fréquente dans les styles d'attachement anxieux et désorganisé, et prend souvent racine dans des expériences anciennes de séparation, d'imprévisibilité ou de négligence.
+La peur de l'abandon est la crainte, souvent envahissante, d'être quitté·e, rejeté·e ou laissé·e seul·e par les personnes auxquelles on tient. Elle est fréquente dans les styles d'attachement anxieux et désorganisé, et prend souvent racine dans des expériences anciennes de séparation, d'imprévisibilité ou de négligence.
 
 Prendre rendez-vous
 
@@ -2862,19 +2862,27 @@ La psychologue Geraldine Downey a décrit la « sensibilité au rejet » : une t
 
 - Guetter les moindres signes de distance ou de désintérêt.
 
-- Avoir besoin d'être rassuré souvent, et peiner à croire les paroles rassurantes.
+- Avoir besoin d'être rassuré·e souvent, et peiner à croire les paroles rassurantes.
 
 - Anticiper la rupture, imaginer le pire au moindre silence.
 
-- Ou, à l'inverse, partir le premier, ou ne pas s'engager, pour ne pas risquer d'être quitté.
+- Ou, à l'inverse, partir en premier, ou ne pas s'engager, pour ne pas risquer d'être quitté·e.
 
 - Ressentir une détresse intense lors des séparations, même courtes.
 
 - Se suradapter pour ne pas déplaire : dire oui, s'effacer, chercher à être parfait·e.
 
+- Dépendre du regard et de l'amour de l'autre pour se sentir bien, ou pour se sentir à sa place.
+
+- Réagir très fort quand on se sent rejeté·e : colère, larmes, repli sur soi ou pensées qui tournent en boucle.
+
+- Avoir du mal à poser ses limites : accepter des choses que l'on ne ferait pas habituellement, de peur d'être rejeté·e ou abandonné·e, et faire passer ses propres besoins après ceux des autres (voir l'affirmation de soi).
+
+Cette peur se manifeste dans le couple, mais aussi en amitié, en famille ou au travail : partout où le lien compte.
+
 ## Ce que vit le corps
 
-Être mis·e à l'écart fait mal, au sens propre. La chercheuse Naomi Eisenberger et ses collègues ont montré que l'exclusion sociale active des régions du cerveau qui participent aussi à la douleur physique. Pour notre espèce, être rejeté du groupe a longtemps été une question de survie : le système nerveux réagit donc à la distance comme à un danger.
+Être mis·e à l'écart fait mal, au sens propre. La chercheuse Naomi Eisenberger et ses collègues ont montré que l'exclusion sociale active des régions du cerveau qui participent aussi à la douleur physique. Pour notre espèce, être rejeté·e du groupe a longtemps été une question de survie : le système nerveux réagit donc à la distance comme à un danger.
 
 Le cœur s'accélère, la gorge se serre, le ventre se noue, les pensées s'emballent. C'est une réaction de protection, qui s'est installée pour de bonnes raisons, et qui peut se déclencher aujourd'hui même lorsque le danger n'est plus là (voir l'hypervigilance).
 
@@ -2907,6 +2915,8 @@ Repérer ses propres déclencheurs aide à anticiper et à se préparer (voir le
 Pour se protéger, on peut adopter des comportements qui, sans le vouloir, fragilisent la relation : demander sans cesse des preuves, tester l'autre, ou se retirer. La distance qui en résulte semble alors confirmer la peur de départ. Cette peur peut aussi rendre plus difficile de quitter une relation qui fait du mal (voir l'emprise).
 
 Quand cette peur organise toute la relation, elle peut conduire à la dépendance affective, qui a son propre cercle (voir la dépendance affective).
+
+Prendre rendez-vous
 
 ## Des repères pour s'apaiser
 
@@ -2946,7 +2956,7 @@ Télécharger l'affiche (PDF)
 
 ## Mon accompagnement
 
-J'accompagne la peur de l'abandon avec la LI-ICV, qui aide le système nerveux à intégrer que ces séparations appartiennent au passé, et à construire une sécurité intérieure plus stable.
+J'accompagne la peur de l'abandon et du rejet en séances individuelles. Nous travaillons à comprendre ce qui l'entretient, avec des outils concrets pour mieux traverser les moments où vous vous sentez rejeté·e et oser poser vos limites. La LI-ICV aide ensuite le système nerveux à intégrer que ces séparations appartiennent au passé, et à construire une sécurité intérieure plus stable, qui dépende moins du regard de l'autre.
 
 Pour une vue d'ensemble, je vous invite à lire la page Styles d'attachement.
 
@@ -2960,9 +2970,9 @@ Elle peut s'apaiser nettement. Le travail consiste à construire une sécurité 
 
 -
 
-### Pourquoi est-ce que je pars avant d'être quitté ?
+### Pourquoi est-ce que je pars avant d'être quitté·e ?
 
-C'est une façon de se protéger : partir le premier évite de revivre la douleur d'être abandonné. Cette stratégie peut se comprendre et évoluer.
+C'est une façon de se protéger : partir en premier évite de revivre la douleur d'être abandonné·e. Cette stratégie peut se comprendre et évoluer.
 
 -
 
@@ -2981,6 +2991,10 @@ Les deux peuvent se rencontrer : une personne très sensible perçoit plus finem
 ### Est-ce que cela concerne seulement le couple ?
 
 Elle peut aussi se manifester en amitié, en famille ou au travail : la peur d'être mis·e à l'écart d'un groupe, de décevoir un responsable, de ne plus être invité·e.
+
+### Comment ne plus dépendre du regard de l'autre ?
+
+En construisant peu à peu une sécurité intérieure : reconnaître sa valeur sans attendre que quelqu'un d'autre la confirme, et apprendre à traverser les moments de doute sans chercher aussitôt à être rassuré·e (voir l'estime de soi).
 
 ## Sources
 
@@ -3712,7 +3726,7 @@ Titre : Trauma de l'enfance : comprendre ses traces à l'âge adulte
 
 Ce que l'enfant a vécu, l'adulte peut le comprendre et l'apaiser
 
-Ce que nous vivons enfant façonne notre manière de nous sentir en sécurité, d'aimer, de réguler nos émotions et de nous voir nous-mêmes. Quand l'enfance a été marquée par des expériences difficiles, ou par un manque de sécurité et de réconfort, il en reste souvent des traces à l'âge adulte. Le comprendre permet de cesser de se juger et d'ouvrir un chemin pour s'en libérer.
+Ce que nous vivons enfant façonne notre manière de nous sentir en sécurité, d'aimer, de réguler nos émotions et de nous voir nous-mêmes. Quand l'enfance a été marquée par des expériences difficiles, ou par un manque de sécurité et de réconfort, il en reste souvent des traces à l'âge adulte, ce que l'on appelle des blessures d'enfance ou des blessures d'attachement. Le comprendre permet de cesser de se juger et d'ouvrir un chemin pour s'en libérer.
 
 Prendre rendez-vous
 
@@ -4267,7 +4281,7 @@ Si vous vous sentez en danger, ou si vous vous inquiétez pour un proche, vous p
 
 ## Mon accompagnement
 
-Les relations que l'on vit aujourd'hui portent souvent la trace des premiers liens. J'accompagne ce travail avec la LI-ICV, pour aider le système nerveux à reconnaître la sécurité et à construire des liens plus sereins. La relation thérapeutique elle-même peut devenir une expérience de lien fiable et prévisible.
+Si vos relations amoureuses, amicales ou familiales vous font souffrir ou semblent rejouer le même scénario, je vous reçois en séances individuelles. Les relations que l'on vit aujourd'hui portent souvent la trace des premiers liens. J'accompagne ce travail avec la LI-ICV, pour aider le système nerveux à reconnaître la sécurité et à construire des liens plus sereins. La relation thérapeutique elle-même peut devenir une expérience de lien fiable et prévisible.
 
 ## Questions fréquentes
 
@@ -7020,7 +7034,7 @@ Télécharger l'affiche (PDF)
 
 ## Mon accompagnement
 
-L'objectif principal est de vous aider à modifier le regard que vous portez sur vous-même, votre perception subjective. Nous pouvons travailler sur les pensées et les besoins, avec des outils issus des TCC, de l'ACT ou de la thérapie des schémas. Lorsque c'est utile, la LI-ICV permet d'aller plus loin, en travaillant sur les représentations précoces de soi que vous avez pu vous créer.
+Beaucoup de personnes décrivent cette difficulté avec leurs mots : « je manque de confiance en moi », « je dépends du regard des autres ». L'objectif principal est de vous aider à modifier le regard que vous portez sur vous-même, votre perception subjective. Nous pouvons travailler sur les pensées et les besoins, avec des outils issus des TCC, de l'ACT ou de la thérapie des schémas. Lorsque c'est utile, la LI-ICV permet d'aller plus loin, en travaillant sur les représentations précoces de soi que vous avez pu vous créer.
 
 ## Questions fréquentes
 
