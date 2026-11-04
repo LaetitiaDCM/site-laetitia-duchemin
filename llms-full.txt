@@ -2070,7 +2070,7 @@ Prendre rendez-vous
 
 ## Ce que vous vivez peut-être
 
-Chacune de ces phrases renvoie à une page qui l'explique plus en détail :
+Chacune de ces phrases renvoie à une page qui l'explique :
 
 - « Je me sens vite rejeté·e, j'ai peur d'être abandonné·e. » → Peur de l'abandon ou du rejet
 
@@ -2092,7 +2092,7 @@ Chacune de ces phrases renvoie à une page qui l'explique plus en détail :
 
 ## Des schémas relationnels qui se rejouent
 
-Dans l'enfance, nous apprenons ce que l'on peut attendre des autres et ce que l'on vaut à leurs yeux. John Bowlby parlait de modèles internes, Jeffrey Young de schémas précoces. Ces schémas relationnels ont eu leur raison d'être : ils nous ont aidés à nous adapter. À l'âge adulte, ils peuvent continuer d'orienter nos choix et nos réactions, et donner l'impression de revivre toujours la même histoire (voir, sur la page Styles d'attachement, pourquoi répète-t-on les mêmes schémas en amour).
+Dans l'enfance, nous apprenons ce que l'on peut attendre des autres et ce que l'on vaut à leurs yeux. John Bowlby parlait de modèles internes, Jeffrey Young de schémas précoces. Ces schémas relationnels ont eu leur raison d'être : ils nous ont aidés à nous adapter. À l'âge adulte, ils peuvent continuer d'orienter nos choix et nos réactions, et donner l'impression de revivre toujours la même histoire (voir « Pourquoi répète-t-on les mêmes schémas en amour ? » sur la page Styles d'attachement).
 
 On peut ainsi se tourner sans cesse vers les mêmes profils de personnes, tout en sachant que ces relations ne nous font pas du bien. Jeffrey Young et Janet Klosko observent que l'attirance est souvent la plus forte envers les personnes qui réactivent nos schémas.
 
@@ -2100,11 +2100,9 @@ On peut ainsi se tourner sans cesse vers les mêmes profils de personnes, tout e
 
 Quand on a connu des relations en dents de scie, en montagnes russes, où l'on ne sait jamais sur quel pied danser, une relation stable et fiable peut sembler étrangère : on n'en a pas fait l'expérience. Ce style de relation inconnu peut faire peur et bousculer nos repères, au point que notre cerveau le perçoive comme une menace.
 
-Une étude éclaire un aspect de ce mécanisme : auprès de couples mariés, installés dans leur relation, les personnes qui avaient une image négative d'elles-mêmes se sentaient plus engagées envers un·e conjoint·e qui partageait cette image négative. Pour les auteurs, ce qui confirme l'image que l'on a de soi rend les réactions des autres plus prévisibles.
+Une étude éclaire un aspect de ce mécanisme : auprès de couples mariés, installés dans leur relation, les personnes qui avaient une image négative d'elles-mêmes se sentaient plus engagées envers un·e conjoint·e qui portait sur elles le même regard négatif. Pour les auteurs, ce qui confirme l'image que l'on a de soi rend les réactions des autres plus prévisibles.
 
 À l'inverse, une relation sécure peut paraître plus routinière : vous savez à quoi vous attendre. Elle est aussi moins intense, parce qu'il y a moins de montagnes russes émotionnelles et davantage de réparation du lien après un désaccord. Ce calme, qui peut d'abord sembler ennuyeux, est le signe d'un lien sûr (voir une relation saine).
-
-Prendre rendez-vous
 
 ## Le lien avec l'enfance
 
@@ -2113,6 +2111,8 @@ Ce que l'on appelle souvent des blessures d'enfance ou des blessures d'attacheme
 ## Dans tous vos liens
 
 Ces difficultés ne concernent pas seulement le couple. Elles peuvent se manifester en amitié, dans les difficultés familiales, ou au travail : partout où le lien compte, et où l'on craint d'être mis·e à l'écart.
+
+Prendre rendez-vous
 
 ## Mon accompagnement
 
@@ -2140,7 +2140,7 @@ Oui. Le style d'attachement peut évoluer au fil de relations fiables, y compris
 
 - Swann, W. B., Jr., Hixon, J. G., & De La Ronde, C. (1992). Embracing the bitter “truth”: Negative self-concepts and marital commitment. Psychological Science, 3(2), 118-121. https://doi.org/10.1111/j.1467-9280.1992.tb00010.x
 
-- Young, J. E., & Klosko, J. S. (2013). Je réinvente ma vie : vous valez mieux que vous ne pensez (M. Perron, trad.). Les Éditions de l'Homme. (Ouvrage original publié en 1993 sous le titre Reinventing Your Life.)
+- Young, J. E., & Klosko, J. S. (2018). Je réinvente ma vie. Les Éditions de l'Homme. (Ouvrage original publié en 1993 sous le titre Reinventing Your Life.)
 
 - Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press.
 
