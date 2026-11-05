@@ -26,7 +26,9 @@ Pour les **petits éléments** (ajout ou correction ponctuelle de texte sur une 
 - passage par une pull request (jamais de push direct sur `main`), fusionnée une fois la recette OK ;
 - un commentaire sur la pull request informe Mickaël de ce qui a été publié et pourquoi.
 
-Tout le reste suit le circuit habituel, relu et publié par Mickaël : nouvelles pages, menu, structure, CSS partagé, appli, technique, SEO.
+Laetitia peut aussi autoriser la mise en ligne directe d'un **changement visuel qu'elle a validé sur captures** (fond, couleurs, effet), y compris dans le CSS partagé ou l'appli, aux mêmes conditions. La recette vérifie en plus qu'aucune mise en page ne bouge (hauteurs, positions des titres), que le mode non concerné reste identique, et, pour l'appli, que `VERSION` a changé.
+
+Tout le reste suit le circuit habituel, relu et publié par Mickaël : nouvelles pages, menu, structure, changements techniques du CSS ou de l'appli, technique, SEO.
 
 ## Bouton « Prendre rendez-vous »
 Lien unique : `https://rdv.deiz.fr/laetitia-duchemin-psychologue`, ouvert dans un nouvel onglet (`target="_blank" rel="noopener"`).
