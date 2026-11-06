@@ -39,7 +39,8 @@
   --bg:#120c26; --surface:#1a1236; --ink:#ece8f7; --muted:#b5aed0; --line:#2e2552; --tint:#231a45; --gold-deep:#ecd096; color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#120c26; --surface:#1a1236; --ink:#ece8f7; --muted:#b5aed0; --line:#2e2552; --tint:#231a45; --gold-deep:#ecd096; color-scheme:dark}
 html,body{height:100%}
-:root{--app-bg:none}
+/* fond de l'appli en mode clair : beige nacré irisé (même fond que le site) */
+:root{--app-bg:linear-gradient(115deg,transparent 20%,rgba(255,255,255,.13) 40%,rgba(239,221,229,.078) 55%,transparent 75%),radial-gradient(ellipse at 15% 20%,rgba(255,255,255,.85) 0%,transparent 45%),radial-gradient(ellipse at 80% 30%,rgba(232,216,235,.28) 0%,transparent 50%),radial-gradient(ellipse at 60% 85%,rgba(239,211,197,.35) 0%,transparent 45%),linear-gradient(135deg,#f8f0e9 0%,#f5e9e1 35%,#f9f2eb 65%,#eee5ef 100%)}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--app-bg:var(--grad);--surface:rgba(14,8,44,.42);--line:rgba(236,232,247,.16);--tint:rgba(236,232,247,.08)}}
 :root[data-theme="dark"]{--app-bg:var(--grad);--surface:rgba(14,8,44,.42);--line:rgba(236,232,247,.16);--tint:rgba(236,232,247,.08)}
 /* fond de l'appli en mode sombre : dégradé fixe violet → bleu (calque fixe, fonctionne aussi sur iPhone) */
