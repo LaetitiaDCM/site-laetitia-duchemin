@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 6 novembre 2026.
+> Version complète de llms.txt : texte principal des 52 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 6 novembre 2026.
 
 ---
 
@@ -85,7 +85,7 @@ Comprendre ce que sont les émotions et à quoi elles servent. Développer des r
 
 ### Styles d'attachement
 
-Explorer comment vos premiers liens influencent aujourd'hui vos relations et votre rapport à vous-même : attachement sécure, anxieux, évitant ou désorganisé, dépendance affective, peur de l'abandon, et les repères d'une relation saine. Quel est mon style d'attachement ? · En savoir plus sur les styles d'attachement
+Explorer comment vos premiers liens influencent aujourd'hui vos relations et votre rapport à vous-même : attachement sécure, anxieux, évitant ou désorganisé, dépendance affective, peur de l'abandon, difficultés relationnelles, et les repères d'une relation saine. Quel est mon style d'attachement ? · En savoir plus sur les styles d'attachement
 
 -
 
@@ -1989,7 +1989,7 @@ Le trauma complexe est souvent associé à un style d'attachement insécure, lor
 
 ## Mon accompagnement
 
-Beaucoup de personnes consultent pour ce qu'elles appellent des problèmes relationnels : des relations amoureuses douloureuses qui se répètent, un sentiment de rejet, un attachement émotionnel qui fait souffrir, des difficultés familiales. J'accompagne en séances individuelles les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions d'une personne.
+Beaucoup de personnes consultent pour ce qu'elles appellent des problèmes relationnels : des relations amoureuses douloureuses qui se répètent, un sentiment de rejet, un attachement émotionnel qui fait souffrir, des difficultés familiales (voir les difficultés relationnelles). J'accompagne en séances individuelles les difficultés liées à l'attachement avec la LI-ICV. C'est un travail profond, qui peut prendre du temps, pour faire évoluer les croyances, les représentations et les perceptions d'une personne.
 
 Prendre rendez-vous
 
@@ -2063,6 +2063,100 @@ Réserver en ligne
 
 ---
 
+URL : https://laetitia-duchemin-psychologue.fr/difficultes-relationnelles/
+Titre : Difficultés relationnelles : comprendre ce qui se rejoue
+
+# Difficultés relationnelles
+
+Quand les mêmes blessures se rejouent dans vos relations
+
+Vous vous sentez vite rejeté·e, vous avez peur d'être abandonné·e, vos relations amoureuses semblent rejouer le même scénario, ou vous vous effacez pour ne pas déplaire. Ces difficultés relationnelles ne viennent pas de nulle part : elles prennent souvent racine dans l'histoire de nos premiers liens. Cette page part de ce que vous vivez, avec vos mots, et vous oriente vers les pages qui l'expliquent plus en détail.
+
+Prendre rendez-vous
+
+## Ce que vous vivez peut-être
+
+Chacune de ces phrases renvoie à une page qui l'explique :
+
+- « Je me sens vite rejeté·e, j'ai peur d'être abandonné·e. » → Peur de l'abandon ou du rejet
+
+- « J'ai besoin de l'autre pour me sentir bien. » → Dépendance affective
+
+- « Je m'attache à des personnes qui ne sont pas disponibles, et j'attends leurs messages au point que cela envahit mes pensées. » → Dépendance affective
+
+- « Je prends mes distances dès qu'on s'approche de moi. » → Attachement évitant
+
+- « Je veux être proche, et en même temps cela me fait peur. » → Attachement désorganisé
+
+- « Je manque de confiance en moi, je dépends du regard des autres. » → Estime de soi
+
+- « Je n'arrive pas à dire non, mes besoins passent après ceux des autres. » → Affirmation de soi
+
+- « Je suis anxieux·se dans mes relations, je rumine après chaque échange, j'anticipe le pire. » → Anxiété
+
+- « Je ne sais plus à quoi ressemble une relation qui fait du bien. » → Une relation saine
+
+- « Je n'arrive pas à quitter une relation qui me fait du mal. » → L'emprise
+
+## Des schémas relationnels qui se rejouent
+
+Dans l'enfance, nous apprenons ce que l'on peut attendre des autres et ce que l'on vaut à leurs yeux. John Bowlby parlait de modèles internes, Jeffrey Young de schémas précoces. Ces schémas relationnels ont eu leur raison d'être : ils nous ont aidés à nous adapter. À l'âge adulte, ils peuvent continuer d'orienter nos choix et nos réactions, et donner l'impression de revivre toujours la même histoire (voir « Pourquoi répète-t-on les mêmes schémas en amour ? » sur la page Styles d'attachement).
+
+On peut ainsi se tourner sans cesse vers les mêmes profils de personnes, tout en sachant que ces relations ne nous font pas du bien. Jeffrey Young et Janet Klosko observent que l'attirance est souvent la plus forte envers les personnes qui réactivent nos schémas.
+
+## Notre cerveau va vers ce qu'il connaît
+
+Quand on a connu des relations en dents de scie, en montagnes russes, où l'on ne sait jamais sur quel pied danser, une relation stable et fiable peut sembler étrangère : on n'en a pas fait l'expérience. Ce style de relation inconnu peut faire peur et bousculer nos repères, au point que notre cerveau le perçoive comme une menace.
+
+Une étude éclaire un aspect de ce mécanisme : auprès de couples mariés, installés dans leur relation, les personnes qui avaient une image négative d'elles-mêmes se sentaient plus engagées envers un·e conjoint·e qui portait sur elles le même regard négatif. Pour les auteurs, ce qui confirme l'image que l'on a de soi rend les réactions des autres plus prévisibles.
+
+À l'inverse, une relation sécure peut paraître plus routinière : vous savez à quoi vous attendre. Elle est aussi moins intense, parce qu'il y a moins de montagnes russes émotionnelles et davantage de réparation du lien après un désaccord. Ce calme, qui peut d'abord sembler ennuyeux, est le signe d'un lien sûr (voir une relation saine).
+
+## Le lien avec l'enfance
+
+Ce que l'on appelle souvent des blessures d'enfance ou des blessures d'attachement peut se réveiller dans les relations d'aujourd'hui : une séparation, un silence, une critique touchent alors une sensibilité plus ancienne. On parle aussi de « blessure d'abandon » ou de « blessure de rejet » (voir la peur de l'abandon ou du rejet). Pour mieux comprendre votre façon de vous attacher, vous pouvez lire la page Trauma de l'enfance ou faire le test du style d'attachement.
+
+## Dans tous vos liens
+
+Ces difficultés ne concernent pas seulement le couple. Elles peuvent se manifester en amitié, dans les difficultés familiales, ou au travail : partout où le lien compte, et où l'on craint d'être mis·e à l'écart.
+
+Prendre rendez-vous
+
+## Mon accompagnement
+
+Je ne fais pas de thérapie de couple. J'accompagne la personne, en séances individuelles et en visio, dans ce qu'elle vit dans ses relations. Nous travaillons à comprendre les mécanismes qui se rejouent, avec des outils concrets pour traverser les moments difficiles, poser vos limites et construire une sécurité intérieure plus stable. La LI-ICV permet ensuite de travailler sur les expériences d'attachement qui ont installé ces schémas. L'objectif : retrouver votre place dans votre propre vie, apprendre à vous choisir, et ne plus dépendre de la présence ou de l'absence des autres. Pour les modalités pratiques, voir consulter en visio.
+
+## Questions fréquentes
+
+### Faites-vous des thérapies de couple ?
+
+Non. J'accompagne uniquement en séances individuelles ce que vous vivez dans vos relations. Si vous souhaitez consulter à deux, un·e thérapeute de couple sera plus adapté·e.
+
+### Pourquoi est-ce que je reproduis les mêmes schémas relationnels ?
+
+Parce que ce qui est familier peut donner une impression d'évidence, même lorsque cela fait souffrir. Les schémas appris tôt orientent ce qui nous attire et notre manière de réagir. En prendre conscience est une première étape pour faire d'autres choix.
+
+### Peut-on changer sa façon d'être en relation ?
+
+Oui. Le style d'attachement peut évoluer au fil de relations fiables, y compris la relation thérapeutique : on parle de sécurité acquise (voir l'attachement sécure).
+
+## Sources
+
+- Bowlby, J. (1973). Attachment and Loss. Vol. 2 : Separation: Anxiety and Anger. New York : Basic Books.
+
+- Mikulincer, M., & Shaver, P. R. (2016). Attachment in Adulthood: Structure, Dynamics, and Change (2e éd.). New York : Guilford Press.
+
+- Swann, W. B., Jr., Hixon, J. G., & De La Ronde, C. (1992). Embracing the bitter “truth”: Negative self-concepts and marital commitment. Psychological Science, 3(2), 118-121. https://doi.org/10.1111/j.1467-9280.1992.tb00010.x
+
+- Young, J. E., & Klosko, J. S. (2018). Je réinvente ma vie. Les Éditions de l'Homme. (Ouvrage original publié en 1993 sous le titre Reinventing Your Life.)
+
+- Young, J. E., Klosko, J. S., & Weishaar, M. E. (2003). Schema Therapy: A Practitioner's Guide. New York : Guilford Press.
+
+Consultation : 1 h, 70 €, en ligne.
+
+Réserver en ligne
+
+---
 URL : https://laetitia-duchemin-psychologue.fr/test-style-d-attachement/
 Titre : Test du style d'attachement (ECR-RS) : quel est le vôtre ?
 
@@ -2781,7 +2875,7 @@ Télécharger l'affiche (PDF)
 
 ## Mon accompagnement
 
-Nous travaillons sur l'estime de soi, l'affirmation de soi, le respect de soi et de ses propres limites, et les besoins, pour que votre sécurité ne repose plus uniquement sur l'autre. La LI-ICV permet d'aller plus loin, en travaillant sur les expériences d'attachement qui ont installé ce besoin.
+Nous travaillons sur l'estime de soi, l'affirmation de soi, le respect de soi et de ses propres limites, et les besoins, pour que votre sécurité ne repose plus uniquement sur l'autre. La LI-ICV permet d'aller plus loin, en travaillant sur les expériences d'attachement qui ont installé ce besoin. Pour relier ce que vous vivez aux autres thèmes du site, voir les difficultés relationnelles.
 
 ## Questions fréquentes
 
@@ -2884,7 +2978,7 @@ La psychologue Geraldine Downey a décrit la « sensibilité au rejet » : une t
 
 - Avoir du mal à poser ses limites : accepter des choses que l'on ne ferait pas habituellement, de peur d'être rejeté·e ou abandonné·e, et faire passer ses propres besoins après ceux des autres (voir l'affirmation de soi).
 
-Cette peur se manifeste dans le couple, mais aussi en amitié, en famille ou au travail : partout où le lien compte.
+Cette peur se manifeste dans le couple, mais aussi en amitié, en famille ou au travail : partout où le lien compte (voir les difficultés relationnelles).
 
 ## Ce que vit le corps
 
@@ -4285,9 +4379,11 @@ Si vous vous sentez en danger, ou si vous vous inquiétez pour un proche, vous p
 
 - En cas d'urgence : le 17 (police ou gendarmerie) ou le 112. Par SMS : le 114.
 
+Prendre rendez-vous
+
 ## Mon accompagnement
 
-Si vos relations amoureuses, amicales ou familiales vous font souffrir ou semblent rejouer le même scénario, je vous reçois en séances individuelles. Les relations que l'on vit aujourd'hui portent souvent la trace des premiers liens. J'accompagne ce travail avec la LI-ICV, pour aider le système nerveux à reconnaître la sécurité et à construire des liens plus sereins. La relation thérapeutique elle-même peut devenir une expérience de lien fiable et prévisible.
+Si vos relations amoureuses, amicales ou familiales vous font souffrir ou semblent rejouer le même scénario, je vous reçois en séances individuelles (voir aussi les difficultés relationnelles). Les relations que l'on vit aujourd'hui portent souvent la trace des premiers liens. J'accompagne ce travail avec la LI-ICV, pour aider le système nerveux à reconnaître la sécurité et à construire des liens plus sereins. La relation thérapeutique elle-même peut devenir une expérience de lien fiable et prévisible.
 
 ## Questions fréquentes
 
@@ -7112,6 +7208,8 @@ Nous passons tous de l'une à l'autre selon les situations et les personnes. L'o
 - La peur du conflit, du rejet ou de l'abandon, souvent liée à son histoire relationnelle (voir les styles d'attachement).
 
 - Des messages appris tôt : « sois sage », « ne fais pas d'histoires », « pense d'abord aux autres », « arrête de ne penser qu'à toi », « ne sois pas égoïste ».
+
+- Une culpabilité qui surgit dès que l'on pose une limite ou que l'on demande quelque chose, comme si prendre soin de soi faisait du tort à l'autre (voir honte et culpabilité).
 
 - Une estime de soi fragile, qui fait douter de la légitimité de ses propres besoins.
 
