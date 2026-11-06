@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 4 novembre 2026.
+> Version complète de llms.txt : texte principal des 51 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 6 novembre 2026.
 
 ---
 
@@ -208,13 +208,23 @@ Entretiens individuels et familiaux. Bilans psychologiques et rédaction de comp
 
 ### Expérience
 
+#### Expérience clinique
+
 Plus de dix ans d'exercice clinique, depuis 2015, auprès d'un public varié : enfants, adolescents, jeunes adultes, adultes et personnes âgées.
+
+#### Service de Santé Étudiante
 
 Depuis 2022, psychologue au Service de Santé Étudiante de l'Université de Picardie Jules Verne : accompagnement de jeunes adultes, notamment après des vécus traumatiques, et participation à la cellule violences sexistes et sexuelles.
 
+#### Milieu hospitalier et médico-social
+
 Un parcours en milieu hospitalier et médico-social : alcoologie, douleur chronique, néphrologie, psycho-gériatrie, rééducation nutritionnelle, accompagnement de personnes cérébrolésées.
 
+#### Addictions et prévention
+
 Plus de dix ans d'accompagnement des addictions, et participation depuis 2023 au projet DOSAJ, de prévention primaire de l'alcoolisation chez les jeunes de 15 à 25 ans (ARS, CHU Amiens-Picardie).
+
+#### Formation et transmission
 
 Animatrice d'ateliers au Service de Santé Étudiante et à l'extérieur, formatrice ; autrice de guides pour les étudiants ; rédaction et coordination de projets institutionnels.
 
@@ -302,10 +312,6 @@ Tarifs nets, honoraires exonérés de TVA (art. 261 du CGI). Tarifs mis à jour 
 ### Consultation en ligne
 
 Les séances ont lieu en ligne, sur une plateforme sécurisée, pour toute la France comme depuis l'étranger. Il suffit d'un ordinateur, d'une tablette ou d'un téléphone, d'une connexion stable et d'un lieu au calme, pour échanger dans les mêmes conditions de confidentialité qu'en cabinet. Cette modalité permet d'être suivi sans contrainte de déplacement, y compris entre deux rendez-vous d'un accompagnement au long cours. Pour savoir comment se déroule une séance, je vous invite à lire la page Consulter en visio.
-
-### Prendre rendez-vous
-
-En ligne, en quelques clics, sur ma page de réservation. Une question avant de réserver ? Écrivez-moi par email ou laissez-moi un message depuis cette page.
 
 ## Prendre rendez-vous
 
