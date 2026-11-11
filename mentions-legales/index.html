@@ -31,7 +31,7 @@
    "name": "Mentions légales",
    "description": "Mentions légales du site de Laetitia Duchemin, psychologue clinicienne intégrative.",
    "inLanguage": "fr",
-   "dateModified": "2026-11-03",
+   "dateModified": "2026-11-11",
    "author": {
     "@id": "https://laetitia-duchemin-psychologue.fr/#laetitia-duchemin"
    },
@@ -411,6 +411,7 @@ figure figcaption a{padding-block:.7rem}
 @media (prefers-reduced-motion:reduce){.nav .dd-panel,.nav .dd-caret{transition:none}}
 </style>
 
+<link rel="stylesheet" href="/assistant/fenetre.css?v=8832d472f9">
 </head>
 <body>
 <header class="site-header">
@@ -535,6 +536,7 @@ figure figcaption a{padding-block:.7rem}
     <p>Les contenus de ce site (textes, visuels, fiches, audios, identité graphique) sont protégés par le droit d'auteur.</p>
     <h2 id="donnees">Données personnelles</h2>
     <p>Ce site n'utilise pas de cookies de suivi. Les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande. Vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse email ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). Les questionnaires et le carnet de l'appli Mes outils ne transmettent aucune donnée : tout reste sur votre appareil.</p>
+    <p id="assistant">L'assistant du site (bouton « Une question ? ») est un service d'intelligence artificielle : vos questions, avec les messages précédents de la même conversation et l'adresse de la page consultée, sont transmises par le serveur du site à l'API Claude d'Anthropic, qui rédige la réponse à partir des pages publiées ici. Ni ce site ni moi ne conservons ces échanges : la conversation disparaît quand vous fermez la page. Les journaux techniques de l'hébergeur n'en gardent que des données de fonctionnement, jamais le texte : l'adresse de la page consultée, le statut et la durée de la réponse, le nombre de messages, de pages utilisées et de jetons consommés, et la raison d'un éventuel refus. Anthropic efface les entrées et sorties de son API sous 30 jours, sauf conversation signalée pour violation de sa politique d'usage (jusqu'à 2 ans) ou obligation légale, et, par défaut, ne les utilise pas pour entraîner ses modèles (<a href="https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data" target="_blank" rel="noopener">durée de conservation</a>, <a href="https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training" target="_blank" rel="noopener">entraînement des modèles</a>). Ces données peuvent être traitées hors de l'Union européenne, dans le cadre des clauses contractuelles types de la Commission européenne prévues par l'<a href="https://www.anthropic.com/legal/data-processing-addendum" target="_blank" rel="noopener">avenant sur le traitement des données d'Anthropic</a>. Ce service n'est pas prévu pour recevoir des données de santé : n'écrivez dans l'assistant aucune information sur votre santé ni sur votre vie privée ; pour parler de votre situation, prenez rendez-vous ou écrivez-moi. Ce traitement repose sur mon intérêt légitime à répondre aux questions des visiteurs à partir du contenu publié sur ce site.</p>
     <h2 id="deontologie">Déontologie</h2>
     <p>J'exerce dans le respect du Code de déontologie des psychologues. Pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
   </div>
@@ -554,7 +556,7 @@ figure figcaption a{padding-block:.7rem}
       <p>Éditrice du site : Laetitia Duchemin, psychologue clinicienne exerçant en libéral, titre professionnel de psychologue, n° ADELI 809305931, n° RPPS 10009112649, SIREN 821 507 720. Directrice de la publication : Laetitia Duchemin. Contact : duchemin.laetitia.psy@gmail.com, 07 59 56 06 00, ou formulaire de contact de ma page de réservation Deiz. Hébergeur du site : Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis, +1 888 993 5273. La prise de rendez-vous en ligne est assurée par la plateforme Deiz. Les contenus de ce site (textes, visuels, identité graphique) sont protégés par le droit d'auteur. Ce site n'utilise pas de cookies de suivi ; les coordonnées que vous transmettez par email ou par le formulaire de contact servent uniquement à répondre à votre demande, et vous disposez d'un droit d'accès, de rectification et de suppression en m'écrivant à l'adresse ci-dessus, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr). J'exerce dans le respect du Code de déontologie des psychologues ; pour toute question déontologique, vous pouvez saisir la Commission nationale consultative de déontologie des psychologues (CNCDP).</p>
       <p><a href="/mentions-legales/" style="display:inline-block;padding-block:.7rem">Mentions légales complètes</a></p>
     </details>
-    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 3 novembre 2026 · Référencement : <a href="https://mkz-consulting.fr/" rel="nofollow" style="display:inline-block;padding:.7rem;margin:-.7rem">MKZ</a></div>
+    <div>© <span id="yr">2026</span> Laetitia Duchemin · Dernière mise à jour : 11 novembre 2026 · Référencement : <a href="https://mkz-consulting.fr/" rel="nofollow" style="display:inline-block;padding:.7rem;margin:-.7rem">MKZ</a></div>
   </div>
 </footer>
 <script>
@@ -578,5 +580,6 @@ figure figcaption a{padding-block:.7rem}
 })();
 </script>
 
+<script src="/assistant/fenetre.js?v=3de017e62d" defer data-assistant data-titre="Assistant du site" data-accueil="Bonjour. Une question sur l'accompagnement, les séances en visio ou les tarifs ?" data-mention="Réponses par IA, tirées du site. N'y écrivez rien sur votre santé ni votre vie privée." data-suggestions="[&quot;Les tarifs&quot;,&quot;Une séance en visio&quot;,&quot;La LI-ICV&quot;]" data-prenom="Laetitia Duchemin" data-telephone="07 59 56 06 00" data-telephone-brut="+33759560600" data-whatsapp="" data-delai-ms="3200" data-question-max="600" data-historique="10" data-rappel-api="" data-consentement="" data-donnees-personnelles="" data-barre-finale="1" data-actions="lien" data-lien-texte="Prendre rendez-vous" data-lien-href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" data-urgence-texte="En cas d'urgence :" data-urgence-numeros="3114,15,112" data-mention-lien-mots="vie privée" data-mention-lien-href="/mentions-legales/#assistant"></script>
 </body>
 </html>

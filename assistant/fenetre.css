@@ -1,0 +1,148 @@
+/* Assistant d'un site statique : fenêtre (skill assistant-site-statique). Couleurs et police réglées par les variables
+   --assistant-* (valeurs par défaut ci-dessous), à redéfinir dans la feuille du site.
+   Mobile : bouton rond en bas à droite, fenêtre en plein écran. À partir de 768 px : bouton avec texte, fenêtre ancrée en
+   bas à droite. Cibles de 44 px au moins, texte de 16 px dans le champ (pas de zoom forcé sur iOS). */
+.assistant-lanceur,.assistant-panneau{--a-accent:var(--assistant-accent,#1f4d3a);--a-sur-accent:var(--assistant-sur-accent,#fff);--a-badge:var(--assistant-badge,#e3c36a);--a-fond:var(--assistant-fond,#fff);--a-fond-fil:var(--assistant-fond-fil,#f5f3ee);--a-texte:var(--assistant-texte,#1d1d1b);--a-discret:var(--assistant-discret,#55534d);--a-ligne:var(--assistant-ligne,#d9d5cc);--a-lien:var(--assistant-lien,#1f6b4f);--a-focus:var(--assistant-focus,#b8860b);--a-danger:var(--assistant-danger,#b3261e);--a-rayon:var(--assistant-rayon,12px);--a-police:var(--assistant-police,inherit);--a-bas-mobile:var(--assistant-bas-mobile,16px)}
+.assistant-lanceur{position:fixed;right:16px;bottom:var(--a-bas-mobile);z-index:860;display:flex;align-items:center;justify-content:center;gap:.5rem;width:56px;height:56px;padding:0;border:0;border-radius:99px;background:var(--a-accent);color:var(--a-sur-accent);font:700 1rem/1.2 var(--a-police);box-shadow:0 8px 24px rgba(0,0,0,.2);cursor:pointer}
+.assistant-lanceur svg{width:28px;height:28px;fill:currentColor;flex:none}
+.assistant-lanceur:hover{filter:brightness(1.1)}
+.assistant-lanceur:focus-visible,.assistant-panneau :focus-visible{outline:3px solid var(--a-focus);outline-offset:2px}
+.assistant-lanceur-texte,.assistant-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.assistant-panneau{position:fixed;inset:0;z-index:960;display:flex;flex-direction:column;box-sizing:border-box;background:var(--a-fond);color:var(--a-texte);font-family:var(--a-police);height:100vh;height:100dvh}
+.assistant-panneau *,.assistant-panneau *::before,.assistant-panneau *::after{box-sizing:border-box}
+.assistant-panneau[hidden],.assistant-suggestions[hidden],.assistant-panneau [hidden]{display:none}
+html.assistant-ouvert,html.assistant-ouvert body{overflow:hidden}
+.assistant-entete{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;padding:.75rem 1rem;background:var(--a-accent);color:var(--a-sur-accent)}
+.assistant-titre{margin:0;font-size:1.1rem;line-height:1.3;color:inherit}
+.assistant-badge{display:inline-block;margin-left:.35rem;padding:.05rem .45rem;border-radius:99px;background:var(--a-badge);color:var(--a-accent);font-size:.75rem;font-weight:700;vertical-align:middle}
+.assistant-mention{margin:.25rem 0 0;font-size:.85rem;line-height:1.4;opacity:.9}
+.assistant-fermer{flex:none;width:44px;height:44px;display:flex;align-items:center;justify-content:center;border:0;border-radius:99px;background:transparent;color:inherit;cursor:pointer}
+.assistant-fermer svg{width:24px;height:24px;fill:currentColor}
+.assistant-fermer:hover{background:rgba(255,255,255,.12)}
+.assistant-fil{flex:1;overflow-y:auto;overscroll-behavior:contain;padding:1rem;display:flex;flex-direction:column;gap:.75rem;background:var(--a-fond-fil)}
+.assistant-msg{max-width:88%;padding:.65rem .85rem;border-radius:var(--a-rayon);font-size:1rem;line-height:1.5;overflow-wrap:anywhere}
+.assistant-msg p{margin:0}
+.assistant-msg p+p,.assistant-msg ul{margin-top:.5rem}
+.assistant-msg ul{padding-left:1.2rem;margin-bottom:0}
+.assistant-msg a{color:var(--a-lien);font-weight:600}
+.assistant-msg-assistant{align-self:flex-start;background:var(--a-fond);border:1px solid var(--a-ligne);border-bottom-left-radius:4px}
+.assistant-msg-visiteur{align-self:flex-end;background:var(--a-accent);color:var(--a-sur-accent);border-bottom-right-radius:4px}
+.assistant-msg-visiteur a{color:inherit}
+.assistant-erreur{border-color:var(--a-danger)}
+.assistant-sources{margin-top:.6rem;padding-top:.5rem;border-top:1px solid var(--a-ligne);font-size:.9rem}
+.assistant-sources p{color:var(--a-discret)}
+.assistant-msg .assistant-sources-liste{list-style:none;padding:0;margin:.25rem 0 0}
+.assistant-sources-liste li+li{margin-top:.15rem}
+.assistant-sources-liste a{display:inline-flex;align-items:center;min-height:44px}
+.assistant-attente p{display:inline;color:var(--a-discret)}
+.assistant-points::after{content:"…";display:inline-block;width:1.2em;color:var(--a-discret);animation:assistant-points 1.2s steps(4,end) infinite;overflow:hidden;vertical-align:bottom;white-space:nowrap}
+@keyframes assistant-points{0%{width:0}100%{width:1.2em}}
+.assistant-suggestions{display:flex;flex-wrap:wrap;gap:.5rem}
+.assistant-suggestion{min-height:44px;padding:.5rem .9rem;border:1px solid var(--a-ligne);border-radius:99px;background:var(--a-fond);color:var(--a-accent);font:600 .95rem/1.3 var(--a-police);text-align:left;cursor:pointer}
+.assistant-suggestion:hover{border-color:var(--a-accent)}
+.assistant-msg .assistant-suggestion{margin-top:.6rem}
+.assistant-saisie{display:flex;align-items:flex-end;gap:.5rem;padding:.75rem 1rem;border-top:1px solid var(--a-ligne);background:var(--a-fond)}
+.assistant-champ{flex:1;min-width:0;min-height:48px;max-height:128px;padding:.7rem .9rem;border:1px solid var(--a-ligne);border-radius:calc(var(--a-rayon) - 4px);font:16px/1.4 var(--a-police);color:var(--a-texte);resize:none;background:var(--a-fond)}
+.assistant-champ:focus{border-color:var(--a-accent)}
+.assistant-envoyer{flex:none;width:48px;height:48px;display:flex;align-items:center;justify-content:center;border:0;border-radius:99px;background:var(--a-accent);color:var(--a-sur-accent);cursor:pointer}
+.assistant-envoyer svg{width:22px;height:22px;fill:currentColor}
+.assistant-envoyer:disabled{opacity:.55;cursor:wait}
+.assistant-actions{display:flex;flex-wrap:wrap;gap:.25rem 1rem;padding:0 1rem calc(.5rem + env(safe-area-inset-bottom));background:var(--a-fond)}
+.assistant-actions:empty{display:none}
+.assistant-action{min-height:44px;padding:.5rem 0;border:0;background:none;color:var(--a-lien);font:600 .95rem/1.3 var(--a-police);text-decoration:underline;cursor:pointer;display:inline-flex;align-items:center}
+.assistant-rappel{display:flex;flex-direction:column;gap:.35rem;padding:.85rem;border:1px solid var(--a-ligne);border-radius:var(--a-rayon);background:var(--a-fond)}
+.assistant-rappel p{margin:0 0 .35rem;line-height:1.45}
+.assistant-rappel label{font-weight:600;font-size:.95rem}
+.assistant-rappel input[type=text],.assistant-rappel input[type=email],.assistant-rappel input[type=tel]{min-height:48px;padding:.6rem .8rem;border:1px solid var(--a-ligne);border-radius:calc(var(--a-rayon) - 4px);font:16px var(--a-police);width:100%}
+.assistant-rappel .assistant-consent{display:flex;gap:.5rem;align-items:flex-start;font-weight:400;font-size:.88rem;color:var(--a-discret);margin-top:.35rem}
+.assistant-rappel .assistant-consent input{margin-top:.25rem;width:20px;height:20px;flex:none}
+.assistant-rappel-boutons{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem;margin-top:.5rem}
+.assistant-bouton{min-height:44px;padding:.6rem 1.1rem;border:0;border-radius:99px;background:var(--a-accent);color:var(--a-sur-accent);font:700 1rem/1.2 var(--a-police);cursor:pointer}
+.assistant-bouton:disabled{opacity:.6;cursor:wait}
+.assistant-erreur-form{color:var(--a-danger);font-size:.9rem}
+.assistant-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+@media(min-width:768px){
+  .assistant-lanceur{right:24px;bottom:16px;width:auto;height:56px;padding:0 1.15rem 0 1rem}
+  .assistant-lanceur-texte{position:static;width:auto;height:auto;overflow:visible;clip:auto}
+  .assistant-panneau{inset:auto 24px 84px auto;width:400px;height:min(640px,calc(100vh - 108px));border-radius:var(--a-rayon);box-shadow:0 18px 48px rgba(0,0,0,.25);overflow:hidden}
+  html.assistant-ouvert,html.assistant-ouvert body{overflow:visible}
+}
+@media(prefers-reduced-motion:reduce){.assistant-points::after{animation:none;width:1.2em}}
+@media print{.assistant-lanceur,.assistant-panneau{display:none}}
+.assistant-msg a.assistant-appel{white-space:nowrap}
+.assistant-urgence{flex-basis:100%;margin:0;font-size:.875rem;line-height:1.3;color:var(--a-discret)}
+.assistant-urgence a.assistant-appel{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;font-weight:700;color:var(--a-lien)}
+.assistant-mention a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+
+/* Assistant du site : habillage aux couleurs du site, ajouté après la feuille du skill (assistant-fenetre.css) par
+   construire-assistant.mjs. Couleurs reprises des variables du site (nuit #1b1140, or #d9a648, sable #f7f3ec, encre
+   #1d1b3b, lien #0f2a86 ; en sombre : fond #120c26, surface #1a1236, encre #ece8f7, lien #a9bdff, or doux #ecd096),
+   police Jost du site pour le texte, Cormorant Garamond pour le titre. Le bouton reprend le bouton plein du site (or sur
+   nuit) ; le mode sombre suit les deux mécanismes du site (préférence du système sauf thème clair forcé, thème sombre
+   forcé). */
+:root {
+  --assistant-accent: #1b1140;
+  --assistant-sur-accent: #fffdf9;
+  --assistant-badge: #ecd096;
+  --assistant-fond: #fffdf9;
+  --assistant-fond-fil: #f7f3ec;
+  --assistant-texte: #1d1b3b;
+  --assistant-discret: #4a476a;
+  --assistant-ligne: #ddd6e3;
+  --assistant-lien: #0f2a86;
+  --assistant-focus: #7d5a16;
+  --assistant-danger: #a1271f;
+  --assistant-rayon: 18px;
+  --assistant-police: "Jost", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --assistant-accent: #3a1163;
+    --assistant-sur-accent: #ece8f7;
+    --assistant-fond: #1a1236;
+    --assistant-fond-fil: #120c26;
+    --assistant-texte: #ece8f7;
+    --assistant-discret: #b5aed0;
+    --assistant-ligne: #3b2f63;
+    --assistant-lien: #a9bdff;
+    --assistant-focus: #ecd096;
+    --assistant-danger: #f2b8b5;
+  }
+}
+:root[data-theme="dark"] {
+  --assistant-accent: #3a1163;
+  --assistant-sur-accent: #ece8f7;
+  --assistant-fond: #1a1236;
+  --assistant-fond-fil: #120c26;
+  --assistant-texte: #ece8f7;
+  --assistant-discret: #b5aed0;
+  --assistant-ligne: #3b2f63;
+  --assistant-lien: #a9bdff;
+  --assistant-focus: #ecd096;
+  --assistant-danger: #f2b8b5;
+}
+/* Bouton d'ouverture : le bouton plein du site, or sur nuit, dans les deux thèmes. */
+.assistant-lanceur { background: #d9a648; color: #1b1140; box-shadow: 0 12px 26px -10px rgba(27, 17, 64, .55); }
+.assistant-lanceur:hover { filter: none; background: #ecd096; }
+.assistant-lanceur:focus-visible { outline-color: #1b1140; }
+.assistant-titre { font-family: "Cormorant Garamond", "Iowan Old Style", "Palatino Linotype", Georgia, serif; font-weight: 500; font-size: 1.3rem; letter-spacing: .01em; }
+.assistant-entete :focus-visible { outline-color: #ecd096; }
+/* Panneau sobre (leçon MKZ du 07/11/2026) : mention courte, suggestions en pastilles compactes. */
+.assistant-entete { padding: .6rem 1rem; }
+.assistant-mention { font-size: .8rem; opacity: .85; }
+.assistant-suggestions { gap: .4rem; }
+.assistant-suggestion { padding: .35rem .85rem; font-size: .9rem; font-weight: 500; }
+@media (pointer: fine) { .assistant-suggestion { min-height: 36px; } }
+/* Texte d'aide du champ : couleur discrète du thème (celle du navigateur varie). */
+.assistant-champ::placeholder { color: var(--assistant-discret); opacity: 1; }
+/* Sombre : les pastilles prennent la couleur accent dans la feuille du skill, illisible sur la surface sombre
+   (#3a1163 sur #1a1236) ; elles passent à l'or doux du site. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .assistant-suggestion { color: #ecd096; }
+  :root:not([data-theme="light"]) .assistant-suggestion:hover { border-color: #ecd096; }
+}
+:root[data-theme="dark"] .assistant-suggestion { color: #ecd096; }
+:root[data-theme="dark"] .assistant-suggestion:hover { border-color: #ecd096; }
+/* Lien « Prendre rendez-vous » sous la saisie : le bouton plein du site, en petit. */
+.assistant-action-lien { background: #d9a648; color: #1b1140; border-radius: 999px; padding: .35rem 1rem; font-weight: 500; text-decoration: none; }
+.assistant-action-lien:hover { background: #ecd096; }

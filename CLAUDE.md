@@ -69,3 +69,9 @@ Tout nouvel écran destiné aux patients reçoit ce bouton. Ne jamais écrire le
 - Références vérifiées à la source (auteurs, année, titre, revue, DOI). Aucune phrase plus large que ce que montre l'étude.
 - Formations : écrire « initiée » quand c'est une initiation. Ne jamais surévaluer.
 - Réponses factuelles, sans flagornerie.
+
+## Assistant du site
+Un assistant de questions-réponses (bouton « Une question ? ») répond à partir des pages du site. Il vit dans `functions/` (route `/api/chat`), `assistant/` (fenêtre) et `_assistant/index.json` (ce que l'assistant sait des pages).
+- Toute nouvelle page du site reçoit, telles quelles, les deux lignes de l'assistant : la feuille `<link rel="stylesheet" href="/assistant/fenetre.css?v=...">` juste avant `</head>`, et la balise `<script ... data-assistant ...>` juste avant `</body>`. Les recopier depuis une page existante, sans les modifier. L'appli Mes outils ne les porte pas.
+- `_assistant/index.json`, `assistant/` et `functions/` sont générés par la chaîne de Mickaël : ne pas les modifier à la main. Après un changement de contenu, l'index est reconstruit par Mickaël, sinon l'assistant répond d'après l'ancien texte.
+- Aucune conversation n'est conservée par le site. Un message de détresse reçoit une réponse fixe faite des numéros d'urgence publiés sur /consulter-en-visio/ et /emprise/, et l'assistant cite mot pour mot quelques phrases de l'accueil (tarifs, remboursement, réservation) : si ces phrases changent, prévenir Mickaël (la reconstruction s'arrête tant qu'elles ne correspondent plus).
