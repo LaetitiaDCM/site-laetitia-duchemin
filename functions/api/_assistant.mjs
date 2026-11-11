@@ -348,6 +348,9 @@ export async function traiterChat(request, env, options) {
   // dans la première réponse de son journal, corrigé là-bas puis porté ici). Dans une liste, les pages connues restent, les
   // inventées partent, et la parenthèse disparaît si aucune n'est connue ; une parenthèse toute connue reste telle quelle.
   const adresses = [];
+  // Parenthèse doublée autour d'une adresse, « ((/a)) » : écrite par le modèle en recette le 11/11/2026, elle laissait
+  // deux parenthèses nues autour du lien dans la fenêtre. Ramenée à une seule avant la lecture des adresses.
+  texte = texte.replace(/\(\s*(\(\/[^()]*\))\s*\)/g, "$1");
   const sansBarre = (adr) => (adr.length > 1 ? adr.replace(/\/+$/, "") : adr);
   texte = texte.replace(/\s?\((\/[a-z0-9\-/]*(?:(?:\s*,\s*|\s+et\s+|\s+and\s+)\/[a-z0-9\-/]*)*)\)/g, (m, liste) => {
     const citees = liste.split(/\s*,\s*|\s+et\s+|\s+and\s+/);
