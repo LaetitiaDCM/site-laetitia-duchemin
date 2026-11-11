@@ -1,6 +1,6 @@
 # Laetitia Duchemin — Psychologue clinicienne intégrative : texte intégral du site
 
-> Version complète de llms.txt : texte principal des 52 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 6 novembre 2026.
+> Version complète de llms.txt : texte principal des 52 pages du site laetitia-duchemin-psychologue.fr, tel que publié. Tarifs et informations à jour au 11 novembre 2026.
 
 ---
 
@@ -2159,6 +2159,7 @@ Consultation : 1 h, 70 €, en ligne.
 Réserver en ligne
 
 ---
+
 URL : https://laetitia-duchemin-psychologue.fr/test-style-d-attachement/
 Titre : Test du style d'attachement (ECR-RS) : quel est le vôtre ?
 
@@ -2202,6 +2203,8 @@ Questionnaire ECR-RS (Experiences in Close Relationships, Relationship Structure
 
 Pour une vue d'ensemble, je vous invite à lire la page Styles d'attachement.
 
+Chaque style a sa page : attachement sécure, attachement anxieux, attachement évitant et attachement désorganisé.
+
 ## Sources
 
 - Chaperon, É., & Dandeneau, S. (2017). Le Questionnaire sur les structures relationnelles : adaptation et validation de la version française du Experiences in Close Relationships-Relationship Structures Questionnaire. Revue européenne de psychologie appliquée, 67(4), 213-221. https://doi.org/10.1016/j.erap.2017.04.002
@@ -2240,6 +2243,10 @@ Il se construit lorsque les figures d'attachement répondent de façon suffisamm
 - Traverser un conflit sans craindre de perdre le lien.
 
 - Avoir une image de soi et des autres plutôt positive, et réguler ses émotions dans la relation.
+
+Pour situer votre propre style, vous pouvez faire le test du style d'attachement : un court questionnaire, qui donne une indication et non un diagnostic.
+
+Les autres styles ont chacun leur page : attachement anxieux, attachement évitant et attachement désorganisé.
 
 ## Ce que ce n'est pas
 
@@ -2345,6 +2352,10 @@ L'attachement anxieux, ou ambivalent, est l'un des styles d'attachement insécur
 - Des pensées envahissantes sur la relation, et la difficulté à se calmer seul.
 
 - La tendance à s'oublier pour préserver le lien (voir la dépendance affective).
+
+Pour situer votre propre style, vous pouvez faire le test du style d'attachement : un court questionnaire, qui donne une indication et non un diagnostic.
+
+Les autres styles ont chacun leur page : attachement sécure, attachement évitant et attachement désorganisé.
 
 ## Ce que ce style protège
 
@@ -2466,6 +2477,10 @@ L'attachement évitant est l'un des styles d'attachement insécures. Il se const
 - Une tendance à prendre du recul quand la relation devient plus engagée.
 
 - L'impression de « ne pas avoir besoin des autres », qui protège d'une déception possible.
+
+Pour situer votre propre style, vous pouvez faire le test du style d'attachement : un court questionnaire, qui donne une indication et non un diagnostic.
+
+Les autres styles ont chacun leur page : attachement sécure, attachement anxieux et attachement désorganisé.
 
 ## Ce que ce style protège
 
@@ -2613,6 +2628,8 @@ Ces stratégies ont permis de traverser une situation impossible. À l'âge adul
 - Une méfiance profonde, même envers les personnes bienveillantes.
 
 Pour situer votre propre style, vous pouvez faire le test du style d'attachement : un court questionnaire, qui donne une indication et non un diagnostic.
+
+Les autres styles ont chacun leur page : attachement sécure, attachement anxieux et attachement évitant.
 
 ## Viens… va-t'en : la dynamique relationnelle
 
@@ -3677,7 +3694,7 @@ Réserver en ligne
 ---
 
 URL : https://laetitia-duchemin-psychologue.fr/declencheurs-emotionnels/
-Titre : Déclencheurs émotionnels ou triggers : comprendre et apaiser
+Titre : Trigger ou déclencheur émotionnel : comprendre et apaiser
 
 # Les déclencheurs émotionnels ou triggers
 
