@@ -55,14 +55,14 @@ const LIBELLES = {
     aucun: "Aucun passage trouvé.",
     pageVue: "Page consultée par le visiteur : ",
     inconnue: "inconnue",
-    sources: "Les pages ci-dessous en parlent, et ",
+    sources: "Les pages ci-dessous sont les plus proches de votre question, et ",
   },
   en: {
     passage: (t, u, s) => `Excerpt from the page "${t}" (${u})${s ? ", section \"" + s + "\"" : ""}:`,
     aucun: "No excerpt found.",
     pageVue: "Page the visitor is viewing: ",
     inconnue: "unknown",
-    sources: "The pages below cover it, and ",
+    sources: "The pages below are the closest to your question, and ",
   },
 };
 
