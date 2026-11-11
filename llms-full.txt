@@ -320,6 +320,7 @@ Les séances ont lieu en ligne, sur une plateforme sécurisée, pour toute la Fr
 Réservez un premier rendez-vous en ligne, ou contactez-moi pour poser une question sur l'accompagnement. Je vous réponds dès que possible.
 
 Réserver en ligne
+Nouvelle demande ? Pour le moment, les premiers rendez-vous passent par ma liste d'attente.
 
 Téléphone
 07 59 56 06 00
@@ -508,7 +509,7 @@ Prendre rendez-vous
 
 ## Comment se passe une séance
 
-- Vous réservez en ligne sur ma page de réservation, en choisissant le créneau qui vous convient. Une question avant de réserver ? Vous pouvez m'écrire par email ou me laisser un message depuis ma page de réservation.
+- Vous réservez en ligne sur ma page de réservation, en choisissant le créneau qui vous convient. Pour une première demande, inscrivez-vous pour le moment sur ma liste d'attente. Une question avant de réserver ? Vous pouvez m'écrire par email ou me laisser un message depuis ma page de réservation.
 
 - Dès que votre rendez-vous est confirmé, c'est-à-dire une fois votre carte enregistrée, vous recevez un email de confirmation qui contient le lien de connexion à la séance. Ce lien est aussi accessible à tout moment depuis votre espace patient.
 
@@ -665,6 +666,7 @@ Vous pouvez me le dire dès la première séance. Lors d'une consultation classi
 Consultation : 1 h, 70 €, en ligne.
 
 Réserver en ligne
+Nouvelle demande ? Pour le moment, les premiers rendez-vous passent par ma liste d'attente.
 
 ---
 
