@@ -143,6 +143,12 @@ html.assistant-ouvert,html.assistant-ouvert body{overflow:hidden}
 }
 :root[data-theme="dark"] .assistant-suggestion { color: #ecd096; }
 :root[data-theme="dark"] .assistant-suggestion:hover { border-color: #ecd096; }
+/* Pied de page sous 1 024 px : arrivé en bas de page, le bouton fixe (56 px, à 16 px du bas) recouvrait le lien du
+   crédit (contrôle design du 11/11/2026, 82 relevés à 360 et 768 px). La marge basse du pied de page passe au-dessus
+   du bouton ; !important parce que le pied de l'accueil porte sa marge en style en ligne. */
+@media (max-width: 1023px) { body > footer { padding-bottom: 96px !important; } }
+/* Rayons en pilule : 999 px comme les boutons du site (99 px dessinait la même forme mais ajoutait un rayon au jeu). */
+.assistant-lanceur, .assistant-suggestion, .assistant-envoyer, .assistant-fermer, .assistant-badge, .assistant-action-lien { border-radius: 999px; }
 /* Lien « Prendre rendez-vous » sous la saisie : le bouton plein du site, en petit. */
 .assistant-action-lien { background: #d9a648; color: #1b1140; border-radius: 999px; padding: .35rem 1rem; font-weight: 500; text-decoration: none; }
 .assistant-action-lien:hover { background: #ecd096; }
