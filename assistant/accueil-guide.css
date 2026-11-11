@@ -152,3 +152,25 @@ html.assistant-ouvert,html.assistant-ouvert body{overflow:hidden}
 /* Lien « Prendre rendez-vous » sous la saisie : le bouton plein du site, en petit. */
 .assistant-action-lien { background: #d9a648; color: #1b1140; border-radius: 999px; padding: .35rem 1rem; font-weight: 500; text-decoration: none; }
 .assistant-action-lien:hover { background: #ecd096; }
+
+/* Accueil guidé (11/11/2026) : ce qui s'ajoute à la fenêtre de l'assistant (assistant-fenetre.css, puis l'habillage
+   du site, assistant-laetitia.css) pour les questions toutes prêtes et la recherche. Mêmes variables, mêmes rayons. */
+.accueil-guide .assistant-msg-assistant.accueil-menu,
+.accueil-guide .assistant-msg-assistant:has(.accueil-liste) { max-width: 100%; align-self: stretch; }
+.accueil-groupe { margin: .75rem 0 .35rem; font-size: .85rem; font-weight: 600; letter-spacing: .02em; color: var(--a-discret); }
+.assistant-msg p.accueil-groupe:first-child { margin-top: 0; }
+.accueil-liste { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .4rem; }
+.assistant-msg ul.accueil-liste { padding-left: 0; margin-top: .35rem; }
+.accueil-question { display: block; width: 100%; min-height: 44px; padding: .55rem .9rem; border: 1px solid var(--a-ligne); border-radius: calc(var(--a-rayon) - 4px); background: var(--a-fond); color: var(--a-texte); font: 500 .95rem/1.35 var(--a-police); text-align: left; cursor: pointer; }
+.accueil-question:hover { border-color: var(--a-accent); }
+.accueil-source { margin-top: .6rem; padding-top: .5rem; border-top: 1px solid var(--a-ligne); font-size: .9rem; color: var(--a-discret); }
+.accueil-source a { display: inline-flex; align-items: center; min-height: 44px; }
+.accueil-rappel { margin-top: .6rem; padding-top: .5rem; border-top: 1px solid var(--a-ligne); }
+.assistant-msg .assistant-suggestions { margin-top: .5rem; }
+input.assistant-champ { height: 48px; }
+input.assistant-champ::-webkit-search-cancel-button { cursor: pointer; }
+/* Sombre : les questions prennent la surface et le texte du thème, la bordure s'éclaire au survol. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .accueil-question:hover { border-color: #ecd096; }
+}
+:root[data-theme="dark"] .accueil-question:hover { border-color: #ecd096; }
