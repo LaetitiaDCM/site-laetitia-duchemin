@@ -150,7 +150,7 @@
   }
 
   // ---------- Interface
-  var lanceur = el("button", { type: "button", "class": "assistant-lanceur", "aria-expanded": "false", "aria-controls": "assistant-panneau", html: ICONES.bulle }, [el("span", { "class": "assistant-lanceur-texte", texte: T.lanceur })]);
+  var lanceur = el("button", { type: "button", "class": "assistant-lanceur", "aria-expanded": "false", "aria-controls": "assistant-panneau", html: ICONES.bulle }, [el("span", { "class": "assistant-lanceur-texte", texte: typo(T.lanceur) })]);
   var titre = el("h2", { id: "assistant-titre", "class": "assistant-titre", texte: cfg.titre });
   var fermer = el("button", { type: "button", "class": "assistant-fermer", "aria-label": T.fermer, html: ICONES.fermer });
   function mentionNoeud() {
