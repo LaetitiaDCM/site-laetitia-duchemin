@@ -69,3 +69,9 @@ Tout nouvel écran destiné aux patients reçoit ce bouton. Ne jamais écrire le
 - Références vérifiées à la source (auteurs, année, titre, revue, DOI). Aucune phrase plus large que ce que montre l'étude.
 - Formations : écrire « initiée » quand c'est une initiation. Ne jamais surévaluer.
 - Réponses factuelles, sans flagornerie.
+
+## Accueil guidé du site
+Le bouton « Une question ? » ouvre un accueil guidé : des questions toutes prêtes et une recherche parmi les questions fréquentes des pages, sans IA, et sans rien envoyer de ce que le visiteur touche ou tape. Il vit dans `assistant/` (fenêtre, feuille et `accueil.json`).
+- Toute nouvelle page du site reçoit, telles quelles, les deux lignes de l'accueil guidé : la feuille `<link rel="stylesheet" href="/assistant/accueil-guide.css?v=...">` juste avant `</head>`, et la balise `<script ... data-accueil-guide ...>` juste avant `</body>`. Les recopier depuis une page existante, sans les modifier. L'appli Mes outils ne les porte pas.
+- `assistant/` est généré par la chaîne de Mickaël : ne pas le modifier à la main. Les réponses sont les questions fréquentes des pages (JSON-LD FAQPage, identiques au texte visible) : après un changement de questions fréquentes, `accueil.json` est reconstruit par Mickaël, sinon l'accueil montre l'ancien texte.
+- Les questions pratiques mises en avant (tarifs, premier rendez-vous, séance en ligne, remboursement, application, étranger, enfants, LI-ICV) et les phrases d'urgence de /consulter-en-visio/, /emprise/ et /dissociation/ sont reprises mot pour mot : si l'une change sur sa page, prévenir Mickaël (la reconstruction s'arrête tant qu'elle ne correspond plus).

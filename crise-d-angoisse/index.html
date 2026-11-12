@@ -476,6 +476,7 @@ figure figcaption a{padding-block:.7rem}
 @media (min-width:1440px){.nav .nav-top{gap:1.2rem}.nav .dd-btn,.nav .nav-plain a{font-size:.9rem}}
 @media (prefers-reduced-motion:reduce){.nav .dd-panel,.nav .dd-caret{transition:none}}
 </style>
+<link rel="stylesheet" href="/assistant/accueil-guide.css?v=592c07e481">
 </head>
 <body>
 <header class="site-header">
@@ -694,5 +695,6 @@ document.addEventListener('click',function(e){var b=e.target.closest('button.yt'
 var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0';f.title=b.getAttribute('aria-label');
 f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;var w=document.createElement('div');w.className='yt';w.appendChild(f);b.replaceWith(w);f.focus();});
 </script>
+<script src="/assistant/accueil-guide.js?v=b5b6499eeb" defer data-accueil-guide data-donnees="/assistant/accueil.json?v=ca3561a99a" data-titre="Questions fréquentes" data-accueil="Bonjour. Choisissez une question, ou cherchez parmi celles du site : les réponses sont celles de mes pages." data-mention="Réponses tirées des pages du site. Rien de ce que vous tapez ne quitte votre appareil." data-mention-lien-mots="ne quitte votre appareil" data-mention-lien-href="/mentions-legales/#assistant" data-lien-texte="Prendre rendez-vous" data-lien-href="https://rdv.deiz.fr/laetitia-duchemin-psychologue" data-telephone="07 59 56 06 00" data-telephone-brut="+33759560600" data-urgence-texte="En cas d'urgence :" data-urgence-numeros="3114,15,112"></script>
 </body>
 </html>
