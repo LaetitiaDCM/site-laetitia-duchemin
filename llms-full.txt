@@ -1605,45 +1605,6 @@ On ne se reconnaît pas toujours dans le mot « trauma », surtout quand rien de
 
 Des questionnaires existent, comme la PCL-5, utilisée pour repérer les symptômes de stress post-traumatique. Ce sont des outils de repérage, pas de diagnostic : seule une évaluation en consultation permet de faire le point avec vous.
 
-### Passer la PCL-5 en ligne
-
-Vous pouvez répondre ici aux 20 questions de la PCL-5, en français, et obtenir votre score immédiatement.
-
-Questionnaire de repérage · environ 5 minutes
-
-Avant de commencer
-
-- Ce questionnaire est un outil de repérage, pas un diagnostic.
-
-- Pensez à l'expérience la plus stressante que vous avez vécue. Vous n'avez pas besoin de la décrire, ni de l'écrire.
-
-- Certaines questions peuvent réveiller des souvenirs ou des émotions. Vous pouvez faire une pause ou vous arrêter à tout moment.
-
-- Vos réponses restent sur votre appareil : rien n'est enregistré ni envoyé.
-
-Voici une liste de problèmes que les gens éprouvent parfois suite à une expérience vraiment stressante. Veuillez lire chaque énoncé attentivement et indiquer dans quelle mesure ce problème vous a affecté dans le dernier mois.
-
-Dans le dernier mois, dans quelle mesure avez-vous été affecté par :
-
-Une pause
-Prenez le temps dont vous avez besoin. Vous pouvez sentir vos pieds au sol, regarder autour de vous et nommer quelques objets, ou respirer lentement avec le guide de cohérence cardiaque.
-
-Vos réponses sont gardées tant que cette page reste ouverte.
-
-Votre résultat
-
-/ 80
-
-Le seuil de 32 est celui retenu lors de la validation française du questionnaire (Ashbaugh et al., 2016), proche du seuil de 31 à 33 proposé pour la version originale. Un score ne dit pas tout : il ne tient compte ni de votre histoire, ni de ce qui vous aide déjà. Seule une évaluation en consultation permet de faire le point avec vous.
-
-Ces questions ont pu remuer des choses. Prenez un instant pour revenir au présent, par exemple avec le guide de cohérence cardiaque ou l'exercice 5-4-3-2-1.
-
-Si vous êtes en détresse ou si des idées suicidaires vous traversent, le 3114 répond gratuitement, 24 h/24 et 7 j/7. En cas d'urgence, appelez le 15 ou le 112.
-
-Prendre rendez-vous
-
-PCL-5 : Weathers, Litz, Keane, Palmieri, Marx et Schnurr (2013), National Center for PTSD. Traduction française : N. Desbiendras. Seuil : Ashbaugh et al. (2016).
-
 ## Ce qui se passe dans le cerveau et le corps
 
 Face à un danger, votre cerveau déclenche une alarme très rapide. L'amygdale, une petite structure qui repère les menaces, active le système nerveux et la libération d'hormones de stress, comme l'adrénaline et le cortisol : le cœur accélère, la respiration change, le corps se prépare à lutter, à fuir ou à se figer.
@@ -1844,7 +1805,6 @@ Oui. Beaucoup de personnes consultent avec peu de souvenirs, ou sans souvenir pr
 
 - Weathers, F. W., Litz, B. T., Keane, T. M., Palmieri, P. A., Marx, B. P., & Schnurr, P. P. (2013). The PTSD Checklist for DSM-5 (PCL-5). National Center for PTSD.
 
-- Ashbaugh, A. R., Houle-Johnson, S., Herbert, C., El-Hage, W., & Brunet, A. (2016). Psychometric validation of the English and French versions of the Posttraumatic Stress Disorder Checklist for DSM-5 (PCL-5). PLoS ONE, 11(10), e0161645. https://doi.org/10.1371/journal.pone.0161645
 
 Consultation : 1 h, 70 €, en ligne.
 
