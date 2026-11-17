@@ -178,3 +178,11 @@ input.assistant-champ::-webkit-search-cancel-button { cursor: pointer; }
 .accueil-attente { flex-basis: 100%; margin: 0; font-size: .875rem; line-height: 1.4; color: var(--a-discret); }
 .accueil-attente a { display: inline-flex; align-items: center; min-height: 44px; }
 .assistant-suggestion.accueil-aide { min-height: 44px; }
+/* Thèmes repliables (17/11/2026) : un thème s'ouvre au toucher, ses phrases apparaissent dessous. */
+.accueil-theme { margin: .4rem 0 0; border: 1px solid var(--a-ligne); border-radius: calc(var(--a-rayon) - 4px); }
+.accueil-theme > summary { display: flex; align-items: center; justify-content: space-between; gap: .5rem; min-height: 44px; padding: .5rem .9rem; cursor: pointer; font-weight: 600; list-style: none; }
+.accueil-theme > summary::-webkit-details-marker { display: none; }
+.accueil-theme > summary::after { content: "+"; font-weight: 400; font-size: 1.2rem; line-height: 1; color: var(--a-discret); }
+.accueil-theme[open] > summary::after { content: "−"; }
+.accueil-theme > summary:focus-visible { outline: 2px solid var(--a-accent); outline-offset: 2px; }
+.accueil-theme > .accueil-liste { padding: 0 .5rem .5rem; margin-top: 0; }

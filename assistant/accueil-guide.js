@@ -120,7 +120,7 @@
   var T = {
     lanceur: "Une question ?", fermer: "Fermer les questions fréquentes", fil: "Questions et réponses",
     placeholder: "Chercher une question", chercher: "Chercher", etiquette: "Chercher parmi les questions du site",
-    chargement: "Je rassemble les questions du site", surPage: "Sur cette page", pratiques: "Questions pratiques", vivez: "Ce que vous vivez", pageAide: "Cette page peut vous aider : ", besoinAide: "Je ne vais pas bien, j'ai besoin d'aide maintenant",
+    chargement: "Je rassemble les questions du site", surPage: "Sur cette page", pratiques: "Questions pratiques", vivez: "Ce que vous vivez", travail: "Comment je travaille", pageAide: "Cette page peut vous aider : ", besoinAide: "Je ne vais pas bien, j'ai besoin d'aide maintenant",
     autres: "Autres questions de cette page", toutes: "Toutes les questions", proches: "Les questions du site les plus proches :",
     aucune: "Je ne trouve pas de question proche parmi celles du site. Vous pouvez parcourir les pages, ou prendre rendez-vous.",
     lirePage: "À lire sur la page : ", echec: "Les questions n'ont pas pu se charger. Rechargez la page, ou utilisez le contact direct.",
@@ -278,16 +278,20 @@
     var bloc = [];
     if (premier && cfg.accueil) bloc.push(el("p", { texte: typo(cfg.accueil) }));
     var ici = ix.d.pages[chemin()] || [];
-    var orientations = ix.d.orientations || [];
-    if (orientations.length) {
+    var orientations = ix.d.orientations || [], themes = ix.d.themes || [];
+    function theme(nom) {
       var ulo = el("ul", { "class": "accueil-liste" });
-      orientations.forEach(function (o, i) { if (o.page !== chemin()) ulo.appendChild(el("li", null, [boutonOrientation(i)])); });
-      bloc.push(el("p", { "class": "accueil-groupe", texte: T.vivez }), ulo);
+      orientations.forEach(function (o, i) { if (o.theme === nom && o.page !== chemin()) ulo.appendChild(el("li", null, [boutonOrientation(i)])); });
+      return ulo.children.length ? el("details", { "class": "accueil-theme" }, [el("summary", { texte: typo(nom) }), ulo]) : null;
     }
+    var vecus = themes.filter(function (t) { return t !== T.travail; }).map(theme).filter(Boolean);
+    if (vecus.length) bloc.push.apply(bloc, [el("p", { "class": "accueil-groupe", texte: T.vivez })].concat(vecus));
     if (ici.length) bloc.push(el("p", { "class": "accueil-groupe", texte: T.surPage }), liste(ici));
     var pastilles = el("div", { "class": "assistant-suggestions" });
     ix.d.pratiques.forEach(function (p) { if (ici.indexOf(p.id) < 0) pastilles.appendChild(boutonQuestion(p.id, p.libelle, "assistant-suggestion")); });
     bloc.push(el("p", { "class": "accueil-groupe", texte: T.pratiques }), pastilles);
+    var travail = themes.indexOf(T.travail) >= 0 ? theme(T.travail) : null;
+    if (travail) bloc.push(travail);
     var urg = el("button", { type: "button", "class": "assistant-suggestion accueil-aide", texte: typo(T.besoinAide) });
     urg.addEventListener("click", aide);
     bloc.push(el("div", { "class": "assistant-suggestions" }, [urg]));
