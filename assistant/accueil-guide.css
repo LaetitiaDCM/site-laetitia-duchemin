@@ -132,7 +132,7 @@ html.assistant-ouvert,html.assistant-ouvert body{overflow:hidden}
 .assistant-mention { font-size: .8rem; opacity: .85; }
 .assistant-suggestions { gap: .4rem; }
 .assistant-suggestion { padding: .35rem .85rem; font-size: .9rem; font-weight: 500; }
-@media (pointer: fine) { .assistant-suggestion { min-height: 36px; } }
+
 /* Texte d'aide du champ : couleur discrète du thème (celle du navigateur varie). */
 .assistant-champ::placeholder { color: var(--assistant-discret); opacity: 1; }
 /* Sombre : les pastilles prennent la couleur accent dans la feuille du skill, illisible sur la surface sombre
@@ -176,7 +176,8 @@ input.assistant-champ::-webkit-search-cancel-button { cursor: pointer; }
 :root[data-theme="dark"] .accueil-question:hover { border-color: #ecd096; }
 /* Orientation sans saisie (17/11/2026) : ligne « Nouvelle demande » et bouton d'aide immédiate. */
 .accueil-attente { flex-basis: 100%; margin: 0; font-size: .875rem; line-height: 1.4; color: var(--a-discret); }
-.accueil-attente a { display: inline-flex; align-items: center; min-height: 44px; }
+.accueil-attente { padding: .6rem 0; }
+.accueil-attente a { display: inline-block; padding: 13px 0; margin: -13px 0; }
 .assistant-suggestion.accueil-aide { min-height: 44px; }
 /* Thèmes repliables (17/11/2026) : un thème s'ouvre au toucher, ses phrases apparaissent dessous. */
 .accueil-theme { margin: .4rem 0 0; border: 1px solid var(--a-ligne); border-radius: calc(var(--a-rayon) - 4px); }

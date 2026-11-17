@@ -246,7 +246,7 @@
   function orienter(i) {
     var o = ix.d.orientations[i];
     var question = message("visiteur", [el("p", { texte: typo(o.libelle) })]);
-    var lien = el("a", { href: o.page, texte: o.titrePage });
+    var lien = el("a", { href: o.page, texte: typo(o.titrePage) });
     lien.addEventListener("click", function () { if (o.page === chemin()) fermerPanneau(true); });
     var toutes = el("button", { type: "button", "class": "assistant-suggestion", texte: T.toutes });
     toutes.addEventListener("click", function () { afficherMenu(false); });
