@@ -174,3 +174,7 @@ input.assistant-champ::-webkit-search-cancel-button { cursor: pointer; }
   :root:not([data-theme="light"]) .accueil-question:hover { border-color: #ecd096; }
 }
 :root[data-theme="dark"] .accueil-question:hover { border-color: #ecd096; }
+/* Orientation sans saisie (17/11/2026) : ligne « Nouvelle demande » et bouton d'aide immédiate. */
+.accueil-attente { flex-basis: 100%; margin: 0; font-size: .875rem; line-height: 1.4; color: var(--a-discret); }
+.accueil-attente a { display: inline-flex; align-items: center; min-height: 44px; }
+.assistant-suggestion.accueil-aide { min-height: 44px; }

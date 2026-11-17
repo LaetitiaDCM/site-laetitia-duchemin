@@ -120,7 +120,7 @@
   var T = {
     lanceur: "Une question ?", fermer: "Fermer les questions fréquentes", fil: "Questions et réponses",
     placeholder: "Chercher une question", chercher: "Chercher", etiquette: "Chercher parmi les questions du site",
-    chargement: "Je rassemble les questions du site", surPage: "Sur cette page", pratiques: "Questions pratiques",
+    chargement: "Je rassemble les questions du site", surPage: "Sur cette page", pratiques: "Questions pratiques", vivez: "Ce que vous vivez", pageAide: "Cette page peut vous aider : ", besoinAide: "Je ne vais pas bien, j'ai besoin d'aide maintenant",
     autres: "Autres questions de cette page", toutes: "Toutes les questions", proches: "Les questions du site les plus proches :",
     aucune: "Je ne trouve pas de question proche parmi celles du site. Vous pouvez parcourir les pages, ou prendre rendez-vous.",
     lirePage: "À lire sur la page : ", echec: "Les questions n'ont pas pu se charger. Rechargez la page, ou utilisez le contact direct.",
@@ -166,7 +166,7 @@
   var saisie = el("form", { "class": "assistant-saisie", role: "search" }, [el("label", { "for": "accueil-recherche", "class": "assistant-sr", texte: T.etiquette }), champ, bouton]);
   var lienAction = cfg.lienHref && cfg.lienTexte ? el("a", { "class": "assistant-action assistant-action-lien", href: cfg.lienHref, target: "_blank", rel: "noopener", texte: cfg.lienTexte }) : null;
   var actions = el("div", { "class": "assistant-actions" }, [lienAction, cfg.urgenceNumeros.length ? ligneUrgence() : null]);
-  var panneau = el("section", { id: "assistant-panneau", "class": "assistant-panneau accueil-guide", role: "dialog", "aria-labelledby": "assistant-titre", hidden: true }, [entete, fil, saisie, actions]);
+  var panneau = el("section", { id: "assistant-panneau", "class": "assistant-panneau accueil-guide", role: "dialog", "aria-labelledby": "assistant-titre", hidden: true }, [entete, fil, actions]);
   document.body.appendChild(lanceur);
   document.body.appendChild(panneau);
 
@@ -213,6 +213,7 @@
       .then(function (r) { if (!r.ok) throw new Error(String(r.status)); return r.json(); })
       .then(function (d) {
         ix = RECHERCHE.preparer(d);
+        ligneAttente(d.listeAttente);
         fil.removeChild(attente);
         afficherMenu(true);
       })
@@ -226,7 +227,42 @@
     return chargement;
   }
 
-  // ---------- Menu : questions de la page consultée, puis questions pratiques
+  // Ligne « Nouvelle demande » sous le bouton de rendez-vous (liste d'attente).
+  function ligneAttente(a) {
+    if (!a || !a.texte || actions.querySelector(".accueil-attente")) return;
+    var i = a.mots && a.href ? a.texte.indexOf(a.mots) : -1;
+    var p = i < 0 ? el("p", { "class": "accueil-attente", texte: typo(a.texte) })
+      : el("p", { "class": "accueil-attente" }, [typo(a.texte.slice(0, i)), el("a", { href: a.href, target: "_blank", rel: "noopener", texte: a.mots }), typo(a.texte.slice(i + a.mots.length))]);
+    actions.insertBefore(p, actions.children[1] || null);
+  }
+
+  // ---------- Menu : ce que vous vivez (orientation vers une page), questions de la page consultée, questions pratiques
+  function boutonOrientation(i) {
+    var o = ix.d.orientations[i];
+    var b = el("button", { type: "button", "class": "accueil-question", texte: typo(o.libelle) });
+    b.addEventListener("click", function () { orienter(i); });
+    return b;
+  }
+  function orienter(i) {
+    var o = ix.d.orientations[i];
+    var question = message("visiteur", [el("p", { texte: typo(o.libelle) })]);
+    var lien = el("a", { href: o.page, texte: o.titrePage });
+    lien.addEventListener("click", function () { if (o.page === chemin()) fermerPanneau(true); });
+    var toutes = el("button", { type: "button", "class": "assistant-suggestion", texte: T.toutes });
+    toutes.addEventListener("click", function () { afficherMenu(false); });
+    message("assistant", [el("p", { "class": "accueil-source" }, [T.pageAide, lien]), el("p", { texte: typo(o.texte) }), el("div", { "class": "assistant-suggestions" }, [toutes])]);
+    montrer(question);
+  }
+  function aide() {
+    var question = message("visiteur", [el("p", { texte: typo(T.besoinAide) })]);
+    var u = ix.d.urgence;
+    var blocs = u.reponse.map(function (l) { return el("p", null, avecAppels(l, u.appels)); });
+    var ul = el("ul", { "class": "assistant-sources-liste" });
+    u.sources.forEach(function (s) { ul.appendChild(el("li", null, [el("a", { href: s.url, texte: s.titre })])); });
+    blocs.push(el("div", { "class": "assistant-sources" }, [el("p", { texte: typo("Sources :") }), ul]));
+    message("assistant", blocs, "accueil-urgence");
+    montrer(question);
+  }
   function boutonQuestion(id, libelle, classe) {
     var q = ix.d.questions[id];
     var b = el("button", { type: "button", "class": classe || "accueil-question", texte: typo(libelle || q.question) });
@@ -242,10 +278,19 @@
     var bloc = [];
     if (premier && cfg.accueil) bloc.push(el("p", { texte: typo(cfg.accueil) }));
     var ici = ix.d.pages[chemin()] || [];
+    var orientations = ix.d.orientations || [];
+    if (orientations.length) {
+      var ulo = el("ul", { "class": "accueil-liste" });
+      orientations.forEach(function (o, i) { if (o.page !== chemin()) ulo.appendChild(el("li", null, [boutonOrientation(i)])); });
+      bloc.push(el("p", { "class": "accueil-groupe", texte: T.vivez }), ulo);
+    }
     if (ici.length) bloc.push(el("p", { "class": "accueil-groupe", texte: T.surPage }), liste(ici));
     var pastilles = el("div", { "class": "assistant-suggestions" });
     ix.d.pratiques.forEach(function (p) { if (ici.indexOf(p.id) < 0) pastilles.appendChild(boutonQuestion(p.id, p.libelle, "assistant-suggestion")); });
     bloc.push(el("p", { "class": "accueil-groupe", texte: T.pratiques }), pastilles);
+    var urg = el("button", { type: "button", "class": "assistant-suggestion accueil-aide", texte: typo(T.besoinAide) });
+    urg.addEventListener("click", aide);
+    bloc.push(el("div", { "class": "assistant-suggestions" }, [urg]));
     var m = message("assistant", bloc, "accueil-menu");
     if (!premier) montrer(m);
     return m;
