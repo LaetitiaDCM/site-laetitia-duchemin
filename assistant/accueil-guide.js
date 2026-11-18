@@ -277,6 +277,11 @@
   function afficherMenu(premier) {
     var bloc = [];
     if (premier && cfg.accueil) bloc.push(el("p", { texte: typo(cfg.accueil) }));
+    // Bouton d'aide immédiate en tête du menu (18/11/2026, décision de Mickaël) : il était tout en bas, après les thèmes,
+    // les questions de la page et les questions pratiques, donc hors de vue sur téléphone.
+    var urg = el("button", { type: "button", "class": "assistant-suggestion accueil-aide", texte: typo(T.besoinAide) });
+    urg.addEventListener("click", aide);
+    bloc.push(el("div", { "class": "assistant-suggestions" }, [urg]));
     var ici = ix.d.pages[chemin()] || [];
     var orientations = ix.d.orientations || [], themes = ix.d.themes || [];
     function theme(nom) {
@@ -292,12 +297,29 @@
     bloc.push(el("p", { "class": "accueil-groupe", texte: T.pratiques }), pastilles);
     var travail = themes.indexOf(T.travail) >= 0 ? theme(T.travail) : null;
     if (travail) bloc.push(travail);
-    var urg = el("button", { type: "button", "class": "assistant-suggestion accueil-aide", texte: typo(T.besoinAide) });
-    urg.addEventListener("click", aide);
-    bloc.push(el("div", { "class": "assistant-suggestions" }, [urg]));
     var m = message("assistant", bloc, "accueil-menu");
     if (!premier) montrer(m);
     return m;
+  }
+
+  // Liens posés sur des mots d'une réponse écrite pour la fenêtre (« questionsAjoutees » de la config, 18/11/2026) :
+  // chaque { mots, href } devient un lien sur sa première occurrence ; un mailto: s'ouvre sur place, le reste dans un
+  // nouvel onglet. Une réponse sans liens reste du texte, comme avant.
+  function avecLiens(texte, liens) {
+    var parts = [typo(texte)];
+    (liens || []).forEach(function (k) {
+      var mots = typo(k.mots);
+      for (var j = 0; j < parts.length; j++) {
+        if (typeof parts[j] !== "string") continue;
+        var i = parts[j].indexOf(mots);
+        if (i < 0) continue;
+        var attrs = { href: k.href, texte: mots };
+        if (!/^mailto:/.test(k.href)) { attrs.target = "_blank"; attrs.rel = "noopener"; }
+        parts.splice(j, 1, parts[j].slice(0, i), el("a", attrs), parts[j].slice(i + mots.length));
+        break;
+      }
+    });
+    return parts.filter(function (p) { return p !== ""; });
   }
 
   // ---------- Une question : la question en bulle du visiteur, la réponse publiée, le lien vers sa page
@@ -309,7 +331,7 @@
     var lien = el("a", { href: q.page + (q.ancre ? "#" + q.ancre : ""), texte: q.titrePage });
     // Lien vers la page déjà ouverte : la fenêtre se ferme, la page défile jusqu'à ses questions fréquentes.
     lien.addEventListener("click", function () { if (q.page === chemin()) fermerPanneau(true); });
-    var enfants = q.reponse.split("\n").filter(Boolean).map(function (l) { return el("p", { texte: typo(l) }); });
+    var enfants = q.reponse.split("\n").filter(Boolean).map(function (l) { return el("p", null, avecLiens(l, q.liens)); });
     enfants.push(el("p", { "class": "accueil-source" }, [T.lirePage, lien]));
     var autres = (ix.d.pages[q.page] || []).filter(function (i) { return i !== id && !vues[i]; }).slice(0, 3);
     if (autres.length) enfants.push(el("p", { "class": "accueil-groupe", texte: T.autres }), liste(autres));
