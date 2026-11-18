@@ -733,6 +733,23 @@ figure figcaption a{padding-block:.7rem}
 :root[data-theme="dark"] .vb .faq-title{color:var(--b-ink)}
 </style>
 <link rel="stylesheet" href="/assistant/accueil-guide.css?v=7bd6f95fac">
+<style>
+/* Vidéo de présentation de l'accueil (18/11/2026) */
+.vb .pv{padding:clamp(72px,9vw,120px) clamp(20px,4vw,48px) 0}
+.vb .pv-inner{max-width:960px;margin:0 auto}
+.vb .pv-eyebrow{margin:0;display:flex;align-items:center;gap:18px;font-size:13px;letter-spacing:.32em;text-transform:uppercase;color:var(--b-gold);font-weight:500}
+.vb .pv-eyebrow span{width:44px;height:1px;background:#d9a648}
+.vb .pv-figure{margin:28px 0 0}
+.vb .pv-cadre{position:relative;border-radius:22px;overflow:hidden;background:#1b1140;border:1px solid var(--b-line12);box-shadow:0 30px 60px -40px rgba(27,17,64,.55);aspect-ratio:16/9}
+.vb .pv-cadre video{display:block;width:100%;height:100%;object-fit:cover}
+.vb .pv-lire{position:absolute;left:clamp(12px,2.5vw,24px);bottom:clamp(12px,2.5vw,24px);min-height:52px;padding:0 24px 0 20px;gap:10px;border:0;border-radius:999px;background:#d9a648;color:#1b1140;font:inherit;font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:500;cursor:pointer;display:inline-flex;align-items:center;box-shadow:0 18px 40px -18px rgba(27,17,64,.8);transition:transform .25s ease,background .25s ease}
+.vb .pv-lire:hover{transform:translateY(-2px);background:#e6b85c}
+.vb .pv-lire:focus-visible{outline:3px solid #ecd096;outline-offset:4px}
+.vb .pv-lire[hidden]{display:none}
+@media (max-width:560px){.vb .pv-lire{width:52px;padding:0;justify-content:center}.vb .pv-lire .pv-texte{display:none}}
+.vb .pv-legende{margin:14px 0 0;font-size:16px;line-height:1.6;color:var(--b-muted);text-align:center}
+@media (prefers-reduced-motion:reduce){.vb .pv-lire{transition:none}.vb .pv-lire:hover{transform:none}}
+</style>
 </head>
 <body>
 
@@ -860,6 +877,27 @@ figure figcaption a{padding-block:.7rem}
 <section class="entry-band">
   <div class="eb-grid"><article data-reveal="0" class="eb-card"><span class="eb-ico"><svg aria-hidden="true" viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="#d9a648" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20c-4.5 0-8-2.6-8-6 2.5 0 5 1 8 4 3-3 5.5-4 8-4 0 3.4-3.5 6-8 6z"/><path d="M12 18c-2-2.2-3-4.6-3-7.2C9 8.4 10.2 6 12 4c1.8 2 3 4.4 3 6.8 0 2.6-1 5-3 7.2z"/></svg></span><h2>Psychothérapie</h2><p>Trauma · émotions · attachement · confiance en soi · reconstruction</p><a data-hover="" href="#themes">Les demandes que j'accompagne<span data-hx="translateX(8px)" data-h0="none" aria-hidden="true">→</span></a></article><article data-reveal="1" class="eb-card"><span class="eb-ico"><svg aria-hidden="true" viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="#d9a648" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.3 2.8-5 5.5-5s4.9 1.7 5.5 5"/><circle cx="16.5" cy="9" r="2.6"/><path d="M15.5 14.2c2.6-.3 4.6 1.2 5.1 4.3"/></svg></span><h2>Premier rendez-vous</h2><p>Une heure pour découvrir ce que je peux vous apporter, poser votre demande et décider ensemble de la suite</p><a data-hover="" href="#infos">Tarifs et modalités<span data-hx="translateX(8px)" data-h0="none" aria-hidden="true">→</span></a></article><article data-reveal="2" class="eb-card"><span class="eb-ico"><svg aria-hidden="true" viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="#d9a648" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="11" rx="1.6"/><path d="M2 19h20"/></svg></span><h2>Psychologue en ligne</h2><p>Des séances sur une plateforme sécurisée, où que vous soyez, avec la même qualité d'écoute</p><a data-hover="" href="#infos">Les séances en ligne<span data-hx="translateX(8px)" data-h0="none" aria-hidden="true">→</span></a></article></div>
 </section>
+
+<section id="presentation" class="pv" aria-label="Vidéo de présentation">
+  <div class="pv-inner">
+    <p data-reveal="0" class="pv-eyebrow"><span></span>En vidéo</p>
+    <figure data-reveal="1" class="pv-figure">
+      <div class="pv-cadre">
+        <video controls preload="none" muted playsinline width="1280" height="720" poster="/documents/video-presentation-couverture.webp" aria-label="Présentation du site en 47 secondes, sans son">
+          <source src="/documents/video-presentation.mp4" type="video/mp4">
+        </video>
+        <button type="button" class="pv-lire" hidden aria-label="Lire la vidéo de présentation (47 secondes, sans son)"><svg aria-hidden="true" width="14" height="16" viewBox="0 0 26 30"><path d="M3 2.5v25L24 15z" fill="currentColor"/></svg><span class="pv-texte">Lire la vidéo</span></button>
+      </div>
+      <figcaption class="pv-legende">Une présentation en 47 secondes, sans son, de ce que vous trouverez sur ce site.</figcaption>
+    </figure>
+  </div>
+  <script>
+  (function(){var s=document.getElementById("presentation");if(!s)return;var v=s.querySelector("video"),b=s.querySelector(".pv-lire");if(!v||!b)return;
+  v.removeAttribute("controls");b.hidden=false;
+  b.addEventListener("click",function(){b.hidden=true;v.setAttribute("controls","");var p=v.play();if(p&&p.catch)p.catch(function(){});v.focus();});})();
+  </script>
+</section>
+
 
 <section id="approche" style="padding:clamp(110px,13vw,180px) clamp(20px,4vw,48px)">
   <div style="max-width:1240px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:clamp(64px,8vw,120px);align-items:start">
