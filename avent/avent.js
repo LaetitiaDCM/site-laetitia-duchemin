@@ -34,7 +34,7 @@ var JOURS = [
  {p:'/attachement-secure/', n:'Attachement sécure', m:"Je pars faire des bêtises toute la journée. Je sais que je peux revenir me réchauffer près du feu, même après une bêtise.", a:{"t": "Ma base et mon refuge", "fiche": "ma-base-et-mon-refuge", "pdfOnly": true}, e:{"t": "Je pars et je reviens", "fiche": "je-pars-et-je-reviens", "pdfOnly": true}},
  {p:'/peur-de-l-abandon/', n:"Peur de l'abandon", m:"Mes copains lutins sont partis en tournée. Pendant qu'ils sont loin, je garde un de leurs bonnets sur mon lit. Ils reviennent jeudi.", a:{"t": "Traverser l'absence", "fiche": "traverser-l-absence"}, e:{"t": "Quand quelqu'un me manque", "fiche": "quand-quelqu-un-me-manque", "pdfOnly": true}},
  {p:'/ifs/', n:'IFS, les parts de soi', m:"Une part de moi veut ranger l'atelier. Une autre veut tout recouvrir de peinture. Je les ai écoutées toutes les deux. On a rangé… la peinture.", a:{"t": "Mes parts qui se disputent", "fiche": "mes-parts-qui-se-disputent", "pdfOnly": true}, e:{"t": "Mon farceur et mon sage", "fiche": "mon-farceur-et-mon-sage", "pdfOnly": true}},
- {p:'/regulation-emotionnelle/', n:'Régulation émotionnelle', m:"Ce soir, je ne fais pas de farce. Pour certains, Noël rime avec solitude, absence ou souvenirs lourds. Si c'est votre cas, vous avez le droit de vivre cette soirée à votre façon, et demain je vous laisse un cadeau pour vous poser.", a:{"t": "Le contenant", "note": "L'audio arrive très bientôt."}, e:{"t": "Le contenant", "note": "L'audio arrive très bientôt."}}
+ {p:'/regulation-emotionnelle/', n:'Régulation émotionnelle', m:"Ce soir, je ne fais pas de farce. Pour certains, Noël rime avec solitude, absence ou souvenirs lourds. Si c'est votre cas, vous avez le droit de vivre cette soirée à votre façon, et demain je vous laisse un cadeau pour vous poser.", a:{"t": "Le contenant", "note": "L'audio arrive très bientôt."}, e:{"t": "Le coffre à soucis (audio, 7 minutes)", "img": "coffre-a-soucis", "mp3": "coffre-a-soucis-enfant", "note": "Pour l'adulte qui accompagne : si l'enfant a envie de parler de ce qu'il a déposé, accueillez sa parole sans la juger, mettez des mots sur ce qu'il ressent et cherchez une solution ensemble si c'est possible. C'est lui qui décide quand ouvrir son coffre."}}
 ];
 /* Le 25 : le cadeau. Renseigner les liens des deux audios quand ils sont en ligne (YouTube non répertorié ou /appli/). */
 var CADEAU = {
@@ -66,7 +66,7 @@ function path(){var p=location.pathname; return p.charAt(p.length-1)==='/'?p:p+'
 
 /* ---------- Images (dossier /avent/) ---------- */
 var IMG='/avent/', ORN=['case-bois','case-boule','case-etoile','case-coeur'];
-var DIM={"bandeau":[1200,214],"case-bois":[154,160],"case-boule":[130,160],"case-cadeau":[178,160],"case-coeur":[162,160],"case-etoile":[144,160],"lutin-cache":[220,300],"peek-lutin-2":[420,257],"peek-lutin":[420,257],"peek-lutine-2":[420,237],"peek-lutine":[420,237],"scenes/arrivee":[1200,675],"scenes/depart":[1200,675],"scenes/j01":[720,406],"scenes/j02":[720,788],"scenes/j03":[720,720],"scenes/j04":[720,720],"scenes/j05":[720,720],"scenes/j06":[720,720],"scenes/j07":[720,720],"scenes/j08":[720,720],"scenes/j09":[720,720],"scenes/j10":[720,720],"scenes/j11":[720,720],"scenes/j12":[720,720],"scenes/j13":[720,720],"scenes/j14":[720,720],"scenes/j15":[720,720],"scenes/j16":[720,720],"scenes/j17":[720,720],"scenes/j18":[720,720],"scenes/j19":[720,720],"scenes/j20":[720,720],"scenes/j21":[720,720],"scenes/j22":[720,720],"scenes/j23":[720,720],"scenes/j24":[720,720],"side-lutin":[300,311],"side-lutine":[300,498],"top-lutin":[280,448],"top-lutine":[280,449]};
+var DIM={"bandeau":[1200,214],"coffre-a-soucis":[600,433],"case-bois":[154,160],"case-boule":[130,160],"case-cadeau":[178,160],"case-coeur":[162,160],"case-etoile":[144,160],"lutin-cache":[220,300],"peek-lutin-2":[420,257],"peek-lutin":[420,257],"peek-lutine-2":[420,237],"peek-lutine":[420,237],"scenes/arrivee":[1200,675],"scenes/depart":[1200,675],"scenes/j01":[720,406],"scenes/j02":[720,788],"scenes/j03":[720,720],"scenes/j04":[720,720],"scenes/j05":[720,720],"scenes/j06":[720,720],"scenes/j07":[720,720],"scenes/j08":[720,720],"scenes/j09":[720,720],"scenes/j10":[720,720],"scenes/j11":[720,720],"scenes/j12":[720,720],"scenes/j13":[720,720],"scenes/j14":[720,720],"scenes/j15":[720,720],"scenes/j16":[720,720],"scenes/j17":[720,720],"scenes/j18":[720,720],"scenes/j19":[720,720],"scenes/j20":[720,720],"scenes/j21":[720,720],"scenes/j22":[720,720],"scenes/j23":[720,720],"scenes/j24":[720,720],"side-lutin":[300,311],"side-lutine":[300,498],"top-lutin":[280,448],"top-lutine":[280,449]};
 function scene(n){ return DIM['scenes/j'+(n<10?'0':'')+n] ? pic('scenes/j'+(n<10?'0':'')+n,'av-pic') : ''; }
 function pic(n,cls,lazy){return '<img src="'+IMG+n+'.webp" alt="" width="'+DIM[n][0]+'" height="'+DIM[n][1]+'"'+(cls?' class="'+cls+'"':'')+(lazy?' loading="lazy"':'')+' decoding="async">'}
 
@@ -138,6 +138,8 @@ var css=
 '.av-tool{background:rgba(255,255,255,.06);border:1px solid rgba(217,166,72,.35);border-radius:12px;padding:10px 12px;color:#f3ecdf}'+
 '.av-tool b{display:block;font:500 .78rem var(--sans,system-ui,sans-serif);letter-spacing:.08em;text-transform:uppercase;color:#ecd096}'+
 '.av-tool a{min-height:44px;display:inline-flex;align-items:center}'+
+'.av-tool audio{display:block;width:100%;margin:8px 0 2px;min-height:44px}'+
+'.av-tool .av-ill{display:block;width:100%;max-width:220px;height:auto;margin:8px auto 4px;border-radius:12px}'+
 '.av-steps{margin:8px 0 2px;padding-left:1.3em;line-height:1.5}'+
 '.av-steps li{margin:4px 0}'+
 '.av-dlg p{color:#e6e0f2}'+
@@ -159,9 +161,11 @@ function toolHTML(label,t){
   else if(t.fiche) L.push(isApp?'<a href="#" data-av-fiche="'+t.fiche+'">Ouvrir la fiche</a>'
                           :'<a href="'+pdf(t.fiche)+'" target="_blank" rel="noopener">Télécharger la fiche</a>');
   if(!isApp&&((t.fiche&&!t.pdfOnly)||t.audio)) L.push('<a href="/appli/#'+(t.fiche?'fiche='+t.fiche:'ecouter')+'">Dans l’appli</a>');
+  var ill=t.img?'<img class="av-ill" src="'+IMG+t.img+'.webp" alt="" width="'+DIM[t.img][0]+'" height="'+DIM[t.img][1]+'" loading="lazy" decoding="async">':'';
+  var au=t.mp3?'<audio controls preload="none" src="'+IMG+'audio/'+t.mp3+'.mp3">'+'</audio>':'';
   var nt=t.note?'<p class="av-help" style="text-align:left">'+esc(t.note)+'</p>':'';
   var st=t.steps?'<ol class="av-steps">'+t.steps.map(function(s){return '<li>'+esc(s)+'</li>'}).join('')+'</ol>':'';
-  return '<div class="av-tool"><b>'+label+'</b>'+esc(t.t)+st+nt+(L.length?'<br>'+L.join(' · '):'')+'</div>';
+  return '<div class="av-tool"><b>'+label+'</b>'+esc(t.t)+ill+au+st+nt+(L.length?'<br>'+L.join(' · '):'')+'</div>';
 }
 function helpHTML(){
   return '<p class="av-help">Besoin d’aide maintenant ? '+
