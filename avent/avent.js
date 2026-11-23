@@ -39,7 +39,8 @@ var JOURS = [
 /* Le 25 : le cadeau. Renseigner les liens des deux audios quand ils sont en ligne (YouTube non répertorié ou /appli/). */
 var CADEAU = {
  m:"Joyeux Noël ! Mon cadeau : un lieu rien qu'à vous, à retrouver chaque fois que vous en avez besoin, que ce jour soit doux ou difficile.",
- adulte:'', enfant:''
+ adulte:{"t": "Le lieu-sûr 54321", "note": "L'audio arrive très bientôt."},
+ enfant:{"t": "Mon refuge (audio, 6 minutes)", "img": "mon-refuge", "mp3": "mon-refuge-enfant", "yt": "https://youtu.be/2bWg6ysqRiw"}
 };
 /* Le 30 novembre : l'annonce de l'arrivée des lutins (accueil du site et de l'appli). */
 var ARRIVEE = "Demain, deux petits lutins farceurs s'installent sur le site. Du 1er au 24 décembre, ils se cacheront chaque jour sur une page différente. Trouvez-les pour ouvrir la case du jour : de quoi sourire, et un petit outil à essayer, pour les adultes et pour les enfants.";
@@ -66,7 +67,7 @@ function path(){var p=location.pathname; return p.charAt(p.length-1)==='/'?p:p+'
 
 /* ---------- Images (dossier /avent/) ---------- */
 var IMG='/avent/', ORN=['case-bois','case-boule','case-etoile','case-coeur'];
-var DIM={"bandeau":[1200,214],"coffre-a-soucis":[600,433],"case-bois":[154,160],"case-boule":[130,160],"case-cadeau":[178,160],"case-coeur":[162,160],"case-etoile":[144,160],"lutin-cache":[220,300],"peek-lutin-2":[420,257],"peek-lutin":[420,257],"peek-lutine-2":[420,237],"peek-lutine":[420,237],"scenes/arrivee":[1200,675],"scenes/depart":[1200,675],"scenes/j01":[720,406],"scenes/j02":[720,788],"scenes/j03":[720,720],"scenes/j04":[720,720],"scenes/j05":[720,720],"scenes/j06":[720,720],"scenes/j07":[720,720],"scenes/j08":[720,720],"scenes/j09":[720,720],"scenes/j10":[720,720],"scenes/j11":[720,720],"scenes/j12":[720,720],"scenes/j13":[720,720],"scenes/j14":[720,720],"scenes/j15":[720,720],"scenes/j16":[720,720],"scenes/j17":[720,720],"scenes/j18":[720,720],"scenes/j19":[720,720],"scenes/j20":[720,720],"scenes/j21":[720,720],"scenes/j22":[720,720],"scenes/j23":[720,720],"scenes/j24":[720,720],"side-lutin":[300,311],"side-lutine":[300,498],"top-lutin":[280,448],"top-lutine":[280,449]};
+var DIM={"bandeau":[1200,214],"coffre-a-soucis":[600,433],"mon-refuge":[600,400],"case-bois":[154,160],"case-boule":[130,160],"case-cadeau":[178,160],"case-coeur":[162,160],"case-etoile":[144,160],"lutin-cache":[220,300],"peek-lutin-2":[420,257],"peek-lutin":[420,257],"peek-lutine-2":[420,237],"peek-lutine":[420,237],"scenes/arrivee":[1200,675],"scenes/depart":[1200,675],"scenes/j01":[720,406],"scenes/j02":[720,788],"scenes/j03":[720,720],"scenes/j04":[720,720],"scenes/j05":[720,720],"scenes/j06":[720,720],"scenes/j07":[720,720],"scenes/j08":[720,720],"scenes/j09":[720,720],"scenes/j10":[720,720],"scenes/j11":[720,720],"scenes/j12":[720,720],"scenes/j13":[720,720],"scenes/j14":[720,720],"scenes/j15":[720,720],"scenes/j16":[720,720],"scenes/j17":[720,720],"scenes/j18":[720,720],"scenes/j19":[720,720],"scenes/j20":[720,720],"scenes/j21":[720,720],"scenes/j22":[720,720],"scenes/j23":[720,720],"scenes/j24":[720,720],"side-lutin":[300,311],"side-lutine":[300,498],"top-lutin":[280,448],"top-lutine":[280,449]};
 function scene(n){ return DIM['scenes/j'+(n<10?'0':'')+n] ? pic('scenes/j'+(n<10?'0':'')+n,'av-pic') : ''; }
 function pic(n,cls,lazy){return '<img src="'+IMG+n+'.webp" alt="" width="'+DIM[n][0]+'" height="'+DIM[n][1]+'"'+(cls?' class="'+cls+'"':'')+(lazy?' loading="lazy"':'')+' decoding="async">'}
 
@@ -181,8 +182,7 @@ function openDay(n){
   }
   var html;
   if(n===25){
-    var au = (CADEAU.adulte?'<div class="av-tool"><b>Pour les adultes</b><a href="'+esc(CADEAU.adulte)+'" target="_blank" rel="noopener">Écouter le lieu ressource</a></div>':'')+
-             (CADEAU.enfant?'<div class="av-tool"><b>Pour les enfants</b><a href="'+esc(CADEAU.enfant)+'" target="_blank" rel="noopener">Écouter le lieu ressource</a></div>':'');
+    var au = toolHTML('Pour les adultes',CADEAU.adulte)+toolHTML('Pour les enfants',CADEAU.enfant);
     html=pic('scenes/depart','av-scene')+'<h2 id="avDlgT">25 décembre</h2><p class="av-msg">'+esc(CADEAU.m)+'</p><div class="av-tools">'+(au||'<p>Les audios arrivent très bientôt.</p>')+'</div>';
   } else {
     var j=JOURS[n-1];
