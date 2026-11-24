@@ -67,7 +67,7 @@ function path(){var p=location.pathname; return p.charAt(p.length-1)==='/'?p:p+'
 
 /* ---------- Images (dossier /avent/) ---------- */
 var IMG='/avent/', ORN=['case-bois','case-boule','case-etoile','case-coeur'];
-var DIM={"bandeau":[1200,214],"coffre-a-soucis":[600,433],"mon-refuge":[600,400],"case-bois":[154,160],"case-boule":[130,160],"case-cadeau":[178,160],"case-coeur":[162,160],"case-etoile":[144,160],"lutin-cache":[220,300],"peek-lutin-2":[420,257],"peek-lutin":[420,257],"peek-lutine-2":[420,237],"peek-lutine":[420,237],"scenes/arrivee":[1200,675],"scenes/depart":[1200,675],"scenes/j01":[720,406],"scenes/j02":[720,788],"scenes/j03":[720,720],"scenes/j04":[720,720],"scenes/j05":[720,720],"scenes/j06":[720,720],"scenes/j07":[720,720],"scenes/j08":[720,720],"scenes/j09":[720,720],"scenes/j10":[720,720],"scenes/j11":[720,720],"scenes/j12":[720,720],"scenes/j13":[720,720],"scenes/j14":[720,720],"scenes/j15":[720,720],"scenes/j16":[720,720],"scenes/j17":[720,720],"scenes/j18":[720,720],"scenes/j19":[720,720],"scenes/j20":[720,720],"scenes/j21":[720,720],"scenes/j22":[720,720],"scenes/j23":[720,720],"scenes/j24":[720,720],"side-lutin":[300,311],"side-lutine":[300,498],"top-lutin":[280,448],"top-lutine":[280,449]};
+var DIM={"bandeau":[1200,214],"coffre-a-soucis":[600,433],"mon-refuge":[600,400],"case-bois":[154,160],"case-boule":[130,160],"case-cadeau":[178,160],"case-coeur":[162,160],"case-etoile":[144,160],"lutin-cache":[220,300],"peek-lutin":[480,294],"peek-lutine":[480,274],"scenes/arrivee":[1200,675],"scenes/depart":[1200,675],"scenes/j01":[720,406],"scenes/j02":[720,788],"scenes/j03":[720,720],"scenes/j04":[720,720],"scenes/j05":[720,720],"scenes/j06":[720,720],"scenes/j07":[720,720],"scenes/j08":[720,720],"scenes/j09":[720,720],"scenes/j10":[720,720],"scenes/j11":[720,720],"scenes/j12":[720,720],"scenes/j13":[720,720],"scenes/j14":[720,720],"scenes/j15":[720,720],"scenes/j16":[720,720],"scenes/j17":[720,720],"scenes/j18":[720,720],"scenes/j19":[720,720],"scenes/j20":[720,720],"scenes/j21":[720,720],"scenes/j22":[720,720],"scenes/j23":[720,720],"scenes/j24":[720,720],"side-lutin":[300,311],"side-lutine":[300,498],"top-lutin":[280,448],"top-lutine":[280,449]};
 function scene(n){ return DIM['scenes/j'+(n<10?'0':'')+n] ? pic('scenes/j'+(n<10?'0':'')+n,'av-pic') : ''; }
 function pic(n,cls,lazy){return '<img src="'+IMG+n+'.webp" alt="" width="'+DIM[n][0]+'" height="'+DIM[n][1]+'"'+(cls?' class="'+cls+'"':'')+(lazy?' loading="lazy"':'')+' decoding="async">'}
 
@@ -115,8 +115,6 @@ var css=
 '@media (prefers-reduced-motion:reduce){.av-fx{transition:none;animation:none !important}}'+
 '.av-pk{position:relative;display:block;transform:translateY(102%);transform-origin:50% 100%}'+
 '.av-pk img{display:block;width:100%;height:auto}'+
-'.av-pk .av-pk2{position:absolute;left:0;top:0;opacity:0}'+
-'.av-peek.alt .av-pk2{opacity:1}'+
 '.av-peek.shown .av-pk{transform:none}'+
 '.av-peek.up .av-pk{animation:avUp 1.1s cubic-bezier(.25,.8,.35,1) both}'+
 '.av-peek.idle .av-pk{transform:none;animation:avLook 7s ease-in-out infinite}'+
