@@ -115,6 +115,7 @@ var css=
 '@media (prefers-reduced-motion:reduce){.av-fx{transition:none;animation:none !important}}'+
 '.av-pk{position:relative;display:block;transform:translateY(102%);transform-origin:50% 100%}'+
 '.av-pk img{display:block;width:100%;height:auto}'+
+'.av-pk-lutine .av-pk img{margin-bottom:-2px}'+
 '.av-peek.shown .av-pk{transform:none}'+
 '.av-peek.up .av-pk{animation:avUp 1.1s cubic-bezier(.25,.8,.35,1) both}'+
 '.av-peek.idle .av-pk{transform:none;animation:avLook 7s ease-in-out infinite}'+
@@ -265,7 +266,7 @@ function hideLutin(){
   var cta=main.querySelector('.btns .btn.solid');
   if(cta&&DIM['peek-'+who]){
     var host=cta.parentNode; host.classList.add('av-host');
-    var peek=document.createElement('button'); peek.type='button'; peek.className='av-peek';
+    var peek=document.createElement('button'); peek.type='button'; peek.className='av-peek av-pk-'+who;
     peek.setAttribute('aria-label',label);
     peek.innerHTML='<span class="av-pk">'+pic('peek-'+who)+'</span>';
     peek.onclick=function(){catchIt(peek)};
