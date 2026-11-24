@@ -39,7 +39,7 @@ var JOURS = [
 /* Le 25 : le cadeau. Renseigner les liens des deux audios quand ils sont en ligne (YouTube non répertorié ou /appli/). */
 var CADEAU = {
  m:"Joyeux Noël ! Mon cadeau : un lieu rien qu'à vous, à retrouver chaque fois que vous en avez besoin, que ce jour soit doux ou difficile.",
- adulte:{"t": "Le lieu sûr (audio, 15 minutes)", "mp3": "le-lieu-sur-adulte"},
+ adulte:{"t": "Le lieu sûr (audio, 15 minutes)", "mp3": "le-lieu-sur-adulte", "yt": "https://youtu.be/jnF730aSTFk"},
  enfant:{"t": "Mon refuge (audio, 6 minutes)", "img": "mon-refuge", "mp3": "mon-refuge-enfant", "yt": "https://youtu.be/2bWg6ysqRiw"}
 };
 /* Le 30 novembre : l'annonce de l'arrivée des lutins (accueil du site et de l'appli). */
@@ -270,11 +270,11 @@ function hideLutin(){
     peek.innerHTML='<span class="av-pk">'+pic('peek-'+who)+'</span>';
     peek.onclick=function(){catchIt(peek)};
     function place(){ host.style.paddingTop='';
-      var prev=host.previousElementSibling, cr0=cta.getBoundingClientRect(), need=peek.offsetHeight-5;
+      var prev=host.previousElementSibling, cr0=cta.getBoundingClientRect(), need=peek.offsetHeight-1;
       if(prev){ var gap=cr0.top-prev.getBoundingClientRect().bottom; if(gap<need+6) host.style.paddingTop=(need+6-gap)+'px'; }
       var hr=host.getBoundingClientRect(), cr=cta.getBoundingClientRect();
       peek.style.left=Math.round(cr.left-hr.left+cr.width/2-55)+'px';
-      peek.style.top=Math.round(cr.top-hr.top-peek.offsetHeight+5)+'px'; }
+      peek.style.top=Math.round(cr.top-hr.top-peek.offsetHeight+1)+'px'; }
     var calm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
     host.appendChild(peek); var im=peek.querySelector('img'); if(im&&!im.complete) im.addEventListener('load',place); place();
     addEventListener('resize',place);
