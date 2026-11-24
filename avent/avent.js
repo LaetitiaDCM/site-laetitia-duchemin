@@ -39,7 +39,7 @@ var JOURS = [
 /* Le 25 : le cadeau. Renseigner les liens des deux audios quand ils sont en ligne (YouTube non répertorié ou /appli/). */
 var CADEAU = {
  m:"Joyeux Noël ! Mon cadeau : un lieu rien qu'à vous, à retrouver chaque fois que vous en avez besoin, que ce jour soit doux ou difficile.",
- adulte:{"t": "Le lieu-sûr 54321", "note": "L'audio arrive très bientôt."},
+ adulte:{"t": "Le lieu sûr (audio, 15 minutes)", "mp3": "le-lieu-sur-adulte"},
  enfant:{"t": "Mon refuge (audio, 6 minutes)", "img": "mon-refuge", "mp3": "mon-refuge-enfant", "yt": "https://youtu.be/2bWg6ysqRiw"}
 };
 /* Le 30 novembre : l'annonce de l'arrivée des lutins (accueil du site et de l'appli). */
@@ -114,14 +114,14 @@ var css=
 '@media (min-width:900px){.av-top{width:96px;right:6vw}.av-side{width:110px}}'+
 '@media (prefers-reduced-motion:reduce){.av-fx{transition:none;animation:none !important}}'+
 '.av-pk{position:relative;display:block;transform:translateY(102%);transform-origin:50% 100%}'+
-'.av-pk img{display:block;width:100%;height:auto}'+
+'.av-pk img{display:block;width:100%;height:auto;-webkit-mask-image:linear-gradient(to right,transparent,#000 5%,#000 95%,transparent);mask-image:linear-gradient(to right,transparent,#000 5%,#000 95%,transparent)}'+
 '.av-pk .av-pk2{position:absolute;left:0;top:0;opacity:0}'+
 '.av-peek.alt .av-pk2{opacity:1}'+
 '.av-peek.shown .av-pk{transform:none}'+
 '.av-peek.up .av-pk{animation:avUp 1.1s cubic-bezier(.25,.8,.35,1) both}'+
 '.av-peek.idle .av-pk{transform:none;animation:avLook 7s ease-in-out infinite}'+
 '@keyframes avUp{0%{transform:translateY(102%)}100%{transform:translateY(0)}}'+
-'@keyframes avLook{0%,62%,100%{transform:rotate(0)}68%,76%{transform:rotate(-3deg)}82%,90%{transform:rotate(3deg)}96%{transform:rotate(0)}}'+
+'@keyframes avLook{0%,60%,100%{transform:translateY(0)}70%{transform:translateY(5%)}80%{transform:translateY(0)}88%{transform:translateY(3%)}94%{transform:translateY(0)}}'+
 '.av-peek:focus-visible{outline:2px solid #ecd096;outline-offset:2px}'+
 '@media (prefers-reduced-motion:reduce){.av-pk{animation:none !important;transform:none !important}}'+
 '.av-lutin{float:right;margin:0 0 8px 14px;width:96px;min-height:44px;display:block;border:0;background:transparent;cursor:pointer;padding:0}'+
