@@ -114,7 +114,7 @@ var css=
 '@media (min-width:900px){.av-top{width:96px;right:6vw}.av-side{width:110px}}'+
 '@media (prefers-reduced-motion:reduce){.av-fx{transition:none;animation:none !important}}'+
 '.av-pk{position:relative;display:block;transform:translateY(102%);transform-origin:50% 100%}'+
-'.av-pk img{display:block;width:100%;height:auto;-webkit-mask-image:linear-gradient(to right,transparent,#000 5%,#000 95%,transparent);mask-image:linear-gradient(to right,transparent,#000 5%,#000 95%,transparent)}'+
+'.av-pk img{display:block;width:100%;height:auto}'+
 '.av-pk .av-pk2{position:absolute;left:0;top:0;opacity:0}'+
 '.av-peek.alt .av-pk2{opacity:1}'+
 '.av-peek.shown .av-pk{transform:none}'+
@@ -269,7 +269,7 @@ function hideLutin(){
     var host=cta.parentNode; host.classList.add('av-host');
     var peek=document.createElement('button'); peek.type='button'; peek.className='av-peek';
     peek.setAttribute('aria-label',label);
-    peek.innerHTML='<span class="av-pk">'+pic('peek-'+who)+(DIM['peek-'+who+'-2']?pic('peek-'+who+'-2','av-pk2'):'')+'</span>';
+    peek.innerHTML='<span class="av-pk">'+pic('peek-'+who)+'</span>';
     peek.onclick=function(){catchIt(peek)};
     function place(){ host.style.paddingTop='';
       var prev=host.previousElementSibling, cr0=cta.getBoundingClientRect(), need=peek.offsetHeight-5;
@@ -281,13 +281,10 @@ function hideLutin(){
     host.appendChild(peek); var im=peek.querySelector('img'); if(im&&!im.complete) im.addEventListener('load',place); place();
     addEventListener('resize',place);
     if(calm||!('IntersectionObserver' in window)){ peek.classList.add('shown'); return; }
-    /* Il sort de derrière le bouton quand celui-ci apparaît à l'écran, puis regarde à droite et à gauche de temps en temps */
+    /* Il sort de derrière le bouton quand celui-ci apparaît à l'écran, puis reste immobile */
     var io=new IntersectionObserver(function(es){
       if(!es[0].isIntersecting) return; io.disconnect();
-      setTimeout(function(){ peek.classList.add('up'); setTimeout(function(){ peek.classList.add('idle');
-        /* clin d'œil / regard : la deuxième image apparaît un court instant, toutes les 4 à 6 secondes */
-        (function blink(){ setTimeout(function(){ if(!peek.isConnected) return; peek.classList.add('alt'); setTimeout(function(){ peek.classList.remove('alt'); blink(); },900); },4000+Math.random()*2000); })();
-      },1200); },350);
+      setTimeout(function(){ peek.classList.add('up'); },350);
     },{threshold:.9});
     io.observe(cta);
     return;
