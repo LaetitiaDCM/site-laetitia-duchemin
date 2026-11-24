@@ -39,8 +39,8 @@ var JOURS = [
 /* Le 25 : le cadeau. Renseigner les liens des deux audios quand ils sont en ligne (YouTube non répertorié ou /appli/). */
 var CADEAU = {
  m:"Joyeux Noël ! Mon cadeau : un lieu rien qu'à vous, à retrouver chaque fois que vous en avez besoin, que ce jour soit doux ou difficile.",
- adulte:{"t": "Le lieu sûr (audio, 15 minutes)", "mp3": "le-lieu-sur-adulte", "yt": "https://youtu.be/jnF730aSTFk"},
- enfant:{"t": "Mon refuge (audio, 6 minutes)", "img": "mon-refuge", "mp3": "mon-refuge-enfant", "yt": "https://youtu.be/2bWg6ysqRiw"}
+ adulte:{"t": "Le lieu sûr (audio, 15 minutes)", "img": "calin-papillon-adulte", "mp3": "le-lieu-sur-adulte", "yt": "https://youtu.be/jnF730aSTFk"},
+ enfant:{"t": "Mon refuge (audio, 6 minutes)", "img": ["mon-refuge", "calin-papillon-enfant"], "mp3": "mon-refuge-enfant", "yt": "https://youtu.be/2bWg6ysqRiw"}
 };
 /* Le 30 novembre : l'annonce de l'arrivée des lutins (accueil du site et de l'appli). */
 var ARRIVEE = "Demain, deux petits lutins farceurs s'installent sur le site. Du 1er au 24 décembre, ils se cacheront chaque jour sur une page différente. Trouvez-les pour ouvrir la case du jour : de quoi sourire, et un petit outil à essayer, pour les adultes et pour les enfants.";
@@ -67,7 +67,8 @@ function path(){var p=location.pathname; return p.charAt(p.length-1)==='/'?p:p+'
 
 /* ---------- Images (dossier /avent/) ---------- */
 var IMG='/avent/', ORN=['case-bois','case-boule','case-etoile','case-coeur'];
-var DIM={"bandeau":[1200,214],"coffre-a-soucis":[600,433],"mon-refuge":[600,400],"case-bois":[154,160],"case-boule":[130,160],"case-cadeau":[178,160],"case-coeur":[162,160],"case-etoile":[144,160],"lutin-cache":[220,300],"peek-lutin":[480,294],"peek-lutine":[480,274],"scenes/arrivee":[1200,675],"scenes/depart":[1200,675],"scenes/j01":[720,406],"scenes/j02":[720,788],"scenes/j03":[720,720],"scenes/j04":[720,720],"scenes/j05":[720,720],"scenes/j06":[720,720],"scenes/j07":[720,720],"scenes/j08":[720,720],"scenes/j09":[720,720],"scenes/j10":[720,720],"scenes/j11":[720,720],"scenes/j12":[720,720],"scenes/j13":[720,720],"scenes/j14":[720,720],"scenes/j15":[720,720],"scenes/j16":[720,720],"scenes/j17":[720,720],"scenes/j18":[720,720],"scenes/j19":[720,720],"scenes/j20":[720,720],"scenes/j21":[720,720],"scenes/j22":[720,720],"scenes/j23":[720,720],"scenes/j24":[720,720],"side-lutin":[300,311],"side-lutine":[300,498],"top-lutin":[280,448],"top-lutine":[280,449]};
+var DIM={"bandeau":[1200,214],"coffre-a-soucis":[600,433],"mon-refuge":[600,400],"calin-papillon-adulte":[600,440],"calin-papillon-enfant":[600,635],"case-bois":[154,160],"case-boule":[130,160],"case-cadeau":[178,160],"case-coeur":[162,160],"case-etoile":[144,160],"lutin-cache":[220,300],"peek-lutin":[480,294],"peek-lutine":[480,274],"scenes/arrivee":[1200,675],"scenes/depart":[1200,675],"scenes/j01":[720,406],"scenes/j02":[720,788],"scenes/j03":[720,720],"scenes/j04":[720,720],"scenes/j05":[720,720],"scenes/j06":[720,720],"scenes/j07":[720,720],"scenes/j08":[720,720],"scenes/j09":[720,720],"scenes/j10":[720,720],"scenes/j11":[720,720],"scenes/j12":[720,720],"scenes/j13":[720,720],"scenes/j14":[720,720],"scenes/j15":[720,720],"scenes/j16":[720,720],"scenes/j17":[720,720],"scenes/j18":[720,720],"scenes/j19":[720,720],"scenes/j20":[720,720],"scenes/j21":[720,720],"scenes/j22":[720,720],"scenes/j23":[720,720],"scenes/j24":[720,720],"side-lutin":[300,311],"side-lutine":[300,498],"top-lutin":[280,448],"top-lutine":[280,449]};
+var CAP={"calin-papillon-adulte":"Le câlin papillon : croisez les bras sur la poitrine, posez les mains sur les épaules, puis tapotez lentement, une main après l’autre.","calin-papillon-enfant":"Le câlin papillon : croise les bras sur ta poitrine, pose tes mains sur tes épaules et tapote doucement, une main après l’autre."};
 function scene(n){ return DIM['scenes/j'+(n<10?'0':'')+n] ? pic('scenes/j'+(n<10?'0':'')+n,'av-pic') : ''; }
 function pic(n,cls,lazy){return '<img src="'+IMG+n+'.webp" alt="" width="'+DIM[n][0]+'" height="'+DIM[n][1]+'"'+(cls?' class="'+cls+'"':'')+(lazy?' loading="lazy"':'')+' decoding="async">'}
 
@@ -163,7 +164,7 @@ function toolHTML(label,t){
   else if(t.fiche) L.push(isApp?'<a href="#" data-av-fiche="'+t.fiche+'">Ouvrir la fiche</a>'
                           :'<a href="'+pdf(t.fiche)+'" target="_blank" rel="noopener">Télécharger la fiche</a>');
   if(!isApp&&((t.fiche&&!t.pdfOnly)||t.audio)) L.push('<a href="/appli/#'+(t.fiche?'fiche='+t.fiche:'ecouter')+'">Dans l’appli</a>');
-  var ill=t.img?'<img class="av-ill" src="'+IMG+t.img+'.webp" alt="" width="'+DIM[t.img][0]+'" height="'+DIM[t.img][1]+'" loading="lazy" decoding="async">':'';
+  var ill=[].concat(t.img||[]).map(function(k){var c=CAP[k];return '<img class="av-ill" src="'+IMG+k+'.webp" alt="'+(c?esc(c):'')+'" width="'+DIM[k][0]+'" height="'+DIM[k][1]+'" loading="lazy" decoding="async">'+(c?'<p class="av-help" style="text-align:center;margin-top:0">'+esc(c)+'</p>':'')}).join('');
   var au=t.mp3?'<audio controls preload="none" src="'+IMG+'audio/'+t.mp3+'.mp3">'+'</audio>':'';
   if(t.mp3&&t.yt) L.push('<a href="'+esc(t.yt)+'" target="_blank" rel="noopener">Voir la vidéo</a>');
   var nt=t.note?'<p class="av-help" style="text-align:left">'+esc(t.note)+'</p>':'';
@@ -215,7 +216,7 @@ function calendarHTML(){
   var hint='';
   if(isApp){
     return '<div class="av-box">'+pic('bandeau','av-banner')+'<h2>Le calendrier de l’Avent</h2>'+
-      '<p class="av-hint">Le lutin farceur a chamboulé l’appli : chaque jour, il met un outil en tête des exercices. Ouvrez la case du jour pour sourire un peu et essayer l’outil. Et sur le site, il se cache sur une page différente chaque jour.</p>'+
+      '<p class="av-hint">Le lutin farceur a chamboulé l’appli : certains jours, il met un outil en tête des exercices. Ouvrez la case du jour pour sourire un peu et essayer l’outil. Et sur le site, il se cache sur une page différente chaque jour.</p>'+
       '<ul class="av-grid">'+doors+'</ul>'+
       '<div class="av-row"><button type="button" class="av-link" data-av-off="1">Je préfère ne pas jouer</button></div>'+helpHTML()+'</div>';
   }
