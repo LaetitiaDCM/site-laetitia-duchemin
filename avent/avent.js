@@ -1,6 +1,6 @@
 /* Calendrier de l'Avent et lutin farceur (décembre).
    Un seul fichier, chargé sur toutes les pages du site et dans l'appli.
-   - Hors décembre (1er au 31), il ne fait rien.
+   - Actif du 30 novembre (annonce) au 31 décembre, puis du 1er au 7 janvier (message et feu d'artifice du Nouvel An). Le reste de l'année, il ne fait rien.
    - Rien n'est envoyé : les cases trouvées et le choix « ne pas jouer » restent sur le téléphone (localStorage).
    - Aperçu à une date donnée : ajouter ?avent=2026-12-05 à l'adresse (gardé pendant la visite).
    Pour modifier un message ou un outil : uniquement le tableau JOURS ci-dessous. */
@@ -44,10 +44,17 @@ var CADEAU = {
 };
 /* Le 30 novembre : l'annonce de l'arrivée des lutins (accueil du site et de l'appli). */
 var ARRIVEE = "Demain, deux petits lutins farceurs s'installent sur le site. Du 1er au 24 décembre, ils se cacheront chaque jour sur une page différente. Trouvez-les pour ouvrir la case du jour : de quoi sourire, et un petit outil à essayer, pour les adultes et pour les enfants.";
+
+/* Nouvel An : décompte du 26 au 31 décembre, puis message et feu d'artifice du 1er au 7 janvier. */
+var NOUVEL_AN = [
+ "Les lutins sont repartis, et une nouvelle année commence. Je vous souhaite qu'elle vous apporte de la douceur, des liens qui font du bien et des moments où vous vous sentez en sécurité.",
+ "Prendre soin de sa santé mentale ne passe pas forcément par de grandes résolutions. Ce sont souvent de petits gestes, répétés à son rythme : une pause pour respirer, une émotion accueillie, une aide demandée quand c'est trop lourd.",
+ "Si les fêtes ont été difficiles, vous n'avez rien à rattraper. Chaque jour peut être un nouveau départ, sans attendre le 1er janvier."
+];
 var AIDE = '/exercices/#apaiser'; /* « Besoin d'aide maintenant » */
 
 /* ---------- Date du jour (ou date d'aperçu) ---------- */
-var KEY='ld-avent', DAY=0, PRE=false, store={found:[],off:false};
+var KEY='ld-avent', DAY=0, PRE=false, NY=0, OFFSET=0, YEAR=0, store={found:[],off:false};
 try{var s=JSON.parse(localStorage.getItem(KEY)||'{}'); store.found=s.found||[]; store.off=!!s.off}catch(e){}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(store))}catch(e){}}
 (function(){
@@ -56,8 +63,11 @@ function save(){try{localStorage.setItem(KEY,JSON.stringify(store))}catch(e){}}
   if(q){var t=q.split('-'); d=new Date(+t[0],+t[1]-1,+t[2])}
   if(d.getMonth()===11) DAY=d.getDate();
   else if(d.getMonth()===10&&d.getDate()===30) PRE=true;
+  else if(d.getMonth()===0&&d.getDate()<=7) NY=d.getFullYear();
+  OFFSET=q?d.getTime()-new Date(new Date().setHours(0,0,0,0)).getTime():0; /* aperçu : on garde l'heure réelle */
+  YEAR=d.getFullYear();
 })();
-if(!DAY&&!PRE) { window.AVENT=null; return; }
+if(!DAY&&!PRE&&!NY) { window.AVENT=null; return; }
 
 var isApp = location.pathname.indexOf('/appli/')===0;
 function found(n){return store.found.indexOf(n)>-1}
@@ -136,6 +146,17 @@ var css=
 '.av-in{padding:12px 18px 14px}'+
 '.av-in h2{margin-top:0}'+
 '.av-wide{display:block;width:100%;height:auto;margin:6px 0 8px;border-radius:14px}'+
+'.av-countbox{text-align:center;margin:6px 0 14px}'+
+'.av-countt{margin:0 0 6px;font:500 1.15rem/1.3 var(--serif,Georgia,serif);color:#ecd096;letter-spacing:.04em}'+
+'.av-count{display:flex;justify-content:center;gap:clamp(4px,1.5vw,8px);flex-wrap:nowrap}'+
+'.av-cu{display:flex;flex-direction:column;align-items:center;flex:1 1 0;min-width:0;max-width:78px;padding:8px 2px 6px;border:1px solid rgba(217,166,72,.55);border-radius:12px;background:rgba(13,8,48,.55)}'+
+'.av-cu b{font:500 clamp(1.35rem,6.5vw,1.9rem)/1 var(--serif,Georgia,serif);color:#f3ecdf;font-variant-numeric:tabular-nums}'+
+'.av-cu small{margin-top:4px;font-size:clamp(.6rem,2.6vw,.72rem);letter-spacing:.02em;color:#d8d1ea}'+
+'.av-fw-hero{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}'+
+'.av-fwzone{position:relative;height:clamp(170px,32vw,260px);margin:0 -16px 4px;border-radius:19px 19px 0 0;overflow:hidden;background:radial-gradient(1.5px 1.5px at 12% 22%,#fff8 50%,transparent 51%),radial-gradient(1.5px 1.5px at 33% 64%,#fff6 50%,transparent 51%),radial-gradient(1px 1px at 56% 18%,#fff9 50%,transparent 51%),radial-gradient(1.5px 1.5px at 78% 40%,#fff7 50%,transparent 51%),radial-gradient(1px 1px at 90% 12%,#fff8 50%,transparent 51%),radial-gradient(1px 1px at 22% 82%,#fff5 50%,transparent 51%),radial-gradient(1px 1px at 67% 76%,#fff6 50%,transparent 51%),linear-gradient(180deg,#0d0830 0%,#1b1140 100%)}'+
+'.av-year{position:absolute;left:0;right:0;bottom:12%;text-align:center;font:500 clamp(3.2rem,12vw,5.5rem)/1 var(--serif,Georgia,serif);letter-spacing:.08em;color:#ecd096;text-shadow:0 0 18px rgba(236,208,150,.45)}'+
+'.av-fw{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}'+
+'.av-sign{font-style:italic;color:#ecd096 !important}'+
 '.av-pic{display:block;width:min(260px,70%);height:auto;margin:8px auto 4px;border-radius:16px}'+
 '.av-head{display:block;width:110px;height:auto;margin:6px auto 0}'+
 '.av-scene{display:block;width:calc(100% + 36px);max-width:none;height:auto;margin:-12px -18px 10px}'+
@@ -201,8 +222,69 @@ function openDay(n){
   dlg.querySelector('.av-close').focus();
 }
 
+/* ---------- Nouvel An ---------- */
+function now(){return new Date(Date.now()+OFFSET)}
+function left(){ return new Date(YEAR+1,0,1)-now(); }
+function pad(n){return (n<10?'0':'')+n}
+function countInner(){
+  var ms=Math.max(0,left()), d=Math.floor(ms/864e5), h=Math.floor(ms%864e5/36e5), m=Math.floor(ms%36e5/6e4), sec=Math.floor(ms%6e4/1e3);
+  function u(v,l){return '<span class="av-cu"><b>'+pad(v)+'</b><small>'+l+'</small></span>'}
+  return u(d,d>1?'jours':'jour')+u(h,'heures')+u(m,'minutes')+u(sec,'secondes');
+}
+function countLabel(){ var ms=Math.max(0,left()), d=Math.floor(ms/864e5), h=Math.floor(ms%864e5/36e5), m=Math.floor(ms%36e5/6e4); function pl(n,w){return n+' '+w+(n>1?'s':'')} return 'Avant '+(YEAR+1)+' : '+pl(d,'jour')+', '+pl(h,'heure')+' et '+pl(m,'minute'); }
+function countHTML(){ return DAY>=26?'<div class="av-countbox"><p class="av-countt">Avant '+(YEAR+1)+'</p><div class="av-count" data-av-count role="timer" aria-label="'+countLabel()+'">'+countInner()+'</div></div>':''; }
+function nyHTML(){
+  return '<div class="av-box av-ny">'+(isApp?'<div class="av-fwzone" aria-hidden="true"><span class="av-year">'+NY+'</span><canvas class="av-fw"></canvas></div>':pic('bandeau','av-banner'))+
+    '<h2>Bonne année '+NY+' !</h2>'+NOUVEL_AN.map(function(t){return '<p class="av-hint">'+esc(t)+'</p>'}).join('')+
+    '<p class="av-hint av-sign">Laetitia Duchemin</p>'+
+    (calm()?'':'<div class="av-row"><button type="button" class="av-link" data-av-fw="1">Revoir le feu d’artifice</button></div>')+helpHTML()+'</div>';
+}
+function calm(){return !!(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)}
+/* Feu d'artifice doux, dans le cadre du message seulement, sans son, environ 7 secondes */
+function heroCanvas(){
+  var hero=document.querySelector('.hero'); if(!hero) return null;
+  var cv=hero.querySelector('.av-fw'); if(!cv){ cv=document.createElement('canvas'); cv.className='av-fw av-fw-hero'; cv.setAttribute('aria-hidden','true'); hero.insertBefore(cv,hero.firstChild); }
+  return cv;
+}
+var fwRun=false;
+function fireworks(root){
+  if(fwRun) return;
+  var cv=isApp?(root||document).querySelector('.av-fw'):heroCanvas(); if(!cv||calm()) return;
+  fwRun=true;
+  var zone=cv.parentNode, r=zone.getBoundingClientRect(), dpr=Math.min(window.devicePixelRatio||1,2);
+  cv.width=r.width*dpr; cv.height=r.height*dpr;
+  var c=cv.getContext('2d'); c.setTransform(dpr,0,0,dpr,0,0);
+  var W=r.width, H=r.height, parts=[], rockets=[], t0=performance.now(), last=t0, nextR=t0;
+  /* zone des gerbes : tout le cadre dans l'appli ; sur l'accueil, au-dessus et autour du logo, jamais sur le texte */
+  var Z={x0:0,x1:W,y0:0,y1:H}, mk=!isApp&&zone.querySelector('.mark');
+  if(mk){ var m=mk.getBoundingClientRect(), mx=m.left-r.left, my=m.top-r.top, txt=zone.querySelectorAll('h1,.loc,.rule,.promise,.domains,.tarif,.btns'), tr=0, tt=H;
+    txt.forEach(function(e){ var b=e.getBoundingClientRect(); if(b.width){ tr=Math.max(tr,b.right-r.left); tt=Math.min(tt,b.top-r.top); } });
+    if(W<760) Z={x0:W*.04,x1:W*.96,y0:Math.max(6,my-30),y1:Math.min(my+m.height+20,tt-10)};
+    else Z={x0:Math.max(tr+16,mx-m.width*.2),x1:Math.min(W,mx+m.width*1.2),y0:Math.max(6,my-m.height*.35),y1:my+m.height*.6}; }
+  var ZW=Z.x1-Z.x0, ZH=Z.y1-Z.y0;
+  var COLS=['#ecd096','#ffd27a','#f3ecdf','#c9b6f2','#9fb8ff','#f2b7c6','#a8e6cf'];
+  function launch(){ var by=Z.y1; rockets.push({x:Z.x0+ZW*(.12+Math.random()*.76), y:by, vy:-(ZH*.022+Math.random()*ZH*.006), ty:Z.y0+ZH*(.12+Math.random()*.4), col:COLS[Math.random()*COLS.length|0]}); }
+  function burst(x,y,col){ var n=56, sp=Math.min(ZW,ZH)*.016; for(var i=0;i<n;i++){ var a=Math.PI*2*i/n+Math.random()*.1, v=sp*(.45+Math.random()*.75); parts.push({x:x,y:y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,life:1,col:Math.random()<.2?'#fffaf0':col}); } }
+  (function frame(t){
+    var dt=Math.min(32,t-last)/16, el=t-t0; last=t;
+    c.globalCompositeOperation='destination-out'; c.fillStyle='rgba(0,0,0,.22)'; c.fillRect(0,0,W,H);
+    c.save(); c.beginPath(); c.rect(Z.x0,Z.y0,ZW,ZH); c.clip();
+    c.globalCompositeOperation='source-over';
+    if(el<6000&&t>=nextR){ launch(); if(Math.random()<.35) launch(); nextR=t+380+Math.random()*420; }
+    rockets=rockets.filter(function(k){ k.y+=k.vy*dt; c.globalAlpha=1; c.fillStyle=k.col; c.beginPath(); c.arc(k.x,k.y,2,0,7); c.fill(); if(k.y<=k.ty){ burst(k.x,k.y,k.col); return false } return true });
+    parts=parts.filter(function(q){ q.x+=q.vx*dt; q.y+=q.vy*dt; q.vy+=.035*dt; q.vx*=.982; q.vy*=.985; q.life-=.0105*dt; if(q.life<=0) return false; c.globalAlpha=Math.max(0,Math.min(1,q.life*1.3,(Z.y1-q.y)/(ZH*.28),(q.x-Z.x0)/(ZW*.08),(Z.x1-q.x)/(ZW*.08))); c.fillStyle=q.col; c.beginPath(); c.arc(q.x,q.y,2.3*q.life+.6,0,7); c.fill(); return true });
+    c.restore(); c.globalAlpha=1; c.globalCompositeOperation='source-over';
+    if(el<10000&&(rockets.length||parts.length||el<6000)) requestAnimationFrame(frame); else { c.clearRect(0,0,W,H); fwRun=false; }
+  })(t0);
+}
+setInterval(function(){
+  document.querySelectorAll('[data-av-count]').forEach(function(x){ x.innerHTML=countInner(); if(new Date().getSeconds()===0) x.setAttribute('aria-label',countLabel()); });
+  if(DAY>=31&&!NY&&now()>=new Date(YEAR+1,0,1)){ NY=YEAR+1; DAY=0; fwDone=true; refresh(); if(!store.off) setTimeout(function(){fireworks()},isApp?700:300); }
+},1000);
+
 /* ---------- Le calendrier (accueil du site et de l'appli) ---------- */
 function calendarHTML(){
+  if(NY) return nyHTML();
   if(PRE){
     if(store.off) return '<p class="av-off">Le calendrier de l’Avent est masqué. <button type="button" class="av-link" data-av-on="1">L’afficher</button></p>';
     return '<div class="av-box">'+pic('bandeau','av-banner')+'<h2>Les lutins farceurs arrivent demain</h2>'+pic('scenes/arrivee','av-wide')+
@@ -219,7 +301,7 @@ function calendarHTML(){
   var hint='';
   if(isApp){
     return '<div class="av-box">'+pic('bandeau','av-banner')+'<h2>Le calendrier de l’Avent</h2>'+
-      '<p class="av-hint">Le lutin farceur a chamboulé l’appli : certains jours, il met un outil en tête des exercices. Ouvrez la case du jour pour sourire un peu et essayer l’outil. Et sur le site, il se cache sur une page différente chaque jour.</p>'+
+      '<p class="av-hint">Le lutin farceur a chamboulé l’appli : certains jours, il met un outil en tête des exercices. Ouvrez la case du jour pour sourire un peu et essayer l’outil. Et sur le site, il se cache sur une page différente chaque jour.</p>'+countHTML()+
       '<ul class="av-grid">'+doors+'</ul>'+
       '<div class="av-row"><button type="button" class="av-link" data-av-off="1">Je préfère ne pas jouer</button></div>'+helpHTML()+'</div>';
   }
@@ -231,7 +313,7 @@ function calendarHTML(){
   } else hint='Le cadeau du 25 vous attend dans la dernière case.';
   return '<div class="av-box">'+pic('bandeau','av-banner')+'<h2>Le calendrier de l’Avent</h2>'+
     '<p class="av-hint">Chaque jour, un petit lutin farceur se cache sur une page du site. En le trouvant, vous ouvrez la case : de quoi sourire, et un outil à essayer, pour les adultes et pour les enfants.</p>'+
-    '<p class="av-hint"><strong>'+hint+'</strong></p>'+
+    '<p class="av-hint"><strong>'+hint+'</strong></p>'+countHTML()+
     '<ul class="av-grid">'+doors+'</ul>'+
     '<div class="av-row">'+(DAY<=24&&!found(DAY)?'<button type="button" class="av-link" data-av-door="'+DAY+'" data-av-force="1">Ouvrir sans chercher</button>':'')+
     '<button type="button" class="av-link" data-av-off="1">Je préfère ne pas jouer</button></div>'+helpHTML()+'</div>';
@@ -302,10 +384,11 @@ function hideLutin(){
 }
 
 /* ---------- Mise en place ---------- */
-var box;
+var box, fwDone=false;
 function refresh(){ if(box) box.innerHTML=calendarHTML(); if(window.AVENT&&AVENT.onchange) AVENT.onchange(); }
 document.addEventListener('click',function(e){
-  var el=e.target.closest('[data-av-door],[data-av-off],[data-av-on]'); if(!el) return;
+  var el=e.target.closest('[data-av-door],[data-av-off],[data-av-on],[data-av-fw]'); if(!el) return;
+  if(el.dataset.avFw){ if(!isApp){ var hr=document.querySelector('.hero'); if(hr) hr.scrollIntoView({behavior:calm()?'auto':'smooth'}); setTimeout(function(){fireworks()},isApp?0:700); } else fireworks(el.closest('.av-box').parentNode); return; }
   var d=el.dataset;
   if(d.avOff){store.off=true;save(); if(dlg&&dlg.open) dlg.close(); document.querySelectorAll('.av-lutin,.av-peek,.av-fx').forEach(function(x){x.remove()}); refresh(); return}
   if(d.avOn){store.off=false;save();refresh();hideLutin();return}
@@ -315,13 +398,14 @@ document.addEventListener('click',function(e){
 if(!isApp){
   var slot=document.getElementById('avent');
   if(slot){ slot.className='av'; box=slot; box.innerHTML=calendarHTML(); }
+  if(NY&&!store.off&&document.querySelector('.hero')) setTimeout(function(){fireworks()},900);
   hideLutin();
 }
 
 /* Pour l'appli : elle affiche le calendrier dans son accueil et met l'outil du jour en tête. */
 window.AVENT={
   day:DAY, off:function(){return store.off},
-  html:function(){return '<div class="av">'+calendarHTML()+'</div>'},
+  html:function(){ if(NY&&!store.off&&!fwDone){ fwDone=true; setTimeout(function(){fireworks()},600); } return '<div class="av">'+calendarHTML()+'</div>'},
   today:function(){ if(store.off||!DAY||DAY>24) return []; var j=JOURS[DAY-1]; return [j.a&&tool(j.a).fiche, j.e&&tool(j.e).fiche].filter(Boolean); },
   open:openDay, onchange:null
 };
