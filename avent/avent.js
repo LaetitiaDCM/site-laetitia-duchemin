@@ -151,7 +151,7 @@ var css=
 '.av-count{display:flex;justify-content:center;gap:clamp(4px,1.5vw,8px);flex-wrap:nowrap}'+
 '.av-cu{display:flex;flex-direction:column;align-items:center;flex:1 1 0;min-width:0;max-width:78px;padding:8px 2px 6px;border:1px solid rgba(217,166,72,.55);border-radius:12px;background:rgba(13,8,48,.55)}'+
 '.av-cu b{font:500 clamp(1.35rem,6.5vw,1.9rem)/1 var(--serif,Georgia,serif);color:#f3ecdf;font-variant-numeric:tabular-nums}'+
-'.av-cu small{margin-top:4px;font-size:clamp(.6rem,2.6vw,.72rem);letter-spacing:.02em;color:#d8d1ea}'+
+'.av-cu small{margin-top:4px;font-size:.8125rem;letter-spacing:0;color:#d8d1ea}'+
 '.av-fw-hero{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}'+
 '.av-fwzone{position:relative;height:clamp(170px,32vw,260px);margin:0 -16px 4px;border-radius:19px 19px 0 0;overflow:hidden;background:radial-gradient(1.5px 1.5px at 12% 22%,#fff8 50%,transparent 51%),radial-gradient(1.5px 1.5px at 33% 64%,#fff6 50%,transparent 51%),radial-gradient(1px 1px at 56% 18%,#fff9 50%,transparent 51%),radial-gradient(1.5px 1.5px at 78% 40%,#fff7 50%,transparent 51%),radial-gradient(1px 1px at 90% 12%,#fff8 50%,transparent 51%),radial-gradient(1px 1px at 22% 82%,#fff5 50%,transparent 51%),radial-gradient(1px 1px at 67% 76%,#fff6 50%,transparent 51%),linear-gradient(180deg,#0d0830 0%,#1b1140 100%)}'+
 '.av-year{position:absolute;left:0;right:0;bottom:12%;text-align:center;font:500 clamp(3.2rem,12vw,5.5rem)/1 var(--serif,Georgia,serif);letter-spacing:.08em;color:#ecd096;text-shadow:0 0 18px rgba(236,208,150,.45)}'+
@@ -240,7 +240,8 @@ function nyHTML(){
     (calm()?'':'<div class="av-row"><button type="button" class="av-link" data-av-fw="1">Revoir le feu d’artifice</button></div>')+helpHTML()+'</div>';
 }
 function calm(){return !!(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)}
-/* Feu d'artifice doux, dans le cadre du message seulement, sans son, environ 7 secondes */
+/* Feu d'artifice doux, dans le cadre du message seulement, sans son, 5 secondes au plus (au-delà, une animation lancée seule doit
+   offrir une pause : critère 2.2.2 des WCAG, retouche du 25/11/2026) */
 function heroCanvas(){
   var hero=document.querySelector('.hero'); if(!hero) return null;
   var cv=hero.querySelector('.av-fw'); if(!cv){ cv=document.createElement('canvas'); cv.className='av-fw av-fw-hero'; cv.setAttribute('aria-hidden','true'); hero.insertBefore(cv,hero.firstChild); }
@@ -270,11 +271,11 @@ function fireworks(root){
     c.globalCompositeOperation='destination-out'; c.fillStyle='rgba(0,0,0,.22)'; c.fillRect(0,0,W,H);
     c.save(); c.beginPath(); c.rect(Z.x0,Z.y0,ZW,ZH); c.clip();
     c.globalCompositeOperation='source-over';
-    if(el<6000&&t>=nextR){ launch(); if(Math.random()<.35) launch(); nextR=t+380+Math.random()*420; }
+    if(el<2800&&t>=nextR){ launch(); if(Math.random()<.35) launch(); nextR=t+380+Math.random()*420; }
     rockets=rockets.filter(function(k){ k.y+=k.vy*dt; c.globalAlpha=1; c.fillStyle=k.col; c.beginPath(); c.arc(k.x,k.y,2,0,7); c.fill(); if(k.y<=k.ty){ burst(k.x,k.y,k.col); return false } return true });
     parts=parts.filter(function(q){ q.x+=q.vx*dt; q.y+=q.vy*dt; q.vy+=.035*dt; q.vx*=.982; q.vy*=.985; q.life-=.0105*dt; if(q.life<=0) return false; c.globalAlpha=Math.max(0,Math.min(1,q.life*1.3,(Z.y1-q.y)/(ZH*.28),(q.x-Z.x0)/(ZW*.08),(Z.x1-q.x)/(ZW*.08))); c.fillStyle=q.col; c.beginPath(); c.arc(q.x,q.y,2.3*q.life+.6,0,7); c.fill(); return true });
     c.restore(); c.globalAlpha=1; c.globalCompositeOperation='source-over';
-    if(el<10000&&(rockets.length||parts.length||el<6000)) requestAnimationFrame(frame); else { c.clearRect(0,0,W,H); fwRun=false; }
+    if(el<5000&&(rockets.length||parts.length||el<2800)) requestAnimationFrame(frame); else { c.clearRect(0,0,W,H); fwRun=false; }
   })(t0);
 }
 setInterval(function(){
