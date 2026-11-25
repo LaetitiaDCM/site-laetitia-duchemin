@@ -334,6 +334,10 @@ input[type=time],input[type=date]{width:100%;border:1px solid var(--line);backgr
 .player .pl-row{grid-column:1/-1}
 .mom{display:flex;align-items:center;gap:10px}.mom span{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:var(--night);font-size:.85rem;flex:0 0 auto}
 .mom input{flex:1;min-width:0;width:100%;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:12px;padding:11px 12px;font:inherit;min-height:46px}
+.phbox{display:flex;flex-direction:column;gap:8px;margin-top:8px}.phbox p{margin:0}
+.phbtn{position:relative;text-align:center;cursor:pointer;min-height:46px}.phbtn input{position:absolute;inset:0;opacity:0;width:100%;cursor:pointer}.phbtn:focus-within{outline:2px solid var(--gold);outline-offset:2px}
+.mph{display:block;max-width:100%;max-height:320px;margin:0 auto;border-radius:12px}
+.phs{display:flex;flex-wrap:wrap;gap:8pt;margin-top:8pt}.phs figure{margin:0;break-inside:avoid;font-size:8pt;text-align:center}.phs img{max-width:80mm;max-height:60mm;display:block}
 ol.moms{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
 .tabs button{font-size:.7rem}
 .inst{display:flex;gap:14px;align-items:flex-start;border:1px solid var(--gold);background:var(--surface);border-radius:18px;padding:14px 16px}
@@ -527,7 +531,7 @@ var TOOLS=[
  {k:'beck',ic:'situ',lab:'Situation problématique',t:'Regarder une situation autrement',d:'Pensées, besoins, ce que je peux faire'},
  {k:'decl',ic:'decl',lab:'Déclencheurs',t:'Repérer ce qui me fait réagir',d:'Situation, corps, émotion, ce qui aide'},
  {k:'som',ic:'som',lab:'Agenda du sommeil',t:'Noter mes nuits',d:'Chaque matin, 15 jours à un mois'},
- {k:'pos',ic:'pos',lab:'Moments positifs',t:'Mes 5 moments du jour',d:'Le soir, ce qui m’a fait du bien'}
+ {k:'pos',ic:'pos',lab:'Moments positifs',t:'Mes 5 moments du jour',d:'En journée ou le soir, ce qui m’a fait du bien'}
 ];
 var KLAB={beck:'Situation',decl:'Déclencheur',som:'Sommeil',pos:'Moments positifs'};
 function hello(){var h=new Date().getHours();return h<5||h>=18?'Bonsoir':'Bonjour'}
@@ -727,7 +731,7 @@ function vEcouter(){
 function entryRow(e){
   var k=e.kind||'beck', tag='<span class="ex">'+esc(KLAB[k])+'</span>'+(e.ex?' <span class="ex">Exemple</span>':'');
   if(k==='som') return '<li><button type="button" class="entry pg" data-entry="'+e.id+'"><span class="tape o-'+k+'"></span><span class="d">'+esc(fmtDate(e.date))+' '+tag+'</span><b>'+esc(nuitLabel(e.nuit))+'</b>'+tlHTML(e,false)+'<span class="em">Sommeil '+e.nS+'/10 · réveil '+e.nR+'/10 · journée '+e.nJ+'/10</span></button></li>';
-  if(k==='pos'){var m=(e.moments||[]).filter(Boolean); return '<li><button type="button" class="entry pg" data-entry="'+e.id+'"><span class="tape o-'+k+'"></span><span class="d">'+esc(posDate(e))+' '+tag+'</span><b>'+esc(m[0]||'')+'</b><span class="em">'+m.length+' moment'+(m.length>1?'s':'')+(m.length>1?' · '+esc(m.slice(1).join(' · ')):'')+'</span></button></li>';}
+  if(k==='pos'){var m=(e.moments||[]).filter(Boolean); return '<li><button type="button" class="entry pg" data-entry="'+e.id+'"><span class="tape o-'+k+'"></span><span class="d">'+esc(posDate(e))+' '+tag+'</span><b>'+esc(m[0]||(e.photo?'Une photo':''))+'</b><span class="em">'+(m.length?m.length+' moment'+(m.length>1?'s':'')+(e.photo?' · avec photo':''):'Avec photo')+(m.length>1?' · '+esc(m.slice(1).join(' · ')):'')+'</span></button></li>';}
   var dec=k==='decl';
   return '<li><button type="button" class="entry pg" data-entry="'+e.id+'"><span class="tape o-'+k+'"></span><span class="d">'+esc(fmtDate(e.date))+' '+tag+'</span><b>'+esc(e.situation||'Sans titre')+'</b><span class="em">'+esc((e.emotions||[]).concat(e.emotionTxt?[e.emotionTxt]:[]).join(', '))+(dec?((e.aides||[]).length?' · aidé par : '+esc(e.aides.join(', ')):''):(e.avant!=null&&e.apres!=null?' · intensité '+e.avant+' → '+e.apres:''))+'</span></button></li>';
 }
@@ -805,7 +809,7 @@ function mmss(s){s=Math.max(0,Math.floor(s||0));return Math.floor(s/60)+':'+Stri
 function confirmHTML(msg,act){return '<div class="confirm" role="alertdialog" aria-label="Confirmation"><p style="margin:0">'+msg+'</p><div class="nav2"><button type="button" class="btn" data-cancel="1">Annuler</button><button type="button" class="btn solid" data-do="'+act+'">Effacer</button></div></div>'}
 
 function filled(k,d){
-  if(state.kind==='pos'){ if(k==='moments') return (d.moments||[]).some(function(m){return (m||'').trim()}); return true; }
+  if(state.kind==='pos'){ if(k==='moments') return !!d.photo||(d.moments||[]).some(function(m){return (m||'').trim()}); return true; }
   if(state.kind==='som'){ if(k==='nuit') return !!(d.nuit&&d.coucher&&d.lever); return true; }
   if(k==='emotion') return d.emotions.length>0||!!(d.emotionTxt||'').trim();
   if(k==='aide') return d.aides.length>0||!!(d.aideTxt||'').trim();
@@ -815,7 +819,7 @@ function filled(k,d){
 }
 function colSummary(k,d){
   if(state.kind==='pos'){
-    if(k==='moments') return esc(posDate(d))+'<br>'+(d.moments||[]).filter(function(m){return (m||'').trim()}).map(function(m,i){return (i+1)+'. '+esc(m)}).join('<br>');
+    if(k==='moments') return esc(posDate(d))+'<br>'+(d.moments||[]).filter(function(m){return (m||'').trim()}).map(function(m,i){return (i+1)+'. '+esc(m)}).join('<br>')+(d.photo?'<br>Avec une photo':'');
     return esc(d.ressenti)||'-';
   }
   if(state.kind==='som'){
@@ -835,7 +839,7 @@ function colSummary(k,d){
 function colEditor(s,d){
   if(state.kind==='pos'){
     if(s.k==='moments') return '<div class="tgrid"><label style="grid-column:1/-1">Le jour<input type="date" data-t="jourP" value="'+esc(d.jourP)+'"></label></div>'+
-      d.moments.map(function(m,i){return '<label class="mom"><span>'+(i+1)+'</span><input type="text" data-m="'+i+'" value="'+esc(m)+'" placeholder="'+['Ex. : un café au soleil','Ex. : un message d\u2019une amie','Ex. : j\u2019ai fini ce que je voulais','Ex. : une balade','Ex. : un fou rire'][i]+'" aria-label="Moment '+(i+1)+'"></label>'}).join('');
+      d.moments.map(function(m,i){return '<label class="mom"><span>'+(i+1)+'</span><input type="text" data-m="'+i+'" value="'+esc(m)+'" placeholder="'+['Ex. : un café au soleil','Ex. : un message d\u2019une amie','Ex. : j\u2019ai fini ce que je voulais','Ex. : une balade','Ex. : un fou rire'][i]+'" aria-label="Moment '+(i+1)+'"></label>'}).join('')+phField(d);
     return '<label class="lab" for="ressenti" style="position:absolute;left:-9999px">Ce que je remarque</label><textarea id="ressenti" data-k="ressenti" placeholder="Ex. : je me sens un peu plus léger·e…">'+esc(d.ressenti)+'</textarea>';
   }
   if(state.kind==='som'){
@@ -876,12 +880,13 @@ function vStep(){
     }else{
       var last=j===S().length-1, ok=filled(s.k,d);
       cols+='<div class="col active" id="colActive"><div class="col-h"><span class="col-n">'+(j+1)+'</span><h2>'+s.t+'</h2></div><p class="help">'+s.h+'</p>'+colEditor(s,d)+
+        (state.kind==='pos'&&j===0?'<p class="note">Écrivez au fil de la journée ou le soir. Chaque moment s\u2019enregistre sur ce téléphone dès que vous l\u2019écrivez.</p>':'')+
         (j===0&&state.kind!=='pos'&&state.kind!=='som'?'<p class="note">Si repenser à la situation devient trop intense, faites une pause. <button type="button" class="linkbtn" data-tab="sos">Revenir au calme</button></p>':'')+
         '<button type="button" class="btn solid" id="nextBtn" '+(last?'data-save="1"':'data-next="1"')+(ok?'':' disabled')+'>'+(last?'Enregistrer':'Suivant')+'</button></div>';
     }
   }
   var bar='<div class="steps" aria-hidden="true">'+S().map(function(_,k){return '<i class="'+(k<=i?'on':'')+'"></i>'}).join('')+'</div>';
-  return '<section class="view"><button type="button" class="back" data-quit="1">← Quitter (le brouillon est gardé)</button>'+bar+
+  return '<section class="view"><button type="button" class="back" data-quit="1">← Quitter ('+(state.kind==='pos'?'vos moments sont gardés':'le brouillon est gardé')+')</button>'+bar+
    '<h1 class="qh">'+(state.kind==='decl'?'Mon carnet des déclencheurs':(state.kind==='som'?'Mon agenda du sommeil':(state.kind==='pos'?'Mes 5 moments positifs':'Une situation problématique')))+'</h1>'+
    (state.kind==='som'&&i>0?'<div>'+tlHTML(d,true)+'</div>':'')+'<div class="sheet"><div class="cols">'+cols+'</div></div></section>';
 }
@@ -897,7 +902,7 @@ function vEntry(){
   var f=function(t,v){return v&&v.length?'<div class="field"><h3>'+t+'</h3><p>'+esc(Array.isArray(v)?v.join(', '):v)+'</p></div>':''};
   return '<section class="view"><button type="button" class="back" data-tab="carnet">← Mon carnet</button>'+
    '<article class="paper"><span class="tape o-'+(e.kind||'beck')+'"></span><p class="lab">'+esc(fmtDate(e.date))+(e.ex?' · exemple':'')+'</p>'+
-   (e.kind==='pos'?'<h1 class="h1">Mes moments positifs</h1><p class="lead">'+esc(posDate(e))+'</p><ol class="moms">'+(e.moments||[]).filter(Boolean).map(function(m){return '<li>'+esc(m)+'</li>'}).join('')+'</ol>'+f('Ce que je remarque',e.ressenti)+'<button type="button" class="btn" data-editentry="'+e.id+'">Compléter ou modifier</button>':
+   (e.kind==='pos'?'<h1 class="h1">Mes moments positifs</h1><p class="lead">'+esc(posDate(e))+'</p><ol class="moms">'+(e.moments||[]).filter(Boolean).map(function(m){return '<li>'+esc(m)+'</li>'}).join('')+'</ol>'+(e.photo?'<img class="mph" data-ph="'+e.photo+'" alt="Photo du jour"><p class="help" style="font-size:.86rem">La photo n\u2019est pas jointe à l\u2019e-mail : vous pouvez la montrer en séance.</p>':'')+f('Ce que je remarque',e.ressenti)+'<button type="button" class="btn" data-editentry="'+e.id+'">Compléter ou modifier</button>':
    e.kind==='som'?'<h1 class="h1">'+esc(nuitLabel(e.nuit))+'</h1><div>'+tlHTML(e,true)+'</div><div class="legend"><span><i></i>sommeil</span><span><i class="si"></i>sieste</span><span><i class="so"></i>somnolence</span><span>↓ au lit · ↑ lever</span></div>'+
      f('Ma nuit',somText(e))+'<div class="field"><h3>Mes notes</h3><p>Sommeil '+e.nS+'/10 · réveil '+e.nR+'/10 · journée '+e.nJ+'/10</p></div>'+f('Ma journée',e.jour)+f('Traitement',e.traitement)+f('Détente au coucher',e.detente)+f('Remarques',e.remarques)+
      '<button type="button" class="btn" data-editentry="'+e.id+'">Compléter ou modifier</button>':
@@ -911,7 +916,7 @@ function vEntry(){
   '</section>';
 }
 function entryText(e){
-  if(e.kind==='pos') return ['Mes moments positifs : '+posDate(e),''].concat((e.moments||[]).filter(Boolean).map(function(m,i){return (i+1)+'. '+m})).concat(e.ressenti?['','Ce que je remarque : '+e.ressenti]:[]).join('\n');
+  if(e.kind==='pos') return ['Mes moments positifs : '+posDate(e),''].concat((e.moments||[]).filter(Boolean).map(function(m,i){return (i+1)+'. '+m})).concat(e.ressenti?['','Ce que je remarque : '+e.ressenti]:[]).concat(e.photo?['','Une photo accompagne cette page ; elle n\u2019est pas jointe.']:[]).join('\n');
   if(e.kind==='som') return ['Mon agenda du sommeil : '+nuitLabel(e.nuit),'',somText(e)+'.','Notes : sommeil '+e.nS+'/10, réveil '+e.nR+'/10, journée '+e.nJ+'/10',(e.jour||[]).length?'Ma journée : '+e.jour.join(', '):'',e.traitement?'Traitement : '+e.traitement:'',e.detente?'Détente au coucher : '+e.detente:'',e.remarques?'Remarques : '+e.remarques:''].filter(function(x,i){return x||i===1}).join('\n');
   if(e.kind==='decl') return ['Mon carnet des déclencheurs : '+fmtDate(e.date),'','Situation : '+(e.situation||''),'Dans mon corps : '+(e.corps||''),'Mon émotion : '+(e.emotions||[]).concat(e.emotionTxt?[e.emotionTxt]:[]).join(', '),'Ce qui m\u2019a aidé : '+(e.aides||[]).concat(e.aideTxt?[e.aideTxt]:[]).join(', ')].join('\n');
   var L=['Une situation problématique : '+fmtDate(e.date),'','Situation : '+(e.situation||''),'Émotions : '+(e.emotions||[]).join(', ')+(e.avant!=null?' ('+e.avant+'/10)':''),'Sensations : '+(e.sensations||''),'Besoins : '+(e.besoins||[]).concat(e.besoinsTxt?[e.besoinsTxt]:[]).join(', '),'Pensées automatiques : '+(e.pensees||''),(e.alternative?'Pensée alternative : '+e.alternative:''),'Ce que je peux faire : '+(e.action||''),'Résultat : '+(e.apres!=null?e.apres+'/10. ':'')+(e.resultat||'')];
@@ -926,6 +931,7 @@ function render(){
   else if(t==='ecouter') html=vEcouter(); else if(t==='carnet') html=vCarnet(); else if(t==='step') html=vStep();
   else if(t==='entry') html=vEntry(); else if(t==='tests') html=vTests(); else if(t==='test') html=vTest(); else html=vAccueil();
   main.innerHTML=html;
+  phShow();
   if(t==='outils') renderRes();
   if(t==='ecouter') syncPlayer();
   syncMini();
@@ -935,18 +941,86 @@ function render(){
 function go(tab){if(state.tab!==tab) history.push(state.tab); state.tab=tab; state.confirm=null; render(); window.scrollTo(0,0); var h=main.querySelector('h1'); if(h){h.setAttribute('tabindex','-1');h.focus({preventScroll:true})}}
 
 function readStep(){
+  posCommit();
   main.querySelectorAll('textarea[data-k]').forEach(function(t){state.draft[t.dataset.k]=t.value});
   main.querySelectorAll('input[data-r]').forEach(function(r){state.draft[r.dataset.r]=+r.value});
   try{sessionStorage.setItem('ld-draft-'+state.kind,JSON.stringify({d:state.draft,s:state.step,ed:state.editId||null}))}catch(e){}
 }
 function scrollActive(){var a=$('#colActive'); if(a){a.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}); var t=a.querySelector('textarea,input,button.chip'); if(t) t.focus({preventScroll:true});}}
+/* photo du jour : facultative, réduite, gardée sur le téléphone (IndexedDB) */
+var PH={};
+function phDB(){return new Promise(function(ok,ko){var r=indexedDB.open('ld-photos',1); r.onupgradeneeded=function(){r.result.createObjectStore('p')}; r.onsuccess=function(){ok(r.result)}; r.onerror=function(){ko(r.error)}})}
+function phDo(mode,fn){return phDB().then(function(db){return new Promise(function(ok,ko){var tx=db.transaction('p',mode), q=fn(tx.objectStore('p')); tx.oncomplete=function(){db.close(); ok(q&&q.result)}; tx.onerror=tx.onabort=function(){db.close(); ko(tx.error)}})})}
+function phDel(k){if(!k) return; if(PH[k]){URL.revokeObjectURL(PH[k]); delete PH[k]} phDo('readwrite',function(o){return o.delete(k)}).catch(function(){})}
+function phWipe(){Object.keys(PH).forEach(function(k){URL.revokeObjectURL(PH[k])}); PH={}; phDo('readwrite',function(o){return o.clear()}).catch(function(){})}
+function phLoad(k){if(PH[k]) return Promise.resolve(PH[k]); return phDo('readonly',function(o){return o.get(k)}).then(function(b){if(!b) return null; if(!PH[k]) PH[k]=URL.createObjectURL(b); return PH[k]})}
+function phShow(){main.querySelectorAll('img[data-ph]').forEach(function(i){phLoad(i.dataset.ph).then(function(u){if(u) i.src=u; else i.alt='Photo introuvable sur ce téléphone'}).catch(function(){i.alt='Photo indisponible'})})}
+function phShrink(file){return new Promise(function(ok,ko){var u=URL.createObjectURL(file), i=new Image();
+  i.onload=function(){var r=Math.min(1,1000/Math.max(i.naturalWidth,i.naturalHeight)), c=document.createElement('canvas'); c.width=Math.max(1,Math.round(i.naturalWidth*r)); c.height=Math.max(1,Math.round(i.naturalHeight*r)); var x=c.getContext('2d'); x.fillStyle='#fff'; x.fillRect(0,0,c.width,c.height); x.drawImage(i,0,0,c.width,c.height); URL.revokeObjectURL(u); c.toBlob(function(b){b?ok(b):ko()},'image/jpeg',0.72)};
+  i.onerror=function(){URL.revokeObjectURL(u); ko()}; i.src=u})}
+var phGen=0, phGone={};
+function phStamp(day){return phGen+':'+(phGone[day]||0)}
+/* la photo rejoint la page de son jour, même si la personne a quitté l’écran pendant la préparation */
+function phAttach(d,day,id,k){var old;
+  var cur=state.draft;
+  if(cur&&state.kind==='pos'&&(cur===d||(cur.jourP===day&&(!id||state.editId===id)))){old=cur.photo; cur.photo=k; posAuto(); if(state.tab==='step') phRefresh()}
+  else{var c=load(), e=c.entries.filter(function(x){return x.id===id})[0]||c.entries.filter(function(x){return x.kind==='pos'&&!x.ex&&x.jourP===day})[0];
+    if(e){old=e.photo; e.photo=k} else c.entries.unshift({id:'e'+Date.now(),date:new Date().toISOString(),kind:'pos',jourP:day,moments:['','','','',''],ressenti:'',photo:k});
+    save(); if(state.tab==='entry'||state.tab==='carnet') render()}
+  phDel(old);
+}
+function phAdd(file){var d=state.draft; if(!d||state.kind!=='pos') return; var day=d.jourP, id=state.editId, st=phStamp(day), k='p'+Date.now();
+  phShrink(file).then(function(b){return phDo('readwrite',function(o){return o.put(b,k)})}).then(function(){
+    if(phStamp(day)!==st){phDel(k); return}
+    phAttach(d,day,id||(state.draft===d?state.editId:null),k); if(navigator.storage&&navigator.storage.persist) navigator.storage.persist().catch(function(){});
+    toast('Photo gardée sur ce téléphone');
+  }).catch(function(){toast('La photo n’a pas pu être ajoutée')});
+}
+/* met à jour le bloc photo seul : la saisie en cours n’est pas interrompue */
+function phRefresh(focus){var box=main.querySelector('.phbox'); if(!box){var el=document.activeElement, a=el&&el.id, p0=el&&el.selectionStart, p1=el&&el.selectionEnd; render(); var f=a&&document.getElementById(a); if(f){f.focus({preventScroll:true}); if(f.tagName==='TEXTAREA') f.setSelectionRange(p0,p1)} return}
+  var inside=box.contains(document.activeElement); box.outerHTML=phField(state.draft); phShow(); updNext(); if(focus||inside){var i=$('#phIn'); if(i) i.focus({preventScroll:true})}}
+function phField(d){return '<div class="phbox"><p class="lab">Immortaliser un moment agréable dans la journée (facultatif)</p>'+
+  (d.photo?'<img class="mph" data-ph="'+d.photo+'" alt="Photo du jour">':'')+
+  '<label class="btn phbtn">'+(d.photo?'Changer la photo':'Ajouter une photo')+'<input type="file" accept="image/*" id="phIn"></label>'+
+  (d.photo?'<button type="button" class="linkbtn" data-phdel="1">Retirer la photo</button>':'')+
+  '<p class="help" style="font-size:.86rem">Une seule photo par jour. Elle reste sur ce téléphone. Pensez à demander l’accord des personnes que vous photographiez.</p></div>'}
+
+/* 5 moments : une page par jour, enregistrée au fil de la saisie */
+function posDay(n){n=n||new Date(); return n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0')}
+function posOpen(day){
+  var e=load().entries.filter(function(x){return x.kind==='pos'&&!x.ex&&x.jourP===day})[0];
+  var d=e?JSON.parse(JSON.stringify(e)):{kind:'pos',jourP:day,moments:[],ressenti:''};
+  d.moments=(d.moments||[]).slice(); while(d.moments.length<5) d.moments.push(''); if(d.ressenti==null) d.ressenti='';
+  state.draft=d; state.editId=e?e.id:null; state.step=0;
+}
+function posFill(){var d=state.draft; main.querySelectorAll('input[data-m]').forEach(function(i){i.value=d.moments[+i.dataset.m]||''}); phRefresh()}
+/* en modification, la page n’est déplacée qu’une fois la date saisie en entier (en quittant le champ) */
+function posDate2(v){var d=state.draft; if(state.posMove){state.posPending=v; return} if(!v||v<'2000'||v===d.jourP) return; state.posToday=false; posOpen(v); posFill()}
+function posCommit(){var v=state.posPending, d=state.draft; state.posPending=null; if(!v||!d||state.kind!=='pos'||v<'2000'||v===d.jourP) return;
+  if(load().entries.some(function(x){return x.kind==='pos'&&!x.ex&&x.jourP===v&&x.id!==state.editId})){toast('Une page existe déjà pour ce jour'); return}
+  d.jourP=v; posAuto()}
+/* appli restée ouverte jusqu’au lendemain : la page du nouveau jour s’ouvre */
+function posNewDay(){if(state.tab!=='step'||state.kind!=='pos'||!state.posToday||!state.draft||state.draft.jourP===posDay()) return; posOpen(posDay()); render(); toast('Nouveau jour : voici une nouvelle page')}
+document.addEventListener('visibilitychange',function(){if(!document.hidden) posNewDay()});
+window.addEventListener('focus',posNewDay);
+window.addEventListener('storage',function(ev){if(ev.key!==KEY) return; mem=null;
+  if(state.tab==='step'&&state.kind==='pos'&&state.draft){var day=state.draft.jourP, st=state.step, id=state.editId, e=load().entries.filter(function(x){return x.id===id})[0]; posOpen(e&&e.jourP?e.jourP:day); state.step=st; if(st===0) posFill(); else phRefresh()}});
+function posAuto(){
+  var d=state.draft; if(state.kind!=='pos'||!d||!d.jourP) return;
+  var c=load(), has=!!d.photo||d.moments.concat(d.ressenti).some(function(m){return (m||'').trim()});
+  var old=c.entries.filter(function(x){return x.id===state.editId})[0];
+  if(!has){ if(!old) return; c.entries=c.entries.filter(function(x){return x!==old}); state.editId=null; }
+  else if(old){ c.entries[c.entries.indexOf(old)]=Object.assign({},d,{id:old.id,date:old.date}); }
+  else { var e=Object.assign({},d,{id:'e'+Date.now(),date:new Date().toISOString()}); c.entries.unshift(e); state.editId=e.id; }
+  save();
+}
 function newDraft(){
+  if(state.kind==='pos'){posOpen(posDay()); state.posToday=true; state.posMove=false; state.posPending=null; return}
   var saved=null; try{saved=JSON.parse(sessionStorage.getItem('ld-draft-'+state.kind)||'null')}catch(e){}
   state.editId=null;
   if(saved){state.draft=saved.d; state.step=saved.s||0; state.editId=saved.ed||null}
   else {state.draft={kind:state.kind,situation:'',emotions:[],avant:5,sensations:'',besoins:[],besoinsTxt:'',pensees:'',alternative:'',action:'',apres:null,resultat:'',corps:'',emotionTxt:'',aides:[],aideTxt:''}; state.step=0}
   state.draft.kind=state.kind; ['aides','eveils','siestes','somno','jour'].forEach(function(k){if(!state.draft[k])state.draft[k]=[]});
-  if(state.kind==='pos'){var dp=state.draft; if(!dp.moments||!dp.moments.length) dp.moments=['','','','','']; if(!dp.jourP){var n=new Date(); dp.jourP=n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0')} if(dp.ressenti==null) dp.ressenti='';}
   if(state.kind==='som'){var dd=state.draft; if(!dd.nuit){var y=new Date(Date.now()-864e5); dd.nuit=y.getFullYear()+'-'+String(y.getMonth()+1).padStart(2,'0')+'-'+String(y.getDate()).padStart(2,'0')} ['nS','nR','nJ'].forEach(function(k){if(dd[k]==null)dd[k]=5}); ['coucher','endort','reveil','lever','traitement','detente','remarques'].forEach(function(k){if(dd[k]==null)dd[k]=''});}
 }
 
@@ -1006,13 +1080,14 @@ document.addEventListener('click',function(ev){
   if(el.id==='pp'){ if(!aud.getAttribute('src')) setTrack(state.cur); if(aud.paused){var p=aud.play(); if(p&&p.catch)p.catch(function(){})} else aud.pause(); return}
   if(d['new']){state.kind=['decl','som','pos'].indexOf(d['new'])>-1?d['new']:'beck';newDraft();go('step');return}
   if(d.fk!=null&&el.classList.contains('chip')){state.fk=d.fk;render();return}
-  if(d.editentry){var ee=load().entries.filter(function(x){return x.id===d.editentry})[0]; if(!ee) return; state.kind=ee.kind||'beck'; state.draft=JSON.parse(JSON.stringify(ee)); state.editId=ee.id; state.step=0; try{sessionStorage.removeItem('ld-draft-'+state.kind)}catch(x){} go('step'); return}
+  if(d.editentry){var ee=load().entries.filter(function(x){return x.id===d.editentry})[0]; if(!ee) return; state.kind=ee.kind||'beck'; state.draft=JSON.parse(JSON.stringify(ee)); state.editId=ee.id; state.step=0; state.posToday=false; state.posMove=true; state.posPending=null; if(state.kind==='pos'&&!state.draft.jourP) state.draft.jourP=ee.date.slice(0,10); try{sessionStorage.removeItem('ld-draft-'+state.kind)}catch(x){} go('step'); return}
   if(d.addrg){readStep(); state.draft[d.addrg].push({a:'',b:''}); render(); scrollActive(); return}
   if(d.delrg){readStep(); state.draft[d.delrg].splice(+d.i,1); render(); scrollActive(); return}
   if(d.addsn){readStep(); state.draft.somno.push(''); render(); scrollActive(); return}
   if(d.delsn){readStep(); state.draft.somno.splice(+d.i,1); render(); scrollActive(); return}
   if(d.pick){var arr=state.draft[d.pick],j=arr.indexOf(d.v); if(j>-1)arr.splice(j,1); else arr.push(d.v); el.setAttribute('aria-pressed',j<0); updNext(); return}
   if(d.edit){readStep();state.step=+d.edit;render();scrollActive();return}
+  if(d.phdel){var op=state.draft.photo; delete state.draft.photo; posAuto(); phDel(op); phRefresh(true); return}
   if(d.next){readStep(); if(!filled(S()[state.step].k,state.draft)) return; state.step++;render();scrollActive();return}
   if(d.quit){readStep();go('carnet');return}
   if(d.save){readStep(); if(!filled(S()[S().length-1].k,state.draft)) return; var c=load(), e;
@@ -1022,9 +1097,9 @@ document.addEventListener('click',function(ev){
   if(tqClick(d,el)) return;
   if(d.ask){state.confirm=d.ask;render();return}
   if(d.cancel){state.confirm=null;render();return}
-  if(d['do']==='del'){var c2=load(); c2.entries=c2.entries.filter(function(x){return x.id!==state.entry}); save(); state.confirm=null; state.tab='carnet'; render(); toast('Page effacée'); return}
+  if(d['do']==='del'){var c2=load(); c2.entries.forEach(function(x){if(x.id===state.entry){phDel(x.photo); if(x.jourP) phGone[x.jourP]=(phGone[x.jourP]||0)+1}}); state.draft=null; c2.entries=c2.entries.filter(function(x){return x.id!==state.entry}); save(); state.confirm=null; state.tab='carnet'; render(); toast('Page effacée'); return}
   if(d['do']==='tqwipe'){var hh=tqHist(); delete hh[state.tq]; try{localStorage.setItem('ld-tests',JSON.stringify(hh))}catch(x){} state.confirm=null; render(); toast('Résultats effacés'); return}
-  if(d['do']==='wipe'){mem={seeded:true,entries:[]}; save(); state.confirm=null; render(); toast('Carnet effacé'); return}
+  if(d['do']==='wipe'){phGen++; state.draft=null; phWipe(); mem={seeded:true,entries:[]}; save(); state.confirm=null; render(); toast('Carnet effacé'); return}
   if(d.print){var all=load().entries, list=d.print==='all'?all.filter(function(x){return !x.ex}):all.filter(function(x){return x.id===d.print}); if(!list.length) list=all; printEntries(list); return}
   if(d.share){var e3=load().entries.filter(function(x){return x.id===d.share})[0], t3=entryText(e3);
     var a=document.createElement('a');a.href='mailto:'+PSY_MAIL+'?subject='+encodeURIComponent('Mon carnet avant notre rendez-vous')+'&body='+encodeURIComponent(t3);a.click();toast('Si rien ne s’ouvre, utilisez « Copier le texte »'); return}
@@ -1033,9 +1108,12 @@ document.addEventListener('click',function(ev){
 });
 var PSY_MAIL='duchemin.laetitia.psy@gmail.com';
 function printEntries(list){
+  var missing=list.filter(function(e){return e.photo&&!PH[e.photo]});
+  if(missing.length&&!list.phTried){Promise.all(missing.map(function(e){return phLoad(e.photo).catch(function(){})})).then(function(){list.phTried=true; printEntries(list)}); return}
   var cell=function(v){return '<td>'+esc(Array.isArray(v)?v.join(', '):(v||'')).replace(/\n/g,'<br>')+'</td>'};
   var beck=list.filter(function(e){return !e.kind||e.kind==='beck'}), dec=list.filter(function(e){return e.kind==='decl'}), som=list.filter(function(e){return e.kind==='som'}).sort(function(a,b){return a.nuit<b.nuit?-1:1}), pos=list.filter(function(e){return e.kind==='pos'}).sort(function(a,b){return (a.jourP||'')<(b.jourP||'')?-1:1});
   var rowsP=pos.map(function(e){var m=e.moments||[];return '<tr><td class="pd">'+esc(posDate(e))+'</td>'+[0,1,2,3,4].map(function(i){return cell(m[i])}).join('')+cell(e.ressenti)+'</tr>'}).join('');
+  var pics=pos.filter(function(e){return e.photo&&PH[e.photo]});
   var rowsS=som.map(function(e){return '<tr><td class="pd">'+esc(nuitLabel(e.nuit).replace('Nuit ',''))+'</td><td class="tc">'+tlHTML(e,false)+'</td><td class="n">'+e.nS+'</td><td class="n">'+e.nR+'</td><td class="n">'+e.nJ+'</td>'+cell([e.traitement,e.detente,e.remarques,(e.jour||[]).join(', ')].filter(Boolean).join(' · '))+'</tr>'}).join('');
   var hrs='<div class="hrs">'+[20,21,22,23,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19].map(function(x){return '<span>'+x+'</span>'}).join('')+'<span></span></div>';
   var rows=beck.map(function(e){return '<tr><td class="pd">'+esc(fmtDate(e.date))+'</td>'+cell(e.situation)+
@@ -1050,18 +1128,24 @@ function printEntries(list){
     (dec.length?'<h2 class="pt">Carnet des déclencheurs</h2><table><thead><tr><th>Date</th><th>Situation</th><th>Dans mon corps</th><th>Mon émotion</th><th>Ce qui m\u2019a aidé</th></tr></thead><tbody>'+rowsD+'</tbody></table>':'')+
     (som.length?'<h2 class="pt">Agenda du sommeil</h2><table class="som"><colgroup><col style="width:9%"><col style="width:52%"><col style="width:6%"><col style="width:6%"><col style="width:6%"><col></colgroup><thead><tr><th>Nuit</th><th>Heures'+hrs+'</th><th>Sommeil</th><th>Réveil</th><th>Journée</th><th>Traitement, détente, remarques</th></tr></thead><tbody>'+rowsS+'</tbody></table><p style="font-size:8pt;color:#56537a;margin:4pt 0 0">↓ au lit · ↑ lever · bleu foncé : sommeil · bleu clair : sieste · rond doré : somnolence · blanc : éveil. Notes de 1 à 10.</p>':'')+
     (pos.length?'<h2 class="pt">Mes 5 moments positifs</h2><table><thead><tr><th>Jour</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>Ce que je remarque</th></tr></thead><tbody>'+rowsP+'</tbody></table>':'')+
+    (pics.length?'<div class="phs">'+pics.map(function(e){return '<figure><img src="'+PH[e.photo]+'" alt=""><figcaption>'+esc(posDate(e))+'</figcaption></figure>'}).join('')+'</div>':'')+
     '<footer>Laetitia Duchemin · Psychologue clinicienne intégrative · laetitia-duchemin-psychologue.fr</footer>';
-  try{window.print()}catch(e){}
+  var go2=function(){try{window.print()}catch(e){}}; if(!p.querySelector('.phs img')){go2(); return}
+  Promise.all([].map.call(p.querySelectorAll('.phs img'),function(i){return i.decode?i.decode().catch(function(){}):0})).then(go2);
 }
 function fallbackCopy(txt){var t=document.createElement('textarea');t.value=txt;t.setAttribute('aria-label','Texte à copier');t.style.minHeight='200px';el2=main.querySelector('[data-copy]').parentNode;el2.insertAdjacentElement('afterend',t);t.select();toast('Sélectionnez le texte puis copiez-le')}
 var el2;
+document.addEventListener('change',function(ev){var t=ev.target; if(t.id==='phIn'&&t.files&&t.files[0]){phAdd(t.files[0]); t.value=''}});
+document.addEventListener('focusout',function(ev){var t=ev.target; if(t.dataset&&t.dataset.t==='jourP'&&state.draft){posCommit(); t.value=state.draft.jourP}});
 document.addEventListener('input',function(ev){
   var t=ev.target;
   if(t.id==='q'){state.q=t.value;renderRes();return}
   if(t.dataset.k&&state.tab==='step'){updNext();}
+  if(t.dataset.t==='jourP'&&state.draft){posDate2(t.value); return}
   if(t.dataset.t&&state.draft){state.draft[t.dataset.t]=t.value; updNext(); return}
   if(t.dataset.rg&&state.draft){state.draft[t.dataset.rg][+t.dataset.i][t.dataset.e]=t.value; return}
-  if(t.dataset.m!=null&&state.draft){state.draft.moments[+t.dataset.m]=t.value; updNext(); return}
+  if(t.dataset.m!=null&&state.draft){state.draft.moments[+t.dataset.m]=t.value; updNext(); posAuto(); return}
+  if(t.dataset.k==='ressenti'&&state.kind==='pos'&&state.draft){state.draft.ressenti=t.value; posAuto(); return}
   if(t.dataset.sn!=null&&state.draft){state.draft.somno[+t.dataset.sn]=t.value; return}
   if(t.dataset.r){var o=$('#rv-'+t.dataset.r); if(o)o.textContent=t.value; state.draft[t.dataset.r]=+t.value;return}
   if(t.id==='seek'){aud.currentTime=+t.value;return}
