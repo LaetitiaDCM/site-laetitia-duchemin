@@ -235,7 +235,7 @@ function countLabel(){ var ms=Math.max(0,left()), d=Math.floor(ms/864e5), h=Math
 function countHTML(){ return DAY>=26?'<div class="av-countbox"><p class="av-countt">Avant '+(YEAR+1)+'</p><div class="av-count" data-av-count role="timer" aria-label="'+countLabel()+'">'+countInner()+'</div></div>':''; }
 function nyHTML(){
   return '<div class="av-box av-ny">'+(isApp?'<div class="av-fwzone" aria-hidden="true"><span class="av-year">'+NY+'</span><canvas class="av-fw"></canvas></div>':pic('bandeau','av-banner'))+
-    '<h2>Bonne année '+NY+' !</h2>'+NOUVEL_AN.map(function(t){return '<p class="av-hint">'+esc(t)+'</p>'}).join('')+
+    '<h2>'+esc('Bonne année '+NY+' !')+'</h2>'+NOUVEL_AN.map(function(t){return '<p class="av-hint">'+esc(t)+'</p>'}).join('')+
     '<p class="av-hint av-sign">Laetitia Duchemin</p>'+
     (calm()?'':'<div class="av-row"><button type="button" class="av-link" data-av-fw="1">Revoir le feu d’artifice</button></div>')+helpHTML()+'</div>';
 }
