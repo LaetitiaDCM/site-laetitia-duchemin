@@ -80,7 +80,8 @@ var css=
 '.av h2{font-family:var(--serif,Georgia,serif);font-size:clamp(1.6rem,5vw,2.2rem);font-weight:500;text-align:center;margin:0 0 6px;color:#ecd096}'+
 '.av p{line-height:1.55;margin:6px 0}'+
 '.av-box p{color:#e6e0f2}'+
-'.av .av-hint{text-align:center;max-width:46em;margin-left:auto;margin-right:auto}'+
+'.av .av-hint{text-align:center;max-width:38em;margin-left:auto;margin-right:auto}'+
+'.av h2{text-wrap:balance}'+
 '.av-grid{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px 4px;padding:0;margin:16px 0 8px}'+
 '.av-door{position:relative;width:100%;aspect-ratio:1;min-height:56px;display:flex;align-items:center;justify-content:center;border:0;border-radius:14px;background:transparent;padding:4px;cursor:pointer}'+
 '.av-door img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;transition:transform .25s,filter .25s}'+
@@ -99,6 +100,8 @@ var css=
 '.av-link{background:none;border:0;padding:0 4px;font:inherit;text-decoration:underline;cursor:pointer;min-height:44px;display:inline-flex;align-items:center}'+
 '.av-row a,.av-help a{min-height:44px;display:inline-flex;align-items:center}'+
 '.av-help a[href^="tel:"]{min-width:44px;justify-content:center}'+
+'.av-help a{text-decoration:underline;text-underline-offset:3px}'+
+'.av-help a:hover,.av .av-link:hover{text-decoration-thickness:2px}'+
 '.av-hint a{display:inline-block;padding:10px 0;margin:-10px 0}'+
 '.av-host{position:relative}'+
 '.av-peek{position:absolute;top:0;width:110px;min-height:44px;padding:0;border:0;background:transparent;cursor:pointer;z-index:2;overflow:hidden}'+
@@ -172,7 +175,7 @@ function toolHTML(label,t){
   return '<div class="av-tool"><b>'+label+'</b>'+esc(t.t)+ill+au+st+nt+(L.length?'<br>'+L.join(' · '):'')+'</div>';
 }
 function helpHTML(){
-  return '<p class="av-help">Besoin d’aide maintenant ? '+
+  return '<p class="av-help">'+esc('Besoin d’aide maintenant ?')+' '+
     (isApp?'<a href="#" data-av-sos="1">Outils d’apaisement</a>':'<a href="'+AIDE+'">Outils d’apaisement</a>')+
     ' · <a href="tel:3114">3114</a> · <a href="tel:15">15</a></p>';
 }
