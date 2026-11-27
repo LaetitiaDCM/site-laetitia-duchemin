@@ -185,8 +185,8 @@ function toolHTML(label,t){
   if(t.audio) L.push(isApp?'<button type="button" class="av-link" data-av-play="'+t.audio+'">Écouter l’audio</button>'
                            :'<a href="'+esc(t.yt||'/appli/#ecouter')+'" target="_blank" rel="noopener">Écouter l’audio</a>');
   if(t.fiche&&t.pdfOnly) L.push('<a href="'+pdf(t.fiche)+'" target="_blank" rel="noopener">Télécharger la fiche</a>');
-  else if(t.fiche) L.push(isApp?'<a href="#" data-av-fiche="'+t.fiche+'">Ouvrir la fiche</a><a href="'+pdf(t.fiche)+'" target="_blank" rel="noopener">Télécharger la fiche de Noël</a>'
-                          :'<a href="'+pdf(t.fiche)+'" target="_blank" rel="noopener">Télécharger la fiche</a>');
+  else if(t.fiche&&isApp){ L.push('<a href="#" data-av-fiche="'+t.fiche+'">Ouvrir la fiche</a>'); L.push('<a href="'+pdf(t.fiche)+'" target="_blank" rel="noopener">Télécharger la fiche de Noël</a>'); }
+  else if(t.fiche) L.push('<a href="'+pdf(t.fiche)+'" target="_blank" rel="noopener">Télécharger la fiche</a>');
   if(!isApp&&((t.fiche&&!t.pdfOnly)||t.audio)) L.push('<a href="/appli/#'+(t.fiche?'fiche='+t.fiche:'ecouter')+'">Dans l’appli</a>');
   var ill=[].concat(t.img||[]).map(function(k){var c=CAP[k];return '<img class="av-ill" src="'+IMG+k+'.webp" alt="'+(c?esc(c):'')+'" width="'+DIM[k][0]+'" height="'+DIM[k][1]+'" loading="lazy" decoding="async">'+(c?'<p class="av-help" style="text-align:center;margin-top:0">'+esc(c)+'</p>':'')}).join('');
   var au=t.mp3?'<audio controls preload="none" src="'+IMG+'audio/'+t.mp3+'.mp3">'+'</audio>':'';
